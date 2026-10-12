@@ -199,106 +199,106 @@ vocab,197,passed,Pass 101-200: semantic first-pass review
 vocab,198,passed,Pass 101-200: semantic first-pass review
 vocab,199,passed,Pass 101-200: semantic first-pass review
 vocab,200,passed,Pass 101-200: semantic first-pass review
-vocab,201,pending,
-vocab,202,pending,
-vocab,203,pending,
-vocab,204,pending,
-vocab,205,pending,
-vocab,206,pending,
-vocab,207,pending,
-vocab,208,pending,
-vocab,209,pending,
-vocab,210,pending,
-vocab,211,pending,
-vocab,212,pending,
-vocab,213,pending,
-vocab,214,pending,
-vocab,215,pending,
-vocab,216,pending,
-vocab,217,pending,
-vocab,218,pending,
-vocab,219,pending,
-vocab,220,pending,
-vocab,221,pending,
-vocab,222,pending,
-vocab,223,pending,
-vocab,224,pending,
-vocab,225,pending,
-vocab,226,pending,
-vocab,227,pending,
-vocab,228,pending,
-vocab,229,pending,
-vocab,230,needs_review,Repeated headword; inspect senses before merging
-vocab,231,pending,
-vocab,232,pending,
-vocab,233,pending,
-vocab,234,pending,
-vocab,235,pending,
-vocab,236,pending,
-vocab,237,pending,
-vocab,238,pending,
-vocab,239,pending,
-vocab,240,pending,
-vocab,241,pending,
-vocab,242,pending,
-vocab,243,pending,
-vocab,244,pending,
-vocab,245,pending,
-vocab,246,pending,
-vocab,247,pending,
-vocab,248,pending,
-vocab,249,pending,
-vocab,250,pending,
-vocab,251,pending,
-vocab,252,pending,
-vocab,253,pending,
-vocab,254,pending,
-vocab,255,pending,
-vocab,256,pending,
-vocab,257,pending,
-vocab,258,pending,
-vocab,259,pending,
-vocab,260,pending,
-vocab,261,pending,
-vocab,262,pending,
-vocab,263,pending,
-vocab,264,pending,
-vocab,265,pending,
-vocab,266,pending,
-vocab,267,pending,
-vocab,268,pending,
-vocab,269,pending,
-vocab,270,pending,
-vocab,271,pending,
-vocab,272,pending,
-vocab,273,pending,
-vocab,274,pending,
-vocab,275,pending,
-vocab,276,pending,
-vocab,277,pending,
-vocab,278,pending,
-vocab,279,pending,
-vocab,280,pending,
-vocab,281,pending,
-vocab,282,pending,
-vocab,283,pending,
-vocab,284,pending,
-vocab,285,pending,
-vocab,286,pending,
-vocab,287,pending,
-vocab,288,pending,
-vocab,289,pending,
-vocab,290,pending,
-vocab,291,pending,
-vocab,292,pending,
-vocab,293,pending,
-vocab,294,pending,
-vocab,295,pending,
-vocab,296,pending,
-vocab,297,pending,
-vocab,298,pending,
-vocab,299,pending,
-vocab,300,pending,
+vocab,201,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,202,passed,Pass 201-300: semantic first-pass review
+vocab,203,passed,Pass 201-300: semantic first-pass review
+vocab,204,passed,Pass 201-300: semantic first-pass review
+vocab,205,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,206,passed,Pass 201-300: semantic first-pass review
+vocab,207,passed,Pass 201-300: semantic first-pass review
+vocab,208,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,209,passed,Pass 201-300: semantic first-pass review
+vocab,210,passed,Pass 201-300: semantic first-pass review
+vocab,211,passed,Pass 201-300: semantic first-pass review
+vocab,212,passed,Pass 201-300: semantic first-pass review
+vocab,213,passed,Pass 201-300: semantic first-pass review
+vocab,214,passed,Pass 201-300: semantic first-pass review
+vocab,215,passed,Pass 201-300: semantic first-pass review
+vocab,216,passed,Pass 201-300: semantic first-pass review
+vocab,217,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,218,passed,Pass 201-300: semantic first-pass review
+vocab,219,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,220,passed,Pass 201-300: semantic first-pass review
+vocab,221,passed,Pass 201-300: semantic first-pass review
+vocab,222,passed,Pass 201-300: semantic first-pass review
+vocab,223,passed,Pass 201-300: semantic first-pass review
+vocab,224,passed,Pass 201-300: semantic first-pass review
+vocab,225,passed,Pass 201-300: semantic first-pass review
+vocab,226,passed,Pass 201-300: semantic first-pass review
+vocab,227,passed,Pass 201-300: semantic first-pass review
+vocab,228,passed,Pass 201-300: semantic first-pass review
+vocab,229,passed,Pass 201-300: semantic first-pass review
+vocab,230,passed,Pass 201-300: semantic first-pass review
+vocab,231,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,232,passed,Pass 201-300: semantic first-pass review
+vocab,233,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,234,passed,Pass 201-300: semantic first-pass review
+vocab,235,passed,Pass 201-300: semantic first-pass review
+vocab,236,passed,Pass 201-300: semantic first-pass review
+vocab,237,passed,Pass 201-300: semantic first-pass review
+vocab,238,passed,Pass 201-300: semantic first-pass review
+vocab,239,passed,Pass 201-300: semantic first-pass review
+vocab,240,passed,Pass 201-300: semantic first-pass review
+vocab,241,passed,Pass 201-300: semantic first-pass review
+vocab,242,passed,Pass 201-300: semantic first-pass review
+vocab,243,passed,Pass 201-300: semantic first-pass review
+vocab,244,passed,Pass 201-300: semantic first-pass review
+vocab,245,passed,Pass 201-300: semantic first-pass review
+vocab,246,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,247,passed,Pass 201-300: semantic first-pass review
+vocab,248,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,249,passed,Pass 201-300: semantic first-pass review
+vocab,250,passed,Pass 201-300: semantic first-pass review
+vocab,251,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,252,passed,Pass 201-300: semantic first-pass review
+vocab,253,passed,Pass 201-300: semantic first-pass review
+vocab,254,passed,Pass 201-300: semantic first-pass review
+vocab,255,passed,Pass 201-300: semantic first-pass review
+vocab,256,passed,Pass 201-300: semantic first-pass review
+vocab,257,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,258,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,259,passed,Pass 201-300: semantic first-pass review
+vocab,260,passed,Pass 201-300: semantic first-pass review
+vocab,261,passed,Pass 201-300: semantic first-pass review
+vocab,262,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,263,passed,Pass 201-300: semantic first-pass review
+vocab,264,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,265,passed,Pass 201-300: semantic first-pass review
+vocab,266,passed,Pass 201-300: semantic first-pass review
+vocab,267,passed,Pass 201-300: semantic first-pass review
+vocab,268,passed,Pass 201-300: semantic first-pass review
+vocab,269,passed,Pass 201-300: semantic first-pass review
+vocab,270,passed,Pass 201-300: semantic first-pass review
+vocab,271,passed,Pass 201-300: semantic first-pass review
+vocab,272,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,273,passed,Pass 201-300: semantic first-pass review
+vocab,274,passed,Pass 201-300: semantic first-pass review
+vocab,275,passed,Pass 201-300: semantic first-pass review
+vocab,276,passed,Pass 201-300: semantic first-pass review
+vocab,277,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,278,passed,Pass 201-300: semantic first-pass review
+vocab,279,passed,Pass 201-300: semantic first-pass review
+vocab,280,passed,Pass 201-300: semantic first-pass review
+vocab,281,passed,Pass 201-300: semantic first-pass review
+vocab,282,passed,Pass 201-300: semantic first-pass review
+vocab,283,passed,Pass 201-300: semantic first-pass review
+vocab,284,passed,Pass 201-300: semantic first-pass review
+vocab,285,passed,Pass 201-300: semantic first-pass review
+vocab,286,passed,Pass 201-300: semantic first-pass review
+vocab,287,passed,Pass 201-300: semantic first-pass review
+vocab,288,passed,Pass 201-300: semantic first-pass review
+vocab,289,passed,Pass 201-300: semantic first-pass review
+vocab,290,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,291,passed,Pass 201-300: semantic first-pass review
+vocab,292,passed,Pass 201-300: semantic first-pass review
+vocab,293,passed,Pass 201-300: semantic first-pass review
+vocab,294,passed,Pass 201-300: semantic first-pass review
+vocab,295,passed,Pass 201-300: semantic first-pass review
+vocab,296,passed,Pass 201-300: semantic first-pass review
+vocab,297,passed,Pass 201-300: semantic first-pass review
+vocab,298,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,299,fixed,Pass 201-300: corrected Japanese definition translation example or related term
+vocab,300,passed,Pass 201-300: semantic first-pass review
 vocab,301,pending,
 vocab,302,pending,
 vocab,303,pending,
