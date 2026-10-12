@@ -399,106 +399,106 @@ vocab,397,passed,Pass 301-400: semantic first-pass review
 vocab,398,passed,Pass 301-400: semantic first-pass review
 vocab,399,fixed,Pass 301-400: corrected semantic relation translation definition or example
 vocab,400,passed,Pass 301-400: semantic first-pass review
-vocab,401,pending,
-vocab,402,pending,
-vocab,403,pending,
-vocab,404,pending,
-vocab,405,pending,
-vocab,406,pending,
-vocab,407,pending,
-vocab,408,pending,
-vocab,409,pending,
-vocab,410,pending,
-vocab,411,pending,
-vocab,412,pending,
-vocab,413,pending,
-vocab,414,pending,
-vocab,415,pending,
-vocab,416,pending,
-vocab,417,pending,
-vocab,418,pending,
-vocab,419,pending,
-vocab,420,pending,
-vocab,421,pending,
-vocab,422,pending,
-vocab,423,pending,
-vocab,424,pending,
-vocab,425,pending,
-vocab,426,pending,
-vocab,427,pending,
-vocab,428,pending,
-vocab,429,pending,
-vocab,430,pending,
-vocab,431,pending,
-vocab,432,pending,
-vocab,433,pending,
-vocab,434,pending,
-vocab,435,pending,
-vocab,436,pending,
-vocab,437,pending,
-vocab,438,pending,
-vocab,439,pending,
-vocab,440,pending,
-vocab,441,pending,
-vocab,442,pending,
-vocab,443,pending,
-vocab,444,pending,
-vocab,445,pending,
-vocab,446,pending,
-vocab,447,pending,
-vocab,448,pending,
-vocab,449,pending,
-vocab,450,pending,
-vocab,451,pending,
-vocab,452,pending,
-vocab,453,pending,
-vocab,454,pending,
-vocab,455,pending,
-vocab,456,pending,
-vocab,457,pending,
-vocab,458,pending,
-vocab,459,pending,
-vocab,460,pending,
-vocab,461,pending,
-vocab,462,pending,
-vocab,463,pending,
-vocab,464,pending,
-vocab,465,pending,
-vocab,466,pending,
-vocab,467,pending,
-vocab,468,pending,
-vocab,469,pending,
-vocab,470,pending,
-vocab,471,pending,
-vocab,472,pending,
-vocab,473,pending,
-vocab,474,pending,
-vocab,475,pending,
-vocab,476,pending,
-vocab,477,pending,
-vocab,478,pending,
-vocab,479,pending,
-vocab,480,pending,
-vocab,481,pending,
-vocab,482,pending,
-vocab,483,pending,
-vocab,484,pending,
-vocab,485,pending,
-vocab,486,pending,
-vocab,487,pending,
-vocab,488,pending,
-vocab,489,pending,
-vocab,490,pending,
-vocab,491,pending,
-vocab,492,pending,
-vocab,493,pending,
-vocab,494,pending,
-vocab,495,pending,
-vocab,496,pending,
-vocab,497,pending,
-vocab,498,pending,
-vocab,499,pending,
-vocab,500,pending,
+vocab,401,passed,Pass 401-500: semantic first-pass review
+vocab,402,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,403,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,404,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,405,passed,Pass 401-500: semantic first-pass review
+vocab,406,passed,Pass 401-500: semantic first-pass review
+vocab,407,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,408,passed,Pass 401-500: semantic first-pass review
+vocab,409,passed,Pass 401-500: semantic first-pass review
+vocab,410,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,411,passed,Pass 401-500: semantic first-pass review
+vocab,412,passed,Pass 401-500: semantic first-pass review
+vocab,413,passed,Pass 401-500: semantic first-pass review
+vocab,414,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,415,passed,Pass 401-500: semantic first-pass review
+vocab,416,passed,Pass 401-500: semantic first-pass review
+vocab,417,passed,Pass 401-500: semantic first-pass review
+vocab,418,passed,Pass 401-500: semantic first-pass review
+vocab,419,passed,Pass 401-500: semantic first-pass review
+vocab,420,passed,Pass 401-500: semantic first-pass review
+vocab,421,passed,Pass 401-500: semantic first-pass review
+vocab,422,passed,Pass 401-500: semantic first-pass review
+vocab,423,passed,Pass 401-500: semantic first-pass review
+vocab,424,passed,Pass 401-500: semantic first-pass review
+vocab,425,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,426,passed,Pass 401-500: semantic first-pass review
+vocab,427,passed,Pass 401-500: semantic first-pass review
+vocab,428,passed,Pass 401-500: semantic first-pass review
+vocab,429,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,430,passed,Pass 401-500: semantic first-pass review
+vocab,431,passed,Pass 401-500: semantic first-pass review
+vocab,432,passed,Pass 401-500: semantic first-pass review
+vocab,433,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,434,passed,Pass 401-500: semantic first-pass review
+vocab,435,passed,Pass 401-500: semantic first-pass review
+vocab,436,passed,Pass 401-500: semantic first-pass review
+vocab,437,passed,Pass 401-500: semantic first-pass review
+vocab,438,passed,Pass 401-500: semantic first-pass review
+vocab,439,passed,Pass 401-500: semantic first-pass review
+vocab,440,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,441,passed,Pass 401-500: semantic first-pass review
+vocab,442,passed,Pass 401-500: semantic first-pass review
+vocab,443,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,444,passed,Pass 401-500: semantic first-pass review
+vocab,445,passed,Pass 401-500: semantic first-pass review
+vocab,446,passed,Pass 401-500: semantic first-pass review
+vocab,447,passed,Pass 401-500: semantic first-pass review
+vocab,448,passed,Pass 401-500: semantic first-pass review
+vocab,449,passed,Pass 401-500: semantic first-pass review
+vocab,450,passed,Pass 401-500: semantic first-pass review
+vocab,451,passed,Pass 401-500: semantic first-pass review
+vocab,452,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,453,passed,Pass 401-500: semantic first-pass review
+vocab,454,passed,Pass 401-500: semantic first-pass review
+vocab,455,passed,Pass 401-500: semantic first-pass review
+vocab,456,passed,Pass 401-500: semantic first-pass review
+vocab,457,passed,Pass 401-500: semantic first-pass review
+vocab,458,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,459,passed,Pass 401-500: semantic first-pass review
+vocab,460,passed,Pass 401-500: semantic first-pass review
+vocab,461,passed,Pass 401-500: semantic first-pass review
+vocab,462,passed,Pass 401-500: semantic first-pass review
+vocab,463,passed,Pass 401-500: semantic first-pass review
+vocab,464,passed,Pass 401-500: semantic first-pass review
+vocab,465,passed,Pass 401-500: semantic first-pass review
+vocab,466,passed,Pass 401-500: semantic first-pass review
+vocab,467,passed,Pass 401-500: semantic first-pass review
+vocab,468,passed,Pass 401-500: semantic first-pass review
+vocab,469,passed,Pass 401-500: semantic first-pass review
+vocab,470,passed,Pass 401-500: semantic first-pass review
+vocab,471,passed,Pass 401-500: semantic first-pass review
+vocab,472,passed,Pass 401-500: semantic first-pass review
+vocab,473,passed,Pass 401-500: semantic first-pass review
+vocab,474,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,475,passed,Pass 401-500: semantic first-pass review
+vocab,476,passed,Pass 401-500: semantic first-pass review
+vocab,477,passed,Pass 401-500: semantic first-pass review
+vocab,478,passed,Pass 401-500: semantic first-pass review
+vocab,479,passed,Pass 401-500: semantic first-pass review
+vocab,480,passed,Pass 401-500: semantic first-pass review
+vocab,481,passed,Pass 401-500: semantic first-pass review
+vocab,482,passed,Pass 401-500: semantic first-pass review
+vocab,483,passed,Pass 401-500: semantic first-pass review
+vocab,484,passed,Pass 401-500: semantic first-pass review
+vocab,485,passed,Pass 401-500: semantic first-pass review
+vocab,486,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,487,passed,Pass 401-500: semantic first-pass review
+vocab,488,passed,Pass 401-500: semantic first-pass review
+vocab,489,passed,Pass 401-500: semantic first-pass review
+vocab,490,passed,Pass 401-500: semantic first-pass review
+vocab,491,passed,Pass 401-500: semantic first-pass review
+vocab,492,passed,Pass 401-500: semantic first-pass review
+vocab,493,passed,Pass 401-500: semantic first-pass review
+vocab,494,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,495,passed,Pass 401-500: semantic first-pass review
+vocab,496,passed,Pass 401-500: semantic first-pass review
+vocab,497,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,498,fixed,Pass 401-500: corrected definition example translation or relation
+vocab,499,passed,Pass 401-500: semantic first-pass review
+vocab,500,passed,Pass 401-500: semantic first-pass review
 vocab,501,pending,
 vocab,502,pending,
 vocab,503,pending,
