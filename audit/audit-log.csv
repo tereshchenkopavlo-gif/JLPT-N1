@@ -1,104 +1,104 @@
 type,id,status,notes
-vocab,1,pending,
-vocab,2,pending,
-vocab,3,pending,
-vocab,4,pending,
-vocab,5,pending,
-vocab,6,pending,
-vocab,7,pending,
-vocab,8,pending,
-vocab,9,pending,
-vocab,10,pending,
-vocab,11,pending,
-vocab,12,pending,
-vocab,13,needs_review,Repeated headword; inspect senses before merging
-vocab,14,pending,
-vocab,15,pending,
-vocab,16,pending,
-vocab,17,pending,
-vocab,18,pending,
-vocab,19,pending,
-vocab,20,pending,
-vocab,21,pending,
-vocab,22,pending,
-vocab,23,pending,
-vocab,24,pending,
-vocab,25,pending,
-vocab,26,pending,
-vocab,27,pending,
-vocab,28,pending,
-vocab,29,pending,
-vocab,30,pending,
-vocab,31,pending,
-vocab,32,pending,
-vocab,33,pending,
-vocab,34,pending,
-vocab,35,pending,
-vocab,36,pending,
-vocab,37,pending,
-vocab,38,pending,
-vocab,39,pending,
-vocab,40,pending,
-vocab,41,pending,
-vocab,42,pending,
-vocab,43,pending,
-vocab,44,pending,
-vocab,45,pending,
-vocab,46,pending,
-vocab,47,pending,
-vocab,48,pending,
-vocab,49,pending,
-vocab,50,pending,
-vocab,51,pending,
-vocab,52,pending,
-vocab,53,pending,
-vocab,54,pending,
-vocab,55,pending,
-vocab,56,pending,
-vocab,57,pending,
-vocab,58,pending,
-vocab,59,pending,
-vocab,60,pending,
-vocab,61,pending,
-vocab,62,pending,
-vocab,63,pending,
-vocab,64,pending,
-vocab,65,pending,
-vocab,66,pending,
-vocab,67,pending,
-vocab,68,pending,
-vocab,69,pending,
-vocab,70,pending,
-vocab,71,pending,
-vocab,72,pending,
-vocab,73,pending,
-vocab,74,pending,
-vocab,75,pending,
-vocab,76,pending,
-vocab,77,pending,
-vocab,78,pending,
-vocab,79,pending,
-vocab,80,pending,
-vocab,81,pending,
-vocab,82,pending,
-vocab,83,pending,
-vocab,84,pending,
-vocab,85,pending,
-vocab,86,pending,
-vocab,87,pending,
-vocab,88,pending,
-vocab,89,pending,
-vocab,90,pending,
-vocab,91,pending,
-vocab,92,pending,
-vocab,93,pending,
-vocab,94,pending,
-vocab,95,pending,
-vocab,96,pending,
-vocab,97,pending,
-vocab,98,pending,
-vocab,99,pending,
-vocab,100,pending,
+vocab,1,passed,Pass 1-100: semantic first-pass review
+vocab,2,passed,Pass 1-100: semantic first-pass review
+vocab,3,passed,Pass 1-100: semantic first-pass review
+vocab,4,passed,Pass 1-100: semantic first-pass review
+vocab,5,passed,Pass 1-100: semantic first-pass review
+vocab,6,passed,Pass 1-100: semantic first-pass review
+vocab,7,passed,Pass 1-100: semantic first-pass review
+vocab,8,passed,Pass 1-100: semantic first-pass review
+vocab,9,passed,Pass 1-100: semantic first-pass review
+vocab,10,passed,Pass 1-100: semantic first-pass review
+vocab,11,passed,Pass 1-100: semantic first-pass review
+vocab,12,fixed,Pass 1-100: corrected translation example or related terms
+vocab,13,passed,Pass 1-100: semantic first-pass review
+vocab,14,fixed,Pass 1-100: corrected translation example or related terms
+vocab,15,passed,Pass 1-100: semantic first-pass review
+vocab,16,passed,Pass 1-100: semantic first-pass review
+vocab,17,passed,Pass 1-100: semantic first-pass review
+vocab,18,passed,Pass 1-100: semantic first-pass review
+vocab,19,passed,Pass 1-100: semantic first-pass review
+vocab,20,passed,Pass 1-100: semantic first-pass review
+vocab,21,passed,Pass 1-100: semantic first-pass review
+vocab,22,passed,Pass 1-100: semantic first-pass review
+vocab,23,passed,Pass 1-100: semantic first-pass review
+vocab,24,passed,Pass 1-100: semantic first-pass review
+vocab,25,passed,Pass 1-100: semantic first-pass review
+vocab,26,passed,Pass 1-100: semantic first-pass review
+vocab,27,passed,Pass 1-100: semantic first-pass review
+vocab,28,passed,Pass 1-100: semantic first-pass review
+vocab,29,passed,Pass 1-100: semantic first-pass review
+vocab,30,passed,Pass 1-100: semantic first-pass review
+vocab,31,passed,Pass 1-100: semantic first-pass review
+vocab,32,passed,Pass 1-100: semantic first-pass review
+vocab,33,passed,Pass 1-100: semantic first-pass review
+vocab,34,passed,Pass 1-100: semantic first-pass review
+vocab,35,passed,Pass 1-100: semantic first-pass review
+vocab,36,passed,Pass 1-100: semantic first-pass review
+vocab,37,passed,Pass 1-100: semantic first-pass review
+vocab,38,fixed,Pass 1-100: corrected translation example or related terms
+vocab,39,passed,Pass 1-100: semantic first-pass review
+vocab,40,passed,Pass 1-100: semantic first-pass review
+vocab,41,passed,Pass 1-100: semantic first-pass review
+vocab,42,passed,Pass 1-100: semantic first-pass review
+vocab,43,passed,Pass 1-100: semantic first-pass review
+vocab,44,passed,Pass 1-100: semantic first-pass review
+vocab,45,fixed,Pass 1-100: corrected translation example or related terms
+vocab,46,passed,Pass 1-100: semantic first-pass review
+vocab,47,passed,Pass 1-100: semantic first-pass review
+vocab,48,passed,Pass 1-100: semantic first-pass review
+vocab,49,passed,Pass 1-100: semantic first-pass review
+vocab,50,passed,Pass 1-100: semantic first-pass review
+vocab,51,passed,Pass 1-100: semantic first-pass review
+vocab,52,passed,Pass 1-100: semantic first-pass review
+vocab,53,passed,Pass 1-100: semantic first-pass review
+vocab,54,passed,Pass 1-100: semantic first-pass review
+vocab,55,passed,Pass 1-100: semantic first-pass review
+vocab,56,passed,Pass 1-100: semantic first-pass review
+vocab,57,passed,Pass 1-100: semantic first-pass review
+vocab,58,passed,Pass 1-100: semantic first-pass review
+vocab,59,passed,Pass 1-100: semantic first-pass review
+vocab,60,passed,Pass 1-100: semantic first-pass review
+vocab,61,passed,Pass 1-100: semantic first-pass review
+vocab,62,passed,Pass 1-100: semantic first-pass review
+vocab,63,passed,Pass 1-100: semantic first-pass review
+vocab,64,passed,Pass 1-100: semantic first-pass review
+vocab,65,passed,Pass 1-100: semantic first-pass review
+vocab,66,passed,Pass 1-100: semantic first-pass review
+vocab,67,passed,Pass 1-100: semantic first-pass review
+vocab,68,passed,Pass 1-100: semantic first-pass review
+vocab,69,passed,Pass 1-100: semantic first-pass review
+vocab,70,passed,Pass 1-100: semantic first-pass review
+vocab,71,passed,Pass 1-100: semantic first-pass review
+vocab,72,passed,Pass 1-100: semantic first-pass review
+vocab,73,fixed,Pass 1-100: corrected translation example or related terms
+vocab,74,passed,Pass 1-100: semantic first-pass review
+vocab,75,passed,Pass 1-100: semantic first-pass review
+vocab,76,passed,Pass 1-100: semantic first-pass review
+vocab,77,passed,Pass 1-100: semantic first-pass review
+vocab,78,passed,Pass 1-100: semantic first-pass review
+vocab,79,passed,Pass 1-100: semantic first-pass review
+vocab,80,fixed,Pass 1-100: corrected translation example or related terms
+vocab,81,passed,Pass 1-100: semantic first-pass review
+vocab,82,passed,Pass 1-100: semantic first-pass review
+vocab,83,passed,Pass 1-100: semantic first-pass review
+vocab,84,passed,Pass 1-100: semantic first-pass review
+vocab,85,passed,Pass 1-100: semantic first-pass review
+vocab,86,passed,Pass 1-100: semantic first-pass review
+vocab,87,passed,Pass 1-100: semantic first-pass review
+vocab,88,passed,Pass 1-100: semantic first-pass review
+vocab,89,fixed,Pass 1-100: corrected translation example or related terms
+vocab,90,passed,Pass 1-100: semantic first-pass review
+vocab,91,passed,Pass 1-100: semantic first-pass review
+vocab,92,fixed,Pass 1-100: corrected translation example or related terms
+vocab,93,passed,Pass 1-100: semantic first-pass review
+vocab,94,passed,Pass 1-100: semantic first-pass review
+vocab,95,passed,Pass 1-100: semantic first-pass review
+vocab,96,passed,Pass 1-100: semantic first-pass review
+vocab,97,passed,Pass 1-100: semantic first-pass review
+vocab,98,passed,Pass 1-100: semantic first-pass review
+vocab,99,passed,Pass 1-100: semantic first-pass review
+vocab,100,passed,Pass 1-100: semantic first-pass review
 vocab,101,pending,
 vocab,102,pending,
 vocab,103,pending,
