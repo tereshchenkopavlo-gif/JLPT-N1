@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
-const html = fs.readFileSync(new URL('../JLPT_N1_ukrainian_reading_v21.html', import.meta.url), 'utf8');
+const html = fs.readFileSync(new URL('../JLPT_N1_ukrainian_reading_v22.html', import.meta.url), 'utf8');
 const vocabularyMatch = html.match(/const VOCAB_DETAILS_BY_ID = (\{.*?\});\s*const SPECIAL_VOCAB_DICT/s);
 assert(vocabularyMatch, 'Vocabulary data block missing');
 const vocab = JSON.parse(vocabularyMatch[1]);
