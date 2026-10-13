@@ -1,6 +1,6 @@
 # JLPT N1 — аудит якості
 
-Поточна редакція: [JLPT_N1_ukrainian_reading_v24.html](JLPT_N1_ukrainian_reading_v24.html).  [Версія 18](JLPT_N1_ukrainian_reading_v18.html) лишається контрольною точкою.
+Поточна редакція: [JLPT_N1_ukrainian_reading_v25.html](JLPT_N1_ukrainian_reading_v25.html).  [Версія 18](JLPT_N1_ukrainian_reading_v18.html) лишається контрольною точкою.
 
 ## Контрольна версія
 Версія 18 — початкова контрольна точка. Затверджений інтерфейс, читання та збереження прогресу не змінюємо без причини.
