@@ -15,7 +15,7 @@ const url=pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.
    clickableItems:[...document.querySelectorAll('.view.active [onclick],.view.active [data-id],.view.active .item,.view.active .card-item')].slice(0,20).map(x=>({tag:x.tagName,id:x.id,className:String(x.className).slice(0,80),text:x.innerText?.trim().slice(0,60)})),
    visibleText:document.querySelector('.view.active')?.innerText.slice(0,700),
    compareStorage:localStorage.getItem('jlptN1CompareListUA_v1')
-  }))})));
+  }))}));
   await snapshot('cards-start');
   const candidates=page.locator('#view-cards [data-id],#view-cards .card-item,#view-cards .word-card,#view-cards .word-row');
   if(await candidates.count()){await candidates.first().click();await snapshot('after-first-card')}
