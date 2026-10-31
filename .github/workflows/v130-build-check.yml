@@ -38,6 +38,7 @@ jobs:
       - name: Run v130 Chromium startup and reading-bank smoke test
         run: node audit130/browser-smoke.cjs
       - name: Upload unverified v130 HTML and audit outputs
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: jlpt-n1-v130-UNVERIFIED-checkpoint
