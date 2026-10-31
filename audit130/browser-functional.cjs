@@ -47,13 +47,20 @@ for(const width of [360,412,1280]){
  assert.ok(Array.isArray(backup.comparisonKeys),'comparison list is an array');
  console.log('PASS v130 export JSON',JSON.stringify({width,bytes:exportBytes.length,keys:Object.keys(backup).slice(0,15)}));
  console.log('PASS v130 progress export',JSON.stringify({width,filename:download.suggestedFilename()}));
+ // Synthetic but nonempty learning progress, using the app's own exported schema.
+ // This tests whether the import accepts and retains meaningful records; it does not fabricate user progress.
+ const seeded=structuredClone(backup);
+ seeded.vp['1']={s:3,n:2,last:20261031};
+ seeded.gp['1']={s:2,n:1,last:20261031};
+ seeded.comparisonKeys=['v:1'];
+ const seededBytes=JSON.stringify(seeded);
  // Import the exported backup through the real file input, if one is provided by the app.
  const fileInputs=page.locator('input[type="file"]');
  assert.ok(await fileInputs.count()>=1,'progress import input exists');
  const importInput=page.locator('input[type="file"][accept*="json"]').first();
  const uploadInput=(await importInput.count())?importInput:fileInputs.first();
  const dialogs=[];page.on('dialog',async d=>{dialogs.push(d.message());await d.accept()});
- await uploadInput.setInputFiles({name:download.suggestedFilename(),mimeType:'application/json',buffer:Buffer.from(exportBytes,'utf8')});
+ await uploadInput.setInputFiles({name:download.suggestedFilename(),mimeType:'application/json',buffer:Buffer.from(seededBytes,'utf8')});
  await page.waitForTimeout(300);
  assert.equal(errors.length,0,'import does not throw JavaScript errors');
  console.log('PASS v130 progress import attempt',JSON.stringify({width,dialogs:dialogs.length,inputId:await uploadInput.getAttribute('id')}));
@@ -64,9 +71,9 @@ for(const width of [360,412,1280]){
    page.locator('#btnExportProgress').click()
  ]);
  const second=JSON.parse(await fs.readFile(await roundtrip.path(),'utf8'));
- assert.deepEqual(second.vp,backup.vp,'vocabulary progress survives import/export');
- assert.deepEqual(second.gp,backup.gp,'grammar progress survives import/export');
- assert.deepEqual(second.comparisonKeys,backup.comparisonKeys,'comparison list survives import/export');
+ assert.deepEqual(second.vp,seeded.vp,'vocabulary progress survives import/export');
+ assert.deepEqual(second.gp,seeded.gp,'grammar progress survives import/export');
+ assert.deepEqual(second.comparisonKeys,seeded.comparisonKeys,'comparison list survives import/export');
  console.log('PASS v130 progress export/import roundtrip',JSON.stringify({width,vocab:Object.keys(second.vp).length,grammar:Object.keys(second.gp).length}));
 
 
@@ -79,9 +86,9 @@ for(const width of [360,412,1280]){
    page.locator('.nav-tab[data-view="settings"]').click().then(()=>page.locator('#btnExportProgress').click())
  ]);
  const afterReload=JSON.parse(await fs.readFile(await reloadedExport.path(),'utf8'));
- assert.deepEqual(afterReload.vp,backup.vp,'vocab backup remains intact after reload');
- assert.deepEqual(afterReload.gp,backup.gp,'grammar backup remains intact after reload');
- assert.deepEqual(afterReload.comparisonKeys,backup.comparisonKeys,'comparison list remains intact after reload');
+ assert.deepEqual(afterReload.vp,seeded.vp,'vocab backup remains intact after reload');
+ assert.deepEqual(afterReload.gp,seeded.gp,'grammar backup remains intact after reload');
+ assert.deepEqual(afterReload.comparisonKeys,seeded.comparisonKeys,'comparison list remains intact after reload');
  console.log('PASS v130 progress after reload',JSON.stringify({width,vocabCount:Object.keys(afterReload.vp).length,grammarCount:Object.keys(afterReload.gp).length,compareCount:afterReload.comparisonKeys.length}));
  const savedKeys=await page.evaluate(()=>Object.keys(localStorage));
  assert.ok(savedKeys.includes('choba_n1uk_storage_v1'),'imported progress storage survives reload');
