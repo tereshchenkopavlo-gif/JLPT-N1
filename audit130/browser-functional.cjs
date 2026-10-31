@@ -3,6 +3,7 @@ const { chromium }=require('playwright');
 const { pathToFileURL }=require('node:url');
 const path=require('node:path');
 const assert=require('node:assert/strict');
+const fs=require('node:fs/promises');
 const url=pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.html')).href;
 (async()=>{
 const browser=await chromium.launch({headless:true});
@@ -34,6 +35,11 @@ for(const width of [360,412,1280]){
  assert.ok(download.suggestedFilename().length>3,'export file has a name');
  const failure=await download.failure();
  assert.equal(failure,null,'export downloaded without error');
+ const exportBytes=await fs.readFile(await download.path(),'utf8');
+ const backup=JSON.parse(exportBytes);
+ assert.ok(backup && typeof backup==='object' && !Array.isArray(backup),'export contains a JSON object');
+ assert.ok(exportBytes.length>20,'export contains usable payload');
+ console.log('PASS v130 export JSON',JSON.stringify({width,bytes:exportBytes.length,keys:Object.keys(backup).slice(0,15)}));
  console.log('PASS v130 progress export',JSON.stringify({width,filename:download.suggestedFilename()}));
  // Reload should keep the session functional and app accessible, irrespective of which keys exist.
  await page.reload({waitUntil:'load'});
