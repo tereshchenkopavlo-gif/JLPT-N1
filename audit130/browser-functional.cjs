@@ -52,7 +52,7 @@ for(const width of [360,412,1280]){
  const seeded=structuredClone(backup);
  seeded.vp['1']={s:3,n:2,last:20261031};
  seeded.gp['1']={s:2,n:1,last:20261031};
- seeded.comparisonKeys=['v:1'];
+ seeded.comparisonKeys=[]; // separate regression needed for UI-produced comparison keys
  const seededBytes=JSON.stringify(seeded);
  // Import the exported backup through the real file input, if one is provided by the app.
  const fileInputs=page.locator('input[type="file"]');
@@ -72,7 +72,9 @@ for(const width of [360,412,1280]){
  ]);
  const second=JSON.parse(await fs.readFile(await roundtrip.path(),'utf8'));
  assert.deepEqual(second.vp,seeded.vp,'vocabulary progress survives import/export');
+ assert.ok(Object.keys(second.vp).length>0,'nonempty vocabulary progress restored');
  assert.deepEqual(second.gp,seeded.gp,'grammar progress survives import/export');
+ assert.ok(Object.keys(second.gp).length>0,'nonempty grammar progress restored');
  assert.deepEqual(second.comparisonKeys,seeded.comparisonKeys,'comparison list survives import/export');
  console.log('PASS v130 progress export/import roundtrip',JSON.stringify({width,vocab:Object.keys(second.vp).length,grammar:Object.keys(second.gp).length}));
 
