@@ -1,8 +1,10 @@
 # JLPT N1 — аудит якості
 
-> **v130 у перевірці:** 100 текстів / 241 запитання, браузерні тести пройдено; повний HTML v130 ще не опубліковано у main. [Звіт готовності v130](audit130/RELEASE_CANDIDATE_AUDIT.md). Чинний опублікований HTML — v129.
+> **Актуальна версія v130:** [повний HTML](JLPT_N1_ukrainian_reading_v130.html), [аудит](JLPT_N1_v130_audit.md). 100 текстів, 241 запитання. SHA-256: `c049da5914210f4b517732435de2bc04c477eedfdef776fb9072bd8a155f09b8`.
 
-Поточна редакція: [v129 — повний HTML](JLPT_N1_ukrainian_reading_v129.html), [аудит v129](JLPT_N1_v129_audit.md).
+Поточна редакція: [v130 — повний HTML](JLPT_N1_ukrainian_reading_v130.html), [аудит v130](JLPT_N1_v130_audit.md).
+
+Попередня версія: [v129 — повний HTML](JLPT_N1_ukrainian_reading_v129.html), [аудит v129](JLPT_N1_v129_audit.md).
 
 Для поступової перевірки: [v128 — повний HTML](JLPT_N1_ukrainian_reading_v128.html), [аудит v128](JLPT_N1_v128_audit.md).
 
