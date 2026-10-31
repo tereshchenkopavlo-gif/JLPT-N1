@@ -1,0 +1,5519 @@
+{
+  "examples": 8089,
+  "byKind": {
+    "v": 7828,
+    "g": 261
+  },
+  "unmarked": [
+    {
+      "kind": "v",
+      "id": 210,
+      "word": "進歩",
+      "exampleIndex": 1,
+      "sentence": "日進月歩の技術革新に、常に対応していく必要がある。",
+      "spans": []
+    },
+    {
+      "kind": "v",
+      "id": 447,
+      "word": "繋がる",
+      "exampleIndex": 0,
+      "sentence": "この発見が、新たな治療法の開発につながった。",
+      "spans": []
+    },
+    {
+      "kind": "v",
+      "id": 447,
+      "word": "繋がる",
+      "exampleIndex": 1,
+      "sentence": "電話がつながらず、連絡を取ることができなかった。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 1,
+      "word": "〜ようが",
+      "exampleIndex": 1,
+      "sentence": "いかなる困難が立ちはだかろうが、最後まで計画をやり遂げるつもりだ。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 4,
+      "word": "〜ようにも〜ない",
+      "exampleIndex": 0,
+      "sentence": "台風の影響で全ての公共交通機関が麻痺し、空港へ向かおうにも向かえなくなってしまった。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 18,
+      "word": "〜までのことだ",
+      "exampleIndex": 1,
+      "sentence": "私はただ、規則に定められた正規の手続きを淡々と遂行したまでのことである。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 24,
+      "word": "〜をもって①",
+      "exampleIndex": 0,
+      "sentence": "長年ご愛顧いただきました当店は、今月末をもちまして閉店いたします。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 24,
+      "word": "〜をもって①",
+      "exampleIndex": 1,
+      "sentence": "本日の午後5時をもって、今期プロジェクトの公募受付を締め切らせていただきます。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 26,
+      "word": "〜たが最後",
+      "exampleIndex": 1,
+      "sentence": "彼は酒を一口飲んだが最後、酔いつぶれるまで飲むのをやめない。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 45,
+      "word": "〜をもって②",
+      "exampleIndex": 0,
+      "sentence": "書面をもって、正式に回答いたします。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 45,
+      "word": "〜をもって②",
+      "exampleIndex": 1,
+      "sentence": "誠意をもって対応することが、信頼回復の第一歩だ。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 49,
+      "word": "〜といったらない",
+      "exampleIndex": 0,
+      "sentence": "大切な顧客に納期遅延を知らせるときの気まずさといったらなかった。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 49,
+      "word": "〜といったらない",
+      "exampleIndex": 1,
+      "sentence": "長時間待たされた挙げ句に門前払いされたときの腹立たしさといったらなかった。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 51,
+      "word": "〜てやまない",
+      "exampleIndex": 0,
+      "sentence": "被災地の一日も早い復興を願ってやみません。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 57,
+      "word": "〜にたえない①",
+      "exampleIndex": 0,
+      "sentence": "責任を押しつけ合う両者の罵り合いは、聞くに堪えなかった。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 57,
+      "word": "〜にたえない①",
+      "exampleIndex": 1,
+      "sentence": "事故現場の惨状は、正視にたえない。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 80,
+      "word": "〜てはばからない",
+      "exampleIndex": 1,
+      "sentence": "責任者は自分には落ち度がないと言ってはばからず、社員たちを失望させた。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 85,
+      "word": "〜にたえない②",
+      "exampleIndex": 0,
+      "sentence": "多大なるご支援をいただき、感謝にたえません。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 85,
+      "word": "〜にたえない②",
+      "exampleIndex": 1,
+      "sentence": "このような不祥事が起きたことは、遺憾にたえない。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 86,
+      "word": "〜にあたらない",
+      "exampleIndex": 0,
+      "sentence": "事情を考えれば、数分の遅刻を責めるにはあたらない。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 92,
+      "word": "〜ないものか",
+      "exampleIndex": 1,
+      "sentence": "この問題を、もう少し穏便に収められないものだろうか。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 94,
+      "word": "〜なりに",
+      "exampleIndex": 1,
+      "sentence": "新人には新人なりの視点があり、それが組織を活性化させることもある。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 101,
+      "word": "〜ともなると",
+      "exampleIndex": 1,
+      "sentence": "海外進出ともなれば、法規制への対応も複雑になる。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 106,
+      "word": "～めく",
+      "exampleIndex": 0,
+      "sentence": "彼の発言には、どこか皮肉めいた響きがあった。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 106,
+      "word": "～めく",
+      "exampleIndex": 1,
+      "sentence": "春めいた陽気に誘われて、多くの人が公園に足を運んだ。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 108,
+      "word": "～と相まって",
+      "exampleIndex": 1,
+      "sentence": "彼の粘り強い努力と周囲の支援が相まって、計画は成功を収めた。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 121,
+      "word": "〜させていただく",
+      "exampleIndex": 0,
+      "sentence": "本日は、お時間をいただき、弊社の新製品をご紹介させていただきます。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 121,
+      "word": "〜させていただく",
+      "exampleIndex": 1,
+      "sentence": "先生の許可を得て、授業を録音させていただきました。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 122,
+      "word": "〜ていただく",
+      "exampleIndex": 0,
+      "sentence": "先生に論文を添削していただき、大変勉強になりました。",
+      "spans": []
+    },
+    {
+      "kind": "g",
+      "id": 122,
+      "word": "〜ていただく",
+      "exampleIndex": 1,
+      "sentence": "お忙しい中、資料を確認していただき、ありがとうございます。",
+      "spans": []
+    }
+  ],
+  "singleCharacter": [
+    {
+      "kind": "v",
+      "id": 408,
+      "word": "稼ぐ",
+      "exampleIndex": 0,
+      "sentence": "彼は、複数の仕事を掛け持ちして、学費を稼いだ。",
+      "spans": [
+        "稼"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 410,
+      "word": "解く",
+      "exampleIndex": 0,
+      "sentence": "難解な数学の問題を、時間をかけて解いた。",
+      "spans": [
+        "解"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 413,
+      "word": "営む",
+      "exampleIndex": 0,
+      "sentence": "彼の家は、代々、旅館を営んでいる。",
+      "spans": [
+        "営"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 413,
+      "word": "営む",
+      "exampleIndex": 1,
+      "sentence": "人々は、自然と共存しながら生活を営んできた。",
+      "spans": [
+        "営"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 414,
+      "word": "映る",
+      "exampleIndex": 0,
+      "sentence": "湖面には、周囲の山々が美しく映っていた。",
+      "spans": [
+        "映"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 414,
+      "word": "映る",
+      "exampleIndex": 1,
+      "sentence": "画面に映った映像が、事件の手がかりとなった。",
+      "spans": [
+        "映"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 417,
+      "word": "汚す",
+      "exampleIndex": 0,
+      "sentence": "油で衣服を汚してしまい、洗濯せざるを得なかった。",
+      "spans": [
+        "汚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 420,
+      "word": "殴る",
+      "exampleIndex": 0,
+      "sentence": "口論の末、男は相手の顔を殴って怪我をさせた。",
+      "spans": [
+        "殴"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 422,
+      "word": "壊す",
+      "exampleIndex": 0,
+      "sentence": "不用意な発言が、せっかくの雰囲気を壊してしまった。",
+      "spans": [
+        "壊"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 426,
+      "word": "叶う",
+      "exampleIndex": 0,
+      "sentence": "長年の夢が叶い、彼は念願の店を持つことができた。",
+      "spans": [
+        "叶"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 431,
+      "word": "輝く",
+      "exampleIndex": 1,
+      "sentence": "優勝の喜びに、選手たちの顔は輝いていた。",
+      "spans": [
+        "輝"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 434,
+      "word": "救う",
+      "exampleIndex": 0,
+      "sentence": "救助隊は、被災者を危険な場所から救った。",
+      "spans": [
+        "救"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 436,
+      "word": "許す",
+      "exampleIndex": 0,
+      "sentence": "いかなる事情があっても、不正は許されない。",
+      "spans": [
+        "許"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 436,
+      "word": "許す",
+      "exampleIndex": 1,
+      "sentence": "当局は、規制緩和による参入を許した。",
+      "spans": [
+        "許"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 437,
+      "word": "狂う",
+      "exampleIndex": 0,
+      "sentence": "時計が狂って、会議に遅れてしまった。",
+      "spans": [
+        "狂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 437,
+      "word": "狂う",
+      "exampleIndex": 1,
+      "sentence": "予想外の事態で、計画が大きく狂った。",
+      "spans": [
+        "狂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 438,
+      "word": "響く",
+      "exampleIndex": 0,
+      "sentence": "鐘の音が、静かな街に響いた。",
+      "spans": [
+        "響"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 438,
+      "word": "響く",
+      "exampleIndex": 1,
+      "sentence": "批判の声が、社内に重く響いた。",
+      "spans": [
+        "響"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 439,
+      "word": "驚く",
+      "exampleIndex": 0,
+      "sentence": "予想外の結果に、関係者は一様に驚いた。",
+      "spans": [
+        "驚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 445,
+      "word": "敬う",
+      "exampleIndex": 1,
+      "sentence": "師を敬い、その教えを守り続けている。",
+      "spans": [
+        "敬"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 446,
+      "word": "経る",
+      "exampleIndex": 0,
+      "sentence": "審議を経て、法案は国会で成立した。",
+      "spans": [
+        "経"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 446,
+      "word": "経る",
+      "exampleIndex": 1,
+      "sentence": "数多くの試練を経て、彼は今の地位に至った。",
+      "spans": [
+        "経"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 448,
+      "word": "結ぶ",
+      "exampleIndex": 0,
+      "sentence": "両社は、業務提携の契約を結んだ。",
+      "spans": [
+        "結"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 448,
+      "word": "結ぶ",
+      "exampleIndex": 1,
+      "sentence": "長年の努力が実を結び、研究は成功した。",
+      "spans": [
+        "結"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 451,
+      "word": "限る",
+      "exampleIndex": 0,
+      "sentence": "募集は、先着二十名に限らせていただきます。",
+      "spans": [
+        "限"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 454,
+      "word": "向く",
+      "exampleIndex": 0,
+      "sentence": "この仕事は、細かい作業が得意な人に向いている。",
+      "spans": [
+        "向"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 454,
+      "word": "向く",
+      "exampleIndex": 1,
+      "sentence": "この部屋の窓は南を向いている。",
+      "spans": [
+        "向"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 457,
+      "word": "行う",
+      "exampleIndex": 1,
+      "sentence": "調査は、全国の約千社を対象に行われた。",
+      "spans": [
+        "行"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 460,
+      "word": "削る",
+      "exampleIndex": 0,
+      "sentence": "経費を削って、収支の改善を図った。",
+      "spans": [
+        "削"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 460,
+      "word": "削る",
+      "exampleIndex": 1,
+      "sentence": "睡眠時間を削ってまで、仕事に打ち込むのは考えものだ。",
+      "spans": [
+        "削"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 464,
+      "word": "謝る",
+      "exampleIndex": 1,
+      "sentence": "彼は、顧客に頭を下げて、丁寧に謝った。",
+      "spans": [
+        "謝"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 466,
+      "word": "従う",
+      "exampleIndex": 0,
+      "sentence": "社員は、会社の規則に従わなければならない。",
+      "spans": [
+        "従"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 466,
+      "word": "従う",
+      "exampleIndex": 1,
+      "sentence": "状況の変化に従って、対応を柔軟に変えていく。",
+      "spans": [
+        "従"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 467,
+      "word": "巡る",
+      "exampleIndex": 0,
+      "sentence": "この問題を巡って、議論が白熱した。",
+      "spans": [
+        "巡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 467,
+      "word": "巡る",
+      "exampleIndex": 1,
+      "sentence": "この夏は、各地の町を巡った。",
+      "spans": [
+        "巡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 468,
+      "word": "除く",
+      "exampleIndex": 1,
+      "sentence": "一部の例外を除き、全ての申請が認められた。",
+      "spans": [
+        "除"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 470,
+      "word": "招く",
+      "exampleIndex": 0,
+      "sentence": "軽率な判断が、思わぬ事態を招いた。",
+      "spans": [
+        "招"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 470,
+      "word": "招く",
+      "exampleIndex": 1,
+      "sentence": "外部から専門家を招いて、講演会を開催した。",
+      "spans": [
+        "招"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 489,
+      "word": "狙う",
+      "exampleIndex": 0,
+      "sentence": "同社は、若年層の需要を狙った商品を開発した。",
+      "spans": [
+        "狙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 489,
+      "word": "狙う",
+      "exampleIndex": 1,
+      "sentence": "彼は、昇進を狙って、積極的に成果を上げている。",
+      "spans": [
+        "狙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 490,
+      "word": "組む",
+      "exampleIndex": 0,
+      "sentence": "両社は手を組んで、新規市場の開拓に乗り出した。",
+      "spans": [
+        "組"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 490,
+      "word": "組む",
+      "exampleIndex": 1,
+      "sentence": "出張の日程を、余裕を持って組んだ。",
+      "spans": [
+        "組"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 492,
+      "word": "争う",
+      "exampleIndex": 0,
+      "sentence": "両社は、市場の主導権を争っている。",
+      "spans": [
+        "争"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 493,
+      "word": "測る",
+      "exampleIndex": 1,
+      "sentence": "部屋の高さを専用の器具で測った。",
+      "spans": [
+        "測"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 495,
+      "word": "奪う",
+      "exampleIndex": 0,
+      "sentence": "強盗は、被害者から現金を奪って逃走した。",
+      "spans": [
+        "奪"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 495,
+      "word": "奪う",
+      "exampleIndex": 1,
+      "sentence": "彼女の美しい歌声は、聴衆の心を奪った。",
+      "spans": [
+        "奪"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 499,
+      "word": "断る",
+      "exampleIndex": 1,
+      "sentence": "彼は、昇進の話を丁重に断った。",
+      "spans": [
+        "断"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 500,
+      "word": "築く",
+      "exampleIndex": 0,
+      "sentence": "長年の努力で、盤石な地位を築いた。",
+      "spans": [
+        "築"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 500,
+      "word": "築く",
+      "exampleIndex": 1,
+      "sentence": "信頼関係は、日々の誠実な行動の積み重ねによって築かれる。",
+      "spans": [
+        "築"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 508,
+      "word": "倒す",
+      "exampleIndex": 1,
+      "sentence": "長期にわたった独裁政権を倒した運動は、世界の注目を集めた。",
+      "spans": [
+        "倒"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 511,
+      "word": "逃す",
+      "exampleIndex": 0,
+      "sentence": "千載一遇の好機を逃してはならない。",
+      "spans": [
+        "逃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 511,
+      "word": "逃す",
+      "exampleIndex": 1,
+      "sentence": "犯人を逃した警察の対応には、批判の声が上がった。",
+      "spans": [
+        "逃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 513,
+      "word": "曇る",
+      "exampleIndex": 0,
+      "sentence": "悲報を聞いた彼の表情は一瞬にして曇った。",
+      "spans": [
+        "曇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 513,
+      "word": "曇る",
+      "exampleIndex": 1,
+      "sentence": "寒暖差により、メガネのレンズが曇って前が見えなくなった。",
+      "spans": [
+        "曇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 514,
+      "word": "歩む",
+      "exampleIndex": 1,
+      "sentence": "彼女は研究者として、地道な道を歩み続けてきた。",
+      "spans": [
+        "歩"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 517,
+      "word": "補う",
+      "exampleIndex": 1,
+      "sentence": "経験の浅さを補って余りある情熱が、彼の最大の強みだ。",
+      "spans": [
+        "補"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 518,
+      "word": "崩す",
+      "exampleIndex": 0,
+      "sentence": "過労で体調を崩したため、重要な会議を欠席せざるを得なかった。",
+      "spans": [
+        "崩"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 518,
+      "word": "崩す",
+      "exampleIndex": 1,
+      "sentence": "一部の不正が組織全体の秩序を崩しかねない事態となっている。",
+      "spans": [
+        "崩"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 519,
+      "word": "破る",
+      "exampleIndex": 0,
+      "sentence": "彼女は、長年破られなかった世界記録を破った。",
+      "spans": [
+        "破"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 519,
+      "word": "破る",
+      "exampleIndex": 1,
+      "sentence": "彼は約束を破り、待ち合わせに来なかった。",
+      "spans": [
+        "破"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 521,
+      "word": "配る",
+      "exampleIndex": 0,
+      "sentence": "会議の前に、参加者全員に資料を配っておくこと。",
+      "spans": [
+        "配"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 523,
+      "word": "迫る",
+      "exampleIndex": 0,
+      "sentence": "締め切りが迫っており、残された時間は決して多くない。",
+      "spans": [
+        "迫"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 523,
+      "word": "迫る",
+      "exampleIndex": 1,
+      "sentence": "経営陣は、早急な決断を迫られている。",
+      "spans": [
+        "迫"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 533,
+      "word": "誘う",
+      "exampleIndex": 0,
+      "sentence": "取引先の担当者を会食に誘い、親睦を深める機会とした。",
+      "spans": [
+        "誘"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 533,
+      "word": "誘う",
+      "exampleIndex": 1,
+      "sentence": "穏やかな春の陽気に誘われて、多くの人が公園に足を運んだ。",
+      "spans": [
+        "誘"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 534,
+      "word": "余る",
+      "exampleIndex": 0,
+      "sentence": "予算が余ったため、設備の更新に充てることが決まった。",
+      "spans": [
+        "余"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 539,
+      "word": "絡む",
+      "exampleIndex": 1,
+      "sentence": "この事件には、政治家の汚職が絡んでいる疑いがある。",
+      "spans": [
+        "絡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 542,
+      "word": "騙す",
+      "exampleIndex": 0,
+      "sentence": "高齢者を騙して金銭を奪う詐欺が後を絶たない。",
+      "spans": [
+        "騙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 542,
+      "word": "騙す",
+      "exampleIndex": 1,
+      "sentence": "彼は巧みな話術で、投資家たちを騙した。",
+      "spans": [
+        "騙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 543,
+      "word": "黙る",
+      "exampleIndex": 1,
+      "sentence": "不当な要求に黙って従うべきではない。",
+      "spans": [
+        "黙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 697,
+      "word": "闇",
+      "exampleIndex": 0,
+      "sentence": "停電により、街全体が一瞬にして闇に包まれた。",
+      "spans": [
+        "闇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 697,
+      "word": "闇",
+      "exampleIndex": 1,
+      "sentence": "違法な闇取引を取り締まるため、当局は調査を強化している。",
+      "spans": [
+        "闇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 698,
+      "word": "陰",
+      "exampleIndex": 0,
+      "sentence": "陰で支える人々の努力があってこそ、事業は成り立っている。",
+      "spans": [
+        "陰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 698,
+      "word": "陰",
+      "exampleIndex": 1,
+      "sentence": "日差しを避けて、木の陰で休んだ。",
+      "spans": [
+        "陰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 699,
+      "word": "渦",
+      "exampleIndex": 0,
+      "sentence": "優勝が決まると、会場は歓喜の渦に包まれた。",
+      "spans": [
+        "渦"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 699,
+      "word": "渦",
+      "exampleIndex": 1,
+      "sentence": "小舟は激しい渦に飲み込まれ、行方不明となった。",
+      "spans": [
+        "渦"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 700,
+      "word": "鉛",
+      "exampleIndex": 0,
+      "sentence": "この小さな金属の塊は鉛でできている。",
+      "spans": [
+        "鉛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 700,
+      "word": "鉛",
+      "exampleIndex": 1,
+      "sentence": "仕事帰りには、足が鉛のように重く感じられた。",
+      "spans": [
+        "鉛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 701,
+      "word": "沖",
+      "exampleIndex": 0,
+      "sentence": "白い船がゆっくり沖を進んでいた。",
+      "spans": [
+        "沖"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 701,
+      "word": "沖",
+      "exampleIndex": 1,
+      "sentence": "漁船は、沖に出たまま嵐に巻き込まれた。",
+      "spans": [
+        "沖"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 702,
+      "word": "芽",
+      "exampleIndex": 0,
+      "sentence": "早い段階で問題の芽を摘んでおくことが、大きな失敗を防ぐ鍵となる。",
+      "spans": [
+        "芽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 702,
+      "word": "芽",
+      "exampleIndex": 1,
+      "sentence": "若手の才能の芽を育てる環境づくりが、組織の未来を左右する。",
+      "spans": [
+        "芽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 703,
+      "word": "核",
+      "exampleIndex": 0,
+      "sentence": "この問題の核にあるのは、制度そのものの欠陥である。",
+      "spans": [
+        "核"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 703,
+      "word": "核",
+      "exampleIndex": 1,
+      "sentence": "授業では、細胞の核の働きについて学んだ。",
+      "spans": [
+        "核"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 704,
+      "word": "角",
+      "exampleIndex": 0,
+      "sentence": "交差点の角に新しいコンビニエンスストアがオープンした。",
+      "spans": [
+        "角"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 704,
+      "word": "角",
+      "exampleIndex": 1,
+      "sentence": "角が立たないように、慎重に言葉を選んで意見を伝えた。",
+      "spans": [
+        "角"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 705,
+      "word": "株",
+      "exampleIndex": 0,
+      "sentence": "彼は、将来性の高い企業の株を長期保有する方針をとっている。",
+      "spans": [
+        "株"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 705,
+      "word": "株",
+      "exampleIndex": 1,
+      "sentence": "新製品の発表を受けて、同社の株が急上昇した。",
+      "spans": [
+        "株"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 706,
+      "word": "幹",
+      "exampleIndex": 0,
+      "sentence": "この大木の幹は、大人が三人でも抱えきれないほど太い。",
+      "spans": [
+        "幹"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 706,
+      "word": "幹",
+      "exampleIndex": 1,
+      "sentence": "事業の幹となる部分を見極め、経営資源を集中させるべきだ。",
+      "spans": [
+        "幹"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 707,
+      "word": "管",
+      "exampleIndex": 0,
+      "sentence": "老朽化した水道の管から漏水が相次ぎ、早急な交換が必要となっている。",
+      "spans": [
+        "管"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 707,
+      "word": "管",
+      "exampleIndex": 1,
+      "sentence": "細い管を通して、容器に水を入れた。",
+      "spans": [
+        "管"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 708,
+      "word": "癌",
+      "exampleIndex": 0,
+      "sentence": "彼は癌について書かれた本を読んだ。",
+      "spans": [
+        "癌"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 708,
+      "word": "癌",
+      "exampleIndex": 1,
+      "sentence": "記事では、その制度を組織の癌と呼んでいた。",
+      "spans": [
+        "癌"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 709,
+      "word": "器",
+      "exampleIndex": 0,
+      "sentence": "この手作りの器は、料理の色を美しく引き立てる。",
+      "spans": [
+        "器"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 709,
+      "word": "器",
+      "exampleIndex": 1,
+      "sentence": "彼は、一国の宰相となる器を備えた人物と評されている。",
+      "spans": [
+        "器"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 710,
+      "word": "技",
+      "exampleIndex": 0,
+      "sentence": "長年にわたって磨き上げた技が、国際大会で高く評価された。",
+      "spans": [
+        "技"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 710,
+      "word": "技",
+      "exampleIndex": 1,
+      "sentence": "職人の技を次世代へ継承するための取り組みが、全国で進められている。",
+      "spans": [
+        "技"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 711,
+      "word": "脚",
+      "exampleIndex": 0,
+      "sentence": "脚を痛めた選手は、大事を取って試合を欠場した。",
+      "spans": [
+        "脚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 711,
+      "word": "脚",
+      "exampleIndex": 1,
+      "sentence": "机の脚が一本折れたため、新しいものと交換した。",
+      "spans": [
+        "脚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 712,
+      "word": "逆",
+      "exampleIndex": 0,
+      "sentence": "期待とは逆の結果になったことで、現場には落胆が広がった。",
+      "spans": [
+        "逆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 712,
+      "word": "逆",
+      "exampleIndex": 1,
+      "sentence": "逆の立場から物事を見ることで、新たな気づきが得られる。",
+      "spans": [
+        "逆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 713,
+      "word": "丘",
+      "exampleIndex": 0,
+      "sentence": "丘の上に建つこの教会は、街のシンボルとして親しまれている。",
+      "spans": [
+        "丘"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 713,
+      "word": "丘",
+      "exampleIndex": 1,
+      "sentence": "丘を越えると、広大な平野が眼前に広がった。",
+      "spans": [
+        "丘"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 714,
+      "word": "弓",
+      "exampleIndex": 0,
+      "sentence": "彼は姿勢を整え、ゆっくりと弓を引いた。",
+      "spans": [
+        "弓"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 714,
+      "word": "弓",
+      "exampleIndex": 1,
+      "sentence": "彼女は弓を動かし、バイオリンの弦を静かに響かせた。",
+      "spans": [
+        "弓"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 715,
+      "word": "筋",
+      "exampleIndex": 0,
+      "sentence": "筋の通った説明をしなければ、関係者の納得は得られない。",
+      "spans": [
+        "筋"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 715,
+      "word": "筋",
+      "exampleIndex": 1,
+      "sentence": "この話は、筋が違うので、受け入れることができない。",
+      "spans": [
+        "筋"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 716,
+      "word": "恵",
+      "exampleIndex": 0,
+      "sentence": "自然の恵みに感謝しながら、持続可能な農業を営んでいる。",
+      "spans": [
+        "恵"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 716,
+      "word": "恵",
+      "exampleIndex": 1,
+      "sentence": "雨の恵みで、干ばつに苦しんでいた農家は一息つくことができた。",
+      "spans": [
+        "恵"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 717,
+      "word": "茎",
+      "exampleIndex": 0,
+      "sentence": "この植物は、茎が太く、風雨に強い性質を持つ。",
+      "spans": [
+        "茎"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 717,
+      "word": "茎",
+      "exampleIndex": 1,
+      "sentence": "茎の先に小さな花が咲いた。",
+      "spans": [
+        "茎"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 718,
+      "word": "芸",
+      "exampleIndex": 0,
+      "sentence": "彼女は舞台に立ちながら、長年にわたって芸を磨いてきた。",
+      "spans": [
+        "芸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 718,
+      "word": "芸",
+      "exampleIndex": 1,
+      "sentence": "宴会で、彼は得意の芸を披露した。",
+      "spans": [
+        "芸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 719,
+      "word": "穴",
+      "exampleIndex": 0,
+      "sentence": "予算に生じた穴を埋めるため、各部署に経費の節約が求められた。",
+      "spans": [
+        "穴"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 719,
+      "word": "穴",
+      "exampleIndex": 1,
+      "sentence": "防波堤に穴が空き、緊急の補修工事が行われた。",
+      "spans": [
+        "穴"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 720,
+      "word": "件",
+      "exampleIndex": 0,
+      "sentence": "その件については、後日改めてご連絡いたします。",
+      "spans": [
+        "件"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 720,
+      "word": "件",
+      "exampleIndex": 1,
+      "sentence": "同様の件が相次いで報告されており、調査が進められている。",
+      "spans": [
+        "件"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 721,
+      "word": "源",
+      "exampleIndex": 0,
+      "sentence": "この川の源は、遠く離れた山間部の湧き水にある。",
+      "spans": [
+        "源"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 721,
+      "word": "源",
+      "exampleIndex": 1,
+      "sentence": "企業の競争力の源は、人材の質にあるといっても過言ではない。",
+      "spans": [
+        "源"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 722,
+      "word": "股",
+      "exampleIndex": 0,
+      "sentence": "彼は世界を股にかけて活躍する、国際的なビジネスマンだ。",
+      "spans": [
+        "股"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 722,
+      "word": "股",
+      "exampleIndex": 1,
+      "sentence": "道が二股に分かれる地点で、一行は進路を巡って意見が割れた。",
+      "spans": [
+        "股"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 723,
+      "word": "公",
+      "exampleIndex": 0,
+      "sentence": "不祥事を公にしないことは、かえって企業の信頼を損なう結果を招く。",
+      "spans": [
+        "公"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 723,
+      "word": "公",
+      "exampleIndex": 1,
+      "sentence": "会議の内容は、まだ公にされていない。",
+      "spans": [
+        "公"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 724,
+      "word": "垢",
+      "exampleIndex": 0,
+      "sentence": "長年の垢が染みついた配管を、徹底的に洗浄した。",
+      "spans": [
+        "垢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 724,
+      "word": "垢",
+      "exampleIndex": 1,
+      "sentence": "古い体質の垢を落とすことが、組織改革の第一歩だ。",
+      "spans": [
+        "垢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 725,
+      "word": "溝",
+      "exampleIndex": 0,
+      "sentence": "意見の対立から、両者の間に深い溝ができてしまった。",
+      "spans": [
+        "溝"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 725,
+      "word": "溝",
+      "exampleIndex": 1,
+      "sentence": "道路脇の溝に落ちた自動車を、レッカー車が引き上げた。",
+      "spans": [
+        "溝"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 726,
+      "word": "綱",
+      "exampleIndex": 0,
+      "sentence": "最後の頼みの綱であった融資も断られ、経営は行き詰まった。",
+      "spans": [
+        "綱"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 726,
+      "word": "綱",
+      "exampleIndex": 1,
+      "sentence": "船を綱で岸につなぎとめた。",
+      "spans": [
+        "綱"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 727,
+      "word": "頃",
+      "exampleIndex": 0,
+      "sentence": "その頃の私は、経験が浅く、失敗ばかり繰り返していた。",
+      "spans": [
+        "頃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 727,
+      "word": "頃",
+      "exampleIndex": 1,
+      "sentence": "桜の咲く頃に、新製品の発表会を開催する予定だ。",
+      "spans": [
+        "頃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 728,
+      "word": "根",
+      "exampleIndex": 0,
+      "sentence": "この問題は根が深く、短期間での解決は難しい。",
+      "spans": [
+        "根"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 728,
+      "word": "根",
+      "exampleIndex": 1,
+      "sentence": "対立の根には、長年積み重なった不信感がある。",
+      "spans": [
+        "根"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 729,
+      "word": "魂",
+      "exampleIndex": 0,
+      "sentence": "作品には、作者の魂が込められているといわれる。",
+      "spans": [
+        "魂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 729,
+      "word": "魂",
+      "exampleIndex": 1,
+      "sentence": "職人の魂が宿った製品は、使うほどに愛着が湧く。",
+      "spans": [
+        "魂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 730,
+      "word": "際",
+      "exampleIndex": 0,
+      "sentence": "別れ際に、彼は静かに一礼して去っていった。",
+      "spans": [
+        "際"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 730,
+      "word": "際",
+      "exampleIndex": 1,
+      "sentence": "お帰りの際は、受付に鍵をお返しください。",
+      "spans": [
+        "際"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 731,
+      "word": "柵",
+      "exampleIndex": 0,
+      "sentence": "牧場の周囲には、動物が逃げ出さないよう柵が設けられている。",
+      "spans": [
+        "柵"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 731,
+      "word": "柵",
+      "exampleIndex": 1,
+      "sentence": "工事現場は、安全のために高い柵で囲まれている。",
+      "spans": [
+        "柵"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 732,
+      "word": "策",
+      "exampleIndex": 0,
+      "sentence": "政府は、物価高騰に対する緊急の策を打ち出した。",
+      "spans": [
+        "策"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 732,
+      "word": "策",
+      "exampleIndex": 1,
+      "sentence": "いかなる策を講じても、現状の打開は容易ではない。",
+      "spans": [
+        "策"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 733,
+      "word": "札",
+      "exampleIndex": 0,
+      "sentence": "各商品には、価格を記した札が付けられている。",
+      "spans": [
+        "札"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 733,
+      "word": "札",
+      "exampleIndex": 1,
+      "sentence": "財布には千円の札が二枚入っていた。",
+      "spans": [
+        "札"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 734,
+      "word": "志",
+      "exampleIndex": 0,
+      "sentence": "若き日の志を忘れず、初心を貫くことが大切だ。",
+      "spans": [
+        "志"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 734,
+      "word": "志",
+      "exampleIndex": 1,
+      "sentence": "彼は医療の発展に貢献したいとの志を抱いて、研究者の道を選んだ。",
+      "spans": [
+        "志"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 735,
+      "word": "紫",
+      "exampleIndex": 0,
+      "sentence": "夕暮れの空が、薄い紫に染まっていった。",
+      "spans": [
+        "紫"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 735,
+      "word": "紫",
+      "exampleIndex": 1,
+      "sentence": "紫の花が一面に咲き誇る光景は、見る者を魅了した。",
+      "spans": [
+        "紫"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 736,
+      "word": "雌",
+      "exampleIndex": 0,
+      "sentence": "この種の昆虫は、雌のほうが雄よりも体が大きい。",
+      "spans": [
+        "雌"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 736,
+      "word": "雌",
+      "exampleIndex": 1,
+      "sentence": "この写真だけでは、雌と雄を見分けるのは難しい。",
+      "spans": [
+        "雌"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 737,
+      "word": "侍",
+      "exampleIndex": 0,
+      "sentence": "この小説は、旅をする侍を主人公にしている。",
+      "spans": [
+        "侍"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 737,
+      "word": "侍",
+      "exampleIndex": 1,
+      "sentence": "彼は現代の侍のように、信念を貫き通す人物として知られている。",
+      "spans": [
+        "侍"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 738,
+      "word": "軸",
+      "exampleIndex": 0,
+      "sentence": "戦略の軸がぶれると、組織全体の方向性が定まらなくなる。",
+      "spans": [
+        "軸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 738,
+      "word": "軸",
+      "exampleIndex": 1,
+      "sentence": "機械の軸が曲がっていたため、部品を交換した。",
+      "spans": [
+        "軸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 739,
+      "word": "主",
+      "exampleIndex": 0,
+      "sentence": "この古い屋敷の主は、長年にわたって地域の発展に尽くしてきた。",
+      "spans": [
+        "主"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 739,
+      "word": "主",
+      "exampleIndex": 1,
+      "sentence": "彼は、この会社の主のような存在として、社員から慕われている。",
+      "spans": [
+        "主"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 740,
+      "word": "種",
+      "exampleIndex": 0,
+      "sentence": "絶滅の危機に瀕する種を守るため、国際的な保護活動が行われている。",
+      "spans": [
+        "種"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 740,
+      "word": "種",
+      "exampleIndex": 1,
+      "sentence": "この種の製品には、厳格な安全基準が設けられている。",
+      "spans": [
+        "種"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 741,
+      "word": "趣",
+      "exampleIndex": 0,
+      "sentence": "古い街並みが残るこの地域には、独特の趣がある。",
+      "spans": [
+        "趣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 741,
+      "word": "趣",
+      "exampleIndex": 1,
+      "sentence": "改装後の部屋は、以前とは趣が異なる。",
+      "spans": [
+        "趣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 742,
+      "word": "獣",
+      "exampleIndex": 0,
+      "sentence": "山中で獣の足跡が発見され、住民に注意が呼びかけられた。",
+      "spans": [
+        "獣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 742,
+      "word": "獣",
+      "exampleIndex": 1,
+      "sentence": "森の奥から、獣の鳴き声が聞こえた。",
+      "spans": [
+        "獣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 743,
+      "word": "術",
+      "exampleIndex": 0,
+      "sentence": "彼は言葉を失い、なす術もなく立ち尽くした。",
+      "spans": [
+        "術"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 743,
+      "word": "術",
+      "exampleIndex": 1,
+      "sentence": "事態を打開する術が見つからず、経営陣は頭を抱えた。",
+      "spans": [
+        "術"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 744,
+      "word": "盾",
+      "exampleIndex": 0,
+      "sentence": "担当者は規則を盾にして、相談にも応じなかった。",
+      "spans": [
+        "盾"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 744,
+      "word": "盾",
+      "exampleIndex": 1,
+      "sentence": "兵士は盾を構え、飛んでくる矢を防いだ。",
+      "spans": [
+        "盾"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 745,
+      "word": "沼",
+      "exampleIndex": 0,
+      "sentence": "湖のほとりに沼が広がり、多様な生物が生息している。",
+      "spans": [
+        "沼"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 745,
+      "word": "沼",
+      "exampleIndex": 1,
+      "sentence": "一度手を出すと抜け出せない、借金の沼にはまってしまった。",
+      "spans": [
+        "沼"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 746,
+      "word": "証",
+      "exampleIndex": 0,
+      "sentence": "二人の絆の証として、結婚指輪を交換した。",
+      "spans": [
+        "証"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 746,
+      "word": "証",
+      "exampleIndex": 1,
+      "sentence": "彼が生きた証は、後世に語り継がれるだろう。",
+      "spans": [
+        "証"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 747,
+      "word": "丈",
+      "exampleIndex": 0,
+      "sentence": "彼は手紙に思いの丈を綴った。",
+      "spans": [
+        "丈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 747,
+      "word": "丈",
+      "exampleIndex": 1,
+      "sentence": "新しいスーツの丈を、数センチほど詰めてもらった。",
+      "spans": [
+        "丈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 748,
+      "word": "刃",
+      "exampleIndex": 0,
+      "sentence": "包丁の刃が欠けたため、研ぎ直しを依頼した。",
+      "spans": [
+        "刃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 748,
+      "word": "刃",
+      "exampleIndex": 1,
+      "sentence": "鋭い刃を扱う作業では、安全の確保が最優先となる。",
+      "spans": [
+        "刃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 749,
+      "word": "誠",
+      "exampleIndex": 0,
+      "sentence": "誠をもって顧客に接する姿勢が、長年にわたる信頼関係を築いた。",
+      "spans": [
+        "誠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 749,
+      "word": "誠",
+      "exampleIndex": 1,
+      "sentence": "誠に申し訳ございませんでした。",
+      "spans": [
+        "誠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 750,
+      "word": "跡",
+      "exampleIndex": 0,
+      "sentence": "事件現場には、争った跡が生々しく残されていた。",
+      "spans": [
+        "跡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 750,
+      "word": "跡",
+      "exampleIndex": 1,
+      "sentence": "古い城の跡が、観光名所として整備された。",
+      "spans": [
+        "跡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 751,
+      "word": "節",
+      "exampleIndex": 0,
+      "sentence": "竹の節の間隔を測った。",
+      "spans": [
+        "節"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 751,
+      "word": "節",
+      "exampleIndex": 1,
+      "sentence": "彼は、節を曲げることなく、最後まで信念を貫いた。",
+      "spans": [
+        "節"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 752,
+      "word": "尿",
+      "exampleIndex": 0,
+      "sentence": "検査のため、尿を指定の容器に採った。",
+      "spans": [
+        "尿"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 752,
+      "word": "尿",
+      "exampleIndex": 1,
+      "sentence": "説明書には、尿の提出方法が書かれていた。",
+      "spans": [
+        "尿"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 753,
+      "word": "禅",
+      "exampleIndex": 0,
+      "sentence": "禅の精神は、日本の文化や美意識に大きな影響を与えてきた。",
+      "spans": [
+        "禅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 753,
+      "word": "禅",
+      "exampleIndex": 1,
+      "sentence": "講演では、禅の歴史について説明があった。",
+      "spans": [
+        "禅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 754,
+      "word": "念",
+      "exampleIndex": 0,
+      "sentence": "長年支えてくれた友人に、深い感謝の念を抱いている。",
+      "spans": [
+        "念"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 754,
+      "word": "念",
+      "exampleIndex": 1,
+      "sentence": "念のため、もう一度内容を確認しておきます。",
+      "spans": [
+        "念"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 755,
+      "word": "巣",
+      "exampleIndex": 0,
+      "sentence": "燕が軒下に巣を作り、ひなを育てている。",
+      "spans": [
+        "巣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 755,
+      "word": "巣",
+      "exampleIndex": 1,
+      "sentence": "親鳥が餌をくわえて巣に戻ってきた。",
+      "spans": [
+        "巣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 756,
+      "word": "脳",
+      "exampleIndex": 0,
+      "sentence": "脳の仕組みを解明する研究が、AIの発展にも寄与している。",
+      "spans": [
+        "脳"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 756,
+      "word": "脳",
+      "exampleIndex": 1,
+      "sentence": "図を見ながら、脳の各部分の名前を確認した。",
+      "spans": [
+        "脳"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 757,
+      "word": "霜",
+      "exampleIndex": 0,
+      "sentence": "今朝は霜が降り、畑の作物に被害が出た。",
+      "spans": [
+        "霜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 757,
+      "word": "霜",
+      "exampleIndex": 1,
+      "sentence": "寒波の影響で、各地で今季初の霜が観測された。",
+      "spans": [
+        "霜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 758,
+      "word": "肺",
+      "exampleIndex": 0,
+      "sentence": "教科書の図で、肺の位置を確かめた。",
+      "spans": [
+        "肺"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 758,
+      "word": "肺",
+      "exampleIndex": 1,
+      "sentence": "深呼吸をして、肺いっぱいに新鮮な空気を取り込んだ。",
+      "spans": [
+        "肺"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 759,
+      "word": "蔵",
+      "exampleIndex": 0,
+      "sentence": "古い蔵を改修して、小さな展示室にした。",
+      "spans": [
+        "蔵"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 759,
+      "word": "蔵",
+      "exampleIndex": 1,
+      "sentence": "蔵に眠っていた古文書が、貴重な史料として発見された。",
+      "spans": [
+        "蔵"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 760,
+      "word": "罰",
+      "exampleIndex": 0,
+      "sentence": "違反者には、厳しい罰が科せられる。",
+      "spans": [
+        "罰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 760,
+      "word": "罰",
+      "exampleIndex": 1,
+      "sentence": "罰を恐れて行動するのではなく、自ら律する姿勢が大切だ。",
+      "spans": [
+        "罰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 761,
+      "word": "対",
+      "exampleIndex": 0,
+      "sentence": "この二つの花瓶は対になっている。",
+      "spans": [
+        "対"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 761,
+      "word": "対",
+      "exampleIndex": 1,
+      "sentence": "試合は三対二で終わった。",
+      "spans": [
+        "対"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 762,
+      "word": "判",
+      "exampleIndex": 0,
+      "sentence": "契約書に判を押す前に、内容を再度確認すること。",
+      "spans": [
+        "判"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 762,
+      "word": "判",
+      "exampleIndex": 1,
+      "sentence": "どの窓口でも、判で押したような返事しか得られなかった。",
+      "spans": [
+        "判"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 763,
+      "word": "端",
+      "exampleIndex": 0,
+      "sentence": "町の端にある工場が、地域の雇用を支えている。",
+      "spans": [
+        "端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 763,
+      "word": "端",
+      "exampleIndex": 1,
+      "sentence": "机の端に置いた資料が、誤って床に落ちてしまった。",
+      "spans": [
+        "端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 764,
+      "word": "班",
+      "exampleIndex": 0,
+      "sentence": "現場調査は、三つの班に分かれて実施された。",
+      "spans": [
+        "班"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 764,
+      "word": "班",
+      "exampleIndex": 1,
+      "sentence": "班の全員で、調査の結果をまとめた。",
+      "spans": [
+        "班"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 765,
+      "word": "値",
+      "exampleIndex": 0,
+      "sentence": "この式から、エックスの値を求めてください。",
+      "spans": [
+        "値"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 765,
+      "word": "値",
+      "exampleIndex": 1,
+      "sentence": "この絵は、莫大な値がつくことが予想される。",
+      "spans": [
+        "値"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 766,
+      "word": "扉",
+      "exampleIndex": 0,
+      "sentence": "新たな扉を開く覚悟で、海外事業への挑戦を決めた。",
+      "spans": [
+        "扉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 766,
+      "word": "扉",
+      "exampleIndex": 1,
+      "sentence": "重い鉄の扉が、ゆっくりと開いた。",
+      "spans": [
+        "扉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 767,
+      "word": "恥",
+      "exampleIndex": 0,
+      "sentence": "知らないことを恥だと思わず、積極的に質問した。",
+      "spans": [
+        "恥"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 767,
+      "word": "恥",
+      "exampleIndex": 1,
+      "sentence": "人前で大きな間違いをして、恥をかいた。",
+      "spans": [
+        "恥"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 768,
+      "word": "尾",
+      "exampleIndex": 0,
+      "sentence": "その失敗は、その後の交渉にも尾を引いた。",
+      "spans": [
+        "尾"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 768,
+      "word": "尾",
+      "exampleIndex": 1,
+      "sentence": "猫が長い尾をゆっくり動かしていた。",
+      "spans": [
+        "尾"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 769,
+      "word": "宙",
+      "exampleIndex": 0,
+      "sentence": "計画は宙に浮いたままで、実現のめどは立っていない。",
+      "spans": [
+        "宙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 769,
+      "word": "宙",
+      "exampleIndex": 1,
+      "sentence": "宙を舞う花びらが、春の訪れを告げていた。",
+      "spans": [
+        "宙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 770,
+      "word": "眉",
+      "exampleIndex": 0,
+      "sentence": "不快な話を聞いて、彼は眉をひそめた。",
+      "spans": [
+        "眉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 770,
+      "word": "眉",
+      "exampleIndex": 1,
+      "sentence": "予想外の返事に、彼女は驚いて眉を上げた。",
+      "spans": [
+        "眉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 771,
+      "word": "潮",
+      "exampleIndex": 0,
+      "sentence": "潮の満ち引きを利用して、小さな漁船が港を出入りしている。",
+      "spans": [
+        "潮"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 771,
+      "word": "潮",
+      "exampleIndex": 1,
+      "sentence": "潮時を見極めて、事業から撤退する判断を下した。",
+      "spans": [
+        "潮"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 772,
+      "word": "票",
+      "exampleIndex": 0,
+      "sentence": "選挙の結果、与党が過半数の票を獲得した。",
+      "spans": [
+        "票"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 772,
+      "word": "票",
+      "exampleIndex": 1,
+      "sentence": "わずか数票の差で、法案が可決された。",
+      "spans": [
+        "票"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 773,
+      "word": "腸",
+      "exampleIndex": 0,
+      "sentence": "図を使って、腸の構造を説明した。",
+      "spans": [
+        "腸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 773,
+      "word": "腸",
+      "exampleIndex": 1,
+      "sentence": "彼は腸の働きについて書かれた本を読んでいる。",
+      "spans": [
+        "腸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 774,
+      "word": "苗",
+      "exampleIndex": 0,
+      "sentence": "春になると、農家は田んぼに稲の苗を植える。",
+      "spans": [
+        "苗"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 774,
+      "word": "苗",
+      "exampleIndex": 1,
+      "sentence": "ベランダで野菜の苗を育てている。",
+      "spans": [
+        "苗"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 775,
+      "word": "頂",
+      "exampleIndex": 0,
+      "sentence": "彼らは、数日がかりでついに山の頂に到達した。",
+      "spans": [
+        "頂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 775,
+      "word": "頂",
+      "exampleIndex": 1,
+      "sentence": "世界の頂を目指して、選手たちは日夜鍛錬を重ねている。",
+      "spans": [
+        "頂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 776,
+      "word": "浜",
+      "exampleIndex": 0,
+      "sentence": "台風の影響で、浜に大量の流木が打ち上げられた。",
+      "spans": [
+        "浜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 776,
+      "word": "浜",
+      "exampleIndex": 1,
+      "sentence": "夕暮れの浜を、家族連れが散歩している。",
+      "spans": [
+        "浜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 777,
+      "word": "的",
+      "exampleIndex": 0,
+      "sentence": "彼の指摘は的を射ており、反論の余地はなかった。",
+      "spans": [
+        "的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 777,
+      "word": "的",
+      "exampleIndex": 1,
+      "sentence": "新製品は、若年層に的を絞って開発された。",
+      "spans": [
+        "的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 778,
+      "word": "幅",
+      "exampleIndex": 0,
+      "sentence": "道路の幅が狭いため、大型車の通行は禁止されている。",
+      "spans": [
+        "幅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 778,
+      "word": "幅",
+      "exampleIndex": 1,
+      "sentence": "値上げの幅をできるだけ小さくする方針を決めた。",
+      "spans": [
+        "幅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 779,
+      "word": "棟",
+      "exampleIndex": 0,
+      "sentence": "屋根の棟を修理するため、職人が足場を組んだ。",
+      "spans": [
+        "棟"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 779,
+      "word": "棟",
+      "exampleIndex": 1,
+      "sentence": "新たに三棟のマンションが完成する予定だ。",
+      "spans": [
+        "棟"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 780,
+      "word": "柄",
+      "exampleIndex": 0,
+      "sentence": "このナイフは、柄が握りやすいように工夫されている。",
+      "spans": [
+        "柄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 780,
+      "word": "柄",
+      "exampleIndex": 1,
+      "sentence": "彼は柄にもなく、会議で終始おとなしくしていた。",
+      "spans": [
+        "柄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 781,
+      "word": "筒",
+      "exampleIndex": 0,
+      "sentence": "図面を丸めて、筒に入れた。",
+      "spans": [
+        "筒"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 781,
+      "word": "筒",
+      "exampleIndex": 1,
+      "sentence": "厚い紙で筒を作り、机の上に立てた。",
+      "spans": [
+        "筒"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 782,
+      "word": "並",
+      "exampleIndex": 0,
+      "sentence": "彼の知識は、専門家並みに豊富だ。",
+      "spans": [
+        "並"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 782,
+      "word": "並",
+      "exampleIndex": 1,
+      "sentence": "人並みの生活を営むためには、一定の収入が必要となる。",
+      "spans": [
+        "並"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 783,
+      "word": "頭",
+      "exampleIndex": 0,
+      "sentence": "彼は頭が切れ、状況を的確に把握する能力に優れている。",
+      "spans": [
+        "頭"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 783,
+      "word": "頭",
+      "exampleIndex": 1,
+      "sentence": "頭を冷やして、冷静に対応を検討することが肝要だ。",
+      "spans": [
+        "頭"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 784,
+      "word": "峰",
+      "exampleIndex": 0,
+      "sentence": "雪に覆われた峰々が、朝日を浴びて輝いていた。",
+      "spans": [
+        "峰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 784,
+      "word": "峰",
+      "exampleIndex": 1,
+      "sentence": "遠くの峰が、雲の切れ間から姿を現した。",
+      "spans": [
+        "峰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 785,
+      "word": "麻",
+      "exampleIndex": 0,
+      "sentence": "夏には、風通しのよい麻のシャツが好まれる。",
+      "spans": [
+        "麻"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 785,
+      "word": "麻",
+      "exampleIndex": 1,
+      "sentence": "古くから、麻は衣料や縄の原料として利用されてきた。",
+      "spans": [
+        "麻"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 786,
+      "word": "膜",
+      "exampleIndex": 0,
+      "sentence": "製品の表面は、特殊な膜で覆われている。",
+      "spans": [
+        "膜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 786,
+      "word": "膜",
+      "exampleIndex": 1,
+      "sentence": "水面に薄い油の膜が浮いていた。",
+      "spans": [
+        "膜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 787,
+      "word": "末",
+      "exampleIndex": 0,
+      "sentence": "長い議論の末、ようやく合意に至った。",
+      "spans": [
+        "末"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 787,
+      "word": "末",
+      "exampleIndex": 1,
+      "sentence": "今月末までに、報告書を提出してください。",
+      "spans": [
+        "末"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 788,
+      "word": "脈",
+      "exampleIndex": 0,
+      "sentence": "看護師は、患者の脈を測って体調を確認した。",
+      "spans": [
+        "脈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 788,
+      "word": "脈",
+      "exampleIndex": 1,
+      "sentence": "相手の反応を見ると、この商談にはまだ脈がありそうだ。",
+      "spans": [
+        "脈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 789,
+      "word": "婿",
+      "exampleIndex": 0,
+      "sentence": "彼は娘の婿として、家業を継ぐことになった。",
+      "spans": [
+        "婿"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 789,
+      "word": "婿",
+      "exampleIndex": 1,
+      "sentence": "娘と婿が、週末に訪ねてきた。",
+      "spans": [
+        "婿"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 790,
+      "word": "網",
+      "exampleIndex": 0,
+      "sentence": "漁師たちは、早朝から網を引いて魚を獲る。",
+      "spans": [
+        "網"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 790,
+      "word": "網",
+      "exampleIndex": 1,
+      "sentence": "情報網を駆使して、競合の動向を把握している。",
+      "spans": [
+        "網"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 791,
+      "word": "矢",
+      "exampleIndex": 0,
+      "sentence": "光陰矢のごとしというが、時の流れは実に早い。",
+      "spans": [
+        "矢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 791,
+      "word": "矢",
+      "exampleIndex": 1,
+      "sentence": "弓から放たれた矢が、的の中心を射抜いた。",
+      "spans": [
+        "矢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 792,
+      "word": "雄",
+      "exampleIndex": 0,
+      "sentence": "この種の鳥は、雄のほうが羽の色が鮮やかだ。",
+      "spans": [
+        "雄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 792,
+      "word": "雄",
+      "exampleIndex": 1,
+      "sentence": "雄と雌の見分けがつきにくい種類もある。",
+      "spans": [
+        "雄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 793,
+      "word": "翼",
+      "exampleIndex": 0,
+      "sentence": "大きな翼を広げた鷲が、悠々と空を舞っている。",
+      "spans": [
+        "翼"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 793,
+      "word": "翼",
+      "exampleIndex": 1,
+      "sentence": "新たな技術という翼を得て、企業は大きく羽ばたいた。",
+      "spans": [
+        "翼"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 794,
+      "word": "裸",
+      "exampleIndex": 0,
+      "sentence": "彼は裸一貫から身を起こし、一代で巨万の富を築いた。",
+      "spans": [
+        "裸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 794,
+      "word": "裸",
+      "exampleIndex": 1,
+      "sentence": "子供は裸になって、風呂に入った。",
+      "spans": [
+        "裸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 795,
+      "word": "寮",
+      "exampleIndex": 0,
+      "sentence": "新入社員の多くは、会社の寮で共同生活を送っている。",
+      "spans": [
+        "寮"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 795,
+      "word": "寮",
+      "exampleIndex": 1,
+      "sentence": "学生寮では、様々な地域の学生が互いに交流している。",
+      "spans": [
+        "寮"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 796,
+      "word": "類",
+      "exampleIndex": 0,
+      "sentence": "この類の問題は、過去にも何度か発生している。",
+      "spans": [
+        "類"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 796,
+      "word": "類",
+      "exampleIndex": 1,
+      "sentence": "類を見ない大規模なプロジェクトが、いよいよ始動する。",
+      "spans": [
+        "類"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 797,
+      "word": "例",
+      "exampleIndex": 0,
+      "sentence": "具体的な例を挙げて、仕組みを説明した。",
+      "spans": [
+        "例"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 797,
+      "word": "例",
+      "exampleIndex": 1,
+      "sentence": "例によって、会議は予定時刻を大幅に超過した。",
+      "spans": [
+        "例"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 798,
+      "word": "暦",
+      "exampleIndex": 0,
+      "sentence": "暦の上では春だが、まだ厳しい寒さが続いている。",
+      "spans": [
+        "暦"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 798,
+      "word": "暦",
+      "exampleIndex": 1,
+      "sentence": "古代の人々は、暦を頼りに農作業の時期を決めていた。",
+      "spans": [
+        "暦"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 799,
+      "word": "枠",
+      "exampleIndex": 0,
+      "sentence": "既存の枠にとらわれない発想が、新規事業の成功を後押しした。",
+      "spans": [
+        "枠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 799,
+      "word": "枠",
+      "exampleIndex": 1,
+      "sentence": "予算の枠内で、最大限の効果を上げる工夫が求められている。",
+      "spans": [
+        "枠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 800,
+      "word": "絆",
+      "exampleIndex": 0,
+      "sentence": "震災を契機に、地域の絆の大切さが改めて見直された。",
+      "spans": [
+        "絆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 800,
+      "word": "絆",
+      "exampleIndex": 1,
+      "sentence": "長年の信頼関係が、両社の絆をより強固なものにしている。",
+      "spans": [
+        "絆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 801,
+      "word": "脇",
+      "exampleIndex": 0,
+      "sentence": "彼は書類を脇に抱えて、慌ただしく会議室を後にした。",
+      "spans": [
+        "脇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 801,
+      "word": "脇",
+      "exampleIndex": 1,
+      "sentence": "本題から外れる話は、いったん脇に置こう。",
+      "spans": [
+        "脇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2436,
+      "word": "企む",
+      "exampleIndex": 1,
+      "sentence": "彼が何を企んでいるのか、周囲は警戒を強めている。",
+      "spans": [
+        "企"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2468,
+      "word": "下す",
+      "exampleIndex": 0,
+      "sentence": "裁判所は、被告に対して厳しい判決を下した。",
+      "spans": [
+        "下"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2468,
+      "word": "下す",
+      "exampleIndex": 1,
+      "sentence": "経営陣は、慎重な検討の末に撤退という決断を下した。",
+      "spans": [
+        "下"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2470,
+      "word": "懐く",
+      "exampleIndex": 1,
+      "sentence": "子どもは、新しい保育士にすぐ懐いた。",
+      "spans": [
+        "懐"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2472,
+      "word": "害する",
+      "exampleIndex": 1,
+      "sentence": "その決定は、住民の利益を害した。",
+      "spans": [
+        "害"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2484,
+      "word": "緩む",
+      "exampleIndex": 1,
+      "sentence": "好業績が続くと、社内の緊張感が緩みがちになる。",
+      "spans": [
+        "緩"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2486,
+      "word": "貫く",
+      "exampleIndex": 0,
+      "sentence": "彼は周囲の反対に屈せず、自らの信念を貫いた。",
+      "spans": [
+        "貫"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2487,
+      "word": "陥る",
+      "exampleIndex": 0,
+      "sentence": "主力商品の不振により、会社は深刻な資金難に陥った。",
+      "spans": [
+        "陥"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2492,
+      "word": "偽る",
+      "exampleIndex": 0,
+      "sentence": "経歴を偽って採用された職員が、懲戒免職の処分を受けた。",
+      "spans": [
+        "偽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2492,
+      "word": "偽る",
+      "exampleIndex": 1,
+      "sentence": "物語の主人公は、自分の年齢を偽った。",
+      "spans": [
+        "偽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2494,
+      "word": "及ぶ",
+      "exampleIndex": 0,
+      "sentence": "交渉は深夜にまで及び、ようやく基本合意に達した。",
+      "spans": [
+        "及"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2497,
+      "word": "急ぐ",
+      "exampleIndex": 1,
+      "sentence": "結論を急がず、複数の選択肢を比較検討することが大切だ。",
+      "spans": [
+        "急"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2506,
+      "word": "脅す",
+      "exampleIndex": 1,
+      "sentence": "小説の中で、男は「秘密をばらすぞ」と友人を脅した。",
+      "spans": [
+        "脅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2510,
+      "word": "凝る",
+      "exampleIndex": 0,
+      "sentence": "長時間の座り仕事で、肩が凝って集中力が落ちてしまった。",
+      "spans": [
+        "凝"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2510,
+      "word": "凝る",
+      "exampleIndex": 1,
+      "sentence": "細部まで凝った造りの店舗が、若い世代に支持されている。",
+      "spans": [
+        "凝"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2513,
+      "word": "謹む",
+      "exampleIndex": 0,
+      "sentence": "新年にあたり、謹んで皆様のご健勝をお祈りいたします。",
+      "spans": [
+        "謹"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2513,
+      "word": "謹む",
+      "exampleIndex": 1,
+      "sentence": "「謹んでお悔やみを申し上げます」という言葉で、弔辞は結ばれた。",
+      "spans": [
+        "謹"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2519,
+      "word": "欠く",
+      "exampleIndex": 1,
+      "sentence": "基本的な安全対策を欠いたまま、工事が進められていた。",
+      "spans": [
+        "欠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2521,
+      "word": "研ぐ",
+      "exampleIndex": 0,
+      "sentence": "職人は、毎朝欠かさず包丁を研いでから仕込みを始める。",
+      "spans": [
+        "研"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2521,
+      "word": "研ぐ",
+      "exampleIndex": 1,
+      "sentence": "米を炊く前に、丁寧に研いでざるに上げた。",
+      "spans": [
+        "研"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2527,
+      "word": "悟る",
+      "exampleIndex": 0,
+      "sentence": "市場の変化に対応できなければ衰退すると、経営者は悟った。",
+      "spans": [
+        "悟"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2527,
+      "word": "悟る",
+      "exampleIndex": 1,
+      "sentence": "彼は相手の沈黙から、交渉が決裂したことを悟った。",
+      "spans": [
+        "悟"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2528,
+      "word": "誤る",
+      "exampleIndex": 0,
+      "sentence": "判断を誤れば、会社の存続そのものが危うくなる。",
+      "spans": [
+        "誤"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2528,
+      "word": "誤る",
+      "exampleIndex": 1,
+      "sentence": "操作を誤ったことが、システム障害の直接の原因だった。",
+      "spans": [
+        "誤"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2535,
+      "word": "耕す",
+      "exampleIndex": 0,
+      "sentence": "農家は、春の訪れとともに畑を耕して種まきの準備を進めた。",
+      "spans": [
+        "耕"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2535,
+      "word": "耕す",
+      "exampleIndex": 1,
+      "sentence": "休耕地を耕し直す取り組みが、地域の活性化につながっている。",
+      "spans": [
+        "耕"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2540,
+      "word": "催す",
+      "exampleIndex": 0,
+      "sentence": "同社は、創業五十周年を記念して盛大な式典を催した。",
+      "spans": [
+        "催"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2540,
+      "word": "催す",
+      "exampleIndex": 1,
+      "sentence": "長時間の移動で眠気を催し、運転を交代することにした。",
+      "spans": [
+        "催"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2545,
+      "word": "察する",
+      "exampleIndex": 0,
+      "sentence": "相手のつらい気持ちを察して、彼は何も言わなかった。",
+      "spans": [
+        "察"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2546,
+      "word": "擦る",
+      "exampleIndex": 0,
+      "sentence": "彼はマッチを擦って、ろうそくに火をつけた。",
+      "spans": [
+        "擦"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2557,
+      "word": "志す",
+      "exampleIndex": 0,
+      "sentence": "若い頃に医師を志した彼は、地方の病院で働き続けている。",
+      "spans": [
+        "志"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2558,
+      "word": "施す",
+      "exampleIndex": 0,
+      "sentence": "工場では、製品に防錆の加工を施してから出荷している。",
+      "spans": [
+        "施"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2558,
+      "word": "施す",
+      "exampleIndex": 1,
+      "sentence": "職人は小箱に細かな装飾を施した。",
+      "spans": [
+        "施"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2561,
+      "word": "蒔く",
+      "exampleIndex": 0,
+      "sentence": "農家は、雨が降る前に急いで畑へ種を蒔いた。",
+      "spans": [
+        "蒔"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2561,
+      "word": "蒔く",
+      "exampleIndex": 1,
+      "sentence": "今は小さな努力でも、蒔いた種はいつか実を結ぶだろう。",
+      "spans": [
+        "蒔"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2562,
+      "word": "射る",
+      "exampleIndex": 0,
+      "sentence": "弓道部員は、静かに息を整えてから的を射た。",
+      "spans": [
+        "射"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2563,
+      "word": "遮る",
+      "exampleIndex": 0,
+      "sentence": "高層ビルが日差しを遮り、周辺の住宅は日当たりが悪くなった。",
+      "spans": [
+        "遮"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2563,
+      "word": "遮る",
+      "exampleIndex": 1,
+      "sentence": "相手の話を遮って意見を述べるのは、会議の作法に反する。",
+      "spans": [
+        "遮"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2564,
+      "word": "弱る",
+      "exampleIndex": 1,
+      "sentence": "取引先から急な変更を求められ、担当者は弱っていた。",
+      "spans": [
+        "弱"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2569,
+      "word": "襲う",
+      "exampleIndex": 0,
+      "sentence": "大型台風が東日本を襲い、各地で停電が相次いだ。",
+      "spans": [
+        "襲"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2569,
+      "word": "襲う",
+      "exampleIndex": 1,
+      "sentence": "突然の不安に襲われて、彼は決断を先送りにしてしまった。",
+      "spans": [
+        "襲"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2575,
+      "word": "澄む",
+      "exampleIndex": 0,
+      "sentence": "湖の水が澄んでいて、湖底の石まではっきりと見える。",
+      "spans": [
+        "澄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2575,
+      "word": "澄む",
+      "exampleIndex": 1,
+      "sentence": "秋の澄んだ空気の中で、遠くの山並みが鮮やかに見えた。",
+      "spans": [
+        "澄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2577,
+      "word": "潤う",
+      "exampleIndex": 0,
+      "sentence": "観光客の増加により、地元の商店街も大いに潤っている。",
+      "spans": [
+        "潤"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2577,
+      "word": "潤う",
+      "exampleIndex": 1,
+      "sentence": "雨が降り、乾いていた大地がようやく潤った。",
+      "spans": [
+        "潤"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2581,
+      "word": "召す",
+      "exampleIndex": 1,
+      "sentence": "王は家臣を宮廷に召して、今後の方針を伝えた。",
+      "spans": [
+        "召"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2583,
+      "word": "焦る",
+      "exampleIndex": 1,
+      "sentence": "焦って決断を下すより、情報を集めて判断する方が賢明だ。",
+      "spans": [
+        "焦"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2587,
+      "word": "譲る",
+      "exampleIndex": 0,
+      "sentence": "社長は、経営権を息子に譲って会長に退く意向を示した。",
+      "spans": [
+        "譲"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2587,
+      "word": "譲る",
+      "exampleIndex": 1,
+      "sentence": "譲れない一線を守るため、交渉団は粘り強く協議を重ねた。",
+      "spans": [
+        "譲"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2589,
+      "word": "慎む",
+      "exampleIndex": 1,
+      "sentence": "深夜に騒ぐのは慎み、近隣への配慮を忘れないでください。",
+      "spans": [
+        "慎"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2590,
+      "word": "浸す",
+      "exampleIndex": 0,
+      "sentence": "野菜を水に浸して、土や汚れを十分に落としてから調理する。",
+      "spans": [
+        "浸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2597,
+      "word": "制する",
+      "exampleIndex": 0,
+      "sentence": "激戦を制したチームが、全国大会への出場権を手にした。",
+      "spans": [
+        "制"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2598,
+      "word": "整う",
+      "exampleIndex": 1,
+      "sentence": "整った環境で学ぶことが、子どもの成長を後押しする。",
+      "spans": [
+        "整"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2599,
+      "word": "調う",
+      "exampleIndex": 1,
+      "sentence": "長い交渉の末、ようやく話が調った。",
+      "spans": [
+        "調"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2603,
+      "word": "説く",
+      "exampleIndex": 0,
+      "sentence": "首相は演説で、構造改革の必要性を繰り返し説いた。",
+      "spans": [
+        "説"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2603,
+      "word": "説く",
+      "exampleIndex": 1,
+      "sentence": "専門家は、早期の対策が被害の拡大を防ぐと説いている。",
+      "spans": [
+        "説"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2607,
+      "word": "潜む",
+      "exampleIndex": 0,
+      "sentence": "この問題の背景には、構造的な格差が潜んでいると指摘される。",
+      "spans": [
+        "潜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2607,
+      "word": "潜む",
+      "exampleIndex": 1,
+      "sentence": "新製品の開発には、思わぬ落とし穴が潜んでいることもある。",
+      "spans": [
+        "潜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2608,
+      "word": "潜る",
+      "exampleIndex": 0,
+      "sentence": "調査隊は海中深く潜り、沈没船の状況を詳しく確認した。",
+      "spans": [
+        "潜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2608,
+      "word": "潜る",
+      "exampleIndex": 1,
+      "sentence": "冷たい風を避けて、子どもは毛布の下に潜った。",
+      "spans": [
+        "潜"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2609,
+      "word": "煽る",
+      "exampleIndex": 0,
+      "sentence": "一部の報道が、市民の不安を煽っているとの批判が出ている。",
+      "spans": [
+        "煽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2609,
+      "word": "煽る",
+      "exampleIndex": 1,
+      "sentence": "強風に煽られて火の勢いが増し、消火活動は難航した。",
+      "spans": [
+        "煽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2610,
+      "word": "閃く",
+      "exampleIndex": 0,
+      "sentence": "会議の最中に、課題を解決する妙案がふと閃いた。",
+      "spans": [
+        "閃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2610,
+      "word": "閃く",
+      "exampleIndex": 1,
+      "sentence": "稲妻が夜空に閃き、直後に激しい雷鳴が響き渡った。",
+      "spans": [
+        "閃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2611,
+      "word": "繕う",
+      "exampleIndex": 0,
+      "sentence": "古い衣服を繕って大切に着る習慣が、再評価されつつある。",
+      "spans": [
+        "繕"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2611,
+      "word": "繕う",
+      "exampleIndex": 1,
+      "sentence": "失敗を隠そうと、彼はその場で体裁を繕った。",
+      "spans": [
+        "繕"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2612,
+      "word": "蘇る",
+      "exampleIndex": 0,
+      "sentence": "復興事業により、廃れていた商店街の活気が蘇った。",
+      "spans": [
+        "蘇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2612,
+      "word": "蘇る",
+      "exampleIndex": 1,
+      "sentence": "昔の写真を見ると、当時の記憶が鮮やかに蘇ってくる。",
+      "spans": [
+        "蘇"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2613,
+      "word": "阻む",
+      "exampleIndex": 0,
+      "sentence": "険しい山道が、救助隊の進路を阻んでいる。",
+      "spans": [
+        "阻"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2615,
+      "word": "操る",
+      "exampleIndex": 0,
+      "sentence": "彼は三か国語を自在に操り、国際会議で通訳を務めた。",
+      "spans": [
+        "操"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2615,
+      "word": "操る",
+      "exampleIndex": 1,
+      "sentence": "裏で世論を操ろうとする試みは、強い批判を浴びた。",
+      "spans": [
+        "操"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2617,
+      "word": "葬る",
+      "exampleIndex": 0,
+      "sentence": "不都合な事実を闇に葬ろうとした経緯が、調査で明らかになった。",
+      "spans": [
+        "葬"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2617,
+      "word": "葬る",
+      "exampleIndex": 1,
+      "sentence": "遺族は故人を静かに葬り、地元の寺で法要を営んだ。",
+      "spans": [
+        "葬"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2618,
+      "word": "装う",
+      "exampleIndex": 0,
+      "sentence": "不審な男は、宅配業者を装って高齢者の自宅に近づいた。",
+      "spans": [
+        "装"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2618,
+      "word": "装う",
+      "exampleIndex": 1,
+      "sentence": "彼女は平静を装っていたが、内心の動揺は隠せなかった。",
+      "spans": [
+        "装"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2619,
+      "word": "憎む",
+      "exampleIndex": 0,
+      "sentence": "講師は「罪を憎んで人を憎まず」という言葉を紹介した。",
+      "spans": [
+        "憎"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2619,
+      "word": "憎む",
+      "exampleIndex": 1,
+      "sentence": "互いを憎み合う感情の連鎖を断ち切ることが、和解への第一歩だ。",
+      "spans": [
+        "憎"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2621,
+      "word": "即する",
+      "exampleIndex": 0,
+      "sentence": "制度は、現場の実態に即して柔軟に見直されるべきだ。",
+      "spans": [
+        "即"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2621,
+      "word": "即する",
+      "exampleIndex": 1,
+      "sentence": "事実に即した報道こそが、メディアの信頼を支える基盤である。",
+      "spans": [
+        "即"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2631,
+      "word": "怠る",
+      "exampleIndex": 0,
+      "sentence": "安全点検を怠ったことが、重大な事故の根本原因であった。",
+      "spans": [
+        "怠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2631,
+      "word": "怠る",
+      "exampleIndex": 1,
+      "sentence": "日々の努力を怠らない姿勢が、長期的な成長につながる。",
+      "spans": [
+        "怠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2632,
+      "word": "滞る",
+      "exampleIndex": 0,
+      "sentence": "部品の供給が滞り、工場の生産ラインは一時停止した。",
+      "spans": [
+        "滞"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2632,
+      "word": "滞る",
+      "exampleIndex": 1,
+      "sentence": "家賃の支払いが滞った場合の対応を、契約書に明記しておく。",
+      "spans": [
+        "滞"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2633,
+      "word": "退く",
+      "exampleIndex": 0,
+      "sentence": "創業者は経営の第一線から退き、後進の育成に専念した。",
+      "spans": [
+        "退"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2633,
+      "word": "退く",
+      "exampleIndex": 1,
+      "sentence": "交渉が決裂し、代表団は席を退いて会場を後にした。",
+      "spans": [
+        "退"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2635,
+      "word": "嘆く",
+      "exampleIndex": 0,
+      "sentence": "識者は、若者の政治離れが進む現状を嘆いている。",
+      "spans": [
+        "嘆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2635,
+      "word": "嘆く",
+      "exampleIndex": 1,
+      "sentence": "嘆いてばかりいても事態は好転しないと、彼は前を向いた。",
+      "spans": [
+        "嘆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2637,
+      "word": "弾く",
+      "exampleIndex": 0,
+      "sentence": "彼女はコンサートホールで、長年練習してきた曲をピアノで堂々と弾いた。",
+      "spans": [
+        "弾"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2637,
+      "word": "弾く",
+      "exampleIndex": 1,
+      "sentence": "撥水加工を施した生地は、雨粒を弾いて内側へ染み込ませない。",
+      "spans": [
+        "弾"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2638,
+      "word": "弾む",
+      "exampleIndex": 0,
+      "sentence": "久しぶりの再会に話が弾み、気がつけば深夜になっていた。",
+      "spans": [
+        "弾"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2642,
+      "word": "伴う",
+      "exampleIndex": 1,
+      "sentence": "新事業の開始に伴い、組織体制を大幅に見直すことになった。",
+      "spans": [
+        "伴"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2644,
+      "word": "挑む",
+      "exampleIndex": 0,
+      "sentence": "新興企業が、業界最大手に真っ向から勝負を挑んだ。",
+      "spans": [
+        "挑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2645,
+      "word": "反る",
+      "exampleIndex": 0,
+      "sentence": "湿気を含んだ木材は、時間がたつと反ってしまうことがある。",
+      "spans": [
+        "反"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2645,
+      "word": "反る",
+      "exampleIndex": 1,
+      "sentence": "乾燥により、板の端が大きく反ってしまった。",
+      "spans": [
+        "反"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2648,
+      "word": "被る",
+      "exampleIndex": 0,
+      "sentence": "台風により、沿岸の農家は甚大な被害を被った。",
+      "spans": [
+        "被"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2648,
+      "word": "被る",
+      "exampleIndex": 1,
+      "sentence": "政策の転換で、中小企業が不利益を被らないよう配慮が要る。",
+      "spans": [
+        "被"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2649,
+      "word": "鈍る",
+      "exampleIndex": 0,
+      "sentence": "長期の休養で、選手の試合勘が鈍ってしまった。",
+      "spans": [
+        "鈍"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2649,
+      "word": "鈍る",
+      "exampleIndex": 1,
+      "sentence": "景気の先行きが不透明で、企業の設備投資への意欲が鈍っている。",
+      "spans": [
+        "鈍"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2653,
+      "word": "捗る",
+      "exampleIndex": 1,
+      "sentence": "復旧作業が思うように捗らず、開通の見通しは立っていない。",
+      "spans": [
+        "捗"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2654,
+      "word": "漂う",
+      "exampleIndex": 0,
+      "sentence": "会場には、新製品への期待感が漂っていた。",
+      "spans": [
+        "漂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2658,
+      "word": "忍ぶ",
+      "exampleIndex": 0,
+      "sentence": "彼は人目を忍んで、夜遅くに会社の裏口から出ていった。",
+      "spans": [
+        "忍"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2658,
+      "word": "忍ぶ",
+      "exampleIndex": 1,
+      "sentence": "留学のため、彼女は貧しさを忍んで貯金を続けた。",
+      "spans": [
+        "忍"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2661,
+      "word": "粘る",
+      "exampleIndex": 0,
+      "sentence": "最後まで粘って交渉した結果、有利な条件を引き出せた。",
+      "spans": [
+        "粘"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2662,
+      "word": "腐る",
+      "exampleIndex": 0,
+      "sentence": "冷蔵設備が故障し、保管していた食品が腐ってしまった。",
+      "spans": [
+        "腐"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2662,
+      "word": "腐る",
+      "exampleIndex": 1,
+      "sentence": "一度の失敗で腐らず、次の機会に向けて準備を重ねてほしい。",
+      "spans": [
+        "腐"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2663,
+      "word": "摘む",
+      "exampleIndex": 0,
+      "sentence": "農家の人々は早朝から、茶畑で新芽を摘んでいる。",
+      "spans": [
+        "摘"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2668,
+      "word": "覆す",
+      "exampleIndex": 0,
+      "sentence": "小説の終盤で、新たな証拠がそれまでの推理を覆した。",
+      "spans": [
+        "覆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2669,
+      "word": "培う",
+      "exampleIndex": 0,
+      "sentence": "長年の海外勤務で培った人脈が、新規事業の大きな資産となった。",
+      "spans": [
+        "培"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2671,
+      "word": "妬む",
+      "exampleIndex": 1,
+      "sentence": "他人の成功を妬んでいても、自らの成長にはつながらない。",
+      "spans": [
+        "妬"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2674,
+      "word": "覆る",
+      "exampleIndex": 0,
+      "sentence": "有力視されていた予想が覆り、無名の候補者が当選した。",
+      "spans": [
+        "覆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2678,
+      "word": "侮る",
+      "exampleIndex": 1,
+      "sentence": "相手を侮った一瞬の油断が、思わぬ敗北を招いた。",
+      "spans": [
+        "侮"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2680,
+      "word": "背く",
+      "exampleIndex": 1,
+      "sentence": "彼は親の意向に背いて、独立の道を選んだ。",
+      "spans": [
+        "背"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2682,
+      "word": "負う",
+      "exampleIndex": 0,
+      "sentence": "経営陣は、今回の問題に対する重い責任を負っている。",
+      "spans": [
+        "負"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2682,
+      "word": "負う",
+      "exampleIndex": 1,
+      "sentence": "事故で重傷を負った乗客は、直ちに病院へ搬送された。",
+      "spans": [
+        "負"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2684,
+      "word": "徹する",
+      "exampleIndex": 0,
+      "sentence": "今回は裏方に徹して、チームの成功を支えることにした。",
+      "spans": [
+        "徹"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2684,
+      "word": "徹する",
+      "exampleIndex": 1,
+      "sentence": "彼は自社の利益よりも、顧客本位の姿勢に徹している。",
+      "spans": [
+        "徹"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2685,
+      "word": "病む",
+      "exampleIndex": 1,
+      "sentence": "祖父は長く胃を病んでいたが、今は快方に向かっている。",
+      "spans": [
+        "病"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2686,
+      "word": "任す",
+      "exampleIndex": 1,
+      "sentence": "重要な案件を部下に任して、自分は新規開拓に専念した。",
+      "spans": [
+        "任"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2689,
+      "word": "匂う",
+      "exampleIndex": 0,
+      "sentence": "庭には梅の花が匂い、春の訪れを静かに告げている。",
+      "spans": [
+        "匂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2689,
+      "word": "匂う",
+      "exampleIndex": 1,
+      "sentence": "扉を開けると、辺り一面に花が匂った。",
+      "spans": [
+        "匂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2697,
+      "word": "発する",
+      "exampleIndex": 0,
+      "sentence": "気象庁は、大雨に関する警報を県内全域に発した。",
+      "spans": [
+        "発"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2697,
+      "word": "発する",
+      "exampleIndex": 1,
+      "sentence": "この問題は、現場の小さな不満に端を発している。",
+      "spans": [
+        "発"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2699,
+      "word": "怒る",
+      "exampleIndex": 0,
+      "sentence": "顧客は、不十分な説明に対して怒って契約を打ち切った。",
+      "spans": [
+        "怒"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2701,
+      "word": "沸く",
+      "exampleIndex": 0,
+      "sentence": "決勝戦の劇的な逆転劇に、会場は大いに沸いた。",
+      "spans": [
+        "沸"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2703,
+      "word": "憤る",
+      "exampleIndex": 1,
+      "sentence": "市民は、政治家の不誠実な説明に強く憤っている。",
+      "spans": [
+        "憤"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2707,
+      "word": "偏る",
+      "exampleIndex": 1,
+      "sentence": "食事の栄養が偏らないよう、献立を工夫する必要がある。",
+      "spans": [
+        "偏"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2708,
+      "word": "癒す",
+      "exampleIndex": 1,
+      "sentence": "友人との会話が、彼女の悲しみを少しずつ癒してくれた。",
+      "spans": [
+        "癒"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2709,
+      "word": "募る",
+      "exampleIndex": 0,
+      "sentence": "住民の間では、行政への不信感が日ごとに募っている。",
+      "spans": [
+        "募"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2711,
+      "word": "慕う",
+      "exampleIndex": 0,
+      "sentence": "部下から慕われる上司は、組織の信頼を築くのがうまい。",
+      "spans": [
+        "慕"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2711,
+      "word": "慕う",
+      "exampleIndex": 1,
+      "sentence": "彼は恩師を慕って、遠く離れた町まで訪ねていった。",
+      "spans": [
+        "慕"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2717,
+      "word": "縫う",
+      "exampleIndex": 1,
+      "sentence": "配達員は車の間を縫って進み、荷物を時間どおりに届けた。",
+      "spans": [
+        "縫"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2719,
+      "word": "暴く",
+      "exampleIndex": 0,
+      "sentence": "調査報道が、組織ぐるみの不正会計の実態を暴いた。",
+      "spans": [
+        "暴"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2723,
+      "word": "磨く",
+      "exampleIndex": 0,
+      "sentence": "職人が長年かけて磨いた技術が、製品の高い品質を支えている。",
+      "spans": [
+        "磨"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2730,
+      "word": "面する",
+      "exampleIndex": 1,
+      "sentence": "当社は、創業以来最大の危機に面している。",
+      "spans": [
+        "面"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2737,
+      "word": "乱す",
+      "exampleIndex": 0,
+      "sentence": "一人の身勝手な行動が、チーム全体の和を乱してしまった。",
+      "spans": [
+        "乱"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2737,
+      "word": "乱す",
+      "exampleIndex": 1,
+      "sentence": "生活のリズムを乱さないよう、規則正しい睡眠を心がけたい。",
+      "spans": [
+        "乱"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2742,
+      "word": "臨む",
+      "exampleIndex": 0,
+      "sentence": "首脳は、緊張感をもって重要な国際会議に臨んだ。",
+      "spans": [
+        "臨"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2744,
+      "word": "励む",
+      "exampleIndex": 0,
+      "sentence": "若手社員は、資格の取得に向けて日々の学習に励んでいる。",
+      "spans": [
+        "励"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2744,
+      "word": "励む",
+      "exampleIndex": 1,
+      "sentence": "彼は研究に励み、ついに画期的な成果を発表した。",
+      "spans": [
+        "励"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2745,
+      "word": "劣る",
+      "exampleIndex": 1,
+      "sentence": "品質は決して劣らないが、価格競争では不利な立場にある。",
+      "spans": [
+        "劣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2746,
+      "word": "裂く",
+      "exampleIndex": 1,
+      "sentence": "強風が旗を裂き、会場の設営は一時中断を余儀なくされた。",
+      "spans": [
+        "裂"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2748,
+      "word": "練る",
+      "exampleIndex": 0,
+      "sentence": "経営陣は数か月かけて、新たな中期計画を練った。",
+      "spans": [
+        "練"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2748,
+      "word": "練る",
+      "exampleIndex": 1,
+      "sentence": "小麦粉を水でよく練り、半日ほど寝かせて生地にする。",
+      "spans": [
+        "練"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2751,
+      "word": "弄ぶ",
+      "exampleIndex": 1,
+      "sentence": "運命に弄ばれながらも、彼は自らの道を切り開いていった。",
+      "spans": [
+        "弄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2756,
+      "word": "和む",
+      "exampleIndex": 0,
+      "sentence": "彼の一言で、緊迫していた会議の空気がふっと和んだ。",
+      "spans": [
+        "和"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2759,
+      "word": "歪む",
+      "exampleIndex": 0,
+      "sentence": "地震の影響で、建物の窓枠が歪んで開閉できなくなった。",
+      "spans": [
+        "歪"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2761,
+      "word": "惑う",
+      "exampleIndex": 0,
+      "sentence": "情報があふれる時代に、消費者は何を選ぶべきか惑っている。",
+      "spans": [
+        "惑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2764,
+      "word": "揉む",
+      "exampleIndex": 0,
+      "sentence": "彼は椅子に座って、肩を揉んでもらった。",
+      "spans": [
+        "揉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2764,
+      "word": "揉む",
+      "exampleIndex": 1,
+      "sentence": "新人は先輩に揉まれながら、一人前の営業へと成長した。",
+      "spans": [
+        "揉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2766,
+      "word": "甦る",
+      "exampleIndex": 1,
+      "sentence": "彼の演奏を聴くと、遠い日の記憶が鮮やかに甦ってくる。",
+      "spans": [
+        "甦"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2767,
+      "word": "睨む",
+      "exampleIndex": 0,
+      "sentence": "監督は、次の試合を睨んで主力選手を温存することにした。",
+      "spans": [
+        "睨"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2767,
+      "word": "睨む",
+      "exampleIndex": 1,
+      "sentence": "市場の動向を睨みながら、慎重に投資の時期を見極める。",
+      "spans": [
+        "睨"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3693,
+      "word": "悪〜",
+      "exampleIndex": 0,
+      "sentence": "悪条件が重なって、山頂への登頂は断念せざるを得なかった。",
+      "spans": [
+        "悪"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3693,
+      "word": "悪〜",
+      "exampleIndex": 1,
+      "sentence": "悪天候の影響で、全国の空の便に大幅な遅れが出ている。",
+      "spans": [
+        "悪"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3694,
+      "word": "誤〜",
+      "exampleIndex": 0,
+      "sentence": "誤解を招かないよう、資料の表現を慎重に見直した。",
+      "spans": [
+        "誤"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3694,
+      "word": "誤〜",
+      "exampleIndex": 1,
+      "sentence": "誤報が広まったため、新聞社は翌日に訂正記事を掲載した。",
+      "spans": [
+        "誤"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3695,
+      "word": "超～",
+      "exampleIndex": 0,
+      "sentence": "政府は超高齢社会に備えた医療制度の改革を急いでいる。",
+      "spans": [
+        "超"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3695,
+      "word": "超～",
+      "exampleIndex": 1,
+      "sentence": "新工場では超精密な部品が、すべて自動で生産されている。",
+      "spans": [
+        "超"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3696,
+      "word": "当〜",
+      "exampleIndex": 0,
+      "sentence": "当社では来月から、全社員にテレワークを導入いたします。",
+      "spans": [
+        "当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3696,
+      "word": "当〜",
+      "exampleIndex": 1,
+      "sentence": "当日券は、開演の一時間前から窓口で販売する予定です。",
+      "spans": [
+        "当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3697,
+      "word": "被〜",
+      "exampleIndex": 0,
+      "sentence": "台風の被災地には、全国から支援物資が届けられている。",
+      "spans": [
+        "被"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3697,
+      "word": "被〜",
+      "exampleIndex": 1,
+      "sentence": "被験者には、実験の目的と手順を事前に説明した。",
+      "spans": [
+        "被"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3698,
+      "word": "不～",
+      "exampleIndex": 0,
+      "sentence": "その計画は資金面で不可能だと、専門家は結論づけた。",
+      "spans": [
+        "不"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3698,
+      "word": "不～",
+      "exampleIndex": 1,
+      "sentence": "彼は少し不器用だが、仕事は誠実で丁寧だ。",
+      "spans": [
+        "不"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3699,
+      "word": "未〜",
+      "exampleIndex": 0,
+      "sentence": "未経験者でも歓迎する、と求人広告には書かれていた。",
+      "spans": [
+        "未"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3699,
+      "word": "未〜",
+      "exampleIndex": 1,
+      "sentence": "未解決の事件に再び光を当てた番組が、大きな反響を呼んだ。",
+      "spans": [
+        "未"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3700,
+      "word": "無〜",
+      "exampleIndex": 0,
+      "sentence": "無責任な発言をした議員に、批判が集中した。",
+      "spans": [
+        "無"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3700,
+      "word": "無〜",
+      "exampleIndex": 1,
+      "sentence": "無事に帰宅したとの連絡を受け、家族は安堵した。",
+      "spans": [
+        "無"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3701,
+      "word": "猛～",
+      "exampleIndex": 0,
+      "sentence": "猛暑が続くなか、熱中症で搬送される人が急増している。",
+      "spans": [
+        "猛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3701,
+      "word": "猛～",
+      "exampleIndex": 1,
+      "sentence": "猛反発を受け、政府は法案の提出を見送ることにした。",
+      "spans": [
+        "猛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3702,
+      "word": "〜員",
+      "exampleIndex": 0,
+      "sentence": "新入社員は、研修で会社の仕事の進め方を学んだ。",
+      "spans": [
+        "員"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3702,
+      "word": "〜員",
+      "exampleIndex": 1,
+      "sentence": "自治体の職員は、地域住民への説明会に出席した。",
+      "spans": [
+        "員"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3703,
+      "word": "〜園",
+      "exampleIndex": 0,
+      "sentence": "市は新しい保育園を、駅の近くに建設する計画を発表した。",
+      "spans": [
+        "園"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3703,
+      "word": "〜園",
+      "exampleIndex": 1,
+      "sentence": "休日の植物園は、家族連れで大変なにぎわいを見せた。",
+      "spans": [
+        "園"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3704,
+      "word": "〜化",
+      "exampleIndex": 0,
+      "sentence": "少子化の進行により、地方の学校の統廃合が相次いでいる。",
+      "spans": [
+        "化"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3704,
+      "word": "〜化",
+      "exampleIndex": 1,
+      "sentence": "業務の効率化を図るため、全社でシステムを導入した。",
+      "spans": [
+        "化"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3705,
+      "word": "〜家",
+      "exampleIndex": 0,
+      "sentence": "彼は政治評論家として、多くの番組に出演している。",
+      "spans": [
+        "家"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3705,
+      "word": "〜家",
+      "exampleIndex": 1,
+      "sentence": "著名な建築家が、新しい美術館の設計を手がけた。",
+      "spans": [
+        "家"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3706,
+      "word": "〜感",
+      "exampleIndex": 0,
+      "sentence": "目標を達成したときの達成感は、何物にも代えがたい。",
+      "spans": [
+        "感"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3706,
+      "word": "〜感",
+      "exampleIndex": 1,
+      "sentence": "新商品にはこれまでにない高級感があり、売れ行きも好調だ。",
+      "spans": [
+        "感"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3707,
+      "word": "〜語",
+      "exampleIndex": 0,
+      "sentence": "彼はフランス語を流暢に話す。",
+      "spans": [
+        "語"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3707,
+      "word": "〜語",
+      "exampleIndex": 1,
+      "sentence": "契約の内容を、専門用語を使わずに説明した。",
+      "spans": [
+        "語"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3708,
+      "word": "〜師",
+      "exampleIndex": 0,
+      "sentence": "彼女は看護師として、二十年以上病院に勤務してきた。",
+      "spans": [
+        "師"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3708,
+      "word": "〜師",
+      "exampleIndex": 1,
+      "sentence": "美容師を目指す若者が、専門学校で技術を磨いている。",
+      "spans": [
+        "師"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3709,
+      "word": "〜室",
+      "exampleIndex": 0,
+      "sentence": "新校舎には最新の設備を備えた実験室が整備された。",
+      "spans": [
+        "室"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3709,
+      "word": "〜室",
+      "exampleIndex": 1,
+      "sentence": "会議室の予約は、前日までに総務部へ申請してください。",
+      "spans": [
+        "室"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3710,
+      "word": "〜者",
+      "exampleIndex": 0,
+      "sentence": "高齢者が安心して暮らせるよう、地域の支援体制を整えた。",
+      "spans": [
+        "者"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3710,
+      "word": "〜者",
+      "exampleIndex": 1,
+      "sentence": "新製品の開発責任者に、入社十年目の彼が抜擢された。",
+      "spans": [
+        "者"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3711,
+      "word": "〜書",
+      "exampleIndex": 0,
+      "sentence": "契約を結ぶ前に、必ず契約書の内容を丁寧に確認すること。",
+      "spans": [
+        "書"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3711,
+      "word": "〜書",
+      "exampleIndex": 1,
+      "sentence": "専門家は報告書の中で、制度の問題点を指摘している。",
+      "spans": [
+        "書"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3712,
+      "word": "〜心",
+      "exampleIndex": 0,
+      "sentence": "若手社員の向上心が、会社全体の成長を支えている。",
+      "spans": [
+        "心"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3712,
+      "word": "〜心",
+      "exampleIndex": 1,
+      "sentence": "彼は好奇心が旺盛で、新しい技術にすぐに挑戦する。",
+      "spans": [
+        "心"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3713,
+      "word": "〜性",
+      "exampleIndex": 0,
+      "sentence": "この素材は耐久性に優れ、屋外での使用にも適している。",
+      "spans": [
+        "性"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3713,
+      "word": "〜性",
+      "exampleIndex": 1,
+      "sentence": "計画の実現性を検証するため、専門家会議が開かれた。",
+      "spans": [
+        "性"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3714,
+      "word": "〜先",
+      "exampleIndex": 0,
+      "sentence": "転勤が決まり、彼は新しい勤務先の近くへ引っ越した。",
+      "spans": [
+        "先"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3714,
+      "word": "〜先",
+      "exampleIndex": 1,
+      "sentence": "荷物の届け先を間違えたため、配送が大幅に遅れてしまった。",
+      "spans": [
+        "先"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3715,
+      "word": "〜地",
+      "exampleIndex": 0,
+      "sentence": "市は駅前の一帯を、新しい商業地として開発する方針だ。",
+      "spans": [
+        "地"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3715,
+      "word": "〜地",
+      "exampleIndex": 1,
+      "sentence": "豪雪に見舞われた被災地では、復旧作業が続いている。",
+      "spans": [
+        "地"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3716,
+      "word": "〜派",
+      "exampleIndex": 0,
+      "sentence": "党内の改革派は、執行部に対して抜本的な見直しを求めた。",
+      "spans": [
+        "派"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3716,
+      "word": "〜派",
+      "exampleIndex": 1,
+      "sentence": "強硬派との対立が、交渉の行方を不透明にしている。",
+      "spans": [
+        "派"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3717,
+      "word": "〜物",
+      "exampleIndex": 0,
+      "sentence": "この地域の建築物は、歴史的な価値が高く評価されている。",
+      "spans": [
+        "物"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3717,
+      "word": "〜物",
+      "exampleIndex": 1,
+      "sentence": "廃棄物の処理には、法令に基づく厳格な管理が求められる。",
+      "spans": [
+        "物"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3718,
+      "word": "〜率",
+      "exampleIndex": 0,
+      "sentence": "今年度の大学の就職率は、過去十年で最も高い水準となった。",
+      "spans": [
+        "率"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3718,
+      "word": "〜率",
+      "exampleIndex": 1,
+      "sentence": "政府は物価上昇率が目標値を上回ったと発表した。",
+      "spans": [
+        "率"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3719,
+      "word": "〜料",
+      "exampleIndex": 0,
+      "sentence": "入場料は大人千円と定められている。",
+      "spans": [
+        "料"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3719,
+      "word": "〜料",
+      "exampleIndex": 1,
+      "sentence": "原材料の高騰を受け、メーカーは製品の販売価格を引き上げた。",
+      "spans": [
+        "料"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3722,
+      "word": "〜街",
+      "exampleIndex": 0,
+      "sentence": "駅前の商店街は、休日になると買い物客でにぎわう。",
+      "spans": [
+        "街"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3722,
+      "word": "〜街",
+      "exampleIndex": 1,
+      "sentence": "老舗の店が並ぶ繁華街が、再開発の対象となった。",
+      "spans": [
+        "街"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3723,
+      "word": "〜観",
+      "exampleIndex": 0,
+      "sentence": "若者の価値観は、時代とともに大きく変化してきた。",
+      "spans": [
+        "観"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3723,
+      "word": "〜観",
+      "exampleIndex": 1,
+      "sentence": "海外での経験が、彼の人生観を根本から変えた。",
+      "spans": [
+        "観"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3724,
+      "word": "〜係",
+      "exampleIndex": 0,
+      "sentence": "彼は受付係として、来客の案内を一手に引き受けている。",
+      "spans": [
+        "係"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3724,
+      "word": "〜係",
+      "exampleIndex": 1,
+      "sentence": "彼は図書係になり、クラスの本を整理している。",
+      "spans": [
+        "係"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3725,
+      "word": "〜圏",
+      "exampleIndex": 0,
+      "sentence": "首都圏では、通勤時間の長さが長年の課題となっている。",
+      "spans": [
+        "圏"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3725,
+      "word": "〜圏",
+      "exampleIndex": 1,
+      "sentence": "台風は明日、首都圏に接近する見通しだと気象庁が発表した。",
+      "spans": [
+        "圏"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3726,
+      "word": "〜権",
+      "exampleIndex": 0,
+      "sentence": "労働者の団結権は、憲法によって保障されている。",
+      "spans": [
+        "権"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3726,
+      "word": "〜権",
+      "exampleIndex": 1,
+      "sentence": "新しい契約では、著作権の帰属先が明確に定められた。",
+      "spans": [
+        "権"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3727,
+      "word": "〜源",
+      "exampleIndex": 0,
+      "sentence": "政府は新たな財源を確保するため、税制の見直しに着手した。",
+      "spans": [
+        "源"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3727,
+      "word": "〜源",
+      "exampleIndex": 1,
+      "sentence": "この町の主な収入源は、温泉を中心とした観光業である。",
+      "spans": [
+        "源"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3728,
+      "word": "〜署",
+      "exampleIndex": 0,
+      "sentence": "事故の通報を受け、警察署は現場に捜査員を急行させた。",
+      "spans": [
+        "署"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3728,
+      "word": "〜署",
+      "exampleIndex": 1,
+      "sentence": "税務署は確定申告の時期を迎え、窓口が大変混雑している。",
+      "spans": [
+        "署"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3730,
+      "word": "〜点",
+      "exampleIndex": 0,
+      "sentence": "この計画には、資金調達という解決すべき問題点が残っている。",
+      "spans": [
+        "点"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3730,
+      "word": "〜点",
+      "exampleIndex": 1,
+      "sentence": "試験で八十点を取り、合格した。",
+      "spans": [
+        "点"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3731,
+      "word": "〜版",
+      "exampleIndex": 0,
+      "sentence": "この辞典は昨年、全面改訂を加えた第三版が刊行された。",
+      "spans": [
+        "版"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3731,
+      "word": "〜版",
+      "exampleIndex": 1,
+      "sentence": "電子版の購読者数が、紙媒体の発行部数を初めて上回った。",
+      "spans": [
+        "版"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3732,
+      "word": "〜品",
+      "exampleIndex": 0,
+      "sentence": "店では、地元の農家が作った特産品を数多く取りそろえている。",
+      "spans": [
+        "品"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3732,
+      "word": "〜品",
+      "exampleIndex": 1,
+      "sentence": "期限切れの食料品は、販売せずにすべて廃棄する決まりである。",
+      "spans": [
+        "品"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3733,
+      "word": "〜網",
+      "exampleIndex": 0,
+      "sentence": "政府は全国に通信網を整備し、地方の情報格差の解消を図る。",
+      "spans": [
+        "網"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3733,
+      "word": "〜網",
+      "exampleIndex": 1,
+      "sentence": "警察は犯人の逃走を防ぐため、周辺に厳重な包囲網を敷いた。",
+      "spans": [
+        "網"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3734,
+      "word": "〜欄",
+      "exampleIndex": 0,
+      "sentence": "申込書の備考欄に、希望の連絡方法を記入してください。",
+      "spans": [
+        "欄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3734,
+      "word": "〜欄",
+      "exampleIndex": 1,
+      "sentence": "新聞の投書欄には、読者から多くの意見が寄せられている。",
+      "spans": [
+        "欄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3735,
+      "word": "〜裏",
+      "exampleIndex": 0,
+      "sentence": "国際会議は成功裏に終了し、参加国は共同声明を採択した。",
+      "spans": [
+        "裏"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3735,
+      "word": "〜裏",
+      "exampleIndex": 1,
+      "sentence": "両国の協議は、秘密裏に進められていたことが明らかになった。",
+      "spans": [
+        "裏"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3736,
+      "word": "〜隊",
+      "exampleIndex": 0,
+      "sentence": "救助隊は崖の下で動けなくなった登山者を無事に発見した。",
+      "spans": [
+        "隊"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3736,
+      "word": "〜隊",
+      "exampleIndex": 1,
+      "sentence": "地元の消防隊が、すばやく駆けつけて火災の拡大を防いだ。",
+      "spans": [
+        "隊"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3737,
+      "word": "〜陣",
+      "exampleIndex": 0,
+      "sentence": "新監督は、経験豊富な選手を中心に守備陣を立て直した。",
+      "spans": [
+        "陣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3737,
+      "word": "〜陣",
+      "exampleIndex": 1,
+      "sentence": "取材陣が会見場に詰めかけ、質問が次々と飛び交った。",
+      "spans": [
+        "陣"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 120,
+      "word": "～なら～で",
+      "exampleIndex": 0,
+      "sentence": "忙しいなら忙しいで、その状況に合った時間の使い方を工夫すべきだ。",
+      "spans": [
+        "なら",
+        "で"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 120,
+      "word": "～なら～で",
+      "exampleIndex": 1,
+      "sentence": "一人なら一人で、自分のペースで進められる利点がある。",
+      "spans": [
+        "なら",
+        "で"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 123,
+      "word": "お / ご〜願う",
+      "exampleIndex": 0,
+      "sentence": "恐れ入りますが、こちらにご記入願います。",
+      "spans": [
+        "ご",
+        "願"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 123,
+      "word": "お / ご〜願う",
+      "exampleIndex": 1,
+      "sentence": "会場内での撮影はご遠慮願います。",
+      "spans": [
+        "ご",
+        "願"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 124,
+      "word": "お / ご〜くださる",
+      "exampleIndex": 0,
+      "sentence": "部長が自ら現場にお越しくださり、社員一同大変感激いたしました。",
+      "spans": [
+        "お"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 124,
+      "word": "お / ご〜くださる",
+      "exampleIndex": 1,
+      "sentence": "ご多忙にもかかわらず、ご出席くださいましたことを厚く御礼申し上げます。",
+      "spans": [
+        "ご"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 125,
+      "word": "お / ご〜いただく",
+      "exampleIndex": 0,
+      "sentence": "お忙しいところご足労いただき、誠に恐縮です。",
+      "spans": [
+        "お",
+        "ご"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 125,
+      "word": "お / ご〜いただく",
+      "exampleIndex": 1,
+      "sentence": "ご意見をお寄せいただければ幸いです。",
+      "spans": [
+        "ご",
+        "お"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 127,
+      "word": "〜召す",
+      "exampleIndex": 0,
+      "sentence": "お客様、こちらの上着をお召しになって、鏡でお確かめください。",
+      "spans": [
+        "召"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 127,
+      "word": "〜召す",
+      "exampleIndex": 1,
+      "sentence": "新しい制服は、皆様のお気に召したようで何よりです。",
+      "spans": [
+        "召"
+      ]
+    }
+  ],
+  "htmlSha256": "142c5b7d3ad77b034d17778885de83fd928cdd2c99d1f06c9ad3012012353a12",
+  "scope": "actual markTarget matching only; candidates are not confirmed semantic errors"
+}

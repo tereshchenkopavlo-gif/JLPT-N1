@@ -1,0 +1,1619 @@
+[
+  {
+    "id": 1,
+    "label": "〜ようが",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-06",
+        "quote": "雨が強かろうが弱かろうが",
+        "meaning": "незалежно від того, сильний дощ чи слабкий; обидві умови не змінюють висновку"
+      },
+      {
+        "readingKey": "l130-06",
+        "quote": "目当ての場所に着かなかろうが",
+        "meaning": "навіть якщо не дістатися запланованого місця"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 2,
+    "label": "〜ようが～まいが",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l131-01",
+        "quote": "晴れようが晴れまいが",
+        "meaning": "буде сонячно чи ні; результат не скасовує подальшої перевірки"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 3,
+    "label": "〜とはいえ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-01",
+        "quote": "大切な品とはいえ",
+        "meaning": "хоч річ і дорога серцю"
+      },
+      {
+        "readingKey": "l129-05",
+        "quote": "とはいえ",
+        "meaning": "попри це; застереження до попередньої думки"
+      },
+      {
+        "readingKey": "l130-01",
+        "quote": "とはいえ",
+        "meaning": "поступка: попри цінність знання сусідів"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 4,
+    "label": "〜ようにも〜ない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-15",
+        "quote": "引き留めようにも、事情が変わって不要になった人には効果がない",
+        "meaning": "навіть намагаючись утримати знижкою, не можна вплинути на того, кому послуга вже не потрібна"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 5,
+    "label": "〜かと思いきや",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-01",
+        "quote": "勧めるかと思いきや",
+        "meaning": "очікувалося, що порадить, але сталося інакше"
+      },
+      {
+        "readingKey": "m131-05",
+        "quote": "本の内容について尋ねられると思いきや",
+        "meaning": "очікував запитань про книжку, але сталося інакше"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 6,
+    "label": "〜といえども",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-09",
+        "quote": "経験者といえども",
+        "meaning": "навіть досвідчений користувач"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 7,
+    "label": "〜たところで",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-06",
+        "quote": "集めたところで",
+        "meaning": "навіть якщо зібрати більше"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 8,
+    "label": "〜とあって",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l129-03",
+        "quote": "盛んになったとあって",
+        "meaning": "оскільки діяльність пожвавилася"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 9,
+    "label": "〜ばこそ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-18",
+        "quote": "知ればこそ",
+        "meaning": "саме завдяки розумінню"
+      },
+      {
+        "readingKey": "m130-11",
+        "quote": "扱いがあってこそ",
+        "meaning": "саме завдяки такому ставленню після рішення"
+      },
+      {
+        "readingKey": "l129-02",
+        "quote": "信頼があればこそ",
+        "meaning": "саме завдяки довірі"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 10,
+    "label": "〜ゆえ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l135-02",
+        "quote": "実現しなかった計画であるがゆえに",
+        "meaning": "саме через те, що план не здійснився; причина непомітності проміжних подій"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 11,
+    "label": "〜こととて",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l135-01",
+        "quote": "不慣れなこととて",
+        "meaning": "через недосвідченість; формальне пояснення обставини у вибаченні за пізню відповідь"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 12,
+    "label": "〜手前",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-01",
+        "quote": "新人に質問を勧めた手前",
+        "meaning": "з огляду на власні попередні слова перед новачками; потреба поводитися відповідно до заявленого"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 13,
+    "label": "〜たりとも",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-04",
+        "quote": "一瞬たりとも",
+        "meaning": "ані на мить; мінімальна одиниця з підсиленим запереченням"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 14,
+    "label": "〜はおろか",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-06",
+        "quote": "住所はおろか、本当の名前さえ分からない",
+        "meaning": "немає навіть базовішого імені, не кажучи вже про адресу"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 15,
+    "label": "〜もさることながら",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-06",
+        "quote": "大小もさることながら",
+        "meaning": "важлива не лише величина"
+      },
+      {
+        "readingKey": "m130-03",
+        "quote": "広さもさることながら",
+        "meaning": "важлива не лише площа"
+      },
+      {
+        "readingKey": "l129-02",
+        "quote": "量もさることながら",
+        "meaning": "важливий не лише обсяг"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 16,
+    "label": "ただ～のみ",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 17,
+    "label": "〜だに",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 18,
+    "label": "〜までのことだ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-03",
+        "quote": "仮の名で出すまでのことだ",
+        "meaning": "якщо потрібно, просто подамо з робочою назвою; готовність до запасного способу, не завершення всіх можливостей"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 19,
+    "label": "～すら",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-07",
+        "quote": "撮った私すら",
+        "meaning": "навіть я, який зробив цей знімок"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 20,
+    "label": "〜をおいて他にはない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-01",
+        "quote": "母が安心して暮らすことをおいて、今優先すべきことは他にはない",
+        "meaning": "найважливішим є спокійне життя матері; винятковість вибору"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 21,
+    "label": "〜ならではの",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-05",
+        "quote": "作品ならではの",
+        "meaning": "властивий саме цьому твору"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 22,
+    "label": "〜からというもの",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m130-01",
+        "quote": "働き始めてからというもの",
+        "meaning": "відколи почав працювати — стійка зміна уваги"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 23,
+    "label": "〜を皮切りに",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l129-01",
+        "quote": "実験を皮切りに",
+        "meaning": "почавши з цих експериментів"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 24,
+    "label": "〜をもって①",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l135-04",
+        "quote": "十一月十日午後五時をもって",
+        "meaning": "офіційне позначення моменту завершення приймання, визначеного далі в тексті"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 25,
+    "label": "〜ばそれまで",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m130-12",
+        "quote": "言われれば、それまで",
+        "meaning": "якщо відкинути річ такими словами, далі нічого сказати"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 26,
+    "label": "〜たが最後",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 27,
+    "label": "〜を限りに",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m130-09",
+        "quote": "今回を限りに",
+        "meaning": "після цього разу припиняють роздавання"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 28,
+    "label": "〜に至るまで",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-08",
+        "quote": "声の高さから息継ぎの位置に至るまで",
+        "meaning": "аж до місць для вдиху; охоплення дрібних деталей"
+      },
+      {
+        "readingKey": "l129-07",
+        "quote": "結果に至るまで",
+        "meaning": "аж до отримання результату"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 29,
+    "label": "〜といったところ",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 30,
+    "label": "〜にとどまらず",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-03",
+        "quote": "便利さにとどまらず",
+        "meaning": "не обмежуючись зручністю"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 31,
+    "label": "〜に至っては",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l130-04",
+        "quote": "終盤の回想に至っては",
+        "meaning": "що вже до фінального спогаду — окремий виразний випадок"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 32,
+    "label": "〜ものを",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l132-03",
+        "quote": "書き直さずに済んだものを",
+        "meaning": "досада через нереалізовану можливість уникнути переписування; початкова оцінка автора, яку далі переглянуто"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 33,
+    "label": "〜ではあるまいし",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l135-05",
+        "quote": "子どもではあるまいし",
+        "meaning": "ви ж не діти; докір із вимогою дорослої самостійності, який автор далі переосмислює"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 34,
+    "label": "～きらいがある",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l130-04",
+        "quote": "価値を置くきらいがある",
+        "meaning": "є небажана схильність надавати цінності"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 35,
+    "label": "〜始末",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 36,
+    "label": "～ごとき",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 37,
+    "label": "～ときたら",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 38,
+    "label": "〜ならまだしも",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-11",
+        "quote": "基準にするならまだしも",
+        "meaning": "ще можна було б узяти за критерій, але…"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 39,
+    "label": "〜んがため",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 40,
+    "label": "〜べく",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-14",
+        "quote": "減らすべく",
+        "meaning": "з метою зменшити"
+      },
+      {
+        "readingKey": "m129-19",
+        "quote": "増やすべく",
+        "meaning": "щоб збільшити кількість"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 41,
+    "label": "〜べくして",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 42,
+    "label": "〜べくもない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-02",
+        "quote": "私一人では知るべくもなかった",
+        "meaning": "не мав можливості знати це сам, без пояснення іншої сторони"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 43,
+    "label": "〜べからず",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 44,
+    "label": "〜あるまじき",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 45,
+    "label": "〜をもって②",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-03",
+        "quote": "数字だけをもって",
+        "meaning": "на підставі лише цього показника"
+      },
+      {
+        "readingKey": "m130-08",
+        "quote": "それだけをもって",
+        "meaning": "використовуючи лише це як підставу для висновку"
+      },
+      {
+        "readingKey": "l129-04",
+        "quote": "事実をもって",
+        "meaning": "на підставі самого факту"
+      },
+      {
+        "readingKey": "l129-05",
+        "quote": "満たすことをもって",
+        "meaning": "на підставі самого дотримання"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 46,
+    "label": "〜にひきかえ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-08",
+        "quote": "私にひきかえ",
+        "meaning": "на противагу мені"
+      },
+      {
+        "readingKey": "m132-03",
+        "quote": "昼の水槽にひきかえ",
+        "meaning": "на відміну від денного акваріума; контраст двох спостережень"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 47,
+    "label": "〜を余儀なくされる",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-16",
+        "quote": "交渉を余儀なくされることなく",
+        "meaning": "не будучи змушеним щоразу вести переговори"
+      },
+      {
+        "readingKey": "l129-06",
+        "quote": "やり直しを余儀なくされる",
+        "meaning": "бути змушеним почати заново"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 48,
+    "label": "〜を押して",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 49,
+    "label": "〜といったらない",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 50,
+    "label": "〜極まりない",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 51,
+    "label": "〜てやまない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-05",
+        "quote": "店の発展を願ってやまない",
+        "meaning": "щиро й незмінно бажати розвитку магазину; стале сильне побажання"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 52,
+    "label": "～を禁じ得ない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l135-06",
+        "quote": "驚きを禁じ得なかった",
+        "meaning": "не міг стримати подиву; мимовільна емоційна реакція, без твердження про технічну перевагу"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 53,
+    "label": "〜とは",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-01",
+        "quote": "いつもの表情を消していたとは",
+        "meaning": "несподіване усвідомлення власної помилки: подумати тільки, стер звичний вираз"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 54,
+    "label": "～にもまして",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 55,
+    "label": "〜でなくてなんだろう",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 56,
+    "label": "〜にもほどがある",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 57,
+    "label": "〜にたえない①",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 58,
+    "label": "〜の至り",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 59,
+    "label": "〜や否や",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-02",
+        "quote": "印刷された紙が出てくるや否や",
+        "meaning": "щойно вийшов аркуш, відразу зупинив апарат; послідовність уже здійснених подій"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 60,
+    "label": "〜そばから",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-09",
+        "quote": "道具を中央へ戻すそばから",
+        "meaning": "щойно повернеш інструмент, його знову забирають; повторювана дія, результат якої відразу скасовується"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 61,
+    "label": "〜が早いか",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 62,
+    "label": "～なり",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m130-05",
+        "quote": "箱を開けるなり",
+        "meaning": "щойно відкрили коробку — негайна реакція"
+      },
+      {
+        "readingKey": "m130-16",
+        "quote": "名前を見るなり",
+        "meaning": "щойно прочитавши напис на бейджі"
+      },
+      {
+        "readingKey": "m131-10",
+        "quote": "私を見るなり",
+        "meaning": "щойно побачив мене, відразу сказав"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 63,
+    "label": "〜ながら",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 64,
+    "label": "～ところ",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 65,
+    "label": "〜かたわら",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-10",
+        "quote": "パンを焼くかたわら",
+        "meaning": "поряд з основною роботою пекаря регулярно навчати інших"
+      },
+      {
+        "readingKey": "l130-01",
+        "quote": "世話するかたわら",
+        "meaning": "поряд із доглядом власного городу"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 66,
+    "label": "〜かたがた",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-09",
+        "quote": "取材のお礼かたがた、記事の掲載日を知らせに行った",
+        "meaning": "завітав подякувати за інтерв’ю й водночас повідомити дату публікації; ввічливе поєднання двох цілей"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 67,
+    "label": "〜がてら",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-10",
+        "quote": "本を返しがてら",
+        "meaning": "занести річ принагідно, йдучи повертати книжки"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 68,
+    "label": "〜なくして",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-07",
+        "quote": "理解なくして",
+        "meaning": "без розуміння та підтримки"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 69,
+    "label": "〜ことなしに",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-04",
+        "quote": "具体的にすることなしに",
+        "meaning": "без конкретизації"
+      },
+      {
+        "readingKey": "m130-07",
+        "quote": "片方を消すことなしに",
+        "meaning": "не стираючи жодної з двох назв"
+      },
+      {
+        "readingKey": "m131-03",
+        "quote": "先生の案を試すことなしに",
+        "meaning": "не випробувавши пропозицію викладача"
+      },
+      {
+        "readingKey": "l129-06",
+        "quote": "確認することなしに",
+        "meaning": "без уточнення"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 70,
+    "label": "〜とあれば",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-14",
+        "quote": "見られるとあれば",
+        "meaning": "якщо з’являється можливість побачити"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 71,
+    "label": "～とあっては",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-06",
+        "quote": "参加の仕方が分からないとあっては",
+        "meaning": "за таких обставин, коли невідомий спосіб участі, підготувати проведення неможливо"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 72,
+    "label": "〜ならいざしらず",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-09",
+        "quote": "自分用のメモならいざしらず",
+        "meaning": "для власних записів це ще можна зрозуміти, але для чужого читача — інша вимога"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 73,
+    "label": "～ようものなら",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 74,
+    "label": "〜あっての",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-19",
+        "quote": "参加者あっての",
+        "meaning": "можливе саме завдяки учасникам"
+      },
+      {
+        "readingKey": "l129-10",
+        "quote": "理解があっての",
+        "meaning": "можливе завдяки розумінню"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 75,
+    "label": "〜いかんでは",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-12",
+        "quote": "内容いかんでは",
+        "meaning": "залежно від змісту звернення"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 76,
+    "label": "〜に即して",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-16",
+        "quote": "世帯人数に即して",
+        "meaning": "відповідно до кількості людей у домогосподарстві"
+      },
+      {
+        "readingKey": "l129-09",
+        "quote": "本文に即して",
+        "meaning": "спираючись на основний текст"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 77,
+    "label": "〜ようによっては",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-04",
+        "quote": "扱いようによっては",
+        "meaning": "залежно від способу опрацювання"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 78,
+    "label": "～をよそに",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 79,
+    "label": "〜をものともせず",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 80,
+    "label": "〜てはばからない",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 81,
+    "label": "〜にかたくない",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 82,
+    "label": "〜に越したことはない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-17",
+        "quote": "直すことに越したことはない",
+        "meaning": "найкраще виправити"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 83,
+    "label": "〜までもない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l130-03",
+        "quote": "言うまでもない",
+        "meaning": "зайве й казати — очевидна корисність цифр"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 84,
+    "label": "～てかなわない",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 85,
+    "label": "〜にたえない②",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 86,
+    "label": "〜にあたらない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-07",
+        "quote": "非難するにはあたらない",
+        "meaning": "не заслуговує на осуд"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 87,
+    "label": "〜ないまでも",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-13",
+        "quote": "至らないまでも",
+        "meaning": "хай і не вдається досягнути повністю"
+      },
+      {
+        "readingKey": "m131-10",
+        "quote": "親しくならないまでも",
+        "meaning": "нехай і не стаючи близькими"
+      },
+      {
+        "readingKey": "l130-05",
+        "quote": "原曲どおりには弾けないまでも",
+        "meaning": "навіть якщо поки не досягти повного виконання оригіналу"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 88,
+    "label": "〜ないでもない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-08",
+        "quote": "聞けないでもない",
+        "meaning": "не можна сказати, що зовсім не чути; обережне визнання часткової можливості, не тверда згода"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 89,
+    "label": "〜ずじまい",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-05",
+        "quote": "一度も訪ねずじまいだった",
+        "meaning": "так жодного разу й не відвідав, хоча така нагода або намір були"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 90,
+    "label": "～ないでは（ずには）おかない",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 91,
+    "label": "〜ないでは（ずには）すまない",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-12",
+        "quote": "説明せずにはすまない",
+        "meaning": "не вдасться обійтися без пояснення"
+      },
+      {
+        "readingKey": "l129-08",
+        "quote": "変えずにはすまない",
+        "meaning": "неможливо обійтися без змін"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 92,
+    "label": "〜ないものか",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-12",
+        "quote": "通りやすくできないものか",
+        "meaning": "чи не можна знайти спосіб полегшити прохід; бажання знайти рішення"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 93,
+    "label": "〜んばかり",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 94,
+    "label": "〜なりに",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-08",
+        "quote": "相手なりに",
+        "meaning": "по-своєму, відповідно до власного підходу"
+      },
+      {
+        "readingKey": "l129-09",
+        "quote": "自分なりの",
+        "meaning": "власний, відповідний своєму способу розуміння"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 95,
+    "label": "～にあって",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l130-03",
+        "quote": "人手の限られる現状にあって",
+        "meaning": "в умовах нинішньої нестачі працівників"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 96,
+    "label": "〜にして",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-11",
+        "quote": "作者にして最初の読者",
+        "meaning": "автор і водночас перший читач — дві ролі однієї особи"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 97,
+    "label": "～のごとく",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m130-04",
+        "quote": "自分の感想のごとく",
+        "meaning": "ніби це власні враження"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 98,
+    "label": "〜てしかるべき",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-02",
+        "quote": "説明してしかるべき",
+        "meaning": "належить пояснювати"
+      },
+      {
+        "readingKey": "m129-17",
+        "quote": "残してしかるべき",
+        "meaning": "належить залишати"
+      },
+      {
+        "readingKey": "m130-03",
+        "quote": "考えてしかるべきだ",
+        "meaning": "належить продумати — обґрунтоване очікування"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 99,
+    "label": "〜たる",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-08",
+        "quote": "公開資料を扱う者たるもの",
+        "meaning": "той, хто працює з публічними матеріалами, має відповідати очікуванням цієї ролі"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 100,
+    "label": "〜にしたところで",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-05",
+        "quote": "専門家にしたところで",
+        "meaning": "навіть якщо йдеться про фахівця"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 101,
+    "label": "〜ともなると",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 102,
+    "label": "〜のをいいことに",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-04",
+        "quote": "反応が見えないのをいいことに",
+        "meaning": "скориставшись тим, що не видно реакцій інших, діяти лише на власний розсуд; критична оцінка"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 103,
+    "label": "〜にたる",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 104,
+    "label": "〜ずくめ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-05",
+        "quote": "いいことずくめの文章",
+        "meaning": "текст із суцільних позитивних моментів; усе подано під однією ознакою"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 105,
+    "label": "〜まみれ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l135-03",
+        "quote": "ほこりまみれ",
+        "meaning": "вся в пилюці; небажане фізичне забруднення поверхні коробки"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 106,
+    "label": "～めく",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 107,
+    "label": "〜からある・〜からいる・〜からする",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-04",
+        "quote": "二十キロからある",
+        "meaning": "аж двадцять кілограмів; підкреслення значної ваги"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 108,
+    "label": "～と相まって",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-20",
+        "quote": "住民の知識とが相まって",
+        "meaning": "поєднуючись зі знаннями мешканців"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 109,
+    "label": "〜を踏まえて",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-02",
+        "quote": "変更を踏まえて",
+        "meaning": "врахувавши зміну"
+      },
+      {
+        "readingKey": "m129-13",
+        "quote": "映像や声を踏まえて",
+        "meaning": "враховуючи зображення та голос"
+      },
+      {
+        "readingKey": "l129-10",
+        "quote": "意見も踏まえて",
+        "meaning": "врахувавши також думки"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 110,
+    "label": "〜を経て",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-10",
+        "quote": "試行錯誤を経て",
+        "meaning": "пройшовши через спроби й помилки"
+      },
+      {
+        "readingKey": "m131-02",
+        "quote": "三十分を経て",
+        "meaning": "після спливу тридцяти хвилин"
+      },
+      {
+        "readingKey": "l130-02",
+        "quote": "この確認を経て",
+        "meaning": "після цього уточнення, пройшовши етап перевірки"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 111,
+    "label": "～にかこつけて",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 112,
+    "label": "〜であれ〜であれ",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m129-09",
+        "quote": "利用者であれ職員であれ",
+        "meaning": "чи то користувач, чи працівник"
+      },
+      {
+        "readingKey": "m130-02",
+        "quote": "経験者であれ初心者であれ",
+        "meaning": "незалежно від того, досвідчений це учасник чи початківець"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 113,
+    "label": "〜ともなく",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l132-05",
+        "quote": "聞くともなく聞いている",
+        "meaning": "ненавмисно чути розмову, не спрямовуючи спочатку увагу на прослуховування"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 114,
+    "label": "〜といい〜といい",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 115,
+    "label": "～なり～なり",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m132-12",
+        "quote": "電話なりメールなりで",
+        "meaning": "телефоном або, наприклад, електронною поштою; альтернативні способи"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 116,
+    "label": "〜つ〜つ",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 117,
+    "label": "～ては～ては",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-04",
+        "quote": "画面を見ては景色を確かめ、景色を見ては画面に戻る",
+        "meaning": "повторюване чергування погляду на карту й перевірки довколишнього краєвиду"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 118,
+    "label": "〜といおうか〜といおうか",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 119,
+    "label": "〜といわず〜といわず",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 120,
+    "label": "～なら～で",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m135-07",
+        "quote": "一人なら一人で",
+        "meaning": "якщо вже сам, то за цих умов можна обрати відповідний спосіб провести час"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 121,
+    "label": "〜させていただく",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l129-10",
+        "quote": "参加させていただく",
+        "meaning": "ввічливе повідомлення про власну участь"
+      },
+      {
+        "readingKey": "l130-07",
+        "quote": "確認させていただきます",
+        "meaning": "дозвольте узгодити — ввічливе повідомлення про власну дію"
+      },
+      {
+        "readingKey": "l131-05",
+        "quote": "歌わせていただきたい",
+        "meaning": "ввічливе прохання дозволити провести співочу репетицію"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 122,
+    "label": "〜ていただく",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m130-10",
+        "quote": "書いていただけないでしょうか",
+        "meaning": "ввічливе прохання до автора написати конкретніше"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 123,
+    "label": "お / ご〜願う",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m130-09",
+        "quote": "ご連絡願います",
+        "meaning": "ввічливе прохання зв’язатися"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 124,
+    "label": "お / ご〜くださる",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "m131-02",
+        "quote": "お越しくださる",
+        "meaning": "шанобливе позначення приходу учасників"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 125,
+    "label": "お / ご〜いただく",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l130-07",
+        "quote": "お使いいただけます",
+        "meaning": "можете скористатися — ввічлива форма пропозиції"
+      },
+      {
+        "readingKey": "l131-02",
+        "quote": "お越しいただきます",
+        "meaning": "ввічливе прохання до авторів прибути на реєстрацію"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 126,
+    "label": "召し上がる",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 127,
+    "label": "〜召す",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 128,
+    "label": "〜てございます",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  },
+  {
+    "id": 129,
+    "label": "お越しになる",
+    "reviewedContextOccurrences": [
+      {
+        "readingKey": "l130-07",
+        "quote": "お越しになる",
+        "meaning": "прибути — шаноблива форма щодо адресата"
+      }
+    ],
+    "hasAuthoredContextNote": true,
+    "senseReview": "pending"
+  },
+  {
+    "id": 130,
+    "label": "その節は",
+    "reviewedContextOccurrences": [],
+    "hasAuthoredContextNote": false,
+    "senseReview": "pending"
+  }
+]

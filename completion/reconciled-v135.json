@@ -1,0 +1,246 @@
+{
+  "baselineSha256": "142c5b7d3ad77b034d17778885de83fd928cdd2c99d1f06c9ad3012012353a12",
+  "scope": "Existing v135 author reviews of 18 readings and 42 questions credited after matching current content and keys; no independent review claimed",
+  "credited": [
+    {
+      "kind": "reading",
+      "key": "m135-01"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-01:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-01:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-02"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-02:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-02:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-03"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-03:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-03:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-04"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-04:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-04:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-05"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-05:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-05:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-06"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-06:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-06:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-07"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-07:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-07:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-08"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-08:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-08:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-09"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-09:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-09:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-10"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-10:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-10:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-11"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-11:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-11:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "m135-12"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-12:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "m135-12:q2"
+    },
+    {
+      "kind": "reading",
+      "key": "l135-01"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-01:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-01:q2"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-01:q3"
+    },
+    {
+      "kind": "reading",
+      "key": "l135-02"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-02:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-02:q2"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-02:q3"
+    },
+    {
+      "kind": "reading",
+      "key": "l135-03"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-03:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-03:q2"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-03:q3"
+    },
+    {
+      "kind": "reading",
+      "key": "l135-04"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-04:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-04:q2"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-04:q3"
+    },
+    {
+      "kind": "reading",
+      "key": "l135-05"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-05:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-05:q2"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-05:q3"
+    },
+    {
+      "kind": "reading",
+      "key": "l135-06"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-06:q1"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-06:q2"
+    },
+    {
+      "kind": "reading_question",
+      "key": "l135-06:q3"
+    }
+  ]
+}
