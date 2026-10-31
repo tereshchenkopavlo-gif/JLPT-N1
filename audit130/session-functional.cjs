@@ -33,6 +33,22 @@ const url=pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.
     radios:el.querySelectorAll('input[type="radio"]').length
    }));
    console.log('SESSION-CONTROLS '+JSON.stringify({width,...controls}));
+   const questions=page.locator('#passageArea .qcard');
+   const questionCount=await questions.count();
+   assert.ok(questionCount>=1,'exercise has answerable questions');
+   for(let i=0;i<questionCount;i++){
+    const q=questions.nth(i);
+    assert.equal(await q.locator('.qchoice').count(),4,'four choices per question');
+    await q.locator('.qchoice').first().click();
+    assert.equal(await q.locator('.qexplain').isVisible(),true,'answer reveals explanation '+i);
+    assert.ok((await q.locator('.qexplain').innerText()).trim().length>4,'nonempty explanation '+i);
+   }
+   const rows=page.locator('#passageArea .raterow');
+   const ratingCount=await rows.count();
+   assert.ok(ratingCount>=1,'session has progress grading controls');
+   for(let i=0;i<ratingCount;i++) await rows.nth(i).locator('.ratebtn[data-g="S"]').click();
+   assert.equal(await page.locator('#btnPassageNext').isEnabled(),true,'next passage enabled after answers and ratings');
+   console.log('PASS v130 question explanations and progress ratings',JSON.stringify({width,questionCount,ratingCount}));
    assert.equal(errors.length,0,'no browser runtime errors');
    console.log('PASS v130 learning session',JSON.stringify({width,state,passageChars:passage.length}));
    await page.close();
