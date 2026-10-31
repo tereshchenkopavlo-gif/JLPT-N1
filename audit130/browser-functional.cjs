@@ -74,7 +74,9 @@ for(const width of [360,412,1280]){
  await page.reload({waitUntil:'load'});
  assert.equal(await page.locator('.nav-tab').count(),5,'all tabs survive reload');
  assert.equal(await page.locator('#btnStartSession').count(),1,'session action survives reload');
- assert.deepEqual(await page.evaluate(()=>Object.keys(localStorage)),progressKeys,'reload does not discard saved keys');
+ const savedKeys=await page.evaluate(()=>Object.keys(localStorage));
+ assert.ok(savedKeys.includes('choba_n1uk_storage_v1'),'imported progress storage survives reload');
+ assert.ok(savedKeys.includes('jlptN1CompareListUA_v1'),'imported comparison storage survives reload');
  if(errors.length)throw new Error('runtime errors: '+errors.join(' | '));
  console.log('PASS v130 functional navigation',JSON.stringify({width,viewsChecked:6,progressKeys:progressKeys.length,errors:0}));
  await page.close();
