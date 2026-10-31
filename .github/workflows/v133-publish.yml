@@ -1,0 +1,54 @@
+name: Verify and publish JLPT N1 v133
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit133/**'
+      - '.github/workflows/v133-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v133-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build from exact v132 baseline and validate content preservation
+        run: |
+          python3 audit133/build.py
+          python3 audit133/check.py
+          node --check audit133/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify Japanese UI, card navigation, comparisons and progress roundtrip
+        run: |
+          node audit133/ui.cjs
+          node audit133/comparison.cjs
+          node audit133/browser-functional.cjs
+          node audit133/session-completion.cjs
+      - name: Publish complete versioned HTML, audit and current documentation
+        run: |
+          python3 audit133/publish.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v133.html JLPT_N1_v133_audit.md README.md PROJECT_STATUS.md audit133/build-summary.json audit133/invariant-results.json audit133/ui-results.json audit133/comparison-results.json
+          git commit -m "Release JLPT N1 v133: Japanese UI and card navigation"
+          git push origin HEAD:main
+      - name: Verify remote full HTML and audit blob digests
+        run: |
+          git fetch origin main
+          test "$(git hash-object JLPT_N1_ukrainian_reading_v133.html)" = "$(git rev-parse origin/main:JLPT_N1_ukrainian_reading_v133.html)"
+          test "$(git hash-object JLPT_N1_v133_audit.md)" = "$(git rev-parse origin/main:JLPT_N1_v133_audit.md)"
