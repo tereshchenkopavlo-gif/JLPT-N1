@@ -1,0 +1,35 @@
+// Launch a real learning session and verify live exercise content is rendered.
+const {chromium}=require('playwright');
+const {pathToFileURL}=require('node:url');
+const path=require('node:path');
+const assert=require('node:assert/strict');
+const url=pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.html')).href;
+(async()=>{
+ const browser=await chromium.launch({headless:true});
+ try{
+  for(const width of [360,412,1280]){
+   const page=await browser.newPage({viewport:{width,height:900}});
+   const errors=[];page.on('pageerror',e=>errors.push(e.message));
+   await page.goto(url,{waitUntil:'load'});
+   assert.equal(await page.locator('#btnStartSession').isVisible(),true,'session start button visible');
+   await page.locator('#btnStartSession').click();
+   await page.waitForFunction(()=>['teachBody','sessBody','sessError','sessDone'].some(id=>{const e=document.getElementById(id);return e&&e.getClientRects().length>0}),{timeout:20000});
+   const state=await page.evaluate(()=>['teachBody','sessBody','sessError','sessDone'].filter(id=>document.getElementById(id).getClientRects().length>0));
+   assert.equal(state.length,1,'exactly one session state visible');
+   assert.notEqual(state[0],'sessError','session generation succeeds');
+   assert.notEqual(state[0],'sessDone','session is not immediately finished');
+   const txt=await page.locator('#'+state[0]).innerText();
+   assert.ok(txt.trim().length>25,'session contains real content');
+   if(state[0]==='teachBody'){
+    assert.equal(await page.locator('#btnSkipTeach').isVisible(),true,'skip teaching is available');
+    await page.locator('#btnSkipTeach').click();
+    await page.waitForFunction(()=>document.getElementById('sessBody').getClientRects().length>0);
+   }
+   const passage=await page.locator('#passageArea').innerText();
+   assert.ok(passage.trim().length>50,'exercise contains reading/questions');
+   assert.equal(errors.length,0,'no browser runtime errors');
+   console.log('PASS v130 learning session',JSON.stringify({width,state,passageChars:passage.length}));
+   await page.close();
+  }
+ }finally{await browser.close()}
+})().catch(e=>{console.error(e);process.exitCode=1});
