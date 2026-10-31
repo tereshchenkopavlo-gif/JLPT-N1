@@ -74,11 +74,20 @@ for(const width of [360,412,1280]){
  await page.reload({waitUntil:'load'});
  assert.equal(await page.locator('.nav-tab').count(),5,'all tabs survive reload');
  assert.equal(await page.locator('#btnStartSession').count(),1,'session action survives reload');
+ const [reloadedExport]=await Promise.all([
+   page.waitForEvent('download',{timeout:10000}),
+   page.locator('.nav-tab[data-view="settings"]').click().then(()=>page.locator('#btnExportProgress').click())
+ ]);
+ const afterReload=JSON.parse(await fs.readFile(await reloadedExport.path(),'utf8'));
+ assert.deepEqual(afterReload.vp,backup.vp,'vocab backup remains intact after reload');
+ assert.deepEqual(afterReload.gp,backup.gp,'grammar backup remains intact after reload');
+ assert.deepEqual(afterReload.comparisonKeys,backup.comparisonKeys,'comparison list remains intact after reload');
+ console.log('PASS v130 progress after reload',JSON.stringify({width,vocabCount:Object.keys(afterReload.vp).length,grammarCount:Object.keys(afterReload.gp).length,compareCount:afterReload.comparisonKeys.length}));
  const savedKeys=await page.evaluate(()=>Object.keys(localStorage));
  assert.ok(savedKeys.includes('choba_n1uk_storage_v1'),'imported progress storage survives reload');
  assert.ok(savedKeys.includes('jlptN1CompareListUA_v1'),'imported comparison storage survives reload');
  if(errors.length)throw new Error('runtime errors: '+errors.join(' | '));
- console.log('PASS v130 functional navigation',JSON.stringify({width,viewsChecked:6,progressKeys:progressKeys.length,errors:0}));
+ console.log('PASS v130 functional navigation',JSON.stringify({width,viewsChecked:6,progressKeys:savedKeys.length,errors:0}));
  await page.close();
 }
 }finally{await browser.close()}
