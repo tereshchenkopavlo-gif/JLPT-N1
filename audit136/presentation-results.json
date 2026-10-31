@@ -1,0 +1,90 @@
+{
+  "sha256": "b2632788ee7f50d6c8872f05c86e006379159afcdad3ced6678c98fca7a6cd2a",
+  "browser": "141.0.7390.37",
+  "results": [
+    {
+      "width": 360,
+      "contentChecks": 9132,
+      "posOptions": 15,
+      "posCounts": {
+        "名詞": 2351,
+        "動詞": 716,
+        "ナ形": 337,
+        "イ形": 119,
+        "副詞": 297,
+        "代名詞": 6,
+        "連体詞": 2,
+        "接続詞": 15,
+        "副助詞": 1,
+        "接頭語": 9,
+        "接尾語": 36,
+        "連語": 11,
+        "慣用句": 31,
+        "四字熟語": 4,
+        "定型表現": 33
+      },
+      "filter": true,
+      "combinedFilters": true,
+      "navigation": true,
+      "comparison": true,
+      "progressUnaffected": true,
+      "pass": true
+    },
+    {
+      "width": 412,
+      "contentChecks": 9132,
+      "posOptions": 15,
+      "posCounts": {
+        "名詞": 2351,
+        "動詞": 716,
+        "ナ形": 337,
+        "イ形": 119,
+        "副詞": 297,
+        "代名詞": 6,
+        "連体詞": 2,
+        "接続詞": 15,
+        "副助詞": 1,
+        "接頭語": 9,
+        "接尾語": 36,
+        "連語": 11,
+        "慣用句": 31,
+        "四字熟語": 4,
+        "定型表現": 33
+      },
+      "filter": true,
+      "combinedFilters": true,
+      "navigation": true,
+      "comparison": true,
+      "progressUnaffected": true,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "contentChecks": 9132,
+      "posOptions": 15,
+      "posCounts": {
+        "名詞": 2351,
+        "動詞": 716,
+        "ナ形": 337,
+        "イ形": 119,
+        "副詞": 297,
+        "代名詞": 6,
+        "連体詞": 2,
+        "接続詞": 15,
+        "副助詞": 1,
+        "接頭語": 9,
+        "接尾語": 36,
+        "連語": 11,
+        "慣用句": 31,
+        "四字熟語": 4,
+        "定型表現": 33
+      },
+      "filter": true,
+      "combinedFilters": true,
+      "navigation": true,
+      "comparison": true,
+      "progressUnaffected": true,
+      "pass": true
+    }
+  ]
+}

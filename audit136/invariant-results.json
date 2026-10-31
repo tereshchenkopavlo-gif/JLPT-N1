@@ -1,0 +1,73 @@
+{
+  "sha256": "b2632788ee7f50d6c8872f05c86e006379159afcdad3ced6678c98fca7a6cd2a",
+  "checks": [
+    {
+      "name": "Exact v135 baseline",
+      "pass_": true
+    },
+    {
+      "name": "DEFAULT_VOCAB unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_DETAILS_BY_ID unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "READING_CONTEXT_NOTES unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_MEANING_QUIZZES unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "readingBank unchanged, including IDs, examples and all answer keys",
+      "pass_": true
+    },
+    {
+      "name": "Complete per-ID POS presentation registry and multiple functions",
+      "pass_": true
+    },
+    {
+      "name": "Session generation, target matching and quiz engine byte-identical",
+      "pass_": true
+    },
+    {
+      "name": "Existing storage-key references preserved",
+      "pass_": true
+    },
+    {
+      "name": "160 texts and 381 reading questions",
+      "pass_": true
+    },
+    {
+      "name": "Only one POS filter and no obsolete example heading",
+      "pass_": true
+    }
+  ]
+}
