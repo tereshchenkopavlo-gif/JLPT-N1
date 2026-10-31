@@ -1,0 +1,44 @@
+name: JLPT N1 v130 build checkpoint
+
+on:
+  push:
+    paths:
+      - 'audit130/**'
+      - 'JLPT_N1_ukrainian_reading_v129.html'
+      - '.github/workflows/v130-build-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  v130-structural-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build complete standalone HTML from v129 and authored v130 sources
+        run: python3 audit130/build.py
+      - name: Run v130 structural and preservation invariants
+        run: python3 audit130/invariants.py
+      - name: Validate embedded JavaScript syntax
+        run: node --check audit130/app.js
+      - name: Upload unverified v130 HTML and audit outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: jlpt-n1-v130-UNVERIFIED-checkpoint
+          path: |
+            release130/JLPT_N1_ukrainian_reading_v130.html
+            audit130/build-summary.json
+            audit130/invariant-results.json
+            audit130/coverage.json
+          if-no-files-found: error
+          retention-days: 14
