@@ -1,0 +1,29 @@
+[
+  {
+    "readingId": "m132-01",
+    "questionIndex": 1,
+    "kind": "g",
+    "itemId": 53,
+    "quote": "いつもの表情を消していたとは",
+    "meaning": "Подив від несподіваного усвідомлення, а не визначення чи цитування",
+    "coverageType": "direct_context_meaning_question"
+  },
+  {
+    "readingId": "l132-03",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 32,
+    "quote": "書き直さずに済んだものを",
+    "meaning": "Первинна досада оповідача через нереалізовану можливість, до перегляду своєї оцінки",
+    "coverageType": "direct_context_meaning_question"
+  },
+  {
+    "readingId": "l132-05",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 113,
+    "quote": "聞くともなく聞いている",
+    "meaning": "Ненавмисне сприйняття, а не навмисне зосереджене слухання",
+    "coverageType": "direct_context_meaning_question"
+  }
+]

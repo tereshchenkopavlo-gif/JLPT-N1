@@ -1,0 +1,55 @@
+name: Verify and publish JLPT N1 v132
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit132/**'
+      - '.github/workflows/v132-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v132-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build from exact v131 baseline and validate content preservation
+        run: |
+          python3 audit132/build.py
+          python3 audit132/invariants.py
+          python3 audit132/content-integrity.py
+          node --check audit132/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify all new readings, real session and progress roundtrip
+        run: |
+          node audit132/browser-smoke.cjs
+          node audit132/readings-browser.cjs
+          node audit132/browser-functional.cjs
+          node audit132/session-completion.cjs
+      - name: Publish complete versioned HTML, audit and current documentation
+        run: |
+          python3 audit132/publish.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v132.html JLPT_N1_v132_audit.md README.md PROJECT_STATUS.md audit132/coverage.json audit132/build-summary.json audit132/invariant-results.json audit132/content-integrity-results.json audit132/readings-browser-results.json
+          git commit -m "Release JLPT N1 v132: 142 readings and 339 questions"
+          git push origin HEAD:main
+      - name: Verify remote full HTML and audit blob digests
+        run: |
+          git fetch origin main
+          test "$(git hash-object JLPT_N1_ukrainian_reading_v132.html)" = "$(git rev-parse origin/main:JLPT_N1_ukrainian_reading_v132.html)"
+          test "$(git hash-object JLPT_N1_v132_audit.md)" = "$(git rev-parse origin/main:JLPT_N1_v132_audit.md)"
