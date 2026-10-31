@@ -69,7 +69,7 @@ const routed=html.replace(needle,'const chosen = bank[window.__readingIndex[leve
    assert.deepEqual(errors,[]);
    await page.close();
   }
-  fs.writeFileSync('audit131/readings-browser-results.json',JSON.stringify({browser:browser.version(),results},null,2));
+  fs.writeFileSync('audit131/readings-browser-results.json',JSON.stringify({htmlSha256:require('node:crypto').createHash('sha256').update(html).digest('hex'),browser:browser.version(),results},null,2));
   console.log('PASS all new readings at 360/412/1280px:',results.length,'renderings,',results.reduce((n,x)=>n+x.questions,0),'answers');
  } finally {await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});

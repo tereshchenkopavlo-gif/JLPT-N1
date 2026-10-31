@@ -4,11 +4,12 @@ import hashlib, json, shutil
 root=Path(__file__).resolve().parent.parent
 p=root/'audit131'
 html=root/'release131/JLPT_N1_ukrainian_reading_v131.html'
-expected='9376a9994159b28a8d8e0202e59ca712f3196a2a9a6eff8808be02b8e5ba6ade'
+expected='816529e17f5d91e4e81a95435d96d7f1d9e87a3dc4536522a353f9b8acb560ac'
 assert hashlib.sha256(html.read_bytes()).hexdigest()==expected
 assert all(x['pass_'] for x in json.loads((p/'invariant-results.json').read_text()))
 assert json.loads((p/'content-integrity-results.json').read_text())['status']=='passed'
 browser=json.loads((p/'readings-browser-results.json').read_text())
+assert browser['htmlSha256']==expected
 assert len(browser['results'])==54 and all(x['pass'] for x in browser['results'])
 shutil.copyfile(html,root/html.name)
 coverage=json.loads((p/'coverage.json').read_text())
@@ -22,7 +23,7 @@ SHA-256: `{expected}`.
 
 ## Зміст
 
-Додано **12 середніх і 6 довгих текстів**, 42 запитання з 168 варіантами, повні українські переклади, пояснення й опорні японські цитати. Банк: **71 середній + 47 довгих = 118 текстів; 283 запитання**. Стабільні ID нових текстів: `m131-01`–`m131-12`, `l131-01`–`l131-06`. Середні — 393–469 знаки, довгі — 863–1012, разом із розділенням абзаців. Назви та повні джерела: [audit131](audit131/README.md).
+Додано **12 середніх і 6 довгих текстів**, 42 запитання з 168 варіантами, повні українські переклади, пояснення й опорні японські цитати. Банк: **71 середній + 47 довгих = 118 текстів; 283 запитання**. Стабільні ID нових текстів: `m131-01`–`m131-12`, `l131-01`–`l131-06`. Середні — 393–469 знаки, довгі — 863–1016, разом із розділенням абзаців. Назви та повні джерела: [audit131](audit131/README.md).
 
 Усі 100 попередніх текстів/241 запитання, 3914 слів, 130 конструкцій, порівняння та ID збережені. Нових або змінених пар порівнянь: **0**, перелік порожній. Поза readingBank змінено лише видимий номер версії: CSS, генератор, збереження прогресу й інші функції байтово однакові з v130.
 
