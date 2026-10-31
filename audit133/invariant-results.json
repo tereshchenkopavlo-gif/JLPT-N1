@@ -1,0 +1,53 @@
+{
+  "sha256": "7acdc03322bfa2d8e40650353de418e184b6391d212de461da0970d61f39dca5",
+  "checks": [
+    {
+      "name": "DEFAULT_VOCAB unchanged",
+      "pass": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass": true
+    },
+    {
+      "name": "VOCAB_DETAILS_BY_ID unchanged",
+      "pass": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged",
+      "pass": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged",
+      "pass": true
+    },
+    {
+      "name": "REVIEWED_MEANING_QUIZZES unchanged",
+      "pass": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged",
+      "pass": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged",
+      "pass": true
+    },
+    {
+      "name": "READING_CONTEXT_NOTES unchanged",
+      "pass": true
+    },
+    {
+      "name": "readingBank unchanged",
+      "pass": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged",
+      "pass": true
+    },
+    {
+      "name": "Counts, storage keys, example title, navigation controls and race guard",
+      "pass": true
+    }
+  ]
+}

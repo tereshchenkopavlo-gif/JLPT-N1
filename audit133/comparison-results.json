@@ -1,0 +1,38 @@
+{
+  "sha256": "7acdc03322bfa2d8e40650353de418e184b6391d212de461da0970d61f39dca5",
+  "results": [
+    {
+      "width": 360,
+      "two": true,
+      "three": true,
+      "mixed": true,
+      "limit30": true,
+      "noDuplicates": true,
+      "remove": true,
+      "clear": true,
+      "japanese": true
+    },
+    {
+      "width": 412,
+      "two": true,
+      "three": true,
+      "mixed": true,
+      "limit30": true,
+      "noDuplicates": true,
+      "remove": true,
+      "clear": true,
+      "japanese": true
+    },
+    {
+      "width": 1280,
+      "two": true,
+      "three": true,
+      "mixed": true,
+      "limit30": true,
+      "noDuplicates": true,
+      "remove": true,
+      "clear": true,
+      "japanese": true
+    }
+  ]
+}
