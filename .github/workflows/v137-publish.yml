@@ -1,0 +1,57 @@
+name: Verify and publish JLPT N1 v137
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit137/**'
+      - '.github/workflows/v137-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v137-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build and verify all 8089 target examples
+        run: |
+          python3 audit137/build.py
+          python3 audit137/check.py
+          node --check audit137/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify all 30 contexts and regression scenarios
+        run: |
+          node audit137/targets-browser.cjs
+          node audit137/presentation.cjs
+          node audit137/ui.cjs
+          node audit137/browser-functional.cjs
+          node audit137/session-completion.cjs
+      - name: Publish full HTML, audit and C04 closure evidence
+        run: |
+          python3 audit137/publish.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v137.html JLPT_N1_v137_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/README.md completion/C04-result.json audit137/build-summary.json audit137/invariant-results.json audit137/scan-results.json audit137/targets.json audit137/targets-browser-results.json audit137/presentation-results.json audit137/ui-results.json audit137/functional-results.json audit137/session-results.json
+          git commit -m "Release JLPT N1 v137: resolve all 30 C04 target-matching cases"
+          git push origin HEAD:main
+      - name: Verify published full release and acceptance evidence
+        run: |
+          git fetch origin main
+          test "$(git hash-object JLPT_N1_ukrainian_reading_v137.html)" = "$(git rev-parse origin/main:JLPT_N1_ukrainian_reading_v137.html)"
+          test "$(git hash-object JLPT_N1_v137_audit.md)" = "$(git rev-parse origin/main:JLPT_N1_v137_audit.md)"
+          test "$(git hash-object PROJECT_STATUS.md)" = "$(git rev-parse origin/main:PROJECT_STATUS.md)"
+          test "$(git hash-object completion/C04-result.json)" = "$(git rev-parse origin/main:completion/C04-result.json)"
