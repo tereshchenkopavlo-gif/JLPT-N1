@@ -47,6 +47,17 @@ for(const width of [360,412,1280]){
  assert.ok(Array.isArray(backup.comparisonKeys),'comparison list is an array');
  console.log('PASS v130 export JSON',JSON.stringify({width,bytes:exportBytes.length,keys:Object.keys(backup).slice(0,15)}));
  console.log('PASS v130 progress export',JSON.stringify({width,filename:download.suggestedFilename()}));
+ // Import the exported backup through the real file input, if one is provided by the app.
+ const fileInputs=page.locator('input[type="file"]');
+ assert.ok(await fileInputs.count()>=1,'progress import input exists');
+ const importInput=page.locator('input[type="file"][accept*="json"]').first();
+ const uploadInput=(await importInput.count())?importInput:fileInputs.first();
+ const dialogs=[];page.on('dialog',async d=>{dialogs.push(d.message());await d.accept()});
+ await uploadInput.setInputFiles({name:download.suggestedFilename(),mimeType:'application/json',buffer:Buffer.from(exportBytes,'utf8')});
+ await page.waitForTimeout(300);
+ assert.equal(errors.length,0,'import does not throw JavaScript errors');
+ console.log('PASS v130 progress import attempt',JSON.stringify({width,dialogs:dialogs.length,inputId:await uploadInput.getAttribute('id')}));
+
  // Reload should keep the session functional and app accessible, irrespective of which keys exist.
  await page.reload({waitUntil:'load'});
  assert.equal(await page.locator('.nav-tab').count(),5,'all tabs survive reload');
