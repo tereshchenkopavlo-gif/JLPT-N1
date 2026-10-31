@@ -29,6 +29,8 @@ jobs:
         run: python3 audit130/build.py
       - name: Run v130 structural and preservation invariants
         run: python3 audit130/invariants.py
+      - name: Check all new translations, questions and evidence quotes
+        run: python3 audit130/content-integrity.py
       - name: Validate embedded JavaScript syntax
         run: node --check audit130/app.js
       - name: Install Chromium smoke test dependencies
@@ -46,6 +48,7 @@ jobs:
             release130/JLPT_N1_ukrainian_reading_v130.html
             audit130/build-summary.json
             audit130/invariant-results.json
+            audit130/content-integrity-results.json
             audit130/coverage.json
           if-no-files-found: error
           retention-days: 14
