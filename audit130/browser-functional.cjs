@@ -40,6 +40,11 @@ for(const width of [360,412,1280]){
  assert.ok(backup && typeof backup==='object' && !Array.isArray(backup),'export contains a JSON object');
  assert.ok(exportBytes.length>20,'export contains usable payload');
  assert.ok(Object.keys(backup).length>0,'export JSON has top-level fields');
+ assert.ok(backup.meta && typeof backup.meta==='object','export metadata present');
+ assert.ok(backup.vp && typeof backup.vp==='object','vocabulary progress is an object');
+ assert.ok(backup.gp && typeof backup.gp==='object','grammar progress is an object');
+ assert.ok(Number.isInteger(backup.backupVersion),'export has integer backup version');
+ assert.ok(Array.isArray(backup.comparisonKeys),'comparison list is an array');
  console.log('PASS v130 export JSON',JSON.stringify({width,bytes:exportBytes.length,keys:Object.keys(backup).slice(0,15)}));
  console.log('PASS v130 progress export',JSON.stringify({width,filename:download.suggestedFilename()}));
  // Reload should keep the session functional and app accessible, irrespective of which keys exist.
