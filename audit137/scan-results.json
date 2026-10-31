@@ -1,0 +1,310 @@
+{
+  "sha256": "005adcfb62d8fa81774b4008e61171db7277ba0e99f0129dac0962b793058dce",
+  "examples": 8089,
+  "unmarked": [],
+  "singleCharacterCandidates": 526,
+  "changed": [
+    {
+      "kind": "v",
+      "id": 210,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "進歩"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 447,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "つながった"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 447,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "つながらず"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 1,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "立ちはだかろうが"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 4,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "向かおうにも向かえなく"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 18,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "遂行したまでのことである"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 24,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "今月末をもちまして"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 24,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "本日の午後5時をもって"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 26,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "飲んだが最後"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 45,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "書面をもって"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 45,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "誠意をもって"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 49,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "気まずさといったらなかった"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 49,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "腹立たしさといったらなかった"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 51,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "願ってやみません"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 57,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "聞くに堪えなかった"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 57,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "正視にたえない"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 80,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "言ってはばからず"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 85,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "感謝にたえません"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 85,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "遺憾にたえない"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 86,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "責めるにはあたらない"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 92,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "収められないものだろうか"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 94,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "新人なりの"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 101,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "海外進出ともなれば"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 106,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "皮肉めいた"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 106,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "春めいた"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 108,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "努力と周囲の支援が相まって"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 121,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "紹介させていただきます"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 121,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "録音させていただきました"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 122,
+      "index": 0,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "添削していただき"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 122,
+      "index": 1,
+      "oldFound": false,
+      "newFound": true,
+      "spans": [
+        "確認していただき"
+      ]
+    }
+  ],
+  "exactScopeNegativeChecks": 90,
+  "pass": true
+}

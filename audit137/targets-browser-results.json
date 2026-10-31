@@ -1,0 +1,2438 @@
+{
+  "sha256": "005adcfb62d8fa81774b4008e61171db7277ba0e99f0129dac0962b793058dce",
+  "browser": "141.0.7390.37",
+  "renderings": 90,
+  "generatorCases": 270,
+  "results": [
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "技術などが、以前よりよい状態へ発達すること。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "しんぽ",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "しんぽ",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 360,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "技術などが、以前よりよい状態へ発達すること。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "しんぽ",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "しんぽ",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 412,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "技術などが、以前よりよい状態へ発達すること。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "しんぽ",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "しんぽ",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "発見がきっかけとなり、新しい治療法の開発という結果をもたらした。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "電話の接続が成立せず、相手と連絡を取れなかった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "どのような困難が起きても、計画をやり遂げる意思は変わらない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "空港へ行くつもりはあっても、交通が止まり行くことができなくなった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "規則どおりに手続きを行っただけで、それ以外の意図はなかった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "今月の終わりを期限として、店の営業を終える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "今日の午後五時を終了時点として、応募の受付を終える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "一口飲むと、その後は酔いつぶれるまで止められない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "文書という方法で、正式な回答を伝える。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "誠実な態度で対応することが、信頼回復の出発点になる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "知らせるときの気まずさが、言い表しにくいほど強かった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "待たされた上に断られ、非常に強い怒りを感じた。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "被災地が一日も早く復興することを、心から強く願っている。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "罵り合いの内容がひどく、聞き続けるのが耐え難かった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "惨状があまりにひどく、まともに見ているのがつらい。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "自分に落ち度はないと、周囲への遠慮やためらいなく言った。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "支援に対する感謝の気持ちが、非常に強い。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "不祥事が起きたことを、非常に残念に思っている。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "事情を考えると、その遅刻は非難するほどのことではない。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "もう少し穏便に解決する方法がないかと、実現を望んでいる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "新人という立場に応じた、その人たち独自の見方。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "海外へ進出するほどの規模になると、それに伴い対応も複雑になる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "発言に、皮肉のように感じられる調子があった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "陽気に、春らしい雰囲気や特徴が感じられた。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "本人の努力と周囲の支援が組み合わさり、成功につながった。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "機会を与えられたという立場で、自分が製品を紹介するとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "許可を得た上で、自分が授業を録音したとへりくだって述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.01,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.5,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "fraction": 0.99,
+      "correct": "先生に論文を直してもらったことを、自分が受けた助けとして述べる。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.01,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.5,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "fraction": 0.99,
+      "correct": "相手が資料を確認してくれたことに、受け手として感謝している。",
+      "pass": true
+    }
+  ]
+}

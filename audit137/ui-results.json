@@ -1,0 +1,42 @@
+{
+  "sha256": "005adcfb62d8fa81774b4008e61171db7277ba0e99f0129dac0962b793058dce",
+  "browser": "141.0.7390.37",
+  "checks": [
+    {
+      "width": 360,
+      "navigation": true,
+      "search": true,
+      "category": true,
+      "pagination": true,
+      "keyboard": true,
+      "syntheticSwipe": true,
+      "race": true,
+      "grading": true,
+      "labels": true
+    },
+    {
+      "width": 412,
+      "navigation": true,
+      "search": true,
+      "category": true,
+      "pagination": true,
+      "keyboard": true,
+      "syntheticSwipe": true,
+      "race": true,
+      "grading": true,
+      "labels": true
+    },
+    {
+      "width": 1280,
+      "navigation": true,
+      "search": true,
+      "category": true,
+      "pagination": true,
+      "keyboard": true,
+      "syntheticSwipe": true,
+      "race": true,
+      "grading": true,
+      "labels": true
+    }
+  ]
+}

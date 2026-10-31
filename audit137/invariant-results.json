@@ -1,0 +1,77 @@
+{
+  "sha256": "005adcfb62d8fa81774b4008e61171db7277ba0e99f0129dac0962b793058dce",
+  "checks": [
+    {
+      "name": "Exact v136 baseline SHA-256",
+      "pass_": true
+    },
+    {
+      "name": "DEFAULT_VOCAB unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_MEANING_QUIZZES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "READING_CONTEXT_NOTES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "readingBank unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_POS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "LEXICAL_PRESENTATION unchanged",
+      "pass_": true
+    },
+    {
+      "name": "Only v210 second example and its translation changed",
+      "pass_": true
+    },
+    {
+      "name": "30 exact sentence-bound forms and contextual questions",
+      "pass_": true
+    },
+    {
+      "name": "All v136 presentation/POS/filter/navigation source and CSS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "160 texts, 381 questions",
+      "pass_": true
+    },
+    {
+      "name": "All 8089 examples: 30 exact fixes, zero unmarked, 526 single-character candidates unchanged; 90 negative scope checks",
+      "pass_": true
+    }
+  ]
+}

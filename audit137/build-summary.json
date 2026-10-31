@@ -1,0 +1,13 @@
+{
+  "sha256": "005adcfb62d8fa81774b4008e61171db7277ba0e99f0129dac0962b793058dce",
+  "bytes": 6680924,
+  "targets": 30,
+  "affectedCards": 21,
+  "vocabExamples": 3,
+  "grammarExamples": 27,
+  "changedExampleIds": [
+    "v_210:1"
+  ],
+  "texts": 160,
+  "questions": 381
+}

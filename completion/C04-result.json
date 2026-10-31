@@ -1,0 +1,521 @@
+{
+  "htmlSha256": "005adcfb62d8fa81774b4008e61171db7277ba0e99f0129dac0962b793058dce",
+  "version": 137,
+  "task": "C04",
+  "status": "done",
+  "scope": "30 exact unmarked-example cases; author context review plus full matcher scan and browser verification. Not a full review of the 21 cards.",
+  "reviewType": "author_context_review",
+  "independentReview": false,
+  "unmarkedBefore": 30,
+  "unmarkedAfter": 0,
+  "singleCharacterCandidatesUnchanged": 526,
+  "affectedIds": {
+    "v": [
+      210,
+      447
+    ],
+    "g": [
+      1,
+      4,
+      18,
+      24,
+      26,
+      45,
+      49,
+      51,
+      57,
+      80,
+      85,
+      86,
+      92,
+      94,
+      101,
+      106,
+      108,
+      121,
+      122
+    ]
+  },
+  "cases": [
+    {
+      "kind": "v",
+      "id": 210,
+      "exampleIndex": 1,
+      "sentence": "技術の進歩に合わせて、道具の使い方も学び直している。",
+      "forms": [
+        "進歩"
+      ],
+      "decision": "Тут 進歩 — поступ технологій. 日進月歩 лишається поясненим у usage як споріднений вислів, але більше не підміняє цільове слово в цьому прикладі.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 0,
+      "sentence": "この発見が、新たな治療法の開発につながった。",
+      "forms": [
+        "つながった"
+      ],
+      "decision": "つながった тут позначає причинний зв’язок із результатом: відкриття привело до розроблення. Це не фізичне з’єднання предметів і не зворотний напрям причини.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 447,
+      "exampleIndex": 1,
+      "sentence": "電話がつながらず、連絡を取ることができなかった。",
+      "forms": [
+        "つながらず"
+      ],
+      "decision": "つながらず — заперечна продовжувальна форма: не вдалося встановити телефонне з’єднання. Зв’язок не встановився; свідомої відмови говорити або помилкового номера текст не стверджує.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 1,
+      "exampleIndex": 1,
+      "sentence": "いかなる困難が立ちはだかろうが、最後まで計画をやり遂げるつもりだ。",
+      "forms": [
+        "立ちはだかろうが"
+      ],
+      "decision": "立ちはだかろうが — вольова форма + が в допустовому значенні. Можлива перешкода не змінює рішення; її відсутності або обов’язковості не встановлено.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 4,
+      "exampleIndex": 0,
+      "sentence": "台風の影響で全ての公共交通機関が麻痺し、空港へ向かおうにも向かえなくなってしまった。",
+      "forms": [
+        "向かおうにも向かえなく"
+      ],
+      "decision": "向かおうにも向かえなく — є намір, але зовнішня перешкода унеможливлює дію. Усі види громадського транспорту зупинилися; добровільну відмову не описано.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 18,
+      "exampleIndex": 1,
+      "sentence": "私はただ、規則に定められた正規の手続きを淡々と遂行したまでのことである。",
+      "forms": [
+        "遂行したまでのことである"
+      ],
+      "decision": "Тут Vた＋までのことである: «лише виконав, без іншої мети». Запасний вихід у майбутньому — інше вживання Vる＋までのことだ; воно не відповідає цьому минулому реченню.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 0,
+      "sentence": "長年ご愛顧いただきました当店は、今月末をもちまして閉店いたします。",
+      "forms": [
+        "今月末をもちまして"
+      ],
+      "decision": "をもちまして — ввічливий варіант をもって. З 閉店 часовий вираз визначає завершення роботи крамниці, а не початок чи приблизний час рішення.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 24,
+      "exampleIndex": 1,
+      "sentence": "本日の午後5時をもって、今期プロジェクトの公募受付を締め切らせていただきます。",
+      "forms": [
+        "本日の午後5時をもって"
+      ],
+      "decision": "У цьому реченні をもって разом із 締め切る задає момент завершення приймання. Це не оголошення початку чи намір пізніше вибрати строк.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 26,
+      "exampleIndex": 1,
+      "sentence": "彼は酒を一口飲んだが最後、酔いつぶれるまで飲むのをやめない。",
+      "forms": [
+        "飲んだが最後"
+      ],
+      "decision": "飲んだ — минула форма 飲む з озвученим закінченням だ. が最後 подає початок важко зупинного наслідку, а не «останній ковток».",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 0,
+      "sentence": "書面をもって、正式に回答いたします。",
+      "forms": [
+        "書面をもって"
+      ],
+      "decision": "書面をもって означає засіб відповіді: письмово, документом. Часове をもって① — інше значення; письмової відповіді не замінено усною.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 45,
+      "exampleIndex": 1,
+      "sentence": "誠意をもって対応することが、信頼回復の第一歩だ。",
+      "forms": [
+        "誠意をもって"
+      ],
+      "decision": "誠意をもって — діяти зі щирістю, у відповідний спосіб. Тут не часова межа. 第一歩 — перший крок, а не підтверджене повне відновлення довіри.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 0,
+      "sentence": "大切な顧客に納期遅延を知らせるときの気まずさといったらなかった。",
+      "forms": [
+        "気まずさといったらなかった"
+      ],
+      "decision": "といったらなかった — минула форма емоційного підсилення. なかった тут не заперечує ніяковість; її сила підкреслена.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 49,
+      "exampleIndex": 1,
+      "sentence": "長時間待たされた挙げ句に門前払いされたときの腹立たしさといったらなかった。",
+      "forms": [
+        "腹立たしさといったらなかった"
+      ],
+      "decision": "腹立たしさといったらなかった — сильне обурення в минулій ситуації. Це не відсутність злості й не пізніше рішення, що злитися немає підстав.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 51,
+      "exampleIndex": 0,
+      "sentence": "被災地の一日も早い復興を願ってやみません。",
+      "forms": [
+        "願ってやみません"
+      ],
+      "decision": "願ってやみません — щире, тривале побажання, ввічлива форма 願ってやまない. Це не буквальне безперервне промовляння і не завершене відновлення.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 0,
+      "sentence": "責任を押しつけ合う両者の罵り合いは、聞くに堪えなかった。",
+      "forms": [
+        "聞くに堪えなかった"
+      ],
+      "decision": "聞くに堪えなかった — нестерпно було слухати через зміст лайки. Це не погана чутність і не емоційне に堪えない після іменника почуття (ID85).",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 57,
+      "exampleIndex": 1,
+      "sentence": "事故現場の惨状は、正視にたえない。",
+      "forms": [
+        "正視にたえない"
+      ],
+      "decision": "正視にたえない тут виражає нестерпність видовища. Не йдеться про відстань, якість зображення чи достатність доказів причини аварії.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 80,
+      "exampleIndex": 1,
+      "sentence": "責任者は自分には落ち度がないと言ってはばからず、社員たちを失望させた。",
+      "forms": [
+        "言ってはばからず"
+      ],
+      "decision": "言ってはばからず — відкрито, без стримування заявляючи; ず — продовжувальна заперечна форма. У цьому контексті поведінка викликає розчарування працівників, а не схвалення за тактовність.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 0,
+      "sentence": "多大なるご支援をいただき、感謝にたえません。",
+      "forms": [
+        "感謝にたえません"
+      ],
+      "decision": "感謝にたえません — формальне підсилення вдячності. ません не означає відсутності вдячності; це інше вживання, ніж «нестерпно дивитися/слухати» (ID57).",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 85,
+      "exampleIndex": 1,
+      "sentence": "このような不祥事が起きたことは、遺憾にたえない。",
+      "forms": [
+        "遺憾にたえない"
+      ],
+      "decision": "遺憾にたえない — глибокий жаль через подію. Це не заперечення жалю й не буквальна неможливість побачити чи почути. Саме речення не встановлює винуватця.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 86,
+      "exampleIndex": 0,
+      "sentence": "事情を考えれば、数分の遅刻を責めるにはあたらない。",
+      "forms": [
+        "責めるにはあたらない"
+      ],
+      "decision": "責めるにはあたらない: за цих обставин немає підстав дорікати за кілька хвилин запізнення. は не змінює цього на вимогу осуду.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 92,
+      "exampleIndex": 1,
+      "sentence": "この問題を、もう少し穏便に収められないものだろうか。",
+      "forms": [
+        "収められないものだろうか"
+      ],
+      "decision": "ないものだろうか — пошук бажаного способу розв’язати проблему мирніше. Це не категорична відмова ものか і не доведена наявність готового рішення.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 94,
+      "exampleIndex": 1,
+      "sentence": "新人には新人なりの視点があり、それが組織を活性化させることもある。",
+      "forms": [
+        "新人なりの"
+      ],
+      "decision": "なりの стоїть перед іменником 視点: властивий новачкам погляд. Це не вимога тотожності досвідченим чи єдино дозволений погляд; なりに зазвичай пов’язує зі способом дії.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 101,
+      "exampleIndex": 1,
+      "sentence": "海外進出ともなれば、法規制への対応も複雑になる。",
+      "forms": [
+        "海外進出ともなれば"
+      ],
+      "decision": "ともなれば підкреслює наслідки виходу на такий масштаб діяльності. Це не лише мить після події й не твердження, що складність виникає тільки без закордонного виходу.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 0,
+      "sentence": "彼の発言には、どこか皮肉めいた響きがあった。",
+      "forms": [
+        "皮肉めいた"
+      ],
+      "decision": "皮肉めいた — висловлювання має відтінок іронії. めいた — форма めく; вона не стверджує удавання певної ролі й не означає лише ще не висловлений намір.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 106,
+      "exampleIndex": 1,
+      "sentence": "春めいた陽気に誘われて、多くの人が公園に足を運んだ。",
+      "forms": [
+        "春めいた"
+      ],
+      "decision": "春めいた — відчутно повіяло весною, з’явилися весняні ознаки погоди. Це не невизначеність щодо приходу весни й не навмисне удавання.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 108,
+      "exampleIndex": 1,
+      "sentence": "彼の粘り強い努力と周囲の支援が相まって、計画は成功を収めた。",
+      "forms": [
+        "努力と周囲の支援が相まって"
+      ],
+      "decision": "Два чинники діють у поєднанні: наполегливі зусилля і підтримка. У цьому реченні AとBが相まって; не треба механічно шукати лише буквальне と相まって.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 0,
+      "sentence": "本日は、お時間をいただき、弊社の新製品をご紹介させていただきます。",
+      "forms": [
+        "紹介させていただきます"
+      ],
+      "decision": "紹介させていただきます — скромне повідомлення про власне представлення продукту в наданій нагоді. Граматика сама не підтверджує конкретної попередньої письмової згоди чи покупки.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 121,
+      "exampleIndex": 1,
+      "sentence": "先生の許可を得て、授業を録音させていただきました。",
+      "forms": [
+        "録音させていただきました"
+      ],
+      "decision": "録音させていただきました — власна вже виконана дія зі згоди вчителя; дозвіл тут прямо названий. Це не запис, зроблений учителем для мовця, й не майбутнє прохання.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 0,
+      "sentence": "先生に論文を添削していただき、大変勉強になりました。",
+      "forms": [
+        "添削していただき"
+      ],
+      "decision": "添削していただき — учитель виправив працю, мовець отримав допомогу. Напрям дії протилежний власній скромній дії з させていただく.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 122,
+      "exampleIndex": 1,
+      "sentence": "お忙しい中、資料を確認していただき、ありがとうございます。",
+      "forms": [
+        "確認していただき"
+      ],
+      "decision": "確認していただき — подяка за перевірку матеріалів іншою особою. Це не власна перевірка й не повідомлення про власну перевірку з дозволу іншої особи.",
+      "status": "fixed_rechecked",
+      "evidence": [
+        "audit137/targets.json",
+        "audit137/scan-results.json",
+        "audit137/targets-browser-results.json"
+      ]
+    }
+  ]
+}
