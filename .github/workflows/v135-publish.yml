@@ -1,0 +1,57 @@
+name: Verify and publish JLPT N1 v135
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit135/**'
+      - '.github/workflows/v135-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v135-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build from exact v134 and check data preservation
+        run: |
+          python3 audit135/build.py
+          python3 audit135/review.py
+          python3 audit135/invariants.py
+          node --check audit135/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify all new texts, Japanese UI, card navigation and progress
+        run: |
+          node audit135/readings-browser.cjs
+          node audit135/ui.cjs
+          node audit135/browser-functional.cjs
+          node audit135/session-completion.cjs
+      - name: Publish complete HTML and audit after successful gate
+        run: |
+          python3 audit135/publish.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v135.html JLPT_N1_v135_audit.md README.md PROJECT_STATUS.md audit135/build-summary.json audit135/invariant-results.json audit135/ui-results.json audit135/readings-browser-results.json audit135/functional-results.json audit135/session-results.json audit135/editorial-review.json audit135/coverage.json audit135/direct-question-links.json
+          git commit -m "Release JLPT N1 v135: 18 readings and 42 questions with contextual grammar"
+          git push origin HEAD:main
+      - name: Verify published full HTML, audit and current docs
+        run: |
+          git fetch origin main
+          test "$(git hash-object JLPT_N1_ukrainian_reading_v135.html)" = "$(git rev-parse origin/main:JLPT_N1_ukrainian_reading_v135.html)"
+          test "$(git hash-object JLPT_N1_v135_audit.md)" = "$(git rev-parse origin/main:JLPT_N1_v135_audit.md)"
+          test "$(git hash-object README.md)" = "$(git rev-parse origin/main:README.md)"
+          test "$(git hash-object PROJECT_STATUS.md)" = "$(git rev-parse origin/main:PROJECT_STATUS.md)"
