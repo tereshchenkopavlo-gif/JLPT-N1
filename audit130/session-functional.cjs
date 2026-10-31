@@ -49,6 +49,12 @@ const url=pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.
    for(let i=0;i<ratingCount;i++) await rows.nth(i).locator('.ratebtn[data-g="S"]').click();
    assert.equal(await page.locator('#btnPassageNext').isEnabled(),true,'next passage enabled after answers and ratings');
    console.log('PASS v130 question explanations and progress ratings',JSON.stringify({width,questionCount,ratingCount}));
+   await page.locator('#btnPassageNext').click();
+   await page.waitForFunction(()=>['teachBody','sessBody','sessDone'].some(id=>{const e=document.getElementById(id);return e&&e.getClientRects().length>0}),{timeout:15000});
+   assert.equal(await page.locator('#sessError').isVisible(),false,'advancing exercise does not cause session error');
+   const postNext=await page.evaluate(()=>({session:document.getElementById('sessBody').getClientRects().length>0,done:document.getElementById('sessDone').getClientRects().length>0,teaching:document.getElementById('teachBody').getClientRects().length>0}));
+   assert.ok(postNext.session||postNext.done||postNext.teaching,'next exercise changes to supported session state');
+   console.log('PASS v130 next passage transition',JSON.stringify({width,postNext}));
    assert.equal(errors.length,0,'no browser runtime errors');
    console.log('PASS v130 learning session',JSON.stringify({width,state,passageChars:passage.length}));
    await page.close();
