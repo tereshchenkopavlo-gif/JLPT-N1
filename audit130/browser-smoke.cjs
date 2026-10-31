@@ -1,35 +1,42 @@
-// Automated v130 browser smoke test. Does not certify linguistic accuracy.
+// v130 browser smoke tests for both mobile and desktop; not a linguistic review.
 const { chromium } = require('playwright');
 const { pathToFileURL } = require('node:url');
 const path = require('node:path');
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
-  const errors = [];
-  page.on('pageerror', error => errors.push(error.message));
-  page.on('console', message => {
-    if (message.type() === 'error') errors.push(message.text());
-  });
-  const file = path.resolve('release130/JLPT_N1_ukrainian_reading_v130.html');
+  const fileUrl = pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.html')).href;
   try {
-    await page.goto(pathToFileURL(file).href, { waitUntil: 'load', timeout: 45000 });
-    await page.waitForTimeout(750);
-    const data = await page.evaluate(() => {
-      const bank = typeof readingBank === 'undefined' ? null : readingBank;
-      if (!bank) throw new Error('readingBank not accessible: script failed to initialize');
-      const medium = bank.medium?.length ?? 0;
-      const long = bank.long?.length ?? 0;
-      const questions = [...(bank.medium || []), ...(bank.long || [])].reduce((n, x) => n + (x.questions || []).length, 0);
-      const hasApplication = document.body?.innerText?.trim().length > 100;
-      return { medium, long, questions, hasApplication };
-    });
-    if (JSON.stringify([data.medium, data.long, data.questions]) !== JSON.stringify([59, 41, 241]))
-      throw new Error('Incorrect reading counts: ' + JSON.stringify(data));
-    if (!data.hasApplication) throw new Error('Application body is blank');
-    if (errors.length) throw new Error('Browser errors: ' + errors.join(' | '));
-    console.log('PASS v130 browser smoke', JSON.stringify(data));
+    for (const width of [360, 412, 1280]) {
+      const page = await browser.newPage({ viewport: { width, height: 900 } });
+      const errors = [];
+      page.on('pageerror', error => errors.push(error.message));
+      await page.goto(fileUrl, { waitUntil: 'load', timeout: 60000 });
+      await page.waitForTimeout(350);
+      const result = await page.evaluate(() => {
+        if (typeof readingBank === 'undefined') throw new Error('readingBank not initialized');
+        const medium = readingBank.medium.length;
+        const long = readingBank.long.length;
+        const questions = [...readingBank.medium, ...readingBank.long].reduce((n, r) => n + r.questions.length, 0);
+        const fresh = [...readingBank.medium, ...readingBank.long].filter(r => r.source === 'original_v130');
+        const ids = new Set(fresh.map(r => r.id));
+        const newQuestions = fresh.reduce((n, r) => n + r.questions.length, 0);
+        const documentWidth = document.documentElement.scrollWidth;
+        const viewportWidth = document.documentElement.clientWidth;
+        return { medium, long, questions, fresh: fresh.length, newQuestions, ids: ids.size,
+          documentWidth, viewportWidth, bodyChars: document.body.innerText.trim().length };
+      });
+      if (result.medium !== 59 || result.long !== 41 || result.questions !== 241 ||
+          result.fresh !== 24 || result.newQuestions !== 56 || result.ids !== 24)
+        throw new Error('Wrong content counts at width ' + width + ': ' + JSON.stringify(result));
+      if (result.bodyChars < 100) throw new Error('App is blank at width ' + width);
+      if (result.documentWidth > result.viewportWidth + 2)
+        throw new Error('Horizontal overflow at width ' + width + ': ' + JSON.stringify(result));
+      if (errors.length) throw new Error('JavaScript errors at width ' + width + ': ' + errors.join(' | '));
+      console.log('PASS v130 browser smoke:', width, JSON.stringify(result));
+      await page.close();
+    }
   } finally {
     await browser.close();
   }
-})().catch(err => { console.error(err); process.exitCode = 1; });
+})().catch(error => { console.error(error); process.exitCode = 1; });
