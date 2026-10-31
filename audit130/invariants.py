@@ -43,6 +43,19 @@ def words():
   assert c['label']==(v if c['kind']=='v' else g)[c['itemId']]
   if c['kind']=='v':assert c['label']==c['quote']
 check('All coverage refers to actual stable IDs and exact lexical forms',words)
+def answer_mapping():
+ source={x['id']:x for x in added}
+ generated={x['id']:x for group in new.values() for x in group if x.get('source')=='original_v130'}
+ assert set(source)==set(generated)
+ for rid,x in source.items():
+  target=generated[rid]
+  assert len(x['questions'])==len(target['questions'])
+  for orig,built in zip(x['questions'],target['questions']):
+   assert orig['choices'][orig['answer']]==built['choices'][built['answer']],rid
+   assert set(orig['choices'])==set(built['choices']),rid
+   assert orig['prompt']==built['prompt'] and orig['explain']==built['explain'],rid
+   assert orig['evidence']==built['evidence'],rid
+check('Question answer keys and explanations preserved through option rotation',answer_mapping)
 def positions():
  answers=[q['answer'] for k,arr in new.items() for x in arr[len(old[k]):] for q in x['questions']]
  eq(set(answers),{0,1,2,3})
