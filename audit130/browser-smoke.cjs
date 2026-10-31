@@ -14,11 +14,17 @@ const path = require('node:path');
       await page.goto(fileUrl, { waitUntil: 'load', timeout: 60000 });
       await page.waitForTimeout(350);
       const result = await page.evaluate(() => {
-        if (typeof readingBank === 'undefined') throw new Error('readingBank not initialized');
-        const medium = readingBank.medium.length;
-        const long = readingBank.long.length;
-        const questions = [...readingBank.medium, ...readingBank.long].reduce((n, r) => n + r.questions.length, 0);
-        const fresh = [...readingBank.medium, ...readingBank.long].filter(r => r.source === 'original_v130');
+        // readingBank is scoped inside the application's script, not a window property.
+        // Inspect the embedded JSON without assuming the application exports its internals.
+        const source = Array.from(document.scripts, x => x.textContent || '').find(x => x.includes('const readingBank = {'));
+        if (!source) throw new Error('Embedded readingBank source not found');
+        const match = source.match(/const readingBank\\s*=\\s*(\\{[^\\n]*\\});/);
+        if (!match) throw new Error('Embedded readingBank JSON not found');
+        const bank = JSON.parse(match[1]);
+        const medium = bank.medium.length;
+        const long = bank.long.length;
+        const questions = [...bank.medium, ...bank.long].reduce((n, r) => n + r.questions.length, 0);
+        const fresh = [...bank.medium, ...bank.long].filter(r => r.source === 'original_v130');
         const ids = new Set(fresh.map(r => r.id));
         const newQuestions = fresh.reduce((n, r) => n + r.questions.length, 0);
         const documentWidth = document.documentElement.scrollWidth;
