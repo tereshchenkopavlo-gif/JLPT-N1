@@ -1,0 +1,192 @@
+{
+  "sha256": "4b5be94dd862493ddde4ed3d893168b9d58dbea85a75b0341cd83e8735f96514",
+  "browser": "141.0.7390.37",
+  "results": [
+    {
+      "width": 360,
+      "index": 659,
+      "id": "2980",
+      "card": true,
+      "usageChecked": true
+    },
+    {
+      "width": 360,
+      "index": 659,
+      "id": "2981",
+      "card": true,
+      "usageChecked": true
+    },
+    {
+      "width": 360,
+      "index": 738,
+      "id": "3224",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 360,
+      "index": 738,
+      "id": "3250",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 360,
+      "index": 853,
+      "id": "3898",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 360,
+      "index": 853,
+      "id": "3900",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 360,
+      "index": 857,
+      "id": "3909",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 360,
+      "index": 857,
+      "id": "3912",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 360,
+      "comparison": true,
+      "reload": true,
+      "notes": 4
+    },
+    {
+      "width": 412,
+      "index": 659,
+      "id": "2980",
+      "card": true,
+      "usageChecked": true
+    },
+    {
+      "width": 412,
+      "index": 659,
+      "id": "2981",
+      "card": true,
+      "usageChecked": true
+    },
+    {
+      "width": 412,
+      "index": 738,
+      "id": "3224",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 412,
+      "index": 738,
+      "id": "3250",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 412,
+      "index": 853,
+      "id": "3898",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 412,
+      "index": 853,
+      "id": "3900",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 412,
+      "index": 857,
+      "id": "3909",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 412,
+      "index": 857,
+      "id": "3912",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 412,
+      "comparison": true,
+      "reload": true,
+      "notes": 4
+    },
+    {
+      "width": 1280,
+      "index": 659,
+      "id": "2980",
+      "card": true,
+      "usageChecked": true
+    },
+    {
+      "width": 1280,
+      "index": 659,
+      "id": "2981",
+      "card": true,
+      "usageChecked": true
+    },
+    {
+      "width": 1280,
+      "index": 738,
+      "id": "3224",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 1280,
+      "index": 738,
+      "id": "3250",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 1280,
+      "index": 853,
+      "id": "3898",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 1280,
+      "index": 853,
+      "id": "3900",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 1280,
+      "index": 857,
+      "id": "3909",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 1280,
+      "index": 857,
+      "id": "3912",
+      "card": true,
+      "usageChecked": false
+    },
+    {
+      "width": 1280,
+      "comparison": true,
+      "reload": true,
+      "notes": 4
+    }
+  ]
+}

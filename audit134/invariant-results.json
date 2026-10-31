@@ -1,0 +1,61 @@
+{
+  "sha256": "4b5be94dd862493ddde4ed3d893168b9d58dbea85a75b0341cd83e8735f96514",
+  "checks": [
+    {
+      "name": "DEFAULT_VOCAB unchanged",
+      "pass": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged",
+      "pass": true
+    },
+    {
+      "name": "REVIEWED_MEANING_QUIZZES unchanged",
+      "pass": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged",
+      "pass": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged",
+      "pass": true
+    },
+    {
+      "name": "READING_CONTEXT_NOTES unchanged",
+      "pass": true
+    },
+    {
+      "name": "readingBank unchanged",
+      "pass": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged",
+      "pass": true
+    },
+    {
+      "name": "Only usage fields 2980/2981 changed",
+      "pass": true
+    },
+    {
+      "name": "Only notes 659/738/853/857 changed",
+      "pass": true
+    },
+    {
+      "name": "Counts and ID continuity",
+      "pass": true
+    },
+    {
+      "name": "All runtime, navigation, UI, CSS, storage and examples byte-identical outside data and version",
+      "pass": true
+    },
+    {
+      "name": "859 scanned, 40 logic reviews, 4 clarified",
+      "pass": true
+    }
+  ]
+}
