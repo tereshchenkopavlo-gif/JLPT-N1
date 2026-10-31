@@ -10,6 +10,8 @@ const path = require('node:path');
  await page.waitForTimeout(250);
  const s=await page.evaluate(()=>({
   title:document.title,
+  cardsMarkup:document.querySelector('#view-cards')?.outerHTML.slice(0,11000),
+  compareMarkup:document.querySelector('#view-compare')?.outerHTML.slice(0,5000),
   sessionMarkup:document.querySelector('#view-session')?.outerHTML.slice(0,7500),
   inputs:[...document.querySelectorAll('input')].map(e=>({id:e.id,type:e.type,accept:e.accept,outerHTML:e.outerHTML.slice(0,350)})),
   headings:[...document.querySelectorAll('h1,h2,h3')].slice(0,15).map(e=>({tag:e.tagName,text:e.innerText.slice(0,100)})),
