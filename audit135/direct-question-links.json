@@ -1,0 +1,98 @@
+[
+  {
+    "readingId": "m135-01",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 12,
+    "coverageType": "direct_context_question",
+    "prompt": "「新人に質問を勧めた手前」は、筆者のどの事情を表すか。"
+  },
+  {
+    "readingId": "m135-03",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 18,
+    "coverageType": "direct_context_question",
+    "prompt": "「仮の名で出すまでのことだ」は、この場面でどういう意味か。"
+  },
+  {
+    "readingId": "m135-04",
+    "questionIndex": 1,
+    "kind": "g",
+    "itemId": 107,
+    "coverageType": "direct_context_question",
+    "prompt": "「二十キロからある」は、重さをどのように伝えているか。"
+  },
+  {
+    "readingId": "m135-06",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 14,
+    "coverageType": "direct_context_question",
+    "prompt": "「住所はおろか、本当の名前さえ分からない」は何を強調しているか。"
+  },
+  {
+    "readingId": "m135-07",
+    "questionIndex": 1,
+    "kind": "g",
+    "itemId": 120,
+    "coverageType": "direct_context_question",
+    "prompt": "「一人なら一人で」に込められた考えはどれか。"
+  },
+  {
+    "readingId": "m135-08",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 88,
+    "coverageType": "direct_context_question",
+    "prompt": "「聞けないでもない」を「問題なし」とまとめると、何を取り違えることになるか。"
+  },
+  {
+    "readingId": "m135-09",
+    "questionIndex": 1,
+    "kind": "g",
+    "itemId": 72,
+    "coverageType": "direct_context_question",
+    "prompt": "「自分用のメモならいざしらず」に続く主張は何か。"
+  },
+  {
+    "readingId": "m135-11",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 96,
+    "coverageType": "direct_context_question",
+    "prompt": "「作者にして最初の読者」は、筆者をどう捉えた表現か。"
+  },
+  {
+    "readingId": "m135-12",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 92,
+    "coverageType": "direct_context_question",
+    "prompt": "担当者の「できないものか」は、ここでは何を表しているか。"
+  },
+  {
+    "readingId": "l135-02",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 10,
+    "coverageType": "direct_context_question",
+    "prompt": "「実現しなかった計画であるがゆえに」は、何の理由を述べているか。"
+  },
+  {
+    "readingId": "l135-05",
+    "questionIndex": 1,
+    "kind": "g",
+    "itemId": 33,
+    "coverageType": "direct_context_question",
+    "prompt": "この場面の「子どもではあるまいし」は、どのような筆者の態度を示していたか。"
+  },
+  {
+    "readingId": "l135-06",
+    "questionIndex": 0,
+    "kind": "g",
+    "itemId": 52,
+    "coverageType": "direct_context_question",
+    "prompt": "「驚きを禁じ得なかった」は、ここで何を表しているか。"
+  }
+]

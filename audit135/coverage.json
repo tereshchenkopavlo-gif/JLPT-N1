@@ -1,0 +1,762 @@
+[
+  {
+    "readingId": "m135-01",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 21,
+    "label": "遠慮",
+    "quote": "遠慮",
+    "meaning": "стриманість, небажання поставити запитання",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-01",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 241,
+    "label": "態度",
+    "quote": "態度",
+    "meaning": "поведінка наставника щодо запитань",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-01",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 12,
+    "label": "〜手前",
+    "quote": "新人に質問を勧めた手前",
+    "meaning": "з огляду на власні попередні слова перед новачками; потреба поводитися відповідно до заявленого",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-02",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 92,
+    "label": "原因",
+    "quote": "原因",
+    "meaning": "причина можливої помилки друку",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-02",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 199,
+    "label": "状態",
+    "quote": "状態",
+    "meaning": "стан налаштувань і матеріалів під час проби",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-02",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1400,
+    "label": "手間",
+    "quote": "手間",
+    "meaning": "зусилля на запис умов проби",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-02",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 59,
+    "label": "〜や否や",
+    "quote": "印刷された紙が出てくるや否や",
+    "meaning": "щойно вийшов аркуш, відразу зупинив апарат; послідовність уже здійснених подій",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-03",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 265,
+    "label": "展示",
+    "quote": "展示",
+    "meaning": "показ фотографій",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-03",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1453,
+    "label": "順序",
+    "quote": "順序",
+    "meaning": "порядок розміщення робіт",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-03",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 397,
+    "label": "理由",
+    "quote": "理由",
+    "meaning": "причина вибору назви або її відсутності",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-03",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 18,
+    "label": "〜までのことだ",
+    "quote": "仮の名で出すまでのことだ",
+    "meaning": "якщо потрібно, просто подамо з робочою назвою; готовність до запасного способу, не завершення всіх можливостей",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-04",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 2076,
+    "label": "模型",
+    "quote": "模型",
+    "meaning": "макет для перевезення",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-04",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 852,
+    "label": "運搬",
+    "quote": "運搬",
+    "meaning": "перенесення й транспортування макета",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-04",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 286,
+    "label": "日程",
+    "quote": "日程",
+    "meaning": "узгоджений розклад перевезення",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-04",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 107,
+    "label": "〜からある・〜からいる・〜からする",
+    "quote": "二十キロからある",
+    "meaning": "аж двадцять кілограмів; підкреслення значної ваги",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-05",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 139,
+    "label": "参考",
+    "quote": "参考",
+    "meaning": "корисний орієнтир із побаченого досвіду",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-05",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 197,
+    "label": "条件",
+    "quote": "条件",
+    "meaning": "обставини власного робочого місця",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-05",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 281,
+    "label": "導入",
+    "quote": "導入",
+    "meaning": "запровадження нового способу роботи",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-05",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 104,
+    "label": "〜ずくめ",
+    "quote": "いいことずくめの文章",
+    "meaning": "текст із суцільних позитивних моментів; усе подано під однією ознакою",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-06",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 2066,
+    "label": "名簿",
+    "quote": "名簿",
+    "meaning": "список колишніх однокласників",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-06",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 196,
+    "label": "情報",
+    "quote": "情報",
+    "meaning": "відомості з різним рівнем перевіреності",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-06",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 14,
+    "label": "〜はおろか",
+    "quote": "住所はおろか、本当の名前さえ分からない",
+    "meaning": "немає навіть базовішого імені, не кажучи вже про адресу",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-07",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 86,
+    "label": "計画",
+    "quote": "計画",
+    "meaning": "спільний план подорожі",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-07",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 2060,
+    "label": "無駄",
+    "quote": "無駄",
+    "meaning": "марність попереднього спільного плану, яку автор заперечує",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-07",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 2497,
+    "label": "急ぐ",
+    "quote": "急ぐ",
+    "meaning": "поспішати до заброньованого закладу",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-07",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 120,
+    "label": "～なら～で",
+    "quote": "一人なら一人で",
+    "meaning": "якщо вже сам, то за цих умов можна обрати відповідний спосіб провести час",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-08",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 311,
+    "label": "否定",
+    "quote": "否定",
+    "meaning": "заперечення в мовній формі",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-08",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1237,
+    "label": "肯定",
+    "quote": "肯定",
+    "meaning": "позитивна оцінка можливості розчути",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-08",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 303,
+    "label": "判断",
+    "quote": "判断",
+    "meaning": "висновок щодо придатності запису",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-08",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 88,
+    "label": "〜ないでもない",
+    "quote": "聞けないでもない",
+    "meaning": "не можна сказати, що зовсім не чути; обережне визнання часткової можливості, не тверда згода",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-09",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1403,
+    "label": "手順",
+    "quote": "手順",
+    "meaning": "послідовність робочих дій",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-09",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1606,
+    "label": "前提",
+    "quote": "前提",
+    "meaning": "знання, які автор мовчки приписує читачеві",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-09",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1628,
+    "label": "操作",
+    "quote": "操作",
+    "meaning": "дії з робочою системою",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-09",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 72,
+    "label": "〜ならいざしらず",
+    "quote": "自分用のメモならいざしらず",
+    "meaning": "для власних записів це ще можна зрозуміти, але для чужого читача — інша вимога",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-10",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1984,
+    "label": "返却",
+    "quote": "返却",
+    "meaning": "повернення бібліотечних книжок",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-10",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 389,
+    "label": "用意",
+    "quote": "用意",
+    "meaning": "підготовлені чай і фотографії",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-10",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 2497,
+    "label": "急ぐ",
+    "quote": "急ぐ",
+    "meaning": "поспішати через заплановане повернення книжок",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-10",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 67,
+    "label": "〜がてら",
+    "quote": "本を返しがてら",
+    "meaning": "занести річ принагідно, йдучи повертати книжки",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-11",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 5,
+    "label": "意図",
+    "quote": "意図",
+    "meaning": "авторський задум",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-11",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 147,
+    "label": "視線",
+    "quote": "視線",
+    "meaning": "напрямок погляду героя на малюнку",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-11",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 2314,
+    "label": "手掛かり",
+    "quote": "手掛かり",
+    "meaning": "підказка для перевірки інформації на сторінці",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-11",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 96,
+    "label": "〜にして",
+    "quote": "作者にして最初の読者",
+    "meaning": "автор і водночас перший читач — дві ролі однієї особи",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-12",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 65,
+    "label": "距離",
+    "quote": "距離",
+    "meaning": "відстань від входу до підставки",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-12",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 1591,
+    "label": "宣言",
+    "quote": "宣言",
+    "meaning": "заява про відмову від ремонту, якою репліка не була",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-12",
+    "level": "medium",
+    "kind": "v",
+    "itemId": 28,
+    "label": "解決",
+    "quote": "解決",
+    "meaning": "усунення проблеми проходу, ще не доведене пробою",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "m135-12",
+    "level": "medium",
+    "kind": "g",
+    "itemId": 92,
+    "label": "〜ないものか",
+    "quote": "通りやすくできないものか",
+    "meaning": "чи не можна знайти спосіб полегшити прохід; бажання знайти рішення",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-01",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1137,
+    "label": "経緯",
+    "quote": "経緯",
+    "meaning": "послідовність подій, що призвела до хибного відправлення",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-01",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1390,
+    "label": "謝罪",
+    "quote": "謝罪",
+    "meaning": "вибачення за затримку відповіді",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-01",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1382,
+    "label": "実施",
+    "quote": "実施",
+    "meaning": "виконання обіцяних дій",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-01",
+    "level": "long",
+    "kind": "v",
+    "itemId": 2303,
+    "label": "言い訳",
+    "quote": "言い訳",
+    "meaning": "виправдання, яким автор спочатку вважав вступ",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-01",
+    "level": "long",
+    "kind": "g",
+    "itemId": 11,
+    "label": "〜こととて",
+    "quote": "不慣れなこととて",
+    "meaning": "через недосвідченість; формальне пояснення обставини у вибаченні за пізню відповідь",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-02",
+    "level": "long",
+    "kind": "v",
+    "itemId": 86,
+    "label": "計画",
+    "quote": "計画",
+    "meaning": "проєкт незбудованої залізниці",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-02",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1484,
+    "label": "証拠",
+    "quote": "証拠",
+    "meaning": "доказ щодо причини перенесення крамниці",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-02",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1604,
+    "label": "選択",
+    "quote": "選択",
+    "meaning": "рішення в процесі ще не визначеного майбутнього",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-02",
+    "level": "long",
+    "kind": "v",
+    "itemId": 2584,
+    "label": "省く",
+    "quote": "省く",
+    "meaning": "вилучати інформацію з викладу історії",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-02",
+    "level": "long",
+    "kind": "g",
+    "itemId": 10,
+    "label": "〜ゆえ",
+    "quote": "実現しなかった計画であるがゆえに",
+    "meaning": "саме через те, що план не здійснився; причина непомітності проміжних подій",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-03",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1622,
+    "label": "倉庫",
+    "quote": "倉庫",
+    "meaning": "шкільне сховище матеріалів",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-03",
+    "level": "long",
+    "kind": "v",
+    "itemId": 199,
+    "label": "状態",
+    "quote": "状態",
+    "meaning": "початковий вигляд і розташування коробки",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-03",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1354,
+    "label": "児童",
+    "quote": "児童",
+    "meaning": "учні початкової школи",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-03",
+    "level": "long",
+    "kind": "v",
+    "itemId": 2314,
+    "label": "手掛かり",
+    "quote": "手掛かり",
+    "meaning": "слід, потенційно корисний для дослідження",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-03",
+    "level": "long",
+    "kind": "g",
+    "itemId": 105,
+    "label": "〜まみれ",
+    "quote": "ほこりまみれ",
+    "meaning": "вся в пилюці; небажане фізичне забруднення поверхні коробки",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-04",
+    "level": "long",
+    "kind": "v",
+    "itemId": 52,
+    "label": "基準",
+    "quote": "基準",
+    "meaning": "подія, за якою вирішують своєчасність заявки",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-04",
+    "level": "long",
+    "kind": "v",
+    "itemId": 868,
+    "label": "応募",
+    "quote": "応募",
+    "meaning": "подання твору на фотовиставку",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-04",
+    "level": "long",
+    "kind": "v",
+    "itemId": 385,
+    "label": "余裕",
+    "quote": "余裕",
+    "meaning": "запас часу для надсилання",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-04",
+    "level": "long",
+    "kind": "v",
+    "itemId": 2366,
+    "label": "締め切り",
+    "quote": "締め切り",
+    "meaning": "граничний строк приймання",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-04",
+    "level": "long",
+    "kind": "g",
+    "itemId": 24,
+    "label": "〜をもって①",
+    "quote": "十一月十日午後五時をもって",
+    "meaning": "офіційне позначення моменту завершення приймання, визначеного далі в тексті",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-05",
+    "level": "long",
+    "kind": "v",
+    "itemId": 129,
+    "label": "混同",
+    "quote": "混同",
+    "meaning": "змішування самостійності з відсутністю потреби перевіряти",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-05",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1479,
+    "label": "照合",
+    "quote": "照合",
+    "meaning": "звірення таблиці з початковим записом",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-05",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1723,
+    "label": "調整",
+    "quote": "調整",
+    "meaning": "узгодження заміни чергувань",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-05",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1750,
+    "label": "訂正",
+    "quote": "訂正",
+    "meaning": "виправлення таблиці",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-05",
+    "level": "long",
+    "kind": "g",
+    "itemId": 33,
+    "label": "〜ではあるまいし",
+    "quote": "子どもではあるまいし",
+    "meaning": "ви ж не діти; докір із вимогою дорослої самостійності, який автор далі переосмислює",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-06",
+    "level": "long",
+    "kind": "v",
+    "itemId": 313,
+    "label": "比較",
+    "quote": "比較",
+    "meaning": "зіставлення знарядь або продуктивності",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-06",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1264,
+    "label": "根拠",
+    "quote": "根拠",
+    "meaning": "підстава припущення про призначення предмета",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-06",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1484,
+    "label": "証拠",
+    "quote": "証拠",
+    "meaning": "докази на відміну від сили почуття",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-06",
+    "level": "long",
+    "kind": "v",
+    "itemId": 1790,
+    "label": "動機",
+    "quote": "動機",
+    "meaning": "спонука дізнатися більше",
+    "coverageType": "reviewed_context_occurrence"
+  },
+  {
+    "readingId": "l135-06",
+    "level": "long",
+    "kind": "g",
+    "itemId": 52,
+    "label": "～を禁じ得ない",
+    "quote": "驚きを禁じ得なかった",
+    "meaning": "не міг стримати подиву; мимовільна емоційна реакція, без твердження про технічну перевагу",
+    "coverageType": "reviewed_context_occurrence"
+  }
+]
