@@ -1,0 +1,29 @@
+/* Comparison typography: neutral text, regular prose, equal readable body sizes. */
+#view-compare { --comparison-ink:#000; }
+#view-compare .compare-entry,
+#view-compare .compare-guide,
+#view-compare .compare-empty { color:var(--comparison-ink); font-size:calc(16px * var(--fs,1)); font-weight:400; line-height:1.8; }
+#view-compare .compare-entry .compare-ua,
+#view-compare .compare-entry .compare-jp {
+  color:var(--comparison-ink);
+  font-size:calc(16px * var(--fs,1));
+  font-weight:400;
+  line-height:1.8;
+}
+#view-compare .grammar-example-ua {
+  color:var(--comparison-ink);
+  font-size:inherit;
+  font-weight:400;
+  line-height:1.8;
+}
+#view-compare .study-example-translation,
+#view-compare .study-subheading,
+#view-compare .study-text strong,
+#view-compare .compare-type,
+#view-compare .word-pos,
+#view-compare .remove-compare { color:var(--comparison-ink); }
+#view-compare .study-paragraph,
+#view-compare .study-example { font-weight:400; }
+@media (prefers-color-scheme:dark) {
+  :root:not([data-theme="light"]) #view-compare { --comparison-ink:#fff; }
+}

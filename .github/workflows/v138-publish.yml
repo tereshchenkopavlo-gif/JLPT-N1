@@ -1,0 +1,49 @@
+name: Verify and publish JLPT N1 v138
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit138/**'
+      - '.github/workflows/v138-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v138-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build and assert exact CSS-only scope
+        run: |
+          python3 audit138/build.py
+          node --check audit138/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify comparison typography in 12 scenarios
+        run: node audit138/browser.cjs
+      - name: Publish full HTML and audit
+        run: |
+          python3 audit138/publish.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v138.html JLPT_N1_v138_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md audit138/build-summary.json audit138/browser-results.json
+          git commit -m "Release JLPT N1 v138: clear black regular comparison text and larger examples"
+          git push origin HEAD:main
+      - name: Verify published full HTML and audit
+        run: |
+          git fetch origin main
+          test "$(git hash-object JLPT_N1_ukrainian_reading_v138.html)" = "$(git rev-parse origin/main:JLPT_N1_ukrainian_reading_v138.html)"
+          test "$(git hash-object JLPT_N1_v138_audit.md)" = "$(git rev-parse origin/main:JLPT_N1_v138_audit.md)"
