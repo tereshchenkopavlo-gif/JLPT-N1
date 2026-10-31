@@ -4,7 +4,7 @@ import hashlib,json,shutil
 root=Path(__file__).resolve().parent.parent
 p=root/'audit132'
 html=root/'release132/JLPT_N1_ukrainian_reading_v132.html'
-expected='69dcf22d186aa8603cdeb17cb143c416dd3ec7f5d5cbd54cc083c8d4a96007b6'
+expected='bc6b932e63fd07b74d8b4acbf843c1214ce1638f345e5473d3c51cfac527a456'
 base='816529e17f5d91e4e81a95435d96d7f1d9e87a3dc4536522a353f9b8acb560ac'
 assert hashlib.sha256(html.read_bytes()).hexdigest()==expected
 checks=json.loads((p/'invariant-results.json').read_text())
