@@ -57,6 +57,18 @@ for(const width of [360,412,1280]){
  await page.waitForTimeout(300);
  assert.equal(errors.length,0,'import does not throw JavaScript errors');
  console.log('PASS v130 progress import attempt',JSON.stringify({width,dialogs:dialogs.length,inputId:await uploadInput.getAttribute('id')}));
+ // A successful import should preserve the same exported data when exported again.
+ await page.locator('.nav-tab[data-view="settings"]').click();
+ const [roundtrip]=await Promise.all([
+   page.waitForEvent('download',{timeout:10000}),
+   page.locator('#btnExportProgress').click()
+ ]);
+ const second=JSON.parse(await fs.readFile(await roundtrip.path(),'utf8'));
+ assert.deepEqual(second.vp,backup.vp,'vocabulary progress survives import/export');
+ assert.deepEqual(second.gp,backup.gp,'grammar progress survives import/export');
+ assert.deepEqual(second.comparisonKeys,backup.comparisonKeys,'comparison list survives import/export');
+ console.log('PASS v130 progress export/import roundtrip',JSON.stringify({width,vocab:Object.keys(second.vp).length,grammar:Object.keys(second.gp).length}));
+
 
  // Reload should keep the session functional and app accessible, irrespective of which keys exist.
  await page.reload({waitUntil:'load'});
