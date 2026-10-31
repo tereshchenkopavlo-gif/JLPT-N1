@@ -41,6 +41,8 @@ jobs:
         run: node audit130/browser-smoke.cjs
       - name: Discover live UI controls for future functional regression
         run: node audit130/ui-diagnostic.cjs
+      - name: Discover card detail and comparison interactions
+        run: node audit130/interaction-diagnostic.cjs
       - name: Run interactive browser navigation and reload regression
         run: node audit130/browser-functional.cjs
       - name: Upload unverified v130 HTML and audit outputs
