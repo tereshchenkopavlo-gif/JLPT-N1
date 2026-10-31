@@ -27,6 +27,12 @@ const url=pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.
    }
    const passage=await page.locator('#passageArea').innerText();
    assert.ok(passage.trim().length>50,'exercise contains reading/questions');
+   const controls=await page.locator('#passageArea').evaluate(el=>({
+    markup:el.innerHTML.slice(0,4500),
+    buttons:[...el.querySelectorAll('button')].map(b=>({text:b.textContent.trim().slice(0,60),className:b.className,id:b.id})).slice(0,24),
+    radios:el.querySelectorAll('input[type="radio"]').length
+   }));
+   console.log('SESSION-CONTROLS '+JSON.stringify({width,...controls}));
    assert.equal(errors.length,0,'no browser runtime errors');
    console.log('PASS v130 learning session',JSON.stringify({width,state,passageChars:passage.length}));
    await page.close();
