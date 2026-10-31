@@ -1,0 +1,45 @@
+name: Publish verified JLPT N1 v130 HTML
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build and check all content invariants
+        run: |
+          python3 audit130/build.py
+          python3 audit130/invariants.py
+          python3 audit130/content-integrity.py
+          node --check audit130/app.js
+      - name: Test full browser functionality
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          node audit130/browser-smoke.cjs
+          node audit130/session-functional.cjs
+          node audit130/session-completion.cjs
+          node audit130/browser-functional.cjs
+      - name: Publish versioned HTML, audit, README and project status
+        run: |
+          python3 audit130/publish-metadata.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v130.html JLPT_N1_v130_audit.md README.md PROJECT_STATUS.md
+          git commit -m "Release JLPT N1 v130 full standalone HTML and audit" || exit 1
+          git push
+      - name: Confirm remote publication and matching Git blob
+        run: |
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+          test "$(git hash-object JLPT_N1_ukrainian_reading_v130.html)" = "$(git rev-parse origin/main:JLPT_N1_ukrainian_reading_v130.html)"
