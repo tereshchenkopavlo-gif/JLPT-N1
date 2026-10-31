@@ -39,6 +39,8 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Run v130 Chromium startup and reading-bank smoke test
         run: node audit130/browser-smoke.cjs
+      - name: Discover live UI controls for future functional regression
+        run: node audit130/ui-diagnostic.cjs
       - name: Upload unverified v130 HTML and audit outputs
         if: always()
         uses: actions/upload-artifact@v4
