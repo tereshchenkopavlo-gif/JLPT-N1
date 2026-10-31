@@ -10,6 +10,7 @@ const path = require('node:path');
  await page.waitForTimeout(250);
  const s=await page.evaluate(()=>({
   title:document.title,
+  inputs:[...document.querySelectorAll('input')].map(e=>({id:e.id,type:e.type,accept:e.accept,outerHTML:e.outerHTML.slice(0,350)})),
   headings:[...document.querySelectorAll('h1,h2,h3')].slice(0,15).map(e=>({tag:e.tagName,text:e.innerText.slice(0,100)})),
   controls:[...document.querySelectorAll('button,[role="tab"],select,input[type="button"],a')].slice(0,90).map(e=>({tag:e.tagName,id:e.id,role:e.getAttribute('role'),text:(e.innerText||e.getAttribute('aria-label')||e.value||'').trim().slice(0,80),className:String(e.className).slice(0,100)})),
   htmlSample:document.body.innerHTML.slice(0,1800),
