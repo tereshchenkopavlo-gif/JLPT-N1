@@ -40,6 +40,8 @@ const url=pathToFileURL(path.resolve('release130/JLPT_N1_ukrainian_reading_v130.
     const q=questions.nth(i);
     assert.equal(await q.locator('.qchoice').count(),4,'four choices per question');
     await q.locator('.qchoice').first().click();
+    const choiceClasses=await q.locator('.qchoice').evaluateAll(items=>items.map(el=>el.className));
+    console.log('ANSWER-CLASSES '+JSON.stringify({width,i,choiceClasses}));
     assert.equal(await q.locator('.qexplain').isVisible(),true,'answer reveals explanation '+i);
     assert.ok((await q.locator('.qexplain').innerText()).trim().length>4,'nonempty explanation '+i);
    }
