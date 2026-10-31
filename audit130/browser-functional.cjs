@@ -25,6 +25,15 @@ for(const width of [360,412,1280]){
  await page.locator('.nav-tab[data-view="settings"]').click();
  assert.equal(await page.locator('#btnExportProgress').isVisible(),true,'export available');
  const progressKeys=await page.evaluate(()=>Object.keys(localStorage));
+ // The export button must produce an actual file, not merely be visible.
+ const [download]=await Promise.all([
+   page.waitForEvent('download',{timeout:10000}),
+   page.locator('#btnExportProgress').click()
+ ]);
+ assert.ok(download.suggestedFilename().length>3,'export file has a name');
+ const failure=await download.failure();
+ assert.equal(failure,null,'export downloaded without error');
+ console.log('PASS v130 progress export',JSON.stringify({width,filename:download.suggestedFilename()}));
  // Reload should keep the session functional and app accessible, irrespective of which keys exist.
  await page.reload({waitUntil:'load'});
  assert.equal(await page.locator('.nav-tab').count(),5,'all tabs survive reload');
