@@ -1,6 +1,10 @@
 name: Publish verified JLPT N1 v130 HTML
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'audit130/publish-metadata.py'
+      - '.github/workflows/v130-publish.yml'
 permissions:
   contents: write
 jobs:
