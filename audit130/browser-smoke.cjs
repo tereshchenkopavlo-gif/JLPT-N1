@@ -18,7 +18,7 @@ const path = require('node:path');
         // Inspect the embedded JSON without assuming the application exports its internals.
         const source = Array.from(document.scripts, x => x.textContent || '').find(x => x.includes('const readingBank = {'));
         if (!source) throw new Error('Embedded readingBank source not found');
-        const match = source.match(/const readingBank\\s*=\\s*(\\{[^\\n]*\\});/);
+        const match = source.match(/const readingBank\s*=\s*(\{[^\n]*\});/);
         if (!match) throw new Error('Embedded readingBank JSON not found');
         const bank = JSON.parse(match[1]);
         const medium = bank.medium.length;
