@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "counts": {
+    "texts": 24,
+    "questions": 56,
+    "choices": 224,
+    "evidence_in_source": 56,
+    "paragraphs_matched": 24,
+    "unique_prompts": 56,
+    "direct_context_questions": 3
+  },
+  "scope": "Form, completeness and literal quotation only; does not validate answer semantics, language quality, distractor plausibility or user interaction.",
+  "errors": []
+}

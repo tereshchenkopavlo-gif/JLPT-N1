@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Exact v131 baseline SHA-256",
+    "pass_": true
+  },
+  {
+    "name": "All 118 existing texts and 283 questions unchanged",
+    "pass_": true
+  },
+  {
+    "name": "87 medium, 55 long, 339 total questions",
+    "pass_": true
+  },
+  {
+    "name": "DEFAULT_VOCAB unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "VOCAB_DETAILS_BY_ID unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "GRAMMAR unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "GRAMMAR_DETAILS_BY_ID unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "VOCAB_AUDITED_PAIRS unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "REVIEWED_MEANING_QUIZZES unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "AUTO_ANTONYM_PAIRS unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "READING_CONTEXT_NOTES unchanged data and IDs",
+    "pass_": true
+  },
+  {
+    "name": "Unique IDs/titles/bodies, length, paragraph alignment, evidence, four distinct choices, glossary",
+    "pass_": true
+  },
+  {
+    "name": "Outside reading bank only version changed: all CSS, logic, storage and planner byte-identical",
+    "pass_": true
+  },
+  {
+    "name": "All coverage refers to actual stable IDs and exact lexical forms",
+    "pass_": true
+  },
+  {
+    "name": "Question answer keys and explanations preserved through option rotation",
+    "pass_": true
+  },
+  {
+    "name": "New source answer keys use all four positions",
+    "pass_": true
+  }
+]

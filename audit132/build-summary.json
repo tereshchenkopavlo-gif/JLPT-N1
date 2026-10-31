@@ -1,0 +1,13 @@
+{
+  "texts": {
+    "medium": 87,
+    "long": 55
+  },
+  "new": 24,
+  "newQuestions": 56,
+  "totalQuestions": 339,
+  "coverageLinks": 85,
+  "vocabIds": 68,
+  "grammarIds": 11,
+  "sha256": "f015b4b483125e64977a409474ff20053a3433772374b12fd3e9421275301075"
+}
