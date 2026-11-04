@@ -5576,268 +5576,268 @@ reading,l135-06,readingBank.long[60],reviewed,audit135/editorial-review.json:pas
 reading_question,l135-06:q1,readingBank.long[60].questions[0],reviewed,audit135/editorial-review.json:question=l135-06/0; author review; v135 SHA-256=142c5b7d3ad77b034d17778885de83fd928cdd2c99d1f06c9ad3012012353a12
 reading_question,l135-06:q2,readingBank.long[60].questions[1],reviewed,audit135/editorial-review.json:question=l135-06/1; author review; v135 SHA-256=142c5b7d3ad77b034d17778885de83fd928cdd2c99d1f06c9ad3012012353a12
 reading_question,l135-06:q3,readingBank.long[60].questions[2],reviewed,audit135/editorial-review.json:question=l135-06/2; author review; v135 SHA-256=142c5b7d3ad77b034d17778885de83fd928cdd2c99d1f06c9ad3012012353a12
-reviewed_meaning_quiz,v_1178,REVIEWED_MEANING_QUIZZES.v_1178,pending,
-reviewed_meaning_quiz,v_1602,REVIEWED_MEANING_QUIZZES.v_1602,pending,
-reviewed_meaning_quiz,v_1625,REVIEWED_MEANING_QUIZZES.v_1625,pending,
-reviewed_meaning_quiz,v_1626,REVIEWED_MEANING_QUIZZES.v_1626,pending,
-reviewed_meaning_quiz,v_1634,REVIEWED_MEANING_QUIZZES.v_1634,pending,
-reviewed_meaning_quiz,v_1666,REVIEWED_MEANING_QUIZZES.v_1666,pending,
-reviewed_meaning_quiz,v_1682,REVIEWED_MEANING_QUIZZES.v_1682,pending,
-reviewed_meaning_quiz,v_1733,REVIEWED_MEANING_QUIZZES.v_1733,pending,
-reviewed_meaning_quiz,v_1735,REVIEWED_MEANING_QUIZZES.v_1735,pending,
-reviewed_meaning_quiz,v_1736,REVIEWED_MEANING_QUIZZES.v_1736,pending,
-reviewed_meaning_quiz,v_1746,REVIEWED_MEANING_QUIZZES.v_1746,pending,
-reviewed_meaning_quiz,v_1761,REVIEWED_MEANING_QUIZZES.v_1761,pending,
-reviewed_meaning_quiz,v_1768,REVIEWED_MEANING_QUIZZES.v_1768,pending,
-reviewed_meaning_quiz,v_1817,REVIEWED_MEANING_QUIZZES.v_1817,pending,
-reviewed_meaning_quiz,v_1818,REVIEWED_MEANING_QUIZZES.v_1818,pending,
-reviewed_meaning_quiz,v_1841,REVIEWED_MEANING_QUIZZES.v_1841,pending,
-reviewed_meaning_quiz,v_1869,REVIEWED_MEANING_QUIZZES.v_1869,pending,
-reviewed_meaning_quiz,v_1892,REVIEWED_MEANING_QUIZZES.v_1892,pending,
-reviewed_meaning_quiz,v_1897,REVIEWED_MEANING_QUIZZES.v_1897,pending,
-reviewed_meaning_quiz,v_1909,REVIEWED_MEANING_QUIZZES.v_1909,pending,
-reviewed_meaning_quiz,v_1911,REVIEWED_MEANING_QUIZZES.v_1911,pending,
-reviewed_meaning_quiz,v_1931,REVIEWED_MEANING_QUIZZES.v_1931,pending,
-reviewed_meaning_quiz,v_1942,REVIEWED_MEANING_QUIZZES.v_1942,pending,
-reviewed_meaning_quiz,v_1985,REVIEWED_MEANING_QUIZZES.v_1985,pending,
-reviewed_meaning_quiz,v_1997,REVIEWED_MEANING_QUIZZES.v_1997,pending,
-reviewed_meaning_quiz,v_2040,REVIEWED_MEANING_QUIZZES.v_2040,pending,
-reviewed_meaning_quiz,v_2052,REVIEWED_MEANING_QUIZZES.v_2052,pending,
-reviewed_meaning_quiz,v_2111,REVIEWED_MEANING_QUIZZES.v_2111,pending,
-reviewed_meaning_quiz,v_2118,REVIEWED_MEANING_QUIZZES.v_2118,pending,
-reviewed_meaning_quiz,v_2154,REVIEWED_MEANING_QUIZZES.v_2154,pending,
-reviewed_meaning_quiz,v_2158,REVIEWED_MEANING_QUIZZES.v_2158,pending,
-reviewed_meaning_quiz,v_2200,REVIEWED_MEANING_QUIZZES.v_2200,pending,
-reviewed_meaning_quiz,v_2210,REVIEWED_MEANING_QUIZZES.v_2210,pending,
-reviewed_meaning_quiz,v_2294,REVIEWED_MEANING_QUIZZES.v_2294,pending,
-reviewed_meaning_quiz,v_2322,REVIEWED_MEANING_QUIZZES.v_2322,pending,
-reviewed_meaning_quiz,v_2323,REVIEWED_MEANING_QUIZZES.v_2323,pending,
-reviewed_meaning_quiz,v_2339,REVIEWED_MEANING_QUIZZES.v_2339,pending,
-reviewed_meaning_quiz,v_2349,REVIEWED_MEANING_QUIZZES.v_2349,pending,
-reviewed_meaning_quiz,v_2350,REVIEWED_MEANING_QUIZZES.v_2350,pending,
-reviewed_meaning_quiz,v_2364,REVIEWED_MEANING_QUIZZES.v_2364,pending,
-reviewed_meaning_quiz,v_2393,REVIEWED_MEANING_QUIZZES.v_2393,pending,
-reviewed_meaning_quiz,v_2399,REVIEWED_MEANING_QUIZZES.v_2399,pending,
-reviewed_meaning_quiz,v_2408,REVIEWED_MEANING_QUIZZES.v_2408,pending,
-reviewed_meaning_quiz,v_2414,REVIEWED_MEANING_QUIZZES.v_2414,pending,
-reviewed_meaning_quiz,v_2427,REVIEWED_MEANING_QUIZZES.v_2427,pending,
-reviewed_meaning_quiz,v_2441,REVIEWED_MEANING_QUIZZES.v_2441,pending,
-reviewed_meaning_quiz,v_2444,REVIEWED_MEANING_QUIZZES.v_2444,pending,
-reviewed_meaning_quiz,v_2445,REVIEWED_MEANING_QUIZZES.v_2445,pending,
-reviewed_meaning_quiz,v_2496,REVIEWED_MEANING_QUIZZES.v_2496,pending,
-reviewed_meaning_quiz,v_2505,REVIEWED_MEANING_QUIZZES.v_2505,pending,
-reviewed_meaning_quiz,v_2510,REVIEWED_MEANING_QUIZZES.v_2510,pending,
-reviewed_meaning_quiz,v_2534,REVIEWED_MEANING_QUIZZES.v_2534,pending,
-reviewed_meaning_quiz,v_2540,REVIEWED_MEANING_QUIZZES.v_2540,pending,
-reviewed_meaning_quiz,v_2552,REVIEWED_MEANING_QUIZZES.v_2552,pending,
-reviewed_meaning_quiz,v_2553,REVIEWED_MEANING_QUIZZES.v_2553,pending,
-reviewed_meaning_quiz,v_2564,REVIEWED_MEANING_QUIZZES.v_2564,pending,
-reviewed_meaning_quiz,v_2577,REVIEWED_MEANING_QUIZZES.v_2577,pending,
-reviewed_meaning_quiz,v_2581,REVIEWED_MEANING_QUIZZES.v_2581,pending,
-reviewed_meaning_quiz,v_2595,REVIEWED_MEANING_QUIZZES.v_2595,pending,
-reviewed_meaning_quiz,v_2597,REVIEWED_MEANING_QUIZZES.v_2597,pending,
-reviewed_meaning_quiz,v_2600,REVIEWED_MEANING_QUIZZES.v_2600,pending,
-reviewed_meaning_quiz,v_2602,REVIEWED_MEANING_QUIZZES.v_2602,pending,
-reviewed_meaning_quiz,v_2609,REVIEWED_MEANING_QUIZZES.v_2609,pending,
-reviewed_meaning_quiz,v_2623,REVIEWED_MEANING_QUIZZES.v_2623,pending,
-reviewed_meaning_quiz,v_2629,REVIEWED_MEANING_QUIZZES.v_2629,pending,
-reviewed_meaning_quiz,v_2637,REVIEWED_MEANING_QUIZZES.v_2637,pending,
-reviewed_meaning_quiz,v_2638,REVIEWED_MEANING_QUIZZES.v_2638,pending,
-reviewed_meaning_quiz,v_2641,REVIEWED_MEANING_QUIZZES.v_2641,pending,
-reviewed_meaning_quiz,v_2656,REVIEWED_MEANING_QUIZZES.v_2656,pending,
-reviewed_meaning_quiz,v_2661,REVIEWED_MEANING_QUIZZES.v_2661,pending,
-reviewed_meaning_quiz,v_2662,REVIEWED_MEANING_QUIZZES.v_2662,pending,
-reviewed_meaning_quiz,v_2682,REVIEWED_MEANING_QUIZZES.v_2682,pending,
-reviewed_meaning_quiz,v_2697,REVIEWED_MEANING_QUIZZES.v_2697,pending,
-reviewed_meaning_quiz,v_2701,REVIEWED_MEANING_QUIZZES.v_2701,pending,
-reviewed_meaning_quiz,v_2704,REVIEWED_MEANING_QUIZZES.v_2704,pending,
-reviewed_meaning_quiz,v_2709,REVIEWED_MEANING_QUIZZES.v_2709,pending,
-reviewed_meaning_quiz,v_2717,REVIEWED_MEANING_QUIZZES.v_2717,pending,
-reviewed_meaning_quiz,v_2736,REVIEWED_MEANING_QUIZZES.v_2736,pending,
-reviewed_meaning_quiz,v_2743,REVIEWED_MEANING_QUIZZES.v_2743,pending,
-reviewed_meaning_quiz,v_2752,REVIEWED_MEANING_QUIZZES.v_2752,pending,
-reviewed_meaning_quiz,v_2764,REVIEWED_MEANING_QUIZZES.v_2764,pending,
-reviewed_meaning_quiz,v_2768,REVIEWED_MEANING_QUIZZES.v_2768,pending,
-reviewed_meaning_quiz,v_2787,REVIEWED_MEANING_QUIZZES.v_2787,pending,
-reviewed_meaning_quiz,v_2811,REVIEWED_MEANING_QUIZZES.v_2811,pending,
-reviewed_meaning_quiz,v_2818,REVIEWED_MEANING_QUIZZES.v_2818,pending,
-reviewed_meaning_quiz,v_2831,REVIEWED_MEANING_QUIZZES.v_2831,pending,
-reviewed_meaning_quiz,v_2852,REVIEWED_MEANING_QUIZZES.v_2852,pending,
-reviewed_meaning_quiz,v_2854,REVIEWED_MEANING_QUIZZES.v_2854,pending,
-reviewed_meaning_quiz,v_2880,REVIEWED_MEANING_QUIZZES.v_2880,pending,
-reviewed_meaning_quiz,v_2885,REVIEWED_MEANING_QUIZZES.v_2885,pending,
-reviewed_meaning_quiz,v_2916,REVIEWED_MEANING_QUIZZES.v_2916,pending,
-reviewed_meaning_quiz,v_2929,REVIEWED_MEANING_QUIZZES.v_2929,pending,
-reviewed_meaning_quiz,v_2931,REVIEWED_MEANING_QUIZZES.v_2931,pending,
-reviewed_meaning_quiz,v_2935,REVIEWED_MEANING_QUIZZES.v_2935,pending,
-reviewed_meaning_quiz,v_2942,REVIEWED_MEANING_QUIZZES.v_2942,pending,
-reviewed_meaning_quiz,v_2948,REVIEWED_MEANING_QUIZZES.v_2948,pending,
-reviewed_meaning_quiz,v_2954,REVIEWED_MEANING_QUIZZES.v_2954,pending,
-reviewed_meaning_quiz,v_2972,REVIEWED_MEANING_QUIZZES.v_2972,pending,
-reviewed_meaning_quiz,v_2978,REVIEWED_MEANING_QUIZZES.v_2978,pending,
-reviewed_meaning_quiz,v_2980,REVIEWED_MEANING_QUIZZES.v_2980,pending,
-reviewed_meaning_quiz,v_2999,REVIEWED_MEANING_QUIZZES.v_2999,pending,
-reviewed_meaning_quiz,v_3014,REVIEWED_MEANING_QUIZZES.v_3014,pending,
-reviewed_meaning_quiz,v_3022,REVIEWED_MEANING_QUIZZES.v_3022,pending,
-reviewed_meaning_quiz,v_3036,REVIEWED_MEANING_QUIZZES.v_3036,pending,
-reviewed_meaning_quiz,v_3054,REVIEWED_MEANING_QUIZZES.v_3054,pending,
-reviewed_meaning_quiz,v_3057,REVIEWED_MEANING_QUIZZES.v_3057,pending,
-reviewed_meaning_quiz,v_3062,REVIEWED_MEANING_QUIZZES.v_3062,pending,
-reviewed_meaning_quiz,v_3063,REVIEWED_MEANING_QUIZZES.v_3063,pending,
-reviewed_meaning_quiz,v_3065,REVIEWED_MEANING_QUIZZES.v_3065,pending,
-reviewed_meaning_quiz,v_3076,REVIEWED_MEANING_QUIZZES.v_3076,pending,
-reviewed_meaning_quiz,v_3079,REVIEWED_MEANING_QUIZZES.v_3079,pending,
-reviewed_meaning_quiz,v_3080,REVIEWED_MEANING_QUIZZES.v_3080,pending,
-reviewed_meaning_quiz,v_3084,REVIEWED_MEANING_QUIZZES.v_3084,pending,
-reviewed_meaning_quiz,v_3090,REVIEWED_MEANING_QUIZZES.v_3090,pending,
-reviewed_meaning_quiz,v_3095,REVIEWED_MEANING_QUIZZES.v_3095,pending,
-reviewed_meaning_quiz,v_3096,REVIEWED_MEANING_QUIZZES.v_3096,pending,
-reviewed_meaning_quiz,v_3097,REVIEWED_MEANING_QUIZZES.v_3097,pending,
-reviewed_meaning_quiz,v_3106,REVIEWED_MEANING_QUIZZES.v_3106,pending,
-reviewed_meaning_quiz,v_3108,REVIEWED_MEANING_QUIZZES.v_3108,pending,
-reviewed_meaning_quiz,v_3115,REVIEWED_MEANING_QUIZZES.v_3115,pending,
-reviewed_meaning_quiz,v_3142,REVIEWED_MEANING_QUIZZES.v_3142,pending,
-reviewed_meaning_quiz,v_3145,REVIEWED_MEANING_QUIZZES.v_3145,pending,
-reviewed_meaning_quiz,v_3158,REVIEWED_MEANING_QUIZZES.v_3158,pending,
-reviewed_meaning_quiz,v_3163,REVIEWED_MEANING_QUIZZES.v_3163,pending,
-reviewed_meaning_quiz,v_3164,REVIEWED_MEANING_QUIZZES.v_3164,pending,
-reviewed_meaning_quiz,v_3165,REVIEWED_MEANING_QUIZZES.v_3165,pending,
-reviewed_meaning_quiz,v_3175,REVIEWED_MEANING_QUIZZES.v_3175,pending,
-reviewed_meaning_quiz,v_3179,REVIEWED_MEANING_QUIZZES.v_3179,pending,
-reviewed_meaning_quiz,v_3191,REVIEWED_MEANING_QUIZZES.v_3191,pending,
-reviewed_meaning_quiz,v_3207,REVIEWED_MEANING_QUIZZES.v_3207,pending,
-reviewed_meaning_quiz,v_3223,REVIEWED_MEANING_QUIZZES.v_3223,pending,
-reviewed_meaning_quiz,v_3228,REVIEWED_MEANING_QUIZZES.v_3228,pending,
-reviewed_meaning_quiz,v_3235,REVIEWED_MEANING_QUIZZES.v_3235,pending,
-reviewed_meaning_quiz,v_3270,REVIEWED_MEANING_QUIZZES.v_3270,pending,
-reviewed_meaning_quiz,v_3279,REVIEWED_MEANING_QUIZZES.v_3279,pending,
-reviewed_meaning_quiz,v_3285,REVIEWED_MEANING_QUIZZES.v_3285,pending,
-reviewed_meaning_quiz,v_3289,REVIEWED_MEANING_QUIZZES.v_3289,pending,
-reviewed_meaning_quiz,v_3292,REVIEWED_MEANING_QUIZZES.v_3292,pending,
-reviewed_meaning_quiz,v_3298,REVIEWED_MEANING_QUIZZES.v_3298,pending,
-reviewed_meaning_quiz,v_3314,REVIEWED_MEANING_QUIZZES.v_3314,pending,
-reviewed_meaning_quiz,v_3319,REVIEWED_MEANING_QUIZZES.v_3319,pending,
-reviewed_meaning_quiz,v_3320,REVIEWED_MEANING_QUIZZES.v_3320,pending,
-reviewed_meaning_quiz,v_3337,REVIEWED_MEANING_QUIZZES.v_3337,pending,
-reviewed_meaning_quiz,v_3345,REVIEWED_MEANING_QUIZZES.v_3345,pending,
-reviewed_meaning_quiz,v_3351,REVIEWED_MEANING_QUIZZES.v_3351,pending,
-reviewed_meaning_quiz,v_3363,REVIEWED_MEANING_QUIZZES.v_3363,pending,
-reviewed_meaning_quiz,v_3372,REVIEWED_MEANING_QUIZZES.v_3372,pending,
-reviewed_meaning_quiz,v_3383,REVIEWED_MEANING_QUIZZES.v_3383,pending,
-reviewed_meaning_quiz,v_3405,REVIEWED_MEANING_QUIZZES.v_3405,pending,
-reviewed_meaning_quiz,v_3420,REVIEWED_MEANING_QUIZZES.v_3420,pending,
-reviewed_meaning_quiz,v_3434,REVIEWED_MEANING_QUIZZES.v_3434,pending,
-reviewed_meaning_quiz,v_3436,REVIEWED_MEANING_QUIZZES.v_3436,pending,
-reviewed_meaning_quiz,v_3445,REVIEWED_MEANING_QUIZZES.v_3445,pending,
-reviewed_meaning_quiz,v_3465,REVIEWED_MEANING_QUIZZES.v_3465,pending,
-reviewed_meaning_quiz,v_3473,REVIEWED_MEANING_QUIZZES.v_3473,pending,
-reviewed_meaning_quiz,v_3481,REVIEWED_MEANING_QUIZZES.v_3481,pending,
-reviewed_meaning_quiz,v_3488,REVIEWED_MEANING_QUIZZES.v_3488,pending,
-reviewed_meaning_quiz,v_3498,REVIEWED_MEANING_QUIZZES.v_3498,pending,
-reviewed_meaning_quiz,v_3510,REVIEWED_MEANING_QUIZZES.v_3510,pending,
-reviewed_meaning_quiz,v_3526,REVIEWED_MEANING_QUIZZES.v_3526,pending,
-reviewed_meaning_quiz,v_3533,REVIEWED_MEANING_QUIZZES.v_3533,pending,
-reviewed_meaning_quiz,v_3534,REVIEWED_MEANING_QUIZZES.v_3534,pending,
-reviewed_meaning_quiz,v_3540,REVIEWED_MEANING_QUIZZES.v_3540,pending,
-reviewed_meaning_quiz,v_3543,REVIEWED_MEANING_QUIZZES.v_3543,pending,
-reviewed_meaning_quiz,v_3566,REVIEWED_MEANING_QUIZZES.v_3566,pending,
-reviewed_meaning_quiz,v_3567,REVIEWED_MEANING_QUIZZES.v_3567,pending,
-reviewed_meaning_quiz,v_3570,REVIEWED_MEANING_QUIZZES.v_3570,pending,
-reviewed_meaning_quiz,v_3574,REVIEWED_MEANING_QUIZZES.v_3574,pending,
-reviewed_meaning_quiz,v_3582,REVIEWED_MEANING_QUIZZES.v_3582,pending,
-reviewed_meaning_quiz,v_3597,REVIEWED_MEANING_QUIZZES.v_3597,pending,
-reviewed_meaning_quiz,v_3617,REVIEWED_MEANING_QUIZZES.v_3617,pending,
-reviewed_meaning_quiz,v_3624,REVIEWED_MEANING_QUIZZES.v_3624,pending,
-reviewed_meaning_quiz,v_3647,REVIEWED_MEANING_QUIZZES.v_3647,pending,
-reviewed_meaning_quiz,v_3648,REVIEWED_MEANING_QUIZZES.v_3648,pending,
-reviewed_meaning_quiz,v_3654,REVIEWED_MEANING_QUIZZES.v_3654,pending,
-reviewed_meaning_quiz,v_3680,REVIEWED_MEANING_QUIZZES.v_3680,pending,
-reviewed_meaning_quiz,v_3691,REVIEWED_MEANING_QUIZZES.v_3691,pending,
-reviewed_meaning_quiz,v_3693,REVIEWED_MEANING_QUIZZES.v_3693,pending,
-reviewed_meaning_quiz,v_3694,REVIEWED_MEANING_QUIZZES.v_3694,pending,
-reviewed_meaning_quiz,v_3695,REVIEWED_MEANING_QUIZZES.v_3695,pending,
-reviewed_meaning_quiz,v_3696,REVIEWED_MEANING_QUIZZES.v_3696,pending,
-reviewed_meaning_quiz,v_3697,REVIEWED_MEANING_QUIZZES.v_3697,pending,
-reviewed_meaning_quiz,v_3698,REVIEWED_MEANING_QUIZZES.v_3698,pending,
-reviewed_meaning_quiz,v_3699,REVIEWED_MEANING_QUIZZES.v_3699,pending,
-reviewed_meaning_quiz,v_3700,REVIEWED_MEANING_QUIZZES.v_3700,pending,
-reviewed_meaning_quiz,v_3701,REVIEWED_MEANING_QUIZZES.v_3701,pending,
-reviewed_meaning_quiz,v_3702,REVIEWED_MEANING_QUIZZES.v_3702,pending,
-reviewed_meaning_quiz,v_3703,REVIEWED_MEANING_QUIZZES.v_3703,pending,
-reviewed_meaning_quiz,v_3704,REVIEWED_MEANING_QUIZZES.v_3704,pending,
-reviewed_meaning_quiz,v_3705,REVIEWED_MEANING_QUIZZES.v_3705,pending,
-reviewed_meaning_quiz,v_3706,REVIEWED_MEANING_QUIZZES.v_3706,pending,
-reviewed_meaning_quiz,v_3707,REVIEWED_MEANING_QUIZZES.v_3707,pending,
-reviewed_meaning_quiz,v_3708,REVIEWED_MEANING_QUIZZES.v_3708,pending,
-reviewed_meaning_quiz,v_3709,REVIEWED_MEANING_QUIZZES.v_3709,pending,
-reviewed_meaning_quiz,v_3710,REVIEWED_MEANING_QUIZZES.v_3710,pending,
-reviewed_meaning_quiz,v_3711,REVIEWED_MEANING_QUIZZES.v_3711,pending,
-reviewed_meaning_quiz,v_3712,REVIEWED_MEANING_QUIZZES.v_3712,pending,
-reviewed_meaning_quiz,v_3713,REVIEWED_MEANING_QUIZZES.v_3713,pending,
-reviewed_meaning_quiz,v_3714,REVIEWED_MEANING_QUIZZES.v_3714,pending,
-reviewed_meaning_quiz,v_3715,REVIEWED_MEANING_QUIZZES.v_3715,pending,
-reviewed_meaning_quiz,v_3716,REVIEWED_MEANING_QUIZZES.v_3716,pending,
-reviewed_meaning_quiz,v_3717,REVIEWED_MEANING_QUIZZES.v_3717,pending,
-reviewed_meaning_quiz,v_3718,REVIEWED_MEANING_QUIZZES.v_3718,pending,
-reviewed_meaning_quiz,v_3719,REVIEWED_MEANING_QUIZZES.v_3719,pending,
-reviewed_meaning_quiz,v_3720,REVIEWED_MEANING_QUIZZES.v_3720,pending,
-reviewed_meaning_quiz,v_3721,REVIEWED_MEANING_QUIZZES.v_3721,pending,
-reviewed_meaning_quiz,v_3722,REVIEWED_MEANING_QUIZZES.v_3722,pending,
-reviewed_meaning_quiz,v_3723,REVIEWED_MEANING_QUIZZES.v_3723,pending,
-reviewed_meaning_quiz,v_3724,REVIEWED_MEANING_QUIZZES.v_3724,pending,
-reviewed_meaning_quiz,v_3725,REVIEWED_MEANING_QUIZZES.v_3725,pending,
-reviewed_meaning_quiz,v_3726,REVIEWED_MEANING_QUIZZES.v_3726,pending,
-reviewed_meaning_quiz,v_3727,REVIEWED_MEANING_QUIZZES.v_3727,pending,
-reviewed_meaning_quiz,v_3728,REVIEWED_MEANING_QUIZZES.v_3728,pending,
-reviewed_meaning_quiz,v_3729,REVIEWED_MEANING_QUIZZES.v_3729,pending,
-reviewed_meaning_quiz,v_3730,REVIEWED_MEANING_QUIZZES.v_3730,pending,
-reviewed_meaning_quiz,v_3731,REVIEWED_MEANING_QUIZZES.v_3731,pending,
-reviewed_meaning_quiz,v_3732,REVIEWED_MEANING_QUIZZES.v_3732,pending,
-reviewed_meaning_quiz,v_3733,REVIEWED_MEANING_QUIZZES.v_3733,pending,
-reviewed_meaning_quiz,v_3734,REVIEWED_MEANING_QUIZZES.v_3734,pending,
-reviewed_meaning_quiz,v_3735,REVIEWED_MEANING_QUIZZES.v_3735,pending,
-reviewed_meaning_quiz,v_3736,REVIEWED_MEANING_QUIZZES.v_3736,pending,
-reviewed_meaning_quiz,v_3737,REVIEWED_MEANING_QUIZZES.v_3737,pending,
-reviewed_meaning_quiz,v_3738,REVIEWED_MEANING_QUIZZES.v_3738,pending,
-reviewed_meaning_quiz,v_3740,REVIEWED_MEANING_QUIZZES.v_3740,pending,
-reviewed_meaning_quiz,v_3742,REVIEWED_MEANING_QUIZZES.v_3742,pending,
-reviewed_meaning_quiz,v_3744,REVIEWED_MEANING_QUIZZES.v_3744,pending,
-reviewed_meaning_quiz,v_3747,REVIEWED_MEANING_QUIZZES.v_3747,pending,
-reviewed_meaning_quiz,v_3749,REVIEWED_MEANING_QUIZZES.v_3749,pending,
-reviewed_meaning_quiz,v_3753,REVIEWED_MEANING_QUIZZES.v_3753,pending,
-reviewed_meaning_quiz,v_3754,REVIEWED_MEANING_QUIZZES.v_3754,pending,
-reviewed_meaning_quiz,v_3759,REVIEWED_MEANING_QUIZZES.v_3759,pending,
-reviewed_meaning_quiz,v_3762,REVIEWED_MEANING_QUIZZES.v_3762,pending,
-reviewed_meaning_quiz,v_3766,REVIEWED_MEANING_QUIZZES.v_3766,pending,
-reviewed_meaning_quiz,v_3767,REVIEWED_MEANING_QUIZZES.v_3767,pending,
-reviewed_meaning_quiz,v_3770,REVIEWED_MEANING_QUIZZES.v_3770,pending,
-reviewed_meaning_quiz,v_3771,REVIEWED_MEANING_QUIZZES.v_3771,pending,
-reviewed_meaning_quiz,v_3777,REVIEWED_MEANING_QUIZZES.v_3777,pending,
-reviewed_meaning_quiz,v_3784,REVIEWED_MEANING_QUIZZES.v_3784,pending,
-reviewed_meaning_quiz,v_3785,REVIEWED_MEANING_QUIZZES.v_3785,pending,
-reviewed_meaning_quiz,v_3787,REVIEWED_MEANING_QUIZZES.v_3787,pending,
-reviewed_meaning_quiz,v_3791,REVIEWED_MEANING_QUIZZES.v_3791,pending,
-reviewed_meaning_quiz,v_3793,REVIEWED_MEANING_QUIZZES.v_3793,pending,
-reviewed_meaning_quiz,v_3801,REVIEWED_MEANING_QUIZZES.v_3801,pending,
-reviewed_meaning_quiz,v_3804,REVIEWED_MEANING_QUIZZES.v_3804,pending,
-reviewed_meaning_quiz,v_3806,REVIEWED_MEANING_QUIZZES.v_3806,pending,
-reviewed_meaning_quiz,v_3810,REVIEWED_MEANING_QUIZZES.v_3810,pending,
-reviewed_meaning_quiz,v_3812,REVIEWED_MEANING_QUIZZES.v_3812,pending,
-reviewed_meaning_quiz,v_3814,REVIEWED_MEANING_QUIZZES.v_3814,pending,
-reviewed_meaning_quiz,v_3815,REVIEWED_MEANING_QUIZZES.v_3815,pending,
-reviewed_meaning_quiz,v_3817,REVIEWED_MEANING_QUIZZES.v_3817,pending,
-reviewed_meaning_quiz,v_3818,REVIEWED_MEANING_QUIZZES.v_3818,pending,
-reviewed_meaning_quiz,v_3820,REVIEWED_MEANING_QUIZZES.v_3820,pending,
-reviewed_meaning_quiz,v_3823,REVIEWED_MEANING_QUIZZES.v_3823,pending,
-reviewed_meaning_quiz,v_3828,REVIEWED_MEANING_QUIZZES.v_3828,pending,
-reviewed_meaning_quiz,v_3833,REVIEWED_MEANING_QUIZZES.v_3833,pending,
-reviewed_meaning_quiz,v_3834,REVIEWED_MEANING_QUIZZES.v_3834,pending,
-reviewed_meaning_quiz,v_3836,REVIEWED_MEANING_QUIZZES.v_3836,pending,
-reviewed_meaning_quiz,v_3844,REVIEWED_MEANING_QUIZZES.v_3844,pending,
-reviewed_meaning_quiz,v_3871,REVIEWED_MEANING_QUIZZES.v_3871,pending,
-reviewed_meaning_quiz,v_3877,REVIEWED_MEANING_QUIZZES.v_3877,pending,
-reviewed_meaning_quiz,v_3885,REVIEWED_MEANING_QUIZZES.v_3885,pending,
-reviewed_meaning_quiz,v_3892,REVIEWED_MEANING_QUIZZES.v_3892,pending,
-reviewed_meaning_quiz,v_3898,REVIEWED_MEANING_QUIZZES.v_3898,pending,
-reviewed_meaning_quiz,v_3900,REVIEWED_MEANING_QUIZZES.v_3900,pending,
-reviewed_meaning_quiz,v_3902,REVIEWED_MEANING_QUIZZES.v_3902,pending,
+reviewed_meaning_quiz,v_1178,REVIEWED_MEANING_QUIZZES.v_1178,reviewed,"audit141/editorial-review.json:v_1178; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1602,REVIEWED_MEANING_QUIZZES.v_1602,reviewed,"audit141/editorial-review.json:v_1602; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1625,REVIEWED_MEANING_QUIZZES.v_1625,reviewed,"audit141/editorial-review.json:v_1625; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1626,REVIEWED_MEANING_QUIZZES.v_1626,reviewed,"audit141/editorial-review.json:v_1626; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1634,REVIEWED_MEANING_QUIZZES.v_1634,reviewed,"audit141/editorial-review.json:v_1634; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1666,REVIEWED_MEANING_QUIZZES.v_1666,reviewed,"audit141/editorial-review.json:v_1666; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1682,REVIEWED_MEANING_QUIZZES.v_1682,reviewed,"audit141/editorial-review.json:v_1682; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1733,REVIEWED_MEANING_QUIZZES.v_1733,reviewed,"audit141/editorial-review.json:v_1733; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1735,REVIEWED_MEANING_QUIZZES.v_1735,reviewed,"audit141/editorial-review.json:v_1735; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1736,REVIEWED_MEANING_QUIZZES.v_1736,reviewed,"audit141/editorial-review.json:v_1736; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1746,REVIEWED_MEANING_QUIZZES.v_1746,reviewed,"audit141/editorial-review.json:v_1746; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1761,REVIEWED_MEANING_QUIZZES.v_1761,reviewed,"audit141/editorial-review.json:v_1761; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1768,REVIEWED_MEANING_QUIZZES.v_1768,reviewed,"audit141/editorial-review.json:v_1768; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1817,REVIEWED_MEANING_QUIZZES.v_1817,reviewed,"audit141/editorial-review.json:v_1817; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1818,REVIEWED_MEANING_QUIZZES.v_1818,reviewed,"audit141/editorial-review.json:v_1818; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1841,REVIEWED_MEANING_QUIZZES.v_1841,reviewed,"audit141/editorial-review.json:v_1841; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1869,REVIEWED_MEANING_QUIZZES.v_1869,reviewed,"audit141/editorial-review.json:v_1869; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1892,REVIEWED_MEANING_QUIZZES.v_1892,reviewed,"audit141/editorial-review.json:v_1892; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1897,REVIEWED_MEANING_QUIZZES.v_1897,reviewed,"audit141/editorial-review.json:v_1897; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1909,REVIEWED_MEANING_QUIZZES.v_1909,reviewed,"audit141/editorial-review.json:v_1909; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1911,REVIEWED_MEANING_QUIZZES.v_1911,reviewed,"audit141/editorial-review.json:v_1911; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1931,REVIEWED_MEANING_QUIZZES.v_1931,reviewed,"audit141/editorial-review.json:v_1931; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1942,REVIEWED_MEANING_QUIZZES.v_1942,reviewed,"audit141/editorial-review.json:v_1942; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1985,REVIEWED_MEANING_QUIZZES.v_1985,reviewed,"audit141/editorial-review.json:v_1985; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_1997,REVIEWED_MEANING_QUIZZES.v_1997,reviewed,"audit141/editorial-review.json:v_1997; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2040,REVIEWED_MEANING_QUIZZES.v_2040,reviewed,"audit141/editorial-review.json:v_2040; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2052,REVIEWED_MEANING_QUIZZES.v_2052,reviewed,"audit141/editorial-review.json:v_2052; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2111,REVIEWED_MEANING_QUIZZES.v_2111,reviewed,"audit141/editorial-review.json:v_2111; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2118,REVIEWED_MEANING_QUIZZES.v_2118,reviewed,"audit141/editorial-review.json:v_2118; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2154,REVIEWED_MEANING_QUIZZES.v_2154,reviewed,"audit141/editorial-review.json:v_2154; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2158,REVIEWED_MEANING_QUIZZES.v_2158,reviewed,"audit141/editorial-review.json:v_2158; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2200,REVIEWED_MEANING_QUIZZES.v_2200,reviewed,"audit141/editorial-review.json:v_2200; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2210,REVIEWED_MEANING_QUIZZES.v_2210,reviewed,"audit141/editorial-review.json:v_2210; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2294,REVIEWED_MEANING_QUIZZES.v_2294,reviewed,"audit141/editorial-review.json:v_2294; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2322,REVIEWED_MEANING_QUIZZES.v_2322,reviewed,"audit141/editorial-review.json:v_2322; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2323,REVIEWED_MEANING_QUIZZES.v_2323,reviewed,"audit141/editorial-review.json:v_2323; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2339,REVIEWED_MEANING_QUIZZES.v_2339,reviewed,"audit141/editorial-review.json:v_2339; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2349,REVIEWED_MEANING_QUIZZES.v_2349,reviewed,"audit141/editorial-review.json:v_2349; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2350,REVIEWED_MEANING_QUIZZES.v_2350,reviewed,"audit141/editorial-review.json:v_2350; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2364,REVIEWED_MEANING_QUIZZES.v_2364,reviewed,"audit141/editorial-review.json:v_2364; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2393,REVIEWED_MEANING_QUIZZES.v_2393,reviewed,"audit141/editorial-review.json:v_2393; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2399,REVIEWED_MEANING_QUIZZES.v_2399,reviewed,"audit141/editorial-review.json:v_2399; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2408,REVIEWED_MEANING_QUIZZES.v_2408,reviewed,"audit141/editorial-review.json:v_2408; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2414,REVIEWED_MEANING_QUIZZES.v_2414,reviewed,"audit141/editorial-review.json:v_2414; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2427,REVIEWED_MEANING_QUIZZES.v_2427,reviewed,"audit141/editorial-review.json:v_2427; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2441,REVIEWED_MEANING_QUIZZES.v_2441,reviewed,"audit141/editorial-review.json:v_2441; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2444,REVIEWED_MEANING_QUIZZES.v_2444,reviewed,"audit141/editorial-review.json:v_2444; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2445,REVIEWED_MEANING_QUIZZES.v_2445,reviewed,"audit141/editorial-review.json:v_2445; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2496,REVIEWED_MEANING_QUIZZES.v_2496,reviewed,"audit141/editorial-review.json:v_2496; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2505,REVIEWED_MEANING_QUIZZES.v_2505,reviewed,"audit141/editorial-review.json:v_2505; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2510,REVIEWED_MEANING_QUIZZES.v_2510,reviewed,"audit141/editorial-review.json:v_2510; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2534,REVIEWED_MEANING_QUIZZES.v_2534,reviewed,"audit141/editorial-review.json:v_2534; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2540,REVIEWED_MEANING_QUIZZES.v_2540,reviewed,"audit141/editorial-review.json:v_2540; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2552,REVIEWED_MEANING_QUIZZES.v_2552,reviewed,"audit141/editorial-review.json:v_2552; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2553,REVIEWED_MEANING_QUIZZES.v_2553,reviewed,"audit141/editorial-review.json:v_2553; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2564,REVIEWED_MEANING_QUIZZES.v_2564,reviewed,"audit141/editorial-review.json:v_2564; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2577,REVIEWED_MEANING_QUIZZES.v_2577,reviewed,"audit141/editorial-review.json:v_2577; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2581,REVIEWED_MEANING_QUIZZES.v_2581,reviewed,"audit141/editorial-review.json:v_2581; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2595,REVIEWED_MEANING_QUIZZES.v_2595,reviewed,"audit141/editorial-review.json:v_2595; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2597,REVIEWED_MEANING_QUIZZES.v_2597,reviewed,"audit141/editorial-review.json:v_2597; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2600,REVIEWED_MEANING_QUIZZES.v_2600,reviewed,"audit141/editorial-review.json:v_2600; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2602,REVIEWED_MEANING_QUIZZES.v_2602,reviewed,"audit141/editorial-review.json:v_2602; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2609,REVIEWED_MEANING_QUIZZES.v_2609,reviewed,"audit141/editorial-review.json:v_2609; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2623,REVIEWED_MEANING_QUIZZES.v_2623,reviewed,"audit141/editorial-review.json:v_2623; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2629,REVIEWED_MEANING_QUIZZES.v_2629,reviewed,"audit141/editorial-review.json:v_2629; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2637,REVIEWED_MEANING_QUIZZES.v_2637,reviewed,"audit141/editorial-review.json:v_2637; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2638,REVIEWED_MEANING_QUIZZES.v_2638,reviewed,"audit141/editorial-review.json:v_2638; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2641,REVIEWED_MEANING_QUIZZES.v_2641,reviewed,"audit141/editorial-review.json:v_2641; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2656,REVIEWED_MEANING_QUIZZES.v_2656,reviewed,"audit141/editorial-review.json:v_2656; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2661,REVIEWED_MEANING_QUIZZES.v_2661,reviewed,"audit141/editorial-review.json:v_2661; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2662,REVIEWED_MEANING_QUIZZES.v_2662,reviewed,"audit141/editorial-review.json:v_2662; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2682,REVIEWED_MEANING_QUIZZES.v_2682,reviewed,"audit141/editorial-review.json:v_2682; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2697,REVIEWED_MEANING_QUIZZES.v_2697,reviewed,"audit141/editorial-review.json:v_2697; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2701,REVIEWED_MEANING_QUIZZES.v_2701,reviewed,"audit141/editorial-review.json:v_2701; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2704,REVIEWED_MEANING_QUIZZES.v_2704,reviewed,"audit141/editorial-review.json:v_2704; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2709,REVIEWED_MEANING_QUIZZES.v_2709,reviewed,"audit141/editorial-review.json:v_2709; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2717,REVIEWED_MEANING_QUIZZES.v_2717,reviewed,"audit141/editorial-review.json:v_2717; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2736,REVIEWED_MEANING_QUIZZES.v_2736,reviewed,"audit141/editorial-review.json:v_2736; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2743,REVIEWED_MEANING_QUIZZES.v_2743,reviewed,"audit141/editorial-review.json:v_2743; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2752,REVIEWED_MEANING_QUIZZES.v_2752,reviewed,"audit141/editorial-review.json:v_2752; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2764,REVIEWED_MEANING_QUIZZES.v_2764,reviewed,"audit141/editorial-review.json:v_2764; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2768,REVIEWED_MEANING_QUIZZES.v_2768,reviewed,"audit141/editorial-review.json:v_2768; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2787,REVIEWED_MEANING_QUIZZES.v_2787,reviewed,"audit141/editorial-review.json:v_2787; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2811,REVIEWED_MEANING_QUIZZES.v_2811,reviewed,"audit141/editorial-review.json:v_2811; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2818,REVIEWED_MEANING_QUIZZES.v_2818,reviewed,"audit141/editorial-review.json:v_2818; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2831,REVIEWED_MEANING_QUIZZES.v_2831,reviewed,"audit141/editorial-review.json:v_2831; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2852,REVIEWED_MEANING_QUIZZES.v_2852,reviewed,"audit141/editorial-review.json:v_2852; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2854,REVIEWED_MEANING_QUIZZES.v_2854,reviewed,"audit141/editorial-review.json:v_2854; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2880,REVIEWED_MEANING_QUIZZES.v_2880,reviewed,"audit141/editorial-review.json:v_2880; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2885,REVIEWED_MEANING_QUIZZES.v_2885,reviewed,"audit141/editorial-review.json:v_2885; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2916,REVIEWED_MEANING_QUIZZES.v_2916,reviewed,"audit141/editorial-review.json:v_2916; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2929,REVIEWED_MEANING_QUIZZES.v_2929,reviewed,"audit141/editorial-review.json:v_2929; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2931,REVIEWED_MEANING_QUIZZES.v_2931,reviewed,"audit141/editorial-review.json:v_2931; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2935,REVIEWED_MEANING_QUIZZES.v_2935,reviewed,"audit141/editorial-review.json:v_2935; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2942,REVIEWED_MEANING_QUIZZES.v_2942,reviewed,"audit141/editorial-review.json:v_2942; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2948,REVIEWED_MEANING_QUIZZES.v_2948,reviewed,"audit141/editorial-review.json:v_2948; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2954,REVIEWED_MEANING_QUIZZES.v_2954,reviewed,"audit141/editorial-review.json:v_2954; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2972,REVIEWED_MEANING_QUIZZES.v_2972,reviewed,"audit141/editorial-review.json:v_2972; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2978,REVIEWED_MEANING_QUIZZES.v_2978,reviewed,"audit141/editorial-review.json:v_2978; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2980,REVIEWED_MEANING_QUIZZES.v_2980,reviewed,"audit141/editorial-review.json:v_2980; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_2999,REVIEWED_MEANING_QUIZZES.v_2999,reviewed,"audit141/editorial-review.json:v_2999; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3014,REVIEWED_MEANING_QUIZZES.v_3014,reviewed,"audit141/editorial-review.json:v_3014; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3022,REVIEWED_MEANING_QUIZZES.v_3022,reviewed,"audit141/editorial-review.json:v_3022; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3036,REVIEWED_MEANING_QUIZZES.v_3036,reviewed,"audit141/editorial-review.json:v_3036; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3054,REVIEWED_MEANING_QUIZZES.v_3054,reviewed,"audit141/editorial-review.json:v_3054; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3057,REVIEWED_MEANING_QUIZZES.v_3057,reviewed,"audit141/editorial-review.json:v_3057; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3062,REVIEWED_MEANING_QUIZZES.v_3062,reviewed,"audit141/editorial-review.json:v_3062; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3063,REVIEWED_MEANING_QUIZZES.v_3063,reviewed,"audit141/editorial-review.json:v_3063; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3065,REVIEWED_MEANING_QUIZZES.v_3065,reviewed,"audit141/editorial-review.json:v_3065; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3076,REVIEWED_MEANING_QUIZZES.v_3076,reviewed,"audit141/editorial-review.json:v_3076; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3079,REVIEWED_MEANING_QUIZZES.v_3079,reviewed,"audit141/editorial-review.json:v_3079; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3080,REVIEWED_MEANING_QUIZZES.v_3080,reviewed,"audit141/editorial-review.json:v_3080; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3084,REVIEWED_MEANING_QUIZZES.v_3084,reviewed,"audit141/editorial-review.json:v_3084; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3090,REVIEWED_MEANING_QUIZZES.v_3090,reviewed,"audit141/editorial-review.json:v_3090; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3095,REVIEWED_MEANING_QUIZZES.v_3095,reviewed,"audit141/editorial-review.json:v_3095; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3096,REVIEWED_MEANING_QUIZZES.v_3096,reviewed,"audit141/editorial-review.json:v_3096; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3097,REVIEWED_MEANING_QUIZZES.v_3097,reviewed,"audit141/editorial-review.json:v_3097; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3106,REVIEWED_MEANING_QUIZZES.v_3106,reviewed,"audit141/editorial-review.json:v_3106; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3108,REVIEWED_MEANING_QUIZZES.v_3108,reviewed,"audit141/editorial-review.json:v_3108; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3115,REVIEWED_MEANING_QUIZZES.v_3115,reviewed,"audit141/editorial-review.json:v_3115; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3142,REVIEWED_MEANING_QUIZZES.v_3142,reviewed,"audit141/editorial-review.json:v_3142; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3145,REVIEWED_MEANING_QUIZZES.v_3145,reviewed,"audit141/editorial-review.json:v_3145; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3158,REVIEWED_MEANING_QUIZZES.v_3158,reviewed,"audit141/editorial-review.json:v_3158; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3163,REVIEWED_MEANING_QUIZZES.v_3163,reviewed,"audit141/editorial-review.json:v_3163; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3164,REVIEWED_MEANING_QUIZZES.v_3164,reviewed,"audit141/editorial-review.json:v_3164; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3165,REVIEWED_MEANING_QUIZZES.v_3165,reviewed,"audit141/editorial-review.json:v_3165; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3175,REVIEWED_MEANING_QUIZZES.v_3175,reviewed,"audit141/editorial-review.json:v_3175; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3179,REVIEWED_MEANING_QUIZZES.v_3179,reviewed,"audit141/editorial-review.json:v_3179; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3191,REVIEWED_MEANING_QUIZZES.v_3191,reviewed,"audit141/editorial-review.json:v_3191; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3207,REVIEWED_MEANING_QUIZZES.v_3207,reviewed,"audit141/editorial-review.json:v_3207; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3223,REVIEWED_MEANING_QUIZZES.v_3223,reviewed,"audit141/editorial-review.json:v_3223; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3228,REVIEWED_MEANING_QUIZZES.v_3228,reviewed,"audit141/editorial-review.json:v_3228; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3235,REVIEWED_MEANING_QUIZZES.v_3235,reviewed,"audit141/editorial-review.json:v_3235; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3270,REVIEWED_MEANING_QUIZZES.v_3270,reviewed,"audit141/editorial-review.json:v_3270; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3279,REVIEWED_MEANING_QUIZZES.v_3279,reviewed,"audit141/editorial-review.json:v_3279; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3285,REVIEWED_MEANING_QUIZZES.v_3285,reviewed,"audit141/editorial-review.json:v_3285; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3289,REVIEWED_MEANING_QUIZZES.v_3289,reviewed,"audit141/editorial-review.json:v_3289; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3292,REVIEWED_MEANING_QUIZZES.v_3292,reviewed,"audit141/editorial-review.json:v_3292; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3298,REVIEWED_MEANING_QUIZZES.v_3298,reviewed,"audit141/editorial-review.json:v_3298; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3314,REVIEWED_MEANING_QUIZZES.v_3314,reviewed,"audit141/editorial-review.json:v_3314; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3319,REVIEWED_MEANING_QUIZZES.v_3319,reviewed,"audit141/editorial-review.json:v_3319; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3320,REVIEWED_MEANING_QUIZZES.v_3320,reviewed,"audit141/editorial-review.json:v_3320; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3337,REVIEWED_MEANING_QUIZZES.v_3337,reviewed,"audit141/editorial-review.json:v_3337; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3345,REVIEWED_MEANING_QUIZZES.v_3345,reviewed,"audit141/editorial-review.json:v_3345; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3351,REVIEWED_MEANING_QUIZZES.v_3351,reviewed,"audit141/editorial-review.json:v_3351; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3363,REVIEWED_MEANING_QUIZZES.v_3363,reviewed,"audit141/editorial-review.json:v_3363; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3372,REVIEWED_MEANING_QUIZZES.v_3372,reviewed,"audit141/editorial-review.json:v_3372; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3383,REVIEWED_MEANING_QUIZZES.v_3383,reviewed,"audit141/editorial-review.json:v_3383; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3405,REVIEWED_MEANING_QUIZZES.v_3405,reviewed,"audit141/editorial-review.json:v_3405; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3420,REVIEWED_MEANING_QUIZZES.v_3420,reviewed,"audit141/editorial-review.json:v_3420; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3434,REVIEWED_MEANING_QUIZZES.v_3434,reviewed,"audit141/editorial-review.json:v_3434; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3436,REVIEWED_MEANING_QUIZZES.v_3436,reviewed,"audit141/editorial-review.json:v_3436; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3445,REVIEWED_MEANING_QUIZZES.v_3445,reviewed,"audit141/editorial-review.json:v_3445; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3465,REVIEWED_MEANING_QUIZZES.v_3465,reviewed,"audit141/editorial-review.json:v_3465; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3473,REVIEWED_MEANING_QUIZZES.v_3473,reviewed,"audit141/editorial-review.json:v_3473; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3481,REVIEWED_MEANING_QUIZZES.v_3481,reviewed,"audit141/editorial-review.json:v_3481; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3488,REVIEWED_MEANING_QUIZZES.v_3488,reviewed,"audit141/editorial-review.json:v_3488; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3498,REVIEWED_MEANING_QUIZZES.v_3498,reviewed,"audit141/editorial-review.json:v_3498; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3510,REVIEWED_MEANING_QUIZZES.v_3510,reviewed,"audit141/editorial-review.json:v_3510; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3526,REVIEWED_MEANING_QUIZZES.v_3526,reviewed,"audit141/editorial-review.json:v_3526; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3533,REVIEWED_MEANING_QUIZZES.v_3533,reviewed,"audit141/editorial-review.json:v_3533; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3534,REVIEWED_MEANING_QUIZZES.v_3534,reviewed,"audit141/editorial-review.json:v_3534; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3540,REVIEWED_MEANING_QUIZZES.v_3540,reviewed,"audit141/editorial-review.json:v_3540; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3543,REVIEWED_MEANING_QUIZZES.v_3543,reviewed,"audit141/editorial-review.json:v_3543; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3566,REVIEWED_MEANING_QUIZZES.v_3566,reviewed,"audit141/editorial-review.json:v_3566; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3567,REVIEWED_MEANING_QUIZZES.v_3567,reviewed,"audit141/editorial-review.json:v_3567; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3570,REVIEWED_MEANING_QUIZZES.v_3570,reviewed,"audit141/editorial-review.json:v_3570; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3574,REVIEWED_MEANING_QUIZZES.v_3574,reviewed,"audit141/editorial-review.json:v_3574; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3582,REVIEWED_MEANING_QUIZZES.v_3582,reviewed,"audit141/editorial-review.json:v_3582; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3597,REVIEWED_MEANING_QUIZZES.v_3597,reviewed,"audit141/editorial-review.json:v_3597; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3617,REVIEWED_MEANING_QUIZZES.v_3617,reviewed,"audit141/editorial-review.json:v_3617; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3624,REVIEWED_MEANING_QUIZZES.v_3624,reviewed,"audit141/editorial-review.json:v_3624; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3647,REVIEWED_MEANING_QUIZZES.v_3647,reviewed,"audit141/editorial-review.json:v_3647; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3648,REVIEWED_MEANING_QUIZZES.v_3648,reviewed,"audit141/editorial-review.json:v_3648; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3654,REVIEWED_MEANING_QUIZZES.v_3654,reviewed,"audit141/editorial-review.json:v_3654; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3680,REVIEWED_MEANING_QUIZZES.v_3680,reviewed,"audit141/editorial-review.json:v_3680; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3691,REVIEWED_MEANING_QUIZZES.v_3691,reviewed,"audit141/editorial-review.json:v_3691; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3693,REVIEWED_MEANING_QUIZZES.v_3693,reviewed,"audit141/editorial-review.json:v_3693; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3694,REVIEWED_MEANING_QUIZZES.v_3694,reviewed,"audit141/editorial-review.json:v_3694; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3695,REVIEWED_MEANING_QUIZZES.v_3695,reviewed,"audit141/editorial-review.json:v_3695; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3696,REVIEWED_MEANING_QUIZZES.v_3696,reviewed,"audit141/editorial-review.json:v_3696; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3697,REVIEWED_MEANING_QUIZZES.v_3697,reviewed,"audit141/editorial-review.json:v_3697; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3698,REVIEWED_MEANING_QUIZZES.v_3698,reviewed,"audit141/editorial-review.json:v_3698; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3699,REVIEWED_MEANING_QUIZZES.v_3699,reviewed,"audit141/editorial-review.json:v_3699; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3700,REVIEWED_MEANING_QUIZZES.v_3700,reviewed,"audit141/editorial-review.json:v_3700; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3701,REVIEWED_MEANING_QUIZZES.v_3701,reviewed,"audit141/editorial-review.json:v_3701; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3702,REVIEWED_MEANING_QUIZZES.v_3702,reviewed,"audit141/editorial-review.json:v_3702; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3703,REVIEWED_MEANING_QUIZZES.v_3703,reviewed,"audit141/editorial-review.json:v_3703; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3704,REVIEWED_MEANING_QUIZZES.v_3704,reviewed,"audit141/editorial-review.json:v_3704; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3705,REVIEWED_MEANING_QUIZZES.v_3705,reviewed,"audit141/editorial-review.json:v_3705; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3706,REVIEWED_MEANING_QUIZZES.v_3706,reviewed,"audit141/editorial-review.json:v_3706; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3707,REVIEWED_MEANING_QUIZZES.v_3707,reviewed,"audit141/editorial-review.json:v_3707; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3708,REVIEWED_MEANING_QUIZZES.v_3708,reviewed,"audit141/editorial-review.json:v_3708; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3709,REVIEWED_MEANING_QUIZZES.v_3709,reviewed,"audit141/editorial-review.json:v_3709; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3710,REVIEWED_MEANING_QUIZZES.v_3710,reviewed,"audit141/editorial-review.json:v_3710; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3711,REVIEWED_MEANING_QUIZZES.v_3711,reviewed,"audit141/editorial-review.json:v_3711; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3712,REVIEWED_MEANING_QUIZZES.v_3712,reviewed,"audit141/editorial-review.json:v_3712; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3713,REVIEWED_MEANING_QUIZZES.v_3713,reviewed,"audit141/editorial-review.json:v_3713; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3714,REVIEWED_MEANING_QUIZZES.v_3714,reviewed,"audit141/editorial-review.json:v_3714; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3715,REVIEWED_MEANING_QUIZZES.v_3715,reviewed,"audit141/editorial-review.json:v_3715; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3716,REVIEWED_MEANING_QUIZZES.v_3716,reviewed,"audit141/editorial-review.json:v_3716; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3717,REVIEWED_MEANING_QUIZZES.v_3717,reviewed,"audit141/editorial-review.json:v_3717; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3718,REVIEWED_MEANING_QUIZZES.v_3718,reviewed,"audit141/editorial-review.json:v_3718; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3719,REVIEWED_MEANING_QUIZZES.v_3719,reviewed,"audit141/editorial-review.json:v_3719; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3720,REVIEWED_MEANING_QUIZZES.v_3720,reviewed,"audit141/editorial-review.json:v_3720; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3721,REVIEWED_MEANING_QUIZZES.v_3721,reviewed,"audit141/editorial-review.json:v_3721; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3722,REVIEWED_MEANING_QUIZZES.v_3722,reviewed,"audit141/editorial-review.json:v_3722; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3723,REVIEWED_MEANING_QUIZZES.v_3723,reviewed,"audit141/editorial-review.json:v_3723; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3724,REVIEWED_MEANING_QUIZZES.v_3724,reviewed,"audit141/editorial-review.json:v_3724; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3725,REVIEWED_MEANING_QUIZZES.v_3725,reviewed,"audit141/editorial-review.json:v_3725; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3726,REVIEWED_MEANING_QUIZZES.v_3726,reviewed,"audit141/editorial-review.json:v_3726; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3727,REVIEWED_MEANING_QUIZZES.v_3727,reviewed,"audit141/editorial-review.json:v_3727; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3728,REVIEWED_MEANING_QUIZZES.v_3728,reviewed,"audit141/editorial-review.json:v_3728; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3729,REVIEWED_MEANING_QUIZZES.v_3729,reviewed,"audit141/editorial-review.json:v_3729; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3730,REVIEWED_MEANING_QUIZZES.v_3730,reviewed,"audit141/editorial-review.json:v_3730; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3731,REVIEWED_MEANING_QUIZZES.v_3731,reviewed,"audit141/editorial-review.json:v_3731; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3732,REVIEWED_MEANING_QUIZZES.v_3732,reviewed,"audit141/editorial-review.json:v_3732; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3733,REVIEWED_MEANING_QUIZZES.v_3733,reviewed,"audit141/editorial-review.json:v_3733; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3734,REVIEWED_MEANING_QUIZZES.v_3734,reviewed,"audit141/editorial-review.json:v_3734; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3735,REVIEWED_MEANING_QUIZZES.v_3735,reviewed,"audit141/editorial-review.json:v_3735; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3736,REVIEWED_MEANING_QUIZZES.v_3736,reviewed,"audit141/editorial-review.json:v_3736; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3737,REVIEWED_MEANING_QUIZZES.v_3737,reviewed,"audit141/editorial-review.json:v_3737; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3738,REVIEWED_MEANING_QUIZZES.v_3738,reviewed,"audit141/editorial-review.json:v_3738; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3740,REVIEWED_MEANING_QUIZZES.v_3740,reviewed,"audit141/editorial-review.json:v_3740; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3742,REVIEWED_MEANING_QUIZZES.v_3742,reviewed,"audit141/editorial-review.json:v_3742; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3744,REVIEWED_MEANING_QUIZZES.v_3744,reviewed,"audit141/editorial-review.json:v_3744; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3747,REVIEWED_MEANING_QUIZZES.v_3747,reviewed,"audit141/editorial-review.json:v_3747; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3749,REVIEWED_MEANING_QUIZZES.v_3749,reviewed,"audit141/editorial-review.json:v_3749; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3753,REVIEWED_MEANING_QUIZZES.v_3753,reviewed,"audit141/editorial-review.json:v_3753; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3754,REVIEWED_MEANING_QUIZZES.v_3754,reviewed,"audit141/editorial-review.json:v_3754; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3759,REVIEWED_MEANING_QUIZZES.v_3759,reviewed,"audit141/editorial-review.json:v_3759; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3762,REVIEWED_MEANING_QUIZZES.v_3762,reviewed,"audit141/editorial-review.json:v_3762; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3766,REVIEWED_MEANING_QUIZZES.v_3766,reviewed,"audit141/editorial-review.json:v_3766; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3767,REVIEWED_MEANING_QUIZZES.v_3767,reviewed,"audit141/editorial-review.json:v_3767; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3770,REVIEWED_MEANING_QUIZZES.v_3770,reviewed,"audit141/editorial-review.json:v_3770; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3771,REVIEWED_MEANING_QUIZZES.v_3771,reviewed,"audit141/editorial-review.json:v_3771; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3777,REVIEWED_MEANING_QUIZZES.v_3777,reviewed,"audit141/editorial-review.json:v_3777; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3784,REVIEWED_MEANING_QUIZZES.v_3784,reviewed,"audit141/editorial-review.json:v_3784; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3785,REVIEWED_MEANING_QUIZZES.v_3785,reviewed,"audit141/editorial-review.json:v_3785; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3787,REVIEWED_MEANING_QUIZZES.v_3787,reviewed,"audit141/editorial-review.json:v_3787; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3791,REVIEWED_MEANING_QUIZZES.v_3791,reviewed,"audit141/editorial-review.json:v_3791; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3793,REVIEWED_MEANING_QUIZZES.v_3793,reviewed,"audit141/editorial-review.json:v_3793; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3801,REVIEWED_MEANING_QUIZZES.v_3801,reviewed,"audit141/editorial-review.json:v_3801; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3804,REVIEWED_MEANING_QUIZZES.v_3804,reviewed,"audit141/editorial-review.json:v_3804; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3806,REVIEWED_MEANING_QUIZZES.v_3806,reviewed,"audit141/editorial-review.json:v_3806; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3810,REVIEWED_MEANING_QUIZZES.v_3810,reviewed,"audit141/editorial-review.json:v_3810; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3812,REVIEWED_MEANING_QUIZZES.v_3812,reviewed,"audit141/editorial-review.json:v_3812; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3814,REVIEWED_MEANING_QUIZZES.v_3814,reviewed,"audit141/editorial-review.json:v_3814; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3815,REVIEWED_MEANING_QUIZZES.v_3815,reviewed,"audit141/editorial-review.json:v_3815; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3817,REVIEWED_MEANING_QUIZZES.v_3817,reviewed,"audit141/editorial-review.json:v_3817; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3818,REVIEWED_MEANING_QUIZZES.v_3818,reviewed,"audit141/editorial-review.json:v_3818; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3820,REVIEWED_MEANING_QUIZZES.v_3820,reviewed,"audit141/editorial-review.json:v_3820; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3823,REVIEWED_MEANING_QUIZZES.v_3823,reviewed,"audit141/editorial-review.json:v_3823; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3828,REVIEWED_MEANING_QUIZZES.v_3828,reviewed,"audit141/editorial-review.json:v_3828; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3833,REVIEWED_MEANING_QUIZZES.v_3833,reviewed,"audit141/editorial-review.json:v_3833; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3834,REVIEWED_MEANING_QUIZZES.v_3834,reviewed,"audit141/editorial-review.json:v_3834; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3836,REVIEWED_MEANING_QUIZZES.v_3836,reviewed,"audit141/editorial-review.json:v_3836; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3844,REVIEWED_MEANING_QUIZZES.v_3844,reviewed,"audit141/editorial-review.json:v_3844; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3871,REVIEWED_MEANING_QUIZZES.v_3871,reviewed,"audit141/editorial-review.json:v_3871; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3877,REVIEWED_MEANING_QUIZZES.v_3877,reviewed,"audit141/editorial-review.json:v_3877; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3885,REVIEWED_MEANING_QUIZZES.v_3885,reviewed,"audit141/editorial-review.json:v_3885; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3892,REVIEWED_MEANING_QUIZZES.v_3892,reviewed,"audit141/editorial-review.json:v_3892; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3898,REVIEWED_MEANING_QUIZZES.v_3898,reviewed,"audit141/editorial-review.json:v_3898; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3900,REVIEWED_MEANING_QUIZZES.v_3900,reviewed,"audit141/editorial-review.json:v_3900; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
+reviewed_meaning_quiz,v_3902,REVIEWED_MEANING_QUIZZES.v_3902,reviewed,"audit141/editorial-review.json:v_3902; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"

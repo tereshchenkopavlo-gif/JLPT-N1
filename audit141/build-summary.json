@@ -1,0 +1,27 @@
+{
+  "version": 141,
+  "baseSha256": "810af1aecf5a71b2fbd39b687e3ec310763317cb3f04821107cdeb983c31f537",
+  "sha256": "08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+  "bytes": 6784138,
+  "savedVocabularySets": 265,
+  "changedQuizKeys": [
+    "v_2200",
+    "v_2210",
+    "v_2364",
+    "v_2399",
+    "v_2764",
+    "v_3158",
+    "v_3707",
+    "v_3718",
+    "v_3787",
+    "v_3817",
+    "v_3820",
+    "v_3836"
+  ],
+  "changedCardFields": {
+    "2210": [
+      "m"
+    ]
+  },
+  "exampleOverrides": 156
+}

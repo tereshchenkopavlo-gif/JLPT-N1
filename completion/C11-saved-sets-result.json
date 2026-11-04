@@ -1,0 +1,23 @@
+{
+  "version": 141,
+  "sha256": "08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+  "scope": "Saved meaning sets only; C11 overall remains in progress",
+  "savedVocabularySets": 265,
+  "contexts": 530,
+  "modifiedSets": 12,
+  "retainedSets": 253,
+  "exampleOverrides": 156,
+  "additionalGrammarQuiz": "g95, two contexts, unchanged",
+  "authorReview": "audit141/editorial-review.json",
+  "independentReview": false,
+  "generationCases": 2128,
+  "renderedCases": 1596,
+  "creditedRegisterRows": 265,
+  "remainingC11": [
+    "General automatic meaning candidates",
+    "Reading alternative pools",
+    "Cloze semantic uniqueness",
+    "Future/custom contexts"
+  ],
+  "provenance": "audit141/provenance.json"
+}
