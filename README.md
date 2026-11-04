@@ -1,12 +1,12 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна v139:** [повний HTML](JLPT_N1_ukrainian_reading_v139.html) · [аудит](JLPT_N1_v139_audit.md).
+**Актуальна v140:** [повний HTML](JLPT_N1_ukrainian_reading_v140.html) · [аудит](JLPT_N1_v140_audit.md).
 
-Виправлено обрізані форми в прикладах і виділення граматики, 恵み зі збереженням ID/прогресу, додано 10 контекстних наборів. C05/C06 закриті у вузькому зазначеному обсязі. Збережено типографіку 比較 v138, POS-фільтр і гортання. 3914 слів, 130 конструкцій, **160 текстів і 381 питання читання**.
+Враховано п’ять зауважень: ближчі читання 著しい й захист від видимих підказок, придатна буквальна підстановка в cloze, 286 базових заголовків ナ形, узгоджене 〜ばこそ, лексичний переклад окремо від контексту й приховані повтори цитат. Збережено ID/прогрес і оформлення 比較.
 
-[Нова стратегія JLPT App N5–N1](strategy/README.md) · [Методологія ефективного навчання JLPT](strategy/LEARNING_METHODOLOGY.md) · [Походження й ризики](strategy/PROVENANCE_REVIEW.md) · [Майбутня класифікація](strategy/CLASSIFICATION_ROADMAP.md). Це підготовчі документи; масової перебудови/перенесення бази або нових алгоритмів немає. Поточний наскрізний аудит N1 триває.
+3914 слів/130 конструкцій, 160 текстів/381 питання. [Відгуки й докази](completion/feedback-20261104.md) · [Стан](PROJECT_STATUS.md) · [Backlog](completion/BACKLOG.md) · [План](completion/PLAN.md) · [Стратегія N5–N1](strategy/README.md) · [Методологія](strategy/LEARNING_METHODOLOGY.md).
 
-[План](completion/PLAN.md) · [Backlog](completion/BACKLOG.md) · [Стан](PROJECT_STATUS.md) · [Відтворення](audit139/README.md). SHA-256: `e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17`. Межа читання 120/80, залишок 21/19. Попередні [v138](JLPT_N1_ukrainian_reading_v138.html), [v137](JLPT_N1_ukrainian_reading_v137.html), [v128](JLPT_N1_ukrainian_reading_v128.html) збережено. Перед відкриттям іншого HTML зробіть резервну копію прогресу в 設定.
+SHA-256: `810af1aecf5a71b2fbd39b687e3ec310763317cb3f04821107cdeb983c31f537`. Повний C11/C18 та наскрізний аудит тривають. Попередні [v139](JLPT_N1_ukrainian_reading_v139.html), [v138](JLPT_N1_ukrainian_reading_v138.html), [v128](JLPT_N1_ukrainian_reading_v128.html) збережено. Перед відкриттям іншого HTML зробіть резервну копію прогресу в 設定.
 
 Нижче збережено історичний журнал v18–v26; він не описує поточний стан.
 

@@ -1,0 +1,2004 @@
+[
+  {
+    "id": 544,
+    "oldWord": "いい加減な",
+    "oldReading": "いいかげんな",
+    "word": "いい加減",
+    "reading": "いいかげん"
+  },
+  {
+    "id": 545,
+    "oldWord": "意外な",
+    "oldReading": "いがいな",
+    "word": "意外",
+    "reading": "いがい"
+  },
+  {
+    "id": 546,
+    "oldWord": "頑丈な",
+    "oldReading": "がんじょうな",
+    "word": "頑丈",
+    "reading": "がんじょう"
+  },
+  {
+    "id": 547,
+    "oldWord": "気楽な",
+    "oldReading": "きらくな",
+    "word": "気楽",
+    "reading": "きらく"
+  },
+  {
+    "id": 548,
+    "oldWord": "過激な",
+    "oldReading": "かげきな",
+    "word": "過激",
+    "reading": "かげき"
+  },
+  {
+    "id": 549,
+    "oldWord": "気軽な",
+    "oldReading": "きがるな",
+    "word": "気軽",
+    "reading": "きがる"
+  },
+  {
+    "id": 550,
+    "oldWord": "わがままな",
+    "oldReading": "わがままな",
+    "word": "わがまま",
+    "reading": "わがまま"
+  },
+  {
+    "id": 551,
+    "oldWord": "愚かな",
+    "oldReading": "おろかな",
+    "word": "愚か",
+    "reading": "おろか"
+  },
+  {
+    "id": 552,
+    "oldWord": "確かな",
+    "oldReading": "たしかな",
+    "word": "確か",
+    "reading": "たしか"
+  },
+  {
+    "id": 553,
+    "oldWord": "確実な",
+    "oldReading": "かくじつな",
+    "word": "確実",
+    "reading": "かくじつ"
+  },
+  {
+    "id": 554,
+    "oldWord": "楽観的な",
+    "oldReading": "らっかんてきな",
+    "word": "楽観的",
+    "reading": "らっかんてき"
+  },
+  {
+    "id": 555,
+    "oldWord": "活発な",
+    "oldReading": "かっぱつな",
+    "word": "活発",
+    "reading": "かっぱつ"
+  },
+  {
+    "id": 556,
+    "oldWord": "完璧な",
+    "oldReading": "かんぺきな",
+    "word": "完璧",
+    "reading": "かんぺき"
+  },
+  {
+    "id": 557,
+    "oldWord": "結構な",
+    "oldReading": "けっこうな",
+    "word": "結構",
+    "reading": "けっこう"
+  },
+  {
+    "id": 558,
+    "oldWord": "健全な",
+    "oldReading": "けんぜんな",
+    "word": "健全",
+    "reading": "けんぜん"
+  },
+  {
+    "id": 559,
+    "oldWord": "賢明な",
+    "oldReading": "けんめいな",
+    "word": "賢明",
+    "reading": "けんめい"
+  },
+  {
+    "id": 560,
+    "oldWord": "広大な",
+    "oldReading": "こうだいな",
+    "word": "広大",
+    "reading": "こうだい"
+  },
+  {
+    "id": 561,
+    "oldWord": "国際的な",
+    "oldReading": "こくさいてきな",
+    "word": "国際的",
+    "reading": "こくさいてき"
+  },
+  {
+    "id": 562,
+    "oldWord": "自動的な",
+    "oldReading": "じどうてきな",
+    "word": "自動的",
+    "reading": "じどうてき"
+  },
+  {
+    "id": 563,
+    "oldWord": "手軽な",
+    "oldReading": "てがるな",
+    "word": "手軽",
+    "reading": "てがる"
+  },
+  {
+    "id": 564,
+    "oldWord": "重要な",
+    "oldReading": "じゅうような",
+    "word": "重要",
+    "reading": "じゅうよう"
+  },
+  {
+    "id": 565,
+    "oldWord": "順調な",
+    "oldReading": "じゅんちょうな",
+    "word": "順調",
+    "reading": "じゅんちょう"
+  },
+  {
+    "id": 566,
+    "oldWord": "上品な",
+    "oldReading": "じょうひんな",
+    "word": "上品",
+    "reading": "じょうひん"
+  },
+  {
+    "id": 567,
+    "oldWord": "慎重な",
+    "oldReading": "しんちょうな",
+    "word": "慎重",
+    "reading": "しんちょう"
+  },
+  {
+    "id": 568,
+    "oldWord": "新たな",
+    "oldReading": "あらたな",
+    "word": "新た",
+    "reading": "あらた"
+  },
+  {
+    "id": 569,
+    "oldWord": "真剣な",
+    "oldReading": "しんけんな",
+    "word": "真剣",
+    "reading": "しんけん"
+  },
+  {
+    "id": 570,
+    "oldWord": "身近な",
+    "oldReading": "みぢかな",
+    "word": "身近",
+    "reading": "みぢか"
+  },
+  {
+    "id": 571,
+    "oldWord": "盛大な",
+    "oldReading": "せいだいな",
+    "word": "盛大",
+    "reading": "せいだい"
+  },
+  {
+    "id": 572,
+    "oldWord": "積極的な",
+    "oldReading": "せっきょくてきな",
+    "word": "積極的",
+    "reading": "せっきょくてき"
+  },
+  {
+    "id": 573,
+    "oldWord": "切実な",
+    "oldReading": "せつじつな",
+    "word": "切実",
+    "reading": "せつじつ"
+  },
+  {
+    "id": 574,
+    "oldWord": "対照的な",
+    "oldReading": "たいしょうてきな",
+    "word": "対照的",
+    "reading": "たいしょうてき"
+  },
+  {
+    "id": 575,
+    "oldWord": "大幅な",
+    "oldReading": "おおはばな",
+    "word": "大幅",
+    "reading": "おおはば"
+  },
+  {
+    "id": 576,
+    "oldWord": "単純な",
+    "oldReading": "たんじゅんな",
+    "word": "単純",
+    "reading": "たんじゅん"
+  },
+  {
+    "id": 577,
+    "oldWord": "短期的な",
+    "oldReading": "たんきてきな",
+    "word": "短期的",
+    "reading": "たんきてき"
+  },
+  {
+    "id": 578,
+    "oldWord": "段階的な",
+    "oldReading": "だんかいてきな",
+    "word": "段階的",
+    "reading": "だんかいてき"
+  },
+  {
+    "id": 579,
+    "oldWord": "地味な",
+    "oldReading": "じみな",
+    "word": "地味",
+    "reading": "じみ"
+  },
+  {
+    "id": 580,
+    "oldWord": "忠実な",
+    "oldReading": "ちゅうじつな",
+    "word": "忠実",
+    "reading": "ちゅうじつ"
+  },
+  {
+    "id": 581,
+    "oldWord": "抽象的な",
+    "oldReading": "ちゅうしょうてきな",
+    "word": "抽象的",
+    "reading": "ちゅうしょうてき"
+  },
+  {
+    "id": 582,
+    "oldWord": "長期的な",
+    "oldReading": "ちょうきてきな",
+    "word": "長期的",
+    "reading": "ちょうきてき"
+  },
+  {
+    "id": 583,
+    "oldWord": "直感的な",
+    "oldReading": "ちょっかんてきな",
+    "word": "直感的",
+    "reading": "ちょっかんてき"
+  },
+  {
+    "id": 584,
+    "oldWord": "適切な",
+    "oldReading": "てきせつな",
+    "word": "適切",
+    "reading": "てきせつ"
+  },
+  {
+    "id": 585,
+    "oldWord": "適当な",
+    "oldReading": "てきとうな",
+    "word": "適当",
+    "reading": "てきとう"
+  },
+  {
+    "id": 586,
+    "oldWord": "典型的な",
+    "oldReading": "てんけいてきな",
+    "word": "典型的",
+    "reading": "てんけいてき"
+  },
+  {
+    "id": 587,
+    "oldWord": "伝統的な",
+    "oldReading": "でんとうてきな",
+    "word": "伝統的",
+    "reading": "でんとうてき"
+  },
+  {
+    "id": 588,
+    "oldWord": "独特な",
+    "oldReading": "どくとくな",
+    "word": "独特",
+    "reading": "どくとく"
+  },
+  {
+    "id": 589,
+    "oldWord": "派手な",
+    "oldReading": "はでな",
+    "word": "派手",
+    "reading": "はで"
+  },
+  {
+    "id": 590,
+    "oldWord": "否定的な",
+    "oldReading": "ひていてきな",
+    "word": "否定的",
+    "reading": "ひていてき"
+  },
+  {
+    "id": 591,
+    "oldWord": "不当な",
+    "oldReading": "ふとうな",
+    "word": "不当",
+    "reading": "ふとう"
+  },
+  {
+    "id": 592,
+    "oldWord": "複雑な",
+    "oldReading": "ふくざつな",
+    "word": "複雑",
+    "reading": "ふくざつ"
+  },
+  {
+    "id": 593,
+    "oldWord": "平気な",
+    "oldReading": "へいきな",
+    "word": "平気",
+    "reading": "へいき"
+  },
+  {
+    "id": 594,
+    "oldWord": "豊富な",
+    "oldReading": "ほうふな",
+    "word": "豊富",
+    "reading": "ほうふ"
+  },
+  {
+    "id": 595,
+    "oldWord": "未熟な",
+    "oldReading": "みじゅくな",
+    "word": "未熟",
+    "reading": "みじゅく"
+  },
+  {
+    "id": 596,
+    "oldWord": "密接な",
+    "oldReading": "みっせつな",
+    "word": "密接",
+    "reading": "みっせつ"
+  },
+  {
+    "id": 597,
+    "oldWord": "無難な",
+    "oldReading": "ぶなんな",
+    "word": "無難",
+    "reading": "ぶなん"
+  },
+  {
+    "id": 598,
+    "oldWord": "無能な",
+    "oldReading": "むのうな",
+    "word": "無能",
+    "reading": "むのう"
+  },
+  {
+    "id": 599,
+    "oldWord": "無礼な",
+    "oldReading": "ぶれいな",
+    "word": "無礼",
+    "reading": "ぶれい"
+  },
+  {
+    "id": 600,
+    "oldWord": "明白な",
+    "oldReading": "めいはくな",
+    "word": "明白",
+    "reading": "めいはく"
+  },
+  {
+    "id": 601,
+    "oldWord": "優先的な",
+    "oldReading": "ゆうせんてきな",
+    "word": "優先的",
+    "reading": "ゆうせんてき"
+  },
+  {
+    "id": 602,
+    "oldWord": "有益な",
+    "oldReading": "ゆうえきな",
+    "word": "有益",
+    "reading": "ゆうえき"
+  },
+  {
+    "id": 603,
+    "oldWord": "容易な",
+    "oldReading": "よういな",
+    "word": "容易",
+    "reading": "ようい"
+  },
+  {
+    "id": 604,
+    "oldWord": "理性的な",
+    "oldReading": "りせいてきな",
+    "word": "理性的",
+    "reading": "りせいてき"
+  },
+  {
+    "id": 605,
+    "oldWord": "豊かな",
+    "oldReading": "ゆたかな",
+    "word": "豊か",
+    "reading": "ゆたか"
+  },
+  {
+    "id": 606,
+    "oldWord": "冷静な",
+    "oldReading": "れいせいな",
+    "word": "冷静",
+    "reading": "れいせい"
+  },
+  {
+    "id": 3030,
+    "oldWord": "あべこべな",
+    "oldReading": "あべこべな",
+    "word": "あべこべ",
+    "reading": "あべこべ"
+  },
+  {
+    "id": 3031,
+    "oldWord": "冷ややかな",
+    "oldReading": "ひややかな",
+    "word": "冷ややか",
+    "reading": "ひややか"
+  },
+  {
+    "id": 3032,
+    "oldWord": "華やかな",
+    "oldReading": "はなやかな",
+    "word": "華やか",
+    "reading": "はなやか"
+  },
+  {
+    "id": 3033,
+    "oldWord": "あやふやな",
+    "oldReading": "あやふやな",
+    "word": "あやふや",
+    "reading": "あやふや"
+  },
+  {
+    "id": 3034,
+    "oldWord": "ぶかぶかな",
+    "oldReading": "ぶかぶかな",
+    "word": "ぶかぶか",
+    "reading": "ぶかぶか"
+  },
+  {
+    "id": 3035,
+    "oldWord": "過酷な",
+    "oldReading": "かこくな",
+    "word": "過酷",
+    "reading": "かこく"
+  },
+  {
+    "id": 3036,
+    "oldWord": "ありがちな",
+    "oldReading": "ありがちな",
+    "word": "ありがち",
+    "reading": "ありがち"
+  },
+  {
+    "id": 3037,
+    "oldWord": "まちまちな",
+    "oldReading": "まちまちな",
+    "word": "まちまち",
+    "reading": "まちまち"
+  },
+  {
+    "id": 3038,
+    "oldWord": "過密な",
+    "oldReading": "かみつな",
+    "word": "過密",
+    "reading": "かみつ"
+  },
+  {
+    "id": 3039,
+    "oldWord": "ありきたりな",
+    "oldReading": "ありきたりな",
+    "word": "ありきたり",
+    "reading": "ありきたり"
+  },
+  {
+    "id": 3040,
+    "oldWord": "まめな",
+    "oldReading": "まめな",
+    "word": "まめ",
+    "reading": "まめ"
+  },
+  {
+    "id": 3041,
+    "oldWord": "画一的な",
+    "oldReading": "かくいつてきな",
+    "word": "画一的",
+    "reading": "かくいつてき"
+  },
+  {
+    "id": 3042,
+    "oldWord": "いくじなしな",
+    "oldReading": "いくじなしな",
+    "word": "いくじなし",
+    "reading": "いくじなし"
+  },
+  {
+    "id": 3043,
+    "oldWord": "むちゃくちゃな",
+    "oldReading": "むちゃくちゃな",
+    "word": "むちゃくちゃ",
+    "reading": "むちゃくちゃ"
+  },
+  {
+    "id": 3044,
+    "oldWord": "格別な",
+    "oldReading": "かくべつな",
+    "word": "格別",
+    "reading": "かくべつ"
+  },
+  {
+    "id": 3045,
+    "oldWord": "いんちきな",
+    "oldReading": "いんちきな",
+    "word": "いんちき",
+    "reading": "いんちき"
+  },
+  {
+    "id": 3046,
+    "oldWord": "やんちゃな",
+    "oldReading": "やんちゃな",
+    "word": "やんちゃ",
+    "reading": "やんちゃ"
+  },
+  {
+    "id": 3047,
+    "oldWord": "画期的な",
+    "oldReading": "かっきてきな",
+    "word": "画期的",
+    "reading": "かっきてき"
+  },
+  {
+    "id": 3048,
+    "oldWord": "おおらかな",
+    "oldReading": "おおらかな",
+    "word": "おおらか",
+    "reading": "おおらか"
+  },
+  {
+    "id": 3049,
+    "oldWord": "わずかな",
+    "oldReading": "わずかな",
+    "word": "わずか",
+    "reading": "わずか"
+  },
+  {
+    "id": 3050,
+    "oldWord": "滑らかな",
+    "oldReading": "なめらかな",
+    "word": "滑らか",
+    "reading": "なめらか"
+  },
+  {
+    "id": 3051,
+    "oldWord": "きざな",
+    "oldReading": "きざな",
+    "word": "きざ",
+    "reading": "きざ"
+  },
+  {
+    "id": 3052,
+    "oldWord": "わんぱくな",
+    "oldReading": "わんぱくな",
+    "word": "わんぱく",
+    "reading": "わんぱく"
+  },
+  {
+    "id": 3053,
+    "oldWord": "滑稽な",
+    "oldReading": "こっけいな",
+    "word": "滑稽",
+    "reading": "こっけい"
+  },
+  {
+    "id": 3054,
+    "oldWord": "生真面目な",
+    "oldReading": "きまじめな",
+    "word": "生真面目",
+    "reading": "きまじめ"
+  },
+  {
+    "id": 3055,
+    "oldWord": "偉大な",
+    "oldReading": "いだいな",
+    "word": "偉大",
+    "reading": "いだい"
+  },
+  {
+    "id": 3056,
+    "oldWord": "きゃしゃな",
+    "oldReading": "きゃしゃな",
+    "word": "きゃしゃ",
+    "reading": "きゃしゃ"
+  },
+  {
+    "id": 3057,
+    "oldWord": "異色な",
+    "oldReading": "いしょくな",
+    "word": "異色",
+    "reading": "いしょく"
+  },
+  {
+    "id": 3058,
+    "oldWord": "ささやかな",
+    "oldReading": "ささやかな",
+    "word": "ささやか",
+    "reading": "ささやか"
+  },
+  {
+    "id": 3059,
+    "oldWord": "一途な",
+    "oldReading": "いちずな",
+    "word": "一途",
+    "reading": "いちず"
+  },
+  {
+    "id": 3060,
+    "oldWord": "しなやかな",
+    "oldReading": "しなやかな",
+    "word": "しなやか",
+    "reading": "しなやか"
+  },
+  {
+    "id": 3061,
+    "oldWord": "淫らな",
+    "oldReading": "みだらな",
+    "word": "淫ら",
+    "reading": "みだら"
+  },
+  {
+    "id": 3062,
+    "oldWord": "ずさんな",
+    "oldReading": "ずさんな",
+    "word": "ずさん",
+    "reading": "ずさん"
+  },
+  {
+    "id": 3063,
+    "oldWord": "円滑な",
+    "oldReading": "えんかつな",
+    "word": "円滑",
+    "reading": "えんかつ"
+  },
+  {
+    "id": 3064,
+    "oldWord": "せっかちな",
+    "oldReading": "せっかちな",
+    "word": "せっかち",
+    "reading": "せっかち"
+  },
+  {
+    "id": 3065,
+    "oldWord": "円満な",
+    "oldReading": "えんまんな",
+    "word": "円満",
+    "reading": "えんまん"
+  },
+  {
+    "id": 3066,
+    "oldWord": "でたらめな",
+    "oldReading": "でたらめな",
+    "word": "でたらめ",
+    "reading": "でたらめ"
+  },
+  {
+    "id": 3067,
+    "oldWord": "旺盛な",
+    "oldReading": "おうせいな",
+    "word": "旺盛",
+    "reading": "おうせい"
+  },
+  {
+    "id": 3068,
+    "oldWord": "にこやかな",
+    "oldReading": "にこやかな",
+    "word": "にこやか",
+    "reading": "にこやか"
+  },
+  {
+    "id": 3069,
+    "oldWord": "臆病な",
+    "oldReading": "おくびょうな",
+    "word": "臆病",
+    "reading": "おくびょう"
+  },
+  {
+    "id": 3070,
+    "oldWord": "のどかな",
+    "oldReading": "のどかな",
+    "word": "のどか",
+    "reading": "のどか"
+  },
+  {
+    "id": 3071,
+    "oldWord": "穏やかな",
+    "oldReading": "おだやかな",
+    "word": "穏やか",
+    "reading": "おだやか"
+  },
+  {
+    "id": 3072,
+    "oldWord": "はるかな",
+    "oldReading": "はるかな",
+    "word": "はるか",
+    "reading": "はるか"
+  },
+  {
+    "id": 3073,
+    "oldWord": "穏和な",
+    "oldReading": "おんわな",
+    "word": "穏和",
+    "reading": "おんわ"
+  },
+  {
+    "id": 3074,
+    "oldWord": "ひたむきな",
+    "oldReading": "ひたむきな",
+    "word": "ひたむき",
+    "reading": "ひたむき"
+  },
+  {
+    "id": 3075,
+    "oldWord": "果敢な",
+    "oldReading": "かかんな",
+    "word": "果敢",
+    "reading": "かかん"
+  },
+  {
+    "id": 3076,
+    "oldWord": "堪能な",
+    "oldReading": "たんのうな・かんのうな",
+    "word": "堪能",
+    "reading": "たんのうな・かんのう"
+  },
+  {
+    "id": 3077,
+    "oldWord": "寛大な",
+    "oldReading": "かんだいな",
+    "word": "寛大",
+    "reading": "かんだい"
+  },
+  {
+    "id": 3078,
+    "oldWord": "寛容な",
+    "oldReading": "かんような",
+    "word": "寛容",
+    "reading": "かんよう"
+  },
+  {
+    "id": 3079,
+    "oldWord": "簡潔な",
+    "oldReading": "かんけつな",
+    "word": "簡潔",
+    "reading": "かんけつ"
+  },
+  {
+    "id": 3080,
+    "oldWord": "簡素な",
+    "oldReading": "かんそな",
+    "word": "簡素",
+    "reading": "かんそ"
+  },
+  {
+    "id": 3081,
+    "oldWord": "緩やかな",
+    "oldReading": "ゆるやかな",
+    "word": "緩やか",
+    "reading": "ゆるやか"
+  },
+  {
+    "id": 3082,
+    "oldWord": "肝心な",
+    "oldReading": "かんじんな",
+    "word": "肝心",
+    "reading": "かんじん"
+  },
+  {
+    "id": 3083,
+    "oldWord": "頑なな",
+    "oldReading": "かたくなな",
+    "word": "頑な",
+    "reading": "かたくな"
+  },
+  {
+    "id": 3084,
+    "oldWord": "頑固な",
+    "oldReading": "がんこな",
+    "word": "頑固",
+    "reading": "がんこ"
+  },
+  {
+    "id": 3085,
+    "oldWord": "奇妙な",
+    "oldReading": "きみょうな",
+    "word": "奇妙",
+    "reading": "きみょう"
+  },
+  {
+    "id": 3086,
+    "oldWord": "希薄な",
+    "oldReading": "きはくな",
+    "word": "希薄",
+    "reading": "きはく"
+  },
+  {
+    "id": 3087,
+    "oldWord": "気さくな",
+    "oldReading": "きさくな",
+    "word": "気さく",
+    "reading": "きさく"
+  },
+  {
+    "id": 3088,
+    "oldWord": "気まぐれな",
+    "oldReading": "きまぐれな",
+    "word": "気まぐれ",
+    "reading": "きまぐれ"
+  },
+  {
+    "id": 3089,
+    "oldWord": "気掛かりな",
+    "oldReading": "きがかりな",
+    "word": "気掛かり",
+    "reading": "きがかり"
+  },
+  {
+    "id": 3090,
+    "oldWord": "稀な",
+    "oldReading": "まれな",
+    "word": "稀",
+    "reading": "まれ"
+  },
+  {
+    "id": 3091,
+    "oldWord": "貴重な",
+    "oldReading": "きちょうな",
+    "word": "貴重",
+    "reading": "きちょう"
+  },
+  {
+    "id": 3092,
+    "oldWord": "客観的な",
+    "oldReading": "きゃっかんてきな",
+    "word": "客観的",
+    "reading": "きゃっかんてき"
+  },
+  {
+    "id": 3093,
+    "oldWord": "急激な",
+    "oldReading": "きゅうげきな",
+    "word": "急激",
+    "reading": "きゅうげき"
+  },
+  {
+    "id": 3094,
+    "oldWord": "窮屈な",
+    "oldReading": "きゅうくつな",
+    "word": "窮屈",
+    "reading": "きゅうくつ"
+  },
+  {
+    "id": 3095,
+    "oldWord": "強引な",
+    "oldReading": "ごういんな",
+    "word": "強引",
+    "reading": "ごういん"
+  },
+  {
+    "id": 3096,
+    "oldWord": "強気な",
+    "oldReading": "つよきな",
+    "word": "強気",
+    "reading": "つよき"
+  },
+  {
+    "id": 3097,
+    "oldWord": "強硬な",
+    "oldReading": "きょうこうな",
+    "word": "強硬",
+    "reading": "きょうこう"
+  },
+  {
+    "id": 3098,
+    "oldWord": "強情な",
+    "oldReading": "ごうじょうな",
+    "word": "強情",
+    "reading": "ごうじょう"
+  },
+  {
+    "id": 3099,
+    "oldWord": "強大な",
+    "oldReading": "きょうだいな",
+    "word": "強大",
+    "reading": "きょうだい"
+  },
+  {
+    "id": 3100,
+    "oldWord": "強烈な",
+    "oldReading": "きょうれつな",
+    "word": "強烈",
+    "reading": "きょうれつ"
+  },
+  {
+    "id": 3101,
+    "oldWord": "極端な",
+    "oldReading": "きょくたんな",
+    "word": "極端",
+    "reading": "きょくたん"
+  },
+  {
+    "id": 3102,
+    "oldWord": "勤勉な",
+    "oldReading": "きんべんな",
+    "word": "勤勉",
+    "reading": "きんべん"
+  },
+  {
+    "id": 3103,
+    "oldWord": "具体的な",
+    "oldReading": "ぐたいてきな",
+    "word": "具体的",
+    "reading": "ぐたいてき"
+  },
+  {
+    "id": 3104,
+    "oldWord": "軽快な",
+    "oldReading": "けいかいな",
+    "word": "軽快",
+    "reading": "けいかい"
+  },
+  {
+    "id": 3105,
+    "oldWord": "軽薄な",
+    "oldReading": "けいはくな",
+    "word": "軽薄",
+    "reading": "けいはく"
+  },
+  {
+    "id": 3106,
+    "oldWord": "軽率な",
+    "oldReading": "けいそつな",
+    "word": "軽率",
+    "reading": "けいそつ"
+  },
+  {
+    "id": 3107,
+    "oldWord": "健やかな",
+    "oldReading": "すこやかな",
+    "word": "健やか",
+    "reading": "すこやか"
+  },
+  {
+    "id": 3108,
+    "oldWord": "堅実な",
+    "oldReading": "けんじつな",
+    "word": "堅実",
+    "reading": "けんじつ"
+  },
+  {
+    "id": 3109,
+    "oldWord": "懸命な",
+    "oldReading": "けんめいな",
+    "word": "懸命",
+    "reading": "けんめい"
+  },
+  {
+    "id": 3110,
+    "oldWord": "謙虚な",
+    "oldReading": "けんきょな",
+    "word": "謙虚",
+    "reading": "けんきょ"
+  },
+  {
+    "id": 3111,
+    "oldWord": "険悪な",
+    "oldReading": "けんあくな",
+    "word": "険悪",
+    "reading": "けんあく"
+  },
+  {
+    "id": 3112,
+    "oldWord": "顕著な",
+    "oldReading": "けんちょな",
+    "word": "顕著",
+    "reading": "けんちょ"
+  },
+  {
+    "id": 3113,
+    "oldWord": "厳かな",
+    "oldReading": "おごそかな",
+    "word": "厳か",
+    "reading": "おごそか"
+  },
+  {
+    "id": 3114,
+    "oldWord": "厳粛な",
+    "oldReading": "げんしゅくな",
+    "word": "厳粛",
+    "reading": "げんしゅく"
+  },
+  {
+    "id": 3115,
+    "oldWord": "厳正な",
+    "oldReading": "げんせいな",
+    "word": "厳正",
+    "reading": "げんせい"
+  },
+  {
+    "id": 3116,
+    "oldWord": "厳密な",
+    "oldReading": "げんみつな",
+    "word": "厳密",
+    "reading": "げんみつ"
+  },
+  {
+    "id": 3117,
+    "oldWord": "巧みな",
+    "oldReading": "たくみな",
+    "word": "巧み",
+    "reading": "たくみ"
+  },
+  {
+    "id": 3118,
+    "oldWord": "巧妙な",
+    "oldReading": "こうみょうな",
+    "word": "巧妙",
+    "reading": "こうみょう"
+  },
+  {
+    "id": 3119,
+    "oldWord": "幸いな",
+    "oldReading": "さいわいな",
+    "word": "幸い",
+    "reading": "さいわい"
+  },
+  {
+    "id": 3120,
+    "oldWord": "控えめな",
+    "oldReading": "ひかえめな",
+    "word": "控えめ",
+    "reading": "ひかえめ"
+  },
+  {
+    "id": 3121,
+    "oldWord": "肯定的な",
+    "oldReading": "こうていてきな",
+    "word": "肯定的",
+    "reading": "こうていてき"
+  },
+  {
+    "id": 3122,
+    "oldWord": "高尚な",
+    "oldReading": "こうしょうな",
+    "word": "高尚",
+    "reading": "こうしょう"
+  },
+  {
+    "id": 3123,
+    "oldWord": "高慢な",
+    "oldReading": "こうまんな",
+    "word": "高慢",
+    "reading": "こうまん"
+  },
+  {
+    "id": 3124,
+    "oldWord": "豪華な",
+    "oldReading": "ごうかな",
+    "word": "豪華",
+    "reading": "ごうか"
+  },
+  {
+    "id": 3125,
+    "oldWord": "些細な",
+    "oldReading": "ささいな",
+    "word": "些細",
+    "reading": "ささい"
+  },
+  {
+    "id": 3126,
+    "oldWord": "細やかな",
+    "oldReading": "こまやかな",
+    "word": "細やか",
+    "reading": "こまやか"
+  },
+  {
+    "id": 3127,
+    "oldWord": "散々な",
+    "oldReading": "さんざんな",
+    "word": "散々",
+    "reading": "さんざん"
+  },
+  {
+    "id": 3128,
+    "oldWord": "残酷な",
+    "oldReading": "ざんこくな",
+    "word": "残酷",
+    "reading": "ざんこく"
+  },
+  {
+    "id": 3129,
+    "oldWord": "質素な",
+    "oldReading": "しっそな",
+    "word": "質素",
+    "reading": "しっそ"
+  },
+  {
+    "id": 3130,
+    "oldWord": "弱気な",
+    "oldReading": "よわきな",
+    "word": "弱気",
+    "reading": "よわき"
+  },
+  {
+    "id": 3131,
+    "oldWord": "弱腰な",
+    "oldReading": "よわごしな",
+    "word": "弱腰",
+    "reading": "よわごし"
+  },
+  {
+    "id": 3132,
+    "oldWord": "手近な",
+    "oldReading": "てぢかな",
+    "word": "手近",
+    "reading": "てぢか"
+  },
+  {
+    "id": 3133,
+    "oldWord": "手頃な",
+    "oldReading": "てごろな",
+    "word": "手頃",
+    "reading": "てごろ"
+  },
+  {
+    "id": 3134,
+    "oldWord": "手薄な",
+    "oldReading": "てうすな",
+    "word": "手薄",
+    "reading": "てうす"
+  },
+  {
+    "id": 3135,
+    "oldWord": "従順な",
+    "oldReading": "じゅうじゅんな",
+    "word": "従順",
+    "reading": "じゅうじゅん"
+  },
+  {
+    "id": 3136,
+    "oldWord": "柔軟な",
+    "oldReading": "じゅうなんな",
+    "word": "柔軟",
+    "reading": "じゅうなん"
+  },
+  {
+    "id": 3137,
+    "oldWord": "重厚な",
+    "oldReading": "じゅうこうな",
+    "word": "重厚",
+    "reading": "じゅうこう"
+  },
+  {
+    "id": 3138,
+    "oldWord": "消極的な",
+    "oldReading": "しょうきょくてきな",
+    "word": "消極的",
+    "reading": "しょうきょくてき"
+  },
+  {
+    "id": 3139,
+    "oldWord": "真摯な",
+    "oldReading": "しんしな",
+    "word": "真摯",
+    "reading": "しんし"
+  },
+  {
+    "id": 3140,
+    "oldWord": "神聖な",
+    "oldReading": "しんせいな",
+    "word": "神聖",
+    "reading": "しんせい"
+  },
+  {
+    "id": 3141,
+    "oldWord": "親密な",
+    "oldReading": "しんみつな",
+    "word": "親密",
+    "reading": "しんみつ"
+  },
+  {
+    "id": 3142,
+    "oldWord": "迅速な",
+    "oldReading": "じんそくな",
+    "word": "迅速",
+    "reading": "じんそく"
+  },
+  {
+    "id": 3143,
+    "oldWord": "地道な",
+    "oldReading": "じみちな",
+    "word": "地道",
+    "reading": "じみち"
+  },
+  {
+    "id": 3144,
+    "oldWord": "粋な",
+    "oldReading": "いきな",
+    "word": "粋",
+    "reading": "いき"
+  },
+  {
+    "id": 3145,
+    "oldWord": "性急な",
+    "oldReading": "せいきゅうな",
+    "word": "性急",
+    "reading": "せいきゅう"
+  },
+  {
+    "id": 3146,
+    "oldWord": "静的な",
+    "oldReading": "せいてきな",
+    "word": "静的",
+    "reading": "せいてき"
+  },
+  {
+    "id": 3147,
+    "oldWord": "清らかな",
+    "oldReading": "きよらかな",
+    "word": "清らか",
+    "reading": "きよらか"
+  },
+  {
+    "id": 3148,
+    "oldWord": "清純な",
+    "oldReading": "せいじゅんな",
+    "word": "清純",
+    "reading": "せいじゅん"
+  },
+  {
+    "id": 3149,
+    "oldWord": "精密な",
+    "oldReading": "せいみつな",
+    "word": "精密",
+    "reading": "せいみつ"
+  },
+  {
+    "id": 3150,
+    "oldWord": "精力的な",
+    "oldReading": "せいりょくてきな",
+    "word": "精力的",
+    "reading": "せいりょくてき"
+  },
+  {
+    "id": 3151,
+    "oldWord": "誠実な",
+    "oldReading": "せいじつな",
+    "word": "誠実",
+    "reading": "せいじつ"
+  },
+  {
+    "id": 3152,
+    "oldWord": "絶大な",
+    "oldReading": "ぜつだいな",
+    "word": "絶大",
+    "reading": "ぜつだい"
+  },
+  {
+    "id": 3153,
+    "oldWord": "浅はかな",
+    "oldReading": "あさはかな",
+    "word": "浅はか",
+    "reading": "あさはか"
+  },
+  {
+    "id": 3154,
+    "oldWord": "繊細な",
+    "oldReading": "せんさいな",
+    "word": "繊細",
+    "reading": "せんさい"
+  },
+  {
+    "id": 3155,
+    "oldWord": "鮮やかな",
+    "oldReading": "あざやかな",
+    "word": "鮮やか",
+    "reading": "あざやか"
+  },
+  {
+    "id": 3156,
+    "oldWord": "鮮烈な",
+    "oldReading": "せんれつな",
+    "word": "鮮烈",
+    "reading": "せんれつ"
+  },
+  {
+    "id": 3157,
+    "oldWord": "前向きな",
+    "oldReading": "まえむきな",
+    "word": "前向き",
+    "reading": "まえむき"
+  },
+  {
+    "id": 3158,
+    "oldWord": "善良な",
+    "oldReading": "ぜんりょうな",
+    "word": "善良",
+    "reading": "ぜんりょう"
+  },
+  {
+    "id": 3159,
+    "oldWord": "疎かな",
+    "oldReading": "おろそかな",
+    "word": "疎か",
+    "reading": "おろそか"
+  },
+  {
+    "id": 3160,
+    "oldWord": "疎遠な",
+    "oldReading": "そえんな",
+    "word": "疎遠",
+    "reading": "そえん"
+  },
+  {
+    "id": 3161,
+    "oldWord": "壮大な",
+    "oldReading": "そうだいな",
+    "word": "壮大",
+    "reading": "そうだい"
+  },
+  {
+    "id": 3162,
+    "oldWord": "爽やかな",
+    "oldReading": "さわやかな",
+    "word": "爽やか",
+    "reading": "さわやか"
+  },
+  {
+    "id": 3164,
+    "oldWord": "相当な",
+    "oldReading": "そうとうな",
+    "word": "相当",
+    "reading": "そうとう"
+  },
+  {
+    "id": 3165,
+    "oldWord": "相対的な",
+    "oldReading": "そうたいてきな",
+    "word": "相対的",
+    "reading": "そうたいてき"
+  },
+  {
+    "id": 3166,
+    "oldWord": "速やかな",
+    "oldReading": "すみやかな",
+    "word": "速やか",
+    "reading": "すみやか"
+  },
+  {
+    "id": 3167,
+    "oldWord": "多忙な",
+    "oldReading": "たぼうな",
+    "word": "多忙",
+    "reading": "たぼう"
+  },
+  {
+    "id": 3168,
+    "oldWord": "怠慢な",
+    "oldReading": "たいまんな",
+    "word": "怠慢",
+    "reading": "たいまん"
+  },
+  {
+    "id": 3169,
+    "oldWord": "退屈な",
+    "oldReading": "たいくつな",
+    "word": "退屈",
+    "reading": "たいくつ"
+  },
+  {
+    "id": 3170,
+    "oldWord": "大げさな",
+    "oldReading": "おおげさな",
+    "word": "大げさ",
+    "reading": "おおげさ"
+  },
+  {
+    "id": 3171,
+    "oldWord": "大ざっぱな",
+    "oldReading": "おおざっぱな",
+    "word": "大ざっぱ",
+    "reading": "おおざっぱ"
+  },
+  {
+    "id": 3172,
+    "oldWord": "大まかな",
+    "oldReading": "おおまかな",
+    "word": "大まか",
+    "reading": "おおまか"
+  },
+  {
+    "id": 3173,
+    "oldWord": "大胆な",
+    "oldReading": "だいたんな",
+    "word": "大胆",
+    "reading": "だいたん"
+  },
+  {
+    "id": 3174,
+    "oldWord": "妥当な",
+    "oldReading": "だとうな",
+    "word": "妥当",
+    "reading": "だとう"
+  },
+  {
+    "id": 3175,
+    "oldWord": "達者な",
+    "oldReading": "たっしゃな",
+    "word": "達者",
+    "reading": "たっしゃ"
+  },
+  {
+    "id": 3176,
+    "oldWord": "達筆な",
+    "oldReading": "たっぴつな",
+    "word": "達筆",
+    "reading": "たっぴつ"
+  },
+  {
+    "id": 3177,
+    "oldWord": "単調な",
+    "oldReading": "たんちょうな",
+    "word": "単調",
+    "reading": "たんちょう"
+  },
+  {
+    "id": 3178,
+    "oldWord": "淡白な",
+    "oldReading": "たんぱくな",
+    "word": "淡白",
+    "reading": "たんぱく"
+  },
+  {
+    "id": 3179,
+    "oldWord": "端的な",
+    "oldReading": "たんてきな",
+    "word": "端的",
+    "reading": "たんてき"
+  },
+  {
+    "id": 3180,
+    "oldWord": "着実な",
+    "oldReading": "ちゃくじつな",
+    "word": "着実",
+    "reading": "ちゃくじつ"
+  },
+  {
+    "id": 3181,
+    "oldWord": "中途半端な",
+    "oldReading": "ちゅうとはんぱな",
+    "word": "中途半端",
+    "reading": "ちゅうとはんぱ"
+  },
+  {
+    "id": 3182,
+    "oldWord": "著名な",
+    "oldReading": "ちょめいな",
+    "word": "著名",
+    "reading": "ちょめい"
+  },
+  {
+    "id": 3183,
+    "oldWord": "定かな",
+    "oldReading": "さだかな",
+    "word": "定か",
+    "reading": "さだか"
+  },
+  {
+    "id": 3184,
+    "oldWord": "定期的な",
+    "oldReading": "ていきてきな",
+    "word": "定期的",
+    "reading": "ていきてき"
+  },
+  {
+    "id": 3185,
+    "oldWord": "的確な",
+    "oldReading": "てきかくな",
+    "word": "的確",
+    "reading": "てきかく"
+  },
+  {
+    "id": 3186,
+    "oldWord": "適度な",
+    "oldReading": "てきどな",
+    "word": "適度",
+    "reading": "てきど"
+  },
+  {
+    "id": 3187,
+    "oldWord": "唐突な",
+    "oldReading": "とうとつな",
+    "word": "唐突",
+    "reading": "とうとつ"
+  },
+  {
+    "id": 3188,
+    "oldWord": "特殊な",
+    "oldReading": "とくしゅな",
+    "word": "特殊",
+    "reading": "とくしゅ"
+  },
+  {
+    "id": 3189,
+    "oldWord": "独裁的な",
+    "oldReading": "どくさいてきな",
+    "word": "独裁的",
+    "reading": "どくさいてき"
+  },
+  {
+    "id": 3190,
+    "oldWord": "鈍感な",
+    "oldReading": "どんかんな",
+    "word": "鈍感",
+    "reading": "どんかん"
+  },
+  {
+    "id": 3191,
+    "oldWord": "濃厚な",
+    "oldReading": "のうこうな",
+    "word": "濃厚",
+    "reading": "のうこう"
+  },
+  {
+    "id": 3192,
+    "oldWord": "濃密な",
+    "oldReading": "のうみつな",
+    "word": "濃密",
+    "reading": "のうみつ"
+  },
+  {
+    "id": 3193,
+    "oldWord": "莫大な",
+    "oldReading": "ばくだいな",
+    "word": "莫大",
+    "reading": "ばくだい"
+  },
+  {
+    "id": 3194,
+    "oldWord": "抜群な",
+    "oldReading": "ばつぐんな",
+    "word": "抜群",
+    "reading": "ばつぐん"
+  },
+  {
+    "id": 3195,
+    "oldWord": "抜本的な",
+    "oldReading": "ばっぽんてきな",
+    "word": "抜本的",
+    "reading": "ばっぽんてき"
+  },
+  {
+    "id": 3196,
+    "oldWord": "半端な",
+    "oldReading": "はんぱな",
+    "word": "半端",
+    "reading": "はんぱ"
+  },
+  {
+    "id": 3197,
+    "oldWord": "繁雑な",
+    "oldReading": "はんざつな",
+    "word": "繁雑",
+    "reading": "はんざつ"
+  },
+  {
+    "id": 3198,
+    "oldWord": "煩雑な",
+    "oldReading": "はんざつな",
+    "word": "煩雑",
+    "reading": "はんざつ"
+  },
+  {
+    "id": 3199,
+    "oldWord": "卑劣な",
+    "oldReading": "ひれつな",
+    "word": "卑劣",
+    "reading": "ひれつ"
+  },
+  {
+    "id": 3200,
+    "oldWord": "悲惨な",
+    "oldReading": "ひさんな",
+    "word": "悲惨",
+    "reading": "ひさん"
+  },
+  {
+    "id": 3201,
+    "oldWord": "微かな",
+    "oldReading": "かすかな",
+    "word": "微か",
+    "reading": "かすか"
+  },
+  {
+    "id": 3202,
+    "oldWord": "微妙な",
+    "oldReading": "びみょうな",
+    "word": "微妙",
+    "reading": "びみょう"
+  },
+  {
+    "id": 3203,
+    "oldWord": "貧弱な",
+    "oldReading": "ひんじゃくな",
+    "word": "貧弱",
+    "reading": "ひんじゃく"
+  },
+  {
+    "id": 3204,
+    "oldWord": "頻繁な",
+    "oldReading": "ひんぱんな",
+    "word": "頻繁",
+    "reading": "ひんぱん"
+  },
+  {
+    "id": 3205,
+    "oldWord": "敏感な",
+    "oldReading": "びんかんな",
+    "word": "敏感",
+    "reading": "びんかん"
+  },
+  {
+    "id": 3206,
+    "oldWord": "不穏な",
+    "oldReading": "ふおんな",
+    "word": "不穏",
+    "reading": "ふおん"
+  },
+  {
+    "id": 3207,
+    "oldWord": "不振な",
+    "oldReading": "ふしんな",
+    "word": "不振",
+    "reading": "ふしん"
+  },
+  {
+    "id": 3208,
+    "oldWord": "不服な",
+    "oldReading": "ふふくな",
+    "word": "不服",
+    "reading": "ふふく"
+  },
+  {
+    "id": 3209,
+    "oldWord": "不毛な",
+    "oldReading": "ふもうな",
+    "word": "不毛",
+    "reading": "ふもう"
+  },
+  {
+    "id": 3210,
+    "oldWord": "不用意な",
+    "oldReading": "ふよういな",
+    "word": "不用意",
+    "reading": "ふようい"
+  },
+  {
+    "id": 3211,
+    "oldWord": "不利な",
+    "oldReading": "ふりな",
+    "word": "不利",
+    "reading": "ふり"
+  },
+  {
+    "id": 3212,
+    "oldWord": "物好きな",
+    "oldReading": "ものずきな",
+    "word": "物好き",
+    "reading": "ものずき"
+  },
+  {
+    "id": 3213,
+    "oldWord": "粉々な",
+    "oldReading": "こなごなな",
+    "word": "粉々",
+    "reading": "こなごな"
+  },
+  {
+    "id": 3214,
+    "oldWord": "平凡な",
+    "oldReading": "へいぼんな",
+    "word": "平凡",
+    "reading": "へいぼん"
+  },
+  {
+    "id": 3215,
+    "oldWord": "膨大な",
+    "oldReading": "ぼうだいな",
+    "word": "膨大",
+    "reading": "ぼうだい"
+  },
+  {
+    "id": 3216,
+    "oldWord": "密かな",
+    "oldReading": "ひそかな",
+    "word": "密か",
+    "reading": "ひそか"
+  },
+  {
+    "id": 3217,
+    "oldWord": "無残な",
+    "oldReading": "むざんな",
+    "word": "無残",
+    "reading": "むざん"
+  },
+  {
+    "id": 3218,
+    "oldWord": "無邪気な",
+    "oldReading": "むじゃきな",
+    "word": "無邪気",
+    "reading": "むじゃき"
+  },
+  {
+    "id": 3219,
+    "oldWord": "無情な",
+    "oldReading": "むじょうな",
+    "word": "無情",
+    "reading": "むじょう"
+  },
+  {
+    "id": 3220,
+    "oldWord": "憂鬱な",
+    "oldReading": "ゆううつな",
+    "word": "憂鬱",
+    "reading": "ゆううつ"
+  },
+  {
+    "id": 3221,
+    "oldWord": "無造作な",
+    "oldReading": "むぞうさな",
+    "word": "無造作",
+    "reading": "むぞうさ"
+  },
+  {
+    "id": 3222,
+    "oldWord": "無鉄砲な",
+    "oldReading": "むてっぽうな",
+    "word": "無鉄砲",
+    "reading": "むてっぽう"
+  },
+  {
+    "id": 3223,
+    "oldWord": "余計な",
+    "oldReading": "よけいな",
+    "word": "余計",
+    "reading": "よけい"
+  },
+  {
+    "id": 3224,
+    "oldWord": "無謀な",
+    "oldReading": "むぼうな",
+    "word": "無謀",
+    "reading": "むぼう"
+  },
+  {
+    "id": 3225,
+    "oldWord": "理不尽な",
+    "oldReading": "りふじんな",
+    "word": "理不尽",
+    "reading": "りふじん"
+  },
+  {
+    "id": 3226,
+    "oldWord": "明瞭な",
+    "oldReading": "めいりょうな",
+    "word": "明瞭",
+    "reading": "めいりょう"
+  },
+  {
+    "id": 3227,
+    "oldWord": "裏腹な",
+    "oldReading": "うらはらな",
+    "word": "裏腹",
+    "reading": "うらはら"
+  },
+  {
+    "id": 3228,
+    "oldWord": "明朗な",
+    "oldReading": "めいろうな",
+    "word": "明朗",
+    "reading": "めいろう"
+  },
+  {
+    "id": 3229,
+    "oldWord": "律儀な",
+    "oldReading": "りちぎな",
+    "word": "律儀",
+    "reading": "りちぎ"
+  },
+  {
+    "id": 3230,
+    "oldWord": "綿密な",
+    "oldReading": "めんみつな",
+    "word": "綿密",
+    "reading": "めんみつ"
+  },
+  {
+    "id": 3231,
+    "oldWord": "率直な",
+    "oldReading": "そっちょくな",
+    "word": "率直",
+    "reading": "そっちょく"
+  },
+  {
+    "id": 3232,
+    "oldWord": "猛烈な",
+    "oldReading": "もうれつな",
+    "word": "猛烈",
+    "reading": "もうれつ"
+  },
+  {
+    "id": 3233,
+    "oldWord": "流暢な",
+    "oldReading": "りゅうちょうな",
+    "word": "流暢",
+    "reading": "りゅうちょう"
+  },
+  {
+    "id": 3234,
+    "oldWord": "厄介な",
+    "oldReading": "やっかいな",
+    "word": "厄介",
+    "reading": "やっかい"
+  },
+  {
+    "id": 3235,
+    "oldWord": "倫理的な",
+    "oldReading": "りんりてきな",
+    "word": "倫理的",
+    "reading": "りんりてき"
+  },
+  {
+    "id": 3236,
+    "oldWord": "愉快な",
+    "oldReading": "ゆかいな",
+    "word": "愉快",
+    "reading": "ゆかい"
+  },
+  {
+    "id": 3237,
+    "oldWord": "冷酷な",
+    "oldReading": "れいこくな",
+    "word": "冷酷",
+    "reading": "れいこく"
+  },
+  {
+    "id": 3238,
+    "oldWord": "優雅な",
+    "oldReading": "ゆうがな",
+    "word": "優雅",
+    "reading": "ゆうが"
+  },
+  {
+    "id": 3239,
+    "oldWord": "冷淡な",
+    "oldReading": "れいたんな",
+    "word": "冷淡",
+    "reading": "れいたん"
+  },
+  {
+    "id": 3240,
+    "oldWord": "和やかな",
+    "oldReading": "なごやかな",
+    "word": "和やか",
+    "reading": "なごやか"
+  },
+  {
+    "id": 3241,
+    "oldWord": "傲慢な",
+    "oldReading": "ごうまんな",
+    "word": "傲慢",
+    "reading": "ごうまん"
+  },
+  {
+    "id": 3242,
+    "oldWord": "几帳面な",
+    "oldReading": "きちょうめんな",
+    "word": "几帳面",
+    "reading": "きちょうめん"
+  },
+  {
+    "id": 3243,
+    "oldWord": "曖昧な",
+    "oldReading": "あいまいな",
+    "word": "曖昧",
+    "reading": "あいまい"
+  },
+  {
+    "id": 3244,
+    "oldWord": "緻密な",
+    "oldReading": "ちみつな",
+    "word": "緻密",
+    "reading": "ちみつ"
+  },
+  {
+    "id": 3245,
+    "oldWord": "貪欲な",
+    "oldReading": "どんよくな",
+    "word": "貪欲",
+    "reading": "どんよく"
+  },
+  {
+    "id": 3246,
+    "oldWord": "斬新な",
+    "oldReading": "ざんしんな",
+    "word": "斬新",
+    "reading": "ざんしん"
+  },
+  {
+    "id": 3247,
+    "oldWord": "不吉な",
+    "oldReading": "ふきつな",
+    "word": "不吉",
+    "reading": "ふきつ"
+  },
+  {
+    "id": 3248,
+    "oldWord": "不審な",
+    "oldReading": "ふしんな",
+    "word": "不審",
+    "reading": "ふしん"
+  },
+  {
+    "id": 3249,
+    "oldWord": "良質な",
+    "oldReading": "りょうしつな",
+    "word": "良質",
+    "reading": "りょうしつ"
+  },
+  {
+    "id": 3250,
+    "oldWord": "勇敢な",
+    "oldReading": "ゆうかんな",
+    "word": "勇敢",
+    "reading": "ゆうかん"
+  },
+  {
+    "id": 3251,
+    "oldWord": "有望な",
+    "oldReading": "ゆうぼうな",
+    "word": "有望",
+    "reading": "ゆうぼう"
+  },
+  {
+    "id": 3252,
+    "oldWord": "朗らかな",
+    "oldReading": "ほがらかな",
+    "word": "朗らか",
+    "reading": "ほがらか"
+  },
+  {
+    "id": 3253,
+    "oldWord": "露骨な",
+    "oldReading": "ろこつな",
+    "word": "露骨",
+    "reading": "ろこつ"
+  }
+]

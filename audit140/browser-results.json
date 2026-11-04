@@ -1,0 +1,44 @@
+{
+  "sha256": "810af1aecf5a71b2fbd39b687e3ec310763317cb3f04821107cdeb983c31f537",
+  "browser": "141.0.7390.37",
+  "pass": true,
+  "pool": {
+    "eligible": 2432,
+    "guarded": 1482,
+    "canonicalAliases": 286
+  },
+  "normalizedCards": 286,
+  "readings": 160,
+  "lexicalGlosses": 400,
+  "hiddenDuplicateQuotes": 401,
+  "screenshotWidths": [
+    360,
+    412,
+    1280
+  ],
+  "stableProgress": {
+    "status": "X",
+    "lastSeen": 1793790000000,
+    "timesShown": 3,
+    "firstSeen": 1793700000000
+  },
+  "collisionGroups": [
+    [
+      1408,
+      3134
+    ],
+    [
+      1634,
+      3164,
+      3363
+    ],
+    [
+      3034,
+      3424
+    ],
+    [
+      3127,
+      3345
+    ]
+  ]
+}

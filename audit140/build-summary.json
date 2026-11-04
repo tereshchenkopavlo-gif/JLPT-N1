@@ -1,0 +1,15 @@
+{
+  "version": 140,
+  "baseSha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+  "sha256": "810af1aecf5a71b2fbd39b687e3ec310763317cb3f04821107cdeb983c31f537",
+  "bytes": 6779154,
+  "normalizedHeadwords": 286,
+  "lexicalGlosses": 400,
+  "uniqueGlossIds": 228,
+  "changedReadings": [
+    "m130-11"
+  ],
+  "readingOptionIds": [
+    "3005"
+  ]
+}

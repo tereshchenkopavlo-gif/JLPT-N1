@@ -1,0 +1,4002 @@
+{
+  "sha256": "810af1aecf5a71b2fbd39b687e3ec310763317cb3f04821107cdeb983c31f537",
+  "pass": true,
+  "examples": 8089,
+  "unmarked": 0,
+  "singleCharacterResults": 293,
+  "changedExamples": 499,
+  "changes": [
+    {
+      "kind": "v",
+      "id": 544,
+      "index": 0,
+      "spans": [
+        "いい加減"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 544,
+      "index": 1,
+      "spans": [
+        "いい加減"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 545,
+      "index": 0,
+      "spans": [
+        "意外"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 545,
+      "index": 1,
+      "spans": [
+        "意外"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 546,
+      "index": 0,
+      "spans": [
+        "頑丈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 546,
+      "index": 1,
+      "spans": [
+        "頑丈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 547,
+      "index": 0,
+      "spans": [
+        "気楽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 547,
+      "index": 1,
+      "spans": [
+        "気楽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 548,
+      "index": 0,
+      "spans": [
+        "過激"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 548,
+      "index": 1,
+      "spans": [
+        "過激"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 550,
+      "index": 0,
+      "spans": [
+        "わがまま"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 550,
+      "index": 1,
+      "spans": [
+        "わがまま"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 551,
+      "index": 0,
+      "spans": [
+        "愚か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 551,
+      "index": 1,
+      "spans": [
+        "愚か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 552,
+      "index": 0,
+      "spans": [
+        "確か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 552,
+      "index": 1,
+      "spans": [
+        "確か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 553,
+      "index": 0,
+      "spans": [
+        "確実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 554,
+      "index": 0,
+      "spans": [
+        "楽観的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 554,
+      "index": 1,
+      "spans": [
+        "楽観的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 555,
+      "index": 1,
+      "spans": [
+        "活発"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 556,
+      "index": 0,
+      "spans": [
+        "完璧"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 557,
+      "index": 0,
+      "spans": [
+        "結構"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 558,
+      "index": 0,
+      "spans": [
+        "健全"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 558,
+      "index": 1,
+      "spans": [
+        "健全"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 559,
+      "index": 0,
+      "spans": [
+        "賢明"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 559,
+      "index": 1,
+      "spans": [
+        "賢明"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 560,
+      "index": 0,
+      "spans": [
+        "広大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 560,
+      "index": 1,
+      "spans": [
+        "広大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 561,
+      "index": 1,
+      "spans": [
+        "国際的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 564,
+      "index": 0,
+      "spans": [
+        "重要"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 564,
+      "index": 1,
+      "spans": [
+        "重要"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 565,
+      "index": 1,
+      "spans": [
+        "順調"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 566,
+      "index": 0,
+      "spans": [
+        "上品"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 567,
+      "index": 1,
+      "spans": [
+        "慎重"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 568,
+      "index": 0,
+      "spans": [
+        "新た"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 568,
+      "index": 1,
+      "spans": [
+        "新た"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 570,
+      "index": 0,
+      "spans": [
+        "身近"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 570,
+      "index": 1,
+      "spans": [
+        "身近"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 571,
+      "index": 1,
+      "spans": [
+        "盛大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 572,
+      "index": 1,
+      "spans": [
+        "積極的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 573,
+      "index": 0,
+      "spans": [
+        "切実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 573,
+      "index": 1,
+      "spans": [
+        "切実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 574,
+      "index": 1,
+      "spans": [
+        "対照的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 575,
+      "index": 0,
+      "spans": [
+        "大幅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 575,
+      "index": 1,
+      "spans": [
+        "大幅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 576,
+      "index": 1,
+      "spans": [
+        "単純"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 577,
+      "index": 0,
+      "spans": [
+        "短期的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 578,
+      "index": 1,
+      "spans": [
+        "段階的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 579,
+      "index": 0,
+      "spans": [
+        "地味"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 579,
+      "index": 1,
+      "spans": [
+        "地味"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 580,
+      "index": 0,
+      "spans": [
+        "忠実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 580,
+      "index": 1,
+      "spans": [
+        "忠実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 581,
+      "index": 0,
+      "spans": [
+        "抽象的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 581,
+      "index": 1,
+      "spans": [
+        "抽象的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 582,
+      "index": 0,
+      "spans": [
+        "長期的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 582,
+      "index": 1,
+      "spans": [
+        "長期的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 583,
+      "index": 0,
+      "spans": [
+        "直感的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 583,
+      "index": 1,
+      "spans": [
+        "直感的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 584,
+      "index": 0,
+      "spans": [
+        "適切"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 584,
+      "index": 1,
+      "spans": [
+        "適切"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 585,
+      "index": 0,
+      "spans": [
+        "適当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 585,
+      "index": 1,
+      "spans": [
+        "適当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 586,
+      "index": 0,
+      "spans": [
+        "典型的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 586,
+      "index": 1,
+      "spans": [
+        "典型的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 587,
+      "index": 0,
+      "spans": [
+        "伝統的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 587,
+      "index": 1,
+      "spans": [
+        "伝統的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 588,
+      "index": 0,
+      "spans": [
+        "独特"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 588,
+      "index": 1,
+      "spans": [
+        "独特"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 589,
+      "index": 0,
+      "spans": [
+        "派手"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 589,
+      "index": 1,
+      "spans": [
+        "派手"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 590,
+      "index": 0,
+      "spans": [
+        "否定的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 590,
+      "index": 1,
+      "spans": [
+        "否定的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 591,
+      "index": 1,
+      "spans": [
+        "不当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 592,
+      "index": 0,
+      "spans": [
+        "複雑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 592,
+      "index": 1,
+      "spans": [
+        "複雑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 593,
+      "index": 0,
+      "spans": [
+        "平気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 593,
+      "index": 1,
+      "spans": [
+        "平気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 594,
+      "index": 0,
+      "spans": [
+        "豊富"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 594,
+      "index": 1,
+      "spans": [
+        "豊富"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 595,
+      "index": 0,
+      "spans": [
+        "未熟"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 596,
+      "index": 0,
+      "spans": [
+        "密接"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 596,
+      "index": 1,
+      "spans": [
+        "密接"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 597,
+      "index": 0,
+      "spans": [
+        "無難"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 597,
+      "index": 1,
+      "spans": [
+        "無難"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 598,
+      "index": 1,
+      "spans": [
+        "無能"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 599,
+      "index": 0,
+      "spans": [
+        "無礼"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 599,
+      "index": 1,
+      "spans": [
+        "無礼"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 602,
+      "index": 0,
+      "spans": [
+        "有益"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 602,
+      "index": 1,
+      "spans": [
+        "有益"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 603,
+      "index": 0,
+      "spans": [
+        "容易"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 604,
+      "index": 0,
+      "spans": [
+        "理性的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 605,
+      "index": 0,
+      "spans": [
+        "豊か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 605,
+      "index": 1,
+      "spans": [
+        "豊か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 606,
+      "index": 1,
+      "spans": [
+        "冷静"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3030,
+      "index": 0,
+      "spans": [
+        "あべこべ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3031,
+      "index": 0,
+      "spans": [
+        "冷ややか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3031,
+      "index": 1,
+      "spans": [
+        "冷ややか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3032,
+      "index": 0,
+      "spans": [
+        "華やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3032,
+      "index": 1,
+      "spans": [
+        "華やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3033,
+      "index": 0,
+      "spans": [
+        "あやふや"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3033,
+      "index": 1,
+      "spans": [
+        "あやふや"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3034,
+      "index": 0,
+      "spans": [
+        "ぶかぶか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3034,
+      "index": 1,
+      "spans": [
+        "ぶかぶか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3035,
+      "index": 0,
+      "spans": [
+        "過酷"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3035,
+      "index": 1,
+      "spans": [
+        "過酷"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3036,
+      "index": 0,
+      "spans": [
+        "ありがち"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3036,
+      "index": 1,
+      "spans": [
+        "ありがち"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3038,
+      "index": 0,
+      "spans": [
+        "過密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3038,
+      "index": 1,
+      "spans": [
+        "過密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3039,
+      "index": 0,
+      "spans": [
+        "ありきたり"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3039,
+      "index": 1,
+      "spans": [
+        "ありきたり"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3040,
+      "index": 0,
+      "spans": [
+        "まめ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3040,
+      "index": 1,
+      "spans": [
+        "まめ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3041,
+      "index": 0,
+      "spans": [
+        "画一的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3041,
+      "index": 1,
+      "spans": [
+        "画一的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3042,
+      "index": 0,
+      "spans": [
+        "いくじなし"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3042,
+      "index": 1,
+      "spans": [
+        "いくじなし"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3043,
+      "index": 0,
+      "spans": [
+        "むちゃくちゃ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3043,
+      "index": 1,
+      "spans": [
+        "むちゃくちゃ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3044,
+      "index": 0,
+      "spans": [
+        "格別"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3044,
+      "index": 1,
+      "spans": [
+        "格別"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3045,
+      "index": 0,
+      "spans": [
+        "いんちき"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3045,
+      "index": 1,
+      "spans": [
+        "いんちき"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3046,
+      "index": 0,
+      "spans": [
+        "やんちゃ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3046,
+      "index": 1,
+      "spans": [
+        "やんちゃ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3047,
+      "index": 0,
+      "spans": [
+        "画期的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3047,
+      "index": 1,
+      "spans": [
+        "画期的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3048,
+      "index": 0,
+      "spans": [
+        "おおらか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3048,
+      "index": 1,
+      "spans": [
+        "おおらか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3049,
+      "index": 0,
+      "spans": [
+        "わずか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3049,
+      "index": 1,
+      "spans": [
+        "わずか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3050,
+      "index": 0,
+      "spans": [
+        "滑らか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3050,
+      "index": 1,
+      "spans": [
+        "滑らか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3051,
+      "index": 0,
+      "spans": [
+        "きざ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3051,
+      "index": 1,
+      "spans": [
+        "きざ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3052,
+      "index": 0,
+      "spans": [
+        "わんぱく"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3052,
+      "index": 1,
+      "spans": [
+        "わんぱく"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3053,
+      "index": 0,
+      "spans": [
+        "滑稽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3053,
+      "index": 1,
+      "spans": [
+        "滑稽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3054,
+      "index": 0,
+      "spans": [
+        "生真面目"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3055,
+      "index": 0,
+      "spans": [
+        "偉大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3055,
+      "index": 1,
+      "spans": [
+        "偉大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3056,
+      "index": 0,
+      "spans": [
+        "きゃしゃ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3056,
+      "index": 1,
+      "spans": [
+        "きゃしゃ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3057,
+      "index": 0,
+      "spans": [
+        "異色"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3057,
+      "index": 1,
+      "spans": [
+        "異色"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3058,
+      "index": 0,
+      "spans": [
+        "ささやか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3058,
+      "index": 1,
+      "spans": [
+        "ささやか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3059,
+      "index": 0,
+      "spans": [
+        "一途"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3059,
+      "index": 1,
+      "spans": [
+        "一途"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3060,
+      "index": 0,
+      "spans": [
+        "しなやか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3060,
+      "index": 1,
+      "spans": [
+        "しなやか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3061,
+      "index": 0,
+      "spans": [
+        "淫ら"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3061,
+      "index": 1,
+      "spans": [
+        "淫ら"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3062,
+      "index": 0,
+      "spans": [
+        "ずさん"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3062,
+      "index": 1,
+      "spans": [
+        "ずさん"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3063,
+      "index": 0,
+      "spans": [
+        "円滑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3063,
+      "index": 1,
+      "spans": [
+        "円滑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3064,
+      "index": 0,
+      "spans": [
+        "せっかち"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3064,
+      "index": 1,
+      "spans": [
+        "せっかち"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3065,
+      "index": 0,
+      "spans": [
+        "円満"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3065,
+      "index": 1,
+      "spans": [
+        "円満"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3066,
+      "index": 0,
+      "spans": [
+        "でたらめ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3066,
+      "index": 1,
+      "spans": [
+        "でたらめ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3067,
+      "index": 0,
+      "spans": [
+        "旺盛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3067,
+      "index": 1,
+      "spans": [
+        "旺盛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3068,
+      "index": 0,
+      "spans": [
+        "にこやか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3068,
+      "index": 1,
+      "spans": [
+        "にこやか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3069,
+      "index": 0,
+      "spans": [
+        "臆病"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3069,
+      "index": 1,
+      "spans": [
+        "臆病"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3070,
+      "index": 0,
+      "spans": [
+        "のどか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3070,
+      "index": 1,
+      "spans": [
+        "のどか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3071,
+      "index": 0,
+      "spans": [
+        "穏やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3071,
+      "index": 1,
+      "spans": [
+        "穏やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3072,
+      "index": 0,
+      "spans": [
+        "はるか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3072,
+      "index": 1,
+      "spans": [
+        "はるか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3073,
+      "index": 0,
+      "spans": [
+        "穏和"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3073,
+      "index": 1,
+      "spans": [
+        "穏和"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3074,
+      "index": 0,
+      "spans": [
+        "ひたむき"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3074,
+      "index": 1,
+      "spans": [
+        "ひたむき"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3075,
+      "index": 0,
+      "spans": [
+        "果敢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3075,
+      "index": 1,
+      "spans": [
+        "果敢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3076,
+      "index": 0,
+      "spans": [
+        "堪能"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3076,
+      "index": 1,
+      "spans": [
+        "堪能"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3077,
+      "index": 0,
+      "spans": [
+        "寛大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3077,
+      "index": 1,
+      "spans": [
+        "寛大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3078,
+      "index": 0,
+      "spans": [
+        "寛容"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3078,
+      "index": 1,
+      "spans": [
+        "寛容"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3079,
+      "index": 0,
+      "spans": [
+        "簡潔"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3079,
+      "index": 1,
+      "spans": [
+        "簡潔"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3080,
+      "index": 0,
+      "spans": [
+        "簡素"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3080,
+      "index": 1,
+      "spans": [
+        "簡素"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3081,
+      "index": 0,
+      "spans": [
+        "緩やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3081,
+      "index": 1,
+      "spans": [
+        "緩やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3082,
+      "index": 0,
+      "spans": [
+        "肝心"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3082,
+      "index": 1,
+      "spans": [
+        "肝心"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3083,
+      "index": 0,
+      "spans": [
+        "頑な"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3083,
+      "index": 1,
+      "spans": [
+        "頑な"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3084,
+      "index": 0,
+      "spans": [
+        "頑固"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3084,
+      "index": 1,
+      "spans": [
+        "頑固"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3085,
+      "index": 0,
+      "spans": [
+        "奇妙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3085,
+      "index": 1,
+      "spans": [
+        "奇妙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3086,
+      "index": 0,
+      "spans": [
+        "希薄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3086,
+      "index": 1,
+      "spans": [
+        "希薄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3087,
+      "index": 0,
+      "spans": [
+        "気さく"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3087,
+      "index": 1,
+      "spans": [
+        "気さく"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3088,
+      "index": 0,
+      "spans": [
+        "気まぐれ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3088,
+      "index": 1,
+      "spans": [
+        "気まぐれ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3089,
+      "index": 0,
+      "spans": [
+        "気掛かり"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3089,
+      "index": 1,
+      "spans": [
+        "気掛かり"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3090,
+      "index": 0,
+      "spans": [
+        "稀"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3090,
+      "index": 1,
+      "spans": [
+        "稀"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3091,
+      "index": 0,
+      "spans": [
+        "貴重"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3091,
+      "index": 1,
+      "spans": [
+        "貴重"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3092,
+      "index": 0,
+      "spans": [
+        "客観的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3092,
+      "index": 1,
+      "spans": [
+        "客観的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3093,
+      "index": 0,
+      "spans": [
+        "急激"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3093,
+      "index": 1,
+      "spans": [
+        "急激"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3094,
+      "index": 0,
+      "spans": [
+        "窮屈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3094,
+      "index": 1,
+      "spans": [
+        "窮屈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3095,
+      "index": 0,
+      "spans": [
+        "強引"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3095,
+      "index": 1,
+      "spans": [
+        "強引"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3096,
+      "index": 0,
+      "spans": [
+        "強気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3096,
+      "index": 1,
+      "spans": [
+        "強気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3097,
+      "index": 0,
+      "spans": [
+        "強硬"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3097,
+      "index": 1,
+      "spans": [
+        "強硬"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3098,
+      "index": 0,
+      "spans": [
+        "強情"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3098,
+      "index": 1,
+      "spans": [
+        "強情"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3099,
+      "index": 0,
+      "spans": [
+        "強大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3099,
+      "index": 1,
+      "spans": [
+        "強大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3100,
+      "index": 0,
+      "spans": [
+        "強烈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3100,
+      "index": 1,
+      "spans": [
+        "強烈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3101,
+      "index": 0,
+      "spans": [
+        "極端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3101,
+      "index": 1,
+      "spans": [
+        "極端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3102,
+      "index": 0,
+      "spans": [
+        "勤勉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3102,
+      "index": 1,
+      "spans": [
+        "勤勉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3103,
+      "index": 0,
+      "spans": [
+        "具体的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3103,
+      "index": 1,
+      "spans": [
+        "具体的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3104,
+      "index": 0,
+      "spans": [
+        "軽快"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3104,
+      "index": 1,
+      "spans": [
+        "軽快"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3105,
+      "index": 0,
+      "spans": [
+        "軽薄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3105,
+      "index": 1,
+      "spans": [
+        "軽薄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3106,
+      "index": 0,
+      "spans": [
+        "軽率"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3106,
+      "index": 1,
+      "spans": [
+        "軽率"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3107,
+      "index": 0,
+      "spans": [
+        "健やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3107,
+      "index": 1,
+      "spans": [
+        "健やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3108,
+      "index": 0,
+      "spans": [
+        "堅実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3108,
+      "index": 1,
+      "spans": [
+        "堅実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3109,
+      "index": 0,
+      "spans": [
+        "懸命"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3109,
+      "index": 1,
+      "spans": [
+        "懸命"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3110,
+      "index": 0,
+      "spans": [
+        "謙虚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3110,
+      "index": 1,
+      "spans": [
+        "謙虚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3111,
+      "index": 0,
+      "spans": [
+        "険悪"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3111,
+      "index": 1,
+      "spans": [
+        "険悪"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3112,
+      "index": 0,
+      "spans": [
+        "顕著"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3112,
+      "index": 1,
+      "spans": [
+        "顕著"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3113,
+      "index": 0,
+      "spans": [
+        "厳か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3113,
+      "index": 1,
+      "spans": [
+        "厳か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3114,
+      "index": 0,
+      "spans": [
+        "厳粛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3114,
+      "index": 1,
+      "spans": [
+        "厳粛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3115,
+      "index": 0,
+      "spans": [
+        "厳正"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3115,
+      "index": 1,
+      "spans": [
+        "厳正"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3116,
+      "index": 0,
+      "spans": [
+        "厳密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3116,
+      "index": 1,
+      "spans": [
+        "厳密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3117,
+      "index": 0,
+      "spans": [
+        "巧み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3117,
+      "index": 1,
+      "spans": [
+        "巧み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3118,
+      "index": 0,
+      "spans": [
+        "巧妙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3118,
+      "index": 1,
+      "spans": [
+        "巧妙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3119,
+      "index": 0,
+      "spans": [
+        "幸い"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3120,
+      "index": 0,
+      "spans": [
+        "控えめ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3120,
+      "index": 1,
+      "spans": [
+        "控えめ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3121,
+      "index": 0,
+      "spans": [
+        "肯定的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3121,
+      "index": 1,
+      "spans": [
+        "肯定的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3122,
+      "index": 0,
+      "spans": [
+        "高尚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3122,
+      "index": 1,
+      "spans": [
+        "高尚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3123,
+      "index": 0,
+      "spans": [
+        "高慢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3123,
+      "index": 1,
+      "spans": [
+        "高慢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3124,
+      "index": 0,
+      "spans": [
+        "豪華"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3124,
+      "index": 1,
+      "spans": [
+        "豪華"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3125,
+      "index": 0,
+      "spans": [
+        "些細"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3125,
+      "index": 1,
+      "spans": [
+        "些細"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3126,
+      "index": 0,
+      "spans": [
+        "細やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3126,
+      "index": 1,
+      "spans": [
+        "細やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3127,
+      "index": 0,
+      "spans": [
+        "散々"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3127,
+      "index": 1,
+      "spans": [
+        "散々"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3128,
+      "index": 0,
+      "spans": [
+        "残酷"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3128,
+      "index": 1,
+      "spans": [
+        "残酷"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3129,
+      "index": 0,
+      "spans": [
+        "質素"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3129,
+      "index": 1,
+      "spans": [
+        "質素"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3130,
+      "index": 0,
+      "spans": [
+        "弱気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3130,
+      "index": 1,
+      "spans": [
+        "弱気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3131,
+      "index": 0,
+      "spans": [
+        "弱腰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3131,
+      "index": 1,
+      "spans": [
+        "弱腰"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3132,
+      "index": 0,
+      "spans": [
+        "手近"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3132,
+      "index": 1,
+      "spans": [
+        "手近"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3133,
+      "index": 0,
+      "spans": [
+        "手頃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3133,
+      "index": 1,
+      "spans": [
+        "手頃"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3134,
+      "index": 0,
+      "spans": [
+        "手薄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3134,
+      "index": 1,
+      "spans": [
+        "手薄"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3135,
+      "index": 0,
+      "spans": [
+        "従順"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3135,
+      "index": 1,
+      "spans": [
+        "従順"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3136,
+      "index": 0,
+      "spans": [
+        "柔軟"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3136,
+      "index": 1,
+      "spans": [
+        "柔軟"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3137,
+      "index": 0,
+      "spans": [
+        "重厚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3137,
+      "index": 1,
+      "spans": [
+        "重厚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3138,
+      "index": 0,
+      "spans": [
+        "消極的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3138,
+      "index": 1,
+      "spans": [
+        "消極的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3139,
+      "index": 0,
+      "spans": [
+        "真摯"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3139,
+      "index": 1,
+      "spans": [
+        "真摯"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3140,
+      "index": 0,
+      "spans": [
+        "神聖"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3140,
+      "index": 1,
+      "spans": [
+        "神聖"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3141,
+      "index": 0,
+      "spans": [
+        "親密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3141,
+      "index": 1,
+      "spans": [
+        "親密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3142,
+      "index": 0,
+      "spans": [
+        "迅速"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3142,
+      "index": 1,
+      "spans": [
+        "迅速"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3143,
+      "index": 0,
+      "spans": [
+        "地道"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3143,
+      "index": 1,
+      "spans": [
+        "地道"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3144,
+      "index": 0,
+      "spans": [
+        "粋"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3144,
+      "index": 1,
+      "spans": [
+        "粋"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3145,
+      "index": 0,
+      "spans": [
+        "性急"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3145,
+      "index": 1,
+      "spans": [
+        "性急"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3146,
+      "index": 0,
+      "spans": [
+        "静的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3146,
+      "index": 1,
+      "spans": [
+        "静的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3147,
+      "index": 0,
+      "spans": [
+        "清らか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3147,
+      "index": 1,
+      "spans": [
+        "清らか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3148,
+      "index": 0,
+      "spans": [
+        "清純"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3148,
+      "index": 1,
+      "spans": [
+        "清純"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3149,
+      "index": 0,
+      "spans": [
+        "精密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3149,
+      "index": 1,
+      "spans": [
+        "精密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3150,
+      "index": 0,
+      "spans": [
+        "精力的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3150,
+      "index": 1,
+      "spans": [
+        "精力的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3151,
+      "index": 0,
+      "spans": [
+        "誠実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3151,
+      "index": 1,
+      "spans": [
+        "誠実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3152,
+      "index": 0,
+      "spans": [
+        "絶大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3152,
+      "index": 1,
+      "spans": [
+        "絶大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3153,
+      "index": 0,
+      "spans": [
+        "浅はか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3153,
+      "index": 1,
+      "spans": [
+        "浅はか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3154,
+      "index": 0,
+      "spans": [
+        "繊細"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3154,
+      "index": 1,
+      "spans": [
+        "繊細"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3155,
+      "index": 0,
+      "spans": [
+        "鮮やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3155,
+      "index": 1,
+      "spans": [
+        "鮮やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3156,
+      "index": 0,
+      "spans": [
+        "鮮烈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3156,
+      "index": 1,
+      "spans": [
+        "鮮烈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3157,
+      "index": 0,
+      "spans": [
+        "前向き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3157,
+      "index": 1,
+      "spans": [
+        "前向き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3158,
+      "index": 0,
+      "spans": [
+        "善良"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3158,
+      "index": 1,
+      "spans": [
+        "善良"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3160,
+      "index": 0,
+      "spans": [
+        "疎遠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3160,
+      "index": 1,
+      "spans": [
+        "疎遠"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3161,
+      "index": 0,
+      "spans": [
+        "壮大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3161,
+      "index": 1,
+      "spans": [
+        "壮大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3162,
+      "index": 0,
+      "spans": [
+        "爽やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3162,
+      "index": 1,
+      "spans": [
+        "爽やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3164,
+      "index": 0,
+      "spans": [
+        "相当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3164,
+      "index": 1,
+      "spans": [
+        "相当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3165,
+      "index": 0,
+      "spans": [
+        "相対的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3165,
+      "index": 1,
+      "spans": [
+        "相対的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3166,
+      "index": 0,
+      "spans": [
+        "速やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3166,
+      "index": 1,
+      "spans": [
+        "速やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3167,
+      "index": 0,
+      "spans": [
+        "多忙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3167,
+      "index": 1,
+      "spans": [
+        "多忙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3168,
+      "index": 0,
+      "spans": [
+        "怠慢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3168,
+      "index": 1,
+      "spans": [
+        "怠慢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3169,
+      "index": 0,
+      "spans": [
+        "退屈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3169,
+      "index": 1,
+      "spans": [
+        "退屈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3170,
+      "index": 0,
+      "spans": [
+        "大げさ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3170,
+      "index": 1,
+      "spans": [
+        "大げさ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3171,
+      "index": 0,
+      "spans": [
+        "大ざっぱ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3171,
+      "index": 1,
+      "spans": [
+        "大ざっぱ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3172,
+      "index": 0,
+      "spans": [
+        "大まか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3172,
+      "index": 1,
+      "spans": [
+        "大まか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3173,
+      "index": 0,
+      "spans": [
+        "大胆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3173,
+      "index": 1,
+      "spans": [
+        "大胆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3174,
+      "index": 0,
+      "spans": [
+        "妥当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3174,
+      "index": 1,
+      "spans": [
+        "妥当"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3175,
+      "index": 0,
+      "spans": [
+        "達者"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3175,
+      "index": 1,
+      "spans": [
+        "達者"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3176,
+      "index": 0,
+      "spans": [
+        "達筆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3176,
+      "index": 1,
+      "spans": [
+        "達筆"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3177,
+      "index": 0,
+      "spans": [
+        "単調"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3177,
+      "index": 1,
+      "spans": [
+        "単調"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3178,
+      "index": 0,
+      "spans": [
+        "淡白"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3178,
+      "index": 1,
+      "spans": [
+        "淡白"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3179,
+      "index": 0,
+      "spans": [
+        "端的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3180,
+      "index": 0,
+      "spans": [
+        "着実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3180,
+      "index": 1,
+      "spans": [
+        "着実"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3181,
+      "index": 0,
+      "spans": [
+        "中途半端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3181,
+      "index": 1,
+      "spans": [
+        "中途半端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3182,
+      "index": 0,
+      "spans": [
+        "著名"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3182,
+      "index": 1,
+      "spans": [
+        "著名"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3183,
+      "index": 1,
+      "spans": [
+        "定か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3184,
+      "index": 0,
+      "spans": [
+        "定期的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3184,
+      "index": 1,
+      "spans": [
+        "定期的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3185,
+      "index": 0,
+      "spans": [
+        "的確"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3185,
+      "index": 1,
+      "spans": [
+        "的確"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3186,
+      "index": 0,
+      "spans": [
+        "適度"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3186,
+      "index": 1,
+      "spans": [
+        "適度"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3187,
+      "index": 0,
+      "spans": [
+        "唐突"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3187,
+      "index": 1,
+      "spans": [
+        "唐突"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3188,
+      "index": 0,
+      "spans": [
+        "特殊"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3188,
+      "index": 1,
+      "spans": [
+        "特殊"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3189,
+      "index": 0,
+      "spans": [
+        "独裁的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3189,
+      "index": 1,
+      "spans": [
+        "独裁的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3190,
+      "index": 0,
+      "spans": [
+        "鈍感"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3190,
+      "index": 1,
+      "spans": [
+        "鈍感"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3191,
+      "index": 0,
+      "spans": [
+        "濃厚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3191,
+      "index": 1,
+      "spans": [
+        "濃厚"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3192,
+      "index": 0,
+      "spans": [
+        "濃密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3192,
+      "index": 1,
+      "spans": [
+        "濃密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3193,
+      "index": 0,
+      "spans": [
+        "莫大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3193,
+      "index": 1,
+      "spans": [
+        "莫大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3194,
+      "index": 0,
+      "spans": [
+        "抜群"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3194,
+      "index": 1,
+      "spans": [
+        "抜群"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3195,
+      "index": 0,
+      "spans": [
+        "抜本的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3195,
+      "index": 1,
+      "spans": [
+        "抜本的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3196,
+      "index": 0,
+      "spans": [
+        "半端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3196,
+      "index": 1,
+      "spans": [
+        "半端"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3197,
+      "index": 0,
+      "spans": [
+        "繁雑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3197,
+      "index": 1,
+      "spans": [
+        "繁雑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3198,
+      "index": 0,
+      "spans": [
+        "煩雑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3198,
+      "index": 1,
+      "spans": [
+        "煩雑"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3199,
+      "index": 0,
+      "spans": [
+        "卑劣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3199,
+      "index": 1,
+      "spans": [
+        "卑劣"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3200,
+      "index": 0,
+      "spans": [
+        "悲惨"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3200,
+      "index": 1,
+      "spans": [
+        "悲惨"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3201,
+      "index": 0,
+      "spans": [
+        "微か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3201,
+      "index": 1,
+      "spans": [
+        "微か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3202,
+      "index": 0,
+      "spans": [
+        "微妙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3202,
+      "index": 1,
+      "spans": [
+        "微妙"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3203,
+      "index": 0,
+      "spans": [
+        "貧弱"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3204,
+      "index": 1,
+      "spans": [
+        "頻繁"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3205,
+      "index": 1,
+      "spans": [
+        "敏感"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3206,
+      "index": 0,
+      "spans": [
+        "不穏"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3206,
+      "index": 1,
+      "spans": [
+        "不穏"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3208,
+      "index": 1,
+      "spans": [
+        "不服"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3209,
+      "index": 0,
+      "spans": [
+        "不毛"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3210,
+      "index": 0,
+      "spans": [
+        "不用意"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3211,
+      "index": 0,
+      "spans": [
+        "不利"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3211,
+      "index": 1,
+      "spans": [
+        "不利"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3212,
+      "index": 0,
+      "spans": [
+        "物好き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3212,
+      "index": 1,
+      "spans": [
+        "物好き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3214,
+      "index": 0,
+      "spans": [
+        "平凡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3214,
+      "index": 1,
+      "spans": [
+        "平凡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3215,
+      "index": 0,
+      "spans": [
+        "膨大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3215,
+      "index": 1,
+      "spans": [
+        "膨大"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3216,
+      "index": 1,
+      "spans": [
+        "密か"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3217,
+      "index": 0,
+      "spans": [
+        "無残"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3218,
+      "index": 0,
+      "spans": [
+        "無邪気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3218,
+      "index": 1,
+      "spans": [
+        "無邪気"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3219,
+      "index": 0,
+      "spans": [
+        "無情"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3220,
+      "index": 0,
+      "spans": [
+        "憂鬱"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3222,
+      "index": 0,
+      "spans": [
+        "無鉄砲"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3222,
+      "index": 1,
+      "spans": [
+        "無鉄砲"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3223,
+      "index": 0,
+      "spans": [
+        "余計"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3224,
+      "index": 1,
+      "spans": [
+        "無謀"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3225,
+      "index": 0,
+      "spans": [
+        "理不尽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3225,
+      "index": 1,
+      "spans": [
+        "理不尽"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3226,
+      "index": 1,
+      "spans": [
+        "明瞭"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3227,
+      "index": 1,
+      "spans": [
+        "裏腹"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3228,
+      "index": 1,
+      "spans": [
+        "明朗"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3229,
+      "index": 0,
+      "spans": [
+        "律儀"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3230,
+      "index": 0,
+      "spans": [
+        "綿密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3230,
+      "index": 1,
+      "spans": [
+        "綿密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3231,
+      "index": 0,
+      "spans": [
+        "率直"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3232,
+      "index": 0,
+      "spans": [
+        "猛烈"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3233,
+      "index": 0,
+      "spans": [
+        "流暢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3234,
+      "index": 0,
+      "spans": [
+        "厄介"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3234,
+      "index": 1,
+      "spans": [
+        "厄介"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3235,
+      "index": 0,
+      "spans": [
+        "倫理的"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3236,
+      "index": 0,
+      "spans": [
+        "愉快"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3236,
+      "index": 1,
+      "spans": [
+        "愉快"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3237,
+      "index": 0,
+      "spans": [
+        "冷酷"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3237,
+      "index": 1,
+      "spans": [
+        "冷酷"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3238,
+      "index": 0,
+      "spans": [
+        "優雅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3238,
+      "index": 1,
+      "spans": [
+        "優雅"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3239,
+      "index": 0,
+      "spans": [
+        "冷淡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3239,
+      "index": 1,
+      "spans": [
+        "冷淡"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3240,
+      "index": 0,
+      "spans": [
+        "和やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3240,
+      "index": 1,
+      "spans": [
+        "和やか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3241,
+      "index": 0,
+      "spans": [
+        "傲慢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3242,
+      "index": 0,
+      "spans": [
+        "几帳面"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3243,
+      "index": 0,
+      "spans": [
+        "曖昧"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3243,
+      "index": 1,
+      "spans": [
+        "曖昧"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3244,
+      "index": 0,
+      "spans": [
+        "緻密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3244,
+      "index": 1,
+      "spans": [
+        "緻密"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3245,
+      "index": 1,
+      "spans": [
+        "貪欲"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3246,
+      "index": 0,
+      "spans": [
+        "斬新"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3246,
+      "index": 1,
+      "spans": [
+        "斬新"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3247,
+      "index": 0,
+      "spans": [
+        "不吉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3247,
+      "index": 1,
+      "spans": [
+        "不吉"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3248,
+      "index": 0,
+      "spans": [
+        "不審"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3248,
+      "index": 1,
+      "spans": [
+        "不審"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3249,
+      "index": 0,
+      "spans": [
+        "良質"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3249,
+      "index": 1,
+      "spans": [
+        "良質"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3250,
+      "index": 0,
+      "spans": [
+        "勇敢"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3251,
+      "index": 0,
+      "spans": [
+        "有望"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3251,
+      "index": 1,
+      "spans": [
+        "有望"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3252,
+      "index": 0,
+      "spans": [
+        "朗らか"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 3253,
+      "index": 0,
+      "spans": [
+        "露骨"
+      ]
+    }
+  ]
+}

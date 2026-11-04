@@ -1,0 +1,73 @@
+{
+  "sha256": "810af1aecf5a71b2fbd39b687e3ec310763317cb3f04821107cdeb983c31f537",
+  "checks": [
+    {
+      "name": "Exact v139 source hash",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_POS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_MEANING_QUIZZES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "MEANING_CHOICE_TEXT unchanged",
+      "pass_": true
+    },
+    {
+      "name": "READING_CONTEXT_NOTES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "LEXICAL_PRESENTATION unchanged",
+      "pass_": true
+    },
+    {
+      "name": "286 exact NA headwords/readings only; IDs/categories/progress fields unchanged",
+      "pass_": true
+    },
+    {
+      "name": "Definitions, usage, examples and translations unchanged; headings/synonym labels normalized",
+      "pass_": true
+    },
+    {
+      "name": "Exact forms, quizzes and relation payloads preserved; label references normalized",
+      "pass_": true
+    },
+    {
+      "name": "400 lexical translations separated from original context; only m130-11 sentence/evidence/grammar quote changed",
+      "pass_": true
+    },
+    {
+      "name": "CSS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "No dictionary/basic-form workaround in current prompt",
+      "pass_": true
+    },
+    {
+      "name": "All 8089 actual markTarget results; no unmarked or out-of-scope changes",
+      "pass_": true
+    }
+  ]
+}
