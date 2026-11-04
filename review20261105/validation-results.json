@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "baseCommit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+  "sha256": "08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+  "checks": [
+    {
+      "name": "Published v141 HTML bytes unchanged",
+      "pass_": true
+    },
+    {
+      "name": "All other baseline files preserved, including HTML, IDs, audit reports and acceptance register",
+      "pass_": true
+    },
+    {
+      "name": "Derived snapshots match committed evidence and individual author decisions",
+      "pass_": true
+    },
+    {
+      "name": "1482 unique guarded vocabulary IDs and five proposed cohorts",
+      "pass_": true
+    },
+    {
+      "name": "Reading filter reasons and format subtypes exactly reconstructed",
+      "pass_": true
+    },
+    {
+      "name": "130 fixed cases, 67 flagged, no card or register acceptance claimed",
+      "pass_": true
+    },
+    {
+      "name": "Six content drafts remain uninstalled",
+      "pass_": true
+    },
+    {
+      "name": "Public copies inventory is a frozen exposure record, not clearance",
+      "pass_": true
+    },
+    {
+      "name": "Actions metadata coverage: 243 indexed runs, 67 queried runs, 66 unexpired archives",
+      "pass_": true
+    },
+    {
+      "name": "Physical-device matrix is an unexecuted template",
+      "pass_": true
+    },
+    {
+      "name": "Previous 325 accepted evidence rows not reset or expanded",
+      "pass_": true
+    }
+  ],
+  "baselineFilesPreserved": 352,
+  "pass_": true,
+  "scope": "Technical integrity of documentary/diagnostic work only; not linguistic acceptance, physical-device results or legal clearance."
+}

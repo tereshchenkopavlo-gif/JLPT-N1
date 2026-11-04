@@ -1,0 +1,35 @@
+name: Verify N1 audit follow-up 2026-11-05
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'review20261105/**'
+      - '.github/workflows/review-20261105.yml'
+permissions:
+  contents: read
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch historical source branches read-only
+        run: git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare unchanged-app diagnostic runtime
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Reproduce reading pools and 130 fixed grammar questions
+        run: node review20261105/probe.cjs
+      - name: Verify evidence and preservation, without language or legal clearance claims
+        run: |
+          python3 review20261105/check.py
+          git diff --exit-code -- review20261105 completion/physical-device-results-template.csv

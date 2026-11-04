@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "baseCommit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+  "sha256": "08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+  "browser": "141.0.7390.37",
+  "readingTechnicalReasons": {
+    "fewer_than_three_filtered_candidates": 717,
+    "reading_not_single_hiragana": 173,
+    "no_hidden_kanji": 551,
+    "marked_or_multiple_headword": 41
+  },
+  "readingFormatSubtypes": {
+    "multiple_readings": 83,
+    "empty_reading_field": 68,
+    "phrase_punctuation": 22
+  },
+  "proposalGroups": {
+    "open_kana_recall": 717,
+    "sense_bound_reading": 68,
+    "context_meaning": 626,
+    "complete_word_or_variant": 53,
+    "phrase_bound_reading": 18
+  },
+  "guardedIds": 1482,
+  "eligibleIds": 2432,
+  "grammarCases": 130,
+  "grammarStatusCounts": {
+    "no_issue_found_in_this_fixed_case": 63,
+    "revision_needed": 67
+  },
+  "grammarFlagCounts": {
+    "overlap": 28,
+    "scope": 11,
+    "hint": 36,
+    "length": 8,
+    "weak": 2,
+    "duplicate_distractors": 1
+  },
+  "physicalCasesNotRun": 32,
+  "runtimeChanges": 0,
+  "acceptanceRegisterChanges": 0
+}

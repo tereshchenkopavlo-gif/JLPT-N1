@@ -1,0 +1,3043 @@
+{
+  "date": "2026-11-05",
+  "sha256": "08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+  "seed": 20261105,
+  "reviewType": "author_case_review",
+  "independentReview": false,
+  "scope": "One fixed first-example meaning question per grammar ID; not second examples or all candidate draws. Raw strings are reproducible from the unchanged public v141 and seed; only hashes/IDs and original editorial notes stored here.",
+  "cases": [
+    {
+      "caseId": "g:1:e0:seed20261105",
+      "id": 1,
+      "word": "〜ようが",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7ca648453430cb88d396be08b11068442909457d811528d3a14deeaadbe46d93",
+      "promptSha256": "63d1c88dbbfda5eb8421fe25f62255ac4c9284f7a07637c3233e509be8b457bf",
+      "choiceSha256": [
+        "f9b70fc2d8a9d672cece7f28ed198a5cf264e5e7486fde7db013c330b5868a7f",
+        "0002315c440edf164d757f740defbbb4a98e8bd6429c100e8f608ed3a2635ca1",
+        "ed9fdaf8c6755d0e4f69a6dc22c963ef49228818515446968ce7f9b703051857",
+        "a5c9d98821a9f150a5b38b6c96dda12a371377190fe881f9204f835abaace977"
+      ],
+      "answer": 2,
+      "correctSha256": "ed9fdaf8c6755d0e4f69a6dc22c963ef49228818515446968ce7f9b703051857",
+      "explainSha256": "04c519f9b3144789673b2bd579b0ae917096089f882d4061b63c1d6da87e13de",
+      "flags": [],
+      "observation": "У цьому реченні ключ передає незмінність рішення попри критику; інші варіанти додають несподіванку, марність або неможливість дії.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:2:e0:seed20261105",
+      "id": 2,
+      "word": "〜ようが～まいが",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "bff1955f11d6ff5b45991917f7c15df4f2289f5b13157301fdae85ddcaf3e75e",
+      "promptSha256": "2b5a139aaa0a46987454c2c0ee629ac8c6b0496d7f8a43461e81b5ee351a73b7",
+      "choiceSha256": [
+        "0002315c440edf164d757f740defbbb4a98e8bd6429c100e8f608ed3a2635ca1",
+        "f9b70fc2d8a9d672cece7f28ed198a5cf264e5e7486fde7db013c330b5868a7f",
+        "de3c808df674f4bf44c9d3b33db9d3acc5c6d95fb492771f5ecc1b63c2a75182",
+        "6301c058c55dee87497f7f7224d509c1482eb485e246e0b4a26c2fd6e1352108"
+      ],
+      "answer": 2,
+      "correctSha256": "de3c808df674f4bf44c9d3b33db9d3acc5c6d95fb492771f5ecc1b63c2a75182",
+      "explainSha256": "32d3d1b1cfbcc1b9bd8575dd20187b7ec73285e91a8e6f6bb7779f599f584fb5",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Незмінність факту за обох альтернатив перетинається з варіантом про марність дії; потрібні конкретні контекстні розмежування.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:3:e0:seed20261105",
+      "id": 3,
+      "word": "〜とはいえ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "2a97aa8ae27756e406c3c2347d42422c8a14ab8b4043518efaf62ef1534ca117",
+      "promptSha256": "84905c687b99a863b846dfc186521ab30556b209a36c4a2540db96ac2a9852ed",
+      "choiceSha256": [
+        "f9b70fc2d8a9d672cece7f28ed198a5cf264e5e7486fde7db013c330b5868a7f",
+        "a5c9d98821a9f150a5b38b6c96dda12a371377190fe881f9204f835abaace977",
+        "ca3fff8c31cd20c0c484b5aa0c8a59f449ca745e076869c4efc34ce866880dee",
+        "ed9fdaf8c6755d0e4f69a6dc22c963ef49228818515446968ce7f9b703051857"
+      ],
+      "answer": 2,
+      "correctSha256": "ca3fff8c31cd20c0c484b5aa0c8a59f449ca745e076869c4efc34ce866880dee",
+      "explainSha256": "72ea0ae27c8711a5e3db51ec96c80ac909c96f074af4bb6a118c99ccf71c0256",
+      "flags": [],
+      "observation": "Визнаний факт відновлення економіки протиставлено складним умовам; це не гіпотетична поступка.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:4:e0:seed20261105",
+      "id": 4,
+      "word": "〜ようにも〜ない",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "e04c54bcde4c36ce1d988fd1bcc8e5ccb3d55c5689a0111ed09840684c13ee46",
+      "promptSha256": "00e24030cb69239ee89d71f3a46743a048ebe6f1ea9efc061f2a093c1f181894",
+      "choiceSha256": [
+        "f73b18e3e66ca32b80d78cc66276c0e6eabcb167241e81b4283f0088aa81bffb",
+        "2bab5b38388da5229db4667af00b1954fe079a9d4e40667a0366022c6d494b3b",
+        "df2290da7a0de0991fdfcfbfbe0324015b5892c7a978ad0b6118e3c1e6d3c8ad",
+        "eaa45dfb470732810e82e93ad921bcd87e7e4396ba26abcf8f7e3c99590aa2d8"
+      ],
+      "answer": 1,
+      "correctSha256": "2bab5b38388da5229db4667af00b1954fe079a9d4e40667a0366022c6d494b3b",
+      "explainSha256": "6dd20c3998ae41f6198437198ad9eb356b641a5410ed6ffb556dfd6c84461bfc",
+      "flags": [],
+      "observation": "Точний C04-набір зберігає намір їхати та зовнішню неможливість; зміну бажання й добровільне скасування відділено.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:5:e0:seed20261105",
+      "id": 5,
+      "word": "〜かと思いきや",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "bfaa49d9e3ae5f311f6292659ff4d90c46691c3d24f9232d2c568274a4133e9c",
+      "promptSha256": "2f45bb452a3aad5ba316525c22a47ca03bcb2bde31285e4ef301d5b2e55bb9db",
+      "choiceSha256": [
+        "ca3fff8c31cd20c0c484b5aa0c8a59f449ca745e076869c4efc34ce866880dee",
+        "de3c808df674f4bf44c9d3b33db9d3acc5c6d95fb492771f5ecc1b63c2a75182",
+        "ed9fdaf8c6755d0e4f69a6dc22c963ef49228818515446968ce7f9b703051857",
+        "f9b70fc2d8a9d672cece7f28ed198a5cf264e5e7486fde7db013c330b5868a7f"
+      ],
+      "answer": 3,
+      "correctSha256": "f9b70fc2d8a9d672cece7f28ed198a5cf264e5e7486fde7db013c330b5868a7f",
+      "explainSha256": "24ba40d596b805436db95de9e517696bb2629a92c2c58b84dcf400f1e2ad01ef",
+      "flags": [],
+      "observation": "Очікувана черга не підтвердилася; ключ відповідає розриву прогнозу й факту.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:6:e0:seed20261105",
+      "id": 6,
+      "word": "〜といえども",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "920246d567d6cbb2d3df25cb06df3c67fc6d550998526e096f852824e80fac95",
+      "promptSha256": "ca7d0877084836c20078a6f64af29f8d550d8853bd16399a74e7636db32003cc",
+      "choiceSha256": [
+        "ca3fff8c31cd20c0c484b5aa0c8a59f449ca745e076869c4efc34ce866880dee",
+        "ed9fdaf8c6755d0e4f69a6dc22c963ef49228818515446968ce7f9b703051857",
+        "f9b70fc2d8a9d672cece7f28ed198a5cf264e5e7486fde7db013c330b5868a7f",
+        "6301c058c55dee87497f7f7224d509c1482eb485e246e0b4a26c2fd6e1352108"
+      ],
+      "answer": 3,
+      "correctSha256": "6301c058c55dee87497f7f7224d509c1482eb485e246e0b4a26c2fd6e1352108",
+      "explainSha256": "1e18dc2b822de115f0e3a80a89c76ea68dd94172b17277631a3300b3082bb6da",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Загальне визначення «навіть за такої обставини результат незмінний» також описує поступку; відмінність лише «статус» недостатньо явна для 間柄.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:7:e0:seed20261105",
+      "id": 7,
+      "word": "〜たところで",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "28b399ce6d86d991383c5def0cce59735802f72f82bdaaab9513605741129110",
+      "promptSha256": "c89c55c40ecf65d10e0498be7031783288a11ac178e6db3226dc48feb837600a",
+      "choiceSha256": [
+        "ed9fdaf8c6755d0e4f69a6dc22c963ef49228818515446968ce7f9b703051857",
+        "f9b70fc2d8a9d672cece7f28ed198a5cf264e5e7486fde7db013c330b5868a7f",
+        "de3c808df674f4bf44c9d3b33db9d3acc5c6d95fb492771f5ecc1b63c2a75182",
+        "0002315c440edf164d757f740defbbb4a98e8bd6429c100e8f608ed3a2635ca1"
+      ],
+      "answer": 3,
+      "correctSha256": "0002315c440edf164d757f740defbbb4a98e8bd6429c100e8f608ed3a2635ca1",
+      "explainSha256": "7d3b9d2dc18b961d9e6d5738c7d8aab14538681028292b00efe8ad6cdb9ec70f",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Негативний очікуваний результат перетинається з незмінністю результату й «робити чи ні»; альтернативи треба переписати як різні прочитання речення.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:8:e0:seed20261105",
+      "id": 8,
+      "word": "〜とあって",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "48162be40a65d4c6a4a244099bf1a061fe79932d8bbe593de81811b3f025c263",
+      "promptSha256": "000f8069c24db398eed77f851b92351af78dd6bcf8e912bb3f28d09fffe1a275",
+      "choiceSha256": [
+        "4d681e304ad65899d6dd90d141f67626ae3f695a2ee12ea29a036ec529aa4b4f",
+        "650886344be4344284ee8b026d4d45854f919802cdadc991b835f5084be607b9",
+        "60cc9aa6bac946f90aef7eef7b74ce2a18619228d7742585d8bf73891cdde62f",
+        "78848c384b801dae986a2a30f8ab33cb17710693c3651d821d3cbc1bb70a170c"
+      ],
+      "answer": 1,
+      "correctSha256": "650886344be4344284ee8b026d4d45854f919802cdadc991b835f5084be607b9",
+      "explainSha256": "92aa26f93a2a6efd0a607073e9aeb1ca0c0e4b4396b19e4a184f90239152e737",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Усі чотири визначення описують причину; загальне «тому що» не є однозначно хибним для цього речення.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:9:e0:seed20261105",
+      "id": 9,
+      "word": "〜ばこそ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "c8235846b29e11cab93a05bdd8175e1bc7cb183c93b0f008eab1363006c5d1cf",
+      "promptSha256": "3c1d92f24b873408d8f639c969365c13b159b2275b1f0791af329f1bbd72f9e4",
+      "choiceSha256": [
+        "4d681e304ad65899d6dd90d141f67626ae3f695a2ee12ea29a036ec529aa4b4f",
+        "78848c384b801dae986a2a30f8ab33cb17710693c3651d821d3cbc1bb70a170c",
+        "58d8fffc2d28ad3a12ff931c4bef68a332424fae63b12fe896284ce268601440",
+        "60cc9aa6bac946f90aef7eef7b74ce2a18619228d7742585d8bf73891cdde62f"
+      ],
+      "answer": 3,
+      "correctSha256": "60cc9aa6bac946f90aef7eef7b74ce2a18619228d7742585d8bf73891cdde62f",
+      "explainSha256": "e80023f7800e0be5971f733c35740efcd645da4245a70ed4fb1e15a6f4e02257",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Ключ підкреслює саме цю причину, але інші варіанти теж описують причинний зв’язок; потрібні несумісні з контекстом прочитання.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:10:e0:seed20261105",
+      "id": 10,
+      "word": "〜ゆえ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "13f030b3f123487037e62dbd2d05bc521412c4a265c44978d248a64f03deea5e",
+      "promptSha256": "171d6828ed2104b0e839a88a4ad65fec0727be81dd0b972e3c1a539c70eeff05",
+      "choiceSha256": [
+        "58d8fffc2d28ad3a12ff931c4bef68a332424fae63b12fe896284ce268601440",
+        "650886344be4344284ee8b026d4d45854f919802cdadc991b835f5084be607b9",
+        "78848c384b801dae986a2a30f8ab33cb17710693c3651d821d3cbc1bb70a170c",
+        "4d681e304ad65899d6dd90d141f67626ae3f695a2ee12ea29a036ec529aa4b4f"
+      ],
+      "answer": 3,
+      "correctSha256": "4d681e304ad65899d6dd90d141f67626ae3f695a2ee12ea29a036ec529aa4b4f",
+      "explainSha256": "b13731a8665402434960b2eb6fb49af866ac07ea8797dabb1b492780ea7053c4",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Ключ — книжна причина; інші причинні парафрази не заперечують його, тому мовну однозначність не підтверджено.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:11:e0:seed20261105",
+      "id": 11,
+      "word": "〜こととて",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "2a773786b9f46624c300cb4c9b08495f7d09c3cf70df55df54d9cf9290fd59b2",
+      "promptSha256": "d6cd0b3852bc1ab68b4be21ccd5744a0ce9db771789ae363e4a543613405c71f",
+      "choiceSha256": [
+        "4d681e304ad65899d6dd90d141f67626ae3f695a2ee12ea29a036ec529aa4b4f",
+        "78848c384b801dae986a2a30f8ab33cb17710693c3651d821d3cbc1bb70a170c",
+        "650886344be4344284ee8b026d4d45854f919802cdadc991b835f5084be607b9",
+        "58d8fffc2d28ad3a12ff931c4bef68a332424fae63b12fe896284ce268601440"
+      ],
+      "answer": 3,
+      "correctSha256": "58d8fffc2d28ad3a12ff931c4bef68a332424fae63b12fe896284ce268601440",
+      "explainSha256": "380eda4a2d5208809ee7a17ab3f420f753a002b36e8b36d5fb51f72f0406611b",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Обставини виправдовують прохання пробачити; загальне книжне «тому що» залишається сумісним і не годиться як безумовна помилка.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:12:e0:seed20261105",
+      "id": 12,
+      "word": "〜手前",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "4a7b425a848e3efcfc217a0419b95b23fc1e38723c11451b81fa5f7cae6fd298",
+      "promptSha256": "6fb257498c9092c436ee437e223d254b83ec3f1a9543aeec5c6571b01bccec6f",
+      "choiceSha256": [
+        "60cc9aa6bac946f90aef7eef7b74ce2a18619228d7742585d8bf73891cdde62f",
+        "64257f0417b33a9bbbd667446be641eb5f86e560dcabe5fe373181dfff2f174f",
+        "58d8fffc2d28ad3a12ff931c4bef68a332424fae63b12fe896284ce268601440",
+        "78848c384b801dae986a2a30f8ab33cb17710693c3651d821d3cbc1bb70a170c"
+      ],
+      "answer": 1,
+      "correctSha256": "64257f0417b33a9bbbd667446be641eb5f86e560dcabe5fe373181dfff2f174f",
+      "explainSha256": "86b19a241b605b75f723c4482f5fbd74c8a2ebf17cfdfd6ab24f11c7485fd2f0",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Обмеження через публічну обіцянку треба протиставити добровільному вибору чи знятій обіцянці, а не просто іншому причинному опису.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:13:e0:seed20261105",
+      "id": 13,
+      "word": "〜たりとも",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "0cca71a9b217a585639079678d0ffdc5d1d49663e1e87edc1a998ea9d93efcf9",
+      "promptSha256": "607e0bcce3fb9c1e93b4c63668f85d1c9edd53508b60cfc04926cc9d6b1d45c0",
+      "choiceSha256": [
+        "cfbc4bbe47621e9510499191ddf2fe58ab80494d04464413786ae07981c1efed",
+        "76204ac91b741e75398ceeadaee82b58e14ecdf5ff2b9e7892da4404be7e9c3d",
+        "3b6a5a922cce1766922755ebde0bb6a9deab219e7a6d6b29908b15882384dd95",
+        "27c5e71a2a0237673267f31310483677ca42099a444146349f38247c79a71002"
+      ],
+      "answer": 1,
+      "correctSha256": "76204ac91b741e75398ceeadaee82b58e14ecdf5ff2b9e7892da4404be7e9c3d",
+      "explainSha256": "83e3f33af036bb01bccff59fc83bcf5a71d99d7c801680efd7ae658c2ca83d8c",
+      "flags": [],
+      "observation": "Навіть мінімальну суму не можна марнувати; жодна альтернатива не передає цієї кількісної межі.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:14:e0:seed20261105",
+      "id": 14,
+      "word": "〜はおろか",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "4895b37410362b86be6637702de28e40574b224c8f2825090db7f4bbc1db9e2d",
+      "promptSha256": "ba3af9ece41cc87346c762902795138445f2cc4b6f96f4419b6bab9b3864307f",
+      "choiceSha256": [
+        "e7e060f2ee6abeb2903b76961626e47e70e875904353d33aa81c688eeb64fc4a",
+        "27c5e71a2a0237673267f31310483677ca42099a444146349f38247c79a71002",
+        "b76eeea99da269dc82695373d8d588f178e38e88143802cda1868f6bd42fea5d",
+        "76204ac91b741e75398ceeadaee82b58e14ecdf5ff2b9e7892da4404be7e9c3d"
+      ],
+      "answer": 1,
+      "correctSha256": "27c5e71a2a0237673267f31310483677ca42099a444146349f38247c79a71002",
+      "explainSha256": "53d1cce1c7a2da310de50f6085058591d1faf432885a24a7b1defb80ce9d84ca",
+      "flags": [],
+      "observation": "Від складнішого публічного виступу перейдено до навіть простішого привітання; ключ зберігає цю шкалу.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:15:e0:seed20261105",
+      "id": 15,
+      "word": "〜もさることながら",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "47e3533721093cef9aca053f0ebf51c746ea51e6c18383369aa460b85b87dce9",
+      "promptSha256": "8c904afa036432f2c881492639bb7718d9eefc32219bb363e5b1bf4799d4c774",
+      "choiceSha256": [
+        "b76eeea99da269dc82695373d8d588f178e38e88143802cda1868f6bd42fea5d",
+        "0c01aaae3050a8df50e009008f3b4d6485dad72724fd1fd843c2551e3a687df7",
+        "e7e060f2ee6abeb2903b76961626e47e70e875904353d33aa81c688eeb64fc4a",
+        "b1da213489dbec1881952f3078405e7db08f96c1d23a911eed5ba9d7f5a492ad"
+      ],
+      "answer": 2,
+      "correctSha256": "e7e060f2ee6abeb2903b76961626e47e70e875904353d33aa81c688eeb64fc4a",
+      "explainSha256": "60f7c756fe9577d41e66c3a0d02467d34c83a43ce4e79682bb05d96cc09aea9d",
+      "flags": [],
+      "observation": "Обидві якості визнаються, наступна додатково підкреслюється; це не вибір однієї чи мінімальна межа.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:16:e0:seed20261105",
+      "id": 16,
+      "word": "ただ～のみ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "27cdb1375ccb74a032f90c7761d70045231375c9043e746d9c47402fcd3e3193",
+      "promptSha256": "75f5a43c333285d5fee8dc8964ef728bce82cdd4d0a2d3c9143b7ee74dbf08f7",
+      "choiceSha256": [
+        "3b6a5a922cce1766922755ebde0bb6a9deab219e7a6d6b29908b15882384dd95",
+        "cfbc4bbe47621e9510499191ddf2fe58ab80494d04464413786ae07981c1efed",
+        "b1da213489dbec1881952f3078405e7db08f96c1d23a911eed5ba9d7f5a492ad",
+        "27c5e71a2a0237673267f31310483677ca42099a444146349f38247c79a71002"
+      ],
+      "answer": 2,
+      "correctSha256": "b1da213489dbec1881952f3078405e7db08f96c1d23a911eed5ba9d7f5a492ad",
+      "explainSha256": "536b51c7d43969efcd84aeda452dec97dbfad35da389df70d3038a972f289f89",
+      "flags": [],
+      "observation": "Після вичерпання зусиль залишається лише чекати; зайві значення про унікального кандидата чи страх відсутні.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:17:e0:seed20261105",
+      "id": 17,
+      "word": "〜だに",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "927db51c14aa5518235e0db00d80ee0f650985296b476fc822fac5a138b419d4",
+      "promptSha256": "e5064f4a2ac61599eef1dca9b01285aa4a40dcaa4f64f1d70566425e817e71ca",
+      "choiceSha256": [
+        "cfbc4bbe47621e9510499191ddf2fe58ab80494d04464413786ae07981c1efed",
+        "0c01aaae3050a8df50e009008f3b4d6485dad72724fd1fd843c2551e3a687df7",
+        "3b6a5a922cce1766922755ebde0bb6a9deab219e7a6d6b29908b15882384dd95",
+        "27c5e71a2a0237673267f31310483677ca42099a444146349f38247c79a71002"
+      ],
+      "answer": 2,
+      "correctSha256": "3b6a5a922cce1766922755ebde0bb6a9deab219e7a6d6b29908b15882384dd95",
+      "explainSha256": "c64874584be406075f564f408f6ca2ed30f3697bf174b1b5d5a0e21039f988c4",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Варіант із «навіть» є ширшим парафразом того ж підсилення; невизначеність слід усунути авторськими альтернативами.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:18:e0:seed20261105",
+      "id": 18,
+      "word": "〜までのことだ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "2d1424985db3dbb850d085405a715b7c2885e45d1ff7b9cf403a6df50320ded2",
+      "promptSha256": "ec828afc27d9f9e7f93854c6fa2d738ff32089bd0ecd26b04265667756bbe0da",
+      "choiceSha256": [
+        "407b4b6ef176c383119e0d9c722ab0881bb39d1ff76e3c3994bbb92dce0389d0",
+        "0c01aaae3050a8df50e009008f3b4d6485dad72724fd1fd843c2551e3a687df7",
+        "b76eeea99da269dc82695373d8d588f178e38e88143802cda1868f6bd42fea5d",
+        "b1da213489dbec1881952f3078405e7db08f96c1d23a911eed5ba9d7f5a492ad"
+      ],
+      "answer": 2,
+      "correctSha256": "b76eeea99da269dc82695373d8d588f178e38e88143802cda1868f6bd42fea5d",
+      "explainSha256": "af3527dd18cae4dc938676fc6f7629ecb507770e0c4e4a1fcf19678ba6bb8340",
+      "flags": [
+        "overlap",
+        "scope"
+      ],
+      "observation": "Ключ містить два значення, хоча речення про готовність подати заяву; «лише зробити» також входить до змісту.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:19:e0:seed20261105",
+      "id": 19,
+      "word": "～すら",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "b0fcb8336d918e7fcb0b764403bd228219cde773db11d6de1679cf846445d1ae",
+      "promptSha256": "8f5dcf43c5c3af46a8de6d8d6fc710b943e7aaddfde9c6400d4aa5207c060b31",
+      "choiceSha256": [
+        "407b4b6ef176c383119e0d9c722ab0881bb39d1ff76e3c3994bbb92dce0389d0",
+        "b76eeea99da269dc82695373d8d588f178e38e88143802cda1868f6bd42fea5d",
+        "0c01aaae3050a8df50e009008f3b4d6485dad72724fd1fd843c2551e3a687df7",
+        "b1da213489dbec1881952f3078405e7db08f96c1d23a911eed5ba9d7f5a492ad"
+      ],
+      "answer": 2,
+      "correctSha256": "0c01aaae3050a8df50e009008f3b4d6485dad72724fd1fd843c2551e3a687df7",
+      "explainSha256": "1bddf219c60d3b71f4299650b8213660d817b8a896c1ff788f1d3f1dbe725893",
+      "flags": [],
+      "observation": "Не може навіть підвестися — крайній приклад неможливості; мета, відсутність засобів і унікальність особи не відповідають.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:20:e0:seed20261105",
+      "id": 20,
+      "word": "〜をおいて他にはない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "203be29bc4721c47d39e69c4a05c8bb52056f67bafada53b6c30e75852197626",
+      "promptSha256": "02c58adc575d49f0efbebf078c6553d8489f19aab06570713b50ce18235b06fd",
+      "choiceSha256": [
+        "3b6a5a922cce1766922755ebde0bb6a9deab219e7a6d6b29908b15882384dd95",
+        "cfbc4bbe47621e9510499191ddf2fe58ab80494d04464413786ae07981c1efed",
+        "76204ac91b741e75398ceeadaee82b58e14ecdf5ff2b9e7892da4404be7e9c3d",
+        "407b4b6ef176c383119e0d9c722ab0881bb39d1ff76e3c3994bbb92dce0389d0"
+      ],
+      "answer": 1,
+      "correctSha256": "cfbc4bbe47621e9510499191ddf2fe58ab80494d04464413786ae07981c1efed",
+      "explainSha256": "a0c66859d113322c90c94e579c9116899344c8ae628cc36d4aa15f1817e581fa",
+      "flags": [],
+      "observation": "Єдиний придатний посередник відрізняється від кількісного мінімуму, відтінку виняткової майстерності й самого уявлення.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:21:e0:seed20261105",
+      "id": 21,
+      "word": "〜ならではの",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "c7e3618e9873d62a58a95a935f4f7f872850cf7d11f19b33f4ef701a60ddcced",
+      "promptSha256": "3c3c5df3d4d0e85413120b3341a9a7bd809feb509ed157879467d0ce9254457f",
+      "choiceSha256": [
+        "b76eeea99da269dc82695373d8d588f178e38e88143802cda1868f6bd42fea5d",
+        "407b4b6ef176c383119e0d9c722ab0881bb39d1ff76e3c3994bbb92dce0389d0",
+        "e7e060f2ee6abeb2903b76961626e47e70e875904353d33aa81c688eeb64fc4a",
+        "cfbc4bbe47621e9510499191ddf2fe58ab80494d04464413786ae07981c1efed"
+      ],
+      "answer": 1,
+      "correctSha256": "407b4b6ef176c383119e0d9c722ab0881bb39d1ff76e3c3994bbb92dce0389d0",
+      "explainSha256": "4aa9da0feaa1f03860d03d5bfb1eef3706545989789f810b8324ab207d21a10a",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Виняткова майстерність близька до «ніхто інший не придатний»; для перевірки відтінку потрібні точніші альтернативи.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:22:e0:seed20261105",
+      "id": 22,
+      "word": "〜からというもの",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "c1dc9e5c226f2dbcea9e40223130b9714b48ee500df2f305b137879adcf1b213",
+      "promptSha256": "a035a9a73919f17ea417a3f95eb421bd66316cf0d69a1f2121589fdb02f44520",
+      "choiceSha256": [
+        "022ceadd496c862f0663aab3c8b51546c0beba7083ad5d6a305233f71caec873",
+        "9fba439f80bf8a39839ef6c42db5b7e3a35aac53a112c370bda193ffe5133f27",
+        "bd6238aa74c0e008d2bef9c411b38599d033e9272c1b9327bd9e042e3ea28349",
+        "0acd9fa265c1a16aa2a294f11dfd88abcf836fa3536139e3f09a8577db19b391"
+      ],
+      "answer": 1,
+      "correctSha256": "9fba439f80bf8a39839ef6c42db5b7e3a35aac53a112c370bda193ffe5133f27",
+      "explainSha256": "bd11d2b4facedf4a025a7648260e832a990d2ec83a2e5ccde41d888974e8a17f",
+      "flags": [],
+      "observation": "Після зміни харчування стан триває; припинення звички, серія подій та географічне розширення є іншими відношеннями.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:23:e0:seed20261105",
+      "id": 23,
+      "word": "〜を皮切りに",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "896e48ee66383884f69ae325a538bfe04fca88605582a4069c18e18d3da7dd1f",
+      "promptSha256": "de4c100bff7313348521da24a3bdd08f257a878f4fb243b540450cd41a200a6d",
+      "choiceSha256": [
+        "022ceadd496c862f0663aab3c8b51546c0beba7083ad5d6a305233f71caec873",
+        "0acd9fa265c1a16aa2a294f11dfd88abcf836fa3536139e3f09a8577db19b391",
+        "bd6238aa74c0e008d2bef9c411b38599d033e9272c1b9327bd9e042e3ea28349",
+        "9fba439f80bf8a39839ef6c42db5b7e3a35aac53a112c370bda193ffe5133f27"
+      ],
+      "answer": 1,
+      "correctSha256": "0acd9fa265c1a16aa2a294f11dfd88abcf836fa3536139e3f09a8577db19b391",
+      "explainSha256": "403e3bd99efdd593623b3250671b5adbe69faa6d20944f4bdf0133d5b3349151",
+      "flags": [],
+      "observation": "Токіо — перша подія серії гастролей; незмінний стан після події не тотожний початку серії.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:24:e0:seed20261105",
+      "id": 24,
+      "word": "〜をもって①",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "98a654f1f86d2221d97d520233435ec402986fdab699ca3d9dd1efba6c37256f",
+      "promptSha256": "3f29210fd97bc0ea8fd323d93883f5d986856ed78056464bcfac1bd5f030495c",
+      "choiceSha256": [
+        "e3dbeab666d341fc5070b3838757a136e4d7ec1e0c1b11de96237a6155b0f5ef",
+        "cf4ebc648602060dddcb69121ddb2e558b814fc84168450b1a1520cdb1a65127",
+        "e245526f5d532aeeba7a3dcf5a12e8f437aa4b23c3fa8aaabbcf3ece7b07fc0d",
+        "ba17ec28a883768e09edb68a1995bec6414a4562814eff01583baec8730fd3b7"
+      ],
+      "answer": 1,
+      "correctSha256": "cf4ebc648602060dddcb69121ddb2e558b814fc84168450b1a1520cdb1a65127",
+      "explainSha256": "7d022d53ea1a095f9f9f64fb4350b58b916bcb6275718be50bb97534c1c18096",
+      "flags": [],
+      "observation": "Точний C04-набір розмежовує завершення роботи, початок, очікування рішення й приблизний орієнтир.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:25:e0:seed20261105",
+      "id": 25,
+      "word": "〜ばそれまで",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "751108f375f5bd4d451f2b107d73c82223f055af4050901e5185126861e9eba8",
+      "promptSha256": "069d4cabb3f8011cf3b2cd183fc841daa4e3f76cde404a993eb4a505ce40ccf2",
+      "choiceSha256": [
+        "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842",
+        "7870453224a2e81ca759208c99f1e873f1a79faeb3a7bc52d6d9ece6f318898d",
+        "8d12d96a6151f5bedfa75ab28cda2657f0fa5a2e2db55929abfe5de0de32dc29",
+        "b26d05bca6bfb78a59f152ffe59b19b3b6ecc93d358702347ca1bf098a1f6b4a"
+      ],
+      "answer": 2,
+      "correctSha256": "8d12d96a6151f5bedfa75ab28cda2657f0fa5a2e2db55929abfe5de0de32dc29",
+      "explainSha256": "4811694941c480da83c36ceb664b131dd81821dd92326efbd254c73f51494ec1",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Зведення попередніх заходів нанівець перетинається із загальним попередженням про тяжкий наслідок.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:26:e0:seed20261105",
+      "id": 26,
+      "word": "〜たが最後",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "73461da6ddae321e77f881e297ab876e07b277999196739862b0be1437b6307f",
+      "promptSha256": "20500d8869a18f51a58c427dd0bcb80928219d6c75c831e654842df12b31605e",
+      "choiceSha256": [
+        "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842",
+        "b26d05bca6bfb78a59f152ffe59b19b3b6ecc93d358702347ca1bf098a1f6b4a",
+        "c918f7664efd623dd442c964f57fe7983286553ebda0b59cf772648d28243351",
+        "7870453224a2e81ca759208c99f1e873f1a79faeb3a7bc52d6d9ece6f318898d"
+      ],
+      "answer": 1,
+      "correctSha256": "b26d05bca6bfb78a59f152ffe59b19b3b6ecc93d358702347ca1bf098a1f6b4a",
+      "explainSha256": "be245e6ff1f326f87fba68c9e3746bbe964af5f6f184af02afde7d3cc2b1fe6c",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Незворотність наслідку не відділена достатньо чітко від іншої відповіді про попередження щодо небезпечної дії.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:27:e0:seed20261105",
+      "id": 27,
+      "word": "〜を限りに",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7b36797aa13fed6fe0434e67aee6f2d4010073097c3faad9e4d257e647c25d62",
+      "promptSha256": "d67efbe9024e3d66e3fbd9ddc1897b986fa348fe9bc0143b2e3bddcc73dcca14",
+      "choiceSha256": [
+        "604bec2b154e019b398b8f2d3b81e6ca68a953f2e01955bba3791ebed5d93faf",
+        "022ceadd496c862f0663aab3c8b51546c0beba7083ad5d6a305233f71caec873",
+        "a0524d79a8715974bdc3273324417f4a829dad602bd2e5f582f43774c85a8f2d",
+        "8fcd0e1a5efc64d15589fb4dcef33292b68eb9ba097a662af8e45d0e14b9aeed"
+      ],
+      "answer": 1,
+      "correctSha256": "022ceadd496c862f0663aab3c8b51546c0beba7083ad5d6a305233f71caec873",
+      "explainSha256": "fc0fdd5c16fd71f597410d99e264c2db227f39b3f4aa93db0ddf893206748f87",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Хибний варіант «поставити часову межу й завершити» фактично охоплює завершення кар’єри після турніру.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:28:e0:seed20261105",
+      "id": 28,
+      "word": "〜に至るまで",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "950f291c6125cf68dfe6688675b2604f6357957b3099ead4f43569439416e6d4",
+      "promptSha256": "750ed77e5bf554021122e9d473c030e33be00067cc163ce49547379506001c3a",
+      "choiceSha256": [
+        "604bec2b154e019b398b8f2d3b81e6ca68a953f2e01955bba3791ebed5d93faf",
+        "a0524d79a8715974bdc3273324417f4a829dad602bd2e5f582f43774c85a8f2d",
+        "022ceadd496c862f0663aab3c8b51546c0beba7083ad5d6a305233f71caec873",
+        "bd6238aa74c0e008d2bef9c411b38599d033e9272c1b9327bd9e042e3ea28349"
+      ],
+      "answer": 1,
+      "correctSha256": "a0524d79a8715974bdc3273324417f4a829dad602bd2e5f582f43774c85a8f2d",
+      "explainSha256": "b13afb242a9dfeffe08a2cdc2750265c885b4ea536df6d97d5dda4ff9b63c2a4",
+      "flags": [
+        "scope"
+      ],
+      "observation": "Діапазон від сировини до відвантаження не вимагає називати останній етап «екстремальним»; ключ слід прив’язати до повного охоплення етапів.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:29:e0:seed20261105",
+      "id": 29,
+      "word": "〜といったところ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "f3ab2f915d4daf7ea791eff3d6ecb6d27ea46abde3280a159ae2bb6d49b4ed5c",
+      "promptSha256": "52d111e049b32b541e69dfe437f32353304854784bf7810555efe22ebc575058",
+      "choiceSha256": [
+        "9fba439f80bf8a39839ef6c42db5b7e3a35aac53a112c370bda193ffe5133f27",
+        "a0524d79a8715974bdc3273324417f4a829dad602bd2e5f582f43774c85a8f2d",
+        "bd6238aa74c0e008d2bef9c411b38599d033e9272c1b9327bd9e042e3ea28349",
+        "604bec2b154e019b398b8f2d3b81e6ca68a953f2e01955bba3791ebed5d93faf"
+      ],
+      "answer": 3,
+      "correctSha256": "604bec2b154e019b398b8f2d3b81e6ca68a953f2e01955bba3791ebed5d93faf",
+      "explainSha256": "f40510560695720f631bde661827c4f1828d7d31b0dcb8dce021e7318336b06e",
+      "flags": [],
+      "observation": "Стримана оцінка межі власного рівня відділена від тривалого стану, розширення діапазону та крайнього охоплення.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:30:e0:seed20261105",
+      "id": 30,
+      "word": "〜にとどまらず",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "93354c6d4cc12d37afef8c0e32d172950fd001f825e1548eb223403405ec8ef9",
+      "promptSha256": "035d18dc24adbdd76058e78c337f890742e1479406c92ba99c1ac2d68047a914",
+      "choiceSha256": [
+        "0acd9fa265c1a16aa2a294f11dfd88abcf836fa3536139e3f09a8577db19b391",
+        "bd6238aa74c0e008d2bef9c411b38599d033e9272c1b9327bd9e042e3ea28349",
+        "9fba439f80bf8a39839ef6c42db5b7e3a35aac53a112c370bda193ffe5133f27",
+        "a0524d79a8715974bdc3273324417f4a829dad602bd2e5f582f43774c85a8f2d"
+      ],
+      "answer": 1,
+      "correctSha256": "bd6238aa74c0e008d2bef9c411b38599d033e9272c1b9327bd9e042e3ea28349",
+      "explainSha256": "dd89ce208e738e6f5b067323138f381ec885b9a80f5d14e5ce357e6ef372f104",
+      "flags": [],
+      "observation": "Ключ передає вихід за рамки однієї країни; початок серії й тривалий стан після події не є таким відношенням.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:31:e0:seed20261105",
+      "id": 31,
+      "word": "〜に至っては",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "daf9b84267329e5236a36ac29db35d42201ad8ee5da3287caa3ff95e07a35c05",
+      "promptSha256": "7b152c0cfd044a056ac9ebc6427fa93cf861dcafd72a5defc7c3ef73c166cd62",
+      "choiceSha256": [
+        "ae8e3145c0d764b36a3fcbfc380358dca054283defb6b492c8f77c7b0e24ae58",
+        "c18255d4038a864a479f1e9373915ebfb7b67364758329d8d19b435b2d9d56c6",
+        "ebb77141a1398e289ae597a22b9d3960562424613694a6177f237272ee9800b4",
+        "5ea91a16dbc060ce421b99b3fd7a22658f1dd918526a78039927f6ef1b13895b"
+      ],
+      "answer": 3,
+      "correctSha256": "5ea91a16dbc060ce421b99b3fd7a22658f1dd918526a78039927f6ef1b13895b",
+      "explainSha256": "42bab587e85bf97ead889fb670f415d5ff6720911ff140004d47c90ace393b79",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Саме в правильній відповіді повторено に至っては; назва конструкції допомагає вибрати її без розуміння відтінку.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:32:e0:seed20261105",
+      "id": 32,
+      "word": "〜ものを",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "51c505dceba005e52d2296afb8deba9947636c9980b1b68702345a55a7cd7872",
+      "promptSha256": "e1dff725157d480827b9dbc5c1e2ebc81a1645794426a06025be1fdbe03f7e8c",
+      "choiceSha256": [
+        "b6bba6b3541cb82e272400d612914a19a1eb59cfc4a1972eaa1bbc5846c9f25d",
+        "c18255d4038a864a479f1e9373915ebfb7b67364758329d8d19b435b2d9d56c6",
+        "dbaf6ea14b2c3f736c96c9097e1fb2ebb35b1c462ec71baa4ef290d3b3fd1ff4",
+        "328f473bcafda4800458bcbcfd6a4fa45e50f7c92f4ffbc28257babeb00f5950"
+      ],
+      "answer": 1,
+      "correctSha256": "c18255d4038a864a479f1e9373915ebfb7b67364758329d8d19b435b2d9d56c6",
+      "explainSha256": "c3b009ea9366436c333184b9cf424b65ca5e8a752967ea44fb54ff46af74d284",
+      "flags": [],
+      "observation": "Нереалізована можливість розв’язати проблему через попередню консультацію відрізняється від інших видів критики.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:33:e0:seed20261105",
+      "id": 33,
+      "word": "〜ではあるまいし",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "fa62bc790f4c0b3576b34d4464bc9ec45364eecdf8a97185c4db4b0633d3946e",
+      "promptSha256": "930f74c3434d8ff401e4471b53bee3fbb1a6f9e3ab36c8c8a187ecd6dcee6f48",
+      "choiceSha256": [
+        "c18255d4038a864a479f1e9373915ebfb7b67364758329d8d19b435b2d9d56c6",
+        "b6bba6b3541cb82e272400d612914a19a1eb59cfc4a1972eaa1bbc5846c9f25d",
+        "dbaf6ea14b2c3f736c96c9097e1fb2ebb35b1c462ec71baa4ef290d3b3fd1ff4",
+        "ebb77141a1398e289ae597a22b9d3960562424613694a6177f237272ee9800b4"
+      ],
+      "answer": 1,
+      "correctSha256": "b6bba6b3541cb82e272400d612914a19a1eb59cfc4a1972eaa1bbc5846c9f25d",
+      "explainSha256": "d7eb860196ce1f832b8bf67461c4f9174f73454dd562bf73440e01dc9e9b862f",
+      "flags": [],
+      "observation": "«Ви не новачок» є підставою невдоволення; жаль про нереалізоване минуле не є змістом конструкції.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:34:e0:seed20261105",
+      "id": 34,
+      "word": "～きらいがある",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "c421db13c067659f714ee18ffe9e078f1ddf0991459637d98e173bf5ef60dd12",
+      "promptSha256": "c887d6063af91ab22c3049f5d817462dcdfe834042587bb727245a2e6f9c09a7",
+      "choiceSha256": [
+        "d87427bf1aeb479fc0c120889776ff444e3adfb8ad96552f40b2a93677bf9ac8",
+        "ae8e3145c0d764b36a3fcbfc380358dca054283defb6b492c8f77c7b0e24ae58",
+        "b6bba6b3541cb82e272400d612914a19a1eb59cfc4a1972eaa1bbc5846c9f25d",
+        "5ea91a16dbc060ce421b99b3fd7a22658f1dd918526a78039927f6ef1b13895b"
+      ],
+      "answer": 1,
+      "correctSha256": "ae8e3145c0d764b36a3fcbfc380358dca054283defb6b492c8f77c7b0e24ae58",
+      "explainSha256": "882d4cfcf312bb63a7a031ffb6a850213544f76dc98a263abb9efe575307375c",
+      "flags": [],
+      "observation": "Ключ описує небажану схильність; одноразовий наслідок чи порівняння ступенів не є тим самим.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:35:e0:seed20261105",
+      "id": 35,
+      "word": "〜始末",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "e91fa8f449181d2526307026233e53e317ccbb62f70d1453104bf27851fd4d63",
+      "promptSha256": "e25330244099718f19ed9ac85bdad80e6bc3da44be92a71ac32e599be9eee640",
+      "choiceSha256": [
+        "d87427bf1aeb479fc0c120889776ff444e3adfb8ad96552f40b2a93677bf9ac8",
+        "ebb77141a1398e289ae597a22b9d3960562424613694a6177f237272ee9800b4",
+        "b6bba6b3541cb82e272400d612914a19a1eb59cfc4a1972eaa1bbc5846c9f25d",
+        "5ea91a16dbc060ce421b99b3fd7a22658f1dd918526a78039927f6ef1b13895b"
+      ],
+      "answer": 1,
+      "correctSha256": "ebb77141a1398e289ae597a22b9d3960562424613694a6177f237272ee9800b4",
+      "explainSha256": "8816b2bff5d5119d64969d3c900af35d3a5beafb9795b5493b0606a79102583f",
+      "flags": [],
+      "observation": "Негативний підсумок приховування зловживань відділено від характеристики схильності та соціальної ролі.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:36:e0:seed20261105",
+      "id": 36,
+      "word": "～ごとき",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "6455bc7e696e68120c1741c03a56bc930df0bd9fad859f76cd6a45c0db8d86d8",
+      "promptSha256": "6e0be0ab50eb0a6ba5c173ff10be1a54b4f5e8cfbbdf8e5f6d92d9ad176eab28",
+      "choiceSha256": [
+        "c18255d4038a864a479f1e9373915ebfb7b67364758329d8d19b435b2d9d56c6",
+        "d87427bf1aeb479fc0c120889776ff444e3adfb8ad96552f40b2a93677bf9ac8",
+        "dbaf6ea14b2c3f736c96c9097e1fb2ebb35b1c462ec71baa4ef290d3b3fd1ff4",
+        "5ea91a16dbc060ce421b99b3fd7a22658f1dd918526a78039927f6ef1b13895b"
+      ],
+      "answer": 1,
+      "correctSha256": "d87427bf1aeb479fc0c120889776ff444e3adfb8ad96552f40b2a93677bf9ac8",
+      "explainSha256": "836a5bd709be6c40fd3141bcc084ad52329f0ac02bf313308bd21a5703fdc4de",
+      "flags": [],
+      "observation": "У 私ごとき мовець применшує себе; порівняльна межа чи докір за минуле не підходять.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:37:e0:seed20261105",
+      "id": 37,
+      "word": "～ときたら",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "16d334d15bb5068d236e3eb88966a32fa4e2c08afdd377603feec702b35b2856",
+      "promptSha256": "bb53144304a31714a9e89c99121b9299dcc78cce6328146d51933cc9351286a1",
+      "choiceSha256": [
+        "b6bba6b3541cb82e272400d612914a19a1eb59cfc4a1972eaa1bbc5846c9f25d",
+        "328f473bcafda4800458bcbcfd6a4fa45e50f7c92f4ffbc28257babeb00f5950",
+        "dbaf6ea14b2c3f736c96c9097e1fb2ebb35b1c462ec71baa4ef290d3b3fd1ff4",
+        "c18255d4038a864a479f1e9373915ebfb7b67364758329d8d19b435b2d9d56c6"
+      ],
+      "answer": 1,
+      "correctSha256": "328f473bcafda4800458bcbcfd6a4fa45e50f7c92f4ffbc28257babeb00f5950",
+      "explainSha256": "903b8ec5ee2489357350a8760b06540e0675971ca319e3921fadd0d05aec0df1",
+      "flags": [],
+      "observation": "Начальника виокремлено як тему невдоволення; це не умовна допустимість або нереалізований кращий вибір.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:38:e0:seed20261105",
+      "id": 38,
+      "word": "〜ならまだしも",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "738ee28efd1a21697777982a69d61f920e0638c43c94a346376d43ce642b2892",
+      "promptSha256": "27412c111c2c913284de807c44c45926477209d4adaa64e097388e1ec07742fb",
+      "choiceSha256": [
+        "328f473bcafda4800458bcbcfd6a4fa45e50f7c92f4ffbc28257babeb00f5950",
+        "b6bba6b3541cb82e272400d612914a19a1eb59cfc4a1972eaa1bbc5846c9f25d",
+        "dbaf6ea14b2c3f736c96c9097e1fb2ebb35b1c462ec71baa4ef290d3b3fd1ff4",
+        "ebb77141a1398e289ae597a22b9d3960562424613694a6177f237272ee9800b4"
+      ],
+      "answer": 2,
+      "correctSha256": "dbaf6ea14b2c3f736c96c9097e1fb2ebb35b1c462ec71baa4ef290d3b3fd1ff4",
+      "explainSha256": "365d0cc24c25188f0b4c20777d9c09fffd262d0d6898475e15a5fce1f5095d83",
+      "flags": [],
+      "observation": "Одна-дві помилки протиставлені щотижневим запізненням; ключ зберігає поріг терпимості.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:39:e0:seed20261105",
+      "id": 39,
+      "word": "〜んがため",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "6d1e611a138d82a043e5c1d98f3ca94dba987b4a8d31320e19e12fadfc65a28f",
+      "promptSha256": "9590a7513a20199e748c99f14fc1328633d727ae7e37fa3b8702f5ca363029e8",
+      "choiceSha256": [
+        "877e1130649881dbd530c7d591bf91ab3a3acbe776379d320b42de83a6970b78",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8",
+        "1286bd03f1c7363e719ab16de1f8300961a213fdb2f4540a3b9c56675a861c95",
+        "aff641820343f39ac57588310303eb361ba3b07d374fcdb5ef48d40f7434e0ea"
+      ],
+      "answer": 3,
+      "correctSha256": "aff641820343f39ac57588310303eb361ba3b07d374fcdb5ef48d40f7434e0ea",
+      "explainSha256": "4202c0072881f40f3f0c3848f2fdd777c25137882c992ea6d3b00b22647f84b9",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Один із варіантів містить службове «див. をもって①»; усі варіанти мають бути значеннями без навігаційних приміток.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:40:e0:seed20261105",
+      "id": 40,
+      "word": "〜べく",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "148fe83748b2672fede3d053f1c17f9d4487e5a81b9e5ab754ea192094f10dda",
+      "promptSha256": "96a3d54db926e82b1dec5f22bce72e5b491b85b0bd4a65ee3ddf5fc45653ffd6",
+      "choiceSha256": [
+        "877e1130649881dbd530c7d591bf91ab3a3acbe776379d320b42de83a6970b78",
+        "f2bedbd4f8668b8db2a8d061122dbe50e532b889aa7799364b1ca53c9a051b24",
+        "8decdef8fba4f874155fef71e3ca4e69a39b22de72eaed3cbc9e927e1a489177",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8"
+      ],
+      "answer": 1,
+      "correctSha256": "f2bedbd4f8668b8db2a8d061122dbe50e532b889aa7799364b1ca53c9a051b24",
+      "explainSha256": "c7250bd3436608d7060653d55535d7feba9854bceb65248f243d2cafa069e692",
+      "flags": [
+        "hint"
+      ],
+      "observation": "У хибній відповіді залишено посилання на をもって①; воно створює зайву підказку й нерівну форму альтернатив.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:41:e0:seed20261105",
+      "id": 41,
+      "word": "〜べくして",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "ccd238f52af0df3d79d6ee978861d8ab34dca29111e84c91b43a6bdbd3b68675",
+      "promptSha256": "7991d5febff54cd0a8d94e0a1413cab13a32b840ba070a5780b371c7decdc589",
+      "choiceSha256": [
+        "650886344be4344284ee8b026d4d45854f919802cdadc991b835f5084be607b9",
+        "64257f0417b33a9bbbd667446be641eb5f86e560dcabe5fe373181dfff2f174f",
+        "78848c384b801dae986a2a30f8ab33cb17710693c3651d821d3cbc1bb70a170c",
+        "60cc9aa6bac946f90aef7eef7b74ce2a18619228d7742585d8bf73891cdde62f"
+      ],
+      "answer": 2,
+      "correctSha256": "78848c384b801dae986a2a30f8ab33cb17710693c3651d821d3cbc1bb70a170c",
+      "explainSha256": "9cfa1b008a9abc3524ee6be813cfafcc5094c67d04019e059fda90e720496b3a",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "«Очікуваний результат за таких причин» уже присутній у хибному варіанті; ключ не протиставлений несумісному прочитанню.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:42:e0:seed20261105",
+      "id": 42,
+      "word": "〜べくもない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "91fe51a754dd26424607f0e2e3039e7b3ffe589e5ec1a679386079c3beac79d2",
+      "promptSha256": "1e8a0610c14a1235fcaa4a7228395c7166857e15f8d48f8c4f75fb30e933ef4f",
+      "choiceSha256": [
+        "aff641820343f39ac57588310303eb361ba3b07d374fcdb5ef48d40f7434e0ea",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8",
+        "1286bd03f1c7363e719ab16de1f8300961a213fdb2f4540a3b9c56675a861c95",
+        "877e1130649881dbd530c7d591bf91ab3a3acbe776379d320b42de83a6970b78"
+      ],
+      "answer": 3,
+      "correctSha256": "877e1130649881dbd530c7d591bf91ab3a3acbe776379d320b42de83a6970b78",
+      "explainSha256": "e53a3cd2dfbc6baea7e6e731763fdb97de5d9510780b5c37b6a27d0133173ef9",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Хибний варіант із перехресним посиланням дозволяє відкидати його за оформленням, а не за змістом.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:43:e0:seed20261105",
+      "id": 43,
+      "word": "〜べからず",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "a2b8e985728b28f29310e021a51bd1c9d6e1e5821928b5681743fc69a7147f4d",
+      "promptSha256": "d556e122eddbb3d887739ce75980c813739dc893a655b61f97b311cb5bc61bf7",
+      "choiceSha256": [
+        "aff641820343f39ac57588310303eb361ba3b07d374fcdb5ef48d40f7434e0ea",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8",
+        "877e1130649881dbd530c7d591bf91ab3a3acbe776379d320b42de83a6970b78",
+        "1286bd03f1c7363e719ab16de1f8300961a213fdb2f4540a3b9c56675a861c95"
+      ],
+      "answer": 3,
+      "correctSha256": "1286bd03f1c7363e719ab16de1f8300961a213fdb2f4540a3b9c56675a861c95",
+      "explainSha256": "11dbe790f3b384c27806981e0a00f96b05e83160a78f32f0306e898243102ac5",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Заборона зрозуміла, але альтернативу з посиланням на іншу картку треба очистити й заново переглянути.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:44:e0:seed20261105",
+      "id": 44,
+      "word": "〜あるまじき",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "0288f5faf4117c7984e7a2e25127de9d01d6bd0a1eb0ef3032946d4084dce40b",
+      "promptSha256": "1ba196b4d318661b9dac26911e771ffffd7c76adfcf21149243d307d1796c706",
+      "choiceSha256": [
+        "f2bedbd4f8668b8db2a8d061122dbe50e532b889aa7799364b1ca53c9a051b24",
+        "1286bd03f1c7363e719ab16de1f8300961a213fdb2f4540a3b9c56675a861c95",
+        "62849f7bee0db1c518193f40c1959147e4754dbd8d9a354d694f63288bb6364c",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8"
+      ],
+      "answer": 2,
+      "correctSha256": "62849f7bee0db1c518193f40c1959147e4754dbd8d9a354d694f63288bb6364c",
+      "explainSha256": "b431f11cbfb3ea73680449b709b1f9b95102d8d09ef479e847a9e2f051b28dfd",
+      "flags": [
+        "hint",
+        "overlap"
+      ],
+      "observation": "Є службове посилання; загальна заборона близька до несумісності вчинку зі статусом і потребує контекстного розмежування.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:45:e0:seed20261105",
+      "id": 45,
+      "word": "〜をもって②",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "cee2121d8191858aabe8df53c3abc94d5f29dc8c958e5c3e941c9a32597fb623",
+      "promptSha256": "c43a188157eeafea19165c39546be66da57ffc95a06d2e572264e8f1aa14ee79",
+      "choiceSha256": [
+        "e8403b149eb1c97cfc412e43e784997f406cc8eac227e573ad8a336f9e5e585e",
+        "3833fc3d74100788b455bd587a75648fe47748de58a2d0fc04de18d0fcb114cf",
+        "89863a62787af82e3428828114c1fd8e6e310ec5f47d0e7245f997175dc1ad81",
+        "5e5789b21beee0d413cb6be098247998385a2ae4678f0fe6dadabca4b562cb35"
+      ],
+      "answer": 1,
+      "correctSha256": "3833fc3d74100788b455bd587a75648fe47748de58a2d0fc04de18d0fcb114cf",
+      "explainSha256": "94e60288a663237fdcf8fb33fab71247908445378a5d00acb7f614522e2a9386",
+      "flags": [],
+      "observation": "Точний C04-набір перевіряє письмовий спосіб відповіді; не переносить сюди часову межу.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:46:e0:seed20261105",
+      "id": 46,
+      "word": "〜にひきかえ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "6d56d53bd122601ea0455f450e97c3b0cf06288c514994c716c224cff87591c4",
+      "promptSha256": "7579670c59cb62f677beb63e8f9c40f7c5c88722e49a2030a671132faf9764f7",
+      "choiceSha256": [
+        "877e1130649881dbd530c7d591bf91ab3a3acbe776379d320b42de83a6970b78",
+        "f2bedbd4f8668b8db2a8d061122dbe50e532b889aa7799364b1ca53c9a051b24",
+        "197ec8b5326a3b19281dd854c0a97fc0f213fe2a50b1804b3dc39fcade5864bf",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8"
+      ],
+      "answer": 2,
+      "correctSha256": "197ec8b5326a3b19281dd854c0a97fc0f213fe2a50b1804b3dc39fcade5864bf",
+      "explainSha256": "90a3f088a975ba4abdde06afdca77d96b534c25824e13806d4da5fec31255197",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Контраст зрозумілий, але один дистрактор містить посилання на をもって①; це не чисте зіставне визначення.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:47:e0:seed20261105",
+      "id": 47,
+      "word": "〜を余儀なくされる",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "26adf41fe1ec495389cb9093377052f8d48f0c54dc1925e3757a6dfdce0221db",
+      "promptSha256": "d9b7fdc62276545c78f798e468114024a0a3023a2e013bcd3a546dd51900b352",
+      "choiceSha256": [
+        "62849f7bee0db1c518193f40c1959147e4754dbd8d9a354d694f63288bb6364c",
+        "aff641820343f39ac57588310303eb361ba3b07d374fcdb5ef48d40f7434e0ea",
+        "1fecff4d00f52112244483e0a978efdb2fc359984d9f77424a1b5b5dab945f65",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8"
+      ],
+      "answer": 2,
+      "correctSha256": "1fecff4d00f52112244483e0a978efdb2fc359984d9f77424a1b5b5dab945f65",
+      "explainSha256": "e42aebdc6c689c3192e6c9f0d2c0090d8dc35b3f3ecfdec85ac699aa6bd1b0e2",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Вимушене підвищення ціни відділене від добровільної мети; службова примітка в альтернативі лишається дефектом оформлення.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:48:e0:seed20261105",
+      "id": 48,
+      "word": "〜を押して",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "686b73bafe2b0169ea6defb68a6fb81b7e5e67d55867e747f3b1f32d7f8733f1",
+      "promptSha256": "e2dfbf620e9b41d0b8be89923f5e5858a95303e6d917a2863b16772bd400a6dd",
+      "choiceSha256": [
+        "197ec8b5326a3b19281dd854c0a97fc0f213fe2a50b1804b3dc39fcade5864bf",
+        "f2bedbd4f8668b8db2a8d061122dbe50e532b889aa7799364b1ca53c9a051b24",
+        "8decdef8fba4f874155fef71e3ca4e69a39b22de72eaed3cbc9e927e1a489177",
+        "721dcb9ffa077c370d09a527f87286636abbd2010b4c2027ed21e3ca64d310e8"
+      ],
+      "answer": 2,
+      "correctSha256": "8decdef8fba4f874155fef71e3ca4e69a39b22de72eaed3cbc9e927e1a489177",
+      "explainSha256": "e0360d5dd65025648ff20b8c6318fa0aa537ad8b7b80da912cd102e40370f7ad",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Дія всупереч нездужанню має правильний ключ, але хибний варіант містить перехресне посилання.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:49:e0:seed20261105",
+      "id": 49,
+      "word": "〜といったらない",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "b5e1ca464a813c35896cf26d6426b1159eb5bceec58baba88734bb8c186834fc",
+      "promptSha256": "8e4ffbcdd34572f2bd26baf50ea017bcba48e79de224a2ba481ab172f2ab8f78",
+      "choiceSha256": [
+        "88eee6edc93cc3232de35f3d652a236d01a9b8793132a1726bd80948af30233a",
+        "e895b3116b7362842a5323513470a787cd2a47f586584cbae872a0f6170de94b",
+        "e91c40a495151e03f6e5b5daf03f7d8e328d0a41050037fd9a71712ec56278d9",
+        "c0748c25df84edc447e32abf388383f51f399a1238fae3d9351a395caaaaffc7"
+      ],
+      "answer": 1,
+      "correctSha256": "e895b3116b7362842a5323513470a787cd2a47f586584cbae872a0f6170de94b",
+      "explainSha256": "936aab3d5dc18b6846022c72b6eed3a52c9070244322f68fb6049d5dccbbf46e",
+      "flags": [],
+      "observation": "Точний C04-набір описує сильну незручність саме під час повідомлення; заперечені або відкладені переживання відділено.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:50:e0:seed20261105",
+      "id": 50,
+      "word": "〜極まりない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "b7088269e3f9e5a631ff1d9950f187667d172e6ccf3333fd96e453a01d46cf6b",
+      "promptSha256": "56e62694ca67e12a2495c7fa5ab54f72023f6f235919dd85d5af359a26fd5631",
+      "choiceSha256": [
+        "22f9652b29dc6a8621f125174637178050061aee5dc468207992c6ddf0431df0",
+        "927df0d91f18369c83d9dfad177ab86fb480f927c8b8679d0e4e83b739c97bda",
+        "ab2719ab08b17d63e792ef5764f35d766d6c24d68e11d873d896dee03db68499",
+        "a7b5f2b5dc28adaa6aac94d960fb06c608c90c591e94bd1be8c41641e3f1ebee"
+      ],
+      "answer": 3,
+      "correctSha256": "a7b5f2b5dc28adaa6aac94d960fb06c608c90c591e94bd1be8c41641e3f1ebee",
+      "explainSha256": "31b51803ae06b0b2c4947eef8e75e0f74be9c732d27ba1289df42ad379d6473e",
+      "flags": [],
+      "observation": "Гранична негативна оцінка в цьому наборі відрізняється від порівняння з попереднім та оцінки кількох прикладів.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:51:e0:seed20261105",
+      "id": 51,
+      "word": "〜てやまない",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "64876cd788a76877f79438e1dd2b4bc3a4bb6c4861dd62f0abd5e5be67bc7c16",
+      "promptSha256": "7b488cf46bfd334ed903b0b6000dfc5c8cae082acc323759b631d4b9af415381",
+      "choiceSha256": [
+        "ae1edcd0842907bb8262a0d41b1a9c59b44e9c2f2716c277372b24cb8fb42894",
+        "dc1e3c62430a3901aca68006ef6dff1cf3493f87fe4bc87bd138fae1060fd5d2",
+        "7ff5b5b08b37f014ef4d03f88ef62f004137925fa8256467b5be8816d0b77855",
+        "810d6ce41d3f285eb0e1d78282ecf7032e4bc97fb57858d4eff350a6731a6cd3"
+      ],
+      "answer": 1,
+      "correctSha256": "dc1e3c62430a3901aca68006ef6dff1cf3493f87fe4bc87bd138fae1060fd5d2",
+      "explainSha256": "9e50b04b24f0c527061d54e7db392a732d1b2296ca8db76078629ce091803288",
+      "flags": [],
+      "observation": "Точний C04-набір відділяє сильне щире бажання від безперервного промовляння та втрати бажання.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:52:e0:seed20261105",
+      "id": 52,
+      "word": "～を禁じ得ない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7fd1bb42b13dfe16d593db744abb5090cee169f720856b83e67914746348411b",
+      "promptSha256": "571e261e0549ff1e82c956dc983dafeb1de1a9e76329d4a05ca36086fe4ec09f",
+      "choiceSha256": [
+        "73e2921f34dcde7384c67e563c294364491410f0566bfa443ee51cc8f27dcd18",
+        "c3b1e07e974c65716bf8e9fa84c0e9b13a7a02e2b524b0f3eaece0d78c7b04c3",
+        "6fa247b78e6c80fd8322310c32caaae9a9d0d699a8357590c2301583c25a740b",
+        "a2070f6eb3007f03127e97205bcfd754bdd7f3ef9387c038dbc57c41a57c164b"
+      ],
+      "answer": 1,
+      "correctSha256": "c3b1e07e974c65716bf8e9fa84c0e9b13a7a02e2b524b0f3eaece0d78c7b04c3",
+      "explainSha256": "e72fdc62e7f151e1df46b4c2fb63ad156ea86d27a826d5af7524fbf2b70ab9d2",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Неможливість стримати гнів містить високу інтенсивність, яку описують інші варіанти; потрібні конкретні несумісні наслідки.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:53:e0:seed20261105",
+      "id": 53,
+      "word": "〜とは",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "ca770602d7459e0913345af40b1231fde7226aeba508c6a764588e885da3b547",
+      "promptSha256": "6f3160a54c377e0c4a4ba6aecddd2293066d536342b04489efad5ccbd3476981",
+      "choiceSha256": [
+        "08389a732d8f2aedd5c71fd210bdb3fe66b0c18a33a0c14649c92cdc0968dde0",
+        "210d8dea635eb58e7c23181d5addeb8aeb3eade7bffa3cd9a700d5dcda49bb6c",
+        "0f50913fea8191d31c63b10d7c713db8cf850631db4f7cf4211e4a5f6e1c487a",
+        "a2070f6eb3007f03127e97205bcfd754bdd7f3ef9387c038dbc57c41a57c164b"
+      ],
+      "answer": 2,
+      "correctSha256": "0f50913fea8191d31c63b10d7c713db8cf850631db4f7cf4211e4a5f6e1c487a",
+      "explainSha256": "678a05315534bea385dbd5e24585188751d3ce5e19993c96a2b4bff9541586a6",
+      "flags": [],
+      "observation": "Несподівана помилка викликає здивування; визначення чи риторичне ототожнення тут не підставлено.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:54:e0:seed20261105",
+      "id": 54,
+      "word": "～にもまして",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "6958d8cbe711dcf583074ac53746a140f33b8db298241258b4874b37797aabc5",
+      "promptSha256": "4cfce9a833c8b4c1988e4fbe1bf4b55d78bef96e43a6a9201cdb880f2bbcc6d6",
+      "choiceSha256": [
+        "c3b1e07e974c65716bf8e9fa84c0e9b13a7a02e2b524b0f3eaece0d78c7b04c3",
+        "22f9652b29dc6a8621f125174637178050061aee5dc468207992c6ddf0431df0",
+        "a7b5f2b5dc28adaa6aac94d960fb06c608c90c591e94bd1be8c41641e3f1ebee",
+        "73e2921f34dcde7384c67e563c294364491410f0566bfa443ee51cc8f27dcd18"
+      ],
+      "answer": 1,
+      "correctSha256": "22f9652b29dc6a8621f125174637178050061aee5dc468207992c6ddf0431df0",
+      "explainSha256": "9defc1d29fdd726d60061cb3d19e25a77b9755a68eca263ad6f9bc1841d24011",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Порівняльне посилення треба відділити від простого «надзвичайно»; нинішній широкий дистрактор також сумісний із погіршенням умов.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:55:e0:seed20261105",
+      "id": 55,
+      "word": "〜でなくてなんだろう",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "230d2e1e759310868ba416ba0138e34a577e1a33e3fd65f968e407c9018b3759",
+      "promptSha256": "0421cf14d2d0eee3e8d2d6bc48ea6e7671b1834bf65069a55a14197dc3bfd218",
+      "choiceSha256": [
+        "0f50913fea8191d31c63b10d7c713db8cf850631db4f7cf4211e4a5f6e1c487a",
+        "210d8dea635eb58e7c23181d5addeb8aeb3eade7bffa3cd9a700d5dcda49bb6c",
+        "08389a732d8f2aedd5c71fd210bdb3fe66b0c18a33a0c14649c92cdc0968dde0",
+        "a2070f6eb3007f03127e97205bcfd754bdd7f3ef9387c038dbc57c41a57c164b"
+      ],
+      "answer": 2,
+      "correctSha256": "08389a732d8f2aedd5c71fd210bdb3fe66b0c18a33a0c14649c92cdc0968dde0",
+      "explainSha256": "22a00faec4459a22c953163468dd6b67cd1698f8737fe0af18ab4ecca75da7e9",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Правильна відповідь майже дослівно повторює назву でなくて何だろう; потрібен змістовий парафраз.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:56:e0:seed20261105",
+      "id": 56,
+      "word": "〜にもほどがある",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "fe41059bdfd6dcde87cdccfd1b34f269d5b8473e8152121827b4e59c7a1b1193",
+      "promptSha256": "af64aa037f38fc041c91144175eae26dac1e991bd15b275fdc1afd8e8e1dce2c",
+      "choiceSha256": [
+        "0f50913fea8191d31c63b10d7c713db8cf850631db4f7cf4211e4a5f6e1c487a",
+        "08389a732d8f2aedd5c71fd210bdb3fe66b0c18a33a0c14649c92cdc0968dde0",
+        "210d8dea635eb58e7c23181d5addeb8aeb3eade7bffa3cd9a700d5dcda49bb6c",
+        "a2070f6eb3007f03127e97205bcfd754bdd7f3ef9387c038dbc57c41a57c164b"
+      ],
+      "answer": 2,
+      "correctSha256": "210d8dea635eb58e7c23181d5addeb8aeb3eade7bffa3cd9a700d5dcda49bb6c",
+      "explainSha256": "d40c2eeb5a70a667854c6288ce554f765c64d4f82633af6dc9281c6fe27ecb05",
+      "flags": [],
+      "observation": "Осуд надмірної неприпустимості запізнення відрізняється від самого здивування або тривалого бажання.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:57:e0:seed20261105",
+      "id": 57,
+      "word": "〜にたえない①",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "e6ca825dd7162f007a035a733ccfa137aac20d9d72110061b6ffaad4e023323c",
+      "promptSha256": "79f16f4dca2c34ea3d8eac6bfe5c6fc3f8cfc6d634509ffb3d2629f34978d7d9",
+      "choiceSha256": [
+        "df0111188109f252d4c1e268681292d39c0814bd6855b905ca72ab82c03eae3a",
+        "8864b21085d46c4a672e49f10d8c5be662762dcb0374c72a3e99871bea2d6c2e",
+        "a9663fd8a9e357b80923c88e05f40eb818c672c768741344d57716dab9b98181",
+        "8b51e1a6317902eb729952aad6162e85e422faf11e4330b6d0625a0ea218ebc4"
+      ],
+      "answer": 1,
+      "correctSha256": "8864b21085d46c4a672e49f10d8c5be662762dcb0374c72a3e99871bea2d6c2e",
+      "explainSha256": "dc871b5cb1e63e66830c67ab1f9d71b5f7a6b97dfa4dc2811152f57a34345648",
+      "flags": [],
+      "observation": "Точний C04-набір перевіряє нестерпність змісту сварки, а не нечутний звук; повну картку g57 цим не зараховано.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:58:e0:seed20261105",
+      "id": 58,
+      "word": "〜の至り",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7faf66bf4ac3c882605b99ec76e9a58c22cc62975125742abca0599356ed3865",
+      "promptSha256": "eb40cfd48d0e9da6afff4fd9ee59ce44afd8cf24efc60eb4cefd3f70e9bcbe0e",
+      "choiceSha256": [
+        "a2070f6eb3007f03127e97205bcfd754bdd7f3ef9387c038dbc57c41a57c164b",
+        "6fa247b78e6c80fd8322310c32caaae9a9d0d699a8357590c2301583c25a740b",
+        "d69c1f045a4357f3deae7d4bca1f5c91de6d5fe609911afd38e4b2f827aba4d1",
+        "73e2921f34dcde7384c67e563c294364491410f0566bfa443ee51cc8f27dcd18"
+      ],
+      "answer": 1,
+      "correctSha256": "6fa247b78e6c80fd8322310c32caaae9a9d0d699a8357590c2301583c25a740b",
+      "explainSha256": "c20f99190f2ee6f7d1d197e2b161e7f78d94400f43a61b572470cfea76770d82",
+      "flags": [
+        "hint",
+        "overlap"
+      ],
+      "observation": "Ключ називає саму の至り; ширші відповіді про крайній ступінь почуття теж потребують розмежування.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:59:e0:seed20261105",
+      "id": 59,
+      "word": "〜や否や",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "a9f789f7d62d580d53531af4b409bec68675fd0027e4b5ea5a474c3b673276ca",
+      "promptSha256": "ae87a95cb77ffb0dbc249524ef3e7e5cfec25bc84b78331973ec83a9449cd32e",
+      "choiceSha256": [
+        "da096b2ad4d82bc38eb26d1062492c322aaed52f5ab5d5808e22ada70d4edefa",
+        "d4eb1513a02a32da656a62df9776f041d11a50d6470d413dd024252b4672ec7a",
+        "6b165aaabe5f6dc98a7ee1b288837b7738093a4a16a44c695137a240a43656df",
+        "f9fca9cf3fc92967bc4936bf91a88c8c6958c212530a843659c253a16e1616a6"
+      ],
+      "answer": 2,
+      "correctSha256": "6b165aaabe5f6dc98a7ee1b288837b7738093a4a16a44c695137a240a43656df",
+      "explainSha256": "1ba29d58b48c409c36f44b00d5851f096a1b16a6bb2785aebe14ddb0a4b93ee1",
+      "flags": [],
+      "observation": "Безпосередня зміна після входу протиставлена паралельній діяльності й супутній нагоді; у цьому знімку колізії не знайдено.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:60:e0:seed20261105",
+      "id": 60,
+      "word": "〜そばから",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "161e044cf5a43dac918e5ce10ad61c882a200256988744215d5f1012c82af170",
+      "promptSha256": "c85573420dab6609a36408b0656e2f5425868479ee88c2e256e88ef71202a102",
+      "choiceSha256": [
+        "da096b2ad4d82bc38eb26d1062492c322aaed52f5ab5d5808e22ada70d4edefa",
+        "6a2a97491348f0c3d765b2850f5773ff8b3770cfa2bf8aace34f9b72ddf6958d",
+        "280c242c166ac8011372ea36defbafd8703bedee45dc7b3513aba5e86b4d0052",
+        "be723823405cfb09b701e9e79dac33f02a5346a9081104bf0aa81ca8c316cf89"
+      ],
+      "answer": 1,
+      "correctSha256": "6a2a97491348f0c3d765b2850f5773ff8b3770cfa2bf8aace34f9b72ddf6958d",
+      "explainSha256": "30bac04e93a5173224028e9a2576d80dfd66fc820f1ae60508b7e073f3fee546",
+      "flags": [
+        "scope",
+        "length"
+      ],
+      "observation": "Ключ додає повторюваність і окрему примітку про позитивні випадки; друге не потрібне для відповіді в цьому негативному прикладі.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:61:e0:seed20261105",
+      "id": 61,
+      "word": "〜が早いか",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "f81725ffaafc11e6837982710e6274148af2e956925219d4b9199fed666fd61f",
+      "promptSha256": "57b734032a22ae4a50e22a4c3fb0a49fcdb063865200c1c45da18cc17a655411",
+      "choiceSha256": [
+        "da096b2ad4d82bc38eb26d1062492c322aaed52f5ab5d5808e22ada70d4edefa",
+        "268b821af8765a306b71a8a21df171c8de7431301ba49741eb205bb99077fa4e",
+        "d4eb1513a02a32da656a62df9776f041d11a50d6470d413dd024252b4672ec7a",
+        "15b42fe6502a0ec19a20a1c8fcfbce32c596a9be9fcb7ae6182a7cbc2e2ed645"
+      ],
+      "answer": 3,
+      "correctSha256": "15b42fe6502a0ec19a20a1c8fcfbce32c596a9be9fcb7ae6182a7cbc2e2ed645",
+      "explainSha256": "ce06f7ee309670d2a9fe628a0ac04b33f0d58da4ad36fe010b8707e600f09559",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Інший варіант теж означає «щойно — відразу»; ознака несподіваності не робить його несумісним із появою нетерплячих покупців.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:62:e0:seed20261105",
+      "id": 62,
+      "word": "～なり",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "ffbd8e9e22d1e7837e6b31cfbd65fd2e2a426159ba6f76d5d99766f826408f22",
+      "promptSha256": "f21b57735c8da696c9b2fa81cf223d290c1ef48999cdad0707b2df56e57ae058",
+      "choiceSha256": [
+        "15b42fe6502a0ec19a20a1c8fcfbce32c596a9be9fcb7ae6182a7cbc2e2ed645",
+        "d4eb1513a02a32da656a62df9776f041d11a50d6470d413dd024252b4672ec7a",
+        "268b821af8765a306b71a8a21df171c8de7431301ba49741eb205bb99077fa4e",
+        "f9fca9cf3fc92967bc4936bf91a88c8c6958c212530a843659c253a16e1616a6"
+      ],
+      "answer": 2,
+      "correctSha256": "268b821af8765a306b71a8a21df171c8de7431301ba49741eb205bb99077fa4e",
+      "explainSha256": "01851532e8581d7031f7abbe175182b08e2b43877d07e678b707e1c713e1a1b4",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Обидва варіанти про негайну наступну дію описують початок пояснення після того, як людина сіла.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:63:e0:seed20261105",
+      "id": 63,
+      "word": "〜ながら",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "82d893a48e6d4a5d7cb7904f8a12bc8ac101438f4aed9554ab120a3b38372350",
+      "promptSha256": "1229e44214a7e451e3e636e9ef383e67e37e7689c6fd9e910e0880a7a1a94e9c",
+      "choiceSha256": [
+        "6b165aaabe5f6dc98a7ee1b288837b7738093a4a16a44c695137a240a43656df",
+        "15b42fe6502a0ec19a20a1c8fcfbce32c596a9be9fcb7ae6182a7cbc2e2ed645",
+        "da096b2ad4d82bc38eb26d1062492c322aaed52f5ab5d5808e22ada70d4edefa",
+        "be723823405cfb09b701e9e79dac33f02a5346a9081104bf0aa81ca8c316cf89"
+      ],
+      "answer": 2,
+      "correctSha256": "da096b2ad4d82bc38eb26d1062492c322aaed52f5ab5d5808e22ada70d4edefa",
+      "explainSha256": "0e0c5612b5c2bbceaef75e5843029284e7d872702430d7ca81a344ec4d2f0dc5",
+      "flags": [
+        "scope"
+      ],
+      "observation": "Речення має допустове значення, а ключ одночасно перелічує поступове й паралельне значення; слід перевіряти саме незважаючи на знання правила.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:64:e0:seed20261105",
+      "id": 64,
+      "word": "～ところ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "62c031d6bea660597f6c7c0c999347fae682d25be7be2f0d398279f8e28f21ca",
+      "promptSha256": "37f8fa6e3447142b8dc1ffb63393bbed2c1f329471b5b04a056e244fbd0101d0",
+      "choiceSha256": [
+        "280c242c166ac8011372ea36defbafd8703bedee45dc7b3513aba5e86b4d0052",
+        "be723823405cfb09b701e9e79dac33f02a5346a9081104bf0aa81ca8c316cf89",
+        "da096b2ad4d82bc38eb26d1062492c322aaed52f5ab5d5808e22ada70d4edefa",
+        "6a2a97491348f0c3d765b2850f5773ff8b3770cfa2bf8aace34f9b72ddf6958d"
+      ],
+      "answer": 1,
+      "correctSha256": "be723823405cfb09b701e9e79dac33f02a5346a9081104bf0aa81ca8c316cf89",
+      "explainSha256": "294f8cb5015e90d77da89a7b574459bf7afb91e1e86ffa04bad93c3848648091",
+      "flags": [],
+      "observation": "Несподівана подія на етапі наміру піти відділена від нагоди зробити іншу справу та повторюваності.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:65:e0:seed20261105",
+      "id": 65,
+      "word": "〜かたわら",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "3275af10d967c1f0c37e6abe6cb01b1e32a463d3314a95b60beb17d514bccf9a",
+      "promptSha256": "f1322009f4524f7ea48415313a8f9a1b85563bb272e775686a549f951a51547d",
+      "choiceSha256": [
+        "6b165aaabe5f6dc98a7ee1b288837b7738093a4a16a44c695137a240a43656df",
+        "f9fca9cf3fc92967bc4936bf91a88c8c6958c212530a843659c253a16e1616a6",
+        "d4eb1513a02a32da656a62df9776f041d11a50d6470d413dd024252b4672ec7a",
+        "6a2a97491348f0c3d765b2850f5773ff8b3770cfa2bf8aace34f9b72ddf6958d"
+      ],
+      "answer": 1,
+      "correctSha256": "f9fca9cf3fc92967bc4936bf91a88c8c6958c212530a843659c253a16e1616a6",
+      "explainSha256": "bee616288dc838d7cbb1cd8b2fd5fd4bf9b4a968d1b3cb8bbbfcc753efe728f2",
+      "flags": [],
+      "observation": "Тривала друга діяльність поряд з основною роботою не тотожна одноразовій супутній нагоді.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:66:e0:seed20261105",
+      "id": 66,
+      "word": "〜かたがた",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7feb1d0d11c4dfd576ecb4cc0016ed578826d4109983d7a92ae18615d14301eb",
+      "promptSha256": "8959e5938ad4e8f543e03a709d139fed38f57dbf9db73b241681961f132393fb",
+      "choiceSha256": [
+        "be723823405cfb09b701e9e79dac33f02a5346a9081104bf0aa81ca8c316cf89",
+        "280c242c166ac8011372ea36defbafd8703bedee45dc7b3513aba5e86b4d0052",
+        "15b42fe6502a0ec19a20a1c8fcfbce32c596a9be9fcb7ae6182a7cbc2e2ed645",
+        "f9fca9cf3fc92967bc4936bf91a88c8c6958c212530a843659c253a16e1616a6"
+      ],
+      "answer": 1,
+      "correctSha256": "280c242c166ac8011372ea36defbafd8703bedee45dc7b3513aba5e86b4d0052",
+      "explainSha256": "242e3610b6108584552e294bd5391c5b22f7f81a55b108af18ef2c25f0b0c50d",
+      "flags": [],
+      "observation": "Звіт і консультація поєднані в одному візиті; миттєва послідовність і тривала друга робота не відповідають.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:67:e0:seed20261105",
+      "id": 67,
+      "word": "〜がてら",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "54eb9e7859b44e88e7a524fd39a1bb27b1f35a5987e2f056e11a82f1ca2f5202",
+      "promptSha256": "0c107e692edfe74364093b8e3c38ab2ac3d2ed8d14ade3962b831d8f35a2ebd4",
+      "choiceSha256": [
+        "6b165aaabe5f6dc98a7ee1b288837b7738093a4a16a44c695137a240a43656df",
+        "15b42fe6502a0ec19a20a1c8fcfbce32c596a9be9fcb7ae6182a7cbc2e2ed645",
+        "268b821af8765a306b71a8a21df171c8de7431301ba49741eb205bb99077fa4e",
+        "d4eb1513a02a32da656a62df9776f041d11a50d6470d413dd024252b4672ec7a"
+      ],
+      "answer": 3,
+      "correctSha256": "d4eb1513a02a32da656a62df9776f041d11a50d6470d413dd024252b4672ec7a",
+      "explainSha256": "260295f31dd898a511d81b3fd0443e1a02ef801075ae9b655285c636824ead38",
+      "flags": [
+        "weak"
+      ],
+      "observation": "Три альтернативи переважно про миттєву часову послідовність, а ключ — про супутню нагоду; потрібні правдоподібніші помилкові прочитання.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:68:e0:seed20261105",
+      "id": 68,
+      "word": "〜なくして",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "1f6fd672d743751539bd67bcf4b1510fdd247261fc89756497699a3e60ec2f0e",
+      "promptSha256": "d1d178fe7d22c12ad13f8fb7e80d6d3c8bbb0460bcf9c4e2485cbdfe158240cb",
+      "choiceSha256": [
+        "c918f7664efd623dd442c964f57fe7983286553ebda0b59cf772648d28243351",
+        "7870453224a2e81ca759208c99f1e873f1a79faeb3a7bc52d6d9ece6f318898d",
+        "b26d05bca6bfb78a59f152ffe59b19b3b6ecc93d358702347ca1bf098a1f6b4a",
+        "49f4228a19803e0e1198beef46779c2fbd2621ace225665c4bc82c5a2097f7af"
+      ],
+      "answer": 3,
+      "correctSha256": "49f4228a19803e0e1198beef46779c2fbd2621ace225665c4bc82c5a2097f7af",
+      "explainSha256": "d3a9f2967b4ef696b4503f2b036141371cb14449dd2df6d4c4ff13596742d592",
+      "flags": [],
+      "observation": "Співпраця подана необхідною умовою успіху; попередження про майбутню невдачу не є значенням виділеної форми.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:69:e0:seed20261105",
+      "id": 69,
+      "word": "〜ことなしに",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7dfc3c2904986b20cec6055183d2ce572b1b4d86ccf83de4a8a9dae0baf5dda9",
+      "promptSha256": "f84d70e93a92d370fd279c0e6b4572cb5cd3c751e630ab48f94b101ffd27b009",
+      "choiceSha256": [
+        "737ffc073d46077c3a422acd9085675502ac29ad0dd4c8c45c489268aff97a8b",
+        "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842",
+        "c918f7664efd623dd442c964f57fe7983286553ebda0b59cf772648d28243351",
+        "c6436192f11f5f1a1d8b618e08bbdaf1616a0f86777f6ac8f745bb8591cf2e54"
+      ],
+      "answer": 1,
+      "correctSha256": "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842",
+      "explainSha256": "ce37ce1405508b1db374f5bd25fd1e9b3a60e5883da121c8521964a78c67e75c",
+      "flags": [
+        "overlap",
+        "scope"
+      ],
+      "observation": "Ключ перелічує нейтральне «без» і висновок за заперечної головної частини; інший варіант теж описує необхідну основу.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:70:e0:seed20261105",
+      "id": 70,
+      "word": "〜とあれば",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7598a044df997a3231109da9beec39f0fec5c36f2d3eea0591a60b2fa9e910a7",
+      "promptSha256": "6e21740c1358610d2b184c36b845877686c1d449368843bb503e0f6cb646cef3",
+      "choiceSha256": [
+        "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842",
+        "2bac21712ab2d2258e51b57257c8ae0c348a2e804cfcb40f77aaa6a07af19ec2",
+        "737ffc073d46077c3a422acd9085675502ac29ad0dd4c8c45c489268aff97a8b",
+        "7870453224a2e81ca759208c99f1e873f1a79faeb3a7bc52d6d9ece6f318898d"
+      ],
+      "answer": 2,
+      "correctSha256": "737ffc073d46077c3a422acd9085675502ac29ad0dd4c8c45c489268aff97a8b",
+      "explainSha256": "dff7e7b985bdbccd4adce641c6e48a0da40f14eeb524faebe637d3c5244c8648",
+      "flags": [],
+      "observation": "Особлива умова спонукає до незвичного зусилля; це не поріг терпимості чи погроза тяжким наслідком.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:71:e0:seed20261105",
+      "id": 71,
+      "word": "～とあっては",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "0e5ffa03d740b2d07981c9405b6762a03dd9d1e6338e618fb3eca28fdbecd907",
+      "promptSha256": "8f019f224cfc6f15a20ec96046e53d9bfcc8c1883da4e9bbd6fad550d4e39e08",
+      "choiceSha256": [
+        "2bac21712ab2d2258e51b57257c8ae0c348a2e804cfcb40f77aaa6a07af19ec2",
+        "c918f7664efd623dd442c964f57fe7983286553ebda0b59cf772648d28243351",
+        "8d12d96a6151f5bedfa75ab28cda2657f0fa5a2e2db55929abfe5de0de32dc29",
+        "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842"
+      ],
+      "answer": 1,
+      "correctSha256": "c918f7664efd623dd442c964f57fe7983286553ebda0b59cf772648d28243351",
+      "explainSha256": "788130331b50f430f4a9c131b9c1596242473a1dfef177d266091b82239f395a",
+      "flags": [],
+      "observation": "Факт критики змушує до реакції; інші альтернативи не передають такого висновку за вже наявної ситуації.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:72:e0:seed20261105",
+      "id": 72,
+      "word": "〜ならいざしらず",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "679d2e6616c37cb54943f9e483d88353a72137d07d3dccd2a5545094cdf33deb",
+      "promptSha256": "b13530485c36a0fcff5eb41916328ba07091593731850233a37baa5bdb17be73",
+      "choiceSha256": [
+        "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842",
+        "2bac21712ab2d2258e51b57257c8ae0c348a2e804cfcb40f77aaa6a07af19ec2",
+        "8d12d96a6151f5bedfa75ab28cda2657f0fa5a2e2db55929abfe5de0de32dc29",
+        "737ffc073d46077c3a422acd9085675502ac29ad0dd4c8c45c489268aff97a8b"
+      ],
+      "answer": 1,
+      "correctSha256": "2bac21712ab2d2258e51b57257c8ae0c348a2e804cfcb40f77aaa6a07af19ec2",
+      "explainSha256": "87fa202bcdc22170c5f26cf962d9af83c945c1aa09a92f2ffe34b753e45d5a8a",
+      "flags": [
+        "scope"
+      ],
+      "observation": "Дужки «проблем немає» безпідставно схвалюють приватну розмову; форма лише відкладає оцінку першого випадку.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:73:e0:seed20261105",
+      "id": 73,
+      "word": "～ようものなら",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "3f4ad8435d3cf493006e98851d27e29d77cb84fdf058d30af4f03aa33fe64231",
+      "promptSha256": "304e46700e129ab156b91dda482187555b1f35fb0baf92f30b6a545cc329dd19",
+      "choiceSha256": [
+        "8d12d96a6151f5bedfa75ab28cda2657f0fa5a2e2db55929abfe5de0de32dc29",
+        "7870453224a2e81ca759208c99f1e873f1a79faeb3a7bc52d6d9ece6f318898d",
+        "737ffc073d46077c3a422acd9085675502ac29ad0dd4c8c45c489268aff97a8b",
+        "b26d05bca6bfb78a59f152ffe59b19b3b6ecc93d358702347ca1bf098a1f6b4a"
+      ],
+      "answer": 1,
+      "correctSha256": "7870453224a2e81ca759208c99f1e873f1a79faeb3a7bc52d6d9ece6f318898d",
+      "explainSha256": "79ec606b251c708c61dbc75744efd0a6fd58149b818bd50e01e35382499517dd",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Попередження про витік перетинається з альтернативами про втрату зусиль і незворотний наслідок; потрібні конкретні відмінні прочитання.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:74:e0:seed20261105",
+      "id": 74,
+      "word": "〜あっての",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "2b75d1320de275607396dce2a3777c7077d774e4193cb2777a8c66acca5be373",
+      "promptSha256": "1235364777e12cc2c36e6c2e01d085392643d09001e426073e89c52e2f02e2cd",
+      "choiceSha256": [
+        "7870453224a2e81ca759208c99f1e873f1a79faeb3a7bc52d6d9ece6f318898d",
+        "c6436192f11f5f1a1d8b618e08bbdaf1616a0f86777f6ac8f745bb8591cf2e54",
+        "737ffc073d46077c3a422acd9085675502ac29ad0dd4c8c45c489268aff97a8b",
+        "bd8477f99178888c59641e8aeb813e69acda4844ac663ca8e6abe699485e2842"
+      ],
+      "answer": 1,
+      "correctSha256": "c6436192f11f5f1a1d8b618e08bbdaf1616a0f86777f6ac8f745bb8591cf2e54",
+      "explainSha256": "96dc80a7ca78c6d7171c7984b32e75a5fdde0eb7bc2fcd112460fc387672b953",
+      "flags": [],
+      "observation": "Клієнти названі основою існування компанії, а не умовою разового виняткового вчинку.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:75:e0:seed20261105",
+      "id": 75,
+      "word": "〜いかんでは",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "17877f01762c38933fe7ab690ccac8b914b65d236c81b240f6d278bf3ceb641f",
+      "promptSha256": "d3e65cd3d972e6c62de844c2a0558debaf09939e982419baa0639e062f2300e4",
+      "choiceSha256": [
+        "1ab5424b52bed00663b0655e32ee811e501088ffc4e2d7acc416bc6484f37e6c",
+        "4582edfa6c26db77e42336b51ff4bf108f5d50220c2fadc933b10d9c1dee6c33",
+        "69b7d2a7e8c92ad22459501085dc9256b1cdd80e6a69edb53a02d6669191525e",
+        "f2be75ef2e305596a2399445be26a5aa0aaa920ec89eb558918fa31442868b6d"
+      ],
+      "answer": 1,
+      "correctSha256": "4582edfa6c26db77e42336b51ff4bf108f5d50220c2fadc933b10d9c1dee6c33",
+      "explainSha256": "477204f45de58eb6295b25e03fe9e9ec2d531d420d3acfd418921ce70e1292fc",
+      "flags": [],
+      "observation": "Результат залежить від перебігу переговорів; зміна способу осмислення не є тим самим параметром.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:76:e0:seed20261105",
+      "id": 76,
+      "word": "〜に即して",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "336cb07cc402890cf4254ebfa6449cb8a9e0063bf14b438adf48fab3bee0e54f",
+      "promptSha256": "db9a2858aba2279624f9379c801aceae67268682af0b9a51149ca2c962a31281",
+      "choiceSha256": [
+        "69b7d2a7e8c92ad22459501085dc9256b1cdd80e6a69edb53a02d6669191525e",
+        "5b2321cebb662a60f772924e3b9adbe70492f00cca9714600e6b5f4f7e5786f2",
+        "f454ba9dbef42dff5b8b746663543ec0c0c10ec462b8b76abc1d7676634cfd1c",
+        "1ab5424b52bed00663b0655e32ee811e501088ffc4e2d7acc416bc6484f37e6c"
+      ],
+      "answer": 1,
+      "correctSha256": "5b2321cebb662a60f772924e3b9adbe70492f00cca9714600e6b5f4f7e5786f2",
+      "explainSha256": "6af7c8253e5942236ca2b11138a35df0570aa173ec3bb888f782e1ab79ad055c",
+      "flags": [],
+      "observation": "Перероблення відповідно до реальності відділено від байдужості до перешкод та залежності від погляду.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:77:e0:seed20261105",
+      "id": 77,
+      "word": "〜ようによっては",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "c1ab8b9a2a5a64527fdbf295993555b66f76dcc3c52694cbb0cc7bd98dfd8a75",
+      "promptSha256": "4a6421a8ab870aff1e055169f403620dcce71444b36c8d2653c7934e41fb3341",
+      "choiceSha256": [
+        "f2be75ef2e305596a2399445be26a5aa0aaa920ec89eb558918fa31442868b6d",
+        "f454ba9dbef42dff5b8b746663543ec0c0c10ec462b8b76abc1d7676634cfd1c",
+        "1ab5424b52bed00663b0655e32ee811e501088ffc4e2d7acc416bc6484f37e6c",
+        "69b7d2a7e8c92ad22459501085dc9256b1cdd80e6a69edb53a02d6669191525e"
+      ],
+      "answer": 3,
+      "correctSha256": "69b7d2a7e8c92ad22459501085dc9256b1cdd80e6a69edb53a02d6669191525e",
+      "explainSha256": "bceba6fb26dd4c977adb801193ce4361ec772594ae37bf5f30682e6dd1e72e0b",
+      "flags": [],
+      "observation": "Зміна погляду на невдачу не є зміною зовнішніх умов чи ігноруванням перешкод.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:78:e0:seed20261105",
+      "id": 78,
+      "word": "～をよそに",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "dd6d0a681ca2e86e1ea8443d4068ca1a4b139645870c489da42cc6190f0a9524",
+      "promptSha256": "c6ef78686f3defe474905eb16ca2b2d0f45568ee8b63de1d39d0513355629591",
+      "choiceSha256": [
+        "1ab5424b52bed00663b0655e32ee811e501088ffc4e2d7acc416bc6484f37e6c",
+        "f2be75ef2e305596a2399445be26a5aa0aaa920ec89eb558918fa31442868b6d",
+        "69b7d2a7e8c92ad22459501085dc9256b1cdd80e6a69edb53a02d6669191525e",
+        "4582edfa6c26db77e42336b51ff4bf108f5d50220c2fadc933b10d9c1dee6c33"
+      ],
+      "answer": 1,
+      "correctSha256": "f2be75ef2e305596a2399445be26a5aa0aaa920ec89eb558918fa31442868b6d",
+      "explainSha256": "36bba5a1540010a9ff51b0e022438a41e9348176d1d93c5b6b8d32c62c714b4a",
+      "flags": [
+        "overlap",
+        "scope"
+      ],
+      "observation": "Ігнорування чужих побоювань перетинається з «без вагань»; додаткове загальне значення у ключі розмиває конкретний фокус.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:79:e0:seed20261105",
+      "id": 79,
+      "word": "〜をものともせず",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "94a3dc23ad4ea15a3f8af2d7590fbdc9ae76a24b170e1746157f905b0afe1f7e",
+      "promptSha256": "c0b97a0774cad20bcda50af5f9b6b9e0e7e4394b944df2bdf5833226ebdf8502",
+      "choiceSha256": [
+        "5b2321cebb662a60f772924e3b9adbe70492f00cca9714600e6b5f4f7e5786f2",
+        "69b7d2a7e8c92ad22459501085dc9256b1cdd80e6a69edb53a02d6669191525e",
+        "4582edfa6c26db77e42336b51ff4bf108f5d50220c2fadc933b10d9c1dee6c33",
+        "f454ba9dbef42dff5b8b746663543ec0c0c10ec462b8b76abc1d7676634cfd1c"
+      ],
+      "answer": 3,
+      "correctSha256": "f454ba9dbef42dff5b8b746663543ec0c0c10ec462b8b76abc1d7676634cfd1c",
+      "explainSha256": "1848f44685042e209a24be8d36d2be94446e047b24511f372fd3b87dec2f08f0",
+      "flags": [],
+      "observation": "Холод як перешкоду долають без зупинки; пристосування до стандарту й залежність від способу не підходять.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:80:e0:seed20261105",
+      "id": 80,
+      "word": "〜てはばからない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "8cae956796b23625b148ace87185badfe0181f088a8ec88ef5aa7464c55ebfe0",
+      "promptSha256": "f2b1895b41d71e41bee800e538a0228a47c523ec8ce50cccf4ee1bf895c1447c",
+      "choiceSha256": [
+        "f454ba9dbef42dff5b8b746663543ec0c0c10ec462b8b76abc1d7676634cfd1c",
+        "1ab5424b52bed00663b0655e32ee811e501088ffc4e2d7acc416bc6484f37e6c",
+        "69b7d2a7e8c92ad22459501085dc9256b1cdd80e6a69edb53a02d6669191525e",
+        "5b2321cebb662a60f772924e3b9adbe70492f00cca9714600e6b5f4f7e5786f2"
+      ],
+      "answer": 1,
+      "correctSha256": "1ab5424b52bed00663b0655e32ee811e501088ffc4e2d7acc416bc6484f37e6c",
+      "explainSha256": "fa7c7030d4e045182c9837c5ef133b2759466b69986ff1cfce147a04dd33b991",
+      "flags": [],
+      "observation": "Власну високу оцінку заявляють без сорому; реальну зовнішню перешкоду речення не називає.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:81:e0:seed20261105",
+      "id": 81,
+      "word": "〜にかたくない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "378e7098c201c6d66e3bcd7d4c3d55aa6263cd43eb06db27b1712d8e882e5e5b",
+      "promptSha256": "bb29faf9854b5c689594c0b3c49e41f0facde022839c053b0bead4c43cd274d2",
+      "choiceSha256": [
+        "feb3f37aa6aae1d9e4ac7fefc637accce649ab03096f884ef39e854a94b449b9",
+        "9bb5848e14c79ce906a7b2e725e7bf8b8cfebb687ebd3a3cdf1484c8ae9a496d",
+        "0a075aadbfca41f385905670d8cb62309b0872b5dce40b58bde272e4cacc0421",
+        "2147ba530f9d03caee8172d63e36a82184f12fcbddd3c6224c30a5b3be8d929a"
+      ],
+      "answer": 3,
+      "correctSha256": "2147ba530f9d03caee8172d63e36a82184f12fcbddd3c6224c30a5b3be8d929a",
+      "explainSha256": "5f75937c8a775cce5dae2b66c70cca27639015354cc6b7dc5e8d62a1c952b102",
+      "flags": [],
+      "observation": "Йдеться про легкість уявлення, не про бажаність дії, непотрібність дії чи нестерпне відчуття.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:82:e0:seed20261105",
+      "id": 82,
+      "word": "〜に越したことはない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "20078a5d40ee5f49d18c8f0053c116f6c3f7ab953c7201d32cb33bb6906fa98a",
+      "promptSha256": "207cff9aa27f1348bfeb2176a4eac21780f581b548148cae4d8588c2bd6f7031",
+      "choiceSha256": [
+        "feb3f37aa6aae1d9e4ac7fefc637accce649ab03096f884ef39e854a94b449b9",
+        "08730ece699a2193353c66f141f68d7a811e887bed5f1d903ed5efa9aa3f283c",
+        "0a075aadbfca41f385905670d8cb62309b0872b5dce40b58bde272e4cacc0421",
+        "9bb5848e14c79ce906a7b2e725e7bf8b8cfebb687ebd3a3cdf1484c8ae9a496d"
+      ],
+      "answer": 3,
+      "correctSha256": "9bb5848e14c79ce906a7b2e725e7bf8b8cfebb687ebd3a3cdf1484c8ae9a496d",
+      "explainSha256": "0da637a38e4b7736f74082b876b1916245a24a114b289334e5ff760b26da4bd5",
+      "flags": [
+        "duplicate_distractors"
+      ],
+      "observation": "Дві хибні відповіді майже тотожні: «немає потреби спеціально робити». Чотири різні рядки не означають чотири різні змісти.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:83:e0:seed20261105",
+      "id": 83,
+      "word": "〜までもない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "1ff8b1dc112bbda6404523a79a0e950e8d994f48058b40b29b6d30b745ceaa25",
+      "promptSha256": "9f00f8c8494d3c6193890ed6c04131581fa237cc51c62014ef3246103c5a2af7",
+      "choiceSha256": [
+        "9bb5848e14c79ce906a7b2e725e7bf8b8cfebb687ebd3a3cdf1484c8ae9a496d",
+        "feb3f37aa6aae1d9e4ac7fefc637accce649ab03096f884ef39e854a94b449b9",
+        "2147ba530f9d03caee8172d63e36a82184f12fcbddd3c6224c30a5b3be8d929a",
+        "08730ece699a2193353c66f141f68d7a811e887bed5f1d903ed5efa9aa3f283c"
+      ],
+      "answer": 3,
+      "correctSha256": "08730ece699a2193353c66f141f68d7a811e887bed5f1d903ed5efa9aa3f283c",
+      "explainSha256": "e0d3bf0dbf9067669d48aaf474c580c8ec89494acc379c2289cfb76f2337223c",
+      "flags": [],
+      "observation": "Повторна перевірка оцінена як зайва; альтернативи про бажаність, уявлення й нестерпність не дублюють ключ.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:84:e0:seed20261105",
+      "id": 84,
+      "word": "～てかなわない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "b6a16a29688557db8007f221caf28b7bd328f1de7058804debf71acec0207de9",
+      "promptSha256": "d9e106cd49826fd23c5517e6efd9a3474a1c06bfeb2cd54f6dae39aafae4683b",
+      "choiceSha256": [
+        "2147ba530f9d03caee8172d63e36a82184f12fcbddd3c6224c30a5b3be8d929a",
+        "0a075aadbfca41f385905670d8cb62309b0872b5dce40b58bde272e4cacc0421",
+        "9bb5848e14c79ce906a7b2e725e7bf8b8cfebb687ebd3a3cdf1484c8ae9a496d",
+        "feb3f37aa6aae1d9e4ac7fefc637accce649ab03096f884ef39e854a94b449b9"
+      ],
+      "answer": 3,
+      "correctSha256": "feb3f37aa6aae1d9e4ac7fefc637accce649ab03096f884ef39e854a94b449b9",
+      "explainSha256": "6ccce87d65c156bd4a05bb6f397c96c7406513dbff161c50795079515543d74a",
+      "flags": [],
+      "observation": "Нестерпний шум відділено від легкості уявлення, непотрібності та переваги іншої дії.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:85:e0:seed20261105",
+      "id": 85,
+      "word": "〜にたえない②",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "571a0bcabdfe5e5452408ee78fc8dd3f086580c1659d8c90763095421768c026",
+      "promptSha256": "7eba0204cd064f4910b93fdfb475a22f687fd3deccc2460de5f8dfef4fce6452",
+      "choiceSha256": [
+        "545fe1b220ec121c18b73bd941c8e11dcd83df0b1f1de6cdd195234598582640",
+        "df97dc532066066b335b5abeb1add899bbd63f8571c6ec26a103d88ec4a1e560",
+        "ef3f4fa6d6071f16c21cab10d578bedafb079dbd6da6b057dc1d0ccda86736d8",
+        "23318a4c6b71dbe268e0f240d81a37faeb583d82473fd5abf24142d0ac60c63f"
+      ],
+      "answer": 1,
+      "correctSha256": "df97dc532066066b335b5abeb1add899bbd63f8571c6ec26a103d88ec4a1e560",
+      "explainSha256": "186cbc18d9748570aa2d325ca3c47574fb62e1889d0f31a8e1e268bd2b6d0f41",
+      "flags": [],
+      "observation": "Точний C04-набір перевіряє сильну вдячність, не страждання від допомоги; повну картку g85 цим не зараховано.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:86:e0:seed20261105",
+      "id": 86,
+      "word": "〜にあたらない",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "f9b05d3c51d6741a05fb5e5cf41f51563774362b1fb8bbfd18807f4771e6336f",
+      "promptSha256": "7d7f4e3d0d54e02fe33110c71a8aba9f26079f659340e97f018732d2a4da91cb",
+      "choiceSha256": [
+        "351a0d4b653002a262bde3bf7bc449750fabec597c8b9c0614393ec0d1100507",
+        "2aaede9d56565c71ccc62672907cf09036094a93ecbec8284c594f673d60240f",
+        "9146c5e35d8e34fc601974d51b4f3602b454fce7e4537422dbae356b58bdc8a8",
+        "6bddb04b2bd260cb24cc3d418d3ee90725f151b741e3731c7be3b43ca4283f4b"
+      ],
+      "answer": 1,
+      "correctSha256": "2aaede9d56565c71ccc62672907cf09036094a93ecbec8284c594f673d60240f",
+      "explainSha256": "0aae6b1d4accbedb8c169cb364c217bb5192ca36b54164e4e8a439d9fd73630f",
+      "flags": [],
+      "observation": "Точний C04-набір протиставляє недоречність осуду його обов’язковості й іншим етапам з’ясування.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:87:e0:seed20261105",
+      "id": 87,
+      "word": "〜ないまでも",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "ca1e5922b5cee20185fa2752fb2986d1828439a17a5041e7a3c761aea7e82a4d",
+      "promptSha256": "abbc2ccfd6fd51fb9a4720ffcbf3fb9fad7f5cc96641ee38bdf0fe571894a6fd",
+      "choiceSha256": [
+        "3b9026fe143d9489f0612ecf2d869acc7fe81c00df3dbbe547158bf5a0ea8ce3",
+        "e0713fa9f9d7055085f6c7245699f8e133b6a4a65fcebefdb4e933536bd2df11",
+        "9d368254336ddc7c1b0961f09ccd9070ade471443ae474ae1ef137c4e0465a05",
+        "d7b2a9a108aae6822359eba2ff294721bfc4616ed6a0d60928421414485ab592"
+      ],
+      "answer": 3,
+      "correctSha256": "d7b2a9a108aae6822359eba2ff294721bfc4616ed6a0d60928421414485ab592",
+      "explainSha256": "a335acc3e87e899e2a8a95ff1b4d3cf3a6c886daa2e1f1caeb70e0952c554e22",
+      "flags": [
+        "hint"
+      ],
+      "observation": "У дистракторі залишено назву ないではおかない; замість довідникової примітки потрібне зіставне визначення.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:88:e0:seed20261105",
+      "id": 88,
+      "word": "〜ないでもない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "07321fec5966a9473f2e14e82853c31ff58625dd9d4092a600306fc49aa8526e",
+      "promptSha256": "a835ab91151e559d0b1b7e61e220c7a2057f9719bc9ffc485e952811985ad37a",
+      "choiceSha256": [
+        "3b9026fe143d9489f0612ecf2d869acc7fe81c00df3dbbe547158bf5a0ea8ce3",
+        "d7b2a9a108aae6822359eba2ff294721bfc4616ed6a0d60928421414485ab592",
+        "ec73781f40fc31fd6faaf3d325cfa928b9f313d80a50b7ec5ab0f3ddbb6157f7",
+        "e0713fa9f9d7055085f6c7245699f8e133b6a4a65fcebefdb4e933536bd2df11"
+      ],
+      "answer": 3,
+      "correctSha256": "e0713fa9f9d7055085f6c7245699f8e133b6a4a65fcebefdb4e933536bd2df11",
+      "explainSha256": "224792313783d6a6229b403d820d4a7395bcada4a792f77948a42d9507383a26",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Хибний варіант містить назву сусідньої форми; умови й неохоче прийняття слід перевіряти без такого маркера.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:89:e0:seed20261105",
+      "id": 89,
+      "word": "〜ずじまい",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "071ff48fdda26c758c5c99edfab15fd5b4be286f8a9688658f464e7e2001a9bc",
+      "promptSha256": "b05254a97ae430d8745980bc538ff50b8927f1b6adeb7fc6d0395652d4d49ab1",
+      "choiceSha256": [
+        "3b9026fe143d9489f0612ecf2d869acc7fe81c00df3dbbe547158bf5a0ea8ce3",
+        "e0713fa9f9d7055085f6c7245699f8e133b6a4a65fcebefdb4e933536bd2df11",
+        "d7b2a9a108aae6822359eba2ff294721bfc4616ed6a0d60928421414485ab592",
+        "9d368254336ddc7c1b0961f09ccd9070ade471443ae474ae1ef137c4e0465a05"
+      ],
+      "answer": 3,
+      "correctSha256": "9d368254336ddc7c1b0961f09ccd9070ade471443ae474ae1ef137c4e0465a05",
+      "explainSha256": "0949973b0c82877aa4d510e0eeb4fd520a42adff7ce4377a63b7afb45ec8c93d",
+      "flags": [
+        "hint",
+        "scope"
+      ],
+      "observation": "Є назва іншої форми в альтернативі; ключ додає активну спробу, хоча речення встановлює лише невиконану подяку.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:90:e0:seed20261105",
+      "id": 90,
+      "word": "～ないでは（ずには）おかない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "3376e1356ff04f58f1f28b3784a0dbadc13c421fdeff973038aff68baaf57b4a",
+      "promptSha256": "3e31500812b9e8d816b7c7a2b231d8d46150392d250ef65c6b547c161fcc6a2d",
+      "choiceSha256": [
+        "002f22247dfb4ee652a5ad20aa051be702c785b77fdc754883b0ef7a070ea826",
+        "e0713fa9f9d7055085f6c7245699f8e133b6a4a65fcebefdb4e933536bd2df11",
+        "ec73781f40fc31fd6faaf3d325cfa928b9f313d80a50b7ec5ab0f3ddbb6157f7",
+        "3b9026fe143d9489f0612ecf2d869acc7fe81c00df3dbbe547158bf5a0ea8ce3"
+      ],
+      "answer": 3,
+      "correctSha256": "3b9026fe143d9489f0612ecf2d869acc7fe81c00df3dbbe547158bf5a0ea8ce3",
+      "explainSha256": "73955809bc660b86195ec859b80a8b417db77e45faf98e8e62d2a4681ed95156",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Лише правильний варіант прямо повторює ないではおかない; знання значення для такого вибору не обов’язкове.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:91:e0:seed20261105",
+      "id": 91,
+      "word": "〜ないでは（ずには）すまない",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "5cb965c9bf9bf45632a8e76d9e52ebde6659f3766f68691f9131c6ffd3eeebfb",
+      "promptSha256": "d74bf3ee5b52d0b2e107aa20d48f2ba43f6c7beb97e34c50e58d37f50b649ded",
+      "choiceSha256": [
+        "3b9026fe143d9489f0612ecf2d869acc7fe81c00df3dbbe547158bf5a0ea8ce3",
+        "d7b2a9a108aae6822359eba2ff294721bfc4616ed6a0d60928421414485ab592",
+        "e0713fa9f9d7055085f6c7245699f8e133b6a4a65fcebefdb4e933536bd2df11",
+        "ec73781f40fc31fd6faaf3d325cfa928b9f313d80a50b7ec5ab0f3ddbb6157f7"
+      ],
+      "answer": 3,
+      "correctSha256": "ec73781f40fc31fd6faaf3d325cfa928b9f313d80a50b7ec5ab0f3ddbb6157f7",
+      "explainSha256": "927e4189247b3edfebd43b315da3c79735eea61bcf199fb6c9c3dd79fc160802",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Дистрактор називає ないではおかない, що дозволяє відкидати його за формою; потрібні відповіді про різні обставини відповідальності.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:92:e0:seed20261105",
+      "id": 92,
+      "word": "〜ないものか",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "b7d3ec1fdcdf517e5eedcfa11b0384ce5dc47e8fa1fae7457f00c2ec01f97814",
+      "promptSha256": "9e14564470d58ef1513de0efd6e27d759ac935bc073c70cf6fb9d3a99d351bf5",
+      "choiceSha256": [
+        "3b9026fe143d9489f0612ecf2d869acc7fe81c00df3dbbe547158bf5a0ea8ce3",
+        "9d368254336ddc7c1b0961f09ccd9070ade471443ae474ae1ef137c4e0465a05",
+        "d7b2a9a108aae6822359eba2ff294721bfc4616ed6a0d60928421414485ab592",
+        "002f22247dfb4ee652a5ad20aa051be702c785b77fdc754883b0ef7a070ea826"
+      ],
+      "answer": 3,
+      "correctSha256": "002f22247dfb4ee652a5ad20aa051be702c785b77fdc754883b0ef7a070ea826",
+      "explainSha256": "21a2349dda2ba5e64263e63e3cc1a8ecce85ba6c115b4d68ce7a757d8e1178e0",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Одна альтернатива містить назву іншої конструкції; перевіряти слід бажання знайти спосіб, а не впізнання довідникового підпису.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:93:e0:seed20261105",
+      "id": 93,
+      "word": "〜んばかり",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "bb23c2b0955bef629769b4b87a865c19b0433f41dcf821eca6b4d13864fc59a6",
+      "promptSha256": "be927519f8f1c147c1a8e3ea4feee7e3558b425aa3eed5cf24351fb055fad35d",
+      "choiceSha256": [
+        "ea0114433054517ae338c1f4c2fd8cc1fb7d4df41133f8322f979574bd2a968b",
+        "fa149520c45d263cfb6901a9ba035af5edb74c0861e0ff7d57ced0f5742a97cd",
+        "ab443bff8cc77c4ddce3b98df055ccee11f142bea38856fe4879d24cac7fcfab",
+        "103d7b894c102c8e25790c3277999b6e0584c7aca6132622f267e03f140534c2"
+      ],
+      "answer": 1,
+      "correctSha256": "fa149520c45d263cfb6901a9ba035af5edb74c0861e0ff7d57ced0f5742a97cd",
+      "explainSha256": "b212a47591bd28d76a8eb2085c82341aa78867d7cd6bd71e682eb7a61673401c",
+      "flags": [],
+      "observation": "Наближення до плачу не дорівнює просто статичній подібності; у цьому знімку ключ конкретніший без явного дубля.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:94:e0:seed20261105",
+      "id": 94,
+      "word": "〜なりに",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "25b49c1661c4bc4d4db56937467ec8d8f1b42332e342646875162dc24c88c7df",
+      "promptSha256": "9539a8d2df28c97f2315719f6487c8c3bbe6c3c58b4aa787d1406e5fff98c199",
+      "choiceSha256": [
+        "ab443bff8cc77c4ddce3b98df055ccee11f142bea38856fe4879d24cac7fcfab",
+        "22ab78ed4a510e0753dfd595f7455d3afa6a8fb5e5b09c36c11c608f4638d893",
+        "83b899d7accd83292cb7f4071e07040caf3e22fa79e807b35c8cd0bde0f7e37b",
+        "27d51f7acec0fe8b43946c76f4acb8cfccc40160768f682e35fe89669d20288c"
+      ],
+      "answer": 3,
+      "correctSha256": "27d51f7acec0fe8b43946c76f4acb8cfccc40160768f682e35fe89669d20288c",
+      "explainSha256": "0c1c6f5ffd0683a7df93efefb0400098226b3c475b85f30741bb7193fe08c826",
+      "flags": [],
+      "observation": "Індивідуальний спосіб відповідальності відділений від використання нагоди, часової межі та обставин як тла.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:95:e0:seed20261105",
+      "id": 95,
+      "word": "～にあって",
+      "exampleIndex": 0,
+      "route": "saved_set",
+      "sentenceSha256": "5958a9bf7a89dc0248ddd11e5797ab7943c7fe2463c0595cab15eef9260e1fd3",
+      "promptSha256": "9c0a293a0429faca191bc3197ba402d3ae19b39a92217e06a7ed71e178dfa18c",
+      "choiceSha256": [
+        "f533a2e61c9c7199ddf0f5ba369694857dabcbdf67633151574a131bbf8fff1e",
+        "b4a23d762dc28532323eb67a841c1ed90bb458e14236b9bb8269e0d71dda96ae",
+        "01aad296fe2d47f4f9f972e26a4ad5d636f9eee6e0e5f43305e83ca1308ec1d8",
+        "f52a26a302d7055f6cdc7751f93b1cbe805e21336e132425c380a85c5208d0f2"
+      ],
+      "answer": 1,
+      "correctSha256": "b4a23d762dc28532323eb67a841c1ed90bb458e14236b9bb8269e0d71dda96ae",
+      "explainSha256": "1227ff256e2faac0942321576325a22cc45d372a651cf76f438903c0fe6f886e",
+      "flags": [],
+      "observation": "Незмінний перевірений набір g95 відділяє обставини дії від часу після них, виняткової умови та неможливості.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:96:e0:seed20261105",
+      "id": 96,
+      "word": "〜にして",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "8fe2506a80b5887357e84cda2be0c5d0a51445e7175f6e1386e45123ca7d13bd",
+      "promptSha256": "2c09afefe660b9a7634cd9282a2e86b6994119ba720b6199eb04c4202469497b",
+      "choiceSha256": [
+        "27d51f7acec0fe8b43946c76f4acb8cfccc40160768f682e35fe89669d20288c",
+        "83b899d7accd83292cb7f4071e07040caf3e22fa79e807b35c8cd0bde0f7e37b",
+        "103d7b894c102c8e25790c3277999b6e0584c7aca6132622f267e03f140534c2",
+        "0b166b06be06dd7167a340034ef83c23911356d7f6f80b98723b81eac0f6fc29"
+      ],
+      "answer": 1,
+      "correctSha256": "83b899d7accd83292cb7f4071e07040caf3e22fa79e807b35c8cd0bde0f7e37b",
+      "explainSha256": "5a346d120a62a49256b5ba36e0eb2c1bece5a284c5ac1e81292497476be2f477",
+      "flags": [
+        "hint",
+        "scope"
+      ],
+      "observation": "Ключ повторює にして та містить друге значення одночасності; у реченні потрібне досягнення на певному етапі життя.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:97:e0:seed20261105",
+      "id": 97,
+      "word": "～のごとく",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "bff299a905769346151d4c108f45196023935cb93f1995cf3df078616a543452",
+      "promptSha256": "1ad2d6deac4e4cbd2f6a4e214e0117fa6afb3759544ca71e4c246d1c6af83086",
+      "choiceSha256": [
+        "83b899d7accd83292cb7f4071e07040caf3e22fa79e807b35c8cd0bde0f7e37b",
+        "103d7b894c102c8e25790c3277999b6e0584c7aca6132622f267e03f140534c2",
+        "0b166b06be06dd7167a340034ef83c23911356d7f6f80b98723b81eac0f6fc29",
+        "ab443bff8cc77c4ddce3b98df055ccee11f142bea38856fe4879d24cac7fcfab"
+      ],
+      "answer": 1,
+      "correctSha256": "103d7b894c102c8e25790c3277999b6e0584c7aca6132622f267e03f140534c2",
+      "explainSha256": "3d8824797a5cb25bfd13b075b459a6221171f012fd193f3bfd7792f6b0176094",
+      "flags": [
+        "hint"
+      ],
+      "observation": "В одному дистракторі явно названо たる者; його слід замінити чистим значенням, хоча ключ порівняння вірний.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:98:e0:seed20261105",
+      "id": 98,
+      "word": "〜てしかるべき",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "3b9a74cfdd518a641cbc5e9dde6358187d5853b68875743507c6387a7234296a",
+      "promptSha256": "76f1950b8e042963f11d818c0d2adc4ce5c9b176113e798aead661fc6b036ce3",
+      "choiceSha256": [
+        "b5ef9da9447e7859b36521515f5de18a5015f84269600c403ac58739f7afc3f5",
+        "ea0114433054517ae338c1f4c2fd8cc1fb7d4df41133f8322f979574bd2a968b",
+        "ab443bff8cc77c4ddce3b98df055ccee11f142bea38856fe4879d24cac7fcfab",
+        "5deb3529e7d63a763b1ad6f77cd25c2d48963132c22d29f1c70daff2120c140b"
+      ],
+      "answer": 1,
+      "correctSha256": "ea0114433054517ae338c1f4c2fd8cc1fb7d4df41133f8322f979574bd2a968b",
+      "explainSha256": "74020e0c5048159ee235d458e0fd68f31da3dde57a364d245b282f821fdcf59c",
+      "flags": [
+        "weak"
+      ],
+      "observation": "Деонтичну оцінку підвищення протиставлено далеким описам обставин і етапу; потрібні ближчі, але несумісні прочитання.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:99:e0:seed20261105",
+      "id": 99,
+      "word": "〜たる",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "1329764812d284bf38f47ebabc24348a76b6b390e9fdcb41034190badccc5d8d",
+      "promptSha256": "bff8859e6d10765d131ed8f5fbd7a5fbff156dff2515e7fab6c001fa13e4d032",
+      "choiceSha256": [
+        "103d7b894c102c8e25790c3277999b6e0584c7aca6132622f267e03f140534c2",
+        "0b166b06be06dd7167a340034ef83c23911356d7f6f80b98723b81eac0f6fc29",
+        "ab443bff8cc77c4ddce3b98df055ccee11f142bea38856fe4879d24cac7fcfab",
+        "83b899d7accd83292cb7f4071e07040caf3e22fa79e807b35c8cd0bde0f7e37b"
+      ],
+      "answer": 1,
+      "correctSha256": "0b166b06be06dd7167a340034ef83c23911356d7f6f80b98723b81eac0f6fc29",
+      "explainSha256": "f32c3c145938cd2cd3aa8109b109704a48911b03b3e06da2aa048e776dd363bc",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Правильний варіант прямо містить たる者, як і речення; це підказка за написанням.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:100:e0:seed20261105",
+      "id": 100,
+      "word": "〜にしたところで",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "39be411e648256a9c59015cde2fb1e03caf56b07456ed3bf31956cc433a484ef",
+      "promptSha256": "fbaf665145c95e7498ed9e9321193f17d01e39bc8b2a0f856e737baf5d567562",
+      "choiceSha256": [
+        "83b899d7accd83292cb7f4071e07040caf3e22fa79e807b35c8cd0bde0f7e37b",
+        "5deb3529e7d63a763b1ad6f77cd25c2d48963132c22d29f1c70daff2120c140b",
+        "27d51f7acec0fe8b43946c76f4acb8cfccc40160768f682e35fe89669d20288c",
+        "b5ef9da9447e7859b36521515f5de18a5015f84269600c403ac58739f7afc3f5"
+      ],
+      "answer": 3,
+      "correctSha256": "b5ef9da9447e7859b36521515f5de18a5015f84269600c403ac58739f7afc3f5",
+      "explainSha256": "b200c845705872e4c716d48bdbb394713c63a59babb43f30806e01304cd3dade",
+      "flags": [],
+      "observation": "Керівники також не були винятком; спосіб, час досягнення й новий етап не є цим значенням «навіть вони».",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:101:e0:seed20261105",
+      "id": 101,
+      "word": "〜ともなると",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7f5f4732490cfc72a7db279923f4a0fda81ddd09a4e78c042a4d158a4a0bf6e1",
+      "promptSha256": "b956d3fe017fc648fdd52eeafedbd6359e6369f003c1dd6d50ee1376accc5323",
+      "choiceSha256": [
+        "27d51f7acec0fe8b43946c76f4acb8cfccc40160768f682e35fe89669d20288c",
+        "22ab78ed4a510e0753dfd595f7455d3afa6a8fb5e5b09c36c11c608f4638d893",
+        "b5ef9da9447e7859b36521515f5de18a5015f84269600c403ac58739f7afc3f5",
+        "5deb3529e7d63a763b1ad6f77cd25c2d48963132c22d29f1c70daff2120c140b"
+      ],
+      "answer": 3,
+      "correctSha256": "5deb3529e7d63a763b1ad6f77cd25c2d48963132c22d29f1c70daff2120c140b",
+      "explainSha256": "64f476280b39b2778caf190ccf7774b92a83724e1cd93fe8283c707e81f1bf74",
+      "flags": [],
+      "observation": "Посада змінює очікування щодо поведінки; не йдеться про особистий стиль або виняток із загального правила.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:102:e0:seed20261105",
+      "id": 102,
+      "word": "〜のをいいことに",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "f86e17e9a0d072d8e151659d0496459e29c8c17c314b62dc37dd5c38280621be",
+      "promptSha256": "6ae542de7b9f6db862b2b0ea4b582637fd342c2c4aba3e095efa2bf78840cdbb",
+      "choiceSha256": [
+        "5deb3529e7d63a763b1ad6f77cd25c2d48963132c22d29f1c70daff2120c140b",
+        "ab443bff8cc77c4ddce3b98df055ccee11f142bea38856fe4879d24cac7fcfab",
+        "27d51f7acec0fe8b43946c76f4acb8cfccc40160768f682e35fe89669d20288c",
+        "22ab78ed4a510e0753dfd595f7455d3afa6a8fb5e5b09c36c11c608f4638d893"
+      ],
+      "answer": 3,
+      "correctSha256": "22ab78ed4a510e0753dfd595f7455d3afa6a8fb5e5b09c36c11c608f4638d893",
+      "explainSha256": "fcd1a10bd8a430625efcc9013078bc4f22d7c14f7dfa49bcbd861590ddd4d74d",
+      "flags": [],
+      "observation": "Мовчання підлеглого використовують як вигідну нагоду; саме тло без зловживання не вичерпує змісту.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:103:e0:seed20261105",
+      "id": 103,
+      "word": "〜にたる",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "948a4e09c8729c4da96d2413af64a7f44e3cc78e5837346439a86e86929ed217",
+      "promptSha256": "06a1faf4a0018b8f161daf101605afde584aebfa5f608f1d37ce0c96ce8426aa",
+      "choiceSha256": [
+        "a7595d61af3bd059e26769ad647570bcd0ef4a8ed835fcef58468eb3f4778b71",
+        "7275fc798528fc0a3e508908c2abefe9e1bfe8c31f28ccc6dc79d13acb6c16cf",
+        "9ed5f78c5cd40f96e877e341b77c6a8cad10d576efac4a9eefede6bddda7cfd4",
+        "6f7ae95c7972663111c6cb9982382548b00154eb19dcad1e7e6bc3ccf264554d"
+      ],
+      "answer": 2,
+      "correctSha256": "9ed5f78c5cd40f96e877e341b77c6a8cad10d576efac4a9eefede6bddda7cfd4",
+      "explainSha256": "f65d34409c656ed83c2f3846541b326bfcc5d3170729765edefe0c9f55d98aad",
+      "flags": [
+        "hint",
+        "length"
+      ],
+      "observation": "Один дистрактор перераховує три назви кількісних форм і значно довший; його можна відкинути за довідниковою структурою.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:104:e0:seed20261105",
+      "id": 104,
+      "word": "〜ずくめ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "7051552fb3d46cf9ffbf57f636dc41339cdc7cfb619acd8824ce09b73533541a",
+      "promptSha256": "6e1bf56cc781fb821963b4569bb4e85ce52a1ad3669ec05de56e53196c6a902b",
+      "choiceSha256": [
+        "7275fc798528fc0a3e508908c2abefe9e1bfe8c31f28ccc6dc79d13acb6c16cf",
+        "c9d77b37b043a5ae0ef2b477548cd75de40694de1c97121b2e46bee21434d728",
+        "2a0abccdb0cb54ad19a62c2e4ccd6c95ff3eb0e71bcd6fac5967ddc6671ad4f9",
+        "46e5d3e16380c52d34f5473ae962a7185e69cf4ea9bd550b74d955ba9cf2e453"
+      ],
+      "answer": 1,
+      "correctSha256": "c9d77b37b043a5ae0ef2b477548cd75de40694de1c97121b2e46bee21434d728",
+      "explainSha256": "837c323ee189d2737e115563438fe6522545edd916159d0afd4bfbfbe378a386",
+      "flags": [
+        "hint",
+        "overlap"
+      ],
+      "observation": "У дистракторах є назви форм; загальне «усе складається з» перетинається з метафоричною зануреністю в погане.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:105:e0:seed20261105",
+      "id": 105,
+      "word": "〜まみれ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "1c006dc116988fcdcf9140ac504186a0884fc6eec1bf7f53bb93d6c08a6bb059",
+      "promptSha256": "4e17e96257459fbcac9db1d526e17318c47f635dc8311e3847643136c5155276",
+      "choiceSha256": [
+        "7275fc798528fc0a3e508908c2abefe9e1bfe8c31f28ccc6dc79d13acb6c16cf",
+        "46e5d3e16380c52d34f5473ae962a7185e69cf4ea9bd550b74d955ba9cf2e453",
+        "2a0abccdb0cb54ad19a62c2e4ccd6c95ff3eb0e71bcd6fac5967ddc6671ad4f9",
+        "c9d77b37b043a5ae0ef2b477548cd75de40694de1c97121b2e46bee21434d728"
+      ],
+      "answer": 1,
+      "correctSha256": "46e5d3e16380c52d34f5473ae962a7185e69cf4ea9bd550b74d955ba9cf2e453",
+      "explainSha256": "3e465cf8a29d77004fb35c452d865fb0ac6e7576d42a033acc9f71cb6fa56cb8",
+      "flags": [
+        "hint",
+        "overlap"
+      ],
+      "observation": "Ключ прямо називає まみれる; «весь у / повний» також є ширшим описом покриття оливою й потребує точнішої альтернативи.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:106:e0:seed20261105",
+      "id": 106,
+      "word": "～めく",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "93d2edfd887fb86a567076fff42001f248b101d1bfcdafdc07f68df2552601d8",
+      "promptSha256": "a2fe5fc36bac37fecf18ddb4d8980531334ede0a4674c61007991c3b8edf5063",
+      "choiceSha256": [
+        "89d29896711f54ca279026f1fd718ad594e14cd1c08e942c774f56fd73aed8c3",
+        "02c0082af4f349c2371a798dfc1d0973cd8632dc2b5e5671879c8c0515fbbbbb",
+        "6dffb9d4954879c5d716d4b5c97fbe02dd8bef8c8dd41d1b56e78b5487c73b05",
+        "742c40226fc7ebd1bdb346f51ffdf816e0d2448a3397023f2e77d9c1f81bd408"
+      ],
+      "answer": 1,
+      "correctSha256": "02c0082af4f349c2371a798dfc1d0973cd8632dc2b5e5671879c8c0515fbbbbb",
+      "explainSha256": "c3c7a9424f2828a90db67dfa30dd6b52910ddbf422c7c9225dfba96ce4137be7",
+      "flags": [],
+      "observation": "Точний C04-набір описує відтінок іронії в наявному висловлюванні, а не майбутній намір чи щиру похвалу.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:107:e0:seed20261105",
+      "id": 107,
+      "word": "〜からある・〜からいる・〜からする",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "f957f2b1dcbe3a752a88a8325a5a7a9875959b3cdb32c4aae9ad3353ac619844",
+      "promptSha256": "9f2c171d461896547e61ed7973c4bf6bc5b2915822bba35f1622b4726cfa572a",
+      "choiceSha256": [
+        "46e5d3e16380c52d34f5473ae962a7185e69cf4ea9bd550b74d955ba9cf2e453",
+        "c9d77b37b043a5ae0ef2b477548cd75de40694de1c97121b2e46bee21434d728",
+        "6f7ae95c7972663111c6cb9982382548b00154eb19dcad1e7e6bc3ccf264554d",
+        "bfc9fda2022836c2c0b7ee51a08f2076885f3e0bd0b32f558d53d194c68b4236"
+      ],
+      "answer": 2,
+      "correctSha256": "6f7ae95c7972663111c6cb9982382548b00154eb19dcad1e7e6bc3ccf264554d",
+      "explainSha256": "b136d367e7af8869d732f77600c7b49397261626487ce95f04fd264e15f70df4",
+      "flags": [
+        "hint",
+        "length"
+      ],
+      "observation": "Правильний варіант дослівно перелічує всі три форми заголовка та правила приєднання; це сильна підказка.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:108:e0:seed20261105",
+      "id": 108,
+      "word": "～と相まって",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "84bb7d50b82fad29a2d6e9fb44cf528b6a200cac6545394219d1c5475eb309c9",
+      "promptSha256": "dbd22ef772861a6a784dc6aeb16cf64570a7e22ea5247e56d1029e54e7f5f3ae",
+      "choiceSha256": [
+        "7275fc798528fc0a3e508908c2abefe9e1bfe8c31f28ccc6dc79d13acb6c16cf",
+        "8e7c99bc459406f5b7ea5f4db3ec5b1ce38cf2bf9a0d29c170ae97d6b52260ab",
+        "a7595d61af3bd059e26769ad647570bcd0ef4a8ed835fcef58468eb3f4778b71",
+        "6f7ae95c7972663111c6cb9982382548b00154eb19dcad1e7e6bc3ccf264554d"
+      ],
+      "answer": 2,
+      "correctSha256": "a7595d61af3bd059e26769ad647570bcd0ef4a8ed835fcef58468eb3f4778b71",
+      "explainSha256": "fc1a948bd3da89fbd29cbbf5214ff774a51a6dcb0cd75795bfbac5c66ab33c1a",
+      "flags": [
+        "hint",
+        "length"
+      ],
+      "observation": "У дистракторі надлишковий довгий перелік кількісних форм; відповіді мають зіставляти вплив двох чинників.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:109:e0:seed20261105",
+      "id": 109,
+      "word": "〜を踏まえて",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "e85dfeb3341befcf3641ba56b4182afe42c6cc770706a12c9b717b9cdac8b102",
+      "promptSha256": "64377042db9aa19d4af5e14923e8b544e60c64aefaa43b98aaddd3c97f29b159",
+      "choiceSha256": [
+        "bfc9fda2022836c2c0b7ee51a08f2076885f3e0bd0b32f558d53d194c68b4236",
+        "a7595d61af3bd059e26769ad647570bcd0ef4a8ed835fcef58468eb3f4778b71",
+        "7275fc798528fc0a3e508908c2abefe9e1bfe8c31f28ccc6dc79d13acb6c16cf",
+        "6f7ae95c7972663111c6cb9982382548b00154eb19dcad1e7e6bc3ccf264554d"
+      ],
+      "answer": 2,
+      "correctSha256": "7275fc798528fc0a3e508908c2abefe9e1bfe8c31f28ccc6dc79d13acb6c16cf",
+      "explainSha256": "2b044111297886303f5c10d34d3d3ca9cb41febc6ebd9e3de1d089e8a5d6abf4",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Ключ повторює 踏まえた; інший варіант містить перелік трьох форм. Потрібен парафраз урахування попередніх обставин без назв.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:110:e0:seed20261105",
+      "id": 110,
+      "word": "〜を経て",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "32eb0fe96f233104455b776e1a8435f5d79e6c678d9b5ef3a99cae8e50d28db5",
+      "promptSha256": "6b6b5d1a6e295bcb73625d3521187dd101bf8f1ac81dadef45400bc2a2436e5b",
+      "choiceSha256": [
+        "bfc9fda2022836c2c0b7ee51a08f2076885f3e0bd0b32f558d53d194c68b4236",
+        "a7595d61af3bd059e26769ad647570bcd0ef4a8ed835fcef58468eb3f4778b71",
+        "8e7c99bc459406f5b7ea5f4db3ec5b1ce38cf2bf9a0d29c170ae97d6b52260ab",
+        "6f7ae95c7972663111c6cb9982382548b00154eb19dcad1e7e6bc3ccf264554d"
+      ],
+      "answer": 2,
+      "correctSha256": "8e7c99bc459406f5b7ea5f4db3ec5b1ce38cf2bf9a0d29c170ae97d6b52260ab",
+      "explainSha256": "d500e5a6278b69aa08241df3c3a6124ee9ada9be70dc98ffcecd41b84f373899",
+      "flags": [
+        "hint",
+        "length"
+      ],
+      "observation": "Зайвий довгий перелік кількісних конструкцій у хибній відповіді; зміст проходження етапів сам по собі зрозумілий.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:111:e0:seed20261105",
+      "id": 111,
+      "word": "～にかこつけて",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "fde3922df56057f785eff16a87baf3443e5c474a331b70784612fe9b8e9b4317",
+      "promptSha256": "247b89004aeed6b86105ab124fd992bdf390babf027067444337552b8a85bd96",
+      "choiceSha256": [
+        "7275fc798528fc0a3e508908c2abefe9e1bfe8c31f28ccc6dc79d13acb6c16cf",
+        "8e7c99bc459406f5b7ea5f4db3ec5b1ce38cf2bf9a0d29c170ae97d6b52260ab",
+        "2a0abccdb0cb54ad19a62c2e4ccd6c95ff3eb0e71bcd6fac5967ddc6671ad4f9",
+        "6f7ae95c7972663111c6cb9982382548b00154eb19dcad1e7e6bc3ccf264554d"
+      ],
+      "answer": 2,
+      "correctSha256": "2a0abccdb0cb54ad19a62c2e4ccd6c95ff3eb0e71bcd6fac5967ddc6671ad4f9",
+      "explainSha256": "1d507f1dfd6efe82fcbf1d1a6bf37e8d8216ad43ff05265d9bf697c0e84c8778",
+      "flags": [
+        "hint",
+        "length"
+      ],
+      "observation": "Кількісний дистрактор має довідниковий перелік назв; для приводу й реальної мети потрібні ближчі альтернативи.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:112:e0:seed20261105",
+      "id": 112,
+      "word": "〜であれ〜であれ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "4a0a8805611a26e3e0622c6586bcd21c745bb510bb761cf64df3ee3756c384af",
+      "promptSha256": "89aa11598253ffc97759a07dd76f8850361fb38f77f133470bd1a7e63d8bfc4c",
+      "choiceSha256": [
+        "a01f98fffa29af8e6c71044f40b9bf3ef3aaa8fe4d6ed6818a068f2f6860ac7e",
+        "282403caa0470c1a8d4b14e56b0dac53b38a60176c8efb4797a74e16434f4c3b",
+        "01dec26ae18b5edb3955b9e17a20d41c5ad9db12d80015ceb524d92e01143b51",
+        "76f8b77b669c0a267bda1b9295bb4c038c54eaed9de2552c2e6134809c264f72"
+      ],
+      "answer": 1,
+      "correctSha256": "282403caa0470c1a8d4b14e56b0dac53b38a60176c8efb4797a74e16434f4c3b",
+      "explainSha256": "d2184f2a23ca1d9f06aa3cf6d1bc1a1c57d84eb4954790196a6116cb44e06c91",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Дистрактор するともなく і варіант なら〜で названі формулами; значення обох класів компаній треба протиставляти без підписів.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:113:e0:seed20261105",
+      "id": 113,
+      "word": "〜ともなく",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "3ff54a7daea6ec915ac9c19a2f318653914b9cfbc03ad0405fcb01d09839910e",
+      "promptSha256": "0d36c8ed07b521f723500ad5a39883b531f71fc91f5e1e31f7a9ffa0d5c7b4f9",
+      "choiceSha256": [
+        "a01f98fffa29af8e6c71044f40b9bf3ef3aaa8fe4d6ed6818a068f2f6860ac7e",
+        "76f8b77b669c0a267bda1b9295bb4c038c54eaed9de2552c2e6134809c264f72",
+        "01dec26ae18b5edb3955b9e17a20d41c5ad9db12d80015ceb524d92e01143b51",
+        "3da0c7f835dd51ee210ef38fb4d33424ad1941f863371bf338a71eaa947aad8c"
+      ],
+      "answer": 2,
+      "correctSha256": "01dec26ae18b5edb3955b9e17a20d41c5ad9db12d80015ceb524d92e01143b51",
+      "explainSha256": "76445ad605c043c92d7ba8158cf07a3219120a0906168022947c8d550ab7294b",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Правильний варіант починається з するともなく, а хибний містить なりBなり; відповідь видає формула.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:114:e0:seed20261105",
+      "id": 114,
+      "word": "〜といい〜といい",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "fb6048b3be1bb18ab1c119708b98416986a824c376e121ee9a0a51871c7fba07",
+      "promptSha256": "73336bb1b4a7d2e141ab2c19507b94119c6fde9c6c8881b155e8664675543175",
+      "choiceSha256": [
+        "f782513e94242f33643540de4c672fb2fff1a548eef0998619f78b8d510c9e56",
+        "1524da6cf3cb46fef2cf61a6584ac419ee076ae5720906d51d0f15c6d9078152",
+        "927df0d91f18369c83d9dfad177ab86fb480f927c8b8679d0e4e83b739c97bda",
+        "a7b5f2b5dc28adaa6aac94d960fb06c608c90c591e94bd1be8c41641e3f1ebee"
+      ],
+      "answer": 2,
+      "correctSha256": "927df0d91f18369c83d9dfad177ab86fb480f927c8b8679d0e4e83b739c97bda",
+      "explainSha256": "01ac4b401c90c149d77bb4c942e9a00929bf59533e1cfe1b39605d6769181ce7",
+      "flags": [],
+      "observation": "Оцінювання двох різних аспектів відрізняється від вагання, взаємної зміни дій та максимального ступеня.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:115:e0:seed20261105",
+      "id": 115,
+      "word": "～なり～なり",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "4d03122e450c1287aba873dc2b4636b511a024a121606f04c36b80de35b065a2",
+      "promptSha256": "06b17012663c5ef7813ff638df09f57e7eaffd7dcd5826e2f0f611d5d06d3293",
+      "choiceSha256": [
+        "1524da6cf3cb46fef2cf61a6584ac419ee076ae5720906d51d0f15c6d9078152",
+        "3da0c7f835dd51ee210ef38fb4d33424ad1941f863371bf338a71eaa947aad8c",
+        "f782513e94242f33643540de4c672fb2fff1a548eef0998619f78b8d510c9e56",
+        "b6c3b6b889e1be7081e91cb88162ab994120bfb7016f386f5cb696d26cf763fa"
+      ],
+      "answer": 1,
+      "correctSha256": "3da0c7f835dd51ee210ef38fb4d33424ad1941f863371bf338a71eaa947aad8c",
+      "explainSha256": "fbfd53118d95ae2f998974aea3848af6fba29dca912d9002034e0853d37515a0",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Лише правильний варіант відтворює AなりBなり; прибрати формулу з вибору відповіді.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:116:e0:seed20261105",
+      "id": 116,
+      "word": "〜つ〜つ",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "07342134afb3997e12b5ff8f7747f935097d3efdadd3468f9d2a64d8ffea3144",
+      "promptSha256": "e396b32ee20157965137150f302947172d880a806842d3cde963b0253e769466",
+      "choiceSha256": [
+        "927df0d91f18369c83d9dfad177ab86fb480f927c8b8679d0e4e83b739c97bda",
+        "1524da6cf3cb46fef2cf61a6584ac419ee076ae5720906d51d0f15c6d9078152",
+        "f782513e94242f33643540de4c672fb2fff1a548eef0998619f78b8d510c9e56",
+        "a01f98fffa29af8e6c71044f40b9bf3ef3aaa8fe4d6ed6818a068f2f6860ac7e"
+      ],
+      "answer": 2,
+      "correctSha256": "f782513e94242f33643540de4c672fb2fff1a548eef0998619f78b8d510c9e56",
+      "explainSha256": "8785c947f6e9aacf03c55110e28c293023801112cf882b47a95eed4ef222b7f9",
+      "flags": [
+        "overlap"
+      ],
+      "observation": "Чергування взаємних дій і повторення дії описані занадто широко; перевірка має відділити обгін по черзі від однакової дії одного учасника.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:117:e0:seed20261105",
+      "id": 117,
+      "word": "～ては～ては",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "13ef028f143f445103772cdc6a6d8bd2f5af9c444823b2914dba05bd5b3470a6",
+      "promptSha256": "3a6c1c204964b3c9a89f558cbaeb0c2054ddfad8f8e6bd4d751317a27a79f12b",
+      "choiceSha256": [
+        "282403caa0470c1a8d4b14e56b0dac53b38a60176c8efb4797a74e16434f4c3b",
+        "a01f98fffa29af8e6c71044f40b9bf3ef3aaa8fe4d6ed6818a068f2f6860ac7e",
+        "76f8b77b669c0a267bda1b9295bb4c038c54eaed9de2552c2e6134809c264f72",
+        "f782513e94242f33643540de4c672fb2fff1a548eef0998619f78b8d510c9e56"
+      ],
+      "answer": 1,
+      "correctSha256": "a01f98fffa29af8e6c71044f40b9bf3ef3aaa8fe4d6ed6818a068f2f6860ac7e",
+      "explainSha256": "734406501b9c7c0758d74c3204b4efe5efde53a8f9371275c28cefd026fd4cc8",
+      "flags": [
+        "hint"
+      ],
+      "observation": "Ключ повторює しては〜し; варто передати чергування написання й стирання без готової формули.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:118:e0:seed20261105",
+      "id": 118,
+      "word": "〜といおうか〜といおうか",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "51e086244920336b564f2739777b2927fcc35809f3288e86330e9832c470b7ff",
+      "promptSha256": "6d895b3e2f61f8443378af7c67fd3bc3a1a0e4aefa0257de4d7de42aaa656cb4",
+      "choiceSha256": [
+        "f782513e94242f33643540de4c672fb2fff1a548eef0998619f78b8d510c9e56",
+        "927df0d91f18369c83d9dfad177ab86fb480f927c8b8679d0e4e83b739c97bda",
+        "1524da6cf3cb46fef2cf61a6584ac419ee076ae5720906d51d0f15c6d9078152",
+        "a01f98fffa29af8e6c71044f40b9bf3ef3aaa8fe4d6ed6818a068f2f6860ac7e"
+      ],
+      "answer": 2,
+      "correctSha256": "1524da6cf3cb46fef2cf61a6584ac419ee076ae5720906d51d0f15c6d9078152",
+      "explainSha256": "4c75aacd93b2f177119e1a31ee9e66719739a5ded77aecb5d61689eddcfe0660",
+      "flags": [],
+      "observation": "Вагання між назвами оцінки відділено від окремої оцінки двох аспектів і повторюваних дій.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:119:e0:seed20261105",
+      "id": 119,
+      "word": "〜といわず〜といわず",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "1587adcf2890f1ba6c1b7f419e56d5c82d5a954194081dcd62b9d42b0b99f53c",
+      "promptSha256": "59a7381256d0fc455121a46b3fb365f66bdba024cf1200ebd04753418d378b20",
+      "choiceSha256": [
+        "282403caa0470c1a8d4b14e56b0dac53b38a60176c8efb4797a74e16434f4c3b",
+        "b6c3b6b889e1be7081e91cb88162ab994120bfb7016f386f5cb696d26cf763fa",
+        "a01f98fffa29af8e6c71044f40b9bf3ef3aaa8fe4d6ed6818a068f2f6860ac7e",
+        "3da0c7f835dd51ee210ef38fb4d33424ad1941f863371bf338a71eaa947aad8c"
+      ],
+      "answer": 1,
+      "correctSha256": "b6c3b6b889e1be7081e91cb88162ab994120bfb7016f386f5cb696d26cf763fa",
+      "explainSha256": "725e446a1bfa8f89ef966b80c4dcbb6d9b6fe43eec7568ce9435b3009a6b9f24",
+      "flags": [
+        "hint",
+        "overlap"
+      ],
+      "observation": "Є формула なりBなり у хибній відповіді; «в обох випадках однаковий результат» близьке до всіх часів без розрізнення.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:120:e0:seed20261105",
+      "id": 120,
+      "word": "～なら～で",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "ef5e8b7d87515421d09df016bb76c49e917f4dbab2976eada4273c17d134ccec",
+      "promptSha256": "b2ffd26d7d60356cad5ad0be0ca6e7e52271b3d9e01bf8b3bd6ca6e7722f0f0b",
+      "choiceSha256": [
+        "8a73d945bc7bd25b0849f9769fbf7e9c75e7760f562af63e1475bbd4962bba37",
+        "992640999368471e119d8611db6fe5ed5dc0c7d285ccf2583ec970edf4e64145",
+        "ceb1e0273f9584a6ef1b7b30efae5b0ac7154294fe33df0753048f9bd42995a8",
+        "2ccbba4b262a5a25d54e553a265c28a4e7f14d4bf12a24d3dc74b6602c641345"
+      ],
+      "answer": 1,
+      "correctSha256": "992640999368471e119d8611db6fe5ed5dc0c7d285ccf2583ec970edf4e64145",
+      "explainSha256": "ad019e83b526c78c7520b5990391e3bcd9dbfac156e5a3c9001f838194e816b8",
+      "flags": [],
+      "observation": "Точний C04-набір відділяє пристосування до наявної зайнятості від очікування її завершення чи скасування всіх справ.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:121:e0:seed20261105",
+      "id": 121,
+      "word": "〜させていただく",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "e6a59c32211204be56ff82156d3e978d345b50492c569816b57601ee40b08950",
+      "promptSha256": "8989fbba8bd7d49a998be6131dfc8d237a61243fbc43324bf3e23f5e72814126",
+      "choiceSha256": [
+        "a76b5d446fc301ca52b4fe7522b34615f68bd472cdfee9a93ceaec6af58241d5",
+        "f293a111c787daca3890683a412d5eb5518d24b0414e0d5ea9ea494654a256c0",
+        "b69d78e53bbe018bddf35a7acd1ce351df848e3ac6d326d62ed457addfaf6349",
+        "323f0c6271e55906f58e7fdda365d44f4d77832a7b5416a90ce36e46b4e72e3a"
+      ],
+      "answer": 1,
+      "correctSha256": "f293a111c787daca3890683a412d5eb5518d24b0414e0d5ea9ea494654a256c0",
+      "explainSha256": "95405f7920db2ba0546a7981eb4f80c3e8f6c7e8f559232c583ef0d91be95ec4",
+      "flags": [],
+      "observation": "Точний C04-набір зберігає власну дію, надану нагоду й скромний виклад; не переносить дію на слухача.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:122:e0:seed20261105",
+      "id": 122,
+      "word": "〜ていただく",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "596eb7d68f120556ed6db62f52b70ed2c0ac827392318ce5d528eaeab69334f1",
+      "promptSha256": "c82222c78f0fb5f2ce2f383e43f3b0fe220f416bba044ddba8cab48b29c22879",
+      "choiceSha256": [
+        "99037b9b7d45d5a92cf8d971f2c9e806a56f68a82d11f37c4122a89abc7e7bbd",
+        "a7fdfdc15a28de063cd7c7698a582eb69cd4c9fe13ef0a40365356b3e1298742",
+        "0d4777cfa22257203fbe51772487785fa786b9485c02c38c2c25d8d3c5ca74ab",
+        "98396df3474f6e5bf1270701cb18c70cac17c87272dbe1d5133b58008bb35e23"
+      ],
+      "answer": 1,
+      "correctSha256": "a7fdfdc15a28de063cd7c7698a582eb69cd4c9fe13ef0a40365356b3e1298742",
+      "explainSha256": "419ea8a8cb437574784a81175ee01c5a35041f94efdc78d060ee8bee2b353d96",
+      "flags": [],
+      "observation": "Точний C04-набір відділяє отриману допомогу від власного виправлення, дозволу й наказу.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:123:e0:seed20261105",
+      "id": 123,
+      "word": "お / ご〜願う",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "36563800f939acc3662277fb81ea57885fa9fbed132033d5ef338faf2ae0e204",
+      "promptSha256": "00838819cef098b3a53e59a945ce9d31cea967eba4066a288d1e0fc05ed92b2d",
+      "choiceSha256": [
+        "2670c793afd37156233477220144fca0115ac28d7318db697acd494db4d938df",
+        "bc924f21019ce6fe34331142d15ecaeee914c2e7264c9fee7ec2d2cc29629c4d",
+        "6ff2bcdc3ee849d4e9ced4c7455262eb0a71ccd424bb220da967fc40d64eea19",
+        "12332d41508c06402801fbd012a5959f50c6c4c3fe4fe3710219c5ffa2cc6576"
+      ],
+      "answer": 1,
+      "correctSha256": "bc924f21019ce6fe34331142d15ecaeee914c2e7264c9fee7ec2d2cc29629c4d",
+      "explainSha256": "32a40bec62993538618b284a127ea0a52e002917f44bf56a4d5ae69f5ecf8500",
+      "flags": [],
+      "observation": "Точний C04-набір перевіряє прохання до співрозмовника, не власну дію, подяку чи скасування потреби.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:124:e0:seed20261105",
+      "id": 124,
+      "word": "お / ご〜くださる",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "b8943a49f2b7346e789e68642506300dbec692ac431a6d9afed9adb6392e5f0f",
+      "promptSha256": "519050a1f33b8e026380f51f29ccc490d711cfbe22f443e6004a74b4f0e9eb39",
+      "choiceSha256": [
+        "58c8864a9ccc388fde26e154ebfb6751fcc9d3c6a81d8f56d76061af42e54ac8",
+        "01064547e2d8290438b4bddd78baeb36946c21beb0da1999e0a6551d29b131dc",
+        "5561bcd16d3fc774abb75b345691c5a82669a14b07d19744e2adc2019d97d421",
+        "49062871e900f7647b44be4b0110b6ab0f727e5e41b3e6a72d565fa52452023c"
+      ],
+      "answer": 1,
+      "correctSha256": "01064547e2d8290438b4bddd78baeb36946c21beb0da1999e0a6551d29b131dc",
+      "explainSha256": "3d9eb86e57abe483a2ae6b2d0dba20453178d6bc93b8ccbfa6df3f8316a6bcbd",
+      "flags": [],
+      "observation": "Точний C04-набір зберігає прихід керівника та ставлення мовця; не підміняє це власним відвіданням.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:125:e0:seed20261105",
+      "id": 125,
+      "word": "お / ご〜いただく",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "1ff8dbc511567066d377277169edcc56b7d0daf246c1e8417a86425b76aee4fe",
+      "promptSha256": "8c9720c06a9c6ace329702f42658320f4833a8fcfb1ed712a3e736bf8ab867e4",
+      "choiceSha256": [
+        "faf75353f31f5975ce537f872526923cec36f72d8287ed4b9720caf4bef0c40f",
+        "8da7dc9d8feb7508c9745188e3beb185fcbd0936565e8e8849dc00ee185f581e",
+        "5877a3fc3d65bcf110a2c22bb95dea5388dea4ede2c99384ddfdea49e89a7ba0",
+        "a324384254f42af0620ac5381fc5157219048a9af704ed4f1e6fe31bec9382c7"
+      ],
+      "answer": 1,
+      "correctSha256": "8da7dc9d8feb7508c9745188e3beb185fcbd0936565e8e8849dc00ee185f581e",
+      "explainSha256": "c0b8bdef54381c40f04bfca16ec573559860bf6d7d45c70713b0c37bd02bde4b",
+      "flags": [],
+      "observation": "Точний C04-набір правильно зберігає одержувача послуги й того, хто прийшов.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:126:e0:seed20261105",
+      "id": 126,
+      "word": "召し上がる",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "4d9091eff90798ad14795317daf54243c1e097df2bfa485011941f1677f54491",
+      "promptSha256": "10f8048505573e8607862bd363519895399bf2fb259a693e2028d972ca5f697d",
+      "choiceSha256": [
+        "9ff8f522d542be41bdf49a607de50f973bd40a1cf226113ab15de9aaab42705b",
+        "585df56b5cd9c32d50b0fdf106c2a78442aa7ea2eb5f8e4e8ac94e49c36d6798",
+        "d15fcc6fd2efd7127c92303091c6b9c3e7257628cb6d3da4f72cf2abaeda4f3e",
+        "0b8c40eb344347d4cdb0972a7d957b0f91044b0a8132208e772d8a32479444d9"
+      ],
+      "answer": 2,
+      "correctSha256": "d15fcc6fd2efd7127c92303091c6b9c3e7257628cb6d3da4f72cf2abaeda4f3e",
+      "explainSha256": "67d68c0c8a93cd1261812bb40041bb7e8d417df62b4769faf949a046353e915d",
+      "flags": [
+        "hint",
+        "scope"
+      ],
+      "observation": "Правильний варіант містить 召し上がる і кілька навчальних приміток про суфікс та いただく; потрібен лише зміст чужої дії їсти/пити.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:127:e0:seed20261105",
+      "id": 127,
+      "word": "〜召す",
+      "exampleIndex": 0,
+      "route": "exact_example",
+      "sentenceSha256": "b0feb9ecb7ebec0fbc33ead2e0622e1364604b05457565e97041f294f1825397",
+      "promptSha256": "a9fb807a8dc60245775c1dc03c60d121d25c325c673cefa4b09c39b6405b93a5",
+      "choiceSha256": [
+        "623f4a5f961f793efb18efa199d7617fe667f745982fdb7c77f8fa6070d8f4c6",
+        "6e605f19310d1ff6ba2c2c039618884b5b3334762629f026038ab40847f7a2c3",
+        "0607f535a81b083af6d31b80f33cb590f3e8a1cfc9ab4ac185bd4da9347cb005",
+        "ff2380afde7b938ed96ffdb4f32648139dfc580ffed10022829d3d1e975a8de3"
+      ],
+      "answer": 1,
+      "correctSha256": "6e605f19310d1ff6ba2c2c039618884b5b3334762629f026038ab40847f7a2c3",
+      "explainSha256": "02cd35fb71516911ffcff5dc12522817e6cf66e608c487fe7ffbc060b032bcd9",
+      "flags": [],
+      "observation": "Точний C04-набір пропонує однаково оформлені чужі дії з тим самим предметом: одягти, зняти, випрати, купити.",
+      "status": "no_issue_found_in_this_fixed_case",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:128:e0:seed20261105",
+      "id": 128,
+      "word": "〜てございます",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "12b1e654fd33503460097341039b77c2aabe5f11cb6f9b3f7e61416e4de16062",
+      "promptSha256": "9a59f127016fed350cd91404f19d6fe6e0b4d932cfea9b68d11628e00892bf9f",
+      "choiceSha256": [
+        "e3f38124a75c23dcd612accfc483bd72e57ad29ae075b9f27858198cd45752e6",
+        "585df56b5cd9c32d50b0fdf106c2a78442aa7ea2eb5f8e4e8ac94e49c36d6798",
+        "c4e7f2beca6c45111baee31f0f397724a4ff52909d167298b06859a98cb2f5bb",
+        "0b8c40eb344347d4cdb0972a7d957b0f91044b0a8132208e772d8a32479444d9"
+      ],
+      "answer": 3,
+      "correctSha256": "0b8c40eb344347d4cdb0972a7d957b0f91044b0a8132208e772d8a32479444d9",
+      "explainSha256": "c5ba0e8f3256154ccbbe9d96923bc5f5778579ff18bb20200992a0b419278c44",
+      "flags": [
+        "hint",
+        "length"
+      ],
+      "observation": "У варіантах залишені назви інших пошанних форм, а ключ розгорнуто пояснює стилістичні сфери; відокремити значення стану від довідки.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:129:e0:seed20261105",
+      "id": 129,
+      "word": "お越しになる",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "17e6a714ebe4d861c49c672496d03ceb5143e56c51992946fa850acef79c8315",
+      "promptSha256": "9ddcde1235cc487995f3f133701199588439f7c7dbcd10c84e1f3155b65bb53a",
+      "choiceSha256": [
+        "9bf36d07e2125cad97f6cab2fa7f4e9cc165230e3f6ed3dc6bca23d7ae67296d",
+        "9ff8f522d542be41bdf49a607de50f973bd40a1cf226113ab15de9aaab42705b",
+        "4ee1176527b0931d7eb1c23bc5dc5333d97c92abb3b9ab2967e6dad54bf0233b",
+        "585df56b5cd9c32d50b0fdf106c2a78442aa7ea2eb5f8e4e8ac94e49c36d6798"
+      ],
+      "answer": 1,
+      "correctSha256": "9ff8f522d542be41bdf49a607de50f973bd40a1cf226113ab15de9aaab42705b",
+      "explainSha256": "51a04819924fc14b01cf93b0caa5a7d7ecc1ee45bb75e59aea3435090e560b24",
+      "flags": [
+        "hint",
+        "length"
+      ],
+      "observation": "Поряд із правильним значенням приходу є довгий дистрактор із трьома формулами 召す; потрібна зіставна довжина й чистий зміст.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:130:e0:seed20261105",
+      "id": 130,
+      "word": "その節は",
+      "exampleIndex": 0,
+      "route": "automatic",
+      "sentenceSha256": "5ab933b51883c89823e5c1073e067ea9947f52f772f9af10cb87df64d7520345",
+      "promptSha256": "6d766c4c08cb4443735c6469d888169e3d84524e0941d5a95184150961abfde7",
+      "choiceSha256": [
+        "c4e7f2beca6c45111baee31f0f397724a4ff52909d167298b06859a98cb2f5bb",
+        "5b2321cebb662a60f772924e3b9adbe70492f00cca9714600e6b5f4f7e5786f2",
+        "8d15ecd8e15f59e5800671daca35fc87581ba84224c7c06886385dcb671c78ea",
+        "4ee1176527b0931d7eb1c23bc5dc5333d97c92abb3b9ab2967e6dad54bf0233b"
+      ],
+      "answer": 2,
+      "correctSha256": "8d15ecd8e15f59e5800671daca35fc87581ba84224c7c06886385dcb671c78ea",
+      "explainSha256": "0ec29a45eedd832fbe3caf7b9d7f51fe1274d1edeeb67f82d53f34868328841f",
+      "flags": [
+        "scope"
+      ],
+      "observation": "Ключ описує всю подяку, хоча その節は відсилає до того часу/нагоди; словники також допускають майбутній контекст.",
+      "status": "revision_needed",
+      "fullCardCredit": false
+    }
+  ],
+  "statusCounts": {
+    "no_issue_found_in_this_fixed_case": 63,
+    "revision_needed": 67
+  },
+  "flagCounts": {
+    "overlap": 28,
+    "scope": 11,
+    "hint": 36,
+    "length": 8,
+    "weak": 2,
+    "duplicate_distractors": 1
+  },
+  "routes": {
+    "automatic": 113,
+    "exact_example": 16,
+    "saved_set": 1
+  },
+  "runtimeChanges": 0,
+  "fullCardCredits": 0,
+  "newAcceptanceRegisterCredits": 0
+}

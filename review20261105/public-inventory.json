@@ -1,0 +1,1692 @@
+{
+  "date": "2026-11-05",
+  "baseCommit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+  "repository": "tereshchenkopavlo-gif/JLPT-N1",
+  "scope": "Frozen public branch heads from api-state.json and their reachable Git changes of HTML/HTM/ZIP/PDF. Not a crawl of mirrors, user downloads, deleted refs or archive contents. Actions metadata is separate.",
+  "fetchedHeads": [
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8"
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17"
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58"
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd"
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664"
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839"
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220"
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79"
+    }
+  ],
+  "mainHtmlCount": 23,
+  "mainHtmlUniqueBlobs": 23,
+  "branchHeadHtmlOccurrences": 150,
+  "uniqueHtmlBlobsAtHeads": 23,
+  "historyPathBlobPairs": 24,
+  "historyUniqueBlobs": 24,
+  "historyOnlyPathBlobPairs": 1,
+  "mainNonHtmlPackages": [],
+  "tags": [],
+  "mainFiles": [
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299,
+      "sha256": "6a8d4694bf18298a382b44f76a6decaead9c9422ec02b3251133a71a18b368c2",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 46,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376,
+      "sha256": "5006238a087812b294c776b02951ebdb6eeb5fcfd6d950b41ecbfe067071ec9f",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 76,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234,
+      "sha256": "c049da5914210f4b517732435de2bc04c477eedfdef776fb9072bd8a155f09b8",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 100,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808,
+      "sha256": "816529e17f5d91e4e81a95435d96d7f1d9e87a3dc4536522a353f9b8acb560ac",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 118,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776,
+      "sha256": "bc6b932e63fd07b74d8b4acbf843c1214ce1638f345e5473d3c51cfac527a456",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 142,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879,
+      "sha256": "7acdc03322bfa2d8e40650353de418e184b6391d212de461da0970d61f39dca5",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 142,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928,
+      "sha256": "4b5be94dd862493ddde4ed3d893168b9d58dbea85a75b0341cd83e8735f96514",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 142,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543,
+      "sha256": "142c5b7d3ad77b034d17778885de83fd928cdd2c99d1f06c9ad3012012353a12",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 160,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v136.html",
+      "blob": "9a1de39b0131f283980b8857f5a4d4db597fc120",
+      "bytes": 6655290,
+      "sha256": "b2632788ee7f50d6c8872f05c86e006379159afcdad3ced6678c98fca7a6cd2a",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 160,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v137.html",
+      "blob": "5ed63ccd9d3b1bf464586b12a2ad135c053a2dba",
+      "bytes": 6680924,
+      "sha256": "005adcfb62d8fa81774b4008e61171db7277ba0e99f0129dac0962b793058dce",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 160,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v138.html",
+      "blob": "3257e13196c612230bb7f50ed6dc9498d0442127",
+      "bytes": 6681987,
+      "sha256": "6f7ea6a3d4ca30e8a9cc6ffad31994d99e925809fa4d4b94fe2bf28349027dfc",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 160,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v139.html",
+      "blob": "67d94031e7aab73cf4a77566cf4e3cd9d78da75d",
+      "bytes": 6727195,
+      "sha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 160,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v140.html",
+      "blob": "44c627212050ee188f9721ab2b4c656e20983b1e",
+      "bytes": 6779154,
+      "sha256": "810af1aecf5a71b2fbd39b687e3ec310763317cb3f04821107cdeb983c31f537",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 160,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v141.html",
+      "blob": "0810a2897df388a70959763a6bcf9ef9a2e22604",
+      "bytes": 6784138,
+      "sha256": "08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": 160,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585,
+      "sha256": "ed39a9d180b9d3c5f3371358c13644661ac351e0cfd3fb62d69aaa62985a581a",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527,
+      "sha256": "7b7e2ea34ce69c589005e767175dfaa0d3a8ff091568b0819a172f24d14f1baa",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528,
+      "sha256": "8e4c3917bfd4f8df1a0f3fac8a5d6f1e27787a2f8def0021e231d1546c2ceb26",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595,
+      "sha256": "f0191925aaa7daf4f6032667dc5196a44ef0e4d8d2424e4b0bdaeb10fc517580",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733,
+      "sha256": "70919277480dbf6dcbdbdaab20b87b3e9a56df68052fde34214fad7e8b19db78",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063,
+      "sha256": "27caf614e1a7b5cb1e9b4930af84f86a3414219e5b6ad8526763f974c5f48d88",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561,
+      "sha256": "a0ad571659e9f28761f0d4ab6041363f9c0377a260bb28dd9e12c9742248161a",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560,
+      "sha256": "c9334c31d539576f908ad15ec53af536471f52e0bf936e3512a7dd7c893339f6",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105,
+      "sha256": "96c67a97a50e4ce396149a78fb4e592f101ee3840d37dc3a653d9243ba825586",
+      "vocabCount": 3914,
+      "grammarCount": 130,
+      "readingCount": null,
+      "embeddedVocabularyDetails": true,
+      "embeddedGrammarDetails": true,
+      "rightsStatus": "not_cleared",
+      "priority": "P1",
+      "decision": "field-by-field origin review required; no infringement finding"
+    }
+  ],
+  "branchFiles": [
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v136.html",
+      "blob": "9a1de39b0131f283980b8857f5a4d4db597fc120",
+      "bytes": 6655290
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v137.html",
+      "blob": "5ed63ccd9d3b1bf464586b12a2ad135c053a2dba",
+      "bytes": 6680924
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v138.html",
+      "blob": "3257e13196c612230bb7f50ed6dc9498d0442127",
+      "bytes": 6681987
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v139.html",
+      "blob": "67d94031e7aab73cf4a77566cf4e3cd9d78da75d",
+      "bytes": 6727195
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v140.html",
+      "blob": "44c627212050ee188f9721ab2b4c656e20983b1e",
+      "bytes": 6779154
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v141.html",
+      "blob": "0810a2897df388a70959763a6bcf9ef9a2e22604",
+      "bytes": 6784138
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/main",
+      "commit": "571aa092d256e682ad16873b7462dcc263cf62d8",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/work/v132-checkpoint",
+      "commit": "3a569261554202b129c4019b5a3725d76ee93b17",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/work/v135-checkpoint",
+      "commit": "b40fde2513858599c2ae3e2cd8e33765a6a6dd58",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/work/v136-checkpoint",
+      "commit": "f3c84aa22421e7cac00441e5e71159adb066a1bd",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v136.html",
+      "blob": "9a1de39b0131f283980b8857f5a4d4db597fc120",
+      "bytes": 6655290
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/work/v137-checkpoint",
+      "commit": "3953f63b4dae393b7ac1fb7ce7f375d5717a4664",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v136.html",
+      "blob": "9a1de39b0131f283980b8857f5a4d4db597fc120",
+      "bytes": 6655290
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v137.html",
+      "blob": "5ed63ccd9d3b1bf464586b12a2ad135c053a2dba",
+      "bytes": 6680924
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v138.html",
+      "blob": "3257e13196c612230bb7f50ed6dc9498d0442127",
+      "bytes": 6681987
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/work/v139-checkpoint",
+      "commit": "9d42ed8f1351b49e935425ecab24b10e9414c839",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v136.html",
+      "blob": "9a1de39b0131f283980b8857f5a4d4db597fc120",
+      "bytes": 6655290
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v137.html",
+      "blob": "5ed63ccd9d3b1bf464586b12a2ad135c053a2dba",
+      "bytes": 6680924
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v138.html",
+      "blob": "3257e13196c612230bb7f50ed6dc9498d0442127",
+      "bytes": 6681987
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v139.html",
+      "blob": "67d94031e7aab73cf4a77566cf4e3cd9d78da75d",
+      "bytes": 6727195
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/work/v140-checkpoint",
+      "commit": "a5d80490c53f8c026a76b842d5b5df9e2e010220",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v136.html",
+      "blob": "9a1de39b0131f283980b8857f5a4d4db597fc120",
+      "bytes": 6655290
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v137.html",
+      "blob": "5ed63ccd9d3b1bf464586b12a2ad135c053a2dba",
+      "bytes": 6680924
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v138.html",
+      "blob": "3257e13196c612230bb7f50ed6dc9498d0442127",
+      "bytes": 6681987
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v139.html",
+      "blob": "67d94031e7aab73cf4a77566cf4e3cd9d78da75d",
+      "bytes": 6727195
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v140.html",
+      "blob": "44c627212050ee188f9721ab2b4c656e20983b1e",
+      "bytes": 6779154
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560
+    },
+    {
+      "ref": "origin/work/v141-checkpoint",
+      "commit": "5dc0023a8878ce6f90465af078222bc435c4cb79",
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105
+    }
+  ],
+  "historyFiles": [
+    {
+      "path": "JLPT_N1_ukrainian_reading_v128.html",
+      "blob": "d275f78392908cdd22d6872a24ee8eb18fbc9f59",
+      "bytes": 5791299,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v129.html",
+      "blob": "d096a7627931f0c82428f0b199a562f78040f9c8",
+      "bytes": 5997376,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v130.html",
+      "blob": "9750d249718d3593ca17ee598ccd666587d87d51",
+      "bytes": 6165234,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v131.html",
+      "blob": "da4879f778276fdfd24b7875edfe130e7069d7b6",
+      "bytes": 6292808,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "a8e8e3ec015c50f97822d5b9486c4c59def7c83f",
+      "bytes": 6452776,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "M"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v132.html",
+      "blob": "b25203854404e39a4a1e700c5f5f0d92435c82d0",
+      "bytes": 6451346,
+      "atFetchedBranchHead": false,
+      "seenChangeTypes": [
+        "A",
+        "M"
+      ],
+      "exampleCommit": "a4a94653a19047d5c3e739a0af2afbaa0eab0026"
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v133.html",
+      "blob": "7d23aca871557a2f146fe47c9cdbb6fa78ab4806",
+      "bytes": 6457879,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v134.html",
+      "blob": "0e99b4da873cb37e3b42f519a95957e296b63c77",
+      "bytes": 6460928,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v135.html",
+      "blob": "27968c14e0f9939baf38f4b34eafe7714a395d6b",
+      "bytes": 6577543,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v136.html",
+      "blob": "9a1de39b0131f283980b8857f5a4d4db597fc120",
+      "bytes": 6655290,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v137.html",
+      "blob": "5ed63ccd9d3b1bf464586b12a2ad135c053a2dba",
+      "bytes": 6680924,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v138.html",
+      "blob": "3257e13196c612230bb7f50ed6dc9498d0442127",
+      "bytes": 6681987,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v139.html",
+      "blob": "67d94031e7aab73cf4a77566cf4e3cd9d78da75d",
+      "bytes": 6727195,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v140.html",
+      "blob": "44c627212050ee188f9721ab2b4c656e20983b1e",
+      "bytes": 6779154,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v141.html",
+      "blob": "0810a2897df388a70959763a6bcf9ef9a2e22604",
+      "bytes": 6784138,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v18.html",
+      "blob": "83b24e5824cc1a35c17a9f3a06131ff38cab23cb",
+      "bytes": 2356585,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v19.html",
+      "blob": "492f38ba726394ddea04932c092b537389b66353",
+      "bytes": 2356527,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v20.html",
+      "blob": "3de9f0efdc20371fdcd704e973b87b27b6373987",
+      "bytes": 2356528,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v21.html",
+      "blob": "909e32ad7abb5d915af18f6782410c7ed1f9b1fe",
+      "bytes": 2356595,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v22.html",
+      "blob": "05b1a380c1a7eb1b0a7deece54ef559e85350f8d",
+      "bytes": 2356733,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v23.html",
+      "blob": "18136ad52c0b8abeb082233601e7e37d715ad38d",
+      "bytes": 2357063,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v24.html",
+      "blob": "bc9a365cc5b83675f77921b5b140f65864fd407c",
+      "bytes": 2357561,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v25.html",
+      "blob": "d76443f6b5c27b95ebcca3c814fd18770897c34d",
+      "bytes": 2358560,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    },
+    {
+      "path": "JLPT_N1_ukrainian_reading_v26.html",
+      "blob": "790ae59a2eeee84f01074d7b25be6e18b14d56e9",
+      "bytes": 2358105,
+      "atFetchedBranchHead": true,
+      "seenChangeTypes": [
+        "A"
+      ]
+    }
+  ],
+  "notClearedByThisInventory": true
+}
