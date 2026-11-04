@@ -1,0 +1,16 @@
+{
+  "version": 139,
+  "sha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+  "id": 716,
+  "oldWord": "恵",
+  "word": "恵み",
+  "reading": "めぐみ",
+  "category": "名詞(その他)",
+  "progressIdentity": "v:716 unchanged",
+  "scope": "Built-in word spelling/header/explanation and generated exercises; user custom vocab not silently migrated.",
+  "evidence": [
+    "audit139/sources.md",
+    "audit139/identity-results.json",
+    "audit139/invariant-results.json"
+  ]
+}

@@ -1,0 +1,2393 @@
+{
+  "sha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+  "examples": 8089,
+  "unmarked": [],
+  "singleCharacterCandidates": 289,
+  "changed": [
+    {
+      "kind": "v",
+      "id": 408,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "稼いだ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 410,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "解いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 413,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "営んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 413,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "営んできた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 414,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "映っていた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 414,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "映った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 417,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "汚してしまい"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 420,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "殴って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 422,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "壊してしまった"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 426,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "叶い"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 431,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "輝いていた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 434,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "救った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 436,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "許されない"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 436,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "許した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 437,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "狂って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 437,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "狂った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 438,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "響いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 438,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "響いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 439,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "驚いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 445,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "敬い"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 446,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "経て"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 446,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "経て"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 448,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "結んだ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 448,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "結び"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 451,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "限らせていただきます"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 454,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "向いている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 454,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "向いている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 457,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "行われた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 460,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "削って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 460,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "削って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 464,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "謝った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 466,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "従わなければ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 466,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "従って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 467,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "巡って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 467,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "巡った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 468,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "除き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 470,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "招いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 470,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "招いて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 489,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "狙った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 489,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "狙って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 490,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "組んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 490,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "組んだ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 492,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "争っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 493,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "測った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 495,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "奪って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 495,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "奪った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 499,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "断った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 500,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "築いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 500,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "築かれる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 508,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "倒した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 511,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "逃して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 511,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "逃した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 513,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "曇った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 513,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "曇って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 514,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "歩み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 517,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "補って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 518,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "崩した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 518,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "崩し"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 519,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "破られなかった",
+        "破った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 519,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "破り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 521,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "配って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 523,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "迫っており"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 523,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "迫られている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 533,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "誘い"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 533,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "誘われて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 534,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "余った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 539,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "絡んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 542,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "騙して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 542,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "騙した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 543,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "黙って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 716,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "恵み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 716,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "恵み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 782,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "並み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 782,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "並み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 784,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "峰々"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 790,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "網"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2436,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "企んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2468,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "下した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2468,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "下した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2470,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "懐いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2472,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "害した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2484,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "緩み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2486,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "貫いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2487,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "陥った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2492,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "偽って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2492,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "偽った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2494,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "及び"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2497,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "急がず"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2506,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "脅した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2510,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "凝って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2510,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "凝った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2513,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "謹んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2513,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "謹んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2519,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "欠いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2521,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "研いで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2521,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "研いで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2527,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "悟った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2527,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "悟った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2528,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "誤れば"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2528,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "誤った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2535,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "耕して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2535,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "耕し"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2540,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "催した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2540,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "催し"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2545,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "察して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2546,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "擦って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2557,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "志した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2558,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "施して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2558,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "施した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2561,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "蒔いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2561,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "蒔いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2562,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "射た"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2563,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "遮り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2563,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "遮って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2564,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "弱っていた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2569,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "襲い"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2569,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "襲われて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2575,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "澄んでいて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2575,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "澄んだ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2577,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "潤っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2577,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "潤った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2581,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "召して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2583,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "焦って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2587,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "譲って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2587,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "譲れない"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2589,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "慎み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2590,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "浸して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2597,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "制した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2598,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "整った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2599,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "調った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2603,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "説いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2603,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "説いている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2607,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "潜んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2607,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "潜んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2608,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "潜り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2608,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "潜った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2609,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "煽っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2609,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "煽られて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2610,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "閃いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2610,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "閃き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2611,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "繕って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2611,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "繕った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2612,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "蘇った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2612,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "蘇ってくる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2613,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "阻んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2615,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "操り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2615,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "操ろう"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2617,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "葬ろう"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2617,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "葬り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2618,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "装って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2618,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "装っていた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2619,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "憎んで",
+        "憎まず"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2619,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "憎み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2621,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "即して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2621,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "即した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2631,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "怠った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2631,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "怠らない"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2632,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "滞り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2632,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "滞った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2633,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "退き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2633,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "退いて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2635,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "嘆いている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2635,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "嘆いて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2637,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "弾いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2637,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "弾いて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2638,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "弾み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2642,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "伴い"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2644,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "挑んだ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2645,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "反ってしまう"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2645,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "反ってしまった"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2648,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "被った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2648,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "被らない"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2649,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "鈍ってしまった"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2649,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "鈍っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2653,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "捗らず"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2654,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "漂っていた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2658,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "忍んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2658,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "忍んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2661,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "粘って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2662,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "腐ってしまった"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2662,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "腐らず"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2663,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "摘んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2668,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "覆した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2669,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "培った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2671,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "妬んでいて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2674,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "覆り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2678,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "侮った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2680,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "背いて"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2682,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "負っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2682,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "負った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2684,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "徹して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2684,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "徹している"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2685,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "病んでいた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2686,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "任して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2689,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "匂い"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2689,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "匂った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2697,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "発した"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2697,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "発している"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2699,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "怒って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2701,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "沸いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2703,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "憤っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2707,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "偏らない"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2708,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "癒して"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2709,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "募っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2711,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "慕われる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2711,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "慕って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2717,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "縫って"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2719,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "暴いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2723,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "磨いた"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2730,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "面している"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2737,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "乱してしまった"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2737,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "乱さない"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2742,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "臨んだ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2744,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "励んでいる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2744,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "励み"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2745,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "劣らない"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2746,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "裂き"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2748,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "練った"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2748,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "練り"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2751,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "弄ばれ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2756,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "和んだ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2759,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "歪んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2761,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "惑っている"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2764,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "揉んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2764,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "揉まれ"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2766,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "甦ってくる"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2767,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "睨んで"
+      ]
+    },
+    {
+      "kind": "v",
+      "id": 2767,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "睨み"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 120,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "忙しいなら忙しいで"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 120,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "一人なら一人で"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 123,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "ご記入願います"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 123,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "ご遠慮願います"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 124,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "お越しくださり"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 124,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "ご出席くださいました"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 125,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "ご足労いただき"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 125,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "お寄せいただければ"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 127,
+      "index": 0,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "お召しになって"
+      ]
+    },
+    {
+      "kind": "g",
+      "id": 127,
+      "index": 1,
+      "oldFound": true,
+      "newFound": true,
+      "spans": [
+        "お気に召した"
+      ]
+    }
+  ],
+  "reviewedCandidates": 526,
+  "exactScopeNegativeChecks": 801,
+  "pass": true
+}

@@ -1,0 +1,15 @@
+{
+  "version": 139,
+  "baseSha256": "6f7ea6a3d4ca30e8a9cc6ffad31994d99e925809fa4d4b94fe2bf28349027dfc",
+  "sha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+  "bytes": 6727195,
+  "reviewedCandidates": 526,
+  "newExactTargets": 237,
+  "totalExactTargets": 267,
+  "decisions": {
+    "replace_example": 1,
+    "replace_with_exact_surface": 237,
+    "retain": 288
+  },
+  "affectedCards": 160
+}

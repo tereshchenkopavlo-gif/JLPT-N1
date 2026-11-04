@@ -1,0 +1,77 @@
+{
+  "sha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+  "checks": [
+    {
+      "name": "Exact v138 baseline SHA-256",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_MEANING_QUIZZES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "READING_CONTEXT_NOTES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "readingBank unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_POS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "LEXICAL_PRESENTATION unchanged",
+      "pass_": true
+    },
+    {
+      "name": "Only ID716 headword/category; all IDs/readings stable",
+      "pass_": true
+    },
+    {
+      "name": "Only ID716 explanation and ID790 second example/translation",
+      "pass_": true
+    },
+    {
+      "name": "C04 unchanged; 237 new exact forms and 10 new context quiz sets",
+      "pass_": true
+    },
+    {
+      "name": "Comparison typography, POS/filter/navigation source and CSS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "160 texts and 381 questions unchanged",
+      "pass_": true
+    },
+    {
+      "name": "Actual old/new markTarget on all 8089 examples; every C05 decision and exact scope",
+      "pass_": true
+    }
+  ]
+}

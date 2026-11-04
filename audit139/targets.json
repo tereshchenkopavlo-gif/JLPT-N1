@@ -1,0 +1,2464 @@
+[
+  {
+    "kind": "v",
+    "id": 408,
+    "word": "稼ぐ",
+    "exampleIndex": 0,
+    "sentence": "彼は、複数の仕事を掛け持ちして、学費を稼いだ。",
+    "forms": [
+      "稼いだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 410,
+    "word": "解く",
+    "exampleIndex": 0,
+    "sentence": "難解な数学の問題を、時間をかけて解いた。",
+    "forms": [
+      "解いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 413,
+    "word": "営む",
+    "exampleIndex": 0,
+    "sentence": "彼の家は、代々、旅館を営んでいる。",
+    "forms": [
+      "営んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 413,
+    "word": "営む",
+    "exampleIndex": 1,
+    "sentence": "人々は、自然と共存しながら生活を営んできた。",
+    "forms": [
+      "営んできた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 414,
+    "word": "映る",
+    "exampleIndex": 0,
+    "sentence": "湖面には、周囲の山々が美しく映っていた。",
+    "forms": [
+      "映っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 414,
+    "word": "映る",
+    "exampleIndex": 1,
+    "sentence": "画面に映った映像が、事件の手がかりとなった。",
+    "forms": [
+      "映った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 417,
+    "word": "汚す",
+    "exampleIndex": 0,
+    "sentence": "油で衣服を汚してしまい、洗濯せざるを得なかった。",
+    "forms": [
+      "汚してしまい"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 420,
+    "word": "殴る",
+    "exampleIndex": 0,
+    "sentence": "口論の末、男は相手の顔を殴って怪我をさせた。",
+    "forms": [
+      "殴って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 422,
+    "word": "壊す",
+    "exampleIndex": 0,
+    "sentence": "不用意な発言が、せっかくの雰囲気を壊してしまった。",
+    "forms": [
+      "壊してしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 426,
+    "word": "叶う",
+    "exampleIndex": 0,
+    "sentence": "長年の夢が叶い、彼は念願の店を持つことができた。",
+    "forms": [
+      "叶い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 431,
+    "word": "輝く",
+    "exampleIndex": 1,
+    "sentence": "優勝の喜びに、選手たちの顔は輝いていた。",
+    "forms": [
+      "輝いていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 434,
+    "word": "救う",
+    "exampleIndex": 0,
+    "sentence": "救助隊は、被災者を危険な場所から救った。",
+    "forms": [
+      "救った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 436,
+    "word": "許す",
+    "exampleIndex": 0,
+    "sentence": "いかなる事情があっても、不正は許されない。",
+    "forms": [
+      "許されない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 436,
+    "word": "許す",
+    "exampleIndex": 1,
+    "sentence": "当局は、規制緩和による参入を許した。",
+    "forms": [
+      "許した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 437,
+    "word": "狂う",
+    "exampleIndex": 0,
+    "sentence": "時計が狂って、会議に遅れてしまった。",
+    "forms": [
+      "狂って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 437,
+    "word": "狂う",
+    "exampleIndex": 1,
+    "sentence": "予想外の事態で、計画が大きく狂った。",
+    "forms": [
+      "狂った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 438,
+    "word": "響く",
+    "exampleIndex": 0,
+    "sentence": "鐘の音が、静かな街に響いた。",
+    "forms": [
+      "響いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 438,
+    "word": "響く",
+    "exampleIndex": 1,
+    "sentence": "批判の声が、社内に重く響いた。",
+    "forms": [
+      "響いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 439,
+    "word": "驚く",
+    "exampleIndex": 0,
+    "sentence": "予想外の結果に、関係者は一様に驚いた。",
+    "forms": [
+      "驚いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 445,
+    "word": "敬う",
+    "exampleIndex": 1,
+    "sentence": "師を敬い、その教えを守り続けている。",
+    "forms": [
+      "敬い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 446,
+    "word": "経る",
+    "exampleIndex": 0,
+    "sentence": "審議を経て、法案は国会で成立した。",
+    "forms": [
+      "経て"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 446,
+    "word": "経る",
+    "exampleIndex": 1,
+    "sentence": "数多くの試練を経て、彼は今の地位に至った。",
+    "forms": [
+      "経て"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 448,
+    "word": "結ぶ",
+    "exampleIndex": 0,
+    "sentence": "両社は、業務提携の契約を結んだ。",
+    "forms": [
+      "結んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 448,
+    "word": "結ぶ",
+    "exampleIndex": 1,
+    "sentence": "長年の努力が実を結び、研究は成功した。",
+    "forms": [
+      "結び"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 451,
+    "word": "限る",
+    "exampleIndex": 0,
+    "sentence": "募集は、先着二十名に限らせていただきます。",
+    "forms": [
+      "限らせていただきます"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 454,
+    "word": "向く",
+    "exampleIndex": 0,
+    "sentence": "この仕事は、細かい作業が得意な人に向いている。",
+    "forms": [
+      "向いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 454,
+    "word": "向く",
+    "exampleIndex": 1,
+    "sentence": "この部屋の窓は南を向いている。",
+    "forms": [
+      "向いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 457,
+    "word": "行う",
+    "exampleIndex": 1,
+    "sentence": "調査は、全国の約千社を対象に行われた。",
+    "forms": [
+      "行われた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 460,
+    "word": "削る",
+    "exampleIndex": 0,
+    "sentence": "経費を削って、収支の改善を図った。",
+    "forms": [
+      "削って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 460,
+    "word": "削る",
+    "exampleIndex": 1,
+    "sentence": "睡眠時間を削ってまで、仕事に打ち込むのは考えものだ。",
+    "forms": [
+      "削って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 464,
+    "word": "謝る",
+    "exampleIndex": 1,
+    "sentence": "彼は、顧客に頭を下げて、丁寧に謝った。",
+    "forms": [
+      "謝った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 466,
+    "word": "従う",
+    "exampleIndex": 0,
+    "sentence": "社員は、会社の規則に従わなければならない。",
+    "forms": [
+      "従わなければ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 466,
+    "word": "従う",
+    "exampleIndex": 1,
+    "sentence": "状況の変化に従って、対応を柔軟に変えていく。",
+    "forms": [
+      "従って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 467,
+    "word": "巡る",
+    "exampleIndex": 0,
+    "sentence": "この問題を巡って、議論が白熱した。",
+    "forms": [
+      "巡って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 467,
+    "word": "巡る",
+    "exampleIndex": 1,
+    "sentence": "この夏は、各地の町を巡った。",
+    "forms": [
+      "巡った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 468,
+    "word": "除く",
+    "exampleIndex": 1,
+    "sentence": "一部の例外を除き、全ての申請が認められた。",
+    "forms": [
+      "除き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 470,
+    "word": "招く",
+    "exampleIndex": 0,
+    "sentence": "軽率な判断が、思わぬ事態を招いた。",
+    "forms": [
+      "招いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 470,
+    "word": "招く",
+    "exampleIndex": 1,
+    "sentence": "外部から専門家を招いて、講演会を開催した。",
+    "forms": [
+      "招いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 489,
+    "word": "狙う",
+    "exampleIndex": 0,
+    "sentence": "同社は、若年層の需要を狙った商品を開発した。",
+    "forms": [
+      "狙った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 489,
+    "word": "狙う",
+    "exampleIndex": 1,
+    "sentence": "彼は、昇進を狙って、積極的に成果を上げている。",
+    "forms": [
+      "狙って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 490,
+    "word": "組む",
+    "exampleIndex": 0,
+    "sentence": "両社は手を組んで、新規市場の開拓に乗り出した。",
+    "forms": [
+      "組んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 490,
+    "word": "組む",
+    "exampleIndex": 1,
+    "sentence": "出張の日程を、余裕を持って組んだ。",
+    "forms": [
+      "組んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 492,
+    "word": "争う",
+    "exampleIndex": 0,
+    "sentence": "両社は、市場の主導権を争っている。",
+    "forms": [
+      "争っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 493,
+    "word": "測る",
+    "exampleIndex": 1,
+    "sentence": "部屋の高さを専用の器具で測った。",
+    "forms": [
+      "測った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 495,
+    "word": "奪う",
+    "exampleIndex": 0,
+    "sentence": "強盗は、被害者から現金を奪って逃走した。",
+    "forms": [
+      "奪って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 495,
+    "word": "奪う",
+    "exampleIndex": 1,
+    "sentence": "彼女の美しい歌声は、聴衆の心を奪った。",
+    "forms": [
+      "奪った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 499,
+    "word": "断る",
+    "exampleIndex": 1,
+    "sentence": "彼は、昇進の話を丁重に断った。",
+    "forms": [
+      "断った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 500,
+    "word": "築く",
+    "exampleIndex": 0,
+    "sentence": "長年の努力で、盤石な地位を築いた。",
+    "forms": [
+      "築いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 500,
+    "word": "築く",
+    "exampleIndex": 1,
+    "sentence": "信頼関係は、日々の誠実な行動の積み重ねによって築かれる。",
+    "forms": [
+      "築かれる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 508,
+    "word": "倒す",
+    "exampleIndex": 1,
+    "sentence": "長期にわたった独裁政権を倒した運動は、世界の注目を集めた。",
+    "forms": [
+      "倒した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 511,
+    "word": "逃す",
+    "exampleIndex": 0,
+    "sentence": "千載一遇の好機を逃してはならない。",
+    "forms": [
+      "逃して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 511,
+    "word": "逃す",
+    "exampleIndex": 1,
+    "sentence": "犯人を逃した警察の対応には、批判の声が上がった。",
+    "forms": [
+      "逃した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 513,
+    "word": "曇る",
+    "exampleIndex": 0,
+    "sentence": "悲報を聞いた彼の表情は一瞬にして曇った。",
+    "forms": [
+      "曇った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 513,
+    "word": "曇る",
+    "exampleIndex": 1,
+    "sentence": "寒暖差により、メガネのレンズが曇って前が見えなくなった。",
+    "forms": [
+      "曇って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 514,
+    "word": "歩む",
+    "exampleIndex": 1,
+    "sentence": "彼女は研究者として、地道な道を歩み続けてきた。",
+    "forms": [
+      "歩み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 517,
+    "word": "補う",
+    "exampleIndex": 1,
+    "sentence": "経験の浅さを補って余りある情熱が、彼の最大の強みだ。",
+    "forms": [
+      "補って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 518,
+    "word": "崩す",
+    "exampleIndex": 0,
+    "sentence": "過労で体調を崩したため、重要な会議を欠席せざるを得なかった。",
+    "forms": [
+      "崩した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 518,
+    "word": "崩す",
+    "exampleIndex": 1,
+    "sentence": "一部の不正が組織全体の秩序を崩しかねない事態となっている。",
+    "forms": [
+      "崩し"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 519,
+    "word": "破る",
+    "exampleIndex": 0,
+    "sentence": "彼女は、長年破られなかった世界記録を破った。",
+    "forms": [
+      "破られなかった",
+      "破った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 519,
+    "word": "破る",
+    "exampleIndex": 1,
+    "sentence": "彼は約束を破り、待ち合わせに来なかった。",
+    "forms": [
+      "破り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 521,
+    "word": "配る",
+    "exampleIndex": 0,
+    "sentence": "会議の前に、参加者全員に資料を配っておくこと。",
+    "forms": [
+      "配って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 523,
+    "word": "迫る",
+    "exampleIndex": 0,
+    "sentence": "締め切りが迫っており、残された時間は決して多くない。",
+    "forms": [
+      "迫っており"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 523,
+    "word": "迫る",
+    "exampleIndex": 1,
+    "sentence": "経営陣は、早急な決断を迫られている。",
+    "forms": [
+      "迫られている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 533,
+    "word": "誘う",
+    "exampleIndex": 0,
+    "sentence": "取引先の担当者を会食に誘い、親睦を深める機会とした。",
+    "forms": [
+      "誘い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 533,
+    "word": "誘う",
+    "exampleIndex": 1,
+    "sentence": "穏やかな春の陽気に誘われて、多くの人が公園に足を運んだ。",
+    "forms": [
+      "誘われて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 534,
+    "word": "余る",
+    "exampleIndex": 0,
+    "sentence": "予算が余ったため、設備の更新に充てることが決まった。",
+    "forms": [
+      "余った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 539,
+    "word": "絡む",
+    "exampleIndex": 1,
+    "sentence": "この事件には、政治家の汚職が絡んでいる疑いがある。",
+    "forms": [
+      "絡んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 542,
+    "word": "騙す",
+    "exampleIndex": 0,
+    "sentence": "高齢者を騙して金銭を奪う詐欺が後を絶たない。",
+    "forms": [
+      "騙して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 542,
+    "word": "騙す",
+    "exampleIndex": 1,
+    "sentence": "彼は巧みな話術で、投資家たちを騙した。",
+    "forms": [
+      "騙した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 543,
+    "word": "黙る",
+    "exampleIndex": 1,
+    "sentence": "不当な要求に黙って従うべきではない。",
+    "forms": [
+      "黙って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2436,
+    "word": "企む",
+    "exampleIndex": 1,
+    "sentence": "彼が何を企んでいるのか、周囲は警戒を強めている。",
+    "forms": [
+      "企んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2468,
+    "word": "下す",
+    "exampleIndex": 0,
+    "sentence": "裁判所は、被告に対して厳しい判決を下した。",
+    "forms": [
+      "下した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2468,
+    "word": "下す",
+    "exampleIndex": 1,
+    "sentence": "経営陣は、慎重な検討の末に撤退という決断を下した。",
+    "forms": [
+      "下した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2470,
+    "word": "懐く",
+    "exampleIndex": 1,
+    "sentence": "子どもは、新しい保育士にすぐ懐いた。",
+    "forms": [
+      "懐いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2472,
+    "word": "害する",
+    "exampleIndex": 1,
+    "sentence": "その決定は、住民の利益を害した。",
+    "forms": [
+      "害した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2484,
+    "word": "緩む",
+    "exampleIndex": 1,
+    "sentence": "好業績が続くと、社内の緊張感が緩みがちになる。",
+    "forms": [
+      "緩み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2486,
+    "word": "貫く",
+    "exampleIndex": 0,
+    "sentence": "彼は周囲の反対に屈せず、自らの信念を貫いた。",
+    "forms": [
+      "貫いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2487,
+    "word": "陥る",
+    "exampleIndex": 0,
+    "sentence": "主力商品の不振により、会社は深刻な資金難に陥った。",
+    "forms": [
+      "陥った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2492,
+    "word": "偽る",
+    "exampleIndex": 0,
+    "sentence": "経歴を偽って採用された職員が、懲戒免職の処分を受けた。",
+    "forms": [
+      "偽って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2492,
+    "word": "偽る",
+    "exampleIndex": 1,
+    "sentence": "物語の主人公は、自分の年齢を偽った。",
+    "forms": [
+      "偽った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2494,
+    "word": "及ぶ",
+    "exampleIndex": 0,
+    "sentence": "交渉は深夜にまで及び、ようやく基本合意に達した。",
+    "forms": [
+      "及び"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2497,
+    "word": "急ぐ",
+    "exampleIndex": 1,
+    "sentence": "結論を急がず、複数の選択肢を比較検討することが大切だ。",
+    "forms": [
+      "急がず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2506,
+    "word": "脅す",
+    "exampleIndex": 1,
+    "sentence": "小説の中で、男は「秘密をばらすぞ」と友人を脅した。",
+    "forms": [
+      "脅した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2510,
+    "word": "凝る",
+    "exampleIndex": 0,
+    "sentence": "長時間の座り仕事で、肩が凝って集中力が落ちてしまった。",
+    "forms": [
+      "凝って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2510,
+    "word": "凝る",
+    "exampleIndex": 1,
+    "sentence": "細部まで凝った造りの店舗が、若い世代に支持されている。",
+    "forms": [
+      "凝った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2513,
+    "word": "謹む",
+    "exampleIndex": 0,
+    "sentence": "新年にあたり、謹んで皆様のご健勝をお祈りいたします。",
+    "forms": [
+      "謹んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2513,
+    "word": "謹む",
+    "exampleIndex": 1,
+    "sentence": "「謹んでお悔やみを申し上げます」という言葉で、弔辞は結ばれた。",
+    "forms": [
+      "謹んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2519,
+    "word": "欠く",
+    "exampleIndex": 1,
+    "sentence": "基本的な安全対策を欠いたまま、工事が進められていた。",
+    "forms": [
+      "欠いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2521,
+    "word": "研ぐ",
+    "exampleIndex": 0,
+    "sentence": "職人は、毎朝欠かさず包丁を研いでから仕込みを始める。",
+    "forms": [
+      "研いで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2521,
+    "word": "研ぐ",
+    "exampleIndex": 1,
+    "sentence": "米を炊く前に、丁寧に研いでざるに上げた。",
+    "forms": [
+      "研いで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2527,
+    "word": "悟る",
+    "exampleIndex": 0,
+    "sentence": "市場の変化に対応できなければ衰退すると、経営者は悟った。",
+    "forms": [
+      "悟った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2527,
+    "word": "悟る",
+    "exampleIndex": 1,
+    "sentence": "彼は相手の沈黙から、交渉が決裂したことを悟った。",
+    "forms": [
+      "悟った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2528,
+    "word": "誤る",
+    "exampleIndex": 0,
+    "sentence": "判断を誤れば、会社の存続そのものが危うくなる。",
+    "forms": [
+      "誤れば"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2528,
+    "word": "誤る",
+    "exampleIndex": 1,
+    "sentence": "操作を誤ったことが、システム障害の直接の原因だった。",
+    "forms": [
+      "誤った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2535,
+    "word": "耕す",
+    "exampleIndex": 0,
+    "sentence": "農家は、春の訪れとともに畑を耕して種まきの準備を進めた。",
+    "forms": [
+      "耕して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2535,
+    "word": "耕す",
+    "exampleIndex": 1,
+    "sentence": "休耕地を耕し直す取り組みが、地域の活性化につながっている。",
+    "forms": [
+      "耕し"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2540,
+    "word": "催す",
+    "exampleIndex": 0,
+    "sentence": "同社は、創業五十周年を記念して盛大な式典を催した。",
+    "forms": [
+      "催した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2540,
+    "word": "催す",
+    "exampleIndex": 1,
+    "sentence": "長時間の移動で眠気を催し、運転を交代することにした。",
+    "forms": [
+      "催し"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2545,
+    "word": "察する",
+    "exampleIndex": 0,
+    "sentence": "相手のつらい気持ちを察して、彼は何も言わなかった。",
+    "forms": [
+      "察して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2546,
+    "word": "擦る",
+    "exampleIndex": 0,
+    "sentence": "彼はマッチを擦って、ろうそくに火をつけた。",
+    "forms": [
+      "擦って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2557,
+    "word": "志す",
+    "exampleIndex": 0,
+    "sentence": "若い頃に医師を志した彼は、地方の病院で働き続けている。",
+    "forms": [
+      "志した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2558,
+    "word": "施す",
+    "exampleIndex": 0,
+    "sentence": "工場では、製品に防錆の加工を施してから出荷している。",
+    "forms": [
+      "施して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2558,
+    "word": "施す",
+    "exampleIndex": 1,
+    "sentence": "職人は小箱に細かな装飾を施した。",
+    "forms": [
+      "施した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2561,
+    "word": "蒔く",
+    "exampleIndex": 0,
+    "sentence": "農家は、雨が降る前に急いで畑へ種を蒔いた。",
+    "forms": [
+      "蒔いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2561,
+    "word": "蒔く",
+    "exampleIndex": 1,
+    "sentence": "今は小さな努力でも、蒔いた種はいつか実を結ぶだろう。",
+    "forms": [
+      "蒔いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2562,
+    "word": "射る",
+    "exampleIndex": 0,
+    "sentence": "弓道部員は、静かに息を整えてから的を射た。",
+    "forms": [
+      "射た"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2563,
+    "word": "遮る",
+    "exampleIndex": 0,
+    "sentence": "高層ビルが日差しを遮り、周辺の住宅は日当たりが悪くなった。",
+    "forms": [
+      "遮り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2563,
+    "word": "遮る",
+    "exampleIndex": 1,
+    "sentence": "相手の話を遮って意見を述べるのは、会議の作法に反する。",
+    "forms": [
+      "遮って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2564,
+    "word": "弱る",
+    "exampleIndex": 1,
+    "sentence": "取引先から急な変更を求められ、担当者は弱っていた。",
+    "forms": [
+      "弱っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2569,
+    "word": "襲う",
+    "exampleIndex": 0,
+    "sentence": "大型台風が東日本を襲い、各地で停電が相次いだ。",
+    "forms": [
+      "襲い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2569,
+    "word": "襲う",
+    "exampleIndex": 1,
+    "sentence": "突然の不安に襲われて、彼は決断を先送りにしてしまった。",
+    "forms": [
+      "襲われて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2575,
+    "word": "澄む",
+    "exampleIndex": 0,
+    "sentence": "湖の水が澄んでいて、湖底の石まではっきりと見える。",
+    "forms": [
+      "澄んでいて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2575,
+    "word": "澄む",
+    "exampleIndex": 1,
+    "sentence": "秋の澄んだ空気の中で、遠くの山並みが鮮やかに見えた。",
+    "forms": [
+      "澄んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2577,
+    "word": "潤う",
+    "exampleIndex": 0,
+    "sentence": "観光客の増加により、地元の商店街も大いに潤っている。",
+    "forms": [
+      "潤っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2577,
+    "word": "潤う",
+    "exampleIndex": 1,
+    "sentence": "雨が降り、乾いていた大地がようやく潤った。",
+    "forms": [
+      "潤った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2581,
+    "word": "召す",
+    "exampleIndex": 1,
+    "sentence": "王は家臣を宮廷に召して、今後の方針を伝えた。",
+    "forms": [
+      "召して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2583,
+    "word": "焦る",
+    "exampleIndex": 1,
+    "sentence": "焦って決断を下すより、情報を集めて判断する方が賢明だ。",
+    "forms": [
+      "焦って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2587,
+    "word": "譲る",
+    "exampleIndex": 0,
+    "sentence": "社長は、経営権を息子に譲って会長に退く意向を示した。",
+    "forms": [
+      "譲って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2587,
+    "word": "譲る",
+    "exampleIndex": 1,
+    "sentence": "譲れない一線を守るため、交渉団は粘り強く協議を重ねた。",
+    "forms": [
+      "譲れない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2589,
+    "word": "慎む",
+    "exampleIndex": 1,
+    "sentence": "深夜に騒ぐのは慎み、近隣への配慮を忘れないでください。",
+    "forms": [
+      "慎み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2590,
+    "word": "浸す",
+    "exampleIndex": 0,
+    "sentence": "野菜を水に浸して、土や汚れを十分に落としてから調理する。",
+    "forms": [
+      "浸して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2597,
+    "word": "制する",
+    "exampleIndex": 0,
+    "sentence": "激戦を制したチームが、全国大会への出場権を手にした。",
+    "forms": [
+      "制した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2598,
+    "word": "整う",
+    "exampleIndex": 1,
+    "sentence": "整った環境で学ぶことが、子どもの成長を後押しする。",
+    "forms": [
+      "整った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2599,
+    "word": "調う",
+    "exampleIndex": 1,
+    "sentence": "長い交渉の末、ようやく話が調った。",
+    "forms": [
+      "調った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2603,
+    "word": "説く",
+    "exampleIndex": 0,
+    "sentence": "首相は演説で、構造改革の必要性を繰り返し説いた。",
+    "forms": [
+      "説いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2603,
+    "word": "説く",
+    "exampleIndex": 1,
+    "sentence": "専門家は、早期の対策が被害の拡大を防ぐと説いている。",
+    "forms": [
+      "説いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2607,
+    "word": "潜む",
+    "exampleIndex": 0,
+    "sentence": "この問題の背景には、構造的な格差が潜んでいると指摘される。",
+    "forms": [
+      "潜んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2607,
+    "word": "潜む",
+    "exampleIndex": 1,
+    "sentence": "新製品の開発には、思わぬ落とし穴が潜んでいることもある。",
+    "forms": [
+      "潜んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2608,
+    "word": "潜る",
+    "exampleIndex": 0,
+    "sentence": "調査隊は海中深く潜り、沈没船の状況を詳しく確認した。",
+    "forms": [
+      "潜り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2608,
+    "word": "潜る",
+    "exampleIndex": 1,
+    "sentence": "冷たい風を避けて、子どもは毛布の下に潜った。",
+    "forms": [
+      "潜った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2609,
+    "word": "煽る",
+    "exampleIndex": 0,
+    "sentence": "一部の報道が、市民の不安を煽っているとの批判が出ている。",
+    "forms": [
+      "煽っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2609,
+    "word": "煽る",
+    "exampleIndex": 1,
+    "sentence": "強風に煽られて火の勢いが増し、消火活動は難航した。",
+    "forms": [
+      "煽られて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2610,
+    "word": "閃く",
+    "exampleIndex": 0,
+    "sentence": "会議の最中に、課題を解決する妙案がふと閃いた。",
+    "forms": [
+      "閃いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2610,
+    "word": "閃く",
+    "exampleIndex": 1,
+    "sentence": "稲妻が夜空に閃き、直後に激しい雷鳴が響き渡った。",
+    "forms": [
+      "閃き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2611,
+    "word": "繕う",
+    "exampleIndex": 0,
+    "sentence": "古い衣服を繕って大切に着る習慣が、再評価されつつある。",
+    "forms": [
+      "繕って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2611,
+    "word": "繕う",
+    "exampleIndex": 1,
+    "sentence": "失敗を隠そうと、彼はその場で体裁を繕った。",
+    "forms": [
+      "繕った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2612,
+    "word": "蘇る",
+    "exampleIndex": 0,
+    "sentence": "復興事業により、廃れていた商店街の活気が蘇った。",
+    "forms": [
+      "蘇った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2612,
+    "word": "蘇る",
+    "exampleIndex": 1,
+    "sentence": "昔の写真を見ると、当時の記憶が鮮やかに蘇ってくる。",
+    "forms": [
+      "蘇ってくる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2613,
+    "word": "阻む",
+    "exampleIndex": 0,
+    "sentence": "険しい山道が、救助隊の進路を阻んでいる。",
+    "forms": [
+      "阻んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2615,
+    "word": "操る",
+    "exampleIndex": 0,
+    "sentence": "彼は三か国語を自在に操り、国際会議で通訳を務めた。",
+    "forms": [
+      "操り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2615,
+    "word": "操る",
+    "exampleIndex": 1,
+    "sentence": "裏で世論を操ろうとする試みは、強い批判を浴びた。",
+    "forms": [
+      "操ろう"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2617,
+    "word": "葬る",
+    "exampleIndex": 0,
+    "sentence": "不都合な事実を闇に葬ろうとした経緯が、調査で明らかになった。",
+    "forms": [
+      "葬ろう"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2617,
+    "word": "葬る",
+    "exampleIndex": 1,
+    "sentence": "遺族は故人を静かに葬り、地元の寺で法要を営んだ。",
+    "forms": [
+      "葬り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2618,
+    "word": "装う",
+    "exampleIndex": 0,
+    "sentence": "不審な男は、宅配業者を装って高齢者の自宅に近づいた。",
+    "forms": [
+      "装って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2618,
+    "word": "装う",
+    "exampleIndex": 1,
+    "sentence": "彼女は平静を装っていたが、内心の動揺は隠せなかった。",
+    "forms": [
+      "装っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2619,
+    "word": "憎む",
+    "exampleIndex": 0,
+    "sentence": "講師は「罪を憎んで人を憎まず」という言葉を紹介した。",
+    "forms": [
+      "憎んで",
+      "憎まず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2619,
+    "word": "憎む",
+    "exampleIndex": 1,
+    "sentence": "互いを憎み合う感情の連鎖を断ち切ることが、和解への第一歩だ。",
+    "forms": [
+      "憎み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2621,
+    "word": "即する",
+    "exampleIndex": 0,
+    "sentence": "制度は、現場の実態に即して柔軟に見直されるべきだ。",
+    "forms": [
+      "即して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2621,
+    "word": "即する",
+    "exampleIndex": 1,
+    "sentence": "事実に即した報道こそが、メディアの信頼を支える基盤である。",
+    "forms": [
+      "即した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2631,
+    "word": "怠る",
+    "exampleIndex": 0,
+    "sentence": "安全点検を怠ったことが、重大な事故の根本原因であった。",
+    "forms": [
+      "怠った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2631,
+    "word": "怠る",
+    "exampleIndex": 1,
+    "sentence": "日々の努力を怠らない姿勢が、長期的な成長につながる。",
+    "forms": [
+      "怠らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2632,
+    "word": "滞る",
+    "exampleIndex": 0,
+    "sentence": "部品の供給が滞り、工場の生産ラインは一時停止した。",
+    "forms": [
+      "滞り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2632,
+    "word": "滞る",
+    "exampleIndex": 1,
+    "sentence": "家賃の支払いが滞った場合の対応を、契約書に明記しておく。",
+    "forms": [
+      "滞った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2633,
+    "word": "退く",
+    "exampleIndex": 0,
+    "sentence": "創業者は経営の第一線から退き、後進の育成に専念した。",
+    "forms": [
+      "退き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2633,
+    "word": "退く",
+    "exampleIndex": 1,
+    "sentence": "交渉が決裂し、代表団は席を退いて会場を後にした。",
+    "forms": [
+      "退いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2635,
+    "word": "嘆く",
+    "exampleIndex": 0,
+    "sentence": "識者は、若者の政治離れが進む現状を嘆いている。",
+    "forms": [
+      "嘆いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2635,
+    "word": "嘆く",
+    "exampleIndex": 1,
+    "sentence": "嘆いてばかりいても事態は好転しないと、彼は前を向いた。",
+    "forms": [
+      "嘆いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2637,
+    "word": "弾く",
+    "exampleIndex": 0,
+    "sentence": "彼女はコンサートホールで、長年練習してきた曲をピアノで堂々と弾いた。",
+    "forms": [
+      "弾いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2637,
+    "word": "弾く",
+    "exampleIndex": 1,
+    "sentence": "撥水加工を施した生地は、雨粒を弾いて内側へ染み込ませない。",
+    "forms": [
+      "弾いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2638,
+    "word": "弾む",
+    "exampleIndex": 0,
+    "sentence": "久しぶりの再会に話が弾み、気がつけば深夜になっていた。",
+    "forms": [
+      "弾み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2642,
+    "word": "伴う",
+    "exampleIndex": 1,
+    "sentence": "新事業の開始に伴い、組織体制を大幅に見直すことになった。",
+    "forms": [
+      "伴い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2644,
+    "word": "挑む",
+    "exampleIndex": 0,
+    "sentence": "新興企業が、業界最大手に真っ向から勝負を挑んだ。",
+    "forms": [
+      "挑んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2645,
+    "word": "反る",
+    "exampleIndex": 0,
+    "sentence": "湿気を含んだ木材は、時間がたつと反ってしまうことがある。",
+    "forms": [
+      "反ってしまう"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2645,
+    "word": "反る",
+    "exampleIndex": 1,
+    "sentence": "乾燥により、板の端が大きく反ってしまった。",
+    "forms": [
+      "反ってしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2648,
+    "word": "被る",
+    "exampleIndex": 0,
+    "sentence": "台風により、沿岸の農家は甚大な被害を被った。",
+    "forms": [
+      "被った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2648,
+    "word": "被る",
+    "exampleIndex": 1,
+    "sentence": "政策の転換で、中小企業が不利益を被らないよう配慮が要る。",
+    "forms": [
+      "被らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2649,
+    "word": "鈍る",
+    "exampleIndex": 0,
+    "sentence": "長期の休養で、選手の試合勘が鈍ってしまった。",
+    "forms": [
+      "鈍ってしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2649,
+    "word": "鈍る",
+    "exampleIndex": 1,
+    "sentence": "景気の先行きが不透明で、企業の設備投資への意欲が鈍っている。",
+    "forms": [
+      "鈍っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2653,
+    "word": "捗る",
+    "exampleIndex": 1,
+    "sentence": "復旧作業が思うように捗らず、開通の見通しは立っていない。",
+    "forms": [
+      "捗らず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2654,
+    "word": "漂う",
+    "exampleIndex": 0,
+    "sentence": "会場には、新製品への期待感が漂っていた。",
+    "forms": [
+      "漂っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2658,
+    "word": "忍ぶ",
+    "exampleIndex": 0,
+    "sentence": "彼は人目を忍んで、夜遅くに会社の裏口から出ていった。",
+    "forms": [
+      "忍んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2658,
+    "word": "忍ぶ",
+    "exampleIndex": 1,
+    "sentence": "留学のため、彼女は貧しさを忍んで貯金を続けた。",
+    "forms": [
+      "忍んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2661,
+    "word": "粘る",
+    "exampleIndex": 0,
+    "sentence": "最後まで粘って交渉した結果、有利な条件を引き出せた。",
+    "forms": [
+      "粘って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2662,
+    "word": "腐る",
+    "exampleIndex": 0,
+    "sentence": "冷蔵設備が故障し、保管していた食品が腐ってしまった。",
+    "forms": [
+      "腐ってしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2662,
+    "word": "腐る",
+    "exampleIndex": 1,
+    "sentence": "一度の失敗で腐らず、次の機会に向けて準備を重ねてほしい。",
+    "forms": [
+      "腐らず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2663,
+    "word": "摘む",
+    "exampleIndex": 0,
+    "sentence": "農家の人々は早朝から、茶畑で新芽を摘んでいる。",
+    "forms": [
+      "摘んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2668,
+    "word": "覆す",
+    "exampleIndex": 0,
+    "sentence": "小説の終盤で、新たな証拠がそれまでの推理を覆した。",
+    "forms": [
+      "覆した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2669,
+    "word": "培う",
+    "exampleIndex": 0,
+    "sentence": "長年の海外勤務で培った人脈が、新規事業の大きな資産となった。",
+    "forms": [
+      "培った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2671,
+    "word": "妬む",
+    "exampleIndex": 1,
+    "sentence": "他人の成功を妬んでいても、自らの成長にはつながらない。",
+    "forms": [
+      "妬んでいて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2674,
+    "word": "覆る",
+    "exampleIndex": 0,
+    "sentence": "有力視されていた予想が覆り、無名の候補者が当選した。",
+    "forms": [
+      "覆り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2678,
+    "word": "侮る",
+    "exampleIndex": 1,
+    "sentence": "相手を侮った一瞬の油断が、思わぬ敗北を招いた。",
+    "forms": [
+      "侮った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2680,
+    "word": "背く",
+    "exampleIndex": 1,
+    "sentence": "彼は親の意向に背いて、独立の道を選んだ。",
+    "forms": [
+      "背いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2682,
+    "word": "負う",
+    "exampleIndex": 0,
+    "sentence": "経営陣は、今回の問題に対する重い責任を負っている。",
+    "forms": [
+      "負っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2682,
+    "word": "負う",
+    "exampleIndex": 1,
+    "sentence": "事故で重傷を負った乗客は、直ちに病院へ搬送された。",
+    "forms": [
+      "負った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2684,
+    "word": "徹する",
+    "exampleIndex": 0,
+    "sentence": "今回は裏方に徹して、チームの成功を支えることにした。",
+    "forms": [
+      "徹して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2684,
+    "word": "徹する",
+    "exampleIndex": 1,
+    "sentence": "彼は自社の利益よりも、顧客本位の姿勢に徹している。",
+    "forms": [
+      "徹している"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2685,
+    "word": "病む",
+    "exampleIndex": 1,
+    "sentence": "祖父は長く胃を病んでいたが、今は快方に向かっている。",
+    "forms": [
+      "病んでいた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2686,
+    "word": "任す",
+    "exampleIndex": 1,
+    "sentence": "重要な案件を部下に任して、自分は新規開拓に専念した。",
+    "forms": [
+      "任して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2689,
+    "word": "匂う",
+    "exampleIndex": 0,
+    "sentence": "庭には梅の花が匂い、春の訪れを静かに告げている。",
+    "forms": [
+      "匂い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2689,
+    "word": "匂う",
+    "exampleIndex": 1,
+    "sentence": "扉を開けると、辺り一面に花が匂った。",
+    "forms": [
+      "匂った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2697,
+    "word": "発する",
+    "exampleIndex": 0,
+    "sentence": "気象庁は、大雨に関する警報を県内全域に発した。",
+    "forms": [
+      "発した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2697,
+    "word": "発する",
+    "exampleIndex": 1,
+    "sentence": "この問題は、現場の小さな不満に端を発している。",
+    "forms": [
+      "発している"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2699,
+    "word": "怒る",
+    "exampleIndex": 0,
+    "sentence": "顧客は、不十分な説明に対して怒って契約を打ち切った。",
+    "forms": [
+      "怒って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2701,
+    "word": "沸く",
+    "exampleIndex": 0,
+    "sentence": "決勝戦の劇的な逆転劇に、会場は大いに沸いた。",
+    "forms": [
+      "沸いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2703,
+    "word": "憤る",
+    "exampleIndex": 1,
+    "sentence": "市民は、政治家の不誠実な説明に強く憤っている。",
+    "forms": [
+      "憤っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2707,
+    "word": "偏る",
+    "exampleIndex": 1,
+    "sentence": "食事の栄養が偏らないよう、献立を工夫する必要がある。",
+    "forms": [
+      "偏らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2708,
+    "word": "癒す",
+    "exampleIndex": 1,
+    "sentence": "友人との会話が、彼女の悲しみを少しずつ癒してくれた。",
+    "forms": [
+      "癒して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2709,
+    "word": "募る",
+    "exampleIndex": 0,
+    "sentence": "住民の間では、行政への不信感が日ごとに募っている。",
+    "forms": [
+      "募っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2711,
+    "word": "慕う",
+    "exampleIndex": 0,
+    "sentence": "部下から慕われる上司は、組織の信頼を築くのがうまい。",
+    "forms": [
+      "慕われる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2711,
+    "word": "慕う",
+    "exampleIndex": 1,
+    "sentence": "彼は恩師を慕って、遠く離れた町まで訪ねていった。",
+    "forms": [
+      "慕って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2717,
+    "word": "縫う",
+    "exampleIndex": 1,
+    "sentence": "配達員は車の間を縫って進み、荷物を時間どおりに届けた。",
+    "forms": [
+      "縫って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2719,
+    "word": "暴く",
+    "exampleIndex": 0,
+    "sentence": "調査報道が、組織ぐるみの不正会計の実態を暴いた。",
+    "forms": [
+      "暴いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2723,
+    "word": "磨く",
+    "exampleIndex": 0,
+    "sentence": "職人が長年かけて磨いた技術が、製品の高い品質を支えている。",
+    "forms": [
+      "磨いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2730,
+    "word": "面する",
+    "exampleIndex": 1,
+    "sentence": "当社は、創業以来最大の危機に面している。",
+    "forms": [
+      "面している"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2737,
+    "word": "乱す",
+    "exampleIndex": 0,
+    "sentence": "一人の身勝手な行動が、チーム全体の和を乱してしまった。",
+    "forms": [
+      "乱してしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2737,
+    "word": "乱す",
+    "exampleIndex": 1,
+    "sentence": "生活のリズムを乱さないよう、規則正しい睡眠を心がけたい。",
+    "forms": [
+      "乱さない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2742,
+    "word": "臨む",
+    "exampleIndex": 0,
+    "sentence": "首脳は、緊張感をもって重要な国際会議に臨んだ。",
+    "forms": [
+      "臨んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2744,
+    "word": "励む",
+    "exampleIndex": 0,
+    "sentence": "若手社員は、資格の取得に向けて日々の学習に励んでいる。",
+    "forms": [
+      "励んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2744,
+    "word": "励む",
+    "exampleIndex": 1,
+    "sentence": "彼は研究に励み、ついに画期的な成果を発表した。",
+    "forms": [
+      "励み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2745,
+    "word": "劣る",
+    "exampleIndex": 1,
+    "sentence": "品質は決して劣らないが、価格競争では不利な立場にある。",
+    "forms": [
+      "劣らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2746,
+    "word": "裂く",
+    "exampleIndex": 1,
+    "sentence": "強風が旗を裂き、会場の設営は一時中断を余儀なくされた。",
+    "forms": [
+      "裂き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2748,
+    "word": "練る",
+    "exampleIndex": 0,
+    "sentence": "経営陣は数か月かけて、新たな中期計画を練った。",
+    "forms": [
+      "練った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2748,
+    "word": "練る",
+    "exampleIndex": 1,
+    "sentence": "小麦粉を水でよく練り、半日ほど寝かせて生地にする。",
+    "forms": [
+      "練り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2751,
+    "word": "弄ぶ",
+    "exampleIndex": 1,
+    "sentence": "運命に弄ばれながらも、彼は自らの道を切り開いていった。",
+    "forms": [
+      "弄ばれ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2756,
+    "word": "和む",
+    "exampleIndex": 0,
+    "sentence": "彼の一言で、緊迫していた会議の空気がふっと和んだ。",
+    "forms": [
+      "和んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2759,
+    "word": "歪む",
+    "exampleIndex": 0,
+    "sentence": "地震の影響で、建物の窓枠が歪んで開閉できなくなった。",
+    "forms": [
+      "歪んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2761,
+    "word": "惑う",
+    "exampleIndex": 0,
+    "sentence": "情報があふれる時代に、消費者は何を選ぶべきか惑っている。",
+    "forms": [
+      "惑っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2764,
+    "word": "揉む",
+    "exampleIndex": 0,
+    "sentence": "彼は椅子に座って、肩を揉んでもらった。",
+    "forms": [
+      "揉んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2764,
+    "word": "揉む",
+    "exampleIndex": 1,
+    "sentence": "新人は先輩に揉まれながら、一人前の営業へと成長した。",
+    "forms": [
+      "揉まれ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2766,
+    "word": "甦る",
+    "exampleIndex": 1,
+    "sentence": "彼の演奏を聴くと、遠い日の記憶が鮮やかに甦ってくる。",
+    "forms": [
+      "甦ってくる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2767,
+    "word": "睨む",
+    "exampleIndex": 0,
+    "sentence": "監督は、次の試合を睨んで主力選手を温存することにした。",
+    "forms": [
+      "睨んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2767,
+    "word": "睨む",
+    "exampleIndex": 1,
+    "sentence": "市場の動向を睨みながら、慎重に投資の時期を見極める。",
+    "forms": [
+      "睨み"
+    ]
+  },
+  {
+    "kind": "g",
+    "id": 120,
+    "word": "～なら～で",
+    "exampleIndex": 0,
+    "sentence": "忙しいなら忙しいで、その状況に合った時間の使い方を工夫すべきだ。",
+    "forms": [
+      "忙しいなら忙しいで"
+    ],
+    "quiz": {
+      "correct": "忙しい状況は受け止め、その状況に合う工夫をする。",
+      "wrong": [
+        "忙しくなくなった後でしか、時間の使い方を工夫できない。",
+        "忙しいかどうかに関係なく、全員が同じ時間の使い方をする。",
+        "忙しさを解消するために、予定していた仕事を全て断る。"
+      ],
+      "note": "忙しいなら忙しいで — якщо вже зайнятий, слід діяти відповідно до цих обставин. Повторення ознаки не заперечує її та не вимагає спочатку усунути зайнятість."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 120,
+    "word": "～なら～で",
+    "exampleIndex": 1,
+    "sentence": "一人なら一人で、自分のペースで進められる利点がある。",
+    "forms": [
+      "一人なら一人で"
+    ],
+    "quiz": {
+      "correct": "一人という状況にも、それに応じた利点がある。",
+      "wrong": [
+        "一人で進める場合にだけ、どんな問題も必ず解決する。",
+        "一人で進めることには、利点が全くないと考える。",
+        "一人で進めるのをやめ、他人のペースに合わせる。"
+      ],
+      "note": "一人なら一人で — перебування наодинці має свої переваги: можна рухатися у власному темпі. Це прийняття конкретної ситуації, а не гарантія успіху."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 123,
+    "word": "お / ご〜願う",
+    "exampleIndex": 0,
+    "sentence": "恐れ入りますが、こちらにご記入願います。",
+    "forms": [
+      "ご記入願います"
+    ],
+    "quiz": {
+      "correct": "相手に、この場所へ記入するよう丁重に頼む。",
+      "wrong": [
+        "自分が記入することを、相手にへりくだって伝える。",
+        "相手が既に記入したことに対して、感謝を伝える。",
+        "記入の必要がなくなったことを、相手に知らせる。"
+      ],
+      "note": "ご記入願います — офіційне прохання до адресата заповнити зазначене місце. Виконавцем має бути адресат; це не власна дія мовця."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 123,
+    "word": "お / ご〜願う",
+    "exampleIndex": 1,
+    "sentence": "会場内での撮影はご遠慮願います。",
+    "forms": [
+      "ご遠慮願います"
+    ],
+    "quiz": {
+      "correct": "会場内で撮影しないよう、相手に丁重に求める。",
+      "wrong": [
+        "会場内で撮影するよう、相手に丁重に勧める。",
+        "撮影するかどうかは、自由に決めてよいと伝える。",
+        "撮影した写真を、後で見せてほしいと頼む。"
+      ],
+      "note": "ご遠慮願います тут виконує функцію ввічливої заборони фотографувати. 遠慮 означає утриматися від дії; це не надання вільного вибору."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 124,
+    "word": "お / ご〜くださる",
+    "exampleIndex": 0,
+    "sentence": "部長が自ら現場にお越しくださり、社員一同大変感激いたしました。",
+    "forms": [
+      "お越しくださり"
+    ],
+    "quiz": {
+      "correct": "部長が来てくれた行為に、敬意と感謝を表す。",
+      "wrong": [
+        "自分たちが部長のもとへ行った行為を、へりくだって述べる。",
+        "部長に来ないよう頼んだことを、丁重に報告する。",
+        "部長が来るかどうかを、これから初めて尋ねる。"
+      ],
+      "note": "お越しくださり — керівник прийшов, а працівники сприйняли це як увагу до них. くださる шанобливо називає дію особи, яка надає послугу."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 124,
+    "word": "お / ご〜くださる",
+    "exampleIndex": 1,
+    "sentence": "ご多忙にもかかわらず、ご出席くださいましたことを厚く御礼申し上げます。",
+    "forms": [
+      "ご出席くださいました"
+    ],
+    "quiz": {
+      "correct": "相手が出席してくれたことに、敬意と感謝を表す。",
+      "wrong": [
+        "自分が相手の代わりに出席したことを、へりくだって述べる。",
+        "相手に今後の出席を取りやめるよう、丁重に求める。",
+        "出席するかどうかの返事を、相手に改めて求める。"
+      ],
+      "note": "ご出席くださいました — адресат уже був присутній; мовець дякує за його дію. ご多忙 — окрема ввічлива назва зайнятості, а не цільова конструкція くださる."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 125,
+    "word": "お / ご〜いただく",
+    "exampleIndex": 0,
+    "sentence": "お忙しいところご足労いただき、誠に恐縮です。",
+    "forms": [
+      "ご足労いただき"
+    ],
+    "quiz": {
+      "correct": "相手に来てもらったことを、受け手の立場からへりくだって述べる。",
+      "wrong": [
+        "自分が相手のもとへ行ったことを、受け手に感謝して述べる。",
+        "相手のところへ行く許可を、これから初めて求める。",
+        "相手には来てもらう必要がないと、丁重に断る。"
+      ],
+      "note": "ご足労いただき — мовець отримав послугу: інша особа прийшла до нього. お忙しいところ створює ввічливе тло; виділяється саме повна конструкція з いただく."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 125,
+    "word": "お / ご〜いただく",
+    "exampleIndex": 1,
+    "sentence": "ご意見をお寄せいただければ幸いです。",
+    "forms": [
+      "お寄せいただければ"
+    ],
+    "quiz": {
+      "correct": "相手に意見を寄せてもらえればありがたいと、丁重に頼む。",
+      "wrong": [
+        "自分が意見を寄せる許可を得たことを、丁重に報告する。",
+        "相手から意見を既に受け取ったことに、感謝を伝える。",
+        "意見は寄せないでほしいと、相手に丁重に求める。"
+      ],
+      "note": "お寄せいただければ — умовне прохання: був би вдячний, якби ви надіслали думки. Наявного отримання ще не стверджено; ご意見 — ввічлива назва думок, а не конструкція いただく."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 127,
+    "word": "〜召す",
+    "exampleIndex": 0,
+    "sentence": "お客様、こちらの上着をお召しになって、鏡でお確かめください。",
+    "forms": [
+      "お召しになって"
+    ],
+    "quiz": {
+      "correct": "相手が上着を着る行為を、敬意を込めて述べる。",
+      "wrong": [
+        "相手が上着を買う行為を、敬意を込めて述べる。",
+        "相手が上着を脱ぐ行為を、敬意を込めて述べる。",
+        "相手が上着を洗う行為を、敬意を込めて述べる。"
+      ],
+      "note": "お召しになる тут — шанобливе «одягати». Пропонують приміряти піджак і поглянути в дзеркало. Не слід підміняти це іншим значенням 召す у вислові お気に召す."
+    }
+  },
+  {
+    "kind": "g",
+    "id": 127,
+    "word": "〜召す",
+    "exampleIndex": 1,
+    "sentence": "新しい制服は、皆様のお気に召したようで何よりです。",
+    "forms": [
+      "お気に召した"
+    ],
+    "quiz": {
+      "correct": "新しい制服を、相手が気に入ったことを敬意を込めて述べる。",
+      "wrong": [
+        "新しい制服を、相手が既に着たことを敬意を込めて述べる。",
+        "新しい制服を、相手が注文したことを敬意を込めて述べる。",
+        "新しい制服を、相手が受け取ったことを敬意を込めて述べる。"
+      ],
+      "note": "お気に召した — форма минулого часу від お気に召す: «сподобалося». Речення не стверджує, що форму вже одягнули, замовили чи отримали."
+    }
+  },
+  {
+    "kind": "v",
+    "id": 716,
+    "word": "恵み",
+    "exampleIndex": 0,
+    "sentence": "自然の恵みに感謝しながら、持続可能な農業を営んでいる。",
+    "forms": [
+      "恵み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 716,
+    "word": "恵み",
+    "exampleIndex": 1,
+    "sentence": "雨の恵みで、干ばつに苦しんでいた農家は一息つくことができた。",
+    "forms": [
+      "恵み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 782,
+    "word": "並",
+    "exampleIndex": 0,
+    "sentence": "彼の知識は、専門家並みに豊富だ。",
+    "forms": [
+      "並み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 782,
+    "word": "並",
+    "exampleIndex": 1,
+    "sentence": "人並みの生活を営むためには、一定の収入が必要となる。",
+    "forms": [
+      "並み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 784,
+    "word": "峰",
+    "exampleIndex": 0,
+    "sentence": "雪に覆われた峰々が、朝日を浴びて輝いていた。",
+    "forms": [
+      "峰々"
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 # Робочий пакет завершення 1.0
 
-**Поточне доповнення:** C04 закрито у v137; [C04-result.json](C04-result.json) та audit137/scan-results.json містять нові докази. Наведені нижче baseline/target-diagnostics/target-triage залишаються історичною основою v135/v136. Їхні 30 unmarked не описують поточний v137, у якому їх 0.
+**Поточне доповнення:** C04 закрито у v137; C05/C06 — у v139. Нові докази C05-result.json, C06-result.json та audit139/. Історичні baseline/target-diagnostics/target-triage за v135/v136 не переписані: поточний scan має 0 unmarked і 289 коректних однознакових результатів. Нова стратегія 4.11 — [strategy/README.md](../strategy/README.md); вона не запускає перебудову бази/алгоритмів.
 
 - [PLAN.md](PLAN.md) — погоджена мета, межі й критерій зупинки.
 - [BACKLOG.md](BACKLOG.md) — єдиний список незавершених задач і докази закриття.

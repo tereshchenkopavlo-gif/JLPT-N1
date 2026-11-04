@@ -1,0 +1,19 @@
+{
+  "sha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+  "browser": "141.0.7390.37",
+  "pass": true,
+  "stableId": 716,
+  "oldLabel": "恵",
+  "newLabel": "恵み",
+  "importedProgress": {
+    "status": "S",
+    "timesShown": 4,
+    "lastSeen": 1793426400000,
+    "firstSeen": 1793340000000
+  },
+  "comparisonKeys": [
+    "v_716",
+    "v_782"
+  ],
+  "scope": "Built-in vocabulary, actual v138 backup export → v139 import/reload/card/comparison; custom vocabulary not migrated."
+}
