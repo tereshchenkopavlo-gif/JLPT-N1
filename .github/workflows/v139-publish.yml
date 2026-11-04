@@ -1,0 +1,60 @@
+name: Verify and publish JLPT N1 v139
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit139/**'
+      - '.github/workflows/v139-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v139-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build exact release and scan all examples
+        run: |
+          python3 audit139/build.py
+          python3 audit139/check.py
+          node --check audit139/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify 5004 generator cases and 1090 rendered answers
+        run: node audit139/targets-browser.cjs
+      - name: Verify identity, UI, comparisons, progress and full session
+        run: |
+          node audit139/identity-browser.cjs
+          node audit139/presentation.cjs
+          node audit139/ui.cjs
+          node audit139/browser-functional.cjs
+          node audit139/session-completion.cjs
+          node audit139/comparison-browser.cjs
+      - name: Publish complete HTML, audit and structured evidence
+        run: |
+          python3 audit139/publish.py
+          python3 strategy/inventory.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v139.html JLPT_N1_v139_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/README.md completion/C05-result.json completion/C06-result.json audit139/build-summary.json audit139/adjudications.json audit139/targets.json audit139/*-results.json strategy/snapshot.json strategy/asset-register.csv
+          git commit -m "Release JLPT N1 v139: reviewed target forms, stable Megumi identity and strategy evidence"
+          git push origin HEAD:main
+      - name: Verify published full release and documents
+        run: |
+          git fetch origin main
+          for file in JLPT_N1_ukrainian_reading_v139.html JLPT_N1_v139_audit.md README.md PROJECT_STATUS.md strategy/LEARNING_METHODOLOGY.md strategy/PROVENANCE_REVIEW.md; do
+            test "$(git hash-object "$file")" = "$(git rev-parse "origin/main:$file")"
+          done

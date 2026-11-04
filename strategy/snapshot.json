@@ -1,0 +1,63 @@
+{
+  "asOf": "2026-11-04 Asia/Tokyo",
+  "publishedBaseline": {
+    "version": 138,
+    "commit": "236317fe0f9b47d4afceea2d02bf20fdbdf36c75",
+    "sha256": "6f7ea6a3d4ca30e8a9cc6ffad31994d99e925809fa4d4b94fe2bf28349027dfc"
+  },
+  "preparedRelease": {
+    "version": 139,
+    "sha256": "e18ab0ee3ec3a56dced31b9abb6ec4813d92c102f93f20922e3dc05718d1dd17",
+    "localChecks": "audit139/",
+    "publicationStatus": "See PROJECT_STATUS.md and GitHub main; snapshot preserves pre-publication state"
+  },
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "vocabExamples": 7828,
+    "grammarExamples": 261,
+    "medium": 99,
+    "long": 61,
+    "readingQuestions": 381,
+    "vocabPairs": 859,
+    "grammarPairs": 92,
+    "antonymPairs": 41,
+    "storedMeaningQuizzes": 265,
+    "exactMappings": 267,
+    "contextQuizSets": 40
+  },
+  "remainingReadingSlots": {
+    "medium": 21,
+    "long": 19
+  },
+  "finalReviewRegister": {
+    "rows": 5842,
+    "statuses": {
+      "pending": 5782,
+      "reviewed": 60
+    },
+    "scope": "Final acceptance evidence, not a reset of historical author audits; narrow C04/C05 fixes do not close whole cards."
+  },
+  "provenanceInventory": {
+    "units": 14198,
+    "byKind": {
+      "vocab": 3914,
+      "example_pair": 8089,
+      "grammar": 130,
+      "vocab_pair": 859,
+      "grammar_pair": 92,
+      "antonym_pair": 41,
+      "meaning_quiz": 265,
+      "exact_mapping": 267,
+      "reading": 160,
+      "reading_question": 381
+    },
+    "readingOriginClaims": {
+      "unknown": 46,
+      "authored_claim": 114
+    },
+    "rightsCleared": 0,
+    "scope": "Preliminary origin/rights triage, no book-wide comparison or legal clearance"
+  },
+  "runtimeChangedByStrategy": false
+}

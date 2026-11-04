@@ -1,0 +1,4418 @@
+[
+  {
+    "kind": "v",
+    "id": 408,
+    "word": "稼ぐ",
+    "exampleIndex": 0,
+    "sentence": "彼は、複数の仕事を掛け持ちして、学費を稼いだ。",
+    "spans": [
+      "稼"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "稼いだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 410,
+    "word": "解く",
+    "exampleIndex": 0,
+    "sentence": "難解な数学の問題を、時間をかけて解いた。",
+    "spans": [
+      "解"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "解いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 413,
+    "word": "営む",
+    "exampleIndex": 0,
+    "sentence": "彼の家は、代々、旅館を営んでいる。",
+    "spans": [
+      "営"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "営んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 413,
+    "word": "営む",
+    "exampleIndex": 1,
+    "sentence": "人々は、自然と共存しながら生活を営んできた。",
+    "spans": [
+      "営"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "営んできた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 414,
+    "word": "映る",
+    "exampleIndex": 0,
+    "sentence": "湖面には、周囲の山々が美しく映っていた。",
+    "spans": [
+      "映"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "映っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 414,
+    "word": "映る",
+    "exampleIndex": 1,
+    "sentence": "画面に映った映像が、事件の手がかりとなった。",
+    "spans": [
+      "映"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "映った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 417,
+    "word": "汚す",
+    "exampleIndex": 0,
+    "sentence": "油で衣服を汚してしまい、洗濯せざるを得なかった。",
+    "spans": [
+      "汚"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "汚してしまい"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 420,
+    "word": "殴る",
+    "exampleIndex": 0,
+    "sentence": "口論の末、男は相手の顔を殴って怪我をさせた。",
+    "spans": [
+      "殴"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "殴って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 422,
+    "word": "壊す",
+    "exampleIndex": 0,
+    "sentence": "不用意な発言が、せっかくの雰囲気を壊してしまった。",
+    "spans": [
+      "壊"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "壊してしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 426,
+    "word": "叶う",
+    "exampleIndex": 0,
+    "sentence": "長年の夢が叶い、彼は念願の店を持つことができた。",
+    "spans": [
+      "叶"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "叶い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 431,
+    "word": "輝く",
+    "exampleIndex": 1,
+    "sentence": "優勝の喜びに、選手たちの顔は輝いていた。",
+    "spans": [
+      "輝"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "輝いていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 434,
+    "word": "救う",
+    "exampleIndex": 0,
+    "sentence": "救助隊は、被災者を危険な場所から救った。",
+    "spans": [
+      "救"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "救った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 436,
+    "word": "許す",
+    "exampleIndex": 0,
+    "sentence": "いかなる事情があっても、不正は許されない。",
+    "spans": [
+      "許"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "許さ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 436,
+    "word": "許す",
+    "exampleIndex": 1,
+    "sentence": "当局は、規制緩和による参入を許した。",
+    "spans": [
+      "許"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "許した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 437,
+    "word": "狂う",
+    "exampleIndex": 0,
+    "sentence": "時計が狂って、会議に遅れてしまった。",
+    "spans": [
+      "狂"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "狂って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 437,
+    "word": "狂う",
+    "exampleIndex": 1,
+    "sentence": "予想外の事態で、計画が大きく狂った。",
+    "spans": [
+      "狂"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "狂った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 438,
+    "word": "響く",
+    "exampleIndex": 0,
+    "sentence": "鐘の音が、静かな街に響いた。",
+    "spans": [
+      "響"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "響いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 438,
+    "word": "響く",
+    "exampleIndex": 1,
+    "sentence": "批判の声が、社内に重く響いた。",
+    "spans": [
+      "響"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "響いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 439,
+    "word": "驚く",
+    "exampleIndex": 0,
+    "sentence": "予想外の結果に、関係者は一様に驚いた。",
+    "spans": [
+      "驚"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "驚いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 445,
+    "word": "敬う",
+    "exampleIndex": 1,
+    "sentence": "師を敬い、その教えを守り続けている。",
+    "spans": [
+      "敬"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "敬い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 446,
+    "word": "経る",
+    "exampleIndex": 0,
+    "sentence": "審議を経て、法案は国会で成立した。",
+    "spans": [
+      "経"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "経て"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 446,
+    "word": "経る",
+    "exampleIndex": 1,
+    "sentence": "数多くの試練を経て、彼は今の地位に至った。",
+    "spans": [
+      "経"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "経て"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 448,
+    "word": "結ぶ",
+    "exampleIndex": 0,
+    "sentence": "両社は、業務提携の契約を結んだ。",
+    "spans": [
+      "結"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "結んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 448,
+    "word": "結ぶ",
+    "exampleIndex": 1,
+    "sentence": "長年の努力が実を結び、研究は成功した。",
+    "spans": [
+      "結"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "結び"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 451,
+    "word": "限る",
+    "exampleIndex": 0,
+    "sentence": "募集は、先着二十名に限らせていただきます。",
+    "spans": [
+      "限"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "限ら"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 454,
+    "word": "向く",
+    "exampleIndex": 0,
+    "sentence": "この仕事は、細かい作業が得意な人に向いている。",
+    "spans": [
+      "向"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "向いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 454,
+    "word": "向く",
+    "exampleIndex": 1,
+    "sentence": "この部屋の窓は南を向いている。",
+    "spans": [
+      "向"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "向いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 457,
+    "word": "行う",
+    "exampleIndex": 1,
+    "sentence": "調査は、全国の約千社を対象に行われた。",
+    "spans": [
+      "行"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "行わ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 460,
+    "word": "削る",
+    "exampleIndex": 0,
+    "sentence": "経費を削って、収支の改善を図った。",
+    "spans": [
+      "削"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "削って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 460,
+    "word": "削る",
+    "exampleIndex": 1,
+    "sentence": "睡眠時間を削ってまで、仕事に打ち込むのは考えものだ。",
+    "spans": [
+      "削"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "削って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 464,
+    "word": "謝る",
+    "exampleIndex": 1,
+    "sentence": "彼は、顧客に頭を下げて、丁寧に謝った。",
+    "spans": [
+      "謝"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "謝った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 466,
+    "word": "従う",
+    "exampleIndex": 0,
+    "sentence": "社員は、会社の規則に従わなければならない。",
+    "spans": [
+      "従"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "従わなけれ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 466,
+    "word": "従う",
+    "exampleIndex": 1,
+    "sentence": "状況の変化に従って、対応を柔軟に変えていく。",
+    "spans": [
+      "従"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 467,
+    "word": "巡る",
+    "exampleIndex": 0,
+    "sentence": "この問題を巡って、議論が白熱した。",
+    "spans": [
+      "巡"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "巡って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 467,
+    "word": "巡る",
+    "exampleIndex": 1,
+    "sentence": "この夏は、各地の町を巡った。",
+    "spans": [
+      "巡"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "巡った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 468,
+    "word": "除く",
+    "exampleIndex": 1,
+    "sentence": "一部の例外を除き、全ての申請が認められた。",
+    "spans": [
+      "除"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "除き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 470,
+    "word": "招く",
+    "exampleIndex": 0,
+    "sentence": "軽率な判断が、思わぬ事態を招いた。",
+    "spans": [
+      "招"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "招いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 470,
+    "word": "招く",
+    "exampleIndex": 1,
+    "sentence": "外部から専門家を招いて、講演会を開催した。",
+    "spans": [
+      "招"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "招いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 489,
+    "word": "狙う",
+    "exampleIndex": 0,
+    "sentence": "同社は、若年層の需要を狙った商品を開発した。",
+    "spans": [
+      "狙"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "狙った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 489,
+    "word": "狙う",
+    "exampleIndex": 1,
+    "sentence": "彼は、昇進を狙って、積極的に成果を上げている。",
+    "spans": [
+      "狙"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "狙って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 490,
+    "word": "組む",
+    "exampleIndex": 0,
+    "sentence": "両社は手を組んで、新規市場の開拓に乗り出した。",
+    "spans": [
+      "組"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "組んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 490,
+    "word": "組む",
+    "exampleIndex": 1,
+    "sentence": "出張の日程を、余裕を持って組んだ。",
+    "spans": [
+      "組"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "組んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 492,
+    "word": "争う",
+    "exampleIndex": 0,
+    "sentence": "両社は、市場の主導権を争っている。",
+    "spans": [
+      "争"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "争っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 493,
+    "word": "測る",
+    "exampleIndex": 1,
+    "sentence": "部屋の高さを専用の器具で測った。",
+    "spans": [
+      "測"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "測った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 495,
+    "word": "奪う",
+    "exampleIndex": 0,
+    "sentence": "強盗は、被害者から現金を奪って逃走した。",
+    "spans": [
+      "奪"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "奪って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 495,
+    "word": "奪う",
+    "exampleIndex": 1,
+    "sentence": "彼女の美しい歌声は、聴衆の心を奪った。",
+    "spans": [
+      "奪"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "奪った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 499,
+    "word": "断る",
+    "exampleIndex": 1,
+    "sentence": "彼は、昇進の話を丁重に断った。",
+    "spans": [
+      "断"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "断った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 500,
+    "word": "築く",
+    "exampleIndex": 0,
+    "sentence": "長年の努力で、盤石な地位を築いた。",
+    "spans": [
+      "築"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "築いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 500,
+    "word": "築く",
+    "exampleIndex": 1,
+    "sentence": "信頼関係は、日々の誠実な行動の積み重ねによって築かれる。",
+    "spans": [
+      "築"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "築か"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 508,
+    "word": "倒す",
+    "exampleIndex": 1,
+    "sentence": "長期にわたった独裁政権を倒した運動は、世界の注目を集めた。",
+    "spans": [
+      "倒"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "倒した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 511,
+    "word": "逃す",
+    "exampleIndex": 0,
+    "sentence": "千載一遇の好機を逃してはならない。",
+    "spans": [
+      "逃"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "逃して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 511,
+    "word": "逃す",
+    "exampleIndex": 1,
+    "sentence": "犯人を逃した警察の対応には、批判の声が上がった。",
+    "spans": [
+      "逃"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "逃した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 513,
+    "word": "曇る",
+    "exampleIndex": 0,
+    "sentence": "悲報を聞いた彼の表情は一瞬にして曇った。",
+    "spans": [
+      "曇"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "曇った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 513,
+    "word": "曇る",
+    "exampleIndex": 1,
+    "sentence": "寒暖差により、メガネのレンズが曇って前が見えなくなった。",
+    "spans": [
+      "曇"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "曇って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 514,
+    "word": "歩む",
+    "exampleIndex": 1,
+    "sentence": "彼女は研究者として、地道な道を歩み続けてきた。",
+    "spans": [
+      "歩"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "歩み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 517,
+    "word": "補う",
+    "exampleIndex": 1,
+    "sentence": "経験の浅さを補って余りある情熱が、彼の最大の強みだ。",
+    "spans": [
+      "補"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "補って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 518,
+    "word": "崩す",
+    "exampleIndex": 0,
+    "sentence": "過労で体調を崩したため、重要な会議を欠席せざるを得なかった。",
+    "spans": [
+      "崩"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "崩した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 518,
+    "word": "崩す",
+    "exampleIndex": 1,
+    "sentence": "一部の不正が組織全体の秩序を崩しかねない事態となっている。",
+    "spans": [
+      "崩"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "崩し"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 519,
+    "word": "破る",
+    "exampleIndex": 0,
+    "sentence": "彼女は、長年破られなかった世界記録を破った。",
+    "spans": [
+      "破"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "破ら",
+      "破った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 519,
+    "word": "破る",
+    "exampleIndex": 1,
+    "sentence": "彼は約束を破り、待ち合わせに来なかった。",
+    "spans": [
+      "破"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "破り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 521,
+    "word": "配る",
+    "exampleIndex": 0,
+    "sentence": "会議の前に、参加者全員に資料を配っておくこと。",
+    "spans": [
+      "配"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "配って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 523,
+    "word": "迫る",
+    "exampleIndex": 0,
+    "sentence": "締め切りが迫っており、残された時間は決して多くない。",
+    "spans": [
+      "迫"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "迫っており"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 523,
+    "word": "迫る",
+    "exampleIndex": 1,
+    "sentence": "経営陣は、早急な決断を迫られている。",
+    "spans": [
+      "迫"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "迫ら"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 533,
+    "word": "誘う",
+    "exampleIndex": 0,
+    "sentence": "取引先の担当者を会食に誘い、親睦を深める機会とした。",
+    "spans": [
+      "誘"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "誘い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 533,
+    "word": "誘う",
+    "exampleIndex": 1,
+    "sentence": "穏やかな春の陽気に誘われて、多くの人が公園に足を運んだ。",
+    "spans": [
+      "誘"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "誘わ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 534,
+    "word": "余る",
+    "exampleIndex": 0,
+    "sentence": "予算が余ったため、設備の更新に充てることが決まった。",
+    "spans": [
+      "余"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "余った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 539,
+    "word": "絡む",
+    "exampleIndex": 1,
+    "sentence": "この事件には、政治家の汚職が絡んでいる疑いがある。",
+    "spans": [
+      "絡"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "絡んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 542,
+    "word": "騙す",
+    "exampleIndex": 0,
+    "sentence": "高齢者を騙して金銭を奪う詐欺が後を絶たない。",
+    "spans": [
+      "騙"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "騙して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 542,
+    "word": "騙す",
+    "exampleIndex": 1,
+    "sentence": "彼は巧みな話術で、投資家たちを騙した。",
+    "spans": [
+      "騙"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "騙した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 543,
+    "word": "黙る",
+    "exampleIndex": 1,
+    "sentence": "不当な要求に黙って従うべきではない。",
+    "spans": [
+      "黙"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "黙って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2436,
+    "word": "企む",
+    "exampleIndex": 1,
+    "sentence": "彼が何を企んでいるのか、周囲は警戒を強めている。",
+    "spans": [
+      "企"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "企んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2468,
+    "word": "下す",
+    "exampleIndex": 0,
+    "sentence": "裁判所は、被告に対して厳しい判決を下した。",
+    "spans": [
+      "下"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "下した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2468,
+    "word": "下す",
+    "exampleIndex": 1,
+    "sentence": "経営陣は、慎重な検討の末に撤退という決断を下した。",
+    "spans": [
+      "下"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "下した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2470,
+    "word": "懐く",
+    "exampleIndex": 1,
+    "sentence": "子どもは、新しい保育士にすぐ懐いた。",
+    "spans": [
+      "懐"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "懐いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2472,
+    "word": "害する",
+    "exampleIndex": 1,
+    "sentence": "その決定は、住民の利益を害した。",
+    "spans": [
+      "害"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "害した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2484,
+    "word": "緩む",
+    "exampleIndex": 1,
+    "sentence": "好業績が続くと、社内の緊張感が緩みがちになる。",
+    "spans": [
+      "緩"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 2486,
+    "word": "貫く",
+    "exampleIndex": 0,
+    "sentence": "彼は周囲の反対に屈せず、自らの信念を貫いた。",
+    "spans": [
+      "貫"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "貫いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2487,
+    "word": "陥る",
+    "exampleIndex": 0,
+    "sentence": "主力商品の不振により、会社は深刻な資金難に陥った。",
+    "spans": [
+      "陥"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "陥った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2492,
+    "word": "偽る",
+    "exampleIndex": 0,
+    "sentence": "経歴を偽って採用された職員が、懲戒免職の処分を受けた。",
+    "spans": [
+      "偽"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "偽って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2492,
+    "word": "偽る",
+    "exampleIndex": 1,
+    "sentence": "物語の主人公は、自分の年齢を偽った。",
+    "spans": [
+      "偽"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "偽った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2494,
+    "word": "及ぶ",
+    "exampleIndex": 0,
+    "sentence": "交渉は深夜にまで及び、ようやく基本合意に達した。",
+    "spans": [
+      "及"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "及び"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2497,
+    "word": "急ぐ",
+    "exampleIndex": 1,
+    "sentence": "結論を急がず、複数の選択肢を比較検討することが大切だ。",
+    "spans": [
+      "急"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "急がず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2506,
+    "word": "脅す",
+    "exampleIndex": 1,
+    "sentence": "小説の中で、男は「秘密をばらすぞ」と友人を脅した。",
+    "spans": [
+      "脅"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "脅した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2510,
+    "word": "凝る",
+    "exampleIndex": 0,
+    "sentence": "長時間の座り仕事で、肩が凝って集中力が落ちてしまった。",
+    "spans": [
+      "凝"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "凝って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2510,
+    "word": "凝る",
+    "exampleIndex": 1,
+    "sentence": "細部まで凝った造りの店舗が、若い世代に支持されている。",
+    "spans": [
+      "凝"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "凝った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2513,
+    "word": "謹む",
+    "exampleIndex": 0,
+    "sentence": "新年にあたり、謹んで皆様のご健勝をお祈りいたします。",
+    "spans": [
+      "謹"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 2513,
+    "word": "謹む",
+    "exampleIndex": 1,
+    "sentence": "「謹んでお悔やみを申し上げます」という言葉で、弔辞は結ばれた。",
+    "spans": [
+      "謹"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 2519,
+    "word": "欠く",
+    "exampleIndex": 1,
+    "sentence": "基本的な安全対策を欠いたまま、工事が進められていた。",
+    "spans": [
+      "欠"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "欠いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2521,
+    "word": "研ぐ",
+    "exampleIndex": 0,
+    "sentence": "職人は、毎朝欠かさず包丁を研いでから仕込みを始める。",
+    "spans": [
+      "研"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "研いで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2521,
+    "word": "研ぐ",
+    "exampleIndex": 1,
+    "sentence": "米を炊く前に、丁寧に研いでざるに上げた。",
+    "spans": [
+      "研"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "研いで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2527,
+    "word": "悟る",
+    "exampleIndex": 0,
+    "sentence": "市場の変化に対応できなければ衰退すると、経営者は悟った。",
+    "spans": [
+      "悟"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "悟った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2527,
+    "word": "悟る",
+    "exampleIndex": 1,
+    "sentence": "彼は相手の沈黙から、交渉が決裂したことを悟った。",
+    "spans": [
+      "悟"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "悟った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2528,
+    "word": "誤る",
+    "exampleIndex": 0,
+    "sentence": "判断を誤れば、会社の存続そのものが危うくなる。",
+    "spans": [
+      "誤"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "誤れ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2528,
+    "word": "誤る",
+    "exampleIndex": 1,
+    "sentence": "操作を誤ったことが、システム障害の直接の原因だった。",
+    "spans": [
+      "誤"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "誤った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2535,
+    "word": "耕す",
+    "exampleIndex": 0,
+    "sentence": "農家は、春の訪れとともに畑を耕して種まきの準備を進めた。",
+    "spans": [
+      "耕"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "耕して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2535,
+    "word": "耕す",
+    "exampleIndex": 1,
+    "sentence": "休耕地を耕し直す取り組みが、地域の活性化につながっている。",
+    "spans": [
+      "耕"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "耕し"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2540,
+    "word": "催す",
+    "exampleIndex": 0,
+    "sentence": "同社は、創業五十周年を記念して盛大な式典を催した。",
+    "spans": [
+      "催"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "催した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2540,
+    "word": "催す",
+    "exampleIndex": 1,
+    "sentence": "長時間の移動で眠気を催し、運転を交代することにした。",
+    "spans": [
+      "催"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "催し"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2545,
+    "word": "察する",
+    "exampleIndex": 0,
+    "sentence": "相手のつらい気持ちを察して、彼は何も言わなかった。",
+    "spans": [
+      "察"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "察して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2546,
+    "word": "擦る",
+    "exampleIndex": 0,
+    "sentence": "彼はマッチを擦って、ろうそくに火をつけた。",
+    "spans": [
+      "擦"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "擦って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2557,
+    "word": "志す",
+    "exampleIndex": 0,
+    "sentence": "若い頃に医師を志した彼は、地方の病院で働き続けている。",
+    "spans": [
+      "志"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "志した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2558,
+    "word": "施す",
+    "exampleIndex": 0,
+    "sentence": "工場では、製品に防錆の加工を施してから出荷している。",
+    "spans": [
+      "施"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "施して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2558,
+    "word": "施す",
+    "exampleIndex": 1,
+    "sentence": "職人は小箱に細かな装飾を施した。",
+    "spans": [
+      "施"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "施した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2561,
+    "word": "蒔く",
+    "exampleIndex": 0,
+    "sentence": "農家は、雨が降る前に急いで畑へ種を蒔いた。",
+    "spans": [
+      "蒔"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "蒔いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2561,
+    "word": "蒔く",
+    "exampleIndex": 1,
+    "sentence": "今は小さな努力でも、蒔いた種はいつか実を結ぶだろう。",
+    "spans": [
+      "蒔"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "蒔いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2562,
+    "word": "射る",
+    "exampleIndex": 0,
+    "sentence": "弓道部員は、静かに息を整えてから的を射た。",
+    "spans": [
+      "射"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "射た"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2563,
+    "word": "遮る",
+    "exampleIndex": 0,
+    "sentence": "高層ビルが日差しを遮り、周辺の住宅は日当たりが悪くなった。",
+    "spans": [
+      "遮"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "遮り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2563,
+    "word": "遮る",
+    "exampleIndex": 1,
+    "sentence": "相手の話を遮って意見を述べるのは、会議の作法に反する。",
+    "spans": [
+      "遮"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "遮って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2564,
+    "word": "弱る",
+    "exampleIndex": 1,
+    "sentence": "取引先から急な変更を求められ、担当者は弱っていた。",
+    "spans": [
+      "弱"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "弱っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2569,
+    "word": "襲う",
+    "exampleIndex": 0,
+    "sentence": "大型台風が東日本を襲い、各地で停電が相次いだ。",
+    "spans": [
+      "襲"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "襲い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2569,
+    "word": "襲う",
+    "exampleIndex": 1,
+    "sentence": "突然の不安に襲われて、彼は決断を先送りにしてしまった。",
+    "spans": [
+      "襲"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "襲わ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2575,
+    "word": "澄む",
+    "exampleIndex": 0,
+    "sentence": "湖の水が澄んでいて、湖底の石まではっきりと見える。",
+    "spans": [
+      "澄"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "澄んでいて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2575,
+    "word": "澄む",
+    "exampleIndex": 1,
+    "sentence": "秋の澄んだ空気の中で、遠くの山並みが鮮やかに見えた。",
+    "spans": [
+      "澄"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "澄んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2577,
+    "word": "潤う",
+    "exampleIndex": 0,
+    "sentence": "観光客の増加により、地元の商店街も大いに潤っている。",
+    "spans": [
+      "潤"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "潤っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2577,
+    "word": "潤う",
+    "exampleIndex": 1,
+    "sentence": "雨が降り、乾いていた大地がようやく潤った。",
+    "spans": [
+      "潤"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "潤った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2581,
+    "word": "召す",
+    "exampleIndex": 1,
+    "sentence": "王は家臣を宮廷に召して、今後の方針を伝えた。",
+    "spans": [
+      "召"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "召して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2583,
+    "word": "焦る",
+    "exampleIndex": 1,
+    "sentence": "焦って決断を下すより、情報を集めて判断する方が賢明だ。",
+    "spans": [
+      "焦"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "焦って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2587,
+    "word": "譲る",
+    "exampleIndex": 0,
+    "sentence": "社長は、経営権を息子に譲って会長に退く意向を示した。",
+    "spans": [
+      "譲"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "譲って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2587,
+    "word": "譲る",
+    "exampleIndex": 1,
+    "sentence": "譲れない一線を守るため、交渉団は粘り強く協議を重ねた。",
+    "spans": [
+      "譲"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "譲れない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2589,
+    "word": "慎む",
+    "exampleIndex": 1,
+    "sentence": "深夜に騒ぐのは慎み、近隣への配慮を忘れないでください。",
+    "spans": [
+      "慎"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "慎み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2590,
+    "word": "浸す",
+    "exampleIndex": 0,
+    "sentence": "野菜を水に浸して、土や汚れを十分に落としてから調理する。",
+    "spans": [
+      "浸"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "浸して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2597,
+    "word": "制する",
+    "exampleIndex": 0,
+    "sentence": "激戦を制したチームが、全国大会への出場権を手にした。",
+    "spans": [
+      "制"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "制した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2598,
+    "word": "整う",
+    "exampleIndex": 1,
+    "sentence": "整った環境で学ぶことが、子どもの成長を後押しする。",
+    "spans": [
+      "整"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "整った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2599,
+    "word": "調う",
+    "exampleIndex": 1,
+    "sentence": "長い交渉の末、ようやく話が調った。",
+    "spans": [
+      "調"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "調った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2603,
+    "word": "説く",
+    "exampleIndex": 0,
+    "sentence": "首相は演説で、構造改革の必要性を繰り返し説いた。",
+    "spans": [
+      "説"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "説いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2603,
+    "word": "説く",
+    "exampleIndex": 1,
+    "sentence": "専門家は、早期の対策が被害の拡大を防ぐと説いている。",
+    "spans": [
+      "説"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "説いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2607,
+    "word": "潜む",
+    "exampleIndex": 0,
+    "sentence": "この問題の背景には、構造的な格差が潜んでいると指摘される。",
+    "spans": [
+      "潜"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "潜んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2607,
+    "word": "潜む",
+    "exampleIndex": 1,
+    "sentence": "新製品の開発には、思わぬ落とし穴が潜んでいることもある。",
+    "spans": [
+      "潜"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "潜んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2608,
+    "word": "潜る",
+    "exampleIndex": 0,
+    "sentence": "調査隊は海中深く潜り、沈没船の状況を詳しく確認した。",
+    "spans": [
+      "潜"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "潜り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2608,
+    "word": "潜る",
+    "exampleIndex": 1,
+    "sentence": "冷たい風を避けて、子どもは毛布の下に潜った。",
+    "spans": [
+      "潜"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "潜った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2609,
+    "word": "煽る",
+    "exampleIndex": 0,
+    "sentence": "一部の報道が、市民の不安を煽っているとの批判が出ている。",
+    "spans": [
+      "煽"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "煽っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2609,
+    "word": "煽る",
+    "exampleIndex": 1,
+    "sentence": "強風に煽られて火の勢いが増し、消火活動は難航した。",
+    "spans": [
+      "煽"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "煽ら"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2610,
+    "word": "閃く",
+    "exampleIndex": 0,
+    "sentence": "会議の最中に、課題を解決する妙案がふと閃いた。",
+    "spans": [
+      "閃"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "閃いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2610,
+    "word": "閃く",
+    "exampleIndex": 1,
+    "sentence": "稲妻が夜空に閃き、直後に激しい雷鳴が響き渡った。",
+    "spans": [
+      "閃"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "閃き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2611,
+    "word": "繕う",
+    "exampleIndex": 0,
+    "sentence": "古い衣服を繕って大切に着る習慣が、再評価されつつある。",
+    "spans": [
+      "繕"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "繕って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2611,
+    "word": "繕う",
+    "exampleIndex": 1,
+    "sentence": "失敗を隠そうと、彼はその場で体裁を繕った。",
+    "spans": [
+      "繕"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "繕った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2612,
+    "word": "蘇る",
+    "exampleIndex": 0,
+    "sentence": "復興事業により、廃れていた商店街の活気が蘇った。",
+    "spans": [
+      "蘇"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "蘇った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2612,
+    "word": "蘇る",
+    "exampleIndex": 1,
+    "sentence": "昔の写真を見ると、当時の記憶が鮮やかに蘇ってくる。",
+    "spans": [
+      "蘇"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "蘇ってくる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2613,
+    "word": "阻む",
+    "exampleIndex": 0,
+    "sentence": "険しい山道が、救助隊の進路を阻んでいる。",
+    "spans": [
+      "阻"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "阻んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2615,
+    "word": "操る",
+    "exampleIndex": 0,
+    "sentence": "彼は三か国語を自在に操り、国際会議で通訳を務めた。",
+    "spans": [
+      "操"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "操り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2615,
+    "word": "操る",
+    "exampleIndex": 1,
+    "sentence": "裏で世論を操ろうとする試みは、強い批判を浴びた。",
+    "spans": [
+      "操"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "操ろう"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2617,
+    "word": "葬る",
+    "exampleIndex": 0,
+    "sentence": "不都合な事実を闇に葬ろうとした経緯が、調査で明らかになった。",
+    "spans": [
+      "葬"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "葬ろう"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2617,
+    "word": "葬る",
+    "exampleIndex": 1,
+    "sentence": "遺族は故人を静かに葬り、地元の寺で法要を営んだ。",
+    "spans": [
+      "葬"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "葬り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2618,
+    "word": "装う",
+    "exampleIndex": 0,
+    "sentence": "不審な男は、宅配業者を装って高齢者の自宅に近づいた。",
+    "spans": [
+      "装"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "装って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2618,
+    "word": "装う",
+    "exampleIndex": 1,
+    "sentence": "彼女は平静を装っていたが、内心の動揺は隠せなかった。",
+    "spans": [
+      "装"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "装っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2619,
+    "word": "憎む",
+    "exampleIndex": 0,
+    "sentence": "講師は「罪を憎んで人を憎まず」という言葉を紹介した。",
+    "spans": [
+      "憎"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "憎んで",
+      "憎まず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2619,
+    "word": "憎む",
+    "exampleIndex": 1,
+    "sentence": "互いを憎み合う感情の連鎖を断ち切ることが、和解への第一歩だ。",
+    "spans": [
+      "憎"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "憎み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2621,
+    "word": "即する",
+    "exampleIndex": 0,
+    "sentence": "制度は、現場の実態に即して柔軟に見直されるべきだ。",
+    "spans": [
+      "即"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "即して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2621,
+    "word": "即する",
+    "exampleIndex": 1,
+    "sentence": "事実に即した報道こそが、メディアの信頼を支える基盤である。",
+    "spans": [
+      "即"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "即した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2631,
+    "word": "怠る",
+    "exampleIndex": 0,
+    "sentence": "安全点検を怠ったことが、重大な事故の根本原因であった。",
+    "spans": [
+      "怠"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "怠った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2631,
+    "word": "怠る",
+    "exampleIndex": 1,
+    "sentence": "日々の努力を怠らない姿勢が、長期的な成長につながる。",
+    "spans": [
+      "怠"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "怠らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2632,
+    "word": "滞る",
+    "exampleIndex": 0,
+    "sentence": "部品の供給が滞り、工場の生産ラインは一時停止した。",
+    "spans": [
+      "滞"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "滞り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2632,
+    "word": "滞る",
+    "exampleIndex": 1,
+    "sentence": "家賃の支払いが滞った場合の対応を、契約書に明記しておく。",
+    "spans": [
+      "滞"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "滞った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2633,
+    "word": "退く",
+    "exampleIndex": 0,
+    "sentence": "創業者は経営の第一線から退き、後進の育成に専念した。",
+    "spans": [
+      "退"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "退き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2633,
+    "word": "退く",
+    "exampleIndex": 1,
+    "sentence": "交渉が決裂し、代表団は席を退いて会場を後にした。",
+    "spans": [
+      "退"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "退いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2635,
+    "word": "嘆く",
+    "exampleIndex": 0,
+    "sentence": "識者は、若者の政治離れが進む現状を嘆いている。",
+    "spans": [
+      "嘆"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "嘆いている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2635,
+    "word": "嘆く",
+    "exampleIndex": 1,
+    "sentence": "嘆いてばかりいても事態は好転しないと、彼は前を向いた。",
+    "spans": [
+      "嘆"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "嘆いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2637,
+    "word": "弾く",
+    "exampleIndex": 0,
+    "sentence": "彼女はコンサートホールで、長年練習してきた曲をピアノで堂々と弾いた。",
+    "spans": [
+      "弾"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "弾いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2637,
+    "word": "弾く",
+    "exampleIndex": 1,
+    "sentence": "撥水加工を施した生地は、雨粒を弾いて内側へ染み込ませない。",
+    "spans": [
+      "弾"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "弾いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2638,
+    "word": "弾む",
+    "exampleIndex": 0,
+    "sentence": "久しぶりの再会に話が弾み、気がつけば深夜になっていた。",
+    "spans": [
+      "弾"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "弾み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2642,
+    "word": "伴う",
+    "exampleIndex": 1,
+    "sentence": "新事業の開始に伴い、組織体制を大幅に見直すことになった。",
+    "spans": [
+      "伴"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "伴い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2644,
+    "word": "挑む",
+    "exampleIndex": 0,
+    "sentence": "新興企業が、業界最大手に真っ向から勝負を挑んだ。",
+    "spans": [
+      "挑"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "挑んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2645,
+    "word": "反る",
+    "exampleIndex": 0,
+    "sentence": "湿気を含んだ木材は、時間がたつと反ってしまうことがある。",
+    "spans": [
+      "反"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "反ってしまう"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2645,
+    "word": "反る",
+    "exampleIndex": 1,
+    "sentence": "乾燥により、板の端が大きく反ってしまった。",
+    "spans": [
+      "反"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "反ってしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2648,
+    "word": "被る",
+    "exampleIndex": 0,
+    "sentence": "台風により、沿岸の農家は甚大な被害を被った。",
+    "spans": [
+      "被"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "被った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2648,
+    "word": "被る",
+    "exampleIndex": 1,
+    "sentence": "政策の転換で、中小企業が不利益を被らないよう配慮が要る。",
+    "spans": [
+      "被"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "被らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2649,
+    "word": "鈍る",
+    "exampleIndex": 0,
+    "sentence": "長期の休養で、選手の試合勘が鈍ってしまった。",
+    "spans": [
+      "鈍"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "鈍ってしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2649,
+    "word": "鈍る",
+    "exampleIndex": 1,
+    "sentence": "景気の先行きが不透明で、企業の設備投資への意欲が鈍っている。",
+    "spans": [
+      "鈍"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "鈍っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2653,
+    "word": "捗る",
+    "exampleIndex": 1,
+    "sentence": "復旧作業が思うように捗らず、開通の見通しは立っていない。",
+    "spans": [
+      "捗"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "捗らず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2654,
+    "word": "漂う",
+    "exampleIndex": 0,
+    "sentence": "会場には、新製品への期待感が漂っていた。",
+    "spans": [
+      "漂"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "漂っていた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2658,
+    "word": "忍ぶ",
+    "exampleIndex": 0,
+    "sentence": "彼は人目を忍んで、夜遅くに会社の裏口から出ていった。",
+    "spans": [
+      "忍"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "忍んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2658,
+    "word": "忍ぶ",
+    "exampleIndex": 1,
+    "sentence": "留学のため、彼女は貧しさを忍んで貯金を続けた。",
+    "spans": [
+      "忍"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "忍んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2661,
+    "word": "粘る",
+    "exampleIndex": 0,
+    "sentence": "最後まで粘って交渉した結果、有利な条件を引き出せた。",
+    "spans": [
+      "粘"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "粘って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2662,
+    "word": "腐る",
+    "exampleIndex": 0,
+    "sentence": "冷蔵設備が故障し、保管していた食品が腐ってしまった。",
+    "spans": [
+      "腐"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "腐ってしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2662,
+    "word": "腐る",
+    "exampleIndex": 1,
+    "sentence": "一度の失敗で腐らず、次の機会に向けて準備を重ねてほしい。",
+    "spans": [
+      "腐"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "腐らず"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2663,
+    "word": "摘む",
+    "exampleIndex": 0,
+    "sentence": "農家の人々は早朝から、茶畑で新芽を摘んでいる。",
+    "spans": [
+      "摘"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "摘んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2668,
+    "word": "覆す",
+    "exampleIndex": 0,
+    "sentence": "小説の終盤で、新たな証拠がそれまでの推理を覆した。",
+    "spans": [
+      "覆"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "覆した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2669,
+    "word": "培う",
+    "exampleIndex": 0,
+    "sentence": "長年の海外勤務で培った人脈が、新規事業の大きな資産となった。",
+    "spans": [
+      "培"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "培った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2671,
+    "word": "妬む",
+    "exampleIndex": 1,
+    "sentence": "他人の成功を妬んでいても、自らの成長にはつながらない。",
+    "spans": [
+      "妬"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "妬んでいて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2674,
+    "word": "覆る",
+    "exampleIndex": 0,
+    "sentence": "有力視されていた予想が覆り、無名の候補者が当選した。",
+    "spans": [
+      "覆"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "覆り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2678,
+    "word": "侮る",
+    "exampleIndex": 1,
+    "sentence": "相手を侮った一瞬の油断が、思わぬ敗北を招いた。",
+    "spans": [
+      "侮"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "侮った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2680,
+    "word": "背く",
+    "exampleIndex": 1,
+    "sentence": "彼は親の意向に背いて、独立の道を選んだ。",
+    "spans": [
+      "背"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "背いて"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2682,
+    "word": "負う",
+    "exampleIndex": 0,
+    "sentence": "経営陣は、今回の問題に対する重い責任を負っている。",
+    "spans": [
+      "負"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "負っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2682,
+    "word": "負う",
+    "exampleIndex": 1,
+    "sentence": "事故で重傷を負った乗客は、直ちに病院へ搬送された。",
+    "spans": [
+      "負"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "負った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2684,
+    "word": "徹する",
+    "exampleIndex": 0,
+    "sentence": "今回は裏方に徹して、チームの成功を支えることにした。",
+    "spans": [
+      "徹"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "徹して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2684,
+    "word": "徹する",
+    "exampleIndex": 1,
+    "sentence": "彼は自社の利益よりも、顧客本位の姿勢に徹している。",
+    "spans": [
+      "徹"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "徹している"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2685,
+    "word": "病む",
+    "exampleIndex": 1,
+    "sentence": "祖父は長く胃を病んでいたが、今は快方に向かっている。",
+    "spans": [
+      "病"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "病んでいた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2686,
+    "word": "任す",
+    "exampleIndex": 1,
+    "sentence": "重要な案件を部下に任して、自分は新規開拓に専念した。",
+    "spans": [
+      "任"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "任して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2689,
+    "word": "匂う",
+    "exampleIndex": 0,
+    "sentence": "庭には梅の花が匂い、春の訪れを静かに告げている。",
+    "spans": [
+      "匂"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "匂い"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2689,
+    "word": "匂う",
+    "exampleIndex": 1,
+    "sentence": "扉を開けると、辺り一面に花が匂った。",
+    "spans": [
+      "匂"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "匂った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2697,
+    "word": "発する",
+    "exampleIndex": 0,
+    "sentence": "気象庁は、大雨に関する警報を県内全域に発した。",
+    "spans": [
+      "発"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "発した"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2697,
+    "word": "発する",
+    "exampleIndex": 1,
+    "sentence": "この問題は、現場の小さな不満に端を発している。",
+    "spans": [
+      "発"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "発している"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2699,
+    "word": "怒る",
+    "exampleIndex": 0,
+    "sentence": "顧客は、不十分な説明に対して怒って契約を打ち切った。",
+    "spans": [
+      "怒"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "怒って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2701,
+    "word": "沸く",
+    "exampleIndex": 0,
+    "sentence": "決勝戦の劇的な逆転劇に、会場は大いに沸いた。",
+    "spans": [
+      "沸"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "沸いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2703,
+    "word": "憤る",
+    "exampleIndex": 1,
+    "sentence": "市民は、政治家の不誠実な説明に強く憤っている。",
+    "spans": [
+      "憤"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "憤っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2707,
+    "word": "偏る",
+    "exampleIndex": 1,
+    "sentence": "食事の栄養が偏らないよう、献立を工夫する必要がある。",
+    "spans": [
+      "偏"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "偏らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2708,
+    "word": "癒す",
+    "exampleIndex": 1,
+    "sentence": "友人との会話が、彼女の悲しみを少しずつ癒してくれた。",
+    "spans": [
+      "癒"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "癒して"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2709,
+    "word": "募る",
+    "exampleIndex": 0,
+    "sentence": "住民の間では、行政への不信感が日ごとに募っている。",
+    "spans": [
+      "募"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "募っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2711,
+    "word": "慕う",
+    "exampleIndex": 0,
+    "sentence": "部下から慕われる上司は、組織の信頼を築くのがうまい。",
+    "spans": [
+      "慕"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "慕わ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2711,
+    "word": "慕う",
+    "exampleIndex": 1,
+    "sentence": "彼は恩師を慕って、遠く離れた町まで訪ねていった。",
+    "spans": [
+      "慕"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "慕って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2717,
+    "word": "縫う",
+    "exampleIndex": 1,
+    "sentence": "配達員は車の間を縫って進み、荷物を時間どおりに届けた。",
+    "spans": [
+      "縫"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "縫って"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2719,
+    "word": "暴く",
+    "exampleIndex": 0,
+    "sentence": "調査報道が、組織ぐるみの不正会計の実態を暴いた。",
+    "spans": [
+      "暴"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "暴いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2723,
+    "word": "磨く",
+    "exampleIndex": 0,
+    "sentence": "職人が長年かけて磨いた技術が、製品の高い品質を支えている。",
+    "spans": [
+      "磨"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "磨いた"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2730,
+    "word": "面する",
+    "exampleIndex": 1,
+    "sentence": "当社は、創業以来最大の危機に面している。",
+    "spans": [
+      "面"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "面している"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2737,
+    "word": "乱す",
+    "exampleIndex": 0,
+    "sentence": "一人の身勝手な行動が、チーム全体の和を乱してしまった。",
+    "spans": [
+      "乱"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "乱してしまった"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2737,
+    "word": "乱す",
+    "exampleIndex": 1,
+    "sentence": "生活のリズムを乱さないよう、規則正しい睡眠を心がけたい。",
+    "spans": [
+      "乱"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "乱さない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2742,
+    "word": "臨む",
+    "exampleIndex": 0,
+    "sentence": "首脳は、緊張感をもって重要な国際会議に臨んだ。",
+    "spans": [
+      "臨"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "臨んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2744,
+    "word": "励む",
+    "exampleIndex": 0,
+    "sentence": "若手社員は、資格の取得に向けて日々の学習に励んでいる。",
+    "spans": [
+      "励"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "励んでいる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2744,
+    "word": "励む",
+    "exampleIndex": 1,
+    "sentence": "彼は研究に励み、ついに画期的な成果を発表した。",
+    "spans": [
+      "励"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "励み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2745,
+    "word": "劣る",
+    "exampleIndex": 1,
+    "sentence": "品質は決して劣らないが、価格競争では不利な立場にある。",
+    "spans": [
+      "劣"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "劣らない"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2746,
+    "word": "裂く",
+    "exampleIndex": 1,
+    "sentence": "強風が旗を裂き、会場の設営は一時中断を余儀なくされた。",
+    "spans": [
+      "裂"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "裂き"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2748,
+    "word": "練る",
+    "exampleIndex": 0,
+    "sentence": "経営陣は数か月かけて、新たな中期計画を練った。",
+    "spans": [
+      "練"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "練った"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2748,
+    "word": "練る",
+    "exampleIndex": 1,
+    "sentence": "小麦粉を水でよく練り、半日ほど寝かせて生地にする。",
+    "spans": [
+      "練"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "練り"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2751,
+    "word": "弄ぶ",
+    "exampleIndex": 1,
+    "sentence": "運命に弄ばれながらも、彼は自らの道を切り開いていった。",
+    "spans": [
+      "弄"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "弄ば"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2756,
+    "word": "和む",
+    "exampleIndex": 0,
+    "sentence": "彼の一言で、緊迫していた会議の空気がふっと和んだ。",
+    "spans": [
+      "和"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "和んだ"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2759,
+    "word": "歪む",
+    "exampleIndex": 0,
+    "sentence": "地震の影響で、建物の窓枠が歪んで開閉できなくなった。",
+    "spans": [
+      "歪"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "歪んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2761,
+    "word": "惑う",
+    "exampleIndex": 0,
+    "sentence": "情報があふれる時代に、消費者は何を選ぶべきか惑っている。",
+    "spans": [
+      "惑"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "惑っている"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2764,
+    "word": "揉む",
+    "exampleIndex": 0,
+    "sentence": "彼は椅子に座って、肩を揉んでもらった。",
+    "spans": [
+      "揉"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "揉んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2764,
+    "word": "揉む",
+    "exampleIndex": 1,
+    "sentence": "新人は先輩に揉まれながら、一人前の営業へと成長した。",
+    "spans": [
+      "揉"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "揉ま"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2766,
+    "word": "甦る",
+    "exampleIndex": 1,
+    "sentence": "彼の演奏を聴くと、遠い日の記憶が鮮やかに甦ってくる。",
+    "spans": [
+      "甦"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "甦ってくる"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2767,
+    "word": "睨む",
+    "exampleIndex": 0,
+    "sentence": "監督は、次の試合を睨んで主力選手を温存することにした。",
+    "spans": [
+      "睨"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "睨んで"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 2767,
+    "word": "睨む",
+    "exampleIndex": 1,
+    "sentence": "市場の動向を睨みながら、慎重に投資の時期を見極める。",
+    "spans": [
+      "睨"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": [
+      "睨み"
+    ]
+  },
+  {
+    "kind": "v",
+    "id": 3693,
+    "word": "悪〜",
+    "exampleIndex": 0,
+    "sentence": "悪条件が重なって、山頂への登頂は断念せざるを得なかった。",
+    "spans": [
+      "悪"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3693,
+    "word": "悪〜",
+    "exampleIndex": 1,
+    "sentence": "悪天候の影響で、全国の空の便に大幅な遅れが出ている。",
+    "spans": [
+      "悪"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3694,
+    "word": "誤〜",
+    "exampleIndex": 0,
+    "sentence": "誤解を招かないよう、資料の表現を慎重に見直した。",
+    "spans": [
+      "誤"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3694,
+    "word": "誤〜",
+    "exampleIndex": 1,
+    "sentence": "誤報が広まったため、新聞社は翌日に訂正記事を掲載した。",
+    "spans": [
+      "誤"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3695,
+    "word": "超～",
+    "exampleIndex": 0,
+    "sentence": "政府は超高齢社会に備えた医療制度の改革を急いでいる。",
+    "spans": [
+      "超"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3695,
+    "word": "超～",
+    "exampleIndex": 1,
+    "sentence": "新工場では超精密な部品が、すべて自動で生産されている。",
+    "spans": [
+      "超"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3696,
+    "word": "当〜",
+    "exampleIndex": 0,
+    "sentence": "当社では来月から、全社員にテレワークを導入いたします。",
+    "spans": [
+      "当"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3696,
+    "word": "当〜",
+    "exampleIndex": 1,
+    "sentence": "当日券は、開演の一時間前から窓口で販売する予定です。",
+    "spans": [
+      "当"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3697,
+    "word": "被〜",
+    "exampleIndex": 0,
+    "sentence": "台風の被災地には、全国から支援物資が届けられている。",
+    "spans": [
+      "被"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3697,
+    "word": "被〜",
+    "exampleIndex": 1,
+    "sentence": "被験者には、実験の目的と手順を事前に説明した。",
+    "spans": [
+      "被"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3698,
+    "word": "不～",
+    "exampleIndex": 0,
+    "sentence": "その計画は資金面で不可能だと、専門家は結論づけた。",
+    "spans": [
+      "不"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3698,
+    "word": "不～",
+    "exampleIndex": 1,
+    "sentence": "彼は少し不器用だが、仕事は誠実で丁寧だ。",
+    "spans": [
+      "不"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3699,
+    "word": "未〜",
+    "exampleIndex": 0,
+    "sentence": "未経験者でも歓迎する、と求人広告には書かれていた。",
+    "spans": [
+      "未"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3699,
+    "word": "未〜",
+    "exampleIndex": 1,
+    "sentence": "未解決の事件に再び光を当てた番組が、大きな反響を呼んだ。",
+    "spans": [
+      "未"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3700,
+    "word": "無〜",
+    "exampleIndex": 0,
+    "sentence": "無責任な発言をした議員に、批判が集中した。",
+    "spans": [
+      "無"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3700,
+    "word": "無〜",
+    "exampleIndex": 1,
+    "sentence": "無事に帰宅したとの連絡を受け、家族は安堵した。",
+    "spans": [
+      "無"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3701,
+    "word": "猛～",
+    "exampleIndex": 0,
+    "sentence": "猛暑が続くなか、熱中症で搬送される人が急増している。",
+    "spans": [
+      "猛"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3701,
+    "word": "猛～",
+    "exampleIndex": 1,
+    "sentence": "猛反発を受け、政府は法案の提出を見送ることにした。",
+    "spans": [
+      "猛"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3702,
+    "word": "〜員",
+    "exampleIndex": 0,
+    "sentence": "新入社員は、研修で会社の仕事の進め方を学んだ。",
+    "spans": [
+      "員"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3702,
+    "word": "〜員",
+    "exampleIndex": 1,
+    "sentence": "自治体の職員は、地域住民への説明会に出席した。",
+    "spans": [
+      "員"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3703,
+    "word": "〜園",
+    "exampleIndex": 0,
+    "sentence": "市は新しい保育園を、駅の近くに建設する計画を発表した。",
+    "spans": [
+      "園"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3703,
+    "word": "〜園",
+    "exampleIndex": 1,
+    "sentence": "休日の植物園は、家族連れで大変なにぎわいを見せた。",
+    "spans": [
+      "園"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3704,
+    "word": "〜化",
+    "exampleIndex": 0,
+    "sentence": "少子化の進行により、地方の学校の統廃合が相次いでいる。",
+    "spans": [
+      "化"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3704,
+    "word": "〜化",
+    "exampleIndex": 1,
+    "sentence": "業務の効率化を図るため、全社でシステムを導入した。",
+    "spans": [
+      "化"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3705,
+    "word": "〜家",
+    "exampleIndex": 0,
+    "sentence": "彼は政治評論家として、多くの番組に出演している。",
+    "spans": [
+      "家"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3705,
+    "word": "〜家",
+    "exampleIndex": 1,
+    "sentence": "著名な建築家が、新しい美術館の設計を手がけた。",
+    "spans": [
+      "家"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3706,
+    "word": "〜感",
+    "exampleIndex": 0,
+    "sentence": "目標を達成したときの達成感は、何物にも代えがたい。",
+    "spans": [
+      "感"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3706,
+    "word": "〜感",
+    "exampleIndex": 1,
+    "sentence": "新商品にはこれまでにない高級感があり、売れ行きも好調だ。",
+    "spans": [
+      "感"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3707,
+    "word": "〜語",
+    "exampleIndex": 0,
+    "sentence": "彼はフランス語を流暢に話す。",
+    "spans": [
+      "語"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3707,
+    "word": "〜語",
+    "exampleIndex": 1,
+    "sentence": "契約の内容を、専門用語を使わずに説明した。",
+    "spans": [
+      "語"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3708,
+    "word": "〜師",
+    "exampleIndex": 0,
+    "sentence": "彼女は看護師として、二十年以上病院に勤務してきた。",
+    "spans": [
+      "師"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3708,
+    "word": "〜師",
+    "exampleIndex": 1,
+    "sentence": "美容師を目指す若者が、専門学校で技術を磨いている。",
+    "spans": [
+      "師"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3709,
+    "word": "〜室",
+    "exampleIndex": 0,
+    "sentence": "新校舎には最新の設備を備えた実験室が整備された。",
+    "spans": [
+      "室"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3709,
+    "word": "〜室",
+    "exampleIndex": 1,
+    "sentence": "会議室の予約は、前日までに総務部へ申請してください。",
+    "spans": [
+      "室"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3710,
+    "word": "〜者",
+    "exampleIndex": 0,
+    "sentence": "高齢者が安心して暮らせるよう、地域の支援体制を整えた。",
+    "spans": [
+      "者"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3710,
+    "word": "〜者",
+    "exampleIndex": 1,
+    "sentence": "新製品の開発責任者に、入社十年目の彼が抜擢された。",
+    "spans": [
+      "者"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3711,
+    "word": "〜書",
+    "exampleIndex": 0,
+    "sentence": "契約を結ぶ前に、必ず契約書の内容を丁寧に確認すること。",
+    "spans": [
+      "書"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3711,
+    "word": "〜書",
+    "exampleIndex": 1,
+    "sentence": "専門家は報告書の中で、制度の問題点を指摘している。",
+    "spans": [
+      "書"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3712,
+    "word": "〜心",
+    "exampleIndex": 0,
+    "sentence": "若手社員の向上心が、会社全体の成長を支えている。",
+    "spans": [
+      "心"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3712,
+    "word": "〜心",
+    "exampleIndex": 1,
+    "sentence": "彼は好奇心が旺盛で、新しい技術にすぐに挑戦する。",
+    "spans": [
+      "心"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3713,
+    "word": "〜性",
+    "exampleIndex": 0,
+    "sentence": "この素材は耐久性に優れ、屋外での使用にも適している。",
+    "spans": [
+      "性"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3713,
+    "word": "〜性",
+    "exampleIndex": 1,
+    "sentence": "計画の実現性を検証するため、専門家会議が開かれた。",
+    "spans": [
+      "性"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3714,
+    "word": "〜先",
+    "exampleIndex": 0,
+    "sentence": "転勤が決まり、彼は新しい勤務先の近くへ引っ越した。",
+    "spans": [
+      "先"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3714,
+    "word": "〜先",
+    "exampleIndex": 1,
+    "sentence": "荷物の届け先を間違えたため、配送が大幅に遅れてしまった。",
+    "spans": [
+      "先"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3715,
+    "word": "〜地",
+    "exampleIndex": 0,
+    "sentence": "市は駅前の一帯を、新しい商業地として開発する方針だ。",
+    "spans": [
+      "地"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3715,
+    "word": "〜地",
+    "exampleIndex": 1,
+    "sentence": "豪雪に見舞われた被災地では、復旧作業が続いている。",
+    "spans": [
+      "地"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3716,
+    "word": "〜派",
+    "exampleIndex": 0,
+    "sentence": "党内の改革派は、執行部に対して抜本的な見直しを求めた。",
+    "spans": [
+      "派"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3716,
+    "word": "〜派",
+    "exampleIndex": 1,
+    "sentence": "強硬派との対立が、交渉の行方を不透明にしている。",
+    "spans": [
+      "派"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3717,
+    "word": "〜物",
+    "exampleIndex": 0,
+    "sentence": "この地域の建築物は、歴史的な価値が高く評価されている。",
+    "spans": [
+      "物"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3717,
+    "word": "〜物",
+    "exampleIndex": 1,
+    "sentence": "廃棄物の処理には、法令に基づく厳格な管理が求められる。",
+    "spans": [
+      "物"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3718,
+    "word": "〜率",
+    "exampleIndex": 0,
+    "sentence": "今年度の大学の就職率は、過去十年で最も高い水準となった。",
+    "spans": [
+      "率"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3718,
+    "word": "〜率",
+    "exampleIndex": 1,
+    "sentence": "政府は物価上昇率が目標値を上回ったと発表した。",
+    "spans": [
+      "率"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3719,
+    "word": "〜料",
+    "exampleIndex": 0,
+    "sentence": "入場料は大人千円と定められている。",
+    "spans": [
+      "料"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3719,
+    "word": "〜料",
+    "exampleIndex": 1,
+    "sentence": "原材料の高騰を受け、メーカーは製品の販売価格を引き上げた。",
+    "spans": [
+      "料"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3722,
+    "word": "〜街",
+    "exampleIndex": 0,
+    "sentence": "駅前の商店街は、休日になると買い物客でにぎわう。",
+    "spans": [
+      "街"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3722,
+    "word": "〜街",
+    "exampleIndex": 1,
+    "sentence": "老舗の店が並ぶ繁華街が、再開発の対象となった。",
+    "spans": [
+      "街"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3723,
+    "word": "〜観",
+    "exampleIndex": 0,
+    "sentence": "若者の価値観は、時代とともに大きく変化してきた。",
+    "spans": [
+      "観"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3723,
+    "word": "〜観",
+    "exampleIndex": 1,
+    "sentence": "海外での経験が、彼の人生観を根本から変えた。",
+    "spans": [
+      "観"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3724,
+    "word": "〜係",
+    "exampleIndex": 0,
+    "sentence": "彼は受付係として、来客の案内を一手に引き受けている。",
+    "spans": [
+      "係"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3724,
+    "word": "〜係",
+    "exampleIndex": 1,
+    "sentence": "彼は図書係になり、クラスの本を整理している。",
+    "spans": [
+      "係"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3725,
+    "word": "〜圏",
+    "exampleIndex": 0,
+    "sentence": "首都圏では、通勤時間の長さが長年の課題となっている。",
+    "spans": [
+      "圏"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3725,
+    "word": "〜圏",
+    "exampleIndex": 1,
+    "sentence": "台風は明日、首都圏に接近する見通しだと気象庁が発表した。",
+    "spans": [
+      "圏"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3726,
+    "word": "〜権",
+    "exampleIndex": 0,
+    "sentence": "労働者の団結権は、憲法によって保障されている。",
+    "spans": [
+      "権"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3726,
+    "word": "〜権",
+    "exampleIndex": 1,
+    "sentence": "新しい契約では、著作権の帰属先が明確に定められた。",
+    "spans": [
+      "権"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3727,
+    "word": "〜源",
+    "exampleIndex": 0,
+    "sentence": "政府は新たな財源を確保するため、税制の見直しに着手した。",
+    "spans": [
+      "源"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3727,
+    "word": "〜源",
+    "exampleIndex": 1,
+    "sentence": "この町の主な収入源は、温泉を中心とした観光業である。",
+    "spans": [
+      "源"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3728,
+    "word": "〜署",
+    "exampleIndex": 0,
+    "sentence": "事故の通報を受け、警察署は現場に捜査員を急行させた。",
+    "spans": [
+      "署"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3728,
+    "word": "〜署",
+    "exampleIndex": 1,
+    "sentence": "税務署は確定申告の時期を迎え、窓口が大変混雑している。",
+    "spans": [
+      "署"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3730,
+    "word": "〜点",
+    "exampleIndex": 0,
+    "sentence": "この計画には、資金調達という解決すべき問題点が残っている。",
+    "spans": [
+      "点"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3730,
+    "word": "〜点",
+    "exampleIndex": 1,
+    "sentence": "試験で八十点を取り、合格した。",
+    "spans": [
+      "点"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3731,
+    "word": "〜版",
+    "exampleIndex": 0,
+    "sentence": "この辞典は昨年、全面改訂を加えた第三版が刊行された。",
+    "spans": [
+      "版"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3731,
+    "word": "〜版",
+    "exampleIndex": 1,
+    "sentence": "電子版の購読者数が、紙媒体の発行部数を初めて上回った。",
+    "spans": [
+      "版"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3732,
+    "word": "〜品",
+    "exampleIndex": 0,
+    "sentence": "店では、地元の農家が作った特産品を数多く取りそろえている。",
+    "spans": [
+      "品"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3732,
+    "word": "〜品",
+    "exampleIndex": 1,
+    "sentence": "期限切れの食料品は、販売せずにすべて廃棄する決まりである。",
+    "spans": [
+      "品"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3733,
+    "word": "〜網",
+    "exampleIndex": 0,
+    "sentence": "政府は全国に通信網を整備し、地方の情報格差の解消を図る。",
+    "spans": [
+      "網"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3733,
+    "word": "〜網",
+    "exampleIndex": 1,
+    "sentence": "警察は犯人の逃走を防ぐため、周辺に厳重な包囲網を敷いた。",
+    "spans": [
+      "網"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3734,
+    "word": "〜欄",
+    "exampleIndex": 0,
+    "sentence": "申込書の備考欄に、希望の連絡方法を記入してください。",
+    "spans": [
+      "欄"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3734,
+    "word": "〜欄",
+    "exampleIndex": 1,
+    "sentence": "新聞の投書欄には、読者から多くの意見が寄せられている。",
+    "spans": [
+      "欄"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3735,
+    "word": "〜裏",
+    "exampleIndex": 0,
+    "sentence": "国際会議は成功裏に終了し、参加国は共同声明を採択した。",
+    "spans": [
+      "裏"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3735,
+    "word": "〜裏",
+    "exampleIndex": 1,
+    "sentence": "両国の協議は、秘密裏に進められていたことが明らかになった。",
+    "spans": [
+      "裏"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3736,
+    "word": "〜隊",
+    "exampleIndex": 0,
+    "sentence": "救助隊は崖の下で動けなくなった登山者を無事に発見した。",
+    "spans": [
+      "隊"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3736,
+    "word": "〜隊",
+    "exampleIndex": 1,
+    "sentence": "地元の消防隊が、すばやく駆けつけて火災の拡大を防いだ。",
+    "spans": [
+      "隊"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3737,
+    "word": "〜陣",
+    "exampleIndex": 0,
+    "sentence": "新監督は、経験豊富な選手を中心に守備陣を立て直した。",
+    "spans": [
+      "陣"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  },
+  {
+    "kind": "v",
+    "id": 3737,
+    "word": "〜陣",
+    "exampleIndex": 1,
+    "sentence": "取材陣が会見場に詰めかけ、質問が次々と飛び交った。",
+    "spans": [
+      "陣"
+    ],
+    "technicalClass": "shortened_or_embedded_vocabulary_match",
+    "semanticStatus": "not_adjudicated",
+    "proposal": []
+  }
+]

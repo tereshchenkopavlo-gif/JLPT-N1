@@ -1,0 +1,204 @@
+{
+  "status": "preliminary_not_legal_clearance",
+  "sources": [
+    {
+      "id": "BOOK-N1",
+      "name": "日本語の森 JLPT N1 この一冊で合格する",
+      "type": "textbook",
+      "role": "reported_initial_selection_and_structure; historical_linguistic_and_layout_reference",
+      "evidence": [
+        "User instruction 2026-11-04",
+        "audit136/sources.md",
+        "audit137/sources.md"
+      ],
+      "sourceFileSha256": "494d9f13cc2fcba0d47469473b25ed78a67c83adb6ef6fd5c5911abbdc78c4cb",
+      "inspection": "Historical page-specific evidence only; no complete comparison this session",
+      "license": "unknown",
+      "permission": "No verified rightsholder permission for public redistribution/translation/adaptation",
+      "action": "P1 field-level matching and compilation review; independent redevelopment, permission or legal review as appropriate",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "PROJECT-AUTHOR",
+      "name": "Repository author/build/review files v129–v139",
+      "type": "project_history",
+      "role": "evidence_of_authorship_claims_and_modifications",
+      "evidence": [
+        "JLPT_N1_v129_audit.md",
+        "audit130/",
+        "audit131/",
+        "audit132/",
+        "audit135/",
+        "audit137/author.py",
+        "audit139/author.py"
+      ],
+      "inspection": "Selected audit/source/author files and exact current data; not all historical commits",
+      "license": "Project code/data license not established by this inventory",
+      "permission": "Authorship claim is not clearance of inherited content",
+      "action": "Confirm authorship history and field dependencies; maintain separate rights decision",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "JLPT-OFFICIAL",
+      "name": "JLPT FAQ / level competence / item types",
+      "type": "official_reference",
+      "url": "https://www.jlpt.jp/e/faq/",
+      "relatedUrls": [
+        "https://www.jlpt.jp/e/about/levelsummary.html",
+        "https://www.jlpt.jp/e/guideline/testsections.html"
+      ],
+      "role": "level_framework_and_exam_scope_not_exhaustive_word_list",
+      "inspection": "Official pages searched/opened 2026-11-04",
+      "license": "No general redistribution permission inferred",
+      "permission": "Sample items have organizer/possible third-party rights",
+      "action": "Use facts/function framework; obtain basis before verbatim item use",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "BUNKA-RIGHTS",
+      "name": "Agency for Cultural Affairs: copyright overview and use flow",
+      "type": "official_legal_guidance",
+      "url": "https://www.bunka.go.jp/english/policy/copyright/system/",
+      "relatedUrls": [
+        "https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/chosakukensha_fumei/"
+      ],
+      "role": "preliminary_Japan_copyright_framework",
+      "inspection": "Official guidance opened/searched 2026-11-04",
+      "license": "Not a license for textbook or dictionary content",
+      "permission": "No project clearance provided by guidance",
+      "action": "Legal review for defined release/jurisdictions where needed",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "DAIJISEN",
+      "name": "小学館 デジタル大辞泉 via licensed Kotobank articles",
+      "type": "dictionary",
+      "url": "https://kotobank.jp/word/恵み-643601",
+      "role": "narrow_linguistic_fact_checks",
+      "evidence": [
+        "audit137/sources.md",
+        "audit139/sources.md"
+      ],
+      "inspection": "Specific articles; not full database",
+      "license": "No bulk content redistribution license verified",
+      "permission": "Consultation is separate from reproduction of definitions/examples",
+      "action": "Record exact field provenance; own wording; permission/license before copied content",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "KANJIPEDIA",
+      "name": "日本漢字能力検定協会 漢字ペディア",
+      "type": "dictionary",
+      "url": "https://www.kanjipedia.jp/kanji/0006733500",
+      "relatedUrls": [
+        "https://www.kanjipedia.jp/kotoba/0003349600"
+      ],
+      "role": "網 readings and 召す senses in C05",
+      "inspection": "Specific pages read for narrow facts",
+      "license": "No redistribution license verified",
+      "permission": "No bulk copying authorization inferred",
+      "action": "Linguistic fact reference; original examples",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "BUNPRO",
+      "name": "Bunpro grammar pages",
+      "type": "grammar_reference",
+      "url": "https://bunpro.jp/",
+      "role": "historical_narrow_form_meaning_checks",
+      "evidence": [
+        "audit135/sources.md",
+        "audit137/sources.md"
+      ],
+      "inspection": "Specific historical source reports reviewed; no new bulk crawl",
+      "license": "Not verified for copying",
+      "permission": "No copied question permission established",
+      "action": "Separate factual verification from expression provenance",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "NONBIRI",
+      "name": "毎日のんびり日本語教師",
+      "type": "grammar_reference",
+      "url": "https://mainichi-nonbiri.com/grammar/n1-naidemonai/",
+      "role": "historical g88 check",
+      "evidence": [
+        "audit135/sources.md"
+      ],
+      "inspection": "Historical report only this session",
+      "license": "unknown",
+      "permission": "not established",
+      "action": "Retain reference; no example/question import",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "NIHONGO-TO-JAPAN",
+      "name": "Nihongo to Japan にして",
+      "type": "grammar_reference",
+      "url": "https://www.nihongotojapan.com/en/grammar/grammar-ni-shite",
+      "role": "historical g96 simultaneous-roles check",
+      "evidence": [
+        "audit135/sources.md"
+      ],
+      "inspection": "Historical report only this session",
+      "license": "unknown",
+      "permission": "not established",
+      "action": "Retain reference; no text reuse without basis",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "BUNKA-KEIGO",
+      "name": "文化庁 敬語 explanations",
+      "type": "official_language_reference",
+      "url": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter4/detail.html",
+      "role": "C05 くださる/いただく direction checks",
+      "evidence": [
+        "audit139/sources.md"
+      ],
+      "inspection": "Specific official explanation searched",
+      "license": "No blanket license assumed",
+      "permission": "No ready-made tasks imported",
+      "action": "Fact verification, own contextual tasks",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "JMDICT-CANDIDATE",
+      "name": "EDRDG JMdict",
+      "type": "future_dictionary_candidate",
+      "url": "https://www.edrdg.org/edrdg/licence.html",
+      "role": "future_lexicographic_base_not_imported_this_session",
+      "inspection": "License page opened 2026-11-04",
+      "license": "CC BY-SA 4.0 for listed Japanese/English components; other language components may have separate rights",
+      "permission": "Conditions must be satisfied for chosen components and derivative data; software license separate",
+      "action": "Version/preserve license and attribution; assess ShareAlike compatibility before integration",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "BCCWJ-CANDIDATE",
+      "name": "NINJAL BCCWJ",
+      "type": "future_corpus_candidate",
+      "url": "https://clrd.ninjal.ac.jp/bccwj/en/",
+      "relatedUrls": [
+        "https://clrd.ninjal.ac.jp/bccwj/en/dvd-index.html"
+      ],
+      "role": "future_frequency_genre_usage_checks_not_imported",
+      "inspection": "Official overview and redistribution conditions searched 2026-11-04",
+      "license": "Edition-specific contract; paid edition data redistribution prohibited; commercial consultation required",
+      "permission": "Search access not public republication permission",
+      "action": "Use for linguistic evidence within terms; original teaching sentences; verify intended use",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    },
+    {
+      "id": "VIDEO-PIVOT",
+      "name": "PIVOT / 星友啓 EDUCATION SKILL SET",
+      "type": "methodology_starting_point",
+      "url": "https://www.youtube.com/watch?v=ZcjPV3qhcSA",
+      "role": "starting_claims_to_verify_independently",
+      "inspection": "Public title/description/chapters read; complete captions/audio not obtained",
+      "license": "No republication license verified",
+      "permission": "No video/transcript imported into app",
+      "action": "Complete video claim verification later; rely on cited independent research for proposals",
+      "registryAsOf": "2026-11-04 Asia/Tokyo"
+    }
+  ]
+}
