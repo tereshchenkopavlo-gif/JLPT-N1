@@ -1,0 +1,60 @@
+name: Verify and publish JLPT N1 v140
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit140/**'
+      - '.github/workflows/v140-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v140-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build exact release and scan all examples
+        run: |
+          python3 audit140/build.py
+          python3 audit140/check.py
+          node --check audit140/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify reading choices, all normalized cards, ID ratings and reading glossaries
+        run: node audit140/browser.cjs
+      - name: Verify 3384 actual generator cases
+        run: node audit140/generator.cjs
+      - name: Verify presentation, navigation, persistence and complete session
+        run: |
+          node audit140/presentation.cjs
+          node audit140/ui.cjs
+          node audit140/browser-functional.cjs
+          node audit140/session-completion.cjs
+          node audit140/comparison-browser.cjs
+      - name: Publish complete HTML, audit and feedback evidence
+        run: |
+          python3 audit140/publish.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v140.html JLPT_N1_v140_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/feedback-20261104.md audit140/build-summary.json audit140/aliases.json audit140/glossary-review.json audit140/reading-options.json audit140/provenance.json audit140/*-results.json
+          git commit -m "Release JLPT N1 v140: reading distractors, NA headwords, literal cloze and contextual glossary"
+          git push origin HEAD:main
+      - name: Verify published full release
+        run: |
+          git fetch origin main
+          for file in JLPT_N1_ukrainian_reading_v140.html JLPT_N1_v140_audit.md README.md PROJECT_STATUS.md completion/feedback-20261104.md; do
+            test "$(git hash-object "$file")" = "$(git rev-parse "origin/main:$file")"
+          done
