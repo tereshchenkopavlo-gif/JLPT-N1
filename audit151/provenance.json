@@ -1,0 +1,14 @@
+{
+  "version": 151,
+  "sha256": "8344b61d1e84b6d9251218bc2334c9336bb2409cdd9a36f8307a349d6d4e57b7",
+  "base": "v150 / 02fa1c3e6bdcf44b8bf3a50afd39b55287567b8ed63da9da55a6b4d29de85c84",
+  "status": "not_cleared_for_public_product",
+  "newMaterial": "Original edits to Japanese definitions, Ukrainian explanations and translations of inherited examples.",
+  "inheritedMaterial": "Japanese example sentences and pair material retained. Origin remains under review.",
+  "evidence": "audit151/editorial-review.json",
+  "sources": "audit151/sources.md",
+  "publicExposure": "v151 HTML and audit in main, work/v151-checkpoint, older HTML and reachable Git history. Historical Actions packages remain in scope.",
+  "historicalInventory": "review20261105/public-inventory.json is a frozen v141 snapshot.",
+  "newActionsArtifacts": false,
+  "independentReview": false
+}
