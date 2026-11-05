@@ -1,0 +1,95 @@
+{
+  "sha256": "028c8ffc1f03bef57c9a833a86553eaee977678bb596526bfaab04cfa6a867f4",
+  "pass_": true,
+  "checks": [
+    {
+      "name": "Exact published v142 base",
+      "pass_": true
+    },
+    {
+      "name": "DEFAULT_VOCAB unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_POS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_HEADWORD_ALIASES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_READING_OPTIONS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "readingBank unchanged",
+      "pass_": true
+    },
+    {
+      "name": "All 281 previous JSON sets unchanged; exactly 51 added grammar keys",
+      "pass_": true
+    },
+    {
+      "name": "All 102 examples bound: 47 byExample keys and four preserved exact C04 contexts",
+      "pass_": true
+    },
+    {
+      "name": "Every other HTML/JS/CSS/storage byte unchanged except version label",
+      "pass_": true
+    },
+    {
+      "name": "3914 words /130 grammar /160 texts /381 reading questions",
+      "pass_": true
+    },
+    {
+      "name": "Author evidence binds 51 sets /102 contexts; not independent acceptance",
+      "pass_": true
+    },
+    {
+      "name": "Exactly the remaining 51 prior diagnostic IDs, not an invented denominator",
+      "pass_": true
+    },
+    {
+      "name": "All 406 previous tracked release/audit files and register preserved",
+      "pass_": true
+    },
+    {
+      "name": "Prior 325 credits /5517 pending /5842 rows unchanged",
+      "pass_": true
+    }
+  ],
+  "previousFilesChecked": 406
+}
