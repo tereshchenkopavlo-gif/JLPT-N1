@@ -50,3 +50,5 @@ python audit-pilot/scan.py --out /tmp/jlpt-audit-repeat --previous /tmp/jlpt-aud
 ## Продовження пілота
 
 Актуальний підсумок мовного проходу та його межі описано в [CHECKPOINT.md](CHECKPOINT.md).
+
+Перший мовний прохід усіх 200 карток і висновок щодо методики зафіксовано в [CONCLUSION.md](CONCLUSION.md).
