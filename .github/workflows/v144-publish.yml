@@ -1,0 +1,63 @@
+name: Verify and publish JLPT N1 v144
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit144/**'
+      - '.github/workflows/v144-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v144-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build exact release and verify all authorized changes
+        run: |
+          python3 audit144/build.py
+          python3 audit144/check.py
+          python3 audit144/coverage.py
+          node --check audit144/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify new grammar contexts and prior saved sets
+        run: |
+          node audit144/meaning-browser.cjs
+          node audit144/coverage-browser.cjs
+          node audit144/scope-browser.cjs
+          node audit144/grammar-browser.cjs
+      - name: Verify presentation, navigation, persistence and complete session
+        run: |
+          node audit144/presentation.cjs
+          node audit144/ui.cjs
+          node audit144/browser-functional.cjs
+          node audit144/session-completion.cjs
+          node audit144/comparison-browser.cjs
+      - name: Publish complete HTML, audit and feedback evidence
+        run: |
+          python3 audit144/publish.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v144.html JLPT_N1_v144_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/C11-grammar-v144-result.json audit144/build-summary.json audit144/editorial-review.json audit144/provenance.json audit144/grammar-coverage.json audit144/*-results.json
+          git commit -m "Release JLPT N1 v144: audit all 261 current grammar example meaning questions; preserve vocabulary sets and prior audit credits"
+          git push origin HEAD:main
+      - name: Verify published full release
+        run: |
+          git fetch origin main
+          for file in JLPT_N1_ukrainian_reading_v144.html JLPT_N1_v144_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/C11-grammar-v144-result.json; do
+            test "$(git hash-object "$file")" = "$(git rev-parse "origin/main:$file")"
+          done
