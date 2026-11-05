@@ -1,0 +1,1818 @@
+{
+  "sha256": "4e4e6ab182ba0dd2fe52580d7f58a3bd3ee89cbabb669ac0d521bd0f9c6341e3",
+  "pilotSize": 200,
+  "languageRead": 25,
+  "remainingPilotLanguage": 175,
+  "independentRead": 0,
+  "counts": {
+    "high": {
+      "retain": 1,
+      "edit": 0,
+      "follow_up": 1
+    },
+    "medium": {
+      "retain": 5,
+      "edit": 3,
+      "follow_up": 1
+    },
+    "low": {
+      "retain": 6,
+      "edit": 7,
+      "follow_up": 1
+    }
+  },
+  "editorialGroups": {
+    "Погляд": [
+      "147",
+      "148",
+      "149",
+      "150"
+    ],
+    "Фінанси": [
+      "174",
+      "175"
+    ],
+    "Робота": [
+      "200",
+      "201",
+      "202"
+    ],
+    "Розвиток": [
+      "208",
+      "209",
+      "210"
+    ],
+    "Передавання": [
+      "259",
+      "260",
+      "261",
+      "262"
+    ],
+    "Рішення": [
+      "302",
+      "303",
+      "304",
+      "320"
+    ],
+    "Контроль": [
+      "121",
+      "123",
+      "242",
+      "300",
+      "230"
+    ]
+  },
+  "nextQueue": [
+    [
+      "122"
+    ],
+    [
+      "125"
+    ],
+    [
+      "128"
+    ],
+    [
+      "130"
+    ],
+    [
+      "133",
+      "281"
+    ],
+    [
+      "139"
+    ],
+    [
+      "140"
+    ],
+    [
+      "141"
+    ],
+    [
+      "142"
+    ],
+    [
+      "143",
+      "144"
+    ],
+    [
+      "154",
+      "232"
+    ],
+    [
+      "163",
+      "236",
+      "237"
+    ],
+    [
+      "164"
+    ],
+    [
+      "171"
+    ],
+    [
+      "177"
+    ],
+    [
+      "179"
+    ],
+    [
+      "180"
+    ],
+    [
+      "185"
+    ],
+    [
+      "189",
+      "267"
+    ],
+    [
+      "195",
+      "193"
+    ],
+    [
+      "198",
+      "199"
+    ],
+    [
+      "213",
+      "212"
+    ],
+    [
+      "221"
+    ],
+    [
+      "226"
+    ],
+    [
+      "233"
+    ],
+    [
+      "238"
+    ],
+    [
+      "243"
+    ],
+    [
+      "245"
+    ],
+    [
+      "246",
+      "184"
+    ],
+    [
+      "247"
+    ],
+    [
+      "254"
+    ],
+    [
+      "255"
+    ],
+    [
+      "264"
+    ],
+    [
+      "271",
+      "269"
+    ],
+    [
+      "272"
+    ],
+    [
+      "273"
+    ],
+    [
+      "275"
+    ],
+    [
+      "278"
+    ],
+    [
+      "280"
+    ],
+    [
+      "287"
+    ],
+    [
+      "288"
+    ],
+    [
+      "289",
+      "159"
+    ],
+    [
+      "290"
+    ],
+    [
+      "292"
+    ],
+    [
+      "293"
+    ],
+    [
+      "295"
+    ],
+    [
+      "301"
+    ],
+    [
+      "307",
+      "305"
+    ],
+    [
+      "312",
+      "311"
+    ],
+    [
+      "315"
+    ],
+    [
+      "316"
+    ],
+    [
+      "124"
+    ],
+    [
+      "126"
+    ],
+    [
+      "127"
+    ],
+    [
+      "129"
+    ],
+    [
+      "131"
+    ],
+    [
+      "132"
+    ],
+    [
+      "134"
+    ],
+    [
+      "135"
+    ],
+    [
+      "136"
+    ],
+    [
+      "137"
+    ],
+    [
+      "138"
+    ],
+    [
+      "145"
+    ],
+    [
+      "146"
+    ],
+    [
+      "151"
+    ],
+    [
+      "152"
+    ],
+    [
+      "153"
+    ],
+    [
+      "155"
+    ],
+    [
+      "156"
+    ],
+    [
+      "157"
+    ],
+    [
+      "158"
+    ],
+    [
+      "160"
+    ],
+    [
+      "161"
+    ],
+    [
+      "162"
+    ],
+    [
+      "165"
+    ],
+    [
+      "166"
+    ],
+    [
+      "167"
+    ],
+    [
+      "168"
+    ],
+    [
+      "169"
+    ],
+    [
+      "170"
+    ],
+    [
+      "172"
+    ],
+    [
+      "173"
+    ],
+    [
+      "176"
+    ],
+    [
+      "178"
+    ],
+    [
+      "181"
+    ],
+    [
+      "182"
+    ],
+    [
+      "183"
+    ],
+    [
+      "186"
+    ],
+    [
+      "187"
+    ],
+    [
+      "188"
+    ],
+    [
+      "190"
+    ],
+    [
+      "191"
+    ],
+    [
+      "192"
+    ],
+    [
+      "194"
+    ],
+    [
+      "196"
+    ],
+    [
+      "197"
+    ],
+    [
+      "203"
+    ],
+    [
+      "204"
+    ],
+    [
+      "205"
+    ],
+    [
+      "206"
+    ],
+    [
+      "207"
+    ],
+    [
+      "211"
+    ],
+    [
+      "214"
+    ],
+    [
+      "215"
+    ],
+    [
+      "216"
+    ],
+    [
+      "217"
+    ],
+    [
+      "218"
+    ],
+    [
+      "219"
+    ],
+    [
+      "220"
+    ],
+    [
+      "222"
+    ],
+    [
+      "223"
+    ],
+    [
+      "224"
+    ],
+    [
+      "225"
+    ],
+    [
+      "227"
+    ],
+    [
+      "228",
+      "229"
+    ],
+    [
+      "231"
+    ],
+    [
+      "234",
+      "274"
+    ],
+    [
+      "235"
+    ],
+    [
+      "239"
+    ],
+    [
+      "240",
+      "241"
+    ],
+    [
+      "244"
+    ],
+    [
+      "248"
+    ],
+    [
+      "249"
+    ],
+    [
+      "250"
+    ],
+    [
+      "251"
+    ],
+    [
+      "252"
+    ],
+    [
+      "253"
+    ],
+    [
+      "256"
+    ],
+    [
+      "257"
+    ],
+    [
+      "258"
+    ],
+    [
+      "263"
+    ],
+    [
+      "265"
+    ],
+    [
+      "266"
+    ],
+    [
+      "268"
+    ],
+    [
+      "270"
+    ],
+    [
+      "276"
+    ],
+    [
+      "277"
+    ],
+    [
+      "279"
+    ],
+    [
+      "282"
+    ],
+    [
+      "283"
+    ],
+    [
+      "284"
+    ],
+    [
+      "285"
+    ],
+    [
+      "286"
+    ],
+    [
+      "291"
+    ],
+    [
+      "294"
+    ],
+    [
+      "296"
+    ],
+    [
+      "297"
+    ],
+    [
+      "298"
+    ],
+    [
+      "299"
+    ],
+    [
+      "306"
+    ],
+    [
+      "308"
+    ],
+    [
+      "309"
+    ],
+    [
+      "310"
+    ],
+    [
+      "313"
+    ],
+    [
+      "314"
+    ],
+    [
+      "317"
+    ],
+    [
+      "318"
+    ],
+    [
+      "319"
+    ]
+  ],
+  "pairCrossChecks": [
+    {
+      "index": 34,
+      "a": "147",
+      "b": "148",
+      "type": "related",
+      "sha256": "7a5c9e68e871675b6e18d4e00b13118c127303fc15e539ba1fd4c9747785e750",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 36,
+      "a": "149",
+      "b": "150",
+      "type": "related",
+      "sha256": "eaeab49864ccd2912d1f1b03c8907bf52afdf5ebbff4517f4f7917de31986b58",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 40,
+      "a": "174",
+      "b": "175",
+      "type": "near",
+      "sha256": "e8353f129cde2caefb4ab40e4b271fb2d75264968bc990b649a8632e8f76ef56",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 50,
+      "a": "208",
+      "b": "210",
+      "type": "near",
+      "sha256": "a4c0e9ea48a0a1ea2e5f0d1b92b9318679e0ed5f3e00a2693d0e8018fc481b23",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 51,
+      "a": "209",
+      "b": "210",
+      "type": "related",
+      "sha256": "3c221a59385d0570ab9027768aea2ceff44f3935ea2f5bcbb61c199fdbefd0a2",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 62,
+      "a": "259",
+      "b": "261",
+      "type": "related",
+      "sha256": "2dfabd4f85d7918cc6fe007c3132a1a56646b84873c284290c0887f66097a5b3",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 63,
+      "a": "260",
+      "b": "261",
+      "type": "related",
+      "sha256": "0f15d29c6515611ecdf0072f8fcf529e0357463c40ca1d86265d295f791e3c3f",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 64,
+      "a": "261",
+      "b": "262",
+      "type": "related",
+      "sha256": "65b558b8f9c914e3b3739e1eddfecb3dd74cb56c99970456ec115a816cdf45ff",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    },
+    {
+      "index": 73,
+      "a": "303",
+      "b": "304",
+      "type": "near",
+      "sha256": "a6dde5e943124fd8fff258ba9bef09aa0049dff8a062a1862ee46b8322b5d6e0",
+      "scope": "consistency with sampled cards",
+      "independent": false
+    }
+  ],
+  "decisions": {
+    "147": {
+      "id": "147",
+      "group": "Погляд",
+      "reading": "しせん",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Перший приклад передає осуд через холодні погляди, другий — буквальне зустрічання поглядів. Пара 34 розрізняє напрям очей і позицію аналізу.",
+      "proposed": "—",
+      "word": "視線",
+      "risk": "medium",
+      "hashes": {
+        "form": "cd91fc64369b231c3f9943f2547939e46d0235ac72452824ab859beb09926ce1",
+        "meaning": "34204c9c734c19ec11109806da6414d575dc1c170e8bf70b3d944554a6ce4f08",
+        "examples": "1d47943eb9bd80d113db1a6b8ae58e63caac382545764b4cb95ae954f51ff9aa",
+        "dependencies": "e1357f739520906d99f7ed93d6003c34418527bf3c1b5c0a86a2f202c027aef3",
+        "card": "478f904f529252ef052b6df1855b06cba5d8ef0aafc5a3a107d1822647ce1c65"
+      },
+      "fieldHashes": {
+        "w": "7bcbacfb00101551dd0a4feebef8c9306b460654c813233797893caa6b0c6b0d",
+        "m": "36c6ee38a45d49134b551ecf5fd847daa3d772700a76892bd0aef36af656cc29",
+        "t": "fa4966dadf8448a7373f5ca3fd1d317961e71518713ca930f02245bb25d2fb58",
+        "s": "96634e60cd7eddeee573a400f5f9fdbcd771249c7c7cbdd03459fa6aa961f143",
+        "examples": "68baae7d1021fb70fa9dc5e8a2feaf839f4e1e6e068d5bf27710634c2056713d",
+        "usage": "da88163157b07f5eb2873382ecfc602c6720e3bbe15d2713414902e0a157b6a2",
+        "exampleTranslations": "a20a84d72b196d1a830b57486209b79cfb5004e0873d066db87bbc33de1686f8"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "周囲の冷たい視線に耐えながら、彼は謝罪を続けた。",
+          "ukrainian": "Попри холодні погляди оточення він продовжував вибачатися."
+        },
+        {
+          "japanese": "彼女は話しながら顔を上げ、相手と視線を合わせた。",
+          "ukrainian": "Розмовляючи, вона підняла голову й зустрілася поглядом зі співрозмовником."
+        }
+      ]
+    },
+    "148": {
+      "id": "148",
+      "group": "Погляд",
+      "reading": "してん",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Погляд клієнта та нова перспектива. 見えてきた у другому реченні передає результат, що вже почав ставати помітним. Пара 34 узгоджується з обома прикладами.",
+      "proposed": "Другий переклад: «Коли ми врахували новий погляд, почала прояснюватися суть проблеми».",
+      "word": "視点",
+      "risk": "medium",
+      "hashes": {
+        "form": "a7b694c47f8b46c704b6c8912883a89a97fd4ff018d1746f914ed2021dd5fbc6",
+        "meaning": "f34ce8e54b5a8967c45d836257bd6f39dbc16dcb5f096485619a64f43231aecc",
+        "examples": "7715b200ee7de58df1abfb3a709e97370e78e81c353954aab38e96bb29e27b63",
+        "dependencies": "eb43c7a02d27822a6917b30ea2f7aafb17d6db7ce0363d24207c76cf79a8f3d4",
+        "card": "3ae7e2f22319c21bacebbaf48465e28ccfa5faefd706ceaff2cb67589f894978"
+      },
+      "fieldHashes": {
+        "w": "3aa30f0ec181e8d7daef568cc8c1470183e5a083b8eabc05dbea62e9d101a7e8",
+        "m": "07b2b68f15a5f1278b9f20620cdeea56347ef29ed50a860c432ab750be7aa3a1",
+        "t": "dcd87e07b61818f04053e44acb96aa82878a0b3ae2c419e817164f89933a505d",
+        "s": "c62a7ed2059dedb1e5b76b97016852b87ac793319c7b4a99be6b252023dec7a9",
+        "examples": "f2940fd2d87308c17ff22a65baeae657d3e46827721d0bf2d4b260c520595dbd",
+        "usage": "8e749d53563335c94e127028c9208e02de21c0f77582a4db53f55d10929cfaec",
+        "exampleTranslations": "2e625dbd19026fefaa29ee66f36791d9dc24602f351d23d503a615165c8e0784"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "顧客の視点に立って、サービスを見直す必要がある。",
+          "ukrainian": "Потрібно переглянути послуги з погляду клієнта."
+        },
+        {
+          "japanese": "新たな視点を取り入れることで、問題の本質が見えてきた。",
+          "ukrainian": "Новий погляд дає змогу побачити суть проблеми."
+        }
+      ]
+    },
+    "149": {
+      "id": "149",
+      "group": "Погляд",
+      "reading": "しや",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Довгострокова перспектива та розширення кругозору. 海外経験 не задає саме проживання. Пара 36 відокремлює поле зору від гостроти.",
+      "proposed": "Другий переклад: «Завдяки досвіду за кордоном мій кругозір значно розширився».",
+      "word": "視野",
+      "risk": "low",
+      "hashes": {
+        "form": "d73fa2e9ab683e94b50bf3fe34103750735f4609684a30f00d17e9a39a23f897",
+        "meaning": "9a39814ec87beb2ccbfbb74d65eaadf076520da212cd693c6adda1d6d713992a",
+        "examples": "42fd9514980e43e21f6c9b71c8ced0d9ed45c1417b5b97f08a524369b410081d",
+        "dependencies": "fb436d9106ba8d7a1cc4afa92ca352924aced392ca8798587329c48fb860f717",
+        "card": "82d3932588090f77fbec2f4c5dd37a7171c4ef764039a719063485d8321e93ad"
+      },
+      "fieldHashes": {
+        "w": "47f91ec22457da3b41b43b0c0fb028a38cac38dbf82be0b0f6b0e51c5ff50949",
+        "m": "ef8e2b32d32aa9082d412a5263a11174b99279e8b31cbaf808fd2b8aded55031",
+        "t": "b24331287be15ced263c820a97fcb6ad4fb5445b6a89e9ffc939d1f7e79d7d92",
+        "s": "3b7614fa77043847d962c8b5b14b1285f7ae8bc88f9cd7bb1af9deb8127729f2",
+        "examples": "c91b5eb21bdf5b8c44879e6d132ba4724ff3a81061e23d8e0a077e6db27e9123",
+        "usage": "89703fa7fe87769f884aa467c93a21b6caf0389ba4f1c1e022cc176a88fe8b36",
+        "exampleTranslations": "940d695cfbc567a6fd90660b0528e2153b6b9ff6bfecac1c1ebbc7b0a3912d16"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "長期的な視野に立った経営判断が求められる。",
+          "ukrainian": "Потрібні управлінські рішення з урахуванням довгострокової перспективи."
+        },
+        {
+          "japanese": "海外経験を通じて、視野が大きく広がった。",
+          "ukrainian": "Завдяки досвіду життя за кордоном кругозір значно розширився."
+        }
+      ]
+    },
+    "150": {
+      "id": "150",
+      "group": "Погляд",
+      "reading": "しりょく",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Вікове погіршення та вимірювання гостроти зору. Українське «я перевірив» у контексті посвідчення допускає, що перевірку провів інший. Пара 36 пояснює межу з 視野.",
+      "proposed": "—",
+      "word": "視力",
+      "risk": "medium",
+      "hashes": {
+        "form": "06d9461eeb6a28f06119ebea11e93dea4af76265c8b237afca131204d95c4e84",
+        "meaning": "bc956122ce1fed54c1d0eb7ac7b8dc2a1442afc392d1f461619a88770f293c81",
+        "examples": "4d5b5311549b3b3ac3e1353ab2c458884d21ba229bf916c345a15bb187c883fb",
+        "dependencies": "f753cd28cf6b765ddce4d96e62ea856aa52d2347bd649e0193565800efaf6595",
+        "card": "96dd30fb4c4ff673d8457fcf8729ab0440709611a334dc823223cbd63b8eeab3"
+      },
+      "fieldHashes": {
+        "w": "a208f6e459237f771890421bb16d1c7dea6a521c4e95c622f10347a8c144007c",
+        "m": "b681e29b909c3468d1e511a32e828553172ad3969dbab544c8290764907aaaa6",
+        "t": "5ed8da3183301d64e066319b309ed01c746b411563bcd4b8b0c8cb3a62d2d63f",
+        "s": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "examples": "6e412f27e8bf649c635c352e6fdcde10f7f8b0e5171266b84b04154dbb7195eb",
+        "usage": "72d831e2f2949d52fbd3f0887c88deaf9b070aa5488c43f79dff4bf8248ff203",
+        "exampleTranslations": "039b530a4d6f2ac2811a602012c59d1e1eb7f793cb98d874707c1fd56b8dc96a"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "加齢とともに視力が低下し、眼鏡が欠かせなくなった。",
+          "ukrainian": "З віком гострота зору знизилася, і без окулярів стало не обійтися."
+        },
+        {
+          "japanese": "運転免許の更新を前に、視力を測ってもらった。",
+          "ukrainian": "Перед продовженням водійського посвідчення я перевірив гостроту зору."
+        }
+      ]
+    },
+    "174": {
+      "id": "174",
+      "group": "Фінанси",
+      "reading": "しゅうえき",
+      "pos": "名詞",
+      "disposition": "follow_up",
+      "evidence": "Перший приклад про очікувану дохідність, другий про поліпшення фінансового результату. Словник дає загальне значення доходу чи вигоди. Пара 40 окремо описує облікове розмежування з 収入.",
+      "proposed": "Окремо звірити бухгалтерське формулювання з фаховим джерелом. Не переносити його механічно на всі приклади.",
+      "word": "収益",
+      "risk": "medium",
+      "hashes": {
+        "form": "63b9d50f1fac4c9a2e68644ef27ec4e5d46b3ec7ed4078ffcb2a10b9944a547c",
+        "meaning": "5e816ace888b25c5e081cc8ceecef48679d300137075e300825bb21889b562e2",
+        "examples": "23a198062e9ab1f8151f4e910940701665a4531394e0ff7a975e1297e9dedc20",
+        "dependencies": "cb7a69acf456d05c79662c033a4e8ff6263115f238c0685c696f4ec0f7953ca9",
+        "card": "89b224e12060dba90f916b3f8899e71d65d5cccdd0c0bd1b1703a879cdf1abbe"
+      },
+      "fieldHashes": {
+        "w": "cdc17127e26303df35592a468bf1d967bef0439d13b48afd2ee0579fe287a075",
+        "m": "c08f867b7de63079c41106fed4658959bba22f9f9a8605ecc96be1b8438a7e49",
+        "t": "e6b8a8d10b79bd5191a1ab94f337bc3579d928ce9d0e07a4b6d3a2638e792cd6",
+        "s": "3cb0901b4c29e5ee6a76cacf69aaf41da7cf95485085e273ad13e40ca6672fc4",
+        "examples": "076c40a70c1d207115802d8d014f0d0c191ae3342543d0867f8db3e5da5349ab",
+        "usage": "94468462aa5782df1cc87f925f2ae74bdd9e8513e0e0815b5cc0cee5d7e89b0f",
+        "exampleTranslations": "d073de18c5c3ca7eccd88bc870ec94420b57b6816e2d8aa0ec2c5021746674cc"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "新規事業の収益化には、まだ時間を要する見通しだ。",
+          "ukrainian": "Очікується, що новий бізнес почне приносити дохід лише згодом."
+        },
+        {
+          "japanese": "収益の改善に向けて、不採算部門の整理が進められている。",
+          "ukrainian": "Для поліпшення фінансового результату проводять реорганізацію збиткових підрозділів."
+        }
+      ]
+    },
+    "175": {
+      "id": "175",
+      "group": "Фінанси",
+      "reading": "しゅうにゅう",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Дохід від підробітку та співвідношення видатків і доходів. Пара 40 підтримує відмінність надходження від облікового доходу. Податковий відтінок 所得 лишається контекстною приміткою.",
+      "proposed": "—",
+      "word": "収入",
+      "risk": "high",
+      "hashes": {
+        "form": "d6be39f2b21a7357b3f2fbb64afceb1d6ee299b6433d4852c444167ccb7cb8da",
+        "meaning": "f035e5e746223847a4d1e7624375a4cd04b1ca9a91a588f5b50096b89d8fcaf3",
+        "examples": "79796c8411402dca1e695f14ea5d69663e0fa03d126f78dd3b2773159987054f",
+        "dependencies": "367d75a791ac8cd5b5c864fcb1381e68f7e6906557e8e4f159823fbf75413714",
+        "card": "8bfd0213e6d41063bc195f38c4a689e274263fa5902302b6bf4fe49975a5b40b"
+      },
+      "fieldHashes": {
+        "w": "b11e0c37cf9bc521732c241d44283b1449309eec55dd2cefd8a76bbcce38ce89",
+        "m": "f7e4c512cf87b728a0d7d587b712b60c1564e3d35c715d6faf72f36ea99ab60a",
+        "t": "3ac1ce67824ba07f2a019bb3d08fe0806f84714193c5f33f6d0f3e82ae609801",
+        "s": "d18f46dd1fcef9e70c6f297460cf72896e681c91763b99dff5fc8e1894d86878",
+        "examples": "17a3b8d14cd80a67391b7f7c384ed46a158f1401bf0ff5e71ebbf8f5304e32d2",
+        "usage": "76e7d83e3e934adab703630ff2610b730e0e7d8136f357be7b7e18218d903b0f",
+        "exampleTranslations": "11a436ad914be427b1107e110963d6f5b5fcb83605858611867a5b030bb2c09d"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "安定した収入を確保するため、副業を始める人が増えている。",
+          "ukrainian": "Дедалі більше людей починають підробляти, щоб забезпечити стабільний дохід."
+        },
+        {
+          "japanese": "収入に見合った支出を心がけることが、家計管理の基本だ。",
+          "ukrainian": "Стежити, щоб видатки відповідали доходам, — основа управління сімейним бюджетом."
+        }
+      ]
+    },
+    "200": {
+      "id": "200",
+      "group": "Робота",
+      "reading": "しょくぎょう",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Вибір професії та виникнення і зникнення професій. Визначення охоплює регулярне заняття, зокрема без формальної кваліфікації.",
+      "proposed": "—",
+      "word": "職業",
+      "risk": "low",
+      "hashes": {
+        "form": "426e99130e39236c072b6b62e444907947d4cc0756ed30d63222d263c3a231d8",
+        "meaning": "9d673d9c9ac5bc73f27710d196b9abe08268c3f60765e48fbcc5c0cee4ce238b",
+        "examples": "9c429e2dd5a2f8913533ca5d6fc7c8b942f518b99d651f2a10cc2d9f3e7c0370",
+        "dependencies": "88ce6c3ef07d12f2b53fa71ec648bd0aff496e1c60de3d1eda8ea3e029d4a96e",
+        "card": "0b0074cbec44409a250df205a2fecff6e0057c0f6bd91142bcc9c4a6220a2054"
+      },
+      "fieldHashes": {
+        "w": "40a59467a4c2d78a9648923e4d1689afed7bd4517f4a61b17c4a007ef1ed567f",
+        "m": "9c44ed61c2d283df662fa00f60cd077dec1d920d302c4870356bdff56eecdf66",
+        "t": "e93069aee0bc42fa71193062dd1476d2ab1bbbcda30dbb20e34845ababcb0f4a",
+        "s": "f930aca29e0c8f12633cc56d7a956d2d9b9077f594bbf1e34da0e9a6ed47cc18",
+        "examples": "bdf72ebc99fcb17245169e14d77a4d8dd903235abbb6fa692832e625cc832220",
+        "usage": "73ee854feac14e901a02238d5e5847c49b0ad66126924cba89fca5fed6b39e33",
+        "exampleTranslations": "efc6fd16b6f560907368c69ce48700262078aa9fdec74342e78daebd6e5f37ba"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "職業の選択には、本人の適性と意欲が大きく関わる。",
+          "ukrainian": "На вибір професії суттєво впливають здібності та мотивація самої людини."
+        },
+        {
+          "japanese": "新たな職業が誕生する一方で、消えていく職業もある。",
+          "ukrainian": "Поки одні професії виникають, інші зникають."
+        }
+      ]
+    },
+    "201": {
+      "id": "201",
+      "group": "Робота",
+      "reading": "しょくしゅ",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Перехід на інший вид роботи й вимоги до видів роботи. Словник підтверджує вид професійної діяльності. Картка вже відділяє галузь 業種.",
+      "proposed": "Перший переклад: «Дедалі більше працівників хочуть перейти на інший вид роботи».",
+      "word": "職種",
+      "risk": "low",
+      "hashes": {
+        "form": "6a3b58677865c838553b600bbb44bbddb29e558d301aa7dc1ecb2472ee677451",
+        "meaning": "48e9f9720d6a975612dc7d4c1a487b3c64f5f65c9f10ce59ce42164bbbf73677",
+        "examples": "b52376df26aafbd1fda94aa8c729226f0941236ae380d8082620d8f77443d9e9",
+        "dependencies": "4a387564e1479b02712fc123d19e9110eb292d24153cecc460a2525f1d407cac",
+        "card": "090bd1744b9c797d5d440cbda6489a7b8f677297171baba8ea724a0276acda6d"
+      },
+      "fieldHashes": {
+        "w": "8eb75d359319994ca671060ce4b7344348b0cb1533a5b0fb6acb38845c4a6c5d",
+        "m": "13e3dd89810ce1f588cf91add452ca8a99af0c952fe940c4dda39b618e304f84",
+        "t": "e08348c1135ea0b042c245ce90618c1d9ae99c3cfeaf658a07ea21212c7e057f",
+        "s": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "examples": "135d866a9368db7cb0647330f78fcf9cb1adcbfcacd579084e15c263cb28704f",
+        "usage": "f67e3011b225233c8c1370071c89dbba1a2be459ea6b1d7db127a080fde0c951",
+        "exampleTranslations": "937e44a06b5acb3d0834452fba1b68f12111196355038139d102a2ad1e554f49"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "他の職種への異動を希望する社員が増えている。",
+          "ukrainian": "Дедалі більше працівників бажають перейти на інший тип роботи."
+        },
+        {
+          "japanese": "職種によって、求められる能力や資格が大きく異なる。",
+          "ukrainian": "Потрібні здібності та кваліфікації суттєво різняться залежно від виду роботи."
+        }
+      ]
+    },
+    "202": {
+      "id": "202",
+      "group": "Робота",
+      "reading": "しょくむ",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Перший приклад про неупередженість під час виконання обов’язків, другий — про довіру до сумлінного працівника. «Має велику довіру керівника» звучить неприродно.",
+      "proposed": "Другий переклад: «Він сумлінно виконує посадові обов’язки, і керівник йому дуже довіряє».",
+      "word": "職務",
+      "risk": "low",
+      "hashes": {
+        "form": "1c6e55aa29ddb34c6a6cde36e70440b645303d2b509c2d09fa46418fcee6563c",
+        "meaning": "0a8a66e56fc3b97c620ebf74b0b1d9a733bcf1ed67800d9c6af2369f817b8d21",
+        "examples": "b7449e975df43ad0956c5e69f21a565af5936a115a4aa4fbd3bc4b74424c88d3",
+        "dependencies": "13d63b68f6c5467396b6973ce4304a502959968ba7b8dc3ec7da5293fca9aaf8",
+        "card": "d967674394e850cf4f613c2a2c0749b0b9c9c46257987f6f4674ada856dcc0a4"
+      },
+      "fieldHashes": {
+        "w": "de752e9b5f1fc0dda2063c2b40d4548647ee8d81eccec5b1af2927618d01a28a",
+        "m": "d606c5cfc59c97457f7a0544c4bb6cbffcf930c08cb6a5afe53ca1614bfedea0",
+        "t": "ad8c32b27d2c38c4cf76f6cb14ad1c9f0dab5e91b072b918e6e6f7d01be29eab",
+        "s": "7c924082d93f192a940012680a73edef94cabbe0c1096d8cfc98621ea70c7e33",
+        "examples": "fa5930909822b03e9f49dc0fb826c8b2832a6e6e234eb55f5433c7a7faf9c09d",
+        "usage": "50fcab8ae830e4663fbcc9dae75c1b1513de25e54f3d1a49a384a34625f8539c",
+        "exampleTranslations": "e3467d2655e1b2f7f1a61af716542c9521b16fb31c40272f440c6f61b1c5c71f"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "職務の遂行にあたり、公平性を保たなければならない。",
+          "ukrainian": "Виконуючи службові обов’язки, потрібно зберігати неупередженість."
+        },
+        {
+          "japanese": "彼は、職務に忠実であり、上司からの信頼も厚い。",
+          "ukrainian": "Він сумлінно виконує посадові обов’язки й має велику довіру керівника."
+        }
+      ]
+    },
+    "208": {
+      "id": "208",
+      "group": "Розвиток",
+      "reading": "しんか",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Біологічна еволюція та розвиток технологій. Пара 50 розрізняє зміну можливостей і поліпшення. Пояснення коректно уникає біологічної шкали «краще».",
+      "proposed": "—",
+      "word": "進化",
+      "risk": "medium",
+      "hashes": {
+        "form": "fe3d1e660a49fd641aff0a6d4eecd745062df71b8aa173d126447e2dd47f94d0",
+        "meaning": "6843284a48eb31113627a51d9903e2349496020a9b041ddd672f6721501fc42c",
+        "examples": "c10cfd38dfe70776371955677b520473bdb9b0775270aec192c5679ecee72232",
+        "dependencies": "8166c03c9c81b6fa99a50bf823f28da2fb347e93423db9b6b32e4bed5d66d415",
+        "card": "d54233e6dcfb79919536ec114af759f01cb9bf70cb01e8665a9efa4ee1adffed"
+      },
+      "fieldHashes": {
+        "w": "83d88670d41c93b48350db73fbc9cbc1bfc9672074b2a3dc5b5f52e970c7c359",
+        "m": "0b61c9c2fc47e8055c09de1f0f01b44d581f53eda51d3236538f3e7287df7fd4",
+        "t": "c398df81aeca421088d85cf8f7c5c3f18409843ab3baa26501463995fed2d704",
+        "s": "591d88fee5141337434daabcb560f5e162c182d08d063b29136411be6a6c43a1",
+        "examples": "577564c0f3145f5b7333b70acda9d3d7113f075cf8707af6853c558d5c5b69ca",
+        "usage": "9b71fc5cefca8a5bb4e2f42b635e84d1fad8a71becc7d1e7535136bf316a2bbe",
+        "exampleTranslations": "4fcccd34da09a6adc45427537fa7975f2ff322d94df307c72dc94898e47c17b8"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "生物は長い時間をかけて進化してきた。",
+          "ukrainian": "Живі організми еволюціонували протягом тривалого часу."
+        },
+        {
+          "japanese": "技術の進化に伴い、必要とされるスキルも変化している。",
+          "ukrainian": "Із розвитком технологій змінюються й потрібні навички."
+        }
+      ]
+    },
+    "209": {
+      "id": "209",
+      "group": "Розвиток",
+      "reading": "しんてん",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Відсутність зрушень і поява нових фактів. Словник також підтверджує ширше значення розвитку. Пара 51 не ототожнює новий етап із поліпшенням.",
+      "proposed": "У дефініції й поясненні додати окремо «розвиток, поступ», зберігши новий етап справи як основне для цих прикладів.",
+      "word": "進展",
+      "risk": "medium",
+      "hashes": {
+        "form": "25a8f1c2cceaa3a7c151842e4f993d21d844f2b607f7af67a2f0896108b1e132",
+        "meaning": "0c22f56f0585cfa895242c1b777550031fd7d9f1f8f5b5586fa6a87a25b97fd3",
+        "examples": "6a1408d1ca6f039e1b233cd769fa25f795707e115b6a8935f3c8c0ba38074047",
+        "dependencies": "aca626fb24597ed109ee538444de15dcd04b7749b4ac28da22dfd948e2301d78",
+        "card": "affb2956546a5db8cbc930c645053dfd1d80e6c6d4426849f3f2f36fe1983d8e"
+      },
+      "fieldHashes": {
+        "w": "d0d5d6004566f5f4612afb2505ae4e830c1829ded5d2c9b6d3c491b733a6d39f",
+        "m": "8de216aeab30b3bde7f16fcb2a26622516abcb93e5dd73c57d6b16c0142fd0ca",
+        "t": "f9e6a9d6a61a34b4019bb775e11de5114819c76b4787ba0fa7709583f86dc173",
+        "s": "d9d94d7234dd86a245ec827f417d4ab48728a035ae952d6ad83040727f7e4ecd",
+        "examples": "1b231bc6325c069f104840c23418ffbee6032136623a9ac922c4293dc613e1a6",
+        "usage": "01e6b49291ab21c431ef2504b83e1de932ef1b3913f8347e7c7e915b033790d5",
+        "exampleTranslations": "344b61efed426d28b8b8f5a25410a997cae39f3106fb94f32c81ff5aa9a78a27"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "交渉に進展が見られず、期限が迫っている。",
+          "ukrainian": "Зрушень у переговорах не видно, а кінцевий строк наближається."
+        },
+        {
+          "japanese": "調査が進展するにつれ、新たな事実が次々と明らかになった。",
+          "ukrainian": "У міру просування розслідування один за одним з’ясовувалися нові факти."
+        }
+      ]
+    },
+    "210": {
+      "id": "210",
+      "group": "Розвиток",
+      "reading": "しんぽ",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Обидва приклади про технологічний поступ. Порівняння 50 і 51 узгоджують розвиток техніки з оцінкою руху до кращого. Прив’язане питання лишається окремим доказом.",
+      "proposed": "—",
+      "word": "進歩",
+      "risk": "medium",
+      "hashes": {
+        "form": "7c0f15e81f4a6fa2dbb1bf2a1db6a029c9c62cb67e6d60cccbeb98b9574a7679",
+        "meaning": "7a3f1f793e6ffa7ab539c82cf9c2d513722be8f255b4ae52281672595e165f42",
+        "examples": "5680fee59ac9c9254f4ca892128970dea816f667ecea8f813c16540e3b11c6a8",
+        "dependencies": "e9e73e376e58d5cfc2eed2e499d6e45c78180ccb64a098276773472bb088f4ec",
+        "card": "97fe8876f55e25c160b21de35b65c878ae91ee27c04dd6fc2eb1b5c130fe3fce"
+      },
+      "fieldHashes": {
+        "w": "92c1a654dffb1e13483c36248a64ee8d141b5a19ef0d404f7ccd0fb013a2eeee",
+        "m": "bd4b559f3f079ea3e6f78fc3a0d7100e8364560d38bf4062a15c342343477043",
+        "t": "81b8c53fd80459703ad727545e77e1aba86737b417a0aa99a447c83a1bdf107d",
+        "s": "6a580d80620f7b6457671533f595123d91597704f4ac4a36652ca2a2bfb3facf",
+        "examples": "a0ad40f16749948dd38ee3d7e5b882856aa8a4ef2e93833492e06ec19defe177",
+        "usage": "0af65c242ccf834631b808576bb325c4238c31e7dd759a23afaf119a9b1a55a7",
+        "exampleTranslations": "822cb1b58be2e0a4ddf49dcdc411e61ff4ce833743a4bc51f9c8133acdbbfd2c"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "医療技術の進歩について、資料を読んだ。",
+          "ukrainian": "Ми ознайомилися з матеріалами про прогрес медичних технологій."
+        },
+        {
+          "japanese": "技術の進歩に合わせて、道具の使い方も学び直している。",
+          "ukrainian": "Разом із поступом технологій ми заново опановуємо користування інструментами."
+        }
+      ]
+    },
+    "259": {
+      "id": "259",
+      "group": "Передавання",
+      "reading": "ていあん",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Перший приклад про конкретну пропозицію, другий про рішення після розгляду. Слово 相談 у визначенні робить обговорення надто обов’язковим. Пара 62 розрізняє пропозицію й показ.",
+      "proposed": "Дефініція: 「考えや計画などを、相手の検討に付すために示すこと。」 Другий переклад: «Ретельно розглянувши пропозицію, вирішать, чи її приймати».",
+      "word": "提案",
+      "risk": "low",
+      "hashes": {
+        "form": "bee7807d5f763119f0e698f12a7e5ba314bd3d1ba842ae40469a50f167c1d46f",
+        "meaning": "30c562122442cebdfc5ba245218c00178acb3947b1af8bfeee53600b906eacba",
+        "examples": "e52e5b508d5d9a24f93638592d664a89dc0afbe31cc5583fbfeae102afc8a7d5",
+        "dependencies": "a5bbd25120989b5a6fce6c7595e1df352a0672bd14243c3041d42dedef117e20",
+        "card": "d7a650c31d2ec2c328783e1fa388873ac5e48733df311f31660c0b3aed0d4135"
+      },
+      "fieldHashes": {
+        "w": "20637aad3f8dbcc1410561b18e979d8636ce5e710a66f4f2c8206f95f7ef1996",
+        "m": "59f24c89cbab37e128b1c8b6c237c0cc688fce3eca2bb398a16370b573b8c023",
+        "t": "376843056b0b88fb470c756701952ae80692a5a88cdf29e762137e35cb9372b9",
+        "s": "6ef48099b9165d05e99a7c0eef52f33d7117f9d1c95a77bc4cd0ebcbd88000c3",
+        "examples": "bb495dccc664f75b66df8764a6eeb3c8fcf70b6c7ab5b965a31c52fa2761898b",
+        "usage": "6c048d756d1a7056344d1d18a7137dfb9e40203608846a3749a1a0df0ecf38aa",
+        "exampleTranslations": "4ac4d60ac01f4727d260e00eb9c26074460a048cb976a92f879f72369501bd60"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "彼は、業務改善に向けた具体的な提案を行った。",
+          "ukrainian": "Він висунув конкретну пропозицію щодо вдосконалення роботи."
+        },
+        {
+          "japanese": "提案された内容を精査したうえで、採否を決定する。",
+          "ukrainian": "Після ретельного розгляду запропонованого змісту вирішать, приймати його чи ні."
+        }
+      ]
+    },
+    "260": {
+      "id": "260",
+      "group": "Передавання",
+      "reading": "ていきょう",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Послуги й інформацію надають для використання. 取材 не гарантує інтерв’ю. Пара 63 розрізняє надання й показ.",
+      "proposed": "Другий переклад: «У відповідь на запит для підготовки матеріалу нам люб’язно надали цінну інформацію».",
+      "word": "提供",
+      "risk": "low",
+      "hashes": {
+        "form": "a37e2cf398cba91e59f9c69596ca5255807b6148337ba1b68ecb292b5de730d7",
+        "meaning": "dbe17d5ddf91f69796d915dfdbf664af18f96847e1eb7be539e9bb60a0ce2e68",
+        "examples": "167269bbb9a1ce9a861a845ac30590e32c6d050dc943812df837a7d5a10fe8ed",
+        "dependencies": "2beae0cafdee268a622787c997f3b419c42dbf05889bc7543a882ae6c8d100bf",
+        "card": "ff65a5bec94861f447b679f8a512af5e2c7dc138c9ce61622cdd3d15bdab349c"
+      },
+      "fieldHashes": {
+        "w": "0648fb5ee619121840981d81be8e569aa1e04c40cb4784642543cc4890d5db25",
+        "m": "dec7ea6fc34df06ee4fc6c8b40ff18ea7cb517b40e327d511bc12e55fabaf6d7",
+        "t": "059360cd83b4f4170c3cb18cfab2a979eab18358225ab098d23e5823ef9b4eb7",
+        "s": "474482d6ea5ad2a2930f838d0dd7ffeb03accd65e4f246b558c4b2202bd53d96",
+        "examples": "46b8efa0d48c7fc2f488dfb27420b8eca7edd1fb4bb21eea97b3d8f84fb55073",
+        "usage": "deb3e787dbc39bebdda96701154bd016d164578047feb441c4ebb03960df0497",
+        "exampleTranslations": "252ebfee6f199eb4a696119064ffe93a160c55ee066956b701a980545d0e18b8"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "顧客に質の高いサービスを提供することが、企業の使命だ。",
+          "ukrainian": "Місія підприємства — надавати клієнтам якісні послуги."
+        },
+        {
+          "japanese": "取材に応じて、貴重な情報を提供していただいた。",
+          "ukrainian": "Співрозмовник погодився на інтерв’ю й люб’язно надав цінну інформацію."
+        }
+      ]
+    },
+    "261": {
+      "id": "261",
+      "group": "Передавання",
+      "reading": "ていじ",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Документ пред’являють, числові цілі представляють. Словник підтверджує показ документа чи умов. Пара 64 розрізняє пред’явлення й подання.",
+      "proposed": "Другий переклад: «Компанія представила конкретні числові цілі для відновлення діяльності».",
+      "word": "提示",
+      "risk": "low",
+      "hashes": {
+        "form": "d3e15717b4975b9308e0946193dfbb9f4d4348dbe5ca60c9773233a1d81388ee",
+        "meaning": "6a88d8d011a9fcec5a44ab32390e2e6aaffa3af2958dcc8721cf8551b8b36092",
+        "examples": "19b0570d909a5c76ca3b22290594f28a5408b9c1edc4def60f43d6b42303ab7f",
+        "dependencies": "ddbb6ea5fd52548da3b22a88c425bfee0fc7ed78334afdeb13db60b9cbaebf60",
+        "card": "ef05c22ddd17d7fb4dd5f0a30f70b54691f748a6364cf29a7599b0ca2c795e2b"
+      },
+      "fieldHashes": {
+        "w": "bd28bdf8eaa64c50df95f6aa82101ac6f1d76115f92dce77ea0358392835ecb8",
+        "m": "cdf2870516c4d946eff2c4003ffa385a850ab7808956709d71178a2e1e5b8e84",
+        "t": "a9379199c5e9429e558f527f95533254a71ff8361dfa127446db4bce976e7f0d",
+        "s": "535ef85160b26f9a58497bae327e72dcdd8a3bc37b8559577627474c16a8fdbf",
+        "examples": "16abe3b731733ba0d573867dc6f7e811a4db49e1a8a1497aaa2bacab55627c45",
+        "usage": "c6adbb8550d0791733ecd7ba071f1c565ff74c6eb46b2331f9e745351b8cbea7",
+        "exampleTranslations": "d33a3229bf8d03ac443cd41281ec7d82bee4b6a7631941b4b70b20fe8c6d0164"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "入場の際は、身分証明書をご提示ください。",
+          "ukrainian": "При вході пред’явіть, будь ласка, документ, що посвідчує особу."
+        },
+        {
+          "japanese": "会社は、再建に向けた具体的な数値目標を提示した。",
+          "ukrainian": "Компанія представила конкретні числові показники, яких прагне досягти для відновлення діяльності."
+        }
+      ]
+    },
+    "262": {
+      "id": "262",
+      "group": "Передавання",
+      "reading": "ていしゅつ",
+      "pos": "名詞",
+      "disposition": "follow_up",
+      "evidence": "Обидва приклади про подання адресатові. 週末 може потребувати уточнення календарної межі в реальній ситуації. Пара 64 узгоджується з визначенням.",
+      "proposed": "Уточнити нейтральний переклад 週末 без нав’язування дати або дня тижня.",
+      "word": "提出",
+      "risk": "low",
+      "hashes": {
+        "form": "cd6cabe352479587260ab1d04212aa63f1b34feb1b4defecd80d85934071a2b4",
+        "meaning": "dfd8f303e98942991ceb61e0b8dad0122079c7ad7c13721cd12540ef16d46ed7",
+        "examples": "60317ace59ff29b586ebf6a677abc13dcb860341fdb19eaa5e2dd370d6c262e5",
+        "dependencies": "c5b4827394b8e4acab613d3c57b04e20c196f4f6d6bea20586e83b4870027a29",
+        "card": "acdd3231b2cf68b94d16964c2efdae2c71c2191633c92e9883b08dbfbae88575"
+      },
+      "fieldHashes": {
+        "w": "ac8a47b3ee279c38acfc97b8e4535e44482232b9089306a6090115da15b1b6a6",
+        "m": "5ca4545558b585e09f62afa23091e3d9f87cc83887e57579507e31cefaa14cf2",
+        "t": "d04adcb67b2b09f06fbb1d0030cc094eb366481a4d01f126e6d004ef49d80d56",
+        "s": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "examples": "898ea44b83d4e275abdf1284698d692d3448b01082975bc64571a5e7ad013bb2",
+        "usage": "0ec092fee28f2876e553dc90efbc09d8c4cd78540ea944d3680eccc6704edef3",
+        "exampleTranslations": "2603ddf318ade3147f38acc6360e728f011ea193d147efca49da2456304d8bc7"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "報告書は、今週末までに提出してください。",
+          "ukrainian": "Подайте звіт до кінця цього тижня."
+        },
+        {
+          "japanese": "調査の結果をまとめた資料が、国会に提出された。",
+          "ukrainian": "До парламенту подали матеріали з узагальненими результатами дослідження."
+        }
+      ]
+    },
+    "302": {
+      "id": "302",
+      "group": "Рішення",
+      "reading": "はんけつ",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Перший контекст кримінальний, другий цивільний. «Вирок» і «рішення» правильно розведено.",
+      "proposed": "—",
+      "word": "判決",
+      "risk": "low",
+      "hashes": {
+        "form": "dee3d0cc766fb897ddb7e8cfe1e9b4ef751cb0ff15aa18e14784628ce151d1e1",
+        "meaning": "d06987ac92346954dcb2eab6dc301af9785de4601448aa4f158da12bc1484b3c",
+        "examples": "4da434752f8f44db2a2221f51ab9a4bb88d12a8a123f848a9bb000effd174c7b",
+        "dependencies": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "card": "807711b1c9f4e4b93895f74843b21b8eab4317c61450b6cfa3ac73dfea131346"
+      },
+      "fieldHashes": {
+        "w": "3ecb6d20cedea327cc2bb72b7574418164d20052869141ae32c46eebbce2f656",
+        "m": "1a34f94ff75f2508e10829db6b320362e59baccb374ad2010fc7f31a84a69cd3",
+        "t": "ca2bef5ec2691830a71cebeb406b18b9811bfc1c82319d12c24b78efbff0bb2c",
+        "s": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "examples": "d704f2aad3bbbd89c02768329a8ce42cd4eb1e094a38561e6a79ec6d27acfd1b",
+        "usage": "aaa3ad97b4207a52ce113ad21ad3e72e68487d194ec905e6834cc5b042a70b0b",
+        "exampleTranslations": "40976090d180453c2865296404dd9279712dd47f36e59f49b3fe9e070d42f538"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "裁判所は、被告に対して有罪の判決を言い渡した。",
+          "ukrainian": "Суд оголосив підсудному обвинувальний вирок."
+        },
+        {
+          "japanese": "判決を不服として、原告側は控訴した。",
+          "ukrainian": "Не погодившись із рішенням, сторона позивача подала апеляцію."
+        }
+      ]
+    },
+    "303": {
+      "id": "303",
+      "group": "Рішення",
+      "reading": "はんだん",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Обидва контексти про оцінку та рішення. Словник підтверджує встановлення судження після оцінки, пара 73 відрізняє це від визначення результату за критеріями.",
+      "proposed": "Перший переклад: «Потрібно точно зрозуміти інформацію й, спираючись на неї, зважено ухвалити рішення».",
+      "word": "判断",
+      "risk": "low",
+      "hashes": {
+        "form": "ee98f984548362777b35ab19a1378be6d6fe3fb69c0e87dc900c795572dd63a3",
+        "meaning": "edf0281772e5dfec417ff9fb757895555d5fa2eac06a28294eb7a73236af4951",
+        "examples": "23381b58e98a026d474870aad26813bc2a757b938b2d71821d2c044c805ffc23",
+        "dependencies": "24f98f10a41e4066a4a68ce0e88d8ec0a8cbf0c86eb7fb769f82761951fb4952",
+        "card": "65ea4147db20b69be9e4ea8cf3d80726996171859a025f14afab9441fda0e41b"
+      },
+      "fieldHashes": {
+        "w": "da57763bef8853070e7880d7feeefdd9189e6cdb4fd492b6fd45568c338407f1",
+        "m": "f6c27427b2f6a8803e4ca721a44a31de28dcb39505f808a14281b80c4fd1c896",
+        "t": "f1f477f5c20b39a75aad28fb6c138302009cb8c872cff7b02c90718db8853891",
+        "s": "a0cfe0fb7926242aaf342b96e951ad923453094bc0509bdded4bbba9b70f38a3",
+        "examples": "f56909a0a10c6ceed9b6ded32a40b5e653037dc0ff01d3e4982bfdaf1e82504e",
+        "usage": "248c97507ca98403a5d76435d4deb047108c2b3415bbd92628dfb63f61fb2660",
+        "exampleTranslations": "32850f400aeb2263394fbb2bdf18c7ac5d855d84c7ab510f973013bd4c6978bb"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "情報を正確に把握したうえで、慎重に判断する必要がある。",
+          "ukrainian": "Потрібно точно з’ясувати інформацію й лише тоді обережно ухвалювати рішення."
+        },
+        {
+          "japanese": "状況の変化に応じて、柔軟に判断を下すことが求められる。",
+          "ukrainian": "Потрібно гнучко ухвалювати рішення відповідно до змін ситуації."
+        }
+      ]
+    },
+    "304": {
+      "id": "304",
+      "group": "Рішення",
+      "reading": "はんてい",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Відеоперегляд і визначення придатності за критеріями. Українською суддя зараховує гол за результатом перегляду. Пара 73 узгоджується з поясненням.",
+      "proposed": "—",
+      "word": "判定",
+      "risk": "medium",
+      "hashes": {
+        "form": "ca6972125931c718609a919e4ab795c3633bb80ec8d8a1814cb2f9e4732c5dde",
+        "meaning": "d892645393b4cb9a5bfc7616c9043c81fa556fb8b026224fcc1bb868f653c631",
+        "examples": "3e7bfb5690792c77c8b5cea16e6d241cec26ddd306de7f77d1610337b72d4306",
+        "dependencies": "de5756da1c77c7b33cedcea65e7e6649e41ea8f2f671b0e49e53fea3189b4456",
+        "card": "21fcca3a28cb7a0ea090bd3f3d5935528310e062949eff66f18ccbf8d753d6bd"
+      },
+      "fieldHashes": {
+        "w": "b74531ab6a1b84561e67d45ae4739ecada5a884b9bda684304e729b9659509dd",
+        "m": "fef494e64a537bb959e30289b8bbfb7ca137e57b223bc31c97e0fe92f1132ceb",
+        "t": "a1088299042bdc7bfbbe66b644995bde97a92d0c89e05841609cb92cdec4e310",
+        "s": "b9d9a722ca700f7eabf2606e48070b66aad0bc87839550d1484169f8df7cbf7b",
+        "examples": "d1674258635542c4022b95a5b7bcfa6cefeaf499a9b31ddc8568fe3b4aa27368",
+        "usage": "5a8384611c4303a4d434ed9a81983117043855f9b0fa38b548ba86871d1599ec",
+        "exampleTranslations": "2e2817525a5008f4985c722f88a7a3cc29096f4446e0694f8112f62315cd1a3c"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "審判は、ビデオ判定の結果を受けて、ゴールを認めた。",
+          "ukrainian": "Після відеоперегляду суддя зарахував гол."
+        },
+        {
+          "japanese": "審査では、応募者の適性が公正な基準で判定された。",
+          "ukrainian": "Під час відбору придатність кандидатів визначали за справедливими критеріями."
+        }
+      ]
+    },
+    "320": {
+      "id": "320",
+      "group": "Рішення",
+      "reading": "ひょうか",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Перший контекст про високу оцінку, другий про систему оцінювання. Картка розрізняє позитивний відтінок і загальний процес.",
+      "proposed": "—",
+      "word": "評価",
+      "risk": "low",
+      "hashes": {
+        "form": "ab3ffd838f0657ba70a36abb8c0a37992d268de6bfc1821e4aa3303b7c18eeda",
+        "meaning": "e2242d3f9685a56f201eff6fda742480cefe49e3133c9afc88dd2b0efc195601",
+        "examples": "e3b5693447f061f0fff5090c4c69c4d1ee28761cd7d897b0b2d74f2a6cb664f9",
+        "dependencies": "c5c8e8203f5cf0e0e7b6a12470ee041d755a19f93511f86d8144d7720ba2add5",
+        "card": "b936215fad2d657274e51dfe9f5b9a98b72b6d69c459180bb08cc120491f79a7"
+      },
+      "fieldHashes": {
+        "w": "c81d7ea6eb348dad2e768fc6b3a2a3470e247c74d43dbdfffe5b9d33ada96293",
+        "m": "ce1a9ebab3aa03b5a99b4bb0b10c1def326176aea9b789932564ed721a8549f7",
+        "t": "da0315de43aa75d7ca0796f0fffa7cc5e813c018eac7b240c3027098915ea71e",
+        "s": "ae80d9901c7560b4f48a8ee003e8ce9ae77140f997d7de29ffe6cd6ec0f83f3a",
+        "examples": "c21b9a4e0afc5dc78c313c67ed5d5a705cf7fad90927bab1f6eaa4f32995d2ed",
+        "usage": "655642d6706820832595dad907a2645a387c7b788cceeeb07ddf55c4b72f5bdd",
+        "exampleTranslations": "0f98cfb534ac3ec3e98e26562ab4d22452b079af832c7729d1a97dd32dbcc414"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "彼の功績は、社内外で高く評価されている。",
+          "ukrainian": "Його заслуги високо оцінюють і в компанії, і за її межами."
+        },
+        {
+          "japanese": "公正な評価の仕組みが、社員の意欲を高める。",
+          "ukrainian": "Справедлива система оцінювання підвищує мотивацію працівників."
+        }
+      ]
+    },
+    "121": {
+      "id": "121",
+      "group": "Контроль",
+      "reading": "こうぎ",
+      "pos": "名詞",
+      "disposition": "edit",
+      "evidence": "Викладання економіки й онлайн-трансляція лекцій. Перший переклад загубив лекційний формат.",
+      "proposed": "Перший переклад: «Професор читає лекції з економіки в університеті».",
+      "word": "講義",
+      "risk": "medium",
+      "hashes": {
+        "form": "2289ca37a0d8acdf656880b9a2b9b214a0aa5bede2af98d96992c9cf10a1731b",
+        "meaning": "6ceaf9c55cbd8f93f77a0a8fa41f37269ed70915b630cfcd5bad448240600bf9",
+        "examples": "1b2d9451ca4b17fcf347865d5237405b31ed055ffbaa1541a5f9f37cf98efb12",
+        "dependencies": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "card": "7e01ada27f6926b0c6f10b0b4c4dde4dddfd9b8769f972d7a012ecd7c43b445f"
+      },
+      "fieldHashes": {
+        "w": "6c161d6e970f8c85a55e17f859d5e5e23e97870c924f4d54b289ae3930d0bb7b",
+        "m": "9f7d5d03e99142620b0452a2ca9c7a9877d41fb5b0286689c59e9dfd3435d880",
+        "t": "4c7261122b32f2ad5123e1cdd9c927d4ea196452634cadcacf53706badf1ef57",
+        "s": "4ace3642f08253d6de9356a90b78469ec08b02e1dff7762aa2eb5021aa3b3eff",
+        "examples": "9639f086e04a32daf62ef87ea145b6bb7146254141531e9313976dbedbb3eb69",
+        "usage": "5616f9668c2488669bdef6e59dcc1226fb049b22facaeba2affb0a71b59ccd1f",
+        "exampleTranslations": "9cb3d30b3b2b4d5154e9ac6dee985440e07bcea7048326c08cbedc30a0a3e6c7"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "教授は、大学で経済学を講義している。",
+          "ukrainian": "Професор викладає економіку в університеті."
+        },
+        {
+          "japanese": "オンラインで講義を配信する大学が増えている。",
+          "ukrainian": "Дедалі більше університетів транслюють лекції онлайн."
+        }
+      ]
+    },
+    "123": {
+      "id": "123",
+      "group": "Контроль",
+      "reading": "こうげん",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Прохолодний клімат плоскогір’я та курорт для відпочинку від спеки. 高地 й 台地 пояснено як ширші або інакше окреслені поняття.",
+      "proposed": "—",
+      "word": "高原",
+      "risk": "low",
+      "hashes": {
+        "form": "94dc69a79e0f63c4c8a020f5025e25f2274cdd85a4d3eb6086b4733de06a4cb8",
+        "meaning": "62feb615bdd87be42d896dd18664e74da3bdcb2b8da7339a74e8f33973e749f8",
+        "examples": "5b44c3a4937a85627e5c4d482d28ca6bcb786aac4730ccf5027e54271287b9be",
+        "dependencies": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "card": "2c21938ab0144df2375a9a300da985eef8925680b874634166b2fbf4455b4979"
+      },
+      "fieldHashes": {
+        "w": "1ccdf7473625a725da6f471d7fbb74d6c3c608ca4995ff4a1c1a64220119f9fc",
+        "m": "02fe5fadde7fde308f87664fb1c28fd822e714622c53d234bf3e667424eca127",
+        "t": "f53c6db00e232853be8729a7fb66c6c8afabc1d3feb0c7e9c10c6510656e5a6a",
+        "s": "3d779e057bf798ccd1f00ad3de527298d09faf5a333b266c1f39113291c9a37f",
+        "examples": "a4fc18314a7a06b680dfe8743468626ecf069b078fc1c5e51dd972c57687da60",
+        "usage": "b62e7e6249427544b112a48fa57f7af170b841933670d1e0ee14f318a5fdacad",
+        "exampleTranslations": "8d04beeca5cbffd32ad5ae01ff1b990e2a590c39d9874fc5c52325ffe5930eb8"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "高原の涼しい気候を利用して、夏場の野菜が栽培されている。",
+          "ukrainian": "Прохолодний клімат плоскогір’я використовують для вирощування овочів улітку."
+        },
+        {
+          "japanese": "高原のリゾート地には、避暑客が数多く訪れる。",
+          "ukrainian": "До курорту на плоскогір’ї приїздить багато людей, які прагнуть урятуватися від літньої спеки."
+        }
+      ]
+    },
+    "242": {
+      "id": "242",
+      "group": "Контроль",
+      "reading": "だいどころ",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Зручність фізичної кухні й переносний сімейний бюджет у 台所事情. Українські відповідники належно розведені.",
+      "proposed": "—",
+      "word": "台所",
+      "risk": "low",
+      "hashes": {
+        "form": "20517506ae89e7f0a43672400dc6fc5936f17ab95daf654d732c987839ed111b",
+        "meaning": "4e2c751bcb266468126c0e334a9648e3b7be5355cf992c28e2872eb630145bb9",
+        "examples": "2f8833f0491e791d80d6c99f2e61f3851740ac78e3e15b28299433c809e64f5a",
+        "dependencies": "94b92d1688e67df1bd800dff3142c2bddf6b03ade197ff8d28caab1638ef8ffc",
+        "card": "7d4dbd151eec7bcda0cd8cabe1a5b8d5cd293170d69430eaae001e3c0284bce8"
+      },
+      "fieldHashes": {
+        "w": "a38a950010e392d500887d48fb633af3cd9b898dd26e96f6494fa88e7661d756",
+        "m": "2926d78bb01a0363b4fd6a503f94825fafa8a3de336fb4fbf6ecef574c83156a",
+        "t": "e04690966cde0b231b5343d6edef4fdeae7c719ccfde4d2642854a9c82dbba01",
+        "s": "f836463da16cc3d0933638b68173435da4deb477b499f15f61e5d22fd8ad08d5",
+        "examples": "8a72bd206d78fb28620cde9c766a270bcda7fb482170bca676dae4d20e7f6d56",
+        "usage": "bf8dcf5cbd95d07e1c63e3b2dccb4c0787576779d35c82d6a2e151311ffb4dd4",
+        "exampleTranslations": "a4653975b049600abc8fb0f405f6fd13465d55a0ce1284cc6f15e7855368a3e9"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "台所の使いやすさは、住宅選びの重要な基準となる。",
+          "ukrainian": "Зручність кухні — важливий критерій вибору житла."
+        },
+        {
+          "japanese": "物価高騰の影響は、家庭の台所事情を直撃している。",
+          "ukrainian": "Різке зростання цін безпосередньо вдарило по сімейних фінансах."
+        }
+      ]
+    },
+    "300": {
+      "id": "300",
+      "group": "Контроль",
+      "reading": "はつねつ",
+      "pos": "名詞",
+      "disposition": "retain",
+      "evidence": "Пристрій виділяє тепло, в дитини підвищується температура. Визначення охоплює обидва випадки й не прирівнює кожне підвищення до високої температури.",
+      "proposed": "—",
+      "word": "発熱",
+      "risk": "low",
+      "hashes": {
+        "form": "712a7d344d8620c559191bc20c886137d2427776d9582ab584899dab74b8a950",
+        "meaning": "038ab75cfd5ad70ea23850fd63d20d8ab699d914d2e869f6f8f769c7f9001085",
+        "examples": "3d751a56aaec7fed7b1472015e3fb87e723db41445cb33964d54d379e89ade4a",
+        "dependencies": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "card": "3ff10b826ea68c03034f3d8e6c736ae0bb58c100d4637af4c6665f5a5a1e9075"
+      },
+      "fieldHashes": {
+        "w": "3cb45010d95e9775df30887a83e0549a26ca9db173b915c71cfe708a8e55089b",
+        "m": "c63e219dcc7d8550775b2acdf74b1a9494a17c0fb3846ad9f8b746066daf2eb8",
+        "t": "53199fc88c655a932ca55e41a3830f9692d6c9296f926606e1614ebc2dbfc0b7",
+        "s": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "examples": "cf71a407e2042e1cd91bc41030eb57aa3ec1848711318e4ebb7fa182bd8fb616",
+        "usage": "a80758a100706a1124fdbee3d36dcc697ec662d55537ec7c50cbb2d903fd3536",
+        "exampleTranslations": "065664b2345365f63322d67992dff2bc7df227fa0f220d5c7fadce55bd7851ff"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "この機器は、使用中に発熱する。",
+          "ukrainian": "Під час роботи пристрій виділяє тепло."
+        },
+        {
+          "japanese": "子供が突然発熱したため、急遽休暇を取った。",
+          "ukrainian": "Оскільки в дитини раптово піднялася температура, я терміново взяв відпустку."
+        }
+      ]
+    },
+    "230": {
+      "id": "230",
+      "group": "Контроль",
+      "reading": "せんじつ",
+      "pos": "名詞",
+      "disposition": "follow_up",
+      "evidence": "У двох прикладах недавня подяка й запит про раніше надісланий матеріал. Картка прямо вказує на той самий заголовок ID 3890.",
+      "proposed": "Звірити розподіл навчальних ролей з ID 3890 і маршрути вправ. Обидва ID лишаються чинними.",
+      "word": "先日",
+      "risk": "high",
+      "hashes": {
+        "form": "cd6cba173fcfe25a87da9db6d459c210e12f6a2c7a46e283caa026cfd8a65482",
+        "meaning": "09c8a1307a9e50ca9febd81175c288f84794db828f37cad7202d40896ab8c5f9",
+        "examples": "2270b59804483c8e4c79b07d70740ab0baeb32a37262ff2a4147c91bae0bb345",
+        "dependencies": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "card": "cfa255a23968cb204aff20f72db6570f9fa9957dff1228a3ac775d2970eb3d76"
+      },
+      "fieldHashes": {
+        "w": "56a4dc1ac1517e45e22cabb0715129cab21c8d657d5bfd3c3bcfd8ae669413e3",
+        "m": "60b2740afea44288a803fee0e0fd9a47399412737c2f5f08af2bb5a0ca185f42",
+        "t": "242fcd3926979ac0a9b4d4e83a65618a7faf1cd0b564a4f9e9ebb95e5e8ee277",
+        "s": "30d4b3d002365b61b32cfdd9cb3f39dd6f4b711ab7978c5485e9ea8f4a39b082",
+        "examples": "ae8d581cc91c9c777c5d253a85ae03bb9fd9a78a54b6e614b00b7ccbae5c8a71",
+        "usage": "6861ebe4d42ca838b3978adf423f9524d291deac96ec7317c439c901781d54fd",
+        "exampleTranslations": "365ec2dc2d46f69c854ab5bfd1f36483adfa599e2b06f2f2c5721b55226de120"
+      },
+      "reviewScope": [
+        "reading",
+        "pos",
+        "definition",
+        "meaning",
+        "usage",
+        "related labels",
+        "two Japanese examples",
+        "two Ukrainian translations"
+      ],
+      "examples": [
+        {
+          "japanese": "先日はお忙しい中、貴重なお時間をいただき、ありがとうございました。",
+          "ukrainian": "Дякуємо, що нещодавно ви приділили нам свій цінний час попри зайнятість."
+        },
+        {
+          "japanese": "先日お送りした資料について、ご確認いただけましたでしょうか。",
+          "ukrainian": "Чи мали ви змогу переглянути матеріали, які ми нещодавно надіслали?"
+        }
+      ]
+    }
+  }
+}
