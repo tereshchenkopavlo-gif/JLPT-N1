@@ -3970,29 +3970,29 @@ grammar,54,grammar:54,reviewed,"audit146/editorial-review.json:grammar:54; autho
 grammar,55,grammar:55,reviewed,"audit146/editorial-review.json:grammar:55; author linguistic review, not independent; provenance/physical excluded"
 grammar,56,grammar:56,reviewed,"audit146/editorial-review.json:grammar:56; author linguistic review, not independent; provenance/physical excluded"
 grammar,57,grammar:57,reviewed,"audit145/editorial-review.json:grammar:57; author linguistic review, not independent; provenance/physical excluded"
-grammar,58,grammar:58,pending,
-grammar,59,grammar:59,pending,
-grammar,60,grammar:60,pending,
-grammar,61,grammar:61,pending,
-grammar,62,grammar:62,pending,
-grammar,63,grammar:63,pending,
-grammar,64,grammar:64,pending,
-grammar,65,grammar:65,pending,
-grammar,66,grammar:66,pending,
-grammar,67,grammar:67,pending,
-grammar,68,grammar:68,pending,
-grammar,69,grammar:69,pending,
-grammar,70,grammar:70,pending,
-grammar,71,grammar:71,pending,
-grammar,72,grammar:72,pending,
-grammar,73,grammar:73,pending,
-grammar,74,grammar:74,pending,
-grammar,75,grammar:75,pending,
-grammar,76,grammar:76,pending,
-grammar,77,grammar:77,pending,
-grammar,78,grammar:78,pending,
-grammar,79,grammar:79,pending,
-grammar,80,grammar:80,pending,
+grammar,58,grammar:58,reviewed,"audit147/editorial-review.json:grammar:58; author linguistic review, not independent; provenance/physical excluded"
+grammar,59,grammar:59,reviewed,"audit147/editorial-review.json:grammar:59; author linguistic review, not independent; provenance/physical excluded"
+grammar,60,grammar:60,reviewed,"audit147/editorial-review.json:grammar:60; author linguistic review, not independent; provenance/physical excluded"
+grammar,61,grammar:61,reviewed,"audit147/editorial-review.json:grammar:61; author linguistic review, not independent; provenance/physical excluded"
+grammar,62,grammar:62,reviewed,"audit147/editorial-review.json:grammar:62; author linguistic review, not independent; provenance/physical excluded"
+grammar,63,grammar:63,reviewed,"audit147/editorial-review.json:grammar:63; author linguistic review, not independent; provenance/physical excluded"
+grammar,64,grammar:64,reviewed,"audit147/editorial-review.json:grammar:64; author linguistic review, not independent; provenance/physical excluded"
+grammar,65,grammar:65,reviewed,"audit147/editorial-review.json:grammar:65; author linguistic review, not independent; provenance/physical excluded"
+grammar,66,grammar:66,reviewed,"audit147/editorial-review.json:grammar:66; author linguistic review, not independent; provenance/physical excluded"
+grammar,67,grammar:67,reviewed,"audit147/editorial-review.json:grammar:67; author linguistic review, not independent; provenance/physical excluded"
+grammar,68,grammar:68,reviewed,"audit147/editorial-review.json:grammar:68; author linguistic review, not independent; provenance/physical excluded"
+grammar,69,grammar:69,reviewed,"audit147/editorial-review.json:grammar:69; author linguistic review, not independent; provenance/physical excluded"
+grammar,70,grammar:70,reviewed,"audit147/editorial-review.json:grammar:70; author linguistic review, not independent; provenance/physical excluded"
+grammar,71,grammar:71,reviewed,"audit147/editorial-review.json:grammar:71; author linguistic review, not independent; provenance/physical excluded"
+grammar,72,grammar:72,reviewed,"audit147/editorial-review.json:grammar:72; author linguistic review, not independent; provenance/physical excluded"
+grammar,73,grammar:73,reviewed,"audit147/editorial-review.json:grammar:73; author linguistic review, not independent; provenance/physical excluded"
+grammar,74,grammar:74,reviewed,"audit147/editorial-review.json:grammar:74; author linguistic review, not independent; provenance/physical excluded"
+grammar,75,grammar:75,reviewed,"audit147/editorial-review.json:grammar:75; author linguistic review, not independent; provenance/physical excluded"
+grammar,76,grammar:76,reviewed,"audit147/editorial-review.json:grammar:76; author linguistic review, not independent; provenance/physical excluded"
+grammar,77,grammar:77,reviewed,"audit147/editorial-review.json:grammar:77; author linguistic review, not independent; provenance/physical excluded"
+grammar,78,grammar:78,reviewed,"audit147/editorial-review.json:grammar:78; author linguistic review, not independent; provenance/physical excluded"
+grammar,79,grammar:79,reviewed,"audit147/editorial-review.json:grammar:79; author linguistic review, not independent; provenance/physical excluded"
+grammar,80,grammar:80,reviewed,"audit147/editorial-review.json:grammar:80; author linguistic review, not independent; provenance/physical excluded"
 grammar,81,grammar:81,pending,
 grammar,82,grammar:82,pending,
 grammar,83,grammar:83,pending,
@@ -4909,24 +4909,24 @@ grammar_pair,3,GRAMMAR_AUDITED_PAIRS[3],reviewed,"audit145/editorial-review.json
 grammar_pair,4,GRAMMAR_AUDITED_PAIRS[4],reviewed,"audit145/editorial-review.json:grammar_pair:4; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,5,GRAMMAR_AUDITED_PAIRS[5],reviewed,"audit146/editorial-review.json:grammar_pair:5; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,6,GRAMMAR_AUDITED_PAIRS[6],reviewed,"audit146/editorial-review.json:grammar_pair:6; author linguistic review, not independent; provenance/physical excluded"
-grammar_pair,7,GRAMMAR_AUDITED_PAIRS[7],pending,
+grammar_pair,7,GRAMMAR_AUDITED_PAIRS[7],reviewed,"audit147/editorial-review.json:grammar_pair:7; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,8,GRAMMAR_AUDITED_PAIRS[8],reviewed,"audit146/editorial-review.json:grammar_pair:8; author linguistic review, not independent; provenance/physical excluded"
-grammar_pair,9,GRAMMAR_AUDITED_PAIRS[9],pending,
-grammar_pair,10,GRAMMAR_AUDITED_PAIRS[10],pending,
-grammar_pair,11,GRAMMAR_AUDITED_PAIRS[11],pending,
-grammar_pair,12,GRAMMAR_AUDITED_PAIRS[12],pending,
-grammar_pair,13,GRAMMAR_AUDITED_PAIRS[13],pending,
+grammar_pair,9,GRAMMAR_AUDITED_PAIRS[9],reviewed,"audit147/editorial-review.json:grammar_pair:9; author linguistic review, not independent; provenance/physical excluded"
+grammar_pair,10,GRAMMAR_AUDITED_PAIRS[10],reviewed,"audit147/editorial-review.json:grammar_pair:10; author linguistic review, not independent; provenance/physical excluded"
+grammar_pair,11,GRAMMAR_AUDITED_PAIRS[11],reviewed,"audit147/editorial-review.json:grammar_pair:11; author linguistic review, not independent; provenance/physical excluded"
+grammar_pair,12,GRAMMAR_AUDITED_PAIRS[12],reviewed,"audit147/editorial-review.json:grammar_pair:12; author linguistic review, not independent; provenance/physical excluded"
+grammar_pair,13,GRAMMAR_AUDITED_PAIRS[13],reviewed,"audit147/editorial-review.json:grammar_pair:13; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,14,GRAMMAR_AUDITED_PAIRS[14],pending,
-grammar_pair,15,GRAMMAR_AUDITED_PAIRS[15],pending,
+grammar_pair,15,GRAMMAR_AUDITED_PAIRS[15],reviewed,"audit147/editorial-review.json:grammar_pair:15; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,16,GRAMMAR_AUDITED_PAIRS[16],pending,
 grammar_pair,17,GRAMMAR_AUDITED_PAIRS[17],pending,
 grammar_pair,18,GRAMMAR_AUDITED_PAIRS[18],pending,
 grammar_pair,19,GRAMMAR_AUDITED_PAIRS[19],reviewed,"audit145/editorial-review.json:grammar_pair:19; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,20,GRAMMAR_AUDITED_PAIRS[20],pending,
-grammar_pair,21,GRAMMAR_AUDITED_PAIRS[21],pending,
+grammar_pair,21,GRAMMAR_AUDITED_PAIRS[21],reviewed,"audit147/editorial-review.json:grammar_pair:21; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,22,GRAMMAR_AUDITED_PAIRS[22],reviewed,"audit145/editorial-review.json:grammar_pair:22; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,23,GRAMMAR_AUDITED_PAIRS[23],pending,
-grammar_pair,24,GRAMMAR_AUDITED_PAIRS[24],pending,
+grammar_pair,24,GRAMMAR_AUDITED_PAIRS[24],reviewed,"audit147/editorial-review.json:grammar_pair:24; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,25,GRAMMAR_AUDITED_PAIRS[25],reviewed,"audit145/editorial-review.json:grammar_pair:25; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,26,GRAMMAR_AUDITED_PAIRS[26],reviewed,"audit145/editorial-review.json:grammar_pair:26; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,27,GRAMMAR_AUDITED_PAIRS[27],pending,
@@ -4949,8 +4949,8 @@ grammar_pair,43,GRAMMAR_AUDITED_PAIRS[43],reviewed,"audit145/editorial-review.js
 grammar_pair,44,GRAMMAR_AUDITED_PAIRS[44],reviewed,"audit145/editorial-review.json:grammar_pair:44; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,45,GRAMMAR_AUDITED_PAIRS[45],reviewed,"audit145/editorial-review.json:grammar_pair:45; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,46,GRAMMAR_AUDITED_PAIRS[46],reviewed,"audit146/editorial-review.json:grammar_pair:46; author linguistic review, not independent; provenance/physical excluded"
-grammar_pair,47,GRAMMAR_AUDITED_PAIRS[47],pending,
-grammar_pair,48,GRAMMAR_AUDITED_PAIRS[48],pending,
+grammar_pair,47,GRAMMAR_AUDITED_PAIRS[47],reviewed,"audit147/editorial-review.json:grammar_pair:47; author linguistic review, not independent; provenance/physical excluded"
+grammar_pair,48,GRAMMAR_AUDITED_PAIRS[48],reviewed,"audit147/editorial-review.json:grammar_pair:48; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,49,GRAMMAR_AUDITED_PAIRS[49],reviewed,"audit145/editorial-review.json:grammar_pair:49; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,50,GRAMMAR_AUDITED_PAIRS[50],reviewed,"audit146/editorial-review.json:grammar_pair:50; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,51,GRAMMAR_AUDITED_PAIRS[51],reviewed,"audit145/editorial-review.json:grammar_pair:51; author linguistic review, not independent; provenance/physical excluded"
@@ -4958,10 +4958,10 @@ grammar_pair,52,GRAMMAR_AUDITED_PAIRS[52],reviewed,"audit145/editorial-review.js
 grammar_pair,53,GRAMMAR_AUDITED_PAIRS[53],reviewed,"audit145/editorial-review.json:grammar_pair:53; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,54,GRAMMAR_AUDITED_PAIRS[54],pending,
 grammar_pair,55,GRAMMAR_AUDITED_PAIRS[55],pending,
-grammar_pair,56,GRAMMAR_AUDITED_PAIRS[56],pending,
-grammar_pair,57,GRAMMAR_AUDITED_PAIRS[57],pending,
+grammar_pair,56,GRAMMAR_AUDITED_PAIRS[56],reviewed,"audit147/editorial-review.json:grammar_pair:56; author linguistic review, not independent; provenance/physical excluded"
+grammar_pair,57,GRAMMAR_AUDITED_PAIRS[57],reviewed,"audit147/editorial-review.json:grammar_pair:57; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,58,GRAMMAR_AUDITED_PAIRS[58],reviewed,"audit145/editorial-review.json:grammar_pair:58; author linguistic review, not independent; provenance/physical excluded"
-grammar_pair,59,GRAMMAR_AUDITED_PAIRS[59],pending,
+grammar_pair,59,GRAMMAR_AUDITED_PAIRS[59],reviewed,"audit147/editorial-review.json:grammar_pair:59; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,60,GRAMMAR_AUDITED_PAIRS[60],pending,
 grammar_pair,61,GRAMMAR_AUDITED_PAIRS[61],reviewed,"audit145/editorial-review.json:grammar_pair:61; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,62,GRAMMAR_AUDITED_PAIRS[62],reviewed,"audit146/editorial-review.json:grammar_pair:62; author linguistic review, not independent; provenance/physical excluded"
@@ -4978,12 +4978,12 @@ grammar_pair,72,GRAMMAR_AUDITED_PAIRS[72],reviewed,"audit146/editorial-review.js
 grammar_pair,73,GRAMMAR_AUDITED_PAIRS[73],reviewed,"audit145/editorial-review.json:grammar_pair:73; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,74,GRAMMAR_AUDITED_PAIRS[74],pending,
 grammar_pair,75,GRAMMAR_AUDITED_PAIRS[75],pending,
-grammar_pair,76,GRAMMAR_AUDITED_PAIRS[76],pending,
+grammar_pair,76,GRAMMAR_AUDITED_PAIRS[76],reviewed,"audit147/editorial-review.json:grammar_pair:76; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,77,GRAMMAR_AUDITED_PAIRS[77],reviewed,"audit145/editorial-review.json:grammar_pair:77; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,78,GRAMMAR_AUDITED_PAIRS[78],reviewed,"audit145/editorial-review.json:grammar_pair:78; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,79,GRAMMAR_AUDITED_PAIRS[79],reviewed,"audit145/editorial-review.json:grammar_pair:79; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,80,GRAMMAR_AUDITED_PAIRS[80],reviewed,"audit145/editorial-review.json:grammar_pair:80; author linguistic review, not independent; provenance/physical excluded"
-grammar_pair,81,GRAMMAR_AUDITED_PAIRS[81],pending,
+grammar_pair,81,GRAMMAR_AUDITED_PAIRS[81],reviewed,"audit147/editorial-review.json:grammar_pair:81; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,82,GRAMMAR_AUDITED_PAIRS[82],pending,
 grammar_pair,83,GRAMMAR_AUDITED_PAIRS[83],pending,
 grammar_pair,84,GRAMMAR_AUDITED_PAIRS[84],reviewed,"audit145/editorial-review.json:grammar_pair:84; author linguistic review, not independent; provenance/physical excluded"
@@ -4992,7 +4992,7 @@ grammar_pair,86,GRAMMAR_AUDITED_PAIRS[86],reviewed,"audit146/editorial-review.js
 grammar_pair,87,GRAMMAR_AUDITED_PAIRS[87],reviewed,"audit146/editorial-review.json:grammar_pair:87; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,88,GRAMMAR_AUDITED_PAIRS[88],reviewed,"audit145/editorial-review.json:grammar_pair:88; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,89,GRAMMAR_AUDITED_PAIRS[89],reviewed,"audit145/editorial-review.json:grammar_pair:89; author linguistic review, not independent; provenance/physical excluded"
-grammar_pair,90,GRAMMAR_AUDITED_PAIRS[90],pending,
+grammar_pair,90,GRAMMAR_AUDITED_PAIRS[90],reviewed,"audit147/editorial-review.json:grammar_pair:90; author linguistic review, not independent; provenance/physical excluded"
 grammar_pair,91,GRAMMAR_AUDITED_PAIRS[91],pending,
 antonym_pair,0,AUTO_ANTONYM_PAIRS[0],pending,
 antonym_pair,1,AUTO_ANTONYM_PAIRS[1],pending,
