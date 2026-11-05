@@ -1,0 +1,99 @@
+{
+  "sha256": "901ce33485bf5d42e928324c54f02d77661dc5d82456680693fb486e372e17d4",
+  "pass_": true,
+  "checks": [
+    {
+      "name": "Exact published v143 base",
+      "pass_": true
+    },
+    {
+      "name": "DEFAULT_VOCAB unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_POS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_HEADWORD_ALIASES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_READING_OPTIONS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "readingBank unchanged",
+      "pass_": true
+    },
+    {
+      "name": "All 332 previous JSON sets unchanged; exactly 49 added grammar keys",
+      "pass_": true
+    },
+    {
+      "name": "91 new exact context payloads /42 byExample; 124 reviewed examples",
+      "pass_": true
+    },
+    {
+      "name": "Every other HTML/JS/CSS/storage byte unchanged except version label",
+      "pass_": true
+    },
+    {
+      "name": "3914 words /130 grammar /160 texts /381 reading questions",
+      "pass_": true
+    },
+    {
+      "name": "Author evidence binds 62 cards /124 contexts, 91 new /33 retained; not independent",
+      "pass_": true
+    },
+    {
+      "name": "Exactly the remaining 62 cards with no old saved set",
+      "pass_": true
+    },
+    {
+      "name": "All 261 current grammar examples have exact or saved routing",
+      "pass_": true
+    },
+    {
+      "name": "All 439 previous tracked release/audit files and register preserved",
+      "pass_": true
+    },
+    {
+      "name": "Prior 325 credits /5517 pending /5842 rows unchanged",
+      "pass_": true
+    }
+  ],
+  "previousFilesChecked": 439
+}

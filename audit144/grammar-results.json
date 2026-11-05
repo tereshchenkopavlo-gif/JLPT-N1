@@ -1,0 +1,67 @@
+{
+  "sha256": "901ce33485bf5d42e928324c54f02d77661dc5d82456680693fb486e372e17d4",
+  "browser": "141.0.7390.37",
+  "pass": true,
+  "results": [
+    {
+      "id": 28,
+      "width": 360,
+      "pass": true
+    },
+    {
+      "id": 72,
+      "width": 360,
+      "pass": true
+    },
+    {
+      "id": 89,
+      "width": 360,
+      "pass": true
+    },
+    {
+      "id": 130,
+      "width": 360,
+      "pass": true
+    },
+    {
+      "id": 28,
+      "width": 412,
+      "pass": true
+    },
+    {
+      "id": 72,
+      "width": 412,
+      "pass": true
+    },
+    {
+      "id": 89,
+      "width": 412,
+      "pass": true
+    },
+    {
+      "id": 130,
+      "width": 412,
+      "pass": true
+    },
+    {
+      "id": 28,
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "id": 72,
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "id": 89,
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "id": 130,
+      "width": 1280,
+      "pass": true
+    }
+  ]
+}

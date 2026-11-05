@@ -1,0 +1,45 @@
+{
+  "version": 144,
+  "sha256": "901ce33485bf5d42e928324c54f02d77661dc5d82456680693fb486e372e17d4",
+  "subcriterion": "C11-G-current-example-meaning",
+  "status": "author_review_complete_for_current_examples",
+  "C11Overall": "in_progress",
+  "reviewType": "author_editorial_review",
+  "independentReview": false,
+  "grammarCards": 130,
+  "currentGrammarExamples": 261,
+  "currentSavedContexts": 224,
+  "currentExactContexts": 37,
+  "exactOrigins": {
+    "C04": 27,
+    "C05": 10
+  },
+  "automaticCurrentGrammarContexts": 0,
+  "newSetCards": 49,
+  "reviewedCardsThisVersion": 62,
+  "reviewedContextsThisVersion": 124,
+  "newPayloads": 91,
+  "retainedExactContextsThisVersion": 33,
+  "retainedExactOriginsThisVersion": {
+    "C04": 23,
+    "C05": 10
+  },
+  "g95Reread": 2,
+  "priorDiagnosticCasesResolved": 67,
+  "priorEvidence": "completion/C11-grammar-v143-result.json",
+  "catalog": "audit144/grammar-coverage.json",
+  "warning": "Author acceptance concerns meaning questions for exactly the current 261 examples. It does not accept all card fields, grammar senses, comparisons, external sentences or physical devices.",
+  "registerReviewed": 325,
+  "registerPending": 5517,
+  "newRegisterCredits": 0,
+  "newFullCardCredits": 0,
+  "generationCases": 3164,
+  "renderedCases": 2373,
+  "remainingC11": [
+    "Automatic vocabulary meaning contexts outside saved sets",
+    "Linguistic quality of reading alternative pools; alternative proposal for 1482 remains unimplemented",
+    "Semantic uniqueness of eligible cloze questions",
+    "Controlled handling of custom/unknown contexts"
+  ],
+  "sources": "audit144/sources.md"
+}
