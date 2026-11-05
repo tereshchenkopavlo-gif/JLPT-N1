@@ -1,0 +1,18 @@
+{
+  "version": 145,
+  "sha256": "80cc4a3d35ad2257b1b38afc1ad566066db0797409892b10697a84e35cf21d47",
+  "status": "not_cleared_for_public_product",
+  "base": "v144 / 901ce33485bf5d42e928324c54f02d77661dc5d82456680693fb486e372e17d4",
+  "newMaterial": "Original Ukrainian explanations for 34 existing grammar cards and structured notes for 37 existing pairs; 9 Japanese definitions clarified; 4 inherited Ukrainian example translations revised.",
+  "inherited": "All Japanese card examples, most pair Japanese examples and all quiz data retained; origin unresolved. Semantic editing/translation/reordering do not remove inherited rights uncertainty.",
+  "sources": "audit145/sources.md",
+  "review": "audit145/editorial-review.json",
+  "publicExposure": "Complete v145 and audit sources on main; unfinished work/v145-checkpoint / cee84426e91160a1e6b63fa5380624a6169b83d1. Existing HTML versions, reachable history/branches and historical Actions packages remain in separate rights audit.",
+  "historicalInventory": "review20261105/public-inventory.json remains a frozen v141 snapshot, not current counts.",
+  "newActionsArtifacts": false,
+  "oldActionsContentsVerified": false,
+  "visibilityChanged": false,
+  "historyRewritten": false,
+  "materialsDeleted": false,
+  "independentReview": false
+}
