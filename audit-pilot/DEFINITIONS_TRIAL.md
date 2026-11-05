@@ -25,3 +25,5 @@ node audit-pilot/follow-up.cjs /tmp/jlpt-v152-trial/trial-definitions.html --def
 ```
 
 SHA-256 пробного HTML — `cdffe83862d46babc991a45cd5f60719ca4d8fe927642cd6d3154f9b53b11bc8`.
+
+Пробні авторські набори для 展開 і 破壊 описано в [MEANING_TRIAL.md](MEANING_TRIAL.md).

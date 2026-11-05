@@ -6,6 +6,7 @@ const vm = require('node:vm');
 const baseline = path.resolve(__dirname, '../JLPT_N1_ukrainian_reading_v152.html');
 const html = fs.readFileSync(process.argv[2] || baseline, 'utf8');
 const extraPos = process.argv.includes('--extra-pos');
+const meaningTrial = process.argv.includes('--meaning');
 const definitionTrial = process.argv.includes('--definitions');
 
 function section(start, end) {
@@ -55,7 +56,25 @@ const reviewedDefinitions = ${definitionTrial} ? [
     }),
   };
 }) : [];
+const contextualQuestions = ${meaningTrial} ? ['264', '293'].flatMap(id => {
+  const word = ACTIVE_VOCAB.find(v => String(v.id) === id);
+  const item = {kind: 'v', id, word};
+  return VOCAB_DETAILS_BY_ID[id].examples.map((example, index) => {
+    let calls = 0;
+    Math.random = () => calls++ === 0 && index === 1 ? 0.99 : 0;
+    const passage = SmartEngine.generateOfflinePassage([item]).find(p => p.level === 'short');
+    return {
+      id,
+      example,
+      expected: REVIEWED_MEANING_QUIZZES['v_' + id].byExample[example],
+      question: passage.questions[0],
+      text: passage.text,
+      keys: passage.targetKeys,
+    };
+  });
+}) : [];
 JSON.stringify({
+  contextualQuestions,
   reviewedDefinitions,
   reading255: quizReadingOptions(directItem),
   clozePool255: clozeWordCandidates(directItem).length,
@@ -86,6 +105,18 @@ if (definitionTrial) {
       assert.equal(wrong.length, 3, row.id);
       assert.equal(new Set([correct, ...wrong]).size, 4, row.id);
     }
+  }
+}
+if (meaningTrial) {
+  assert.equal(result.contextualQuestions.length, 4);
+  for (const { id, example, expected, question, text, keys } of result.contextualQuestions) {
+    const word = id === '264' ? '展開' : '破壊';
+    assert(text.includes(example.replace(word, '<b>' + word + '</b>')), id);
+    assert.deepEqual(keys, ['v:' + id]);
+    assert.equal(question.choices[question.answer], expected.correct, id);
+    assert.deepEqual([...question.choices].sort(), [expected.correct, ...expected.wrong].sort(), id);
+    assert.equal(new Set(question.choices).size, 4, id);
+    assert(question.explain.includes(expected.note), id);
   }
 }
 console.log(JSON.stringify(result, null, 2));

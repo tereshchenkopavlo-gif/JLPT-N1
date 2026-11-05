@@ -25,6 +25,34 @@ DEFINITION_EDITS = {
 }
 
 
+MEANING_TRIAL = {
+    '264': {
+        '同社は、海外市場に向けて積極的に事業を展開している。': {
+            'correct': '海外市場に向けて事業を広げること。',
+            'wrong': ['海外事業の成果を評価すること。', '海外市場の動向を調査すること。', '海外事業の運営を他社に任せること。'],
+            'note': '事業を展開する — розгортати діяльність. Оцінювання, дослідження ринку й делегування можуть супроводжувати вихід на ринок, але позначають інші дії.',
+        },
+        '予想外の展開に、会場は騒然となった。': {
+            'correct': '物事が進む中で生じた成り行き。',
+            'wrong': ['物事を始めることになったきっかけ。', '物事を進めるために立てた計画。', '物事が終わった後に下した評価。'],
+            'note': 'Тут — «поворот подій». Ідеться про те, як пішли події, а привід, план і оцінка стосуються інших етапів.',
+        },
+    },
+    '293': {
+        '森林の破壊は、地球環境に深刻な影響を及ぼす。': {
+            'correct': '森林の成り立ちを大きく損なうこと。',
+            'wrong': ['森林に入れる区域を狭めること。', '森林で利用する樹種を選ぶこと。', '森林を守る制度を整えること。'],
+            'note': 'Тут 破壊 означає руйнування лісів. Обмеження доступу, добір видів і захист лісу описують інші дії.',
+        },
+        '古い慣習を破壊して、新しい仕組みを築く必要がある。': {
+            'correct': '古い慣習を根本から成り立たなくすること。',
+            'wrong': ['古い慣習の一部を手直しすること。', '古い慣習の由来を調べること。', '古い慣習を別の地域に広めること。'],
+            'note': 'Тут ідеться про докорінне руйнування старих звичаїв. Часткові виправлення, дослідження походження й поширення звичаїв такого змісту не мають。',
+        },
+    },
+}
+
+
 def replace_constant(html, name, value):
     start = re.search(r'\bconst ' + name + r'\s*=\s*', html).end()
     _, end = json.JSONDecoder().raw_decode(html, start)
@@ -64,11 +92,25 @@ def main():
         details[key]['m'] = definition
     definitions = replace_constant(changed, 'VOCAB_DETAILS_BY_ID', details)
     assert replace_constant(definitions, 'VOCAB_DETAILS_BY_ID', None) == replace_constant(html, 'VOCAB_DETAILS_BY_ID', None)
+    quizzes = constant(html, 'REVIEWED_MEANING_QUIZZES')
+    for key, examples in MEANING_TRIAL.items():
+        entry = 'v_' + key
+        assert entry not in quizzes
+        assert set(examples) == set(details[key]['examples'])
+        quizzes[entry] = {
+            'correct': details[key]['m'],
+            'wrong': ['物事の原因を明らかにすること。', '物事の価値を判断すること。', '物事の経緯を記録に残すこと。'],
+            'note': '',
+            'byExample': examples,
+        }
+    meaning = replace_constant(definitions, 'REVIEWED_MEANING_QUIZZES', quizzes)
+    assert replace_constant(meaning, 'REVIEWED_MEANING_QUIZZES', None) == replace_constant(definitions, 'REVIEWED_MEANING_QUIZZES', None)
     args.out.mkdir(parents=True, exist_ok=True)
     for name, content in [
         ('trial-230.html', changed),
         ('trial-230-255.html', experiment),
         ('trial-definitions.html', definitions),
+        ('trial-meaning.html', meaning),
     ]:
         output = args.out / name
         output.write_text(content, encoding='utf-8')
