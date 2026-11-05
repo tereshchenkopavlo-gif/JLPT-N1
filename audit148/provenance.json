@@ -1,0 +1,14 @@
+{
+  "version": 148,
+  "sha256": "eedf3b91ec0fe31ec6a51414b36b4fbbab229b9feb6065402088fc6ccd6af60e",
+  "base": "v147 / 35dc026700a64df05df04ea6303bcdf5524f94d7bdeb150685f5b2b0df8854f0",
+  "status": "not_cleared_for_public_product",
+  "newMaterial": "Original grammar explanations and pair notes, revised translations and normalized Japanese spelling in pair 66.",
+  "inheritedMaterial": "Japanese card examples and most comparison examples retained. Origin remains under review.",
+  "evidence": "audit148/editorial-review.json",
+  "sources": "audit148/sources.md",
+  "publicExposure": "v148 HTML and audit in main, work/v148-checkpoint, older HTML and reachable Git history. Historical Actions packages remain in scope.",
+  "historicalInventory": "review20261105/public-inventory.json is a frozen v141 snapshot.",
+  "newActionsArtifacts": false,
+  "independentReview": false
+}

@@ -1,0 +1,99 @@
+{
+  "sha256": "eedf3b91ec0fe31ec6a51414b36b4fbbab229b9feb6065402088fc6ccd6af60e",
+  "pass_": true,
+  "checks": [
+    {
+      "name": "Exact published v147 base",
+      "pass_": true
+    },
+    {
+      "name": "DEFAULT_VOCAB unchanged",
+      "pass_": true
+    },
+    {
+      "name": "GRAMMAR unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_DETAILS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_POS_BY_ID unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_HEADWORD_ALIASES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_KANA_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_EXAMPLE_TARGETS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_READING_OPTIONS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "VOCAB_AUDITED_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "AUTO_ANTONYM_PAIRS unchanged",
+      "pass_": true
+    },
+    {
+      "name": "readingBank unchanged",
+      "pass_": true
+    },
+    {
+      "name": "REVIEWED_MEANING_QUIZZES unchanged",
+      "pass_": true
+    },
+    {
+      "name": "Only explicitly authored 22 grammar cards and 12 pair notes changed",
+      "pass_": true
+    },
+    {
+      "name": "All Japanese card examples unchanged",
+      "pass_": true
+    },
+    {
+      "name": "Exactly eleven Ukrainian translations changed",
+      "pass_": true
+    },
+    {
+      "name": "All runtime, storage, CSS and other HTML bytes unchanged except version",
+      "pass_": true
+    },
+    {
+      "name": "3914 words /130 grammar /160 texts /381 reading questions",
+      "pass_": true
+    },
+    {
+      "name": "Field-specific author evidence, 22 cards and 12 pairs, not independent",
+      "pass_": true
+    },
+    {
+      "name": "All previous frozen tracked files unchanged",
+      "pass_": true
+    },
+    {
+      "name": "5842 register rows, keys/order preserved; all 477 previous credits unchanged",
+      "pass_": true
+    },
+    {
+      "name": "Register either pre-publication or exactly 34 new author credits",
+      "pass_": true
+    }
+  ],
+  "previousFilesChecked": 584,
+  "registerCounts": {
+    "pending": 5331,
+    "reviewed": 511
+  }
+}

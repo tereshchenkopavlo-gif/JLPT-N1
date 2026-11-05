@@ -1,0 +1,1218 @@
+{
+  "version": 148,
+  "sha256": "eedf3b91ec0fe31ec6a51414b36b4fbbab229b9feb6065402088fc6ccd6af60e",
+  "reviewType": "author_editorial_review",
+  "independentReview": false,
+  "grammarCards": 22,
+  "grammarExampleTranslationsRead": 44,
+  "grammarPairs": 12,
+  "changedUkrainianExampleTranslations": 11,
+  "newQuizCredits": 0,
+  "newRegisterCredits": 34,
+  "exclusions": [
+    "independent expert acceptance",
+    "physical-device acceptance",
+    "source/page/provenance clearance",
+    "new exhaustive taxonomy or JLPT level assignment",
+    "all other unreviewed cards and pairs"
+  ],
+  "rows": [
+    {
+      "kind": "grammar",
+      "key": "81",
+      "word": "〜にかたくない",
+      "beforeSha256": "ad43e672675f699509c3da9ffa2251a75814ad0f39b2a3956ebcf4e669862c9d",
+      "afterSha256": "8080fd5d85f1358256bab9f90648339265214eac217d4e5a7164546c8b39f7e9",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "想像 і 推察 оцінюють легкість висновку. У другому прикладі だろう зберігає припущення.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "急激な円安が輸入企業の経営を圧迫することは、想像にかたくない。",
+          "ukrainian": "Неважко уявити, що різке ослаблення єни ускладнює роботу компаній-імпортерів.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "前例のない事態に現場が混乱したであろうことは、推察にかたくない。",
+          "ukrainian": "Неважко припустити, що безпрецедентна ситуація спричинила розгубленість на місцях.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "82",
+      "word": "〜に越したことはない",
+      "beforeSha256": "38830223ed31597e08f8314ba19aa388c4da9a0061db43fffb13037b03d0ba83",
+      "afterSha256": "fc9834796501966fe709f0b5573f76bd2c994b43e047c3f3e32d36cd671a0f40",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Запас харчів і перевірка договору подані як бажані заходи. Словникова звірка підтверджує перевагу варіанта.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "災害に備えて、食料や水を備蓄しておくに越したことはない。",
+          "ukrainian": "Найкраще завчасно запасти харчі й воду на випадок стихійного лиха.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "契約書は、署名する前に専門家に確認してもらうに越したことはない。",
+          "ukrainian": "Найкраще перед підписанням договору дати його перевірити фахівцеві.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "83",
+      "word": "〜までもない",
+      "beforeSha256": "774c346aad027d3119f1795da6cba5fb7208656b4b56e7859b5f799282e9a9e9",
+      "afterSha256": "6912f165fd92918814acf497e44c2022699872f7cf51518cd87d78431022f033",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Повторна перевірка й повторне пояснення зайві в конкретних умовах. Форма оцінює потребу в дії.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "この程度の誤差であれば、再検査を行うまでもない。",
+          "ukrainian": "За такої незначної похибки повторна перевірка зайва.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "この提案の利点は明らかで、改めて説明するまでもない。",
+          "ukrainian": "Переваги цієї пропозиції очевидні, тож пояснювати їх повторно немає потреби.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "84",
+      "word": "～てかなわない",
+      "beforeSha256": "8bc7c9af62e7af721b4b26923107395d09fb30fc2e54006dc71c0903ae355c02",
+      "afterSha256": "441b3cf9ab083f5777165082a20a1647d8d1bfce8bc72504cd6268e61b0fd21e",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Шум і гнітюче відчуття викликають суб’єктивне нарікання. Написання 叶わない має інше значення.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "隣の工事の騒音が朝から続いて、うるさくてかなわない。",
+          "ukrainian": "Сусіднє будівництво шумить із самого ранку — нестерпно гамірно.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "毎日のように同じ苦情を聞かされて、気が重くてかなわない。",
+          "ukrainian": "Майже щодня доводиться слухати ті самі скарги, і це нестерпно гнітить.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "86",
+      "word": "〜にあたらない",
+      "beforeSha256": "3016598c9a23b5ca3c42ddd848724258e3c386e8d60b9e6ae0a0083e1dbca311",
+      "afterSha256": "01715668330ed5831bc4e7176ae8fd4bb3f272e0992930294948e383e759b9d5",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Виправлено дефініцію, щоб охопити підстави для докору й подиву. Обидві форми з は і без нього представлені.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "事情を考えれば、数分の遅刻を責めるにはあたらない。",
+          "ukrainian": "Якщо врахувати обставини, немає підстав дорікати за кілька хвилин запізнення.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "この程度の数値の差は、驚くにあたらない。",
+          "ukrainian": "Така незначна різниця в цифрах не дає підстав дивуватися.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "87",
+      "word": "〜ないまでも",
+      "beforeSha256": "9549cd27c53d7ffa2383f016baeb9a8ad688f924cd78a6270e28184b04c8d451",
+      "afterSha256": "50dc41e372ad2ecd82ca1ecfcc6b55d21c52cb7584315b93a599b90ecb959ae0",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Вища планка поступається нижчій. Гарантія якості й виплата частинами мають різну модальність присудка.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "完璧とは言わないまでも、最低限の品質は保証してほしい。",
+          "ukrainian": "Не вимагаю досконалості, але хочу, щоб хоча б мінімальну якість гарантували.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "全額返済できないまでも、誠意を示して分割での返済に応じるべきだ。",
+          "ukrainian": "Навіть якщо неможливо повернути всю суму, слід проявити добросовісність і погодитися на погашення частинами.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "88",
+      "word": "〜ないでもない",
+      "beforeSha256": "3439987950de7c8e34455ea533b12c1f08d53d4308ef3846e007dd51b098af77",
+      "afterSha256": "1cd8cd5bb0d053ab1b1bb11ab4e3916e66b1039f9a95e5c46373988a586c3431",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Перше речення припускає готовність, друге визнає певну слушність. Подвійне заперечення лишає згоду обережною.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "条件しだいでは、この提案を受け入れないでもない。",
+          "ukrainian": "Залежно від умов я, можливо, й прийму цю пропозицію.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "彼の主張にも一理あると考えないでもない。",
+          "ukrainian": "Я не відкидаю думки, що в його твердженні є певний сенс.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "89",
+      "word": "〜ずじまい",
+      "beforeSha256": "ef0adc8f627ac6cca48c2bde949ae627a394a8d0fff67e9b7aab37267c63b3fc",
+      "afterSha256": "802852b5acff3e653716dde21fb8b8301a365d33f31a2d46a4b3f710ff70859d",
+      "changedFields": [
+        "m",
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Відсутня дія може належати й іншій стороні. У другому прикладі так і не надійшла відповідь.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "忙しさにかまけて、恩師にお礼を言わずじまいになってしまった。",
+          "ukrainian": "Поглинутий справами, я так і не подякував своєму наставникові.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "再三の督促にもかかわらず、返信は来ずじまいだった。",
+          "ukrainian": "Попри неодноразові нагадування, відповідь так і не надійшла.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "90",
+      "word": "～ないでは（ずには）おかない",
+      "beforeSha256": "b54ea7de517871d4da7676c32f01bfb218eb1374ab3f8866677fdc57286ef14e",
+      "afterSha256": "9a202157e6decf3374d2b3ad4f1735407fd801983fd266895531c65bc5b8ab7f",
+      "changedFields": [
+        "m",
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Зворушення і неприязнь є реакціями на зовнішній вплив. Переклад першого речення зберігає прогноз だろう.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "この映画の結末は、見る人を感動させずにはおかないだろう。",
+          "ukrainian": "Гадаю, кінцівка цього фільму неодмінно зворушить глядачів.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "彼の冷淡な態度は、周囲の反感を買わずにはおかなかった。",
+          "ukrainian": "Його холодне ставлення неминуче викликало неприязнь оточення.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "91",
+      "word": "〜ないでは（ずには）すまない",
+      "beforeSha256": "4675e24f9bbb61367408a8ad1f9d1a61c6fb835078ccb95b6a0e0f6a34769b7a",
+      "afterSha256": "7a73a3523237bda97b9bddf23afb7252a1edbbaa0518559049a9ca68c4954baa",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Відповідальність і вибачення мають владнати наслідки ситуації. Необхідність не підтверджує виконання.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "これだけの不祥事を起こした以上、経営陣は責任を取らずにはすまない。",
+          "ukrainian": "Після такого серйозного скандалу керівництву доведеться взяти на себе відповідальність.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "約束を破った以上、相手に謝罪しないでは済まない。",
+          "ukrainian": "Раз порушив обіцянку, без вибачення перед іншою стороною не обійтися.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "92",
+      "word": "〜ないものか",
+      "beforeSha256": "dedc568ee5a4175dcd8b20942735aa99f3f5e06443142fc349329cd117100ad7",
+      "afterSha256": "235526eaf4183bd9ca4d6715e116cefc8cbbdd3147f4ef19def879d15dda4197",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Обидва питання шукають спосіб розв’язання проблеми. Закінчення ものだろうか пом’якшує запит.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "人手不足を何とか解消できないものかと、現場では知恵を絞っている。",
+          "ukrainian": "На місцях ламають голову над тим, чи не можна якось подолати брак працівників.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "この問題を、もう少し穏便に収められないものだろうか。",
+          "ukrainian": "Невже не можна розв’язати цю проблему трохи мирніше?",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "93",
+      "word": "〜んばかり",
+      "beforeSha256": "3047cd03995bbc9c83dc41e7453b28327da18adfbe858142f20116dcce4368ae",
+      "afterSha256": "5b4ef3baad2f79a2f70fd7abc76b312acfc57ff54c13cb0eaff9571a1e527ad9",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "У першому прикладі вигляд нагадує людину перед плачем. У другому розкол зали є перебільшенням гучності.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "担当者は、今にも泣き出さんばかりの表情で謝罪を繰り返した。",
+          "ukrainian": "Відповідальний працівник знову й знову вибачався з таким виглядом, наче ось-ось розплачеться.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "会場は、割れんばかりの拍手に包まれた。",
+          "ukrainian": "Залу заповнили такі гучні оплески, що вона, здавалося, ось-ось розколеться.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "94",
+      "word": "〜なりに",
+      "beforeSha256": "b0b7acc770a6c6a2078d9c4e5c2728143252b16fbf661744fbe31292f4437d09",
+      "afterSha256": "89320399c3668263ead7fb765c6d5a4e3c5c416df5423845ce117c76cf7b46f1",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "なりに описує спосіб або міру, なりの означує погляд. Нижчий рівень не є обов’язковим.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "彼は彼なりに責任を感じ、再発防止に取り組んでいる。",
+          "ukrainian": "Він по-своєму відчуває відповідальність і працює над тим, щоб це не повторилося.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "新人には新人なりの視点があり、それが組織を活性化させることもある。",
+          "ukrainian": "Новачки мають власний погляд, і це іноді пожвавлює роботу організації.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "95",
+      "word": "～にあって",
+      "beforeSha256": "b973fda697dd043d6cb340a146c91d7426b2776f12882f6d4ce8c2d4c9cd784e",
+      "afterSha256": "6a47e2c123a14309ab17c100ae7516b38ee40decaddcfac00406c19462c579e7",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Криза та економічне середовище задають тло. У парі 67 поступку окремо виражає も.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "危機的な状況にあって、冷静な判断を下せる指導者は貴重だ。",
+          "ukrainian": "У кризовій ситуації особливо цінний керівник, здатний ухвалювати холоднокровні рішення.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "厳しい経済環境にあって、同社は過去最高益を記録した。",
+          "ukrainian": "За складних економічних умов компанія отримала рекордний прибуток.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "96",
+      "word": "〜にして",
+      "beforeSha256": "bb0fd2dd98945d9fd65e30e1266ae82c72753a20892e58523829f77485a6791d",
+      "afterSha256": "8c11795cc62487d2c6b5ab110d625d36e4f0736d6b2796727ab9fbfa18c3563f",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Вік і дві ролі є окремими моделями. У перекладі відновлено активний заклик до реформи.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "三度の失敗を経て、彼は四十歳にしてようやく自分の進むべき道を見つけた。",
+          "ukrainian": "Після трьох невдач він лише в сорок років нарешті знайшов свій шлях.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "彼はこの会社の創業者にして、経営改革を最も強く訴える人物でもある。",
+          "ukrainian": "Він заснував цю компанію й водночас найактивніше закликає реформувати її управління.",
+          "decision": "translation_corrected"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "97",
+      "word": "～のごとく",
+      "beforeSha256": "b9a1165f55d6a353a5a9487f5438fe304cfbb032fb54211045b86b342faf5480",
+      "afterSha256": "466fdefc8080e6f46fa64e9504453808f70cbb07bbd7265c2ff94226f3c640c3",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "奔流 є образом перебігу змін, а かのごとく описує поведінку так, ніби нічого не сталося.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "時代は、奔流のごとく変化を遂げつつある。",
+          "ukrainian": "Зміни цієї доби несуться, мов бурхливий потік.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "彼は何事もなかったかのごとく、平然と会議を続けた。",
+          "ukrainian": "Він спокійно продовжив нараду, наче нічого не сталося.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "98",
+      "word": "〜てしかるべき",
+      "beforeSha256": "e5b1a120faaa64179df6da72eb966eef8eaecf22de83803da1d8ba7ab9fc78e6",
+      "afterSha256": "347f7832c84bc266545c12b133311eedc9db68c613156fc7cf2c9cc4ee4d8dbc",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Підвищення і перевірка оцінені як належні. У першому реченні підвищення ще не підтверджене.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "これほどの成果を上げた以上、彼は昇進してしかるべきだ。",
+          "ukrainian": "За такі результати він цілком заслуговує на підвищення.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "安全性に疑問がある製品は、厳しく検査されてしかるべきだ。",
+          "ukrainian": "Продукція, безпечність якої викликає сумніви, має проходити сувору перевірку.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "99",
+      "word": "〜たる",
+      "beforeSha256": "7cea1527839cd9352f22d0b394dea5743b32538303a0ab8a669612cb02e8ff8f",
+      "afterSha256": "03a2bdf265cc6a91d8fed688392139cb11ad4e90e0853eeb815eb3cd499658f5",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "たる者 називає носія ролі. Вимога самодисципліни та відповідальності стоїть у присудку.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "教育者たる者は、常に自らを律する姿勢を持たねばならない。",
+          "ukrainian": "Педагог має завжди дбати про самодисципліну.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "経営者たる者、社員の生活に対して責任を負うべきだ。",
+          "ukrainian": "Той, хто керує підприємством, має нести відповідальність за добробут працівників.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "100",
+      "word": "〜にしたところで",
+      "beforeSha256": "db34c005c39f24c94d724806985285ae0acfccebbdb0ee15075c0263bbc26be2",
+      "afterSha256": "edb5591979cc8eb04c7a70e658c50c3c3cde1f3759a608ba54b18ba4b06be8c1",
+      "changedFields": [
+        "m",
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Керівництво і фахівці подані як можливі винятки, до яких теж застосовується оцінка.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "経営陣にしたところで、今回の事態を予測できたわけではない。",
+          "ukrainian": "Навіть керівництво не змогло передбачити, що станеться саме так.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "専門家にしたところで、将来の景気を正確に予測するのは難しい。",
+          "ukrainian": "Навіть фахівцям важко точно передбачити майбутній стан економіки.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "101",
+      "word": "〜ともなると",
+      "beforeSha256": "dc28998767afa94f242a6c3f9c570d40e44b76b960aaa068386d2a1fac9f3e32",
+      "afterSha256": "39efaedf95f41434cc15f743d527db3851842be445c67bed9ea6e46a041a885c",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Посада і вихід на ринки задають масштаб вимог. У другому прикладі йдеться про реагування на правові вимоги.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "社長ともなると、私生活でも言動に細心の注意が求められる。",
+          "ukrainian": "Коли вже стаєш президентом компанії, навіть у приватному житті треба дуже уважно стежити за словами й учинками.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "海外進出ともなれば、法規制への対応も複雑になる。",
+          "ukrainian": "Коли йдеться про вихід на закордонні ринки, враховувати правові вимоги стає складніше.",
+          "decision": "translation_corrected"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "102",
+      "word": "〜のをいいことに",
+      "beforeSha256": "7d415e9e849f2fc9f74ba81804060dc2d6304a61a132ec36660cdce2772b4811",
+      "afterSha256": "02212c58291912d5e85faec1a975462e42dc71c7b134017fa4cac876e22a3fd6",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Безсилля підлеглих і брак нагляду є вигідними обставинами. 理不尽 передано як несправедливість вимог.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "部下が反論できないのをいいことに、上司は理不尽な要求を繰り返した。",
+          "ukrainian": "Користуючись тим, що підлеглі не можуть заперечити, начальник знову й знову висував несправедливі вимоги.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "監視の目が届かないのをいいことに、一部の業者が不正を働いた。",
+          "ukrainian": "Користуючись відсутністю нагляду, деякі підприємці вчиняли порушення.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "103",
+      "word": "〜にたる",
+      "beforeSha256": "d10570f21e0bd820bb949b1949b14f589a0c721aa1121a0def5dad215b7bc9ba",
+      "afterSha256": "cc584a4674d215e3cb0dbe4b09405096637125015e8b6a375d6087009b8d3892",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Висока оцінка й довіра є критеріями. Форма може стояти перед іменником або бути присудком.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "これは、国際的にも高く評価されるにたる成果だ。",
+          "ukrainian": "Це результат, гідний високої оцінки й на міжнародному рівні.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "信頼するにたる人物かどうか、慎重に見極める必要がある。",
+          "ukrainian": "Потрібно ретельно з’ясувати, чи ця людина заслуговує на довіру.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    }
+  ],
+  "pairs": [
+    {
+      "kind": "grammar_pair",
+      "key": "14",
+      "index": 14,
+      "labels": [
+        "〜までもない",
+        "〜にあたらない"
+      ],
+      "beforeSha256": "cf9470fa104aaba4c6762b384d2435427e3fede622d1b5e0c65dfd860e57bb9b",
+      "afterSha256": "e701f3101fc57f8f43150a17d5939d040a2376dbd5fa70b3e68ef02172982956",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми можуть відхиляти дію чи реакцію як зайву.",
+      "connection": "V辞書形＋までもない／V辞書形＋に（は）あたらない",
+      "difference": "までもない оцінює потребу заходити так далеко. にあたらない оцінює підставу для конкретної реакції.",
+      "examples": [
+        {
+          "japanese": "この漢字の意味は説明するまでもない。",
+          "ukrainian": "Значення цього кандзі навіть пояснювати не треба."
+        },
+        {
+          "japanese": "失敗したからといって、彼を責めるにはあたらない。",
+          "ukrainian": "Сама невдача ще не дає підстав йому дорікати."
+        }
+      ],
+      "substitution": "Для пояснення очевидного природніше までもない. З дієсловом реакції можливе зближення зі зміною акценту.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "18",
+      "index": 18,
+      "labels": [
+        "〜ないでは（ずには）すまない",
+        "～ないでは（ずには）おかない"
+      ],
+      "beforeSha256": "8be3b75e73d2c56bda9b8933b0bfac7b5f4424e5c10edbb47bb58dd1af16cf43",
+      "afterSha256": "698dbbeaeed3b9a606c8f6b306911508d3237a6b64e7d52a445da219f21efb8f",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми подають дію або реакцію як неминучу.",
+      "connection": "Vない＋ではすまない・ではおかない／V未然形＋ずにはすまない・ずにはおかない",
+      "difference": "すまない виражає дію, потрібну, щоб владнати справу. おかない передає сильний вплив або рішучість діяти.",
+      "examples": [
+        {
+          "japanese": "迷惑をかけた以上、謝らずにはすまない。",
+          "ukrainian": "Раз уже завдав клопоту, доведеться вибачитися."
+        },
+        {
+          "japanese": "あの映画は観客を感動させずにはおかない。",
+          "ukrainian": "Той фільм неодмінно зворушить глядачів."
+        }
+      ],
+      "substitution": "Якщо замінити すまない на おかない в прикладі з вибаченням, необхідність владнати справу поступиться акценту на рішучості.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "23",
+      "index": 23,
+      "labels": [
+        "〜ないまでも",
+        "〜までもない"
+      ],
+      "beforeSha256": "7c31b9279d153babe922596d6fb66b33e00d9c29a71b9c9e1ce8c3e3cface14f",
+      "afterSha256": "159213bac4644995f37b6fed5a686ec27ce759105d03db1362b215171bf9f0b9",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми містять まで, але ставлять заперечення в різні частини конструкції.",
+      "connection": "Vない＋までも／V辞書形＋までもない",
+      "difference": "ないまでも допускає, що вищої планки не досягнуто, і переходить до іншого очікування. までもない відкидає потребу в дії.",
+      "examples": [
+        {
+          "japanese": "優勝できないまでも、決勝には進みたい。",
+          "ukrainian": "Навіть якщо не вдасться перемогти, хотілося б вийти до фіналу."
+        },
+        {
+          "japanese": "説明するまでもない。",
+          "ukrainian": "Пояснювати навіть немає потреби."
+        }
+      ],
+      "substitution": "Заміна змінює поступку на оцінку потреби. Перевірте, чи ない стоїть перед までも або після нього.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "29",
+      "index": 29,
+      "labels": [
+        "〜に越したことはない",
+        "〜てしかるべき"
+      ],
+      "beforeSha256": "a1e5e2736861deaac44d9e8e119c1655bf0b465040adbcfa0f3d0c71ee5d4c81",
+      "afterSha256": "f17945f03698bdbf2855e07d14b11d9f97d8809abc864aac237511c9461d7622",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми оцінюють бажаність дії.",
+      "connection": "V普通形＋に越したことはない／Vて＋しかるべきだ",
+      "difference": "に越したことはない виділяє найкращий варіант. てしかるべき оцінює дію як належну чи закономірно очікувану.",
+      "examples": [
+        {
+          "japanese": "早く出発するに越したことはない。",
+          "ukrainian": "Найкраще вирушити раніше."
+        },
+        {
+          "japanese": "責任者は説明してしかるべきだ。",
+          "ukrainian": "Відповідальна особа має надати пояснення."
+        }
+      ],
+      "substitution": "Заміна змінює рекомендацію на вимогу належної поведінки або послаблює таку вимогу.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "41",
+      "index": 41,
+      "labels": [
+        "〜にして",
+        "〜たる"
+      ],
+      "beforeSha256": "333c31df2f9f9efbc4b23e614275da93dd5306582a7382ca1386edbf673f4ae0",
+      "afterSha256": "fbbd644a3680ffb500876d42cc666b02c527c60bef2fb6237965569906dc4fbe",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми можуть називати роль або статус.",
+      "connection": "N＋にして＋N／N＋たる＋N",
+      "difference": "にして в цьому вживанні поєднує дві ролі. たる означує носія статусу, а продовження може встановлювати його обов’язки.",
+      "examples": [
+        {
+          "japanese": "彼は研究者にして経営者でもある。",
+          "ukrainian": "Він водночас дослідник і керівник підприємства."
+        },
+        {
+          "japanese": "指導者たる者、責任を負うべきだ。",
+          "ukrainian": "Той, хто керує, має нести відповідальність."
+        }
+      ],
+      "substitution": "Для переходу від двох ролей до норми поведінки потрібно перебудувати речення.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "54",
+      "index": 54,
+      "labels": [
+        "〜ないでもない",
+        "〜ないものか"
+      ],
+      "beforeSha256": "98169263e4aebae3369e2385f37347b9c0cb10162af43ea1c774310c65fe2097",
+      "afterSha256": "c5afd1c361f86be5065d97b80d44586455b9928ddb8a9d35718e1937a66eb91b",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми містять заперечну форму дієслова.",
+      "connection": "Vない＋でもない／Vない＋ものか",
+      "difference": "ないでもない обережно визнає можливість. ないものか виражає пошук способу досягти бажаного.",
+      "examples": [
+        {
+          "japanese": "条件次第では協力できないでもない。",
+          "ukrainian": "Залежно від умов я, можливо, і зможу допомогти."
+        },
+        {
+          "japanese": "何とか時間を短縮できないものか。",
+          "ukrainian": "Чи не можна якось скоротити час?"
+        }
+      ],
+      "substitution": "Заміна перетворила б обережне твердження на питання з побажанням або навпаки.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "55",
+      "index": 55,
+      "labels": [
+        "〜んばかり",
+        "～のごとく"
+      ],
+      "beforeSha256": "ad3157822a392965639e0caa6fc4beb30051cca5e0fa360727b4c112e2b4140c",
+      "afterSha256": "f13d01b5e419caac2c831883f835a6684913626707609568758271b87dafe82e",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми створюють образ через уподібнення.",
+      "connection": "V未然形＋んばかり（に／の）／N＋のごとく・普通形＋かのごとく",
+      "difference": "んばかり показує враження майже здійсненої дії або перебільшений ступінь. のごとく та かのごとく книжно уподібнюють до образу чи ситуації.",
+      "examples": [
+        {
+          "japanese": "彼は泣かんばかりの顔で謝った。",
+          "ukrainian": "Він вибачався з таким виглядом, наче ось-ось заплаче."
+        },
+        {
+          "japanese": "彼は風のごとく走り去った。",
+          "ukrainian": "Він промчав, мов вітер."
+        }
+      ],
+      "substitution": "Щоб передати готовність заплакати через ごとく, потрібен окремий опис стану. У прикладі з вітром ідеться про спосіб руху.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "60",
+      "index": 60,
+      "labels": [
+        "〜のをいいことに",
+        "～にかこつけて"
+      ],
+      "beforeSha256": "adec8c323e1ffb7b2ea45e25f36d64d52c8b7a0a17195d8ba7ff753da19c6a04",
+      "afterSha256": "92799680b208f9e3298dce03175271b0ae3650992020187c871cf3a16d695238",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми показують, як обставина служить іншій дії.",
+      "connection": "節＋のをいいことに／N＋にかこつけて",
+      "difference": "のをいいことに виділяє вигідні обставини, якими користуються. にかこつけて називає справу, що слугує приводом для іншої мети.",
+      "examples": [
+        {
+          "japanese": "親が留守なのをいいことに、夜更かしした。",
+          "ukrainian": "Скориставшись відсутністю батьків, я засидівся допізна."
+        },
+        {
+          "japanese": "出張にかこつけて観光もした。",
+          "ukrainian": "Скористався відрядженням як приводом ще й оглянути пам’ятки."
+        }
+      ],
+      "substitution": "Заміна змінює роль попереднього компонента. Відрядження може бути справжнім, навіть якщо ним виправдовують іншу дію.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "66",
+      "index": 66,
+      "labels": [
+        "〜にたる",
+        "〜にあたらない"
+      ],
+      "beforeSha256": "afb49e8e14e4689c0fc1112299f944e66766baf7108c17f682346e5eb5402b80",
+      "afterSha256": "f385234b4a469f1d8a59629ca87942b3037bd2f465be109722c406f21f058abd",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми оцінюють підставу для реакції або оцінки.",
+      "connection": "N・V辞書形＋に足る／V辞書形＋に（は）あたらない",
+      "difference": "に足る стверджує відповідність критерію. にあたらない відхиляє певну реакцію як необґрунтовану.",
+      "examples": [
+        {
+          "japanese": "彼の行動は称賛に足る。",
+          "ukrainian": "Його вчинок заслуговує на похвалу."
+        },
+        {
+          "japanese": "一度の失敗で悲観するにはあたらない。",
+          "ukrainian": "Через одну невдачу немає підстав впадати у відчай."
+        }
+      ],
+      "substitution": "Заперечення достатньої підстави можливе через に足りない за відповідної сполучуваності. にあたらない має власні типові контексти реакції.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "67",
+      "index": 67,
+      "labels": [
+        "〜ともなると",
+        "～にあって"
+      ],
+      "beforeSha256": "afbf6a3db70db6961e1cd14825b7d82198f9f60925d50d84b04b02b035249ea4",
+      "afterSha256": "fe94341b20fc1ccad781527b9a10a12a6d27081b7e1607b4cb416ccd44d6979d",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми пов’язують висновок з обставинами.",
+      "connection": "N・V辞書形＋ともなると／N＋にあって（も）",
+      "difference": "ともなると виділяє рівень, після якого змінюються очікування. にあって позначає середовище чи становище. も в другому прикладі додає поступку.",
+      "examples": [
+        {
+          "japanese": "社会人ともなると、時間の管理が重要になる。",
+          "ukrainian": "Коли вже починаєш працювати, уміння розпоряджатися часом стає важливим."
+        },
+        {
+          "japanese": "厳しい状況にあっても、彼は希望を失わなかった。",
+          "ukrainian": "Навіть за складних обставин він не втрачав надії."
+        }
+      ],
+      "substitution": "Заміна потребує перебудови переходу між етапами на опис тла або навпаки.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "82",
+      "index": 82,
+      "labels": [
+        "～めく",
+        "～のごとく"
+      ],
+      "beforeSha256": "efc3711ecc80c90d626cb850ded1cdc03efa19c00c77288915f7d55a2d2ed58e",
+      "afterSha256": "1ecd2fe194d6068896b8128e3962e2fd66105b9685b9a58b654134bb63fb655f",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми можуть описувати подібність.",
+      "connection": "Nなど＋めく／N＋のごとく・N＋のごとき＋N",
+      "difference": "めく утворює дієслово зі значенням виявляти певні ознаки. のごとく прямо уподібнює до образу.",
+      "examples": [
+        {
+          "japanese": "風が暖かくなり、春めいてきた。",
+          "ukrainian": "Вітер потеплішав, і вже відчувається весна."
+        },
+        {
+          "japanese": "その時間は夢のごとく過ぎた。",
+          "ukrainian": "Той час минув, немов сон."
+        }
+      ],
+      "substitution": "У прикладі про весну поступову зміну передає めいてきた. Образ сну в другому реченні описує перебіг часу.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "91",
+      "index": 91,
+      "labels": [
+        "〜なりに",
+        "～なら～で"
+      ],
+      "beforeSha256": "966157ff075f2e3f27b2f8ca67e576f7bfeb8061eed3df3592e05629e15939a7",
+      "afterSha256": "5f1d58d5a0cf56cd0d83f9b1357a937d85fb18a24189474dd51daeb57e842d5c",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми можуть виходити з певного становища.",
+      "connection": "N・V普通形・イ形・ナ形語幹＋なりに／AならAで",
+      "difference": "なりに характеризує спосіб або міру з огляду на конкретну людину чи ситуацію. なら〜で приймає умову і розглядає її наслідки.",
+      "examples": [
+        {
+          "japanese": "私は私なりに工夫した。",
+          "ukrainian": "Я по-своєму намагався знайти рішення."
+        },
+        {
+          "japanese": "一人なら一人で、気楽に過ごせる。",
+          "ukrainian": "Якщо вже сам, можна проводити час без зайвих турбот."
+        }
+      ],
+      "substitution": "Перехід від власного способу до наслідку умови потребує перебудови речення.",
+      "independentReview": false
+    }
+  ]
+}
