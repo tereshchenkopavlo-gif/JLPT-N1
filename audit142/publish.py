@@ -1,8 +1,8 @@
 """Release only after all SHA-bound technical gates. Never credits whole cards."""
 from pathlib import Path
-import json,hashlib,shutil,csv
+import json,hashlib,shutil,csv,re
 ROOT=Path(__file__).resolve().parent.parent;P=ROOT/'audit142';html=ROOT/'release142/JLPT_N1_ukrainian_reading_v142.html';summary=json.loads((P/'build-summary.json').read_text());sha=hashlib.sha256(html.read_bytes()).hexdigest()
-assert sha==summary['sha256']=='9062ca7d922c001fd164393e82f729c91f003562dcd3716d8e0a593d9631543b'
+assert sha==summary['sha256']=='b2064d5a6201bfea593b9a131e56b38ed44347bf74ba820b769120bfc04e57be'
 r={n:json.loads((P/f'{n}-results.json').read_text())for n in ['invariant','meaning','presentation','ui','functional','session','comparison','grammar']}
 assert all(x['sha256']==sha for x in r.values())
 assert len(r['invariant']['checks'])==20 and all(x['pass_']for x in r['invariant']['checks'])
@@ -69,6 +69,7 @@ shutil.copyfile(html,ROOT/html.name)
 Наступна ділянка C11: решта причинних/обмежувальних колізій g2/g6/g7/g12/g17/g18/g21/g25/g26, далі довідкові підказки й дублікати дистракторів за 51 case ID. [Відтворення](audit142/README.md).
 ''')
 p=ROOT/'PROJECT_STATUS.md';s=p.read_text();s=s.replace('Актуальна **v141** (HTML опубліковано 4 листопада; у цій партії не змінений). Повний `JLPT_N1_ukrainian_reading_v141.html`, 6784138 байтів; SHA-256 `08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3`. Аудит JLPT_N1_v141_audit.md, відтворення audit141/README.md. Основа v140 / commit c82e3b18361a6396969220f385760cffff4c8ed4.',f'Актуальна **v142**. Повний `{html.name}`, {html.stat().st_size} байтів; SHA-256 `{sha}`. Аудит JLPT_N1_v142_audit.md, відтворення audit142/README.md. Основа — v141; попередній main 63e95bbe950855cd21edcb2591296101d5a1d3cf.')
+s=re.sub(r'Оновлено 5 листопада 2026, Asia/Tokyo\..*?\n\n3914',f'Оновлено 5 листопада 2026, Asia/Tokyo. Актуальна **v142**. Повний `{html.name}`, {html.stat().st_size} байтів; SHA-256 `{sha}`. Аудит JLPT_N1_v142_audit.md, відтворення audit142/README.md. Основа — v141; попередній main 63e95bbe950855cd21edcb2591296101d5a1d3cf. Старі випуски збережено.\n\n3914',s,count=1,flags=re.S)
 section=f'''## Виконано у v142 — адресний C11
 
 16 нових граматичних meaning-наборів /33 приклади, включно з усіма трьома g107. Точні ID: {', '.join('g'+str(i)for i in ids)}. Причинні та часові парафрази відділено; розділено значення ながら/にして, прибрано назви форм і довідкові підказки з варіантів. П’ять полів визначень g28/g72/g89/g130 уточнено; приклади/переклади, 265 лексичних наборів і всі інші картки збережені. Це авторський перегляд, не незалежна експертиза.
