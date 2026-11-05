@@ -1,0 +1,2306 @@
+{
+  "version": 152,
+  "sha256": "4e4e6ab182ba0dd2fe52580d7f58a3bd3ee89cbabb669ac0d521bd0f9c6341e3",
+  "reviewType": "author_editorial_review",
+  "independentReview": false,
+  "vocabCards": 60,
+  "examplesRead": 120,
+  "vocabCardsChanged": 31,
+  "changedUkrainianExampleTranslations": 23,
+  "newRegisterCredits": 60,
+  "rows": [
+    {
+      "kind": "vocab",
+      "key": "61",
+      "word": "規約",
+      "reading": "きやく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "d5dfe35558bcdd26a600910fffff6448fb7dfc03408ebfb36e9702a002953a69",
+      "afterSha256": "d5dfe35558bcdd26a600910fffff6448fb7dfc03408ebfb36e9702a002953a69",
+      "changedFields": [],
+      "rationale": "きやく, 名詞. Правила користування в першому прикладі потребують згоди, у другому порушення правил може призвести до призупинення членства.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "サービスの利用にあたり、利用規約への同意が求められる。",
+          "ukrainian": "Для користування послугою потрібна згода з правилами користування.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "規約に違反した会員は、資格を停止されることがある。",
+          "ukrainian": "Учасника, який порушив правила, можуть тимчасово позбавити членських прав.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "62",
+      "word": "記入",
+      "reading": "きにゅう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "4328e101790fcdb56c45d8ab4f40c6c7dee121bfbfe14c542bd24d0cba6acee6",
+      "afterSha256": "543d0191cefc0f6846a3f48afc76ea81d5f35dcd420d8a9bc18075ab30a8c0ee",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "きにゅう, 名詞. Вписування відомостей і заповнення анкети. 漏れなく вимагає повноти даних.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "申込書には、氏名と住所を漏れなく記入してください。",
+          "ukrainian": "Будь ласка, впишіть у заяву своє ім’я та адресу без пропусків.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "アンケートの記入にご協力いただき、ありがとうございます。",
+          "ukrainian": "Дякуємо за допомогу із заповненням анкети.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "63",
+      "word": "休戦",
+      "reading": "きゅうせん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "782bea585f4c8d0cf90c1b3e9268411e9510c01471540cd6ae138940f0fd0a2d",
+      "afterSha256": "782bea585f4c8d0cf90c1b3e9268411e9510c01471540cd6ae138940f0fd0a2d",
+      "changedFields": [],
+      "rationale": "きゅうせん, 名詞. Перший приклад повідомляє про домовленість, другий про порушення угоди. Тривалість перемир’я не задано.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "両国は、国際社会の仲介を受けて休戦に合意した。",
+          "ukrainian": "За посередництва міжнародної спільноти країни погодили перемир’я.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "休戦協定が破られ、緊張が再び高まっている。",
+          "ukrainian": "Угоду про перемир’я порушили, і напруженість знову зростає.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "64",
+      "word": "居住",
+      "reading": "きょじゅう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "4ef7f8c8aa36f618be20299d868156a81e4737ad2e5c6e6ca42ff57b1a961cab",
+      "afterSha256": "4ef7f8c8aa36f618be20299d868156a81e4737ad2e5c6e6ca42ff57b1a961cab",
+      "changedFields": [],
+      "rationale": "きょじゅう, 名詞. Формальний опис проживання та умов життя. Об’єкт житла окремо називає 住居.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "外国人居住者を対象とした生活相談窓口が設けられた。",
+          "ukrainian": "Для іноземних мешканців відкрили консультаційний пункт із повсякденних питань.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "この地域は、居住環境が整っており、子育て世代に人気がある。",
+          "ukrainian": "Цей район популярний серед родин із дітьми завдяки добрим умовам проживання.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "65",
+      "word": "距離",
+      "reading": "きょり",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "8c661b40d707750594c8195614c7f88f16431adf493ca7ee5c32e365d15e7bd6",
+      "afterSha256": "8c661b40d707750594c8195614c7f88f16431adf493ca7ee5c32e365d15e7bd6",
+      "changedFields": [],
+      "rationale": "きょり, 名詞. Фізична відстань від дому до роботи й переносне зближення сторін.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "自宅から職場までの距離が長く、通勤に時間を要する。",
+          "ukrainian": "Від дому до роботи велика відстань, тому дорога займає багато часу.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "両者の距離を縮めるには、率直な対話が欠かせない。",
+          "ukrainian": "Щоб зблизити сторони, потрібен відвертий діалог.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "66",
+      "word": "競争",
+      "reading": "きょうそう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "0f4d233213e0da5f562b487d052dbbe7daf6ea9261cd953a4ddccdde835101f7",
+      "afterSha256": "0f4d233213e0da5f562b487d052dbbe7daf6ea9261cd953a4ddccdde835101f7",
+      "changedFields": [],
+      "rationale": "きょうそう, 名詞. Загострення суперництва та розвиток ринку. Перший приклад містить вимушене зниження ціни.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "同業他社との競争が激化し、価格の引き下げを余儀なくされた。",
+          "ukrainian": "Конкуренція з іншими компаніями галузі загострилася, і довелося знизити ціни.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "健全な競争は、市場全体の発展を促す。",
+          "ukrainian": "Здорова конкуренція сприяє розвитку всього ринку.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "67",
+      "word": "共存",
+      "reading": "きょうぞん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "476c4a137199bfb9e0f5c7609ac4a7b36aec109f974d7ca4f3677456f007a654",
+      "afterSha256": "7cc5d0cafdaf1a32e7af4443ded1ef318c5070779311ad0415baca8fe35f9c91",
+      "changedFields": [
+        "usage",
+        "exampleTranslations"
+      ],
+      "rationale": "きょうぞん, 名詞. Словник підтверджує також きょうそん. Співіснування з природою й різних поглядів потребує окремих українських формулювань.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "自然との共存を目指した街づくりが、各地で進められている。",
+          "ukrainian": "У різних місцевостях розвивають міста з урахуванням співіснування з природою.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "多様な価値観が共存する社会を築くには、互いを尊重する姿勢が必要だ。",
+          "ukrainian": "Щоб побудувати суспільство, де співіснують різні цінності, потрібна взаємна повага.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "68",
+      "word": "協会",
+      "reading": "きょうかい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "f77bcbf8cdcba092ded184c9c0bf837f362dc2c463d2c5ff99effe0e5708774c",
+      "afterSha256": "f77bcbf8cdcba092ded184c9c0bf837f362dc2c463d2c5ff99effe0e5708774c",
+      "changedFields": [],
+      "rationale": "きょうかい, 名詞. Галузеве та спортивне об’єднання. Головного тренера оголосили, без доданого твердження про процедуру призначення.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "業界の協会が、新たなガイドラインを策定した。",
+          "ukrainian": "Галузева асоціація розробила нові рекомендації.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "日本サッカー協会は、代表チームの新監督を発表した。",
+          "ukrainian": "Японська футбольна асоціація оголосила нового головного тренера збірної.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "69",
+      "word": "協力",
+      "reading": "きょうりょく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "dc288d10adc77c2a55a8dc52a641b86f67be1e8d3bf1fbcf21ae929594ba02c9",
+      "afterSha256": "e6f97fef487bef0d01b017b42903ff9658227c00fa188db367ff31e2d37b0718",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "きょうりょく, 名詞. Перший приклад описує завершену співпрацю, другий ставить допомогу мешканців як умову успіху без минулого часу.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "関係各所の協力を得て、プロジェクトは無事に完了した。",
+          "ukrainian": "Завдяки співпраці всіх причетних проєкт успішно завершили.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "地域住民の協力なくして、この事業の成功はあり得ない。",
+          "ukrainian": "Без допомоги місцевих мешканців успіх цього проєкту неможливий.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "70",
+      "word": "強調",
+      "reading": "きょうちょう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "67cff7bd7f9248e77eac161fcee39f7a001f2bc6d09d6e207ac5e882f8459acd",
+      "afterSha256": "0698ce4cac92393f95ab84339f5e432d81c3af0385f38dab6c623bbea6860dad",
+      "changedFields": [
+        "m",
+        "usage"
+      ],
+      "rationale": "きょうちょう, 名詞. Наголос у виступі та виділення особливості в рекламі. Пояснення охоплює мовні й немовні засоби.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "発表の中で、彼は安全性の確保の重要性を繰り返し強調した。",
+          "ukrainian": "У виступі він неодноразово наголошував на важливості забезпечення безпеки.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "製品の独自性を強調する広告が、消費者の関心を集めた。",
+          "ukrainian": "Реклама, що підкреслює унікальність продукту, привернула увагу споживачів.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "71",
+      "word": "恐怖",
+      "reading": "きょうふ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "98ffac3723691bcc51dc01f295d39f17f37ff1e7310333ce03de0f9f0897784a",
+      "afterSha256": "98ffac3723691bcc51dc01f295d39f17f37ff1e7310333ce03de0f9f0897784a",
+      "changedFields": [],
+      "rationale": "きょうふ, 名詞. Лихо викликає страх, а страх невдачі може заважати. Відокремлено вживання 恐れ для ризику.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "未曾有の災害は、人々に深い恐怖を与えた。",
+          "ukrainian": "Безпрецедентне стихійне лихо викликало в людей глибокий страх.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "失敗への恐怖が、新しい挑戦を妨げることがある。",
+          "ukrainian": "Страх невдачі іноді заважає братися за нові справи.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "72",
+      "word": "教育",
+      "reading": "きょういく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "63f555ba992fd09ceadec7db2155d3390d1c8e4fac7efd6d25019ac259304d9a",
+      "afterSha256": "b91de4c8fcaaef1287b9ed5cdf3fde756af1905466ca32386348cd09f926e698",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "きょういく, 名詞. Рівні можливості освіти й навчання нових працівників. Дія відбувається протягом першого місяця.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "教育の機会均等は、社会の公平性を支える基盤である。",
+          "ukrainian": "Рівний доступ до освіти — основа суспільної справедливості.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "新入社員に対する教育は、入社後一か月間にわたり行われる。",
+          "ukrainian": "Нові працівники проходять навчання протягом першого місяця роботи.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "73",
+      "word": "業種",
+      "reading": "ぎょうしゅ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "392a66281cca702ee41c9715a2edc578fdbaa94d8f081c33424846b69529f919",
+      "afterSha256": "54164154dfc166a30b4f681990c172c127ad6fc677e515e20b43fb21a3d162cf",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "ぎょうしゅ, 名詞. Обидва приклади про галузь, а не професію. Перший описує вихід конкурентів з інших галузей.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "異業種からの参入が相次ぎ、市場の競争は一段と激しくなった。",
+          "ukrainian": "На ринок один за одним виходили учасники з інших галузей, і конкуренція ще більше загострилася.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "同じ業種でも、企業によって経営方針は大きく異なる。",
+          "ukrainian": "Навіть у межах однієї галузі політика управління компаній суттєво відрізняється.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "74",
+      "word": "業務",
+      "reading": "ぎょうむ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "3ce657b26089a5a6c6c07b9754fad18b317141d36b8c8499f16489b00d7cf5eb",
+      "afterSha256": "3ce657b26089a5a6c6c07b9754fad18b317141d36b8c8499f16489b00d7cf5eb",
+      "changedFields": [],
+      "rationale": "ぎょうむ, 名詞. Типові операції й розподіл робочого навантаження. Переклади передають процес і обсяг.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "業務の効率化を図るため、定型的な作業の自動化が進められている。",
+          "ukrainian": "Для підвищення ефективності роботи автоматизують типові операції.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "個人の業務量が過度に偏らないよう、配置を見直す。",
+          "ukrainian": "Розподіл працівників переглянуть, щоб навантаження не було надто нерівномірним.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "75",
+      "word": "禁止",
+      "reading": "きんし",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "3afcca58ebad8bdd42286c65bc62edc360e84eafff9fb90a3e1a34ee2afd3cdb",
+      "afterSha256": "3afcca58ebad8bdd42286c65bc62edc360e84eafff9fb90a3e1a34ee2afd3cdb",
+      "changedFields": [],
+      "rationale": "きんし, 名詞. Заборона знімання й проносу небезпечних предметів. Пов’язана позначка 禁制 має книжний відтінок.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "館内での撮影は、固く禁止されている。",
+          "ukrainian": "Фотографувати всередині будівлі суворо заборонено.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "危険物の持ち込みを禁止する規定が、新たに設けられた。",
+          "ukrainian": "Запровадили нове положення, яке забороняє проносити небезпечні предмети.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "76",
+      "word": "緊張",
+      "reading": "きんちょう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "95372425e3e488cc2c89066ff50759f1bcfa30c2804c714b151e21d6ce6fadde",
+      "afterSha256": "95372425e3e488cc2c89066ff50759f1bcfa30c2804c714b151e21d6ce6fadde",
+      "changedFields": [],
+      "rationale": "きんちょう, 名詞. Нервування людини та напруженість між країнами. В обох прикладах різні українські відповідники.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "大事な商談を前に、彼は極度に緊張していた。",
+          "ukrainian": "Перед важливими діловими переговорами він дуже нервував.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "両国間の緊張が高まり、国際社会が懸念を表明している。",
+          "ukrainian": "Напруженість між країнами зростає, і міжнародна спільнота висловлює занепокоєння.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "77",
+      "word": "近年",
+      "reading": "きんねん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "097acfb6593ab5f7cbaa843cb2304e6841e4c42b965c1abac90d425a0b031c06",
+      "afterSha256": "9b4fecfc0b45ad423cd998afc081f9a342cb69b21873dec67e983611ffe88a91",
+      "changedFields": [
+        "usage"
+      ],
+      "rationale": "きんねん, 名詞. Перше речення має прислівникове вживання, друге означує погоду останніх років.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "近年、働き方に対する価値観が大きく変化している。",
+          "ukrainian": "Останніми роками уявлення про організацію праці суттєво змінюються.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "近年の異常気象は、農業に深刻な被害をもたらしている。",
+          "ukrainian": "Аномальна погода останніх років завдає сільському господарству серйозної шкоди.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "78",
+      "word": "金融",
+      "reading": "きんゆう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "5fb92bf32530ce8f604cc84c59ea5e8facf769db785874f5b95c280f58addf49",
+      "afterSha256": "6c8e88d09b847bb9dcd72e0ec1835b71a97625869116705fa45eb0ab788ea6ae",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "きんゆう, 名詞. Монетарна політика й фінансові установи. 動揺 передає потрясіння чи нестабільність без конкретного показника.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "金融政策の転換が、市場に大きな動揺を与えた。",
+          "ukrainian": "Зміна монетарної політики спричинила значне потрясіння на ринку.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "金融機関は、中小企業への融資を拡充する方針を示した。",
+          "ukrainian": "Фінансові установи оголосили намір розширити кредитування малого й середнього бізнесу.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "79",
+      "word": "苦労",
+      "reading": "くろう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "790129538b2d39c2e0616c40daaaf7afab95c329b52b2cd2e73a41c315147434",
+      "afterSha256": "790129538b2d39c2e0616c40daaaf7afab95c329b52b2cd2e73a41c315147434",
+      "changedFields": [],
+      "rationale": "くろう, 名詞. Подолані труднощі на початку діяльності та цінність досвіду. Форма 苦労する пояснена окремо.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "創業期の苦労を乗り越えて、彼は今日の成功を築いた。",
+          "ukrainian": "Подолавши труднощі початкового періоду бізнесу, він досяг нинішнього успіху.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "若いうちの苦労は、将来の貴重な財産となる。",
+          "ukrainian": "Пережиті в молодості труднощі можуть стати цінним надбанням у майбутньому.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "80",
+      "word": "空白",
+      "reading": "くうはく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "bee1607cc804bb082e33945feb48ef5e2e437f13036b8123980f2b5153eb4ec6",
+      "afterSha256": "bee1607cc804bb082e33945feb48ef5e2e437f13036b8123980f2b5153eb4ec6",
+      "changedFields": [],
+      "rationale": "くうはく, 名詞. Пропуск у біографії та прогалини досліджень. 空き може означати вільну можливість.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "履歴書に空白期間がある場合は、その理由を説明する必要がある。",
+          "ukrainian": "Якщо в резюме є період без зазначеної діяльності, потрібно пояснити його.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "その分野の研究には、まだ多くの空白が残されている。",
+          "ukrainian": "У дослідженнях цієї галузі ще залишається багато прогалин.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "81",
+      "word": "傾向",
+      "reading": "けいこう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "60b8dab826c8473cc94240e4f3308e59a45c4805cc0386a9f4aa0d118fae8313",
+      "afterSha256": "9efd4c9700320eb0d4ec7947d2adbe37f68000442b6b1e93eac3859d29503118",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "けいこう, 名詞. Поширення споживчої звички та спад продажів. 傾向 задає напрям, а не завершений результат.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "若年層の間で、物を所有しない消費行動が広まる傾向がある。",
+          "ukrainian": "Серед молоді помітна тенденція користуватися речами, не маючи їх у власності.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "売上は、ここ数年、緩やかな減少傾向にある。",
+          "ukrainian": "Протягом останніх років продажі демонструють поступове зниження.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "82",
+      "word": "契約",
+      "reading": "けいやく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "db3f968311b485d90acb26643c7b35ceead9c87c35a7d979c44aecbef39f5993",
+      "afterSha256": "16b9bba7e39573bc54205fa7419f069a6cc10e5e9e91a242457890a28737f476",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "けいやく, 名詞. Перший приклад про договір збуту, другий про розуміння змісту перед підписанням.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "両社は、五年間の独占販売契約を締結した。",
+          "ukrainian": "Компанії уклали п’ятирічний договір про ексклюзивний продаж.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "契約の内容を十分に理解したうえで、署名することが重要だ。",
+          "ukrainian": "Важливо підписувати договір, лише добре зрозумівши його зміст.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "83",
+      "word": "形成",
+      "reading": "けいせい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "997bf087e7b8fe0a05130e689b051125459d2b2e3081630ea084b527c31c6f8a",
+      "afterSha256": "997bf087e7b8fe0a05130e689b051125459d2b2e3081630ea084b527c31c6f8a",
+      "changedFields": [],
+      "rationale": "けいせい, 名詞. Відносини формуються, а досвід впливає на особистість. Відокремлено фізичне 成形.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "長年の取り組みを通じて、安定的な取引関係が形成された。",
+          "ukrainian": "Завдяки багаторічним зусиллям сформувалися стабільні ділові відносини.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "幼少期の経験は、人格の形成に大きな影響を与える。",
+          "ukrainian": "Досвід раннього дитинства суттєво впливає на формування особистості.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "84",
+      "word": "経過",
+      "reading": "けいか",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "13ed1985f4ea567a82cef46bd73534994d7dd80f9e9b7aacba1b3cd486317a7b",
+      "afterSha256": "13ed1985f4ea567a82cef46bd73534994d7dd80f9e9b7aacba1b3cd486317a7b",
+      "changedFields": [],
+      "rationale": "けいか, 名詞. У першому прикладі перебіг після операції, у другому плин місяця. Виписка очікується, а не гарантована.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "術後の経過は良好で、来週には退院できる見込みだ。",
+          "ukrainian": "Післяопераційне відновлення проходить добре; очікується, що наступного тижня пацієнта випишуть.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "事件発生から一か月が経過したが、原因は特定されていない。",
+          "ukrainian": "Від події минув місяць, але причину досі не встановили.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "85",
+      "word": "経路",
+      "reading": "けいろ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "115516d06e5a1a0da7be6b957134495dd8f4fd5b453d95ec4a51becd0fe1f5b4",
+      "afterSha256": "8b8a012aafeed14814e4b5a6c460a5e9e199715f3e4b95dd2c9cc9f026990145",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "けいろ, 名詞. Шляхи зараження й витоку інформації. 保健所 передано як місцеву установу охорони здоров’я.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "感染経路を特定するため、保健所が調査を進めている。",
+          "ukrainian": "Щоб установити шлях зараження, місцева служба охорони здоров’я проводить розслідування.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "情報が流出した経路は、いまだ明らかになっていない。",
+          "ukrainian": "Шлях, яким відбувся витік інформації, досі не з’ясований.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "86",
+      "word": "計画",
+      "reading": "けいかく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "6019afba4b9437aaa00bcc05e75697896e81f9a2bc0bd3b02c612c31bbdfed83",
+      "afterSha256": "c43a85d6ef5b13befd214144a4598bf7802962ca3bde601ed55e28e5643a3be0",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "けいかく, 名詞. Визначення ризиків перед реалізацією та завершення за планом. 予定どおり не обмежується строком.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "計画の実行に先立ち、リスクの洗い出しを行った。",
+          "ukrainian": "Перед виконанням плану визначили можливі ризики.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "綿密に計画された事業が、予定どおり完了した。",
+          "ukrainian": "Ретельно спланований проєкт виконали за планом.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "87",
+      "word": "芸能",
+      "reading": "げいのう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "f01ff771378310844f8449206b2f0ec3e77143b7cb211f01295566c4c3655c61",
+      "afterSha256": "11422f384f4a0d362b2e80270ec611ebd1522230fa8334a16d6b24bf7003cf48",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "げいのう, 名詞. Традиційні виконавські мистецтва й середовище професійних артистів у сполуці 芸能界.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "地域の伝統芸能を保存するため、後継者の育成が進められている。",
+          "ukrainian": "Для збереження місцевого традиційного виконавського мистецтва готують наступників.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "芸能界で活躍する彼は、俳優としての評価も高い。",
+          "ukrainian": "Він успішно працює у сфері розваг, і його також високо цінують як актора.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "88",
+      "word": "決意",
+      "reading": "けつい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "0a602a0a72b3601eed8ca296897f0af5da27224bc515a0b1b41cb33774640708",
+      "afterSha256": "97e9d2c2cbe9f51a0996cef759c20a0b2d1e15de3726f93bbd81a3250c725314",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "けつい, 名詞. Рішення перейняти справу й рішучість у переговорах. 覚悟 зосереджується на прийнятті наслідків.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "彼は、事業を継ぐことを決意した。",
+          "ukrainian": "Він твердо вирішив перейняти справу.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "強い決意を持って挑んだ交渉が、ついに実を結んだ。",
+          "ukrainian": "Переговори, до яких підійшли з твердою рішучістю, нарешті дали результат.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "89",
+      "word": "検査",
+      "reading": "けんさ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "41bb1cfb15e1b274ad417df8ee947561e7041618dcc69d72b4a17157f4b135af",
+      "afterSha256": "0486a763a2a762064ed94922a51133cafd17db34ea3f4407268c4aa80c9a081d",
+      "changedFields": [
+        "m",
+        "usage"
+      ],
+      "rationale": "けんさ, 名詞. Перевірка якості та поглиблене медичне обстеження. Спільне значення не зводиться до пошуку порушень.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "出荷前の製品は、厳格な品質検査を通過しなければならない。",
+          "ukrainian": "Перед відвантаженням продукція має пройти сувору перевірку якості.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "健康診断で、精密検査が必要と診断された。",
+          "ukrainian": "Під час медичного огляду встановили потребу в поглибленому обстеженні.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "90",
+      "word": "権力",
+      "reading": "けんりょく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "7bbc331e3e09447a243de0aa23a8d6c5c9c4a9818b022cd6e6f57dc515a810e3",
+      "afterSha256": "0fe23edfa12392b8532eb6d09784014428dd13ee341b34ee85d87c301250d102",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "けんりょく, 名詞. Зосередження влади й використання влади проти опозиції. 権限 позначає повноваження.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "権力の集中は、不正や腐敗の温床となりやすい。",
+          "ukrainian": "Зосередження влади часто створює ґрунт для зловживань і корупції.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "彼は、権力を行使して反対派を抑え込んだ。",
+          "ukrainian": "Він використав владу, щоб придушити опозицію.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "91",
+      "word": "研究",
+      "reading": "けんきゅう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "5fea35745ce1d2579c2952196cce2b54ce324fb59a1611b2e7ebcc777466d2fa",
+      "afterSha256": "5fea35745ce1d2579c2952196cce2b54ce324fb59a1611b2e7ebcc777466d2fa",
+      "changedFields": [],
+      "rationale": "けんきゅう, 名詞. Поступ досліджень та практичне впровадження їхніх результатів.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "この分野の研究は、近年めざましい進展を遂げている。",
+          "ukrainian": "Дослідження в цій галузі останніми роками помітно просунулися.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "長年の研究の成果が、ついに実用化された。",
+          "ukrainian": "Результати багаторічних досліджень нарешті вдалося впровадити на практиці.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "92",
+      "word": "原因",
+      "reading": "げんいん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "012bd7591ef75cc694d914655b01b553663f6660e11aa77cbd1f9d8bf6745aa3",
+      "afterSha256": "5fa74809e2f44fe4b1351986f8b8604c49278638e7e7f491540e6e29ac837649",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "げんいん, 名詞. Причина аварії та сукупність чинників спаду. 複合的 підкреслює поєднання причин.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "事故の原因を究明するため、専門家による調査が行われた。",
+          "ukrainian": "Щоб з’ясувати причину аварії, фахівці провели розслідування.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "不況の原因は複合的であり、単純には説明できない。",
+          "ukrainian": "Економічний спад зумовлений поєднанням кількох причин, тому простого пояснення немає.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "93",
+      "word": "原点",
+      "reading": "げんてん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "86c830ef4beb9ccbadafeb49e1b46bb2e7b271b71f82bb7619b1e9d78dea1b44",
+      "afterSha256": "86c830ef4beb9ccbadafeb49e1b46bb2e7b271b71f82bb7619b1e9d78dea1b44",
+      "changedFields": [],
+      "rationale": "げんてん, 名詞. Повернення до витоків і засади заснування компанії. Математичне значення пояснено окремо.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "問題が起きたときは、原点に立ち返って考え直すことが大切だ。",
+          "ukrainian": "Коли виникає проблема, важливо повернутися до витоків і переосмислити ситуацію.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "創業の原点を忘れず、顧客第一の姿勢を貫いている。",
+          "ukrainian": "Не забуваючи засад, із яких починався бізнес, компанія незмінно ставить клієнта на перше місце.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "94",
+      "word": "原文",
+      "reading": "げんぶん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "3f7820949faa469d981bd2329679e122664316a537575fa9a1db15e2e534531e",
+      "afterSha256": "3f7820949faa469d981bd2329679e122664316a537575fa9a1db15e2e534531e",
+      "changedFields": [],
+      "rationale": "げんぶん, 名詞. Зіставлення з оригіналом і збереження його нюансів. Текст може бути відтворений у копії.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "翻訳が正確かどうかは、原文と照らし合わせて確認する。",
+          "ukrainian": "Точність перекладу перевіряють, зіставляючи його з оригіналом.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "原文のニュアンスを損なわずに訳すのは、容易ではない。",
+          "ukrainian": "Перекласти без утрати нюансів оригіналу нелегко.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "95",
+      "word": "減速",
+      "reading": "げんそく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "8684ccde107187da664b7627bd835e4bf913ff60b7e4304dd19d121a32e8e142",
+      "afterSha256": "086c3aa31cd600b0003a6a8ad2f2753ddad63b12fe0c321ac73978b9cf137139",
+      "changedFields": [
+        "usage",
+        "exampleTranslations"
+      ],
+      "rationale": "げんそく, 名詞. Словник підтверджує спад швидкості та зниження швидкості. У прикладах поїзд і світова економіка.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "電車は、カーブに差しかかって減速した。",
+          "ukrainian": "Поїзд сповільнився, коли підійшов до повороту.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "世界経済の減速が、輸出企業の業績に影を落としている。",
+          "ukrainian": "Уповільнення світової економіки негативно позначається на результатах експортерів.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "96",
+      "word": "現象",
+      "reading": "げんしょう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "49ce9bb7ea24d1bfe9fc43b395c1e3b1af019550f9ca34e7fc988a33e3c5c9ee",
+      "afterSha256": "374c3a2f3fe56e2d58d1d65e64f39ff41a9dde2dc6c41e74df664d4564e070b2",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "げんしょう, 名詞. Поява явищ і дослідження їхнього механізму. 現像 є іншим словом і має інше читання.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "近年、各地で異常気象と呼ばれる現象が頻発している。",
+          "ukrainian": "Останніми роками в різних місцевостях часто спостерігаються аномальні погодні явища.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "この現象のメカニズムは、いまだに完全には解明されていない。",
+          "ukrainian": "Механізм цього явища досі не з’ясований повністю.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "97",
+      "word": "現場",
+      "reading": "げんば",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "f736ddc2f2f8656d9d0cfea51ee66162739fd08fcb4b6a88237d8d99bebbc97c",
+      "afterSha256": "9a3dc551291868d63f693286d15dc21b91e0c91747faeeb051a24d6614de93c7",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "げんば, 名詞. Працівники, що безпосередньо виконують роботу, та буквальний будівельний майданчик.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "現場の声を吸い上げる仕組みが、組織の健全性を保つ。",
+          "ukrainian": "Можливість почути працівників на місцях допомагає організації добре працювати.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "工事現場では、安全の確保が最優先とされている。",
+          "ukrainian": "На будівельному майданчику найвищий пріоритет — безпека.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "98",
+      "word": "現像",
+      "reading": "げんぞう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "fb855df3f35dfc78241df60c1e9652a819da92691d56607fe82cd27061508872",
+      "afterSha256": "fb855df3f35dfc78241df60c1e9652a819da92691d56607fe82cd27061508872",
+      "changedFields": [],
+      "rationale": "げんぞう, 名詞. Обидва приклади про проявлення плівки. Цифрове вживання подано окремо як RAW現像.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "撮影したフィルムを現像して、写っている像を確かめた。",
+          "ukrainian": "Я проявив відзняту плівку й перевірив зображення.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "デジタルカメラの普及で、現像に出す機会はめっきり減った。",
+          "ukrainian": "Із поширенням цифрових камер нагод віддавати плівку на проявлення стало значно менше.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "99",
+      "word": "故郷",
+      "reading": "こきょう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "35dd800fcfda78ed66850168f51fbecf77ec664a39730842440790cb07a3f740",
+      "afterSha256": "35dd800fcfda78ed66850168f51fbecf77ec664a39730842440790cb07a3f740",
+      "changedFields": [],
+      "rationale": "こきょう, 名詞. Від’їзд і повернення в рідний край. Відлік тридцяти років не означає, що людина повернулася тепер.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "彼は、故郷を離れて三十年、一度も帰らなかった。",
+          "ukrainian": "Відколи він залишив рідний край тридцять років тому, жодного разу не повертався.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "故郷の発展に貢献したいと、地元に戻って起業した。",
+          "ukrainian": "Прагнучи допомогти розвитку рідного краю, він повернувся додому й заснував бізнес.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "100",
+      "word": "雇用",
+      "reading": "こよう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "cb2d900073d862c3a4f6bf1e59b7e32c1d7e2fa030d0ec85b5dc6b331832be6b",
+      "afterSha256": "cb2d900073d862c3a4f6bf1e59b7e32c1d7e2fa030d0ec85b5dc6b331832be6b",
+      "changedFields": [],
+      "rationale": "こよう, 名詞. Форми зайнятості й наймання старших працівників. Відмінність від 採用 залежить від контексту.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "非正規雇用の増加が、社会問題として取り上げられている。",
+          "ukrainian": "Зростання нестандартної зайнятості обговорюється як суспільна проблема.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "高齢者の雇用を促進するための制度が、新たに設けられた。",
+          "ukrainian": "Запровадили нову систему сприяння зайнятості старших людей.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "101",
+      "word": "顧客",
+      "reading": "こきゃく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "9d5fdb87a17c4eab95b7be51754c82690fdf6fadb1dd7eed8e8a5e185a64393b",
+      "afterSha256": "9d5fdb87a17c4eab95b7be51754c82690fdf6fadb1dd7eed8e8a5e185a64393b",
+      "changedFields": [],
+      "rationale": "こきゃく, 名詞. Клієнти як джерело довіри й потреб. Форма звертання お客様 має іншу функцію.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "顧客の信頼を得ることが、事業を継続させる最大の条件である。",
+          "ukrainian": "Здобути довіру клієнтів — найважливіша умова продовження бізнесу.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "顧客のニーズを的確に把握することが、商品開発の出発点となる。",
+          "ukrainian": "Точне розуміння потреб клієнтів — відправна точка розроблення продукту.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "102",
+      "word": "後悔",
+      "reading": "こうかい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "d76ec9a073f43ccb25971e1167f4a3c9fd421a76f9be98fe46030142cbd30c59",
+      "afterSha256": "d76ec9a073f43ccb25971e1167f4a3c9fd421a76f9be98fe46030142cbd30c59",
+      "changedFields": [],
+      "rationale": "こうかい, 名詞. Жаль через минуле рішення та намір уникнути жалю. 反省 підкреслює самооцінку.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "あのとき決断しなかったことを、今でも後悔している。",
+          "ukrainian": "Я й досі шкодую, що тоді не ухвалив рішення.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "後悔しないよう、最善を尽くして準備を進めてきた。",
+          "ukrainian": "Я докладав усіх зусиль до підготовки, щоб потім не шкодувати.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "103",
+      "word": "語学",
+      "reading": "ごがく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "6c359429d7464febe36c8672237e376bb17323554b86d3e9063ba4e0b3ee41db",
+      "afterSha256": "c14478060b220c0ea9ca8812762999909b822300076cc4c8b0ca528d602680d3",
+      "changedFields": [
+        "t",
+        "usage"
+      ],
+      "rationale": "ごがく, 名詞. У першому прикладі рівень володіння мовами передає сполука 語学力, у другому йдеться про опанування мов.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "語学力を生かして、海外事業の担当者に抜擢された。",
+          "ukrainian": "Завдяки знанню мов його обрали відповідальним за закордонний напрям бізнесу.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "語学の習得には、継続的な学習が欠かせない。",
+          "ukrainian": "Для опанування іноземних мов потрібне постійне навчання.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "104",
+      "word": "誤解",
+      "reading": "ごかい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "92af1ddd8658e4217b187d624a1f8d4b316b89664c468f7587a56e6493cb953d",
+      "afterSha256": "d09f79ade8f1df6f29099a74bd9ee2c3b7f5c751e4bbf5d639b8071aff5d1dfe",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "ごかい, 名詞. Недостатнє пояснення породжує хибне враження, а непорозуміння погіршує стосунки.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "説明が不十分だったため、顧客に誤解を与えてしまった。",
+          "ukrainian": "Через неповне пояснення в клієнта склалося хибне уявлення.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "些細な誤解が、両者の関係に深い溝を生んだ。",
+          "ukrainian": "Дрібне непорозуміння спричинило глибокий розлад у стосунках сторін.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "105",
+      "word": "交付",
+      "reading": "こうふ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "b1b0b3d43300d59e5817914b50462af62acda9ef62aa36210bcdb802af5fb07b",
+      "afterSha256": "b1b0b3d43300d59e5817914b50462af62acda9ef62aa36210bcdb802af5fb07b",
+      "changedFields": [],
+      "rationale": "こうふ, 名詞. Видача дозволу та надання допомоги адресатам. 発行 має акцент на випуску.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "申請から一週間ほどで、許可証が交付される。",
+          "ukrainian": "Дозвіл видають приблизно через тиждень після подання заяви.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "被災者に対し、支援金が速やかに交付された。",
+          "ukrainian": "Постраждалим від стихійного лиха оперативно надали грошову допомогу.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "106",
+      "word": "効果",
+      "reading": "こうか",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "b40ca35bc3d47f50d160d8d771cfcadc63e27a15795154e16a4e669f5c8da08d",
+      "afterSha256": "b40ca35bc3d47f50d160d8d771cfcadc63e27a15795154e16a4e669f5c8da08d",
+      "changedFields": [],
+      "rationale": "こうか, 名詞. Дієвість заходів перевіряють, а результат реклами вже проявився. 影響 ширше позначає вплив.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "新たな施策の効果を検証するため、データの分析が進められている。",
+          "ukrainian": "Щоб перевірити ефект нових заходів, проводять аналіз даних.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "広告の効果が表れ、来店客数が大幅に増加した。",
+          "ukrainian": "Реклама дала результат, і кількість відвідувачів магазину значно зросла.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "107",
+      "word": "口座",
+      "reading": "こうざ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "10a842425da375ed8eae979a6fa05ac0d7a6db585a837a2f674985c5b87343ce",
+      "afterSha256": "700d002b6d0df7bb1bc2102f05c9f64cea636c3803535e629cf00b65bee9dd87",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "こうざ, 名詞. Банківський рахунок та неправомірне відкриття рахунку. Другий приклад не називає мети подальших операцій.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "給与は、指定された銀行口座に振り込まれる。",
+          "ukrainian": "Заробітну плату перераховують на зазначений банківський рахунок.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "不正な口座の開設を防ぐため、本人確認が厳格化された。",
+          "ukrainian": "Щоб запобігти неправомірному відкриттю рахунків, посилили перевірку особи.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "108",
+      "word": "口述",
+      "reading": "こうじゅつ",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "05d9e4e80bfc2f3ca42ba1c6f2ed9f279830f6e1d908fec1e971a7f2f995bd59",
+      "afterSha256": "05d9e4e80bfc2f3ca42ba1c6f2ed9f279830f6e1d908fec1e971a7f2f995bd59",
+      "changedFields": [],
+      "rationale": "こうじゅつ, 名詞. Усний виклад із записом та усний іспит. Диктування є контекстом, а не умовою кожного вживання.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "彼は自分の経験を口述し、秘書がそれを書き留めた。",
+          "ukrainian": "Він усно виклав свій досвід, а секретар записав його слова.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "受験者は、面接官の前で口述試験を受けた。",
+          "ukrainian": "Кандидат складав усний іспит перед екзаменаторами.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "109",
+      "word": "口論",
+      "reading": "こうろん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "7fc9e00a3edde3f745932ddd4a5088c76d62f2e7219e68b67baeb55c26e79d50",
+      "afterSha256": "a056fc830e88e52f6a494fa262380983df218136ab4fc2e821e56cb503ad1454",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "こうろん, 名詞. Сварка з колегою та сварка на вулиці. У першому прикладі японська не називає особу оповідача.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "些細なことから同僚と口論になり、気まずい雰囲気が続いた。",
+          "ukrainian": "Через дрібницю виникла сварка з колегою, і ніяковість після неї не минала.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "路上で口論していた二人が、警察官に注意された。",
+          "ukrainian": "Поліцейський зробив зауваження двом людям, які сварилися на вулиці.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "110",
+      "word": "向上",
+      "reading": "こうじょう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "53d41cb1bef8ec581635bc9401046b5d84506a880572d0b628060aacbabffa36",
+      "afterSha256": "53d41cb1bef8ec581635bc9401046b5d84506a880572d0b628060aacbabffa36",
+      "changedFields": [],
+      "rationale": "こうじょう, 名詞. Підвищення продуктивності та технічного рівня. Поліпшення якості в другому прикладі передає 改善.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "生産性の向上は、企業の競争力を高めるうえで欠かせない。",
+          "ukrainian": "Підвищення продуктивності необхідне для зміцнення конкурентоспроможності компанії.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "技術力の向上に努めた結果、品質が飛躍的に改善した。",
+          "ukrainian": "Завдяки зусиллям із підвищення технічного рівня якість різко поліпшилася.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "111",
+      "word": "工作",
+      "reading": "こうさく",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "1ee9a1d643074d8b43243f63f1fd3470dcf71a31a8bba841c4a7006f839d268a",
+      "afterSha256": "2d3a58dde028bc66e296b53b6cbc6108bcc37830b77d8192bea50807f473bc33",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "こうさく, 名詞. Прихована спроба впливу на думку й дитяче майстрування. Оцінка першого контексту не поширюється на другий.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "裏で世論を操作しようとした工作が、発覚した。",
+          "ukrainian": "Викрили приховані дії, спрямовані на маніпулювання громадською думкою.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "子供たちは、廃材を使って楽しそうに工作した。",
+          "ukrainian": "Діти із задоволенням майстрували з непотрібних матеріалів.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "112",
+      "word": "工夫",
+      "reading": "くふう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "b89091624936f2e5690d5bf5985508abc2f922f79c2016b467bf880c618b3ec0",
+      "afterSha256": "b89091624936f2e5690d5bf5985508abc2f922f79c2016b467bf880c618b3ec0",
+      "changedFields": [],
+      "rationale": "くふう, 名詞. Винахідливі рішення за малого бюджету та пропозиції з робочих місць. Прийом може адаптувати відоме.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "限られた予算の中で、知恵と工夫を凝らして成果を出した。",
+          "ukrainian": "За обмеженого бюджету завдяки кмітливості й винахідливим рішенням вдалося досягти результату.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "作業を効率化するための工夫が、現場から次々と提案された。",
+          "ukrainian": "Працівники на місцях один за одним пропонували способи зробити роботу ефективнішою.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "113",
+      "word": "幸福",
+      "reading": "こうふく",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ],
+      "suruMarker": "な",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "a4288ec7818a2879142934bad262b3ce98b59aaff5a86571744f8686c49693a3",
+      "afterSha256": "02a6f2fac555d0c88c8468109a9dbf9db23c6a6eb5d3c9182e944ec58867e2f8",
+      "changedFields": [
+        "t"
+      ],
+      "rationale": "こうふく, 名詞 і ナ形. Щастя залежить від цінностей, а 幸福度 задає рівень суб’єктивного добробуту.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "何が幸福かは、人それぞれの価値観によって異なる。",
+          "ukrainian": "Розуміння щастя залежить від цінностей кожної людини.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "従業員の幸福度を高めることが、企業の持続的な成長にもつながる。",
+          "ukrainian": "Підвищення рівня щастя працівників також сприяє сталому зростанню компанії.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "114",
+      "word": "攻撃",
+      "reading": "こうげき",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "ecf6446d7564dbda16b97f8a58733a13cb1a1263accd1e9df43f6d52e291bf6b",
+      "afterSha256": "ecf6446d7564dbda16b97f8a58733a13cb1a1263accd1e9df43f6d52e291bf6b",
+      "changedFields": [],
+      "rationale": "こうげき, 名詞. Кібератака й різка критика уряду. Обидва значення підтримані контекстом.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "サイバー攻撃を受け、企業の機密情報が流出した。",
+          "ukrainian": "Унаслідок кібератаки стався витік конфіденційної інформації компанії.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "野党は、政府の対応を厳しく攻撃した。",
+          "ukrainian": "Опозиція різко критикувала дії уряду.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "115",
+      "word": "更新",
+      "reading": "こうしん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "8f56359eb847b42810504da373ca8f996eb7d0755efc658a7dc998549d6041a8",
+      "afterSha256": "05176a30d4d657988607596bd18b2fa6babd32262d5fbf5861de7568082c3e7c",
+      "changedFields": [
+        "m",
+        "usage"
+      ],
+      "rationale": "こうしん, 名詞. Словник підтверджує продовження договору та оновлення рекорду. Закінчення строку й новий рекорд мають різні переклади.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "この契約の更新手続きは、期限の一か月前までに行う必要がある。",
+          "ukrainian": "Процедуру продовження цього договору потрібно завершити щонайменше за місяць до закінчення його строку.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "世界記録が更新され、会場は歓喜に包まれた。",
+          "ukrainian": "Світовий рекорд було побито, і на арені запанувала радість.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "116",
+      "word": "構成",
+      "reading": "こうせい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "86d789abef744db1d0fb933393eea1f49ebee2dc679cafbf16981d9a03c1f474",
+      "afterSha256": "86d789abef744db1d0fb933393eea1f49ebee2dc679cafbf16981d9a03c1f474",
+      "changedFields": [],
+      "rationale": "こうせい, 名詞. Склад комітету й організація тексту. Фізична будова та взаємозв’язок частин ближчі до 構造.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "委員会は、各分野の専門家によって構成されている。",
+          "ukrainian": "Комітет складається з фахівців різних галузей.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "文章の構成を工夫することで、読み手に伝わりやすくなる。",
+          "ukrainian": "Продумана структура тексту допомагає краще донести зміст до читача.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "117",
+      "word": "構造",
+      "reading": "こうぞう",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "e7c66f6c13684695d5750c608c5d32174f0877f97adfbb3eabbdeec7f38a5cc4",
+      "afterSha256": "4a5abae3f1127471d64dbdcd9824c535f12ad4f065279466898b770f73098efb",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "rationale": "こうぞう, 名詞. Галузева структура економіки та конструкція будівлі. 産業 ширше за промисловість.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "産業構造の変化に伴い、就業人口も大きく変動している。",
+          "ukrainian": "Зі зміною галузевої структури економіки суттєво змінюється й чисельність зайнятих.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "建物の構造に問題があることが、調査の結果、判明した。",
+          "ukrainian": "Перевірка виявила проблему в конструкції будівлі.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "118",
+      "word": "行為",
+      "reading": "こうい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "5ca98ce46682a961a8924c04815a59de28c07ce5e387e2d5ebd43d935bd7c0f9",
+      "afterSha256": "56cf7421886f1d3e44040b572251c45a6adc863fff60aecd849016c9ebdb0b02",
+      "changedFields": [
+        "m",
+        "t",
+        "usage"
+      ],
+      "rationale": "こうい, 名詞. Доброзичливий учинок та правопорушення. Словник допускає перетин з 行動 і дію організації.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "善意から出た行為であっても、結果として迷惑をかけることがある。",
+          "ukrainian": "Навіть учинок із добрих намірів може зрештою завдати іншим клопоту.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "違法行為が発覚し、当事者は処分を受けた。",
+          "ukrainian": "Незаконні дії викрили, і до причетної особи застосували санкції.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "119",
+      "word": "行進",
+      "reading": "こうしん",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "する",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "1e604084b6c60e0dc80149689bc03193f5e29a1803e2d7a4359bef6a7c46bf8c",
+      "afterSha256": "24b010bdcb0b0f5c550b8a0800a01bc6dff44c46d01654774492e0360310c14d",
+      "changedFields": [
+        "exampleTranslations"
+      ],
+      "rationale": "こうしん, 名詞. Марш підрозділу й хода оркестру. 行列 називає колону чи чергу, а не сам рух.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "隊員たちは、整然と隊列を組んで行進した。",
+          "ukrainian": "Учасники підрозділу марширували рівним строєм.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "式典では、鼓笛隊が軽快に行進した。",
+          "ukrainian": "Під час церемонії оркестр із флейтами й барабанами бадьоро пройшов строєм.",
+          "decision": "translation_corrected"
+        }
+      ]
+    },
+    {
+      "kind": "vocab",
+      "key": "120",
+      "word": "行政",
+      "reading": "ぎょうせい",
+      "partsOfSpeech": [
+        "名詞"
+      ],
+      "suruMarker": "",
+      "reviewedFields": [
+        "reading",
+        "part of speech",
+        "Japanese definition",
+        "Ukrainian meaning",
+        "usage",
+        "related labels",
+        "examples and translations"
+      ],
+      "beforeSha256": "e79eb7c858e702291f4a87280fafe5901de05d9eb8369de9fab512870745e44b",
+      "afterSha256": "ecb6a0bb12994862ab2c6291bbefca15b22dcb5aa0df438b38fa22104b942f46",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "rationale": "ぎょうせい, 名詞. Прозорість публічного управління та адміністративні послуги. Переклад розмежовує установи й діяльність.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "行政の透明性を高めることが、市民の信頼を得る第一歩となる。",
+          "ukrainian": "Підвищення прозорості роботи влади — перший крок до довіри громадян.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "行政サービスのデジタル化により、手続きが簡素化された。",
+          "ukrainian": "Завдяки цифровізації адміністративних послуг процедури спростилися.",
+          "decision": "retained_after_author_reading"
+        }
+      ]
+    }
+  ]
+}
