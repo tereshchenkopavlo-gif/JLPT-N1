@@ -1,0 +1,2473 @@
+{
+  "sha256": "c592db0746c94071ba6fed95bd8abb419b9d97636ffa3aea066d6b7e68703024",
+  "browser": "141.0.7390.37",
+  "pass": true,
+  "reviewType": "Technical rendering and content conservation; author linguistic decisions in editorial-review.json",
+  "results": [
+    {
+      "id": 33,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 34,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 35,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 36,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 37,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 38,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 39,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 40,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 41,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 42,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 43,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 44,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 45,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 46,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 47,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 48,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 49,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 50,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 51,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 52,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 53,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 54,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 55,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 56,
+      "width": 360,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 33,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 34,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 35,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 36,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 37,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 38,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 39,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 40,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 41,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 42,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 43,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 44,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 45,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 46,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 47,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 48,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 49,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 50,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 51,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 52,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 53,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 54,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 55,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 56,
+      "width": 412,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 33,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 34,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 35,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 36,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 37,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 38,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 39,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 40,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 41,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 42,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 43,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 44,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 45,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 46,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 47,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 48,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 49,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 50,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 51,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 52,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 53,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 54,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 55,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    },
+    {
+      "id": 56,
+      "width": 1280,
+      "pass": true,
+      "definition": true,
+      "examples": true,
+      "translations": true,
+      "meaning": true,
+      "headings": [
+        "接続",
+        "用法",
+        "制約",
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "noUkrainianServiceHeading": true,
+      "overflow": false
+    }
+  ],
+  "pairResults": [
+    {
+      "index": 5,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 6,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 8,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 28,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 30,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 37,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 38,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 39,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 46,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 50,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 62,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 65,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 68,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 71,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 72,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 86,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 87,
+      "width": 360,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 5,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 6,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 8,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 28,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 30,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 37,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 38,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 39,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 46,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 50,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 62,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 65,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 68,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 71,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 72,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 86,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 87,
+      "width": 412,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 5,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 6,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 8,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 28,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 30,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 37,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 38,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 39,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 46,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 50,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 62,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 65,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 68,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 71,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 72,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 86,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    },
+    {
+      "index": 87,
+      "width": 1280,
+      "pass": true,
+      "found": true,
+      "headings": [
+        "共通点",
+        "接続",
+        "違い",
+        "例文",
+        "置き換え"
+      ],
+      "content": true,
+      "separateUkrainianExamples": true,
+      "overflow": false
+    }
+  ]
+}
