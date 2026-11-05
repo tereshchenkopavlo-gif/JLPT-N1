@@ -1,0 +1,49 @@
+{
+  "version": 142,
+  "sha256": "b2064d5a6201bfea593b9a131e56b38ed44347bf74ba820b769120bfc04e57be",
+  "status": "not_cleared_for_public_product",
+  "inheritedFrom": "Full v141, SHA-256 08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+  "newMaterial": "Original project question options and Ukrainian notes for 33 inherited sentences; five revised definition fields on four cards.",
+  "newQuizKeys": [
+    "g_8",
+    "g_9",
+    "g_10",
+    "g_11",
+    "g_27",
+    "g_28",
+    "g_41",
+    "g_61",
+    "g_62",
+    "g_63",
+    "g_72",
+    "g_89",
+    "g_96",
+    "g_107",
+    "g_126",
+    "g_130"
+  ],
+  "changedCardFields": {
+    "28": [
+      "m"
+    ],
+    "72": [
+      "m"
+    ],
+    "89": [
+      "m"
+    ],
+    "130": [
+      "m",
+      "t"
+    ]
+  },
+  "fieldSources": "audit142/author.py; audit142/sources.md",
+  "inheritedSentences": "Unchanged; origin uncertainty retained. No claim of rights clearance through rewriting.",
+  "publicExposure": "This release adds the complete v142 HTML and audit sources on main. Existing public main files, other branches, reachable history and Actions artifacts remain subject to strategy/PUBLISHED_HTML_RISK_REVIEW.md. Its frozen v141 inventory is historical, not a current v142 count.",
+  "historicalInventory": "review20261105/public-inventory.json",
+  "actionsArtifacts": "No upload-artifact step in v142 workflow; old ZIP contents have not been checked.",
+  "visibilityOrHistoryChanges": false,
+  "reviewType": "author_editorial_review",
+  "independentReview": false,
+  "changedPairs": 0
+}

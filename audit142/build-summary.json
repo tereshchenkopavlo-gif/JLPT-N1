@@ -1,0 +1,41 @@
+{
+  "version": 142,
+  "baseSha256": "08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3",
+  "sha256": "b2064d5a6201bfea593b9a131e56b38ed44347bf74ba820b769120bfc04e57be",
+  "bytes": 6795537,
+  "newGrammarKeys": [
+    "g_8",
+    "g_9",
+    "g_10",
+    "g_11",
+    "g_27",
+    "g_28",
+    "g_41",
+    "g_61",
+    "g_62",
+    "g_63",
+    "g_72",
+    "g_89",
+    "g_96",
+    "g_107",
+    "g_126",
+    "g_130"
+  ],
+  "grammarContexts": 33,
+  "changedCardFields": {
+    "28": [
+      "m"
+    ],
+    "72": [
+      "m"
+    ],
+    "89": [
+      "m"
+    ],
+    "130": [
+      "m",
+      "t"
+    ]
+  },
+  "newExampleOverrides": 17
+}

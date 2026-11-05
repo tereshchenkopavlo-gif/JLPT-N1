@@ -1,0 +1,286 @@
+{
+  "version": 142,
+  "sha256": "b2064d5a6201bfea593b9a131e56b38ed44347bf74ba820b769120bfc04e57be",
+  "reviewType": "author_editorial_review",
+  "independentReview": false,
+  "newGrammarSets": 16,
+  "contexts": 33,
+  "firstExampleFindingsResolved": 16,
+  "fixedCases": [
+    {
+      "caseId": "g:8:e0:seed20261105",
+      "id": 8,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "48162be40a65d4c6a4a244099bf1a061fe79932d8bbe593de81811b3f025c263",
+      "newPayloadSha256": "c673715325bd01d29e6861acbb8d1136afe037551ba689467edb043f82504fd1",
+      "evidence": "audit142/editorial-review.json:g_8:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:9:e0:seed20261105",
+      "id": 9,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "c8235846b29e11cab93a05bdd8175e1bc7cb183c93b0f008eab1363006c5d1cf",
+      "newPayloadSha256": "605e4a1727a957623afd227ceaa9f822b2cd1477ce667774b44d89098af47ec8",
+      "evidence": "audit142/editorial-review.json:g_9:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:10:e0:seed20261105",
+      "id": 10,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "13f030b3f123487037e62dbd2d05bc521412c4a265c44978d248a64f03deea5e",
+      "newPayloadSha256": "0f1a2246366bed720bcadd6f8ac4f1078dca5d665221c58add4d39476cabfe64",
+      "evidence": "audit142/editorial-review.json:g_10:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:11:e0:seed20261105",
+      "id": 11,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "2a773786b9f46624c300cb4c9b08495f7d09c3cf70df55df54d9cf9290fd59b2",
+      "newPayloadSha256": "d617963d7ef2e29dfa62cbad3250b081b11c911359645e701d3b57d58a5e0b8c",
+      "evidence": "audit142/editorial-review.json:g_11:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:27:e0:seed20261105",
+      "id": 27,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "7b36797aa13fed6fe0434e67aee6f2d4010073097c3faad9e4d257e647c25d62",
+      "newPayloadSha256": "2e319664b97a19db63bf685fb46056de02a2dcd8ce4cd409af33886c7f0eed6b",
+      "evidence": "audit142/editorial-review.json:g_27:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:28:e0:seed20261105",
+      "id": 28,
+      "previousFlags": [
+        "scope"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "950f291c6125cf68dfe6688675b2604f6357957b3099ead4f43569439416e6d4",
+      "newPayloadSha256": "cb26025a529f8f12a967ee155c2f745367084d5e553fd095fd6e7961dfeae419",
+      "evidence": "audit142/editorial-review.json:g_28:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:41:e0:seed20261105",
+      "id": 41,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "ccd238f52af0df3d79d6ee978861d8ab34dca29111e84c91b43a6bdbd3b68675",
+      "newPayloadSha256": "a452fa717c110f0242dc3c5ec5862812cf3d378067b1c816037b83d60fce0c5a",
+      "evidence": "audit142/editorial-review.json:g_41:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:61:e0:seed20261105",
+      "id": 61,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "f81725ffaafc11e6837982710e6274148af2e956925219d4b9199fed666fd61f",
+      "newPayloadSha256": "85b6d395f3253609a7269d71536a0451944819e98fe099e059fe7cb7d1ae0dc5",
+      "evidence": "audit142/editorial-review.json:g_61:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:62:e0:seed20261105",
+      "id": 62,
+      "previousFlags": [
+        "overlap"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "ffbd8e9e22d1e7837e6b31cfbd65fd2e2a426159ba6f76d5d99766f826408f22",
+      "newPayloadSha256": "881459ca00bb2d32b057b6a672877425eff92417249b7a9e7d285de07a187f90",
+      "evidence": "audit142/editorial-review.json:g_62:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:63:e0:seed20261105",
+      "id": 63,
+      "previousFlags": [
+        "scope"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "82d893a48e6d4a5d7cb7904f8a12bc8ac101438f4aed9554ab120a3b38372350",
+      "newPayloadSha256": "351f5dadf4c8471a16fdcb12ab7719cf1c0373742cdb3ce147fd491f810e7b21",
+      "evidence": "audit142/editorial-review.json:g_63:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:72:e0:seed20261105",
+      "id": 72,
+      "previousFlags": [
+        "scope"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "679d2e6616c37cb54943f9e483d88353a72137d07d3dccd2a5545094cdf33deb",
+      "newPayloadSha256": "fb593dfce24e6aeb71d71049e3b82a3c3e54340c91b207b11be89a39923204b7",
+      "evidence": "audit142/editorial-review.json:g_72:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:89:e0:seed20261105",
+      "id": 89,
+      "previousFlags": [
+        "hint",
+        "scope"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "071ff48fdda26c758c5c99edfab15fd5b4be286f8a9688658f464e7e2001a9bc",
+      "newPayloadSha256": "1c0730a45c8a812f61fd973232bc308ba0ee785ca1901945c7743d85928ab63b",
+      "evidence": "audit142/editorial-review.json:g_89:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:96:e0:seed20261105",
+      "id": 96,
+      "previousFlags": [
+        "hint",
+        "scope"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "8fe2506a80b5887357e84cda2be0c5d0a51445e7175f6e1386e45123ca7d13bd",
+      "newPayloadSha256": "55553907473f7ef1bd1881689a2f383bcc10271ed44b3e9002b501eaed825a0c",
+      "evidence": "audit142/editorial-review.json:g_96:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:107:e0:seed20261105",
+      "id": 107,
+      "previousFlags": [
+        "hint",
+        "length"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "f957f2b1dcbe3a752a88a8325a5a7a9875959b3cdb32c4aae9ad3353ac619844",
+      "newPayloadSha256": "4bc6af2820ab0e4bcb293daf03abd2838574f2b22987fae74c5e3f792b0f268e",
+      "evidence": "audit142/editorial-review.json:g_107:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:126:e0:seed20261105",
+      "id": 126,
+      "previousFlags": [
+        "hint",
+        "scope"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "4d9091eff90798ad14795317daf54243c1e097df2bfa485011941f1677f54491",
+      "newPayloadSha256": "978bfb7bfed04b5175c3f06227e8f1128a22e88c90144aab428c80e108389bf5",
+      "evidence": "audit142/editorial-review.json:g_126:e0",
+      "fullCardCredit": false
+    },
+    {
+      "caseId": "g:130:e0:seed20261105",
+      "id": 130,
+      "previousFlags": [
+        "scope"
+      ],
+      "previousStatus": "revision_needed",
+      "status": "replaced_with_author_reviewed_context_set",
+      "sentenceSha256": "5ab933b51883c89823e5c1073e067ea9947f52f772f9af10cb87df64d7520345",
+      "newPayloadSha256": "851eba91e186d1d932fc46a8b47d1b4d97df7e24e3d392b2b87bea52d00de528",
+      "evidence": "audit142/editorial-review.json:g_130:e0",
+      "fullCardCredit": false
+    }
+  ],
+  "remainingPriorFlaggedCases": [
+    "g:2:e0:seed20261105",
+    "g:6:e0:seed20261105",
+    "g:7:e0:seed20261105",
+    "g:12:e0:seed20261105",
+    "g:17:e0:seed20261105",
+    "g:18:e0:seed20261105",
+    "g:21:e0:seed20261105",
+    "g:25:e0:seed20261105",
+    "g:26:e0:seed20261105",
+    "g:31:e0:seed20261105",
+    "g:39:e0:seed20261105",
+    "g:40:e0:seed20261105",
+    "g:42:e0:seed20261105",
+    "g:43:e0:seed20261105",
+    "g:44:e0:seed20261105",
+    "g:46:e0:seed20261105",
+    "g:47:e0:seed20261105",
+    "g:48:e0:seed20261105",
+    "g:52:e0:seed20261105",
+    "g:54:e0:seed20261105",
+    "g:55:e0:seed20261105",
+    "g:58:e0:seed20261105",
+    "g:60:e0:seed20261105",
+    "g:67:e0:seed20261105",
+    "g:69:e0:seed20261105",
+    "g:73:e0:seed20261105",
+    "g:78:e0:seed20261105",
+    "g:82:e0:seed20261105",
+    "g:87:e0:seed20261105",
+    "g:88:e0:seed20261105",
+    "g:90:e0:seed20261105",
+    "g:91:e0:seed20261105",
+    "g:92:e0:seed20261105",
+    "g:97:e0:seed20261105",
+    "g:98:e0:seed20261105",
+    "g:99:e0:seed20261105",
+    "g:103:e0:seed20261105",
+    "g:104:e0:seed20261105",
+    "g:105:e0:seed20261105",
+    "g:108:e0:seed20261105",
+    "g:109:e0:seed20261105",
+    "g:110:e0:seed20261105",
+    "g:111:e0:seed20261105",
+    "g:112:e0:seed20261105",
+    "g:113:e0:seed20261105",
+    "g:115:e0:seed20261105",
+    "g:116:e0:seed20261105",
+    "g:117:e0:seed20261105",
+    "g:119:e0:seed20261105",
+    "g:128:e0:seed20261105",
+    "g:129:e0:seed20261105"
+  ],
+  "remainingPriorFlaggedCount": 51,
+  "previousNoIssueFoundInOneDraw": 63,
+  "warning": "Historical one-draw observations are not full linguistic acceptance. Other draws/unreviewed examples still need audit.",
+  "previousQuizEvidence": "completion/C11-saved-sets-result.json",
+  "registerReviewed": 325,
+  "registerPending": 5517,
+  "newFullCardCredits": 0,
+  "newRegisterCredits": 0,
+  "generationCases": 2260,
+  "renderedCases": 1695
+}
