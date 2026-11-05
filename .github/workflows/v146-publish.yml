@@ -1,0 +1,65 @@
+name: Verify and publish JLPT N1 v146
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audit146/**'
+      - '.github/workflows/v146-publish.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v146-release
+  cancel-in-progress: true
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build exact release and verify all authorized changes
+        run: |
+          git fetch --depth=1 origin c9f014ed0694d437d5c7f6272a5a9fd114e6d401
+          python3 audit146/build.py
+          python3 audit146/check.py
+          python3 audit146/coverage.py
+          node --check audit146/app.js
+      - name: Prepare Chromium and Japanese font
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify new grammar contexts and prior saved sets
+        run: |
+          node audit146/meaning-browser.cjs
+          node audit146/coverage-browser.cjs
+          node audit146/scope-browser.cjs
+          node audit146/grammar-browser.cjs
+      - name: Verify presentation, navigation, persistence and complete session
+        run: |
+          node audit146/presentation.cjs
+          node audit146/ui.cjs
+          node audit146/browser-functional.cjs
+          node audit146/session-completion.cjs
+          node audit146/comparison-browser.cjs
+      - name: Publish complete HTML, audit and feedback evidence
+        run: |
+          python3 audit146/publish.py
+          python3 audit146/check.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v146.html JLPT_N1_v146_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/C10-C18-v146-result.json audit146/build-summary.json audit146/editorial-review.json audit146/provenance.json audit146/grammar-coverage.json audit146/*-results.json completion/review-register.csv
+          git commit -m "Release JLPT N1 v146: audit 24 grammar cards and 17 comparisons; retain all 396 prior author credits"
+          git push origin HEAD:main
+      - name: Verify published full release
+        run: |
+          git fetch origin main
+          for file in JLPT_N1_ukrainian_reading_v146.html JLPT_N1_v146_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/C10-C18-v146-result.json completion/review-register.csv; do
+            test "$(git hash-object "$file")" = "$(git rev-parse "origin/main:$file")"
+          done
