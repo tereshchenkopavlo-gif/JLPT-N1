@@ -1,0 +1,1298 @@
+{
+  "version": 149,
+  "sha256": "4490611521fab2c9b713bfda7a39e327b9923e35ea16df5cca6aa1937b51ed38",
+  "reviewType": "author_editorial_review",
+  "independentReview": false,
+  "grammarCards": 27,
+  "grammarExampleTranslationsRead": 55,
+  "grammarPairs": 9,
+  "changedUkrainianExampleTranslations": 10,
+  "newQuizCredits": 0,
+  "newRegisterCredits": 36,
+  "exclusions": [
+    "independent expert acceptance",
+    "physical-device acceptance",
+    "source/page/provenance clearance",
+    "new exhaustive taxonomy or JLPT level assignment",
+    "all other unreviewed cards and pairs"
+  ],
+  "rows": [
+    {
+      "kind": "grammar",
+      "key": "104",
+      "word": "〜ずくめ",
+      "beforeSha256": "7d58cceb4cf6b21a07528069f7b8823e1af93fa4c716f35ca94f09b455d416d2",
+      "afterSha256": "35727035bbc3a42097b32c964a87773d7cbcf1594a30cbeabf9713a480f54054",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Негаразди й чорний одяг показують однорідність. Прибрано широке ототожнення з だらけ.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "今年は記録的な猛暑に自然災害も重なり、悪いことずくめの一年だった。",
+          "ukrainian": "Цього року до рекордної спеки додалися стихійні лиха — суцільні негаразди.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "黒ずくめの服装の男が、会場の入口に立っていた。",
+          "ukrainian": "Біля входу до зали стояв чоловік, одягнений у все чорне.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "105",
+      "word": "〜まみれ",
+      "beforeSha256": "c22f5afe69141e1e2902090b924db7287a636eb2d8c2cf4bade0168ec1df787c",
+      "afterSha256": "ac29708eebc5ea1d05379f01f676161dc30ecddcc8325431adbe5644977e676c",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Мастило й багнюка є речовинами. Переклад прибирає непідтверджену деталь про все тіло.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "作業員たちは油まみれになって機械を修理した。",
+          "ukrainian": "Робітники ремонтували машину, геть забруднившись мастилом.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "泥まみれの靴を玄関で脱いだ。",
+          "ukrainian": "Я зняв у передпокої взуття, усе в багнюці.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "106",
+      "word": "～めく",
+      "beforeSha256": "5571146ee3c94876119129e227f2f4f8bb9ea7000472f2534cc955ba613d74d5",
+      "afterSha256": "2cef83a88f3319c40b7c0d5f425199a9af9abe888de0db200c2220aafd5a09a2",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Іронічність і весняний характер показані формою めいた. Переклад відновлює відтінок подібності.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "彼の発言には、どこか皮肉めいた響きがあった。",
+          "ukrainian": "У його словах відчувався якийсь іронічний відтінок.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "春めいた陽気に誘われて、多くの人が公園に足を運んだ。",
+          "ukrainian": "Погода вже нагадувала весну й виманила багатьох людей до парку.",
+          "decision": "translation_corrected"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "107",
+      "word": "〜からある・〜からいる・〜からする",
+      "beforeSha256": "2d9520672fa5e0ca599bfdc732106334391e73549fff6a775196d86cb5e2649e",
+      "afterSha256": "4d7fdd21103a1559038406f19e236df775314a13d8a08eecc8e1fff0da57ed8b",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Три приклади послідовно показують вагу, учасників і ціну. Уточнено місце збору.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "この荷物は十キロからある。",
+          "ukrainian": "Цей багаж важить аж десять кілограмів.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "会場には百人からいる参加者が集まった。",
+          "ukrainian": "У залі зібралося аж сто учасників.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 2,
+          "japanese": "あの時計は一千万円からする。",
+          "ukrainian": "Той годинник коштує аж десять мільйонів єн.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "108",
+      "word": "～と相まって",
+      "beforeSha256": "bf16a3ba5b8b1621bd26c249c05eb45aec52db10f274c9dca4e431d23ef85641",
+      "afterSha256": "ab67e7337eef670655b2c29e9e5adccb94013955b6b90d42f8d934d1bfd4e2a9",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Обидва приклади показують спільний ефект чинників. Сприятливість залежить від результату.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "円安と相まって、原材料の価格高騰が企業収益を圧迫している。",
+          "ukrainian": "Подорожчання сировини в поєднанні зі слабкою єною тисне на прибутки компаній.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "彼の粘り強い努力と周囲の支援が相まって、計画は成功を収めた。",
+          "ukrainian": "Завдяки поєднанню його наполегливих зусиль і підтримки оточення план завершився успіхом.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "109",
+      "word": "〜を踏まえて",
+      "beforeSha256": "e5699df08b8df327bfae02b0a15fc966e9c239fd9620622761ba588218da58b7",
+      "afterSha256": "929685c9cee7d2c5c4de01a7c2e2571f8db66335d0c33301a094a20e7908c5b0",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Рішення спирається на перебіг подій або думку експертів. Обидва переклади зберігають цю опору.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "これまでの経緯を踏まえて、今後の対応を慎重に検討する。",
+          "ukrainian": "Враховуючи попередній перебіг подій, ми ретельно розглянемо подальші дії.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "専門家の意見を踏まえ、政府は新たな方針を発表した。",
+          "ukrainian": "Уряд оголосив новий курс, узявши до уваги думки фахівців.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "110",
+      "word": "〜を経て",
+      "beforeSha256": "a9bb3d4a30d6521a895db48ba07f1eb0ed444ba0a4e3282cb335a3024eea5dbe",
+      "afterSha256": "499c285816c2e92fca6b41495c7d65c172a98b023d45b545481d8e4acbd58f50",
+      "changedFields": [
+        "m",
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "ようやく і ついに позначають завершеність очікування. 経て задає проміжний процес.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "数回の審議を経て、ようやく法案が可決された。",
+          "ukrainian": "Після кількох обговорень законопроєкт нарешті ухвалили.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "長い交渉を経て、両社はついに合併に合意した。",
+          "ukrainian": "Після тривалих переговорів обидві компанії зрештою погодили злиття.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "111",
+      "word": "～にかこつけて",
+      "beforeSha256": "07f7aec3b6f7d717dd561119016bddf4f89c6fb186027b6b610f3c0d732c3ec5",
+      "afterSha256": "67c7388a231a8776e47748ffa6f96e34ab9721e28d0d5c25041ee60afde10beb",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Відрядження й зайнятість можуть бути справжніми. Перевірено словникове значення приводу.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "彼は出張にかこつけて、観光地を巡っていた。",
+          "ukrainian": "Під приводом відрядження він оглядав туристичні місця.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "忙しさにかこつけて、必要な報告を怠ってはならない。",
+          "ukrainian": "Не можна нехтувати необхідними звітами, прикриваючись зайнятістю.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "112",
+      "word": "〜であれ〜であれ",
+      "beforeSha256": "238c2650453eadc783511af76430a1a010bf804a2facb5568cf3b46f1a319592",
+      "afterSha256": "1ba3365230cf6fd78ee8c10b83bcd6621c73f4fff682c84d7f8e195b569e74cf",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Розрізнено два названі випадки й узагальнення 何であれ. Висновок поширюється на всі варіанти.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "大企業であれ中小企業であれ、法令遵守は等しく求められる。",
+          "ukrainian": "І від великих, і від малих та середніх компаній однаково вимагають дотримання законодавства.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "理由は何であれ、無断欠勤は許されない。",
+          "ukrainian": "Хоч би якою була причина, відсутність на роботі без повідомлення неприпустима.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "113",
+      "word": "〜ともなく",
+      "beforeSha256": "529cec4e489b6553d7fc88c2cb414ee8d6d4b67e1149221732a437a676a11bdb",
+      "afterSha256": "30aa3d7fe6e89b2c7759f9efaafc817aae592479746c9c526dcae2a817a1d637",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "У першому прикладі погляд нецілеспрямований. У другому важлива інформація випадково долинає.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "彼は窓の外を見るともなく見ながら、今後の方針を考えていた。",
+          "ukrainian": "Він без особливої уваги дивився у вікно й обмірковував подальші дії.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "隣の席の会話を聞くともなく聞いているうちに、重要な情報が耳に入った。",
+          "ukrainian": "Я слухав розмову за сусіднім столом без особливої уваги й випадково почув важливу інформацію.",
+          "decision": "translation_corrected"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "114",
+      "word": "〜といい〜といい",
+      "beforeSha256": "557f8e2739b2182872d9a31e85510336428fcf9bd3dff46db1ae6afa24445311",
+      "afterSha256": "c8b56f1e33098f6f9046b311af3bc25cc41b03e8abd6f3ae0e1a81b192a6ed04",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Умови й атмосфера, якість і ціна є рисами для спільної оцінки. Обидва приклади позитивні.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "待遇といい、職場の雰囲気といい、この会社は理想的な環境だ。",
+          "ukrainian": "І умови праці, і атмосфера в колективі — у цій компанії ідеальне середовище.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "品質といい価格といい、この製品は競合品より優れている。",
+          "ukrainian": "І за якістю, і за ціною цей виріб перевершує конкурентів.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "115",
+      "word": "～なり～なり",
+      "beforeSha256": "101e75575526646fd1832111f3d946b509c72380963586c7e166c84032ba5412",
+      "afterSha256": "d05443b8b0d21c14ab80737ae3f72dca544c3584081ab96472050d35efa6f4e0",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Варіанти є способами зв’язку або надсилання. Вибір не обмежений двома пунктами.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "詳細は電話なりメールなりで、お気軽にお問い合わせください。",
+          "ukrainian": "Щодо подробиць сміливо звертайтеся, наприклад телефоном або електронною поштою.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "資料は郵送なりメールなり、ご都合のよい方法でお送りください。",
+          "ukrainian": "Надішліть матеріали зручним для вас способом — звичайною чи електронною поштою.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "116",
+      "word": "〜つ〜つ",
+      "beforeSha256": "7bcc56db30cc67fe25504a6eafc49057df35048990c368a8296410c011da7950",
+      "afterSha256": "786f7cdce8cc67469ae55a94c9ec270eff54f5b7f76ccda0c4bfeeb03334196d",
+      "changedFields": [
+        "m",
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Обидві пари чергують активну й пасивну дію. Окремо наведено чергування без взаємності.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "両チームは、抜きつ抜かれつの接戦を繰り広げた。",
+          "ukrainian": "Команди вели напружену боротьбу, по черзі випереджаючи одна одну.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "狭い路地では、押しつ押されつしながら人々が進んでいった。",
+          "ukrainian": "У вузькому провулку люди просувалися, штовхаючи одне одного.",
+          "decision": "translation_corrected"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "117",
+      "word": "～ては～ては",
+      "beforeSha256": "3751d97bf2da417628b959a3380fa3787f59006dec9fdac0b059f183c8f31c38",
+      "afterSha256": "7452cb809e42f1e40b7365eaa99d12672c2aa7a29f1124a204c1a2c77c992282",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Писання й стирання та сміх і плач показують повторювані цикли. Негативна оцінка не обов’язкова.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "文章を書いては消し、消しては書き直して、ようやく報告書を完成させた。",
+          "ukrainian": "Я писав і стирав, стирав і переписував — і нарешті завершив звіт.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "彼女は知らせを聞いてから、笑っては泣き、泣いては笑うことを繰り返していた。",
+          "ukrainian": "Відтоді як почула звістку, вона раз у раз то сміялася, то плакала.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "118",
+      "word": "〜といおうか〜といおうか",
+      "beforeSha256": "0c19b738f1933e51fdc91c91941cee0be6f3fc89dd808d2b2e7e8e65f10f1ad9",
+      "afterSha256": "d369d19c76691d8b2b3a9d938721abf41159499b310c8c16c9b4748b9f42d520",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Перший приклад зіставляє сміливість і безрозсудність, другий удачу й іронію. Збережено риторичну оцінку.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "勇敢といおうか無謀といおうか、彼の挑戦は世間を驚かせた。",
+          "ukrainian": "Сміливість це чи безрозсудність? Його вчинок вразив громадськість.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "幸運といおうか皮肉といおうか、失敗が思わぬ成功を呼んだ。",
+          "ukrainian": "Щасливий збіг чи іронія долі — невдача принесла несподіваний успіх.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "119",
+      "word": "〜といわず〜といわず",
+      "beforeSha256": "a6d329b9bca6993385538b41b277d526dbb8e5bdad82a8c2104da061b8e53a58",
+      "afterSha256": "9ff84b24f70e670d09cb3fb1361b6b7247b3c6ca9d4af99da135f556a62f90a7",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "День і ніч, внутрішній і зовнішній ринки охоплюють контрастний діапазон.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "昼といわず夜といわず、現場では休みなく作業が続けられた。",
+          "ukrainian": "І вдень, і вночі на місці безперервно тривали роботи.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "国内といわず海外といわず、同社の製品は高く評価されている。",
+          "ukrainian": "І в країні, і за кордоном продукцію компанії високо цінують.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "120",
+      "word": "～なら～で",
+      "beforeSha256": "5c748218f5dcb8f790614f04db9690e25285ff79c1d95faf2eec3090f552d951",
+      "afterSha256": "1a88cf1adb5be4bfc28fba08d85d97d666691b878c5432217aec97aa32bd4bfd",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Зайнятість задає вимогу, а робота наодинці — перевагу. Продовження визначає оцінку.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "忙しいなら忙しいで、その状況に合った時間の使い方を工夫すべきだ。",
+          "ukrainian": "Якщо вже зайнятий, слід придумати спосіб розподіляти час відповідно до цих обставин.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "一人なら一人で、自分のペースで進められる利点がある。",
+          "ukrainian": "Якщо працювати самому, у цьому є своя перевага: можна рухатися у власному темпі.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "121",
+      "word": "〜させていただく",
+      "beforeSha256": "73d876c8d5f897943c400d4399ae49914ca9d82ea2ca5ce2109710e27f4b6f11",
+      "afterSha256": "f63f3a6d16391e8e68cbb0d1b82dca3548f0b49118930bd1045b0842715629e0",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Мовець представляє власну дію як отриману можливість. У другому прикладі дозвіл названо прямо.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "本日は、お時間をいただき、弊社の新製品をご紹介させていただきます。",
+          "ukrainian": "Дякуємо за приділений сьогодні час; дозвольте представити наш новий продукт.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "先生の許可を得て、授業を録音させていただきました。",
+          "ukrainian": "Отримавши дозвіл викладача, я скористався можливістю записати заняття.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "122",
+      "word": "〜ていただく",
+      "beforeSha256": "55c241ed967ac7fca6e86cd29c0f63414275e63f3bdc79396c27b64c0683260e",
+      "afterSha256": "13b6bef50dc24fbfb870380121d82867581da55c0dee49f218ac6c6aa8d07cf3",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Перевіряє викладач, користь отримує мовець. Переклад 添削 зберігає перевірку й виправлення.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "先生に論文を添削していただき、大変勉強になりました。",
+          "ukrainian": "Викладач перевірив і виправив мою наукову роботу, і я багато чого навчився.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "お忙しい中、資料を確認していただき、ありがとうございます。",
+          "ukrainian": "Дякую, що попри зайнятість перевірили матеріали.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "123",
+      "word": "お / ご〜願う",
+      "beforeSha256": "71dbff6f6d3ead9d30c5964f28eb432e7d03ad6a85cc9addfbb35d4fd29b81ec",
+      "afterSha256": "4bf569603207074eca070f5bdef9f2f697a5aa96ab5456f4bd72bfda6a9fd8ee",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Заповнення й утримання від фотографування є проханнями. Виправлено українське формулювання першого.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "恐れ入りますが、こちらにご記入願います。",
+          "ukrainian": "Перепрошуємо за клопіт. Будь ласка, заповніть це поле.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "会場内での撮影はご遠慮願います。",
+          "ukrainian": "Просимо утриматися від фотографування в залі.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "124",
+      "word": "お / ご〜くださる",
+      "beforeSha256": "b034959131400e541e1921d32ccd7642e86ab70dc3fe4e2bb7e9696a5573b62f",
+      "afterSha256": "f81847bd4e5583083fa267002a9a6d837bc7f3b43a2d2925e0a5423c9de1daef",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Підметом є шанований діяч. У двох прикладах це відвідування й участь.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "部長が自ら現場にお越しくださり、社員一同大変感激いたしました。",
+          "ukrainian": "Керівник особисто завітав на місце роботи, чим глибоко зворушив усіх працівників.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "ご多忙にもかかわらず、ご出席くださいましたことを厚く御礼申し上げます。",
+          "ukrainian": "Щиро дякуємо, що попри велику зайнятість ви взяли участь.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "125",
+      "word": "お / ご〜いただく",
+      "beforeSha256": "5df9a0f3e644528918b3b286487149cb5b4b41f6c688d16e94db00cc705e7800",
+      "afterSha256": "d2921345e9dc2bd94001c7e34aa49153da935007efff112264d1e2a0698fd7c5",
+      "changedFields": [
+        "t",
+        "exampleTranslations"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "У першому реченні мовець визнає клопіт іншої особи. У другому お寄せいただく оформлює отримання дії.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "お忙しいところご足労いただき、誠に恐縮です。",
+          "ukrainian": "Нам дуже ніяково, що вам довелося завітати до нас попри свою зайнятість.",
+          "decision": "translation_corrected"
+        },
+        {
+          "index": 1,
+          "japanese": "ご意見をお寄せいただければ幸いです。",
+          "ukrainian": "Будемо вдячні, якщо поділитеся своєю думкою.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "126",
+      "word": "召し上がる",
+      "beforeSha256": "ae22d3c7c8c634938cde0b7ca7aeb412523fed1aaacb332919fb93c8d2caf1c1",
+      "afterSha256": "d0b4b767d36f6a4bf93e19afae503b9f56b0dcd72d84b3d618c1513acb9ac84d",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Їжа й кава показують два значення одного шанобливого дієслова. Усталене お召し上がりになる збережено.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "どうぞ、温かいうちにお召し上がりください。",
+          "ukrainian": "Будь ласка, пригощайтеся, поки тепле.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "社長は毎朝、出社後にコーヒーを召し上がります。",
+          "ukrainian": "Президент компанії щоранку п’є каву після приходу на роботу.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "127",
+      "word": "〜召す",
+      "beforeSha256": "51dfdcbf901611ec823e54751d05ed17e655a44a3ddc5b65411b4fb665c58ae5",
+      "afterSha256": "52a8cb36dcbdd97eb98999c33f2ea16fdb20ded21d5650f78f0886eab48d1a01",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Одяг і вподобання належать до різних сполук із 召す. Відмінність від 召し上がる пояснено в парі.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "お客様、こちらの上着をお召しになって、鏡でお確かめください。",
+          "ukrainian": "Будь ласка, приміряйте цей піджак і подивіться в дзеркало.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "新しい制服は、皆様のお気に召したようで何よりです。",
+          "ukrainian": "Дуже раді, що нова форма, здається, усім сподобалася.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "128",
+      "word": "〜てございます",
+      "beforeSha256": "4729daf4e64e1344b6f10eaa9cdb52afa305db5c4f1becf71d695ec5f47e1ac9",
+      "afterSha256": "cfc17b23939d3f9f60286799c678f95c2abaf4d8e217902b1d803fd27ab40547",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Матеріали й місця перебувають у підготовленому стані. Виконавця дії не названо.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "ご指定の資料は、すでに机の上に置いてございます。",
+          "ukrainian": "Зазначені вами матеріали вже розкладено на столі.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "会場の前方に、お客様のお席を用意してございます。",
+          "ukrainian": "Ваші місця підготовлено в передній частині зали.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "129",
+      "word": "お越しになる",
+      "beforeSha256": "a6a02dba4003552375013a7d9ef3e5b89b054a84ad5c21d787655c625701e667",
+      "afterSha256": "a732150bfb966d861792e784e029a34857ae6ee17b143cf79fa34fc7d59ed4c7",
+      "changedFields": [
+        "m",
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Напрямок у першому прикладі встановлює こちら. Другий приклад встановлює час прибуття.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "先生は来週、こちらの研究室にお越しになります。",
+          "ukrainian": "Викладач наступного тижня завітає до нашої лабораторії.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "社長は、明日午後二時にお越しになる予定です。",
+          "ukrainian": "Президент компанії планує прибути завтра о другій годині дня.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar",
+      "key": "130",
+      "word": "その節は",
+      "beforeSha256": "f0c415676677ac8be22237101240402f6dea87a736d9b565a9b97cc6babd1c8d",
+      "afterSha256": "a8def0e054b2e6bef1700fbc754b9d35693869e345df3da42a004991e0fde7e2",
+      "changedFields": [
+        "t"
+      ],
+      "reviewedFields": [
+        "Japanese definition m",
+        "Ukrainian meaning and connection/use/constraints t",
+        "related labels s",
+        "both Japanese examples",
+        "both Ukrainian example translations",
+        "existing topical category and tags (retained, not future JLPT reclassification)"
+      ],
+      "rationale": "Подяка й вибачення стосуються минулої нагоди. Загальне пояснення залишає можливим інший час.",
+      "examples": [
+        {
+          "index": 0,
+          "japanese": "その節は、大変お世話になり、誠にありがとうございました。",
+          "ukrainian": "Щиро дякую за велику допомогу, яку ви надали тоді.",
+          "decision": "retained_after_author_reading"
+        },
+        {
+          "index": 1,
+          "japanese": "その節は、ご迷惑をおかけして申し訳ございませんでした。",
+          "ukrainian": "Перепрошую за клопіт, якого завдав вам тоді.",
+          "decision": "retained_after_author_reading"
+        }
+      ],
+      "metadataDecision": "Stable ID, heading, category, tags and inherited page g retained. Book-page accuracy/provenance not accepted by this linguistic review.",
+      "independentReview": false
+    }
+  ],
+  "pairs": [
+    {
+      "kind": "grammar_pair",
+      "key": "16",
+      "index": 16,
+      "labels": [
+        "〜ずくめ",
+        "〜まみれ"
+      ],
+      "beforeSha256": "d86bf7f4febf9044d7d4f6135d21c550626ff6d25d486c05072eec141676e1b3",
+      "afterSha256": "4aab18993e5b375f4e8e068bb9badebbc51f873f04c8bc11504e537f1ad5f394",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми описують виразну присутність однієї ознаки або речовини.",
+      "connection": "N＋ずくめ／N＋まみれ",
+      "difference": "ずくめ підкреслює однорідність кольору чи низки подій. まみれ описує забруднення або вкритість речовиною.",
+      "examples": [
+        {
+          "japanese": "今日はいいことずくめだった。",
+          "ukrainian": "Сьогодні траплялися самі приємні речі."
+        },
+        {
+          "japanese": "泥まみれの靴を脱いだ。",
+          "ukrainian": "Я зняв взуття, усе в багнюці."
+        }
+      ],
+      "substitution": "При заміні змінюється роль іменника. いいこと називає тип подій, а 泥 — речовину на поверхні.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "17",
+      "index": 17,
+      "labels": [
+        "〜といい〜といい",
+        "〜といわず〜といわず"
+      ],
+      "beforeSha256": "ae1dd202bd6d59c12e6e75fa3f892cd821c7384407cf01300fbc0ab7bdb1fe40",
+      "afterSha256": "d737b014d4f9a46d0d8f81a139f90db897355e5ae5017b6a90480a55a39e080e",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми використовують два показові елементи.",
+      "connection": "N＋といい、N＋といい／N＋といわず、N＋といわず",
+      "difference": "といい подає риси як підстави оцінки. といわず охоплює частини чи випадки без розрізнення.",
+      "examples": [
+        {
+          "japanese": "色といい形といい、見事な器だ。",
+          "ukrainian": "Ця посудина чудова і за кольором, і за формою."
+        },
+        {
+          "japanese": "顔といわず服といわず泥だらけだ。",
+          "ukrainian": "І обличчя, і одяг — усе в багнюці."
+        }
+      ],
+      "substitution": "Заміна змінює перелік оцінених рис на охоплення цілого або навпаки.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "20",
+      "index": 20,
+      "labels": [
+        "お / ご〜くださる",
+        "お / ご〜いただく"
+      ],
+      "beforeSha256": "493e3afe1413dd431ece9faa71a9a07aa7ea0362cb4e8ebb75716e4023dfa987",
+      "afterSha256": "d92ad55fbca016a68b6f287a015c20db5bc0a252d2aaa8907b107e811460ac4c",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми ввічливо описують дію, від якої хтось отримує користь.",
+      "connection": "お＋Vます語幹／ご＋漢語の動作名詞＋くださる・いただく",
+      "difference": "くださる ставить у центр шанованого діяча. いただく подає ту саму дію з погляду одержувача.",
+      "examples": [
+        {
+          "japanese": "先生がご説明くださいました。",
+          "ukrainian": "Викладач люб’язно все пояснив."
+        },
+        {
+          "japanese": "先生にご説明いただきました。",
+          "ukrainian": "Викладач люб’язно надав нам пояснення."
+        }
+      ],
+      "substitution": "При заміні змінюються підмет і позначення діяча. Порівняйте 先生が та 先生に.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "27",
+      "index": 27,
+      "labels": [
+        "〜ていただく",
+        "お / ご〜いただく"
+      ],
+      "beforeSha256": "a67ad9ee203ef36cfb326ac619ae5a83f41b5ea79caf07be8f7e788c8dad1504",
+      "afterSha256": "b43d1fb0c9fc12b3a0b8813a486f9899a15ea7f1fe52d28f1d60fe1beefef257",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми представляють дію іншої особи як отриману послугу.",
+      "connection": "Vて＋いただく／お＋Vます語幹・ご＋漢語の動作名詞＋いただく",
+      "difference": "ていただく використовує форму て. У другій моделі дію позначає усталена форма з お або ご.",
+      "examples": [
+        {
+          "japanese": "先生に推薦状を書いていただいた。",
+          "ukrainian": "Викладач люб’язно написав мені рекомендаційного листа."
+        },
+        {
+          "japanese": "ご確認いただきありがとうございます。",
+          "ukrainian": "Дякую, що перевірили."
+        }
+      ],
+      "substitution": "Заміна потребує перебудови дієслова. Природність форми з お／ご залежить від сполуки.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "40",
+      "index": 40,
+      "labels": [
+        "〜であれ〜であれ",
+        "～なり～なり"
+      ],
+      "beforeSha256": "fd99f69d7f8cc3fe0660bb5aced0d549ed7c5336307d5357420c04a8047841ce",
+      "afterSha256": "855e019f30f616ef7dfcb0fd3f251d73094d6c8bf0b5f0bc7e3ad6d82ecbb589",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми називають альтернативи.",
+      "connection": "N＋であれ、N＋であれ／N・V辞書形＋なり、N・V辞書形＋なり",
+      "difference": "であれ поширює висновок на кожен названий випадок. なり пропонує кілька можливих способів дії.",
+      "examples": [
+        {
+          "japanese": "賛成であれ反対であれ、意見を述べてほしい。",
+          "ukrainian": "Прошу висловити думку, незалежно від того, ви за чи проти."
+        },
+        {
+          "japanese": "電話するなりメールするなりして連絡して。",
+          "ukrainian": "Зв’яжися зі мною, наприклад телефоном або електронною поштою."
+        }
+      ],
+      "substitution": "Підстановка змінює незалежність висновку від варіанта на пропозицію обрати спосіб.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "42",
+      "index": 42,
+      "labels": [
+        "〜させていただく",
+        "〜ていただく"
+      ],
+      "beforeSha256": "6761c769148863c5a6f0d4b19da1ea41a477712bbf8821969231c93aecee58d2",
+      "afterSha256": "d7a17b629a08e77e2e009d0d013f46b87cb1962240d340c221d60192b0d58939",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми представляють отриману користь через いただく.",
+      "connection": "V使役形のて形＋いただく／Vて＋いただく",
+      "difference": "У させていただく мовець виконує дію за дозволом чи сприянням. У 書いていただく дію виконує інша особа.",
+      "examples": [
+        {
+          "japanese": "本日は早退させていただきます。",
+          "ukrainian": "З вашого дозволу сьогодні піду раніше."
+        },
+        {
+          "japanese": "先生に推薦状を書いていただいた。",
+          "ukrainian": "Викладач люб’язно написав мені рекомендаційного листа."
+        }
+      ],
+      "substitution": "Заміна змінює того, хто виконує основну дію. Доречність させていただく залежить від ситуації.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "74",
+      "index": 74,
+      "labels": [
+        "〜といおうか〜といおうか",
+        "〜といい〜といい"
+      ],
+      "beforeSha256": "1f5d27217a7f369a86113ba8ae2827d255fc3eec30047faa15f5515258098253",
+      "afterSha256": "0215d29a1a8adf6abbe33dc066a5f90b6327c5523f2d7cb6fc3d3506d7a0a7e1",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві форми можуть передавати оцінку.",
+      "connection": "N・評価表現＋といおうか、N・評価表現＋といおうか／N＋といい、N＋といい",
+      "difference": "といおうか показує пошук формулювання. といい наводить дві риси для спільної оцінки.",
+      "examples": [
+        {
+          "japanese": "彼の態度は無責任といおうか、無神経といおうか、理解しがたい。",
+          "ukrainian": "Його поведінку, чи то безвідповідальну, чи то безтактну, важко зрозуміти."
+        },
+        {
+          "japanese": "色といい形といい、この器は美しい。",
+          "ukrainian": "Ця посудина гарна і за кольором, і за формою."
+        }
+      ],
+      "substitution": "Підстановка потребує переходу від можливих назв до окремих рис предмета.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "75",
+      "index": 75,
+      "labels": [
+        "お / ご〜願う",
+        "お / ご〜いただく"
+      ],
+      "beforeSha256": "957e040614b56bf1aa575f10b8fe95969c7d2c4d0b51c422718831eea5eb8517",
+      "afterSha256": "c0f90df9d6e05657d7a83b82f3ac628f14e1bab48974744a8fdca3bde27b1cae",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидві моделі доречні у ввічливому діловому спілкуванні.",
+      "connection": "お＋Vます語幹／ご＋漢語の動作名詞＋願う・いただく",
+      "difference": "願います прямо просить виконати дію. いただく подає дію як отриману, а питання чи умовна форма можуть виражати прохання.",
+      "examples": [
+        {
+          "japanese": "ご確認願います。",
+          "ukrainian": "Просимо перевірити."
+        },
+        {
+          "japanese": "ご確認いただき、ありがとうございます。",
+          "ukrainian": "Дякуємо, що перевірили."
+        }
+      ],
+      "substitution": "Для прохання через いただく потрібне відповідне закінчення, наприклад いただけますか.",
+      "independentReview": false
+    },
+    {
+      "kind": "grammar_pair",
+      "key": "83",
+      "index": 83,
+      "labels": [
+        "召し上がる",
+        "〜召す"
+      ],
+      "beforeSha256": "5f6367c03d4fcc7040963d6ebdd000e5fc299ff443446f6590c77ed0c033d44d",
+      "afterSha256": "f09c511330431d7bec1a0330a2cf5ec8e72f8bd78ab69a998059ede0ec12da3d",
+      "reviewedFields": [
+        "shared meaning",
+        "connection of both forms",
+        "semantic/register distinction",
+        "Japanese examples and Ukrainian translations",
+        "substitution limits"
+      ],
+      "decision": "rewritten_and_author_reviewed",
+      "common": "Обидва дієслова можуть шанобливо описувати дію іншої особи.",
+      "connection": "独立した動詞 召し上がる／お召しになる など",
+      "difference": "召し上がる стосується їжі або пиття. お召しになる в контексті одягу означає вдягнути або носити.",
+      "examples": [
+        {
+          "japanese": "どうぞお茶を召し上がってください。",
+          "ukrainian": "Будь ласка, випийте чаю."
+        },
+        {
+          "japanese": "今日は素敵なお着物をお召しですね。",
+          "ukrainian": "Сьогодні на вас чудове кімоно."
+        }
+      ],
+      "substitution": "Вибір визначає дія. Для інших сполук із 召す, як お気に召す, значення встановлюють окремо.",
+      "independentReview": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "4490611521fab2c9b713bfda7a39e327b9923e35ea16df5cca6aa1937b51ed38",
+  "browser": "141.0.7390.37",
+  "results": [
+    {
+      "width": 360,
+      "pass": true,
+      "vocabularyProgressRecords": 1,
+      "grammarProgressRecords": 1,
+      "comparisonRecords": 1
+    },
+    {
+      "width": 412,
+      "pass": true,
+      "vocabularyProgressRecords": 1,
+      "grammarProgressRecords": 1,
+      "comparisonRecords": 1
+    },
+    {
+      "width": 1280,
+      "pass": true,
+      "vocabularyProgressRecords": 1,
+      "grammarProgressRecords": 1,
+      "comparisonRecords": 1
+    }
+  ]
+}
