@@ -18,3 +18,5 @@ node audit-pilot/follow-up.cjs
 node audit-pilot/follow-up.cjs /tmp/jlpt-v152-trial/trial-230.html
 node audit-pilot/follow-up.cjs /tmp/jlpt-v152-trial/trial-230-255.html --extra-pos
 ```
+
+Наступний прогін із десятьма японськими визначеннями описано в [DEFINITIONS_TRIAL.md](DEFINITIONS_TRIAL.md).

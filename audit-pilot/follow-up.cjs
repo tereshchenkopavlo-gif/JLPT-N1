@@ -6,6 +6,7 @@ const vm = require('node:vm');
 const baseline = path.resolve(__dirname, '../JLPT_N1_ukrainian_reading_v152.html');
 const html = fs.readFileSync(process.argv[2] || baseline, 'utf8');
 const extraPos = process.argv.includes('--extra-pos');
+const definitionTrial = process.argv.includes('--definitions');
 
 function section(start, end) {
   const from = html.indexOf(start);
@@ -39,7 +40,23 @@ for (const seed of [0, 0.99]) {
 const direct = ACTIVE_VOCAB.find(v => String(v.id) === '255');
 const directItem = {kind: 'v', id: '255', word: direct};
 const card230 = VOCAB_DETAILS_BY_ID['230'];
+const reviewedDefinitions = ${definitionTrial} ? [
+  '122', '131', '144', '184', '203', '264', '267', '268', '293', '313',
+].map(id => {
+  const word = ACTIVE_VOCAB.find(v => String(v.id) === id);
+  const item = {kind: 'v', id, word};
+  const def = SmartEngine.getDefinition(word.w, 'v', id);
+  return {
+    id,
+    definition: def.m,
+    examples: def.examples.map(example => {
+      const quiz = quizMeaningOptions(item, def, example);
+      return {correct: quiz.correct, wrong: quiz.wrong};
+    }),
+  };
+}) : [];
 JSON.stringify({
+  reviewedDefinitions,
   reading255: quizReadingOptions(directItem),
   clozePool255: clozeWordCandidates(directItem).length,
   newExample230: card230.examples[0],
@@ -59,5 +76,16 @@ assert.deepEqual(result.partsOfSpeech, [['名詞'], ['名詞', '副詞'], extraP
 for (const passage of result.passages) {
   assert.deepEqual(passage.targetKeys, ['v:230', 'v:3890']);
   assert.deepEqual(passage.correctChoiceOccurrences, [1, 1]);
+}
+if (definitionTrial) {
+  assert.equal(result.reviewedDefinitions.length, 10);
+  for (const row of result.reviewedDefinitions) {
+    assert.equal(row.examples.length, 2, row.id);
+    for (const { correct, wrong } of row.examples) {
+      assert.equal(correct, row.definition, row.id);
+      assert.equal(wrong.length, 3, row.id);
+      assert.equal(new Set([correct, ...wrong]).size, 4, row.id);
+    }
+  }
 }
 console.log(JSON.stringify(result, null, 2));
