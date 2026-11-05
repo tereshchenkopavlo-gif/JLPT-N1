@@ -25,6 +25,7 @@ jobs:
           node-version: '22'
       - name: Build exact release and verify all authorized changes
         run: |
+          git fetch --depth=1 origin 7c390b6eccb3eb7d75ed1ff1a5a4debac15fe742
           python3 audit145/build.py
           python3 audit145/check.py
           python3 audit145/coverage.py
