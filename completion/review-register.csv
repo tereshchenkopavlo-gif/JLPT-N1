@@ -1,34 +1,34 @@
 kind,key,baselineLocation,finalReview,evidence
-vocab,1,vocab:1,pending,
-vocab,2,vocab:2,pending,
-vocab,3,vocab:3,pending,
-vocab,4,vocab:4,pending,
-vocab,5,vocab:5,pending,
-vocab,6,vocab:6,pending,
-vocab,7,vocab:7,pending,
-vocab,8,vocab:8,pending,
-vocab,9,vocab:9,pending,
-vocab,10,vocab:10,pending,
-vocab,11,vocab:11,pending,
-vocab,12,vocab:12,pending,
-vocab,13,vocab:13,pending,
-vocab,14,vocab:14,pending,
-vocab,15,vocab:15,pending,
-vocab,16,vocab:16,pending,
-vocab,17,vocab:17,pending,
-vocab,18,vocab:18,pending,
-vocab,19,vocab:19,pending,
-vocab,20,vocab:20,pending,
-vocab,21,vocab:21,pending,
-vocab,22,vocab:22,pending,
-vocab,23,vocab:23,pending,
-vocab,24,vocab:24,pending,
-vocab,25,vocab:25,pending,
-vocab,26,vocab:26,pending,
-vocab,27,vocab:27,pending,
-vocab,28,vocab:28,pending,
-vocab,29,vocab:29,pending,
-vocab,30,vocab:30,pending,
+vocab,1,vocab:1,reviewed,"audit150/editorial-review.json:vocab:1; author linguistic review, not independent; provenance/physical excluded"
+vocab,2,vocab:2,reviewed,"audit150/editorial-review.json:vocab:2; author linguistic review, not independent; provenance/physical excluded"
+vocab,3,vocab:3,reviewed,"audit150/editorial-review.json:vocab:3; author linguistic review, not independent; provenance/physical excluded"
+vocab,4,vocab:4,reviewed,"audit150/editorial-review.json:vocab:4; author linguistic review, not independent; provenance/physical excluded"
+vocab,5,vocab:5,reviewed,"audit150/editorial-review.json:vocab:5; author linguistic review, not independent; provenance/physical excluded"
+vocab,6,vocab:6,reviewed,"audit150/editorial-review.json:vocab:6; author linguistic review, not independent; provenance/physical excluded"
+vocab,7,vocab:7,reviewed,"audit150/editorial-review.json:vocab:7; author linguistic review, not independent; provenance/physical excluded"
+vocab,8,vocab:8,reviewed,"audit150/editorial-review.json:vocab:8; author linguistic review, not independent; provenance/physical excluded"
+vocab,9,vocab:9,reviewed,"audit150/editorial-review.json:vocab:9; author linguistic review, not independent; provenance/physical excluded"
+vocab,10,vocab:10,reviewed,"audit150/editorial-review.json:vocab:10; author linguistic review, not independent; provenance/physical excluded"
+vocab,11,vocab:11,reviewed,"audit150/editorial-review.json:vocab:11; author linguistic review, not independent; provenance/physical excluded"
+vocab,12,vocab:12,reviewed,"audit150/editorial-review.json:vocab:12; author linguistic review, not independent; provenance/physical excluded"
+vocab,13,vocab:13,reviewed,"audit150/editorial-review.json:vocab:13; author linguistic review, not independent; provenance/physical excluded"
+vocab,14,vocab:14,reviewed,"audit150/editorial-review.json:vocab:14; author linguistic review, not independent; provenance/physical excluded"
+vocab,15,vocab:15,reviewed,"audit150/editorial-review.json:vocab:15; author linguistic review, not independent; provenance/physical excluded"
+vocab,16,vocab:16,reviewed,"audit150/editorial-review.json:vocab:16; author linguistic review, not independent; provenance/physical excluded"
+vocab,17,vocab:17,reviewed,"audit150/editorial-review.json:vocab:17; author linguistic review, not independent; provenance/physical excluded"
+vocab,18,vocab:18,reviewed,"audit150/editorial-review.json:vocab:18; author linguistic review, not independent; provenance/physical excluded"
+vocab,19,vocab:19,reviewed,"audit150/editorial-review.json:vocab:19; author linguistic review, not independent; provenance/physical excluded"
+vocab,20,vocab:20,reviewed,"audit150/editorial-review.json:vocab:20; author linguistic review, not independent; provenance/physical excluded"
+vocab,21,vocab:21,reviewed,"audit150/editorial-review.json:vocab:21; author linguistic review, not independent; provenance/physical excluded"
+vocab,22,vocab:22,reviewed,"audit150/editorial-review.json:vocab:22; author linguistic review, not independent; provenance/physical excluded"
+vocab,23,vocab:23,reviewed,"audit150/editorial-review.json:vocab:23; author linguistic review, not independent; provenance/physical excluded"
+vocab,24,vocab:24,reviewed,"audit150/editorial-review.json:vocab:24; author linguistic review, not independent; provenance/physical excluded"
+vocab,25,vocab:25,reviewed,"audit150/editorial-review.json:vocab:25; author linguistic review, not independent; provenance/physical excluded"
+vocab,26,vocab:26,reviewed,"audit150/editorial-review.json:vocab:26; author linguistic review, not independent; provenance/physical excluded"
+vocab,27,vocab:27,reviewed,"audit150/editorial-review.json:vocab:27; author linguistic review, not independent; provenance/physical excluded"
+vocab,28,vocab:28,reviewed,"audit150/editorial-review.json:vocab:28; author linguistic review, not independent; provenance/physical excluded"
+vocab,29,vocab:29,reviewed,"audit150/editorial-review.json:vocab:29; author linguistic review, not independent; provenance/physical excluded"
+vocab,30,vocab:30,reviewed,"audit150/editorial-review.json:vocab:30; author linguistic review, not independent; provenance/physical excluded"
 vocab,31,vocab:31,pending,
 vocab,32,vocab:32,pending,
 vocab,33,vocab:33,pending,
