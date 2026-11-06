@@ -11,7 +11,7 @@ on:
       - 'audit-pilot/**'
       - '.github/workflows/v153-pilot-acceptance.yml'
 permissions:
-  contents: read
+  contents: write
 jobs:
   acceptance:
     if: github.event_name == 'push' || github.head_ref == 'work/vocab-audit-pilot'
@@ -23,8 +23,9 @@ jobs:
           node-version: '22'
       - run: |
           python3 audit-pilot/trial.py --out pilot-acceptance-output
-          python3 audit-pilot/acceptance.py pilot-acceptance-output/trial-editorial.html
-          node audit-pilot/follow-up.cjs pilot-acceptance-output/trial-editorial.html --meaning --editorial > pilot-acceptance-output/acceptance-engine.json
+          python3 audit-pilot/release153.py pilot-acceptance-output
+          python3 audit-pilot/acceptance.py pilot-acceptance-output/JLPT_N1_ukrainian_reading_v153.html
+          node audit-pilot/follow-up.cjs pilot-acceptance-output/JLPT_N1_ukrainian_reading_v153.html --meaning --editorial > pilot-acceptance-output/acceptance-engine.json
       - run: |
           npm install --no-save playwright@1.56.1
           npx playwright install --with-deps chromium
@@ -37,3 +38,17 @@ jobs:
         with:
           name: v153-pilot-acceptance
           path: pilot-acceptance-output/acceptance-*.json
+      - name: Publish the accepted v153 build
+        if: github.event_name == 'pull_request' && github.event.pull_request.number == 1 && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git fetch --depth=1 origin main
+          test "$(git rev-parse FETCH_HEAD)" = cb9e88a033dd7bd8ad49b9e23b44a55bc8066dba
+          python3 audit-pilot/release153.py pilot-acceptance-output --stage
+          git read-tree FETCH_HEAD
+          git add JLPT_N1_ukrainian_reading_v153.html JLPT_N1_v153_audit.md README.md PROJECT_STATUS.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit-tree "$(git write-tree)" -p FETCH_HEAD -m 'Release JLPT N1 v153 after browser acceptance' > pilot-acceptance-output/published-commit.txt
+          git push origin "$(cat pilot-acceptance-output/published-commit.txt):refs/heads/main"
+          git fetch --depth=1 origin main
+          test "$(git rev-parse FETCH_HEAD:JLPT_N1_ukrainian_reading_v153.html)" = "$(git hash-object JLPT_N1_ukrainian_reading_v153.html)"
