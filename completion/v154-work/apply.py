@@ -39,8 +39,8 @@ with ledger.open(encoding="utf-8", newline="") as file:
         card["exampleTranslations"][index] = translation
         seen.add(key)
 
-if len(seen) != 37:
-    raise ValueError("Expected 37 translations")
+if len(seen) != 44:
+    raise ValueError("Expected 44 translations")
 
 pilot_ledger = Path(__file__).with_name("pilot-fields.tsv")
 pilot_seen = set()
