@@ -19,3 +19,5 @@ node audit-pilot/follow-up.cjs /tmp/jlpt-v152-trial/trial-meaning.html --meaning
 ```
 
 SHA-256 пробного HTML — `de86aeeaf632a00273e26b84a40f36c8adca632dea33fd46c2e0ba45b0238f71`.
+
+Наступну пробу з 26 українськими перекладами описано в [TRANSLATIONS_TRIAL.md](TRANSLATIONS_TRIAL.md).

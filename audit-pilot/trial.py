@@ -53,6 +53,36 @@ MEANING_TRIAL = {
 }
 
 
+TRANSLATION_EDITS = {
+    '121': (0, 'Професор читає лекції з економіки в університеті.'),
+    '128': (1, 'Саме у складних ситуаціях перевіряється справжня спроможність організації.'),
+    '129': (1, 'Через плутанину між ліками зі схожими назвами хтось помилково прийняв не той препарат.'),
+    '148': (1, 'Коли ми поглянули на проблему з іншого боку, її суть почала прояснюватися.'),
+    '149': (1, 'Завдяки досвіду за кордоном мій кругозір значно розширився.'),
+    '151': (1, 'Японія залежить від імпорту значної частини своїх енергоресурсів.'),
+    '168': (0, 'Компанія, з якою ми багато років вели справи, раптово повідомила нам про припинення договору.'),
+    '169': (1, 'Статтю завершили після неодноразового збирання матеріалів на місці.'),
+    '182': (0, 'Цього фінансового року під час розподілу бюджету пріоритет віддадуть підготовці кадрів.'),
+    '199': (1, 'Безлад триває, і поки неясно, коли його вдасться владнати.'),
+    '201': (0, 'Дедалі більше працівників хочуть перейти на інший вид роботи.'),
+    '202': (1, 'Він сумлінно виконує посадові обов’язки, і керівник йому дуже довіряє.'),
+    '221': (0, 'Протидію низькій народжуваності визначили як першочергове завдання державної політики.'),
+    '223': (0, 'Під час негласної перевірки викрили, хто саме вчиняв порушення.'),
+    '235': (1, 'За підсумками підрахунку голосів того ж дня перемога чинного посадовця стала практично певною.'),
+    '250': (1, 'Освоєння нових напрямів є рушієм зростання компанії.'),
+    '256': (0, 'Підвищення мінімальної зарплати посилює фінансовий тиск на малі й середні підприємства.'),
+    '259': (1, 'Ретельно розглянувши пропозицію, вирішать, чи її приймати.'),
+    '260': (1, 'У відповідь на запит для підготовки матеріалу нам люб’язно надали цінну інформацію.'),
+    '261': (1, 'Компанія представила конкретні числові цілі для відновлення діяльності.'),
+    '266': (1, 'З оглядового майданчика видно всю міську забудову.'),
+    '279': (0, 'Люди один за одним висловлювали глибоке співчуття постраждалим від стихії.'),
+    '282': (1, 'Порядок проведення тендеру переглянули, щоб вигоду не отримували переважно окремі компанії.'),
+    '286': (1, 'За відведений час важко відвідати всі заплановані об’єкти.'),
+    '290': (0, 'Для старших покупців розробили товар із написами, які легко читати.'),
+    '303': (0, 'Потрібно точно зрозуміти інформацію й, спираючись на неї, зважено ухвалити рішення.'),
+}
+
+
 def replace_constant(html, name, value):
     start = re.search(r'\bconst ' + name + r'\s*=\s*', html).end()
     _, end = json.JSONDecoder().raw_decode(html, start)
@@ -105,12 +135,24 @@ def main():
         }
     meaning = replace_constant(definitions, 'REVIEWED_MEANING_QUIZZES', quizzes)
     assert replace_constant(meaning, 'REVIEWED_MEANING_QUIZZES', None) == replace_constant(definitions, 'REVIEWED_MEANING_QUIZZES', None)
+    for key, (index, translation) in TRANSLATION_EDITS.items():
+        assert details[key]['exampleTranslations'][index] != translation
+        details[key]['exampleTranslations'][index] = translation
+    translations = replace_constant(meaning, 'VOCAB_DETAILS_BY_ID', details)
+    assert replace_constant(translations, 'VOCAB_DETAILS_BY_ID', None) == replace_constant(meaning, 'VOCAB_DETAILS_BY_ID', None)
+    previous_details = constant(meaning, 'VOCAB_DETAILS_BY_ID')
+    assert details.keys() == previous_details.keys()
+    assert {key for key in details if details[key] != previous_details[key]} == TRANSLATION_EDITS.keys()
+    for key, (index, translation) in TRANSLATION_EDITS.items():
+        previous_details[key]['exampleTranslations'][index] = translation
+    assert details == previous_details
     args.out.mkdir(parents=True, exist_ok=True)
     for name, content in [
         ('trial-230.html', changed),
         ('trial-230-255.html', experiment),
         ('trial-definitions.html', definitions),
         ('trial-meaning.html', meaning),
+        ('trial-translations.html', translations),
     ]:
         output = args.out / name
         output.write_text(content, encoding='utf-8')
