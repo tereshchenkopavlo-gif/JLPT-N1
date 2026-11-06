@@ -1,0 +1,68 @@
+{
+  "sha256": "4e4e6ab182ba0dd2fe52580d7f58a3bd3ee89cbabb669ac0d521bd0f9c6341e3",
+  "full": {
+    "cards": 3914,
+    "risk": {
+      "low": 2810,
+      "medium": 1055,
+      "high": 49
+    },
+    "technicalIssues": 0,
+    "errors": {},
+    "signals": {
+      "sense_or_usage_split": 1706,
+      "contrast_or_close_pair": 1082,
+      "shared_reading": 388,
+      "register": 376,
+      "context_or_reading": 185,
+      "shared_headword": 13,
+      "multiple_pos": 54,
+      "reading_format": 141,
+      "noun_gloss_possible_verb": 12,
+      "legacy_alias": 286,
+      "ambiguous_related_label": 3,
+      "usage_pos_conflict": 12,
+      "suru_pos_check": 1
+    },
+    "inherited": 120,
+    "withUnresolvedLabels": 3221,
+    "withAmbiguousLabels": 3
+  },
+  "pilot": {
+    "cards": 200,
+    "risk": {
+      "medium": 64,
+      "low": 134,
+      "high": 2
+    },
+    "technicalIssues": 0,
+    "errors": {},
+    "signals": {
+      "sense_or_usage_split": 109,
+      "shared_reading": 26,
+      "contrast_or_close_pair": 70,
+      "register": 23,
+      "multiple_pos": 6,
+      "context_or_reading": 7,
+      "shared_headword": 1
+    },
+    "inherited": 0,
+    "withUnresolvedLabels": 157,
+    "withAmbiguousLabels": 0
+  },
+  "integrity": {
+    "expected_count": 3914,
+    "duplicate_ids": [],
+    "detail_missing": [],
+    "detail_orphans": [],
+    "pos_missing": [],
+    "pos_orphans": []
+  },
+  "linkIssueCounts": {},
+  "scanSeconds": 0.99,
+  "exclusions": [
+    "runtime/browser behavior",
+    "provenance and independent acceptance",
+    "runtime routing of reading notes and automatic distractor semantics"
+  ]
+}
