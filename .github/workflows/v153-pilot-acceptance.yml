@@ -1,5 +1,10 @@
 name: JLPT N1 v153 candidate acceptance
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'audit-pilot/**'
+      - '.github/workflows/v153-pilot-acceptance.yml'
   push:
     branches: [work/vocab-audit-pilot]
     paths:
@@ -9,6 +14,7 @@ permissions:
   contents: read
 jobs:
   acceptance:
+    if: github.event_name == 'push' || github.head_ref == 'work/vocab-audit-pilot'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
