@@ -7,7 +7,11 @@ const baseline = path.resolve(__dirname, '../JLPT_N1_ukrainian_reading_v152.html
 const html = fs.readFileSync(process.argv[2] || baseline, 'utf8');
 const extraPos = process.argv.includes('--extra-pos');
 const meaningTrial = process.argv.includes('--meaning');
-const definitionTrial = process.argv.includes('--definitions');
+const editorialTrial = process.argv.includes('--editorial');
+const definitionTrial = process.argv.includes('--definitions') || editorialTrial;
+const definitionIds = editorialTrial
+  ? ['157', '209', '225', '254', '259', '270', '273', '278', '280', '312', '315']
+  : ['122', '131', '144', '184', '203', '264', '267', '268', '293', '313'];
 
 function section(start, end) {
   const from = html.indexOf(start);
@@ -41,9 +45,7 @@ for (const seed of [0, 0.99]) {
 const direct = ACTIVE_VOCAB.find(v => String(v.id) === '255');
 const directItem = {kind: 'v', id: '255', word: direct};
 const card230 = VOCAB_DETAILS_BY_ID['230'];
-const reviewedDefinitions = ${definitionTrial} ? [
-  '122', '131', '144', '184', '203', '264', '267', '268', '293', '313',
-].map(id => {
+const reviewedDefinitions = ${definitionTrial} ? ${JSON.stringify(definitionIds)}.map(id => {
   const word = ACTIVE_VOCAB.find(v => String(v.id) === id);
   const item = {kind: 'v', id, word};
   const def = SmartEngine.getDefinition(word.w, 'v', id);
@@ -97,7 +99,7 @@ for (const passage of result.passages) {
   assert.deepEqual(passage.correctChoiceOccurrences, [1, 1]);
 }
 if (definitionTrial) {
-  assert.equal(result.reviewedDefinitions.length, 10);
+  assert.equal(result.reviewedDefinitions.length, definitionIds.length);
   for (const row of result.reviewedDefinitions) {
     assert.equal(row.examples.length, 2, row.id);
     for (const { correct, wrong } of row.examples) {

@@ -110,6 +110,31 @@ TRANSLATION_EDITS = {
 }
 
 
+CARD_EDITS = {
+    '138': {'usage': 'Іменник. 殺人事件 — справа про вбивство, 殺人の容疑 — підозра у вбивстві. 殺人 називає вчинок або вид злочину. У реченні про дію вживають 人を殺害する або 人を殺す. 容疑 означає підозру, а вина ще не встановлена.'},
+    '157': {'m': '物事の順序、成り行き、事情。名詞に付くと、それによって決まることを表す。動詞の連用形に付くと、その動作が終わってすぐのことを表す。'},
+    '193': {'t': 'свідчення, показання свідка про відомі йому факти'},
+    '209': {'m': '交渉や調査などが進むこと。また、物事が次の段階に進むこと。'},
+    '216': {'t': 'домогосподарство, зокрема з однієї особи'},
+    '217': {'usage': 'Іменник. 制服を着る — носити форму, 制服姿 — вигляд у формі. ユニフォーム також може означати спортивну форму. 征服（せいふく）має те саме читання й означає завоювання.'},
+    '225': {'m': '人間の心や気力。また、考え方や活動の根底にある理念。'},
+    '228': {'t': 'встановлення обладнання, облаштування пункту або створення органу'},
+    '239': {'t': 'об’єкт, предмет або група, на яку спрямована дія'},
+    '254': {'m': '筋道を立てて考える前に、感覚で物事を察すること。'},
+    '259': {'m': '考えや計画を示し、相手に検討してもらうこと。'},
+    '270': {'m': '昔から語り継がれてきた話。また、長く語り継がれるほど印象深い出来事や人物。'},
+    '272': {'t': 'у дорозі, на шляху, на проміжній стадії'},
+    '273': {'m': '利益を見込んで事業などに資金を投じること。広く、将来の成果を見込んで時間や労力などを使うこともいう。'},
+    '278': {'m': '同じ立場や仲間に属する人。名詞に付いて、同じ種類や立場のものの間の関係を表す。'},
+    '280': {'m': 'ある点で、ほかのものと同じか、それに近いこと。'},
+    '291': {'t': 'внутрішнє прийняття пояснення чи рішення, яке переконує, або результат, який після оцінки задовольняє'},
+    '292': {'t': 'людина, що займається сільським господарством, селянин'},
+    '309': {'t': 'критичний перегляд власних дій і помилок'},
+    '312': {'m': '物事の内容や根拠を検討し、評価すること。また、誤りや欠点を指摘すること。'},
+    '315': {'m': '相手の欠点などを遠回しに指摘する、あてこすりの言葉。また、期待に反する意外な成り行き。'},
+}
+
+
 def replace_constant(html, name, value):
     start = re.search(r'\bconst ' + name + r'\s*=\s*', html).end()
     _, end = json.JSONDecoder().raw_decode(html, start)
@@ -173,6 +198,11 @@ def main():
     for key, (index, translation) in TRANSLATION_EDITS.items():
         previous_details[key]['exampleTranslations'][index] = translation
     assert details == previous_details
+    for key, fields in CARD_EDITS.items():
+        assert all(details[key][field] != value for field, value in fields.items())
+        details[key].update(fields)
+    editorial = replace_constant(translations, 'VOCAB_DETAILS_BY_ID', details)
+    assert replace_constant(editorial, 'VOCAB_DETAILS_BY_ID', None) == replace_constant(translations, 'VOCAB_DETAILS_BY_ID', None)
     args.out.mkdir(parents=True, exist_ok=True)
     for name, content in [
         ('trial-230.html', changed),
@@ -180,6 +210,7 @@ def main():
         ('trial-definitions.html', definitions),
         ('trial-meaning.html', meaning),
         ('trial-translations.html', translations),
+        ('trial-editorial.html', editorial),
     ]:
         output = args.out / name
         output.write_text(content, encoding='utf-8')
