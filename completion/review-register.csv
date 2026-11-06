@@ -119,206 +119,206 @@ vocab,117,vocab:117,reviewed,"audit152/editorial-review.json:vocab:117; author l
 vocab,118,vocab:118,reviewed,"audit152/editorial-review.json:vocab:118; author linguistic review, not independent; provenance/physical excluded"
 vocab,119,vocab:119,reviewed,"audit152/editorial-review.json:vocab:119; author linguistic review, not independent; provenance/physical excluded"
 vocab,120,vocab:120,reviewed,"audit152/editorial-review.json:vocab:120; author linguistic review, not independent; provenance/physical excluded"
-vocab,121,vocab:121,pending,
-vocab,122,vocab:122,pending,
-vocab,123,vocab:123,pending,
-vocab,124,vocab:124,pending,
-vocab,125,vocab:125,pending,
-vocab,126,vocab:126,pending,
-vocab,127,vocab:127,pending,
-vocab,128,vocab:128,pending,
-vocab,129,vocab:129,pending,
-vocab,130,vocab:130,pending,
-vocab,131,vocab:131,pending,
-vocab,132,vocab:132,pending,
-vocab,133,vocab:133,pending,
-vocab,134,vocab:134,pending,
-vocab,135,vocab:135,pending,
-vocab,136,vocab:136,pending,
-vocab,137,vocab:137,pending,
-vocab,138,vocab:138,pending,
-vocab,139,vocab:139,pending,
-vocab,140,vocab:140,pending,
-vocab,141,vocab:141,pending,
-vocab,142,vocab:142,pending,
-vocab,143,vocab:143,pending,
-vocab,144,vocab:144,pending,
-vocab,145,vocab:145,pending,
-vocab,146,vocab:146,pending,
-vocab,147,vocab:147,pending,
-vocab,148,vocab:148,pending,
-vocab,149,vocab:149,pending,
-vocab,150,vocab:150,pending,
-vocab,151,vocab:151,pending,
-vocab,152,vocab:152,pending,
-vocab,153,vocab:153,pending,
-vocab,154,vocab:154,pending,
-vocab,155,vocab:155,pending,
-vocab,156,vocab:156,pending,
-vocab,157,vocab:157,pending,
-vocab,158,vocab:158,pending,
-vocab,159,vocab:159,pending,
-vocab,160,vocab:160,pending,
-vocab,161,vocab:161,pending,
-vocab,162,vocab:162,pending,
-vocab,163,vocab:163,pending,
-vocab,164,vocab:164,pending,
-vocab,165,vocab:165,pending,
-vocab,166,vocab:166,pending,
-vocab,167,vocab:167,pending,
-vocab,168,vocab:168,pending,
-vocab,169,vocab:169,pending,
-vocab,170,vocab:170,pending,
-vocab,171,vocab:171,pending,
-vocab,172,vocab:172,pending,
-vocab,173,vocab:173,pending,
-vocab,174,vocab:174,pending,
-vocab,175,vocab:175,pending,
-vocab,176,vocab:176,pending,
-vocab,177,vocab:177,pending,
-vocab,178,vocab:178,pending,
-vocab,179,vocab:179,pending,
-vocab,180,vocab:180,pending,
-vocab,181,vocab:181,pending,
-vocab,182,vocab:182,pending,
-vocab,183,vocab:183,pending,
-vocab,184,vocab:184,pending,
-vocab,185,vocab:185,pending,
-vocab,186,vocab:186,pending,
-vocab,187,vocab:187,pending,
-vocab,188,vocab:188,pending,
-vocab,189,vocab:189,pending,
-vocab,190,vocab:190,pending,
-vocab,191,vocab:191,pending,
-vocab,192,vocab:192,pending,
-vocab,193,vocab:193,pending,
-vocab,194,vocab:194,pending,
-vocab,195,vocab:195,pending,
-vocab,196,vocab:196,pending,
-vocab,197,vocab:197,pending,
-vocab,198,vocab:198,pending,
-vocab,199,vocab:199,pending,
-vocab,200,vocab:200,pending,
-vocab,201,vocab:201,pending,
-vocab,202,vocab:202,pending,
-vocab,203,vocab:203,pending,
-vocab,204,vocab:204,pending,
-vocab,205,vocab:205,pending,
-vocab,206,vocab:206,pending,
-vocab,207,vocab:207,pending,
-vocab,208,vocab:208,pending,
-vocab,209,vocab:209,pending,
-vocab,210,vocab:210,pending,
-vocab,211,vocab:211,pending,
-vocab,212,vocab:212,pending,
-vocab,213,vocab:213,pending,
-vocab,214,vocab:214,pending,
-vocab,215,vocab:215,pending,
-vocab,216,vocab:216,pending,
-vocab,217,vocab:217,pending,
-vocab,218,vocab:218,pending,
-vocab,219,vocab:219,pending,
-vocab,220,vocab:220,pending,
-vocab,221,vocab:221,pending,
+vocab,121,vocab:121,reviewed,completion/v153-card-decisions.tsv#121; author linguistic review
+vocab,122,vocab:122,reviewed,completion/v153-card-decisions.tsv#122; author linguistic review
+vocab,123,vocab:123,reviewed,completion/v153-card-decisions.tsv#123; author linguistic review
+vocab,124,vocab:124,reviewed,completion/v153-card-decisions.tsv#124; author linguistic review
+vocab,125,vocab:125,reviewed,completion/v153-card-decisions.tsv#125; author linguistic review
+vocab,126,vocab:126,reviewed,completion/v153-card-decisions.tsv#126; author linguistic review
+vocab,127,vocab:127,reviewed,completion/v153-card-decisions.tsv#127; author linguistic review
+vocab,128,vocab:128,reviewed,completion/v153-card-decisions.tsv#128; author linguistic review
+vocab,129,vocab:129,reviewed,completion/v153-card-decisions.tsv#129; author linguistic review
+vocab,130,vocab:130,reviewed,completion/v153-card-decisions.tsv#130; author linguistic review
+vocab,131,vocab:131,reviewed,completion/v153-card-decisions.tsv#131; author linguistic review
+vocab,132,vocab:132,reviewed,completion/v153-card-decisions.tsv#132; author linguistic review
+vocab,133,vocab:133,reviewed,completion/v153-card-decisions.tsv#133; author linguistic review
+vocab,134,vocab:134,reviewed,completion/v153-card-decisions.tsv#134; author linguistic review
+vocab,135,vocab:135,reviewed,completion/v153-card-decisions.tsv#135; author linguistic review
+vocab,136,vocab:136,reviewed,completion/v153-card-decisions.tsv#136; author linguistic review
+vocab,137,vocab:137,reviewed,completion/v153-card-decisions.tsv#137; author linguistic review
+vocab,138,vocab:138,reviewed,completion/v153-card-decisions.tsv#138; author linguistic review
+vocab,139,vocab:139,reviewed,completion/v153-card-decisions.tsv#139; author linguistic review
+vocab,140,vocab:140,reviewed,completion/v153-card-decisions.tsv#140; author linguistic review
+vocab,141,vocab:141,reviewed,completion/v153-card-decisions.tsv#141; author linguistic review
+vocab,142,vocab:142,reviewed,completion/v153-card-decisions.tsv#142; author linguistic review
+vocab,143,vocab:143,reviewed,completion/v153-card-decisions.tsv#143; author linguistic review
+vocab,144,vocab:144,reviewed,completion/v153-card-decisions.tsv#144; author linguistic review
+vocab,145,vocab:145,reviewed,completion/v153-card-decisions.tsv#145; author linguistic review
+vocab,146,vocab:146,reviewed,completion/v153-card-decisions.tsv#146; author linguistic review
+vocab,147,vocab:147,reviewed,completion/v153-card-decisions.tsv#147; author linguistic review
+vocab,148,vocab:148,reviewed,completion/v153-card-decisions.tsv#148; author linguistic review
+vocab,149,vocab:149,reviewed,completion/v153-card-decisions.tsv#149; author linguistic review
+vocab,150,vocab:150,reviewed,completion/v153-card-decisions.tsv#150; author linguistic review
+vocab,151,vocab:151,reviewed,completion/v153-card-decisions.tsv#151; author linguistic review
+vocab,152,vocab:152,reviewed,completion/v153-card-decisions.tsv#152; author linguistic review
+vocab,153,vocab:153,reviewed,completion/v153-card-decisions.tsv#153; author linguistic review
+vocab,154,vocab:154,reviewed,completion/v153-card-decisions.tsv#154; author linguistic review
+vocab,155,vocab:155,reviewed,completion/v153-card-decisions.tsv#155; author linguistic review
+vocab,156,vocab:156,reviewed,completion/v153-card-decisions.tsv#156; author linguistic review
+vocab,157,vocab:157,reviewed,completion/v153-card-decisions.tsv#157; author linguistic review
+vocab,158,vocab:158,reviewed,completion/v153-card-decisions.tsv#158; author linguistic review
+vocab,159,vocab:159,reviewed,completion/v153-card-decisions.tsv#159; author linguistic review
+vocab,160,vocab:160,reviewed,completion/v153-card-decisions.tsv#160; author linguistic review
+vocab,161,vocab:161,reviewed,completion/v153-card-decisions.tsv#161; author linguistic review
+vocab,162,vocab:162,reviewed,completion/v153-card-decisions.tsv#162; author linguistic review
+vocab,163,vocab:163,reviewed,completion/v153-card-decisions.tsv#163; author linguistic review
+vocab,164,vocab:164,reviewed,completion/v153-card-decisions.tsv#164; author linguistic review
+vocab,165,vocab:165,reviewed,completion/v153-card-decisions.tsv#165; author linguistic review
+vocab,166,vocab:166,reviewed,completion/v153-card-decisions.tsv#166; author linguistic review
+vocab,167,vocab:167,reviewed,completion/v153-card-decisions.tsv#167; author linguistic review
+vocab,168,vocab:168,reviewed,completion/v153-card-decisions.tsv#168; author linguistic review
+vocab,169,vocab:169,reviewed,completion/v153-card-decisions.tsv#169; author linguistic review
+vocab,170,vocab:170,reviewed,completion/v153-card-decisions.tsv#170; author linguistic review
+vocab,171,vocab:171,reviewed,completion/v153-card-decisions.tsv#171; author linguistic review
+vocab,172,vocab:172,reviewed,completion/v153-card-decisions.tsv#172; author linguistic review
+vocab,173,vocab:173,reviewed,completion/v153-card-decisions.tsv#173; author linguistic review
+vocab,174,vocab:174,reviewed,completion/v153-card-decisions.tsv#174; author linguistic review
+vocab,175,vocab:175,reviewed,completion/v153-card-decisions.tsv#175; author linguistic review
+vocab,176,vocab:176,reviewed,completion/v153-card-decisions.tsv#176; author linguistic review
+vocab,177,vocab:177,reviewed,completion/v153-card-decisions.tsv#177; author linguistic review
+vocab,178,vocab:178,reviewed,completion/v153-card-decisions.tsv#178; author linguistic review
+vocab,179,vocab:179,reviewed,completion/v153-card-decisions.tsv#179; author linguistic review
+vocab,180,vocab:180,reviewed,completion/v153-card-decisions.tsv#180; author linguistic review
+vocab,181,vocab:181,reviewed,completion/v153-card-decisions.tsv#181; author linguistic review
+vocab,182,vocab:182,reviewed,completion/v153-card-decisions.tsv#182; author linguistic review
+vocab,183,vocab:183,reviewed,completion/v153-card-decisions.tsv#183; author linguistic review
+vocab,184,vocab:184,reviewed,completion/v153-card-decisions.tsv#184; author linguistic review
+vocab,185,vocab:185,reviewed,completion/v153-card-decisions.tsv#185; author linguistic review
+vocab,186,vocab:186,reviewed,completion/v153-card-decisions.tsv#186; author linguistic review
+vocab,187,vocab:187,reviewed,completion/v153-card-decisions.tsv#187; author linguistic review
+vocab,188,vocab:188,reviewed,completion/v153-card-decisions.tsv#188; author linguistic review
+vocab,189,vocab:189,reviewed,completion/v153-card-decisions.tsv#189; author linguistic review
+vocab,190,vocab:190,reviewed,completion/v153-card-decisions.tsv#190; author linguistic review
+vocab,191,vocab:191,reviewed,completion/v153-card-decisions.tsv#191; author linguistic review
+vocab,192,vocab:192,reviewed,completion/v153-card-decisions.tsv#192; author linguistic review
+vocab,193,vocab:193,reviewed,completion/v153-card-decisions.tsv#193; author linguistic review
+vocab,194,vocab:194,reviewed,completion/v153-card-decisions.tsv#194; author linguistic review
+vocab,195,vocab:195,reviewed,completion/v153-card-decisions.tsv#195; author linguistic review
+vocab,196,vocab:196,reviewed,completion/v153-card-decisions.tsv#196; author linguistic review
+vocab,197,vocab:197,reviewed,completion/v153-card-decisions.tsv#197; author linguistic review
+vocab,198,vocab:198,reviewed,completion/v153-card-decisions.tsv#198; author linguistic review
+vocab,199,vocab:199,reviewed,completion/v153-card-decisions.tsv#199; author linguistic review
+vocab,200,vocab:200,reviewed,completion/v153-card-decisions.tsv#200; author linguistic review
+vocab,201,vocab:201,reviewed,completion/v153-card-decisions.tsv#201; author linguistic review
+vocab,202,vocab:202,reviewed,completion/v153-card-decisions.tsv#202; author linguistic review
+vocab,203,vocab:203,reviewed,completion/v153-card-decisions.tsv#203; author linguistic review
+vocab,204,vocab:204,reviewed,completion/v153-card-decisions.tsv#204; author linguistic review
+vocab,205,vocab:205,reviewed,completion/v153-card-decisions.tsv#205; author linguistic review
+vocab,206,vocab:206,reviewed,completion/v153-card-decisions.tsv#206; author linguistic review
+vocab,207,vocab:207,reviewed,completion/v153-card-decisions.tsv#207; author linguistic review
+vocab,208,vocab:208,reviewed,completion/v153-card-decisions.tsv#208; author linguistic review
+vocab,209,vocab:209,reviewed,completion/v153-card-decisions.tsv#209; author linguistic review
+vocab,210,vocab:210,reviewed,completion/v153-card-decisions.tsv#210; author linguistic review
+vocab,211,vocab:211,reviewed,completion/v153-card-decisions.tsv#211; author linguistic review
+vocab,212,vocab:212,reviewed,completion/v153-card-decisions.tsv#212; author linguistic review
+vocab,213,vocab:213,reviewed,completion/v153-card-decisions.tsv#213; author linguistic review
+vocab,214,vocab:214,reviewed,completion/v153-card-decisions.tsv#214; author linguistic review
+vocab,215,vocab:215,reviewed,completion/v153-card-decisions.tsv#215; author linguistic review
+vocab,216,vocab:216,reviewed,completion/v153-card-decisions.tsv#216; author linguistic review
+vocab,217,vocab:217,reviewed,completion/v153-card-decisions.tsv#217; author linguistic review
+vocab,218,vocab:218,reviewed,completion/v153-card-decisions.tsv#218; author linguistic review
+vocab,219,vocab:219,reviewed,completion/v153-card-decisions.tsv#219; author linguistic review
+vocab,220,vocab:220,reviewed,completion/v153-card-decisions.tsv#220; author linguistic review
+vocab,221,vocab:221,reviewed,completion/v153-card-decisions.tsv#221; author linguistic review
 vocab,222,vocab:222,pending,
-vocab,223,vocab:223,pending,
-vocab,224,vocab:224,pending,
-vocab,225,vocab:225,pending,
-vocab,226,vocab:226,pending,
-vocab,227,vocab:227,pending,
-vocab,228,vocab:228,pending,
-vocab,229,vocab:229,pending,
-vocab,230,vocab:230,pending,
-vocab,231,vocab:231,pending,
-vocab,232,vocab:232,pending,
-vocab,233,vocab:233,pending,
-vocab,234,vocab:234,pending,
-vocab,235,vocab:235,pending,
-vocab,236,vocab:236,pending,
-vocab,237,vocab:237,pending,
-vocab,238,vocab:238,pending,
-vocab,239,vocab:239,pending,
-vocab,240,vocab:240,pending,
-vocab,241,vocab:241,pending,
-vocab,242,vocab:242,pending,
-vocab,243,vocab:243,pending,
-vocab,244,vocab:244,pending,
-vocab,245,vocab:245,pending,
-vocab,246,vocab:246,pending,
-vocab,247,vocab:247,pending,
-vocab,248,vocab:248,pending,
-vocab,249,vocab:249,pending,
-vocab,250,vocab:250,pending,
-vocab,251,vocab:251,pending,
-vocab,252,vocab:252,pending,
-vocab,253,vocab:253,pending,
+vocab,223,vocab:223,reviewed,completion/v153-card-decisions.tsv#223; author linguistic review
+vocab,224,vocab:224,reviewed,completion/v153-card-decisions.tsv#224; author linguistic review
+vocab,225,vocab:225,reviewed,completion/v153-card-decisions.tsv#225; author linguistic review
+vocab,226,vocab:226,reviewed,completion/v153-card-decisions.tsv#226; author linguistic review
+vocab,227,vocab:227,reviewed,completion/v153-card-decisions.tsv#227; author linguistic review
+vocab,228,vocab:228,reviewed,completion/v153-card-decisions.tsv#228; author linguistic review
+vocab,229,vocab:229,reviewed,completion/v153-card-decisions.tsv#229; author linguistic review
+vocab,230,vocab:230,reviewed,completion/v153-card-decisions.tsv#230; author linguistic review
+vocab,231,vocab:231,reviewed,completion/v153-card-decisions.tsv#231; author linguistic review
+vocab,232,vocab:232,reviewed,completion/v153-card-decisions.tsv#232; author linguistic review
+vocab,233,vocab:233,reviewed,completion/v153-card-decisions.tsv#233; author linguistic review
+vocab,234,vocab:234,reviewed,completion/v153-card-decisions.tsv#234; author linguistic review
+vocab,235,vocab:235,reviewed,completion/v153-card-decisions.tsv#235; author linguistic review
+vocab,236,vocab:236,reviewed,completion/v153-card-decisions.tsv#236; author linguistic review
+vocab,237,vocab:237,reviewed,completion/v153-card-decisions.tsv#237; author linguistic review
+vocab,238,vocab:238,reviewed,completion/v153-card-decisions.tsv#238; author linguistic review
+vocab,239,vocab:239,reviewed,completion/v153-card-decisions.tsv#239; author linguistic review
+vocab,240,vocab:240,reviewed,completion/v153-card-decisions.tsv#240; author linguistic review
+vocab,241,vocab:241,reviewed,completion/v153-card-decisions.tsv#241; author linguistic review
+vocab,242,vocab:242,reviewed,completion/v153-card-decisions.tsv#242; author linguistic review
+vocab,243,vocab:243,reviewed,completion/v153-card-decisions.tsv#243; author linguistic review
+vocab,244,vocab:244,reviewed,completion/v153-card-decisions.tsv#244; author linguistic review
+vocab,245,vocab:245,reviewed,completion/v153-card-decisions.tsv#245; author linguistic review
+vocab,246,vocab:246,reviewed,completion/v153-card-decisions.tsv#246; author linguistic review
+vocab,247,vocab:247,reviewed,completion/v153-card-decisions.tsv#247; author linguistic review
+vocab,248,vocab:248,reviewed,completion/v153-card-decisions.tsv#248; author linguistic review
+vocab,249,vocab:249,reviewed,completion/v153-card-decisions.tsv#249; author linguistic review
+vocab,250,vocab:250,reviewed,completion/v153-card-decisions.tsv#250; author linguistic review
+vocab,251,vocab:251,reviewed,completion/v153-card-decisions.tsv#251; author linguistic review
+vocab,252,vocab:252,reviewed,completion/v153-card-decisions.tsv#252; author linguistic review
+vocab,253,vocab:253,reviewed,completion/v153-card-decisions.tsv#253; author linguistic review
 vocab,254,vocab:254,pending,
 vocab,255,vocab:255,pending,
-vocab,256,vocab:256,pending,
-vocab,257,vocab:257,pending,
-vocab,258,vocab:258,pending,
-vocab,259,vocab:259,pending,
-vocab,260,vocab:260,pending,
-vocab,261,vocab:261,pending,
-vocab,262,vocab:262,pending,
-vocab,263,vocab:263,pending,
-vocab,264,vocab:264,pending,
-vocab,265,vocab:265,pending,
-vocab,266,vocab:266,pending,
-vocab,267,vocab:267,pending,
-vocab,268,vocab:268,pending,
-vocab,269,vocab:269,pending,
-vocab,270,vocab:270,pending,
-vocab,271,vocab:271,pending,
-vocab,272,vocab:272,pending,
-vocab,273,vocab:273,pending,
-vocab,274,vocab:274,pending,
-vocab,275,vocab:275,pending,
-vocab,276,vocab:276,pending,
-vocab,277,vocab:277,pending,
+vocab,256,vocab:256,reviewed,completion/v153-card-decisions.tsv#256; author linguistic review
+vocab,257,vocab:257,reviewed,completion/v153-card-decisions.tsv#257; author linguistic review
+vocab,258,vocab:258,reviewed,completion/v153-card-decisions.tsv#258; author linguistic review
+vocab,259,vocab:259,reviewed,completion/v153-card-decisions.tsv#259; author linguistic review
+vocab,260,vocab:260,reviewed,completion/v153-card-decisions.tsv#260; author linguistic review
+vocab,261,vocab:261,reviewed,completion/v153-card-decisions.tsv#261; author linguistic review
+vocab,262,vocab:262,reviewed,completion/v153-card-decisions.tsv#262; author linguistic review
+vocab,263,vocab:263,reviewed,completion/v153-card-decisions.tsv#263; author linguistic review
+vocab,264,vocab:264,reviewed,completion/v153-card-decisions.tsv#264; author linguistic review
+vocab,265,vocab:265,reviewed,completion/v153-card-decisions.tsv#265; author linguistic review
+vocab,266,vocab:266,reviewed,completion/v153-card-decisions.tsv#266; author linguistic review
+vocab,267,vocab:267,reviewed,completion/v153-card-decisions.tsv#267; author linguistic review
+vocab,268,vocab:268,reviewed,completion/v153-card-decisions.tsv#268; author linguistic review
+vocab,269,vocab:269,reviewed,completion/v153-card-decisions.tsv#269; author linguistic review
+vocab,270,vocab:270,reviewed,completion/v153-card-decisions.tsv#270; author linguistic review
+vocab,271,vocab:271,reviewed,completion/v153-card-decisions.tsv#271; author linguistic review
+vocab,272,vocab:272,reviewed,completion/v153-card-decisions.tsv#272; author linguistic review
+vocab,273,vocab:273,reviewed,completion/v153-card-decisions.tsv#273; author linguistic review
+vocab,274,vocab:274,reviewed,completion/v153-card-decisions.tsv#274; author linguistic review
+vocab,275,vocab:275,reviewed,completion/v153-card-decisions.tsv#275; author linguistic review
+vocab,276,vocab:276,reviewed,completion/v153-card-decisions.tsv#276; author linguistic review
+vocab,277,vocab:277,reviewed,completion/v153-card-decisions.tsv#277; author linguistic review
 vocab,278,vocab:278,pending,
-vocab,279,vocab:279,pending,
-vocab,280,vocab:280,pending,
-vocab,281,vocab:281,pending,
-vocab,282,vocab:282,pending,
-vocab,283,vocab:283,pending,
-vocab,284,vocab:284,pending,
-vocab,285,vocab:285,pending,
-vocab,286,vocab:286,pending,
-vocab,287,vocab:287,pending,
-vocab,288,vocab:288,pending,
-vocab,289,vocab:289,pending,
-vocab,290,vocab:290,pending,
+vocab,279,vocab:279,reviewed,completion/v153-card-decisions.tsv#279; author linguistic review
+vocab,280,vocab:280,reviewed,completion/v153-card-decisions.tsv#280; author linguistic review
+vocab,281,vocab:281,reviewed,completion/v153-card-decisions.tsv#281; author linguistic review
+vocab,282,vocab:282,reviewed,completion/v153-card-decisions.tsv#282; author linguistic review
+vocab,283,vocab:283,reviewed,completion/v153-card-decisions.tsv#283; author linguistic review
+vocab,284,vocab:284,reviewed,completion/v153-card-decisions.tsv#284; author linguistic review
+vocab,285,vocab:285,reviewed,completion/v153-card-decisions.tsv#285; author linguistic review
+vocab,286,vocab:286,reviewed,completion/v153-card-decisions.tsv#286; author linguistic review
+vocab,287,vocab:287,reviewed,completion/v153-card-decisions.tsv#287; author linguistic review
+vocab,288,vocab:288,reviewed,completion/v153-card-decisions.tsv#288; author linguistic review
+vocab,289,vocab:289,reviewed,completion/v153-card-decisions.tsv#289; author linguistic review
+vocab,290,vocab:290,reviewed,completion/v153-card-decisions.tsv#290; author linguistic review
 vocab,291,vocab:291,pending,
-vocab,292,vocab:292,pending,
+vocab,292,vocab:292,reviewed,completion/v153-card-decisions.tsv#292; author linguistic review
 vocab,293,vocab:293,pending,
-vocab,294,vocab:294,pending,
-vocab,295,vocab:295,pending,
-vocab,296,vocab:296,pending,
-vocab,297,vocab:297,pending,
-vocab,298,vocab:298,pending,
-vocab,299,vocab:299,pending,
-vocab,300,vocab:300,pending,
-vocab,301,vocab:301,pending,
-vocab,302,vocab:302,pending,
-vocab,303,vocab:303,pending,
-vocab,304,vocab:304,pending,
-vocab,305,vocab:305,pending,
-vocab,306,vocab:306,pending,
-vocab,307,vocab:307,pending,
-vocab,308,vocab:308,pending,
-vocab,309,vocab:309,pending,
-vocab,310,vocab:310,pending,
-vocab,311,vocab:311,pending,
-vocab,312,vocab:312,pending,
-vocab,313,vocab:313,pending,
-vocab,314,vocab:314,pending,
-vocab,315,vocab:315,pending,
-vocab,316,vocab:316,pending,
-vocab,317,vocab:317,pending,
-vocab,318,vocab:318,pending,
-vocab,319,vocab:319,pending,
-vocab,320,vocab:320,pending,
+vocab,294,vocab:294,reviewed,completion/v153-card-decisions.tsv#294; author linguistic review
+vocab,295,vocab:295,reviewed,completion/v153-card-decisions.tsv#295; author linguistic review
+vocab,296,vocab:296,reviewed,completion/v153-card-decisions.tsv#296; author linguistic review
+vocab,297,vocab:297,reviewed,completion/v153-card-decisions.tsv#297; author linguistic review
+vocab,298,vocab:298,reviewed,completion/v153-card-decisions.tsv#298; author linguistic review
+vocab,299,vocab:299,reviewed,completion/v153-card-decisions.tsv#299; author linguistic review
+vocab,300,vocab:300,reviewed,completion/v153-card-decisions.tsv#300; author linguistic review
+vocab,301,vocab:301,reviewed,completion/v153-card-decisions.tsv#301; author linguistic review
+vocab,302,vocab:302,reviewed,completion/v153-card-decisions.tsv#302; author linguistic review
+vocab,303,vocab:303,reviewed,completion/v153-card-decisions.tsv#303; author linguistic review
+vocab,304,vocab:304,reviewed,completion/v153-card-decisions.tsv#304; author linguistic review
+vocab,305,vocab:305,reviewed,completion/v153-card-decisions.tsv#305; author linguistic review
+vocab,306,vocab:306,reviewed,completion/v153-card-decisions.tsv#306; author linguistic review
+vocab,307,vocab:307,reviewed,completion/v153-card-decisions.tsv#307; author linguistic review
+vocab,308,vocab:308,reviewed,completion/v153-card-decisions.tsv#308; author linguistic review
+vocab,309,vocab:309,reviewed,completion/v153-card-decisions.tsv#309; author linguistic review
+vocab,310,vocab:310,reviewed,completion/v153-card-decisions.tsv#310; author linguistic review
+vocab,311,vocab:311,reviewed,completion/v153-card-decisions.tsv#311; author linguistic review
+vocab,312,vocab:312,reviewed,completion/v153-card-decisions.tsv#312; author linguistic review
+vocab,313,vocab:313,reviewed,completion/v153-card-decisions.tsv#313; author linguistic review
+vocab,314,vocab:314,reviewed,completion/v153-card-decisions.tsv#314; author linguistic review
+vocab,315,vocab:315,reviewed,completion/v153-card-decisions.tsv#315; author linguistic review
+vocab,316,vocab:316,reviewed,completion/v153-card-decisions.tsv#316; author linguistic review
+vocab,317,vocab:317,reviewed,completion/v153-card-decisions.tsv#317; author linguistic review
+vocab,318,vocab:318,reviewed,completion/v153-card-decisions.tsv#318; author linguistic review
+vocab,319,vocab:319,reviewed,completion/v153-card-decisions.tsv#319; author linguistic review
+vocab,320,vocab:320,reviewed,completion/v153-card-decisions.tsv#320; author linguistic review
 vocab,321,vocab:321,pending,
 vocab,322,vocab:322,pending,
 vocab,323,vocab:323,pending,
