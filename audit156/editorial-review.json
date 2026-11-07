@@ -1,0 +1,131 @@
+{
+  "sha256": "3621deb634ae96efe49b1f2a48dc4e16f03036bdcae71fa3bcfe3408cd7c2046",
+  "rows": [
+    {
+      "key": "1876",
+      "word": "発端",
+      "reading": "ほったん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1884",
+      "word": "反発",
+      "reading": "はんぱつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1886",
+      "word": "反論",
+      "reading": "はんろん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1891",
+      "word": "卑下",
+      "reading": "ひげ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1899",
+      "word": "秘訣",
+      "reading": "ひけつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1910",
+      "word": "必然",
+      "reading": "ひつぜん",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形",
+        "副詞"
+      ]
+    },
+    {
+      "key": "1914",
+      "word": "評判",
+      "reading": "ひょうばん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1915",
+      "word": "描写",
+      "reading": "びょうしゃ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1921",
+      "word": "不意",
+      "reading": "ふい",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "1923",
+      "word": "不備",
+      "reading": "ふび",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "1924",
+      "word": "不評",
+      "reading": "ふひょう",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "1953",
+      "word": "分担",
+      "reading": "ぶんたん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1954",
+      "word": "分配",
+      "reading": "ぶんぱい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1963",
+      "word": "紛失",
+      "reading": "ふんしつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1975",
+      "word": "別途",
+      "reading": "べっと",
+      "partsOfSpeech": [
+        "名詞",
+        "副詞"
+      ]
+    }
+  ]
+}

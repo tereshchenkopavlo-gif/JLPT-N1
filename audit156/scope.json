@@ -1,0 +1,30 @@
+{
+  "base": "v155",
+  "sha256": "3621deb634ae96efe49b1f2a48dc4e16f03036bdcae71fa3bcfe3408cd7c2046",
+  "bytes": 6929757,
+  "edits": 17,
+  "translations": 8,
+  "pos_fields": 5,
+  "usage_fields": 2,
+  "comparison_notes": 2,
+  "new_author_credits": [
+    1876,
+    1884,
+    1886,
+    1891,
+    1899,
+    1910,
+    1914,
+    1915,
+    1921,
+    1923,
+    1924,
+    1953,
+    1954,
+    1963,
+    1975
+  ],
+  "reviewed": 2118,
+  "pending": 3724,
+  "vocabulary_reviewed": 1571
+}
