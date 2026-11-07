@@ -39,8 +39,8 @@ with ledger.open(encoding="utf-8", newline="") as file:
         card["exampleTranslations"][index] = translation
         seen.add(key)
 
-if len(seen) != 44:
-    raise ValueError("Expected 44 translations")
+if len(seen) != 52:
+    raise ValueError("Expected 52 translations")
 
 pilot_ledger = Path(__file__).with_name("pilot-fields.tsv")
 pilot_seen = set()
@@ -59,7 +59,7 @@ with pilot_ledger.open(encoding="utf-8", newline="") as file:
         card[field] = value
         pilot_seen.add(key)
 
-if pilot_seen != {"254", "291", "293"}:
+if pilot_seen != {"254", "291", "293", "1567", "1570", "1572", "1589", "1604"}:
     raise ValueError("Unexpected pilot scope")
 updated = html[:start] + compact(cards) + html[end:]
 quiz_marker = "const REVIEWED_MEANING_QUIZZES = "
