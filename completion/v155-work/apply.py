@@ -14,8 +14,8 @@ if source.resolve() == target.resolve():
     raise ValueError("Use a separate checkpoint path")
 original = raw.decode("utf-8")
 updates = json.loads(Path(__file__).with_name("updates.json").read_text())
-if len(updates) != 15:
-    raise ValueError("Expected 15 reviewed fields")
+if len(updates) != 24:
+    raise ValueError("Expected 24 reviewed fields")
 
 def compact(value):
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
@@ -48,7 +48,7 @@ for edit in updates:
     seen.add(identity)
 
 old_title = "<title>JLPT N1 — ウクライナ語対応学習アプリ · v154</title>"
-new_title = "<title>JLPT N1 — ウクライナ語対応学習アプリ · v155 · 作業版</title>"
+new_title = "<title>JLPT N1 — ウクライナ語対応学習アプリ · v155</title>"
 if html.count(old_title) != 1:
     raise ValueError("Unexpected title")
 html = html.replace(old_title, new_title, 1)
