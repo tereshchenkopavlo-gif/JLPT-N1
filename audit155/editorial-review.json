@@ -1,0 +1,181 @@
+{
+  "sha256": "39a765cc1b0e7e24ac353b06a647218db86fc99a790c99979ca12539b5a6d6d8",
+  "rows": [
+    {
+      "key": "1481",
+      "word": "症状",
+      "reading": "しょうじょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1702",
+      "word": "着眼",
+      "reading": "ちゃくがん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1712",
+      "word": "中毒",
+      "reading": "ちゅうどく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1717",
+      "word": "兆候",
+      "reading": "ちょうこう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1718",
+      "word": "彫刻",
+      "reading": "ちょうこく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1726",
+      "word": "頂点",
+      "reading": "ちょうてん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1743",
+      "word": "停滞",
+      "reading": "ていたい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1751",
+      "word": "泥沼",
+      "reading": "どろぬま",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1759",
+      "word": "撤去",
+      "reading": "てっきょ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1761",
+      "word": "鉄鋼",
+      "reading": "てっこう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1770",
+      "word": "点滅",
+      "reading": "てんめつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1772",
+      "word": "殿様",
+      "reading": "とのさま",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1781",
+      "word": "投入",
+      "reading": "とうにゅう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1782",
+      "word": "答弁",
+      "reading": "とうべん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1784",
+      "word": "統率",
+      "reading": "とうそつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1794",
+      "word": "同棲",
+      "reading": "どうせい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1803",
+      "word": "道端",
+      "reading": "みちばた",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1804",
+      "word": "銅像",
+      "reading": "どうぞう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1805",
+      "word": "匿名",
+      "reading": "とくめい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1814",
+      "word": "独断",
+      "reading": "どくだん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1832",
+      "word": "捻出",
+      "reading": "ねんしゅつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1839",
+      "word": "把握",
+      "reading": "はあく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    }
+  ]
+}
