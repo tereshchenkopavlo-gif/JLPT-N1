@@ -1,0 +1,485 @@
+{
+  "sha256": "d637c19a0cd77f7d4391097fe2ff4cef7f5c9816cf721e4fccdbfff6705fa8d1",
+  "rows": [
+    {
+      "key": "222",
+      "word": "正義",
+      "reading": "せいぎ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "254",
+      "word": "直感",
+      "reading": "ちょっかん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "291",
+      "word": "納得",
+      "reading": "なっとく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "293",
+      "word": "破壊",
+      "reading": "はかい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "981",
+      "word": "監督",
+      "reading": "かんとく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "992",
+      "word": "鑑定",
+      "reading": "かんてい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "997",
+      "word": "関連",
+      "reading": "かんれん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1005",
+      "word": "基金",
+      "reading": "ききん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1006",
+      "word": "基盤",
+      "reading": "きばん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1029",
+      "word": "記載",
+      "reading": "きさい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1032",
+      "word": "起源",
+      "reading": "きげん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1052",
+      "word": "脚色",
+      "reading": "きゃくしょく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1059",
+      "word": "休養",
+      "reading": "きゅうよう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1068",
+      "word": "究明",
+      "reading": "きゅうめい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1070",
+      "word": "給食",
+      "reading": "きゅうしょく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1108",
+      "word": "極楽",
+      "reading": "ごくらく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1117",
+      "word": "近況",
+      "reading": "きんきょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1120",
+      "word": "吟味",
+      "reading": "ぎんみ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1125",
+      "word": "駆除",
+      "reading": "くじょ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1133",
+      "word": "形見",
+      "reading": "かたみ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1134",
+      "word": "形勢",
+      "reading": "けいせい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1143",
+      "word": "軽視",
+      "reading": "けいし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1146",
+      "word": "劇団",
+      "reading": "げきだん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1152",
+      "word": "欠如",
+      "reading": "けつじょ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1154",
+      "word": "決議",
+      "reading": "けつぎ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1163",
+      "word": "結末",
+      "reading": "けつまつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1184",
+      "word": "元旦",
+      "reading": "がんたん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1201",
+      "word": "言論",
+      "reading": "げんろん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1216",
+      "word": "交渉",
+      "reading": "こうしょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1219",
+      "word": "功績",
+      "reading": "こうせき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1223",
+      "word": "好意",
+      "reading": "こうい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1231",
+      "word": "控除",
+      "reading": "こうじょ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1244",
+      "word": "購買",
+      "reading": "こうばい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1252",
+      "word": "合奏",
+      "reading": "がっそう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1256",
+      "word": "豪邸",
+      "reading": "ごうてい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1278",
+      "word": "催促",
+      "reading": "さいそく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1385",
+      "word": "実態",
+      "reading": "じったい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1402",
+      "word": "手際",
+      "reading": "てぎわ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1411",
+      "word": "趣旨",
+      "reading": "しゅし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1478",
+      "word": "焦点",
+      "reading": "しょうてん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1526",
+      "word": "紳士",
+      "reading": "しんし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1532",
+      "word": "進撃",
+      "reading": "しんげき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1537",
+      "word": "人出",
+      "reading": "ひとで",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1538",
+      "word": "人波",
+      "reading": "ひとなみ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1547",
+      "word": "推理",
+      "reading": "すいり",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1553",
+      "word": "随時",
+      "reading": "ずいじ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1560",
+      "word": "成就",
+      "reading": "じょうじゅ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1567",
+      "word": "生身",
+      "reading": "なまみ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1570",
+      "word": "精進",
+      "reading": "しょうじん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1572",
+      "word": "西欧",
+      "reading": "せいおう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1576",
+      "word": "責務",
+      "reading": "せきむ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1583",
+      "word": "絶賛",
+      "reading": "ぜっさん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1584",
+      "word": "絶頂",
+      "reading": "ぜっちょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1587",
+      "word": "先導",
+      "reading": "せんどう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1589",
+      "word": "占領",
+      "reading": "せんりょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1590",
+      "word": "宣教",
+      "reading": "せんきょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1591",
+      "word": "宣言",
+      "reading": "せんげん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1598",
+      "word": "潜水",
+      "reading": "せんすい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1604",
+      "word": "選択",
+      "reading": "せんたく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "1613",
+      "word": "素質",
+      "reading": "そしつ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    }
+  ]
+}
