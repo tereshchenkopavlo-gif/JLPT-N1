@@ -68,7 +68,11 @@ quizzes, quiz_end = json.JSONDecoder().raw_decode(updated, quiz_start)
 if compact(quizzes) != updated[quiz_start:quiz_end]:
     raise ValueError("Unexpected quiz serialization")
 quizzes["v_293"]["correct"] = cards["293"]["m"]
-result = (updated[:quiz_start] + compact(quizzes) + updated[quiz_end:]).encode()
+result = (updated[:quiz_start] + compact(quizzes) + updated[quiz_end:]).replace(
+    "<title>JLPT N1 — ウクライナ語対応学習アプリ · v153</title>",
+    "<title>JLPT N1 — ウクライナ語対応学習アプリ · v154</title>",
+    1,
+).encode()
 with target.open("xb") as file:
     file.write(result)
 print(sha256(result).hexdigest(), len(result))

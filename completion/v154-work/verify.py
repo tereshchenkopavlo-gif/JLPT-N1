@@ -32,7 +32,7 @@ q1['v_293']['correct']=q0['v_293']['correct']
 assert q1==q0
 assert set(q1['v_293']['byExample'])==set(orig['293']['examples'])
 assert all(len(set([x['correct'],*x['wrong']]))==4 for x in q1['v_293']['byExample'].values())
-assert replace(replace(after,'VOCAB_DETAILS_BY_ID',orig),'REVIEWED_MEANING_QUIZZES',q0)==before
+assert replace(replace(after,'VOCAB_DETAILS_BY_ID',orig),'REVIEWED_MEANING_QUIZZES',q0).replace('· v154</title>','· v153</title>',1)==before
 scripts=re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>',after,re.S)
 assert scripts
 for script in scripts:
