@@ -1719,7 +1719,7 @@ vocab,1717,vocab:1717,pending,
 vocab,1718,vocab:1718,pending,
 vocab,1719,vocab:1719,reviewed,completion/v154-cards-1701-1720.tsv#1719; author linguistic review
 vocab,1720,vocab:1720,reviewed,completion/v154-cards-1701-1720.tsv#1720; author linguistic review
-vocab,1721,vocab:1721,pending,
+vocab,1721,vocab:1721,reviewed,completion/v154-reconsiderations.tsv#1721; dictionary verification withdrew prior author finding; original v154 retained
 vocab,1722,vocab:1722,reviewed,completion/v154-cards-1721-1780.tsv#1722; author linguistic review
 vocab,1723,vocab:1723,reviewed,completion/v154-cards-1721-1780.tsv#1723; author linguistic review
 vocab,1724,vocab:1724,reviewed,completion/v154-cards-1721-1780.tsv#1724; author linguistic review
@@ -1781,64 +1781,64 @@ vocab,1779,vocab:1779,reviewed,completion/v154-cards-1721-1780.tsv#1779; author 
 vocab,1780,vocab:1780,reviewed,completion/v154-cards-1721-1780.tsv#1780; author linguistic review
 vocab,1781,vocab:1781,pending,
 vocab,1782,vocab:1782,pending,
-vocab,1783,vocab:1783,pending,
+vocab,1783,vocab:1783,reviewed,completion/v154-cards-1781-1840.tsv#1783; author linguistic review
 vocab,1784,vocab:1784,pending,
-vocab,1785,vocab:1785,pending,
-vocab,1786,vocab:1786,pending,
-vocab,1787,vocab:1787,pending,
-vocab,1788,vocab:1788,pending,
-vocab,1789,vocab:1789,pending,
-vocab,1790,vocab:1790,pending,
-vocab,1791,vocab:1791,pending,
-vocab,1792,vocab:1792,pending,
-vocab,1793,vocab:1793,pending,
+vocab,1785,vocab:1785,reviewed,completion/v154-cards-1781-1840.tsv#1785; author linguistic review
+vocab,1786,vocab:1786,reviewed,completion/v154-cards-1781-1840.tsv#1786; author linguistic review
+vocab,1787,vocab:1787,reviewed,completion/v154-cards-1781-1840.tsv#1787; author linguistic review
+vocab,1788,vocab:1788,reviewed,completion/v154-cards-1781-1840.tsv#1788; author linguistic review
+vocab,1789,vocab:1789,reviewed,completion/v154-cards-1781-1840.tsv#1789; author linguistic review
+vocab,1790,vocab:1790,reviewed,completion/v154-cards-1781-1840.tsv#1790; author linguistic review
+vocab,1791,vocab:1791,reviewed,completion/v154-cards-1781-1840.tsv#1791; author linguistic review
+vocab,1792,vocab:1792,reviewed,completion/v154-cards-1781-1840.tsv#1792; author linguistic review
+vocab,1793,vocab:1793,reviewed,completion/v154-cards-1781-1840.tsv#1793; author linguistic review
 vocab,1794,vocab:1794,pending,
 vocab,1795,vocab:1795,pending,
 vocab,1796,vocab:1796,pending,
-vocab,1797,vocab:1797,pending,
-vocab,1798,vocab:1798,pending,
-vocab,1799,vocab:1799,pending,
-vocab,1800,vocab:1800,pending,
-vocab,1801,vocab:1801,pending,
-vocab,1802,vocab:1802,pending,
+vocab,1797,vocab:1797,reviewed,completion/v154-cards-1781-1840.tsv#1797; author linguistic review
+vocab,1798,vocab:1798,reviewed,completion/v154-cards-1781-1840.tsv#1798; author linguistic review
+vocab,1799,vocab:1799,reviewed,completion/v154-cards-1781-1840.tsv#1799; author linguistic review
+vocab,1800,vocab:1800,reviewed,completion/v154-cards-1781-1840.tsv#1800; author linguistic review
+vocab,1801,vocab:1801,reviewed,completion/v154-cards-1781-1840.tsv#1801; author linguistic review
+vocab,1802,vocab:1802,reviewed,completion/v154-cards-1781-1840.tsv#1802; author linguistic review
 vocab,1803,vocab:1803,pending,
 vocab,1804,vocab:1804,pending,
 vocab,1805,vocab:1805,pending,
-vocab,1806,vocab:1806,pending,
-vocab,1807,vocab:1807,pending,
-vocab,1808,vocab:1808,pending,
-vocab,1809,vocab:1809,pending,
-vocab,1810,vocab:1810,pending,
-vocab,1811,vocab:1811,pending,
-vocab,1812,vocab:1812,pending,
-vocab,1813,vocab:1813,pending,
+vocab,1806,vocab:1806,reviewed,completion/v154-cards-1781-1840.tsv#1806; author linguistic review
+vocab,1807,vocab:1807,reviewed,completion/v154-cards-1781-1840.tsv#1807; author linguistic review
+vocab,1808,vocab:1808,reviewed,completion/v154-cards-1781-1840.tsv#1808; author linguistic review
+vocab,1809,vocab:1809,reviewed,completion/v154-cards-1781-1840.tsv#1809; author linguistic review
+vocab,1810,vocab:1810,reviewed,completion/v154-cards-1781-1840.tsv#1810; author linguistic review
+vocab,1811,vocab:1811,reviewed,completion/v154-cards-1781-1840.tsv#1811; author linguistic review
+vocab,1812,vocab:1812,reviewed,completion/v154-cards-1781-1840.tsv#1812; author linguistic review
+vocab,1813,vocab:1813,reviewed,completion/v154-cards-1781-1840.tsv#1813; author linguistic review
 vocab,1814,vocab:1814,pending,
-vocab,1815,vocab:1815,pending,
+vocab,1815,vocab:1815,reviewed,completion/v154-cards-1781-1840.tsv#1815; author linguistic review
 vocab,1816,vocab:1816,pending,
-vocab,1817,vocab:1817,pending,
-vocab,1818,vocab:1818,pending,
-vocab,1819,vocab:1819,pending,
-vocab,1820,vocab:1820,pending,
-vocab,1821,vocab:1821,pending,
-vocab,1822,vocab:1822,pending,
+vocab,1817,vocab:1817,reviewed,completion/v154-cards-1781-1840.tsv#1817; author linguistic review
+vocab,1818,vocab:1818,reviewed,completion/v154-cards-1781-1840.tsv#1818; author linguistic review
+vocab,1819,vocab:1819,reviewed,completion/v154-cards-1781-1840.tsv#1819; author linguistic review
+vocab,1820,vocab:1820,reviewed,completion/v154-cards-1781-1840.tsv#1820; author linguistic review
+vocab,1821,vocab:1821,reviewed,completion/v154-cards-1781-1840.tsv#1821; author linguistic review
+vocab,1822,vocab:1822,reviewed,completion/v154-cards-1781-1840.tsv#1822; author linguistic review
 vocab,1823,vocab:1823,pending,
 vocab,1824,vocab:1824,pending,
-vocab,1825,vocab:1825,pending,
-vocab,1826,vocab:1826,pending,
-vocab,1827,vocab:1827,pending,
-vocab,1828,vocab:1828,pending,
-vocab,1829,vocab:1829,pending,
-vocab,1830,vocab:1830,pending,
-vocab,1831,vocab:1831,pending,
+vocab,1825,vocab:1825,reviewed,completion/v154-cards-1781-1840.tsv#1825; author linguistic review
+vocab,1826,vocab:1826,reviewed,completion/v154-cards-1781-1840.tsv#1826; author linguistic review
+vocab,1827,vocab:1827,reviewed,completion/v154-cards-1781-1840.tsv#1827; author linguistic review
+vocab,1828,vocab:1828,reviewed,completion/v154-cards-1781-1840.tsv#1828; author linguistic review
+vocab,1829,vocab:1829,reviewed,completion/v154-cards-1781-1840.tsv#1829; author linguistic review
+vocab,1830,vocab:1830,reviewed,completion/v154-cards-1781-1840.tsv#1830; author linguistic review
+vocab,1831,vocab:1831,reviewed,completion/v154-cards-1781-1840.tsv#1831; author linguistic review
 vocab,1832,vocab:1832,pending,
 vocab,1833,vocab:1833,pending,
-vocab,1834,vocab:1834,pending,
-vocab,1835,vocab:1835,pending,
-vocab,1836,vocab:1836,pending,
-vocab,1837,vocab:1837,pending,
-vocab,1838,vocab:1838,pending,
+vocab,1834,vocab:1834,reviewed,completion/v154-cards-1781-1840.tsv#1834; author linguistic review
+vocab,1835,vocab:1835,reviewed,completion/v154-cards-1781-1840.tsv#1835; author linguistic review
+vocab,1836,vocab:1836,reviewed,completion/v154-cards-1781-1840.tsv#1836; author linguistic review
+vocab,1837,vocab:1837,reviewed,completion/v154-cards-1781-1840.tsv#1837; author linguistic review
+vocab,1838,vocab:1838,reviewed,completion/v154-cards-1781-1840.tsv#1838; author linguistic review
 vocab,1839,vocab:1839,pending,
-vocab,1840,vocab:1840,pending,
+vocab,1840,vocab:1840,reviewed,completion/v154-cards-1781-1840.tsv#1840; author linguistic review
 vocab,1841,vocab:1841,pending,
 vocab,1842,vocab:1842,pending,
 vocab,1843,vocab:1843,pending,
