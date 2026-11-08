@@ -1,0 +1,27 @@
+{
+  "sha256": "f86e9a1cb11a371d58dfe0dd642a13a49310fdb3fecc23f45036af5ad0381309",
+  "browser": "141.0.7390.37",
+  "results": [
+    {
+      "width": 360,
+      "posMembershipChecks": 24,
+      "bothDirectionsOfChangedPair": true,
+      "previousPairRegression": true,
+      "pass": true
+    },
+    {
+      "width": 412,
+      "posMembershipChecks": 24,
+      "bothDirectionsOfChangedPair": true,
+      "previousPairRegression": true,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "posMembershipChecks": 24,
+      "bothDirectionsOfChangedPair": true,
+      "previousPairRegression": true,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "sha256": "f86e9a1cb11a371d58dfe0dd642a13a49310fdb3fecc23f45036af5ad0381309",
+  "rows": [
+    {
+      "key": "2263",
+      "word": "ゆとり",
+      "reading": "ゆとり",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2268",
+      "word": "区切り",
+      "reading": "くぎり",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2276",
+      "word": "顔つき",
+      "reading": "かおつき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2277",
+      "word": "思い切り",
+      "reading": "おもいきり",
+      "partsOfSpeech": [
+        "名詞",
+        "副詞"
+      ]
+    },
+    {
+      "key": "2280",
+      "word": "肩書き",
+      "reading": "かたがき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2282",
+      "word": "見通し",
+      "reading": "みとおし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2283",
+      "word": "軒並み",
+      "reading": "のきなみ",
+      "partsOfSpeech": [
+        "名詞",
+        "副詞"
+      ]
+    },
+    {
+      "key": "2284",
+      "word": "割り当て",
+      "reading": "わりあて",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2287",
+      "word": "質疑応答",
+      "reading": "しつぎおうとう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2291",
+      "word": "試し",
+      "reading": "ためし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2296",
+      "word": "仕打ち",
+      "reading": "しうち",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2299",
+      "word": "根回し",
+      "reading": "ねまわし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2307",
+      "word": "持ち込み",
+      "reading": "もちこみ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2310",
+      "word": "手さばき",
+      "reading": "てさばき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2311",
+      "word": "手ざわり",
+      "reading": "てざわり",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2318",
+      "word": "手つき",
+      "reading": "てつき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2335",
+      "word": "人並み",
+      "reading": "ひとなみ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2343",
+      "word": "台無し",
+      "reading": "だいなし",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2346",
+      "word": "値打ち",
+      "reading": "ねうち",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2351",
+      "word": "当たり前",
+      "reading": "あたりまえ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2357",
+      "word": "表向き",
+      "reading": "おもてむき",
+      "partsOfSpeech": [
+        "名詞",
+        "副詞"
+      ]
+    }
+  ]
+}

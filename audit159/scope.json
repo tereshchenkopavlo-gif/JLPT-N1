@@ -1,0 +1,42 @@
+{
+  "base": "v158",
+  "sha256": "f86e9a1cb11a371d58dfe0dd642a13a49310fdb3fecc23f45036af5ad0381309",
+  "bytes": 6932144,
+  "edits": 25,
+  "translations": 8,
+  "primary_translations": 8,
+  "pos_fields": 6,
+  "usage_fields": 2,
+  "comparison_notes_changed": 1,
+  "comparison_pair": [
+    "2310",
+    "2318"
+  ],
+  "new_author_credits": [
+    2263,
+    2268,
+    2276,
+    2277,
+    2280,
+    2282,
+    2283,
+    2284,
+    2287,
+    2291,
+    2296,
+    2299,
+    2307,
+    2310,
+    2311,
+    2318,
+    2335,
+    2343,
+    2346,
+    2351,
+    2357
+  ],
+  "vocabulary_reviewed": 1927,
+  "register_reviewed": 2474,
+  "register_pending": 3368,
+  "next_id": 2361
+}
