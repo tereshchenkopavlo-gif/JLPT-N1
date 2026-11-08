@@ -1,0 +1,30 @@
+{
+  "base": "v160",
+  "sha256": "66d890eccd9477035f133eadcd0cb8300eb0daac2b13ef73edf2c8753e89fbfb",
+  "bytes": 6932842,
+  "edits": 8,
+  "translations": 4,
+  "japanese_definitions": 2,
+  "primary_translations": 1,
+  "comparison_notes_changed": 1,
+  "comparison_pair": [
+    2584,
+    2694
+  ],
+  "full_card_credits": [
+    2565,
+    2576,
+    2584,
+    2587,
+    2604,
+    2606,
+    2635,
+    2654
+  ],
+  "displayed_cards": 9,
+  "uncredited_partner": 2694,
+  "vocabulary_reviewed": 2247,
+  "register_reviewed": 2794,
+  "register_pending": 3048,
+  "next_id": 2681
+}

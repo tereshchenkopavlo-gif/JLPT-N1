@@ -1,0 +1,20 @@
+{
+  "sha256": "66d890eccd9477035f133eadcd0cb8300eb0daac2b13ef73edf2c8753e89fbfb",
+  "results": [
+    {
+      "width": 360,
+      "bothDirections": true,
+      "pass": true
+    },
+    {
+      "width": 412,
+      "bothDirections": true,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "bothDirections": true,
+      "pass": true
+    }
+  ]
+}

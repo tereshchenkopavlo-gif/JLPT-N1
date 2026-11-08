@@ -1,0 +1,77 @@
+{
+  "sha256": "66d890eccd9477035f133eadcd0cb8300eb0daac2b13ef73edf2c8753e89fbfb",
+  "rows": [
+    {
+      "key": "2565",
+      "word": "手掛ける",
+      "reading": "てがける",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2576",
+      "word": "準じる・準ずる",
+      "reading": "じゅんじる・じゅんずる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2584",
+      "word": "省く",
+      "reading": "はぶく",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2587",
+      "word": "譲る",
+      "reading": "ゆずる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2604",
+      "word": "絶する",
+      "reading": "ぜっする",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2606",
+      "word": "染みる",
+      "reading": "しみる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2635",
+      "word": "嘆く",
+      "reading": "なげく",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2654",
+      "word": "漂う",
+      "reading": "ただよう",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2694",
+      "word": "抜かす",
+      "reading": "ぬかす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    }
+  ]
+}
