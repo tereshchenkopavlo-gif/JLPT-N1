@@ -1,0 +1,47 @@
+name: Verify JLPT N1 v159 checkpoint
+on:
+  push:
+    branches: [work/v159-checkpoint]
+    paths:
+      - 'completion/v159-work/**'
+      - '.github/workflows/v159-checkpoint.yml'
+permissions:
+  contents: read
+concurrency:
+  group: jlpt-v159-checkpoint
+  cancel-in-progress: true
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reproduce and verify exact checkpoint
+        run: |
+          python3 completion/v159-work/apply.py JLPT_N1_ukrainian_reading_v158.html JLPT_N1_v159_working.html
+          python3 completion/v159-work/prepare-review.py
+      - name: Prepare Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Check changed cards and regression scenarios
+        run: |
+          node completion/v159-work/vocab-browser.cjs
+          node completion/v159-work/pos-pair-browser.cjs
+          node completion/v159-work/browser-functional.cjs
+          node completion/v159-work/session-completion.cjs
+          node completion/v159-work/comparison-browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v159-checkpoint-evidence
+          path: |
+            completion/v159-work/*-results.json
+            completion/v159-work/editorial-review.json
+          if-no-files-found: error
