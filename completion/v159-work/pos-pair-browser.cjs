@@ -13,13 +13,13 @@ const expected={"2277": ["名詞", "副詞"], "2283": ["名詞", "副詞"], "233
    const included=await page.evaluate(id=>getCardPool().some(x=>String(x.id)===id),id);
    assert.equal(included,parts.includes(part),`${id}/${part}/${width}`);
   }
-  for(const id of ['1953','1954']){
+  for(const id of ['1953','1954','2310','2318']){
    await page.evaluate(id=>openCardDetail('v',id),id);
    await page.waitForFunction(id=>document.getElementById('cardDetailBody').dataset.currentKey==='v_'+id,id);
    const text=await page.locator('#cardDetailBody').innerText();
-   assert(text.includes('розподіляти прибуток між отримувачами'));assert(!text.includes('отримувати частки прибутку'));
+   if(['2310','2318'].includes(id)){assert(text.includes('Він невпевнено взяв ніж у руки.'));assert(!text.includes('Він незвично для себе взявся за ніж.'));}else{assert(text.includes('розподіляти прибуток між отримувачами'));assert(!text.includes('отримувати частки прибутку'));}
   }
-  assert.deepEqual(errors,[]);results.push({width,posMembershipChecks:24,bothDirectionsOfPair:true,pass:true});await page.close();
+  assert.deepEqual(errors,[]);results.push({width,posMembershipChecks:24,bothDirectionsOfChangedPair:true,previousPairRegression:true,pass:true});await page.close();
  }
  fs.writeFileSync('completion/v159-work/pos-pair-results.json',JSON.stringify({sha256,browser:browser.version(),results},null,2)+'\n');
 }finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});
