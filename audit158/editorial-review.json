@@ -1,0 +1,206 @@
+{
+  "sha256": "f73764290200810c29e9be754627c11acb9acae34825db442f4b21edc2ef6d0c",
+  "rows": [
+    {
+      "key": "2121",
+      "word": "誘因",
+      "reading": "ゆういん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2123",
+      "word": "誘致",
+      "reading": "ゆうち",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2131",
+      "word": "融通",
+      "reading": "ゆうずう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2136",
+      "word": "余興",
+      "reading": "よきょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2144",
+      "word": "用心",
+      "reading": "ようじん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2157",
+      "word": "利潤",
+      "reading": "りじゅん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2171",
+      "word": "領地",
+      "reading": "りょうち",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2185",
+      "word": "嫌味",
+      "reading": "いやみ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2192",
+      "word": "感無量",
+      "reading": "かんむりょう",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2193",
+      "word": "精一杯",
+      "reading": "せいいっぱい",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形",
+        "副詞"
+      ]
+    },
+    {
+      "key": "2194",
+      "word": "文房具",
+      "reading": "ぶんぼうぐ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2196",
+      "word": "大惨事",
+      "reading": "だいさんじ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2203",
+      "word": "有頂天",
+      "reading": "うちょうてん",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2204",
+      "word": "取締役",
+      "reading": "とりしまりやく",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2205",
+      "word": "不可欠",
+      "reading": "ふかけつ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2208",
+      "word": "不気味",
+      "reading": "ぶきみ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2212",
+      "word": "くじ引き",
+      "reading": "くじびき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2221",
+      "word": "逆さま",
+      "reading": "さかさま",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2223",
+      "word": "うなぎのぼり",
+      "reading": "うなぎのぼり",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2228",
+      "word": "てっぺん",
+      "reading": "てっぺん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2241",
+      "word": "ひと休み",
+      "reading": "ひとやすみ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2253",
+      "word": "へま",
+      "reading": "へま",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2254",
+      "word": "共働き",
+      "reading": "ともばたらき",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2257",
+      "word": "まなざし",
+      "reading": "まなざし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    }
+  ]
+}

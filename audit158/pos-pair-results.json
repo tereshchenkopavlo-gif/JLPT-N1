@@ -1,0 +1,24 @@
+{
+  "sha256": "f73764290200810c29e9be754627c11acb9acae34825db442f4b21edc2ef6d0c",
+  "browser": "141.0.7390.37",
+  "results": [
+    {
+      "width": 360,
+      "posMembershipChecks": 32,
+      "bothDirectionsOfPair": true,
+      "pass": true
+    },
+    {
+      "width": 412,
+      "posMembershipChecks": 32,
+      "bothDirectionsOfPair": true,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "posMembershipChecks": 32,
+      "bothDirectionsOfPair": true,
+      "pass": true
+    }
+  ]
+}
