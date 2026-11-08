@@ -1,0 +1,173 @@
+{
+  "sha256": "2806c4733c2e203a5a5ec5a2fd5d3535e5fc5559a77d65b4c7f6ade6be6b9f21",
+  "rows": [
+    {
+      "key": "2374",
+      "word": "首飾り",
+      "reading": "くびかざり",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2385",
+      "word": "こじれる",
+      "reading": "こじれる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2391",
+      "word": "こぼす",
+      "reading": "こぼす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2397",
+      "word": "こもる",
+      "reading": "こもる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2405",
+      "word": "うろつく",
+      "reading": "うろつく",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2408",
+      "word": "おごる",
+      "reading": "おごる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2410",
+      "word": "とぼける",
+      "reading": "とぼける",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2412",
+      "word": "しがみつく",
+      "reading": "しがみつく",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2433",
+      "word": "そびえる",
+      "reading": "そびえる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2435",
+      "word": "ぐらつく",
+      "reading": "ぐらつく",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2461",
+      "word": "またがる",
+      "reading": "またがる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2468",
+      "word": "下す",
+      "reading": "くだす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2479",
+      "word": "ゆすぐ",
+      "reading": "ゆすぐ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2490",
+      "word": "帰す・帰する",
+      "reading": "きす・きする",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2499",
+      "word": "牛耳る",
+      "reading": "ぎゅうじる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2512",
+      "word": "極める",
+      "reading": "きわめる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2532",
+      "word": "口ずさむ",
+      "reading": "くちずさむ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2538",
+      "word": "告げる",
+      "reading": "つげる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2546",
+      "word": "擦る",
+      "reading": "する・こする",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2558",
+      "word": "施す",
+      "reading": "ほどこす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2559",
+      "word": "至る",
+      "reading": "いたる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    }
+  ]
+}

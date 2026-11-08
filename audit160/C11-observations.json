@@ -1,0 +1,64 @@
+{
+  "ids": [
+    2433,
+    2468
+  ],
+  "scope": "four displayed sample payloads, not all possible automatic alternatives",
+  "technical_pass": true,
+  "author_observation": "Correct option matches the card definition; sampled wrong options are semantically distant. ID2468 correct is longer and aggregates unrelated senses. C11 remains open; payload format checks do not accept distractor quality.",
+  "samples": [
+    {
+      "id": 2433,
+      "example": "市の中心部には、高さ二百メートルの超高層ビルがそびえている。",
+      "sample": {
+        "correct": "山や建物などが、非常に高く立っている。",
+        "wrong": [
+          "表面に塗ったものや覆っているものが取れる。",
+          "すでにあるものの上を、そのとおりにたどる。",
+          "位置や時期を少し動かして、ずれさせる。"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": 2433,
+      "example": "雪をいただいた山々が、湖の向こうにそびえて見える。",
+      "sample": {
+        "correct": "山や建物などが、非常に高く立っている。",
+        "wrong": [
+          "すでにあるものの上を、そのとおりにたどる。",
+          "表面に塗ったものや覆っているものが取れる。",
+          "思うようにならなくて、いらいらする。"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": 2468,
+      "example": "裁判所は、被告に対して厳しい判決を下した。",
+      "sample": {
+        "correct": "高い所から低い所へ移す。また、判断や命令を出す。勝負で相手を負かす。",
+        "wrong": [
+          "自分のものを他人に与える。また、相手に先を許す。",
+          "相手が困るようなことを言って、からかう。買う気もなく店を見て回る。",
+          "相手を怖がらせて、思いどおりにさせようとする。"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": 2468,
+      "example": "経営陣は、慎重な検討の末に撤退という決断を下した。",
+      "sample": {
+        "correct": "高い所から低い所へ移す。また、判断や命令を出す。勝負で相手を負かす。",
+        "wrong": [
+          "人から好意や人気を集める。特に、恋愛の相手として好かれる。",
+          "相手が困るようなことを言って、からかう。買う気もなく店を見て回る。",
+          "自分を低くして、相手を敬う態度をとる。"
+        ],
+        "note": ""
+      }
+    }
+  ],
+  "next_action": "Create and author-check context-specific saved meaning sets during C11; keep full card review separate"
+}
