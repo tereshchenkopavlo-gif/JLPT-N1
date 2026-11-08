@@ -1,0 +1,172 @@
+{
+  "sha256": "96a4d5f2d4754aa720dd50bee6e539ecc5dc3354c82ed0c1fa14dc0e2293667b",
+  "rows": [
+    {
+      "key": "1995",
+      "word": "保障",
+      "reading": "ほしょう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2009",
+      "word": "奉仕",
+      "reading": "ほうし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2013",
+      "word": "放置",
+      "reading": "ほうち",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2022",
+      "word": "暴騰",
+      "reading": "ぼうとう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2039",
+      "word": "本腰",
+      "reading": "ほんごし",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2041",
+      "word": "翻弄",
+      "reading": "ほんろう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2048",
+      "word": "万能",
+      "reading": "ばんのう",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2051",
+      "word": "蔓延",
+      "reading": "まんえん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2054",
+      "word": "未練",
+      "reading": "みれん",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2056",
+      "word": "密度",
+      "reading": "みつど",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2060",
+      "word": "無駄",
+      "reading": "むだ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2061",
+      "word": "無茶",
+      "reading": "むちゃ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2062",
+      "word": "無念",
+      "reading": "むねん",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2067",
+      "word": "名誉",
+      "reading": "めいよ",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2081",
+      "word": "猛暑",
+      "reading": "もうしょ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2089",
+      "word": "躍進",
+      "reading": "やくしん",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2095",
+      "word": "類似",
+      "reading": "るいじ",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2098",
+      "word": "零細",
+      "reading": "れいさい",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "2100",
+      "word": "連携",
+      "reading": "れんけい",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    },
+    {
+      "key": "2113",
+      "word": "優勢",
+      "reading": "ゆうせい",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    }
+  ]
+}
