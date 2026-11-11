@@ -1,0 +1,155 @@
+{
+  "base": "v163",
+  "sha256": "ee8632ef99fe468f89e03d781797287b7c910df7ccacf88307a55e9913bf72d7",
+  "scope": "Standard vocabulary pool. Hypothetical POS or reading edits. Counts do not assess semantic quality.",
+  "before": {
+    "2734": {
+      "pos": [
+        "動詞"
+      ],
+      "reading": "きたる",
+      "readingChoices": [
+        "いたる",
+        "あおる",
+        "あせる",
+        "あまる",
+        "いばる",
+        "いる"
+      ],
+      "clozePool": 705
+    },
+    "3042": {
+      "pos": [
+        "ナ形"
+      ],
+      "reading": "いくじなし",
+      "readingChoices": [],
+      "clozePool": 290
+    },
+    "3045": {
+      "pos": [
+        "ナ形"
+      ],
+      "reading": "いんちき",
+      "readingChoices": [],
+      "clozePool": 290
+    },
+    "3052": {
+      "pos": [
+        "ナ形"
+      ],
+      "reading": "わんぱく",
+      "readingChoices": [],
+      "clozePool": 290
+    },
+    "3057": {
+      "pos": [
+        "ナ形"
+      ],
+      "reading": "いしょく",
+      "readingChoices": [],
+      "clozePool": 290
+    },
+    "3076": {
+      "pos": [
+        "ナ形"
+      ],
+      "reading": "たんのうな・かんのう",
+      "readingChoices": [],
+      "clozePool": 290
+    }
+  },
+  "isolated": {
+    "2734": {
+      "pos": [
+        "動詞",
+        "連体詞"
+      ],
+      "reading": "きたる",
+      "readingChoices": [],
+      "clozePool": 0
+    },
+    "3042": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "いくじなし",
+      "readingChoices": [],
+      "clozePool": 54
+    },
+    "3045": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "いんちき",
+      "readingChoices": [],
+      "clozePool": 54
+    },
+    "3052": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "わんぱく",
+      "readingChoices": [],
+      "clozePool": 54
+    },
+    "3057": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "いしょく",
+      "readingChoices": [],
+      "clozePool": 54
+    },
+    "3076": {
+      "pos": [
+        "ナ形"
+      ],
+      "reading": "たんのう・かんのう",
+      "readingChoices": [],
+      "clozePool": 290
+    }
+  },
+  "grouped": {
+    "3042": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "いくじなし",
+      "readingChoices": [],
+      "clozePool": 57
+    },
+    "3045": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "いんちき",
+      "readingChoices": [],
+      "clozePool": 57
+    },
+    "3052": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "わんぱく",
+      "readingChoices": [],
+      "clozePool": 57
+    },
+    "3057": {
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "reading": "いしょく",
+      "readingChoices": [],
+      "clozePool": 57
+    }
+  }
+}
