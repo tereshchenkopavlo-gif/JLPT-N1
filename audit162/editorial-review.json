@@ -1,0 +1,69 @@
+{
+  "sha256": "0e0ea03abafcf2ddbf29fcec723cc73a9833e953b0198521ed5f4f06a4ce3155",
+  "rows": [
+    {
+      "key": "2686",
+      "word": "任す",
+      "reading": "まかす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2699",
+      "word": "怒る",
+      "reading": "おこる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2717",
+      "word": "縫う",
+      "reading": "ぬう",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2719",
+      "word": "暴く",
+      "reading": "あばく",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2722",
+      "word": "頬張る",
+      "reading": "ほおばる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2751",
+      "word": "弄ぶ",
+      "reading": "もてあそぶ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2804",
+      "word": "見失う",
+      "reading": "みうしなう",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2820",
+      "word": "言い渡す",
+      "reading": "いいわたす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    }
+  ]
+}
