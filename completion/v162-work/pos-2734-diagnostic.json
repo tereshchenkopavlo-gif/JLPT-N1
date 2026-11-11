@@ -1,0 +1,25 @@
+{
+  "id": 2734,
+  "original": {
+    "parts": [
+      "動詞"
+    ],
+    "reading": [
+      "いたる",
+      "あおる",
+      "あせる",
+      "あまる",
+      "いばる",
+      "いる"
+    ],
+    "clozeCandidateCount": 705
+  },
+  "proposed": {
+    "parts": [
+      "動詞",
+      "連体詞"
+    ],
+    "reading": [],
+    "clozeCandidateCount": 0
+  }
+}
