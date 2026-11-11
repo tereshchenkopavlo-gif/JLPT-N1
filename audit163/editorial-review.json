@@ -1,0 +1,125 @@
+{
+  "sha256": "ee8632ef99fe468f89e03d781797287b7c910df7ccacf88307a55e9913bf72d7",
+  "rows": [
+    {
+      "key": "2822",
+      "word": "呼び込む",
+      "reading": "よびこむ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2827",
+      "word": "差し出す",
+      "reading": "さしだす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2834",
+      "word": "持ち直す",
+      "reading": "もちなおす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2842",
+      "word": "取り寄せる",
+      "reading": "とりよせる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2845",
+      "word": "取り次ぐ",
+      "reading": "とりつぐ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2855",
+      "word": "受け継ぐ",
+      "reading": "うけつぐ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2858",
+      "word": "出直す",
+      "reading": "でなおす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2860",
+      "word": "乗り越える",
+      "reading": "のりこえる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2868",
+      "word": "積み立てる",
+      "reading": "つみたてる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2877",
+      "word": "待ち望む",
+      "reading": "まちのぞむ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2886",
+      "word": "跳び上がる",
+      "reading": "とびあがる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2888",
+      "word": "投げ出す",
+      "reading": "なげだす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2893",
+      "word": "粘り着く",
+      "reading": "ねばりつく",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2894",
+      "word": "飛び越す",
+      "reading": "とびこす",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2896",
+      "word": "飛び散る",
+      "reading": "とびちる",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    }
+  ]
+}
