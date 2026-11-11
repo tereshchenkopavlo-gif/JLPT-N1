@@ -1,0 +1,109 @@
+{
+  "sha256": "c8623709a796bf531a5d227b511de5ee3bfa2b43636a06cc1842efb0ac318252",
+  "rows": [
+    {
+      "key": "2901",
+      "word": "抱え込む",
+      "reading": "かかえこむ",
+      "partsOfSpeech": [
+        "動詞"
+      ]
+    },
+    {
+      "key": "2908",
+      "word": "あくどい",
+      "reading": "あくどい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2915",
+      "word": "だるい",
+      "reading": "だるい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2924",
+      "word": "とんでもない",
+      "reading": "とんでもない",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2939",
+      "word": "みずみずしい",
+      "reading": "みずみずしい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2940",
+      "word": "懐かしい",
+      "reading": "なつかしい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2942",
+      "word": "もっともらしい",
+      "reading": "もっともらしい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2943",
+      "word": "緩い",
+      "reading": "ゆるい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2947",
+      "word": "すがすがしい",
+      "reading": "すがすがしい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2953",
+      "word": "せこい",
+      "reading": "せこい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2954",
+      "word": "やむを得ない",
+      "reading": "やむをえない",
+      "partsOfSpeech": [
+        "連語"
+      ]
+    },
+    {
+      "key": "2956",
+      "word": "そそっかしい",
+      "reading": "そそっかしい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "3076",
+      "word": "堪能",
+      "reading": "たんのう・かんのう",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    }
+  ]
+}
