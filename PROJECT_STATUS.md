@@ -1,12 +1,12 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 9 листопада 2026, Asia/Tokyo. Актуальна **v161**. Повний `JLPT_N1_ukrainian_reading_v161.html`, 6932842 байти, SHA-256 `66d890eccd9477035f133eadcd0cb8300eb0daac2b13ef73edf2c8753e89fbfb`. [Аудит](JLPT_N1_v161_audit.md)
+Оновлено 11 листопада 2026. Актуальна **v161**. Повний `JLPT_N1_ukrainian_reading_v161.html`, 6932842 байти, SHA-256 `66d890eccd9477035f133eadcd0cb8300eb0daac2b13ef73edf2c8753e89fbfb`. [Аудит](JLPT_N1_v161_audit.md)
 
 ## Поточний стан — 11 листопада 2026
 
 Авторськи зараховано **2491 із 3914 словникових карток**, змішаний реєстр **3038 reviewed /2804 pending**. Аудит ID2821–2960 додав 113 зарахувань. Перший неперевірений ID — **2961**.
 
-Робоча гілка [work/v162-checkpoint](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v162-checkpoint/completion/v162-work) містить 10 адресних правок у восьми картках. Локальні перевірки успішні. Випуск і приймання залежать від [браузерного прогону](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43043611951). Чинний HTML — v161.
+Робоча гілка [work/v162-checkpoint](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v162-checkpoint/completion/v162-work) містить 10 адресних правок у восьми картках. Локальні перевірки успішні. У [браузерному прогоні](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43043611951) відтворення пройшло, підготовка Chromium ще тривала під час останньої звірки. Після успіху звірити SHA-256 звітів із HTML, повторно прочитати 10 виправлених полів за первинними рішеннями та опублікувати повний випуск. Паралельна дія — авторський перегляд від ID2961. Для ID2734 зафіксовано втрату обох пулів вправ при прямій зміні POS.
 
 ## Підсумок випуску v161 та ID2681–2700
 
