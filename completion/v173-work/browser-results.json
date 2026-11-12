@@ -1,0 +1,60 @@
+{
+  "sha256": "e04cad2441928457d359bd7fb9f42123bf6eec75ffac104db671f1d51edf6d6f",
+  "widths": [
+    {
+      "width": 360,
+      "cardsRendered": [
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 412,
+      "cardsRendered": [
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "cardsRendered": [
+        true,
+        true
+      ],
+      "pass": true
+    }
+  ],
+  "cardsChecked": 2,
+  "translationsChecked": 2,
+  "renderedCards": [
+    {
+      "id": "3761",
+      "headword": "腹を決める",
+      "expectedTranslation": true,
+      "cardRendered": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3764",
+      "headword": "やきもちをやく",
+      "expectedTranslation": true,
+      "cardRendered": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    }
+  ],
+  "progressStorageUnchanged": true,
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859
+  },
+  "changedIds": [
+    "3761",
+    "3764"
+  ],
+  "pass": true
+}
