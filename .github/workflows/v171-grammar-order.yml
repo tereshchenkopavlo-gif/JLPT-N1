@@ -1,0 +1,57 @@
+name: Verify and publish JLPT N1 v171 grammar order
+on:
+  push:
+    branches: [work/v171-grammar-order-checkpoint]
+    paths:
+      - 'completion/v171-work/**'
+      - '.github/workflows/v171-grammar-order.yml'
+      - 'PROJECT_STATUS.md'
+      - 'completion/BACKLOG.md'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-v171-grammar-order
+  cancel-in-progress: false
+jobs:
+  grammar-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce exact checkpoint from main v170
+        run: python3 completion/v171-work/prepare-checkpoint.py
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify all grammar display paths
+        run: node completion/v171-work/grammar-order-browser.cjs
+      - name: Save full checkpoint and test evidence in work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add JLPT_N1_v171_checkpoint.html completion/v171-work/prepare-results.json completion/v171-work/grammar-order-results.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v171 grammar-order checkpoint"
+            git push origin HEAD
+          fi
+      - name: Publish verified release to main
+        if: success() && hashFiles('completion/v171-work/PUBLISH') != ''
+        run: python3 completion/v171-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v171-grammar-order-evidence
+          path: |
+            completion/v171-work/prepare-results.json
+            completion/v171-work/grammar-order-results.json
+          if-no-files-found: error
