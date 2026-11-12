@@ -1,0 +1,85 @@
+{
+  "sha256": "732e3ecca03a0a2bf2f40e12f33256672b2b912183e5f63cd601cafef7eb6b32",
+  "rows": [
+    {
+      "key": "3143",
+      "word": "地道",
+      "reading": "じみち",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3148",
+      "word": "清純",
+      "reading": "せいじゅん",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3158",
+      "word": "善良",
+      "reading": "ぜんりょう",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3159",
+      "word": "疎か",
+      "reading": "おろそか",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3162",
+      "word": "爽やか",
+      "reading": "さわやか",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3171",
+      "word": "大ざっぱ",
+      "reading": "おおざっぱ",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3173",
+      "word": "大胆",
+      "reading": "だいたん",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3181",
+      "word": "中途半端",
+      "reading": "ちゅうとはんぱ",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3187",
+      "word": "唐突",
+      "reading": "とうとつ",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3195",
+      "word": "抜本的",
+      "reading": "ばっぽんてき",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    }
+  ]
+}
