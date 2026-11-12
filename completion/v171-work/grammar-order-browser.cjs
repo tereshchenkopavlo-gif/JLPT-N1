@@ -42,7 +42,7 @@ const url = pathToFileURL(path.resolve(file)).href;
           if (!before || !examples || !after || !afterContent) { const model = cardStudyModel('g', data); const parts = splitGrammarUsage(model.usage); const item = findAllItem('g', id); const direct = GRAMMAR_DETAILS_BY_ID[String(id)]; const def = item ? SmartEngine.getDefinition(item.label, 'g', id) : null; const diagnostic = {context, id, found:{before:!!before,examples:!!examples,after:!!after,afterContent:!!afterContent}, item, data, diagnosticExtra, directKeys:Object.keys(direct||{}), defKeys:Object.keys(def||{}), def:{m:def?.m,t:def?.t,examples:def?.examples?.length}, usage:model.usage.slice(0,900), parts:{before:parts.before,after:parts.after.slice(0,900)}, rendered:html.slice(Math.max(0,html.indexOf('fc-meaning')),Math.min(html.length,html.indexOf('fc-actions')>0?html.indexOf('fc-actions'):html.length)).slice(0,1600)}; throw new Error(context + ' missing sections for grammar ' + id + ': ' + JSON.stringify(diagnostic)); }
           if (!follows(before, examples) || !follows(examples, after)) throw new Error(context + ' order failure for grammar ' + id);
           const rows = [...container.querySelectorAll('.fc-examples li')];
-          if (rows.length !== 2 || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error(context + ' examples/translations missing for grammar ' + id);
+          if (rows.length !== (data.examples || []).length || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error(context + ' examples/translations missing for grammar ' + id);
           if (!afterContent.querySelector('.study-subheading')) throw new Error(context + ' analysis headings missing for grammar ' + id);
         };
         const ids = width === 412 ? grammar.map(item => String(item.id)) : ['1', '90', '130'];
@@ -66,7 +66,7 @@ const url = pathToFileURL(path.resolve(file)).href;
           if (!afterContent.querySelector('.study-subheading')) throw new Error('comparison analysis headings missing for grammar ' + id);
           if (!follows(before, examples) || !follows(examples, after)) throw new Error('comparison order failure for grammar ' + id);
           const rows = [...entry.querySelectorAll('.grammar-examples li')];
-          if (rows.length !== 2 || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error('comparison examples/translations missing for grammar ' + id);
+          if (rows.length !== (data.examples || []).length || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error('comparison examples/translations missing for grammar ' + id);
         }
         const g90 = document.createElement('div');
         const g90Data = await getCardData('g', '90');
