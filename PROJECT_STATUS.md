@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v178**. Опубліковано в main після успішних детермінованих і Chromium-перевірок; release commit збережено в Git history. Повний JLPT_N1_ukrainian_reading_v178.html, 6 937 622 байт, SHA-256 b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9. [Аудит](JLPT_N1_v178_audit.md)
+Оновлено 13 листопада 2026. Актуальна **v178**. Опубліковано в main commit 16aa71034bfb6d7c87cab2ed31b7ed7a741e6530 після успішних детермінованих і Chromium-перевірок. Повний JLPT_N1_ukrainian_reading_v178.html, 6 937 622 байт, SHA-256 b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9. [Аудит](JLPT_N1_v178_audit.md)
 
 ## Поточний випуск v178 — C10 follow-up
 
