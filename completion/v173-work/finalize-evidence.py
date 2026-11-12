@@ -18,7 +18,7 @@ def compact(value):
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
 
 def block(source, name):
-    match = re.search(r"\\bconst\\s+" + re.escape(name) + r"\\s*=\\s*", source)
+    match = re.search(r"\bconst\s+" + re.escape(name) + r"\s*=\s*", source)
     if not match:
         raise ValueError(f"Missing {name}")
     start = match.end()
@@ -53,7 +53,7 @@ def main():
             "evidence": row["evidence"]
         })
     with ACCEPTANCE.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f, delimiter="\\t", lineterminator="\\n")
+        writer = csv.writer(f, delimiter="\t", lineterminator="\n")
         writer.writerow(["id","headword","card_before_sha256","card_after_sha256","changed_fields","evidence","decision"])
         for row in rows:
             writer.writerow([row["id"],row["headword"],row["before"],row["after"],row["changed"],row["evidence"],"fixed_rechecked after exact field review and Chromium regression"])
@@ -78,7 +78,7 @@ def main():
         raise ValueError(f"Expected 0 or 2 registry transitions, got {changed}")
     if changed == 0 and not all(any(line.startswith(f"vocab,{id},vocab:{id},fixed_rechecked,") and "completion/v173-acceptance.tsv" in line for line in new_lines) for id in IDS):
         raise ValueError("Registry already has an unrelated status for a target ID")
-    REGISTRY.write_text("\\n".join(new_lines) + "\\n", encoding="utf-8")
+    REGISTRY.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
 
     counts = {}
     for line in new_lines[1:]:
@@ -97,7 +97,7 @@ def main():
         "physical_acceptance": False,
         "pass": True
     }
-    Path("completion/v173-work/registry-results.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    Path("completion/v173-work/registry-results.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False))
 
 if __name__ == "__main__":
