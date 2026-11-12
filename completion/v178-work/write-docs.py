@@ -102,5 +102,9 @@ def main():
  if "## C10 follow-up ID421–449 — 13 листопада 2026" not in backlog:
   backlog=backlog.rstrip()+"\n\n## C10 follow-up ID421–449 — 13 листопада 2026\n\nУ v178 авторськи переглянуто 12 pending карток: 11 виправлено у 13 точних полях і повторно перевірено; ID425 прийнято без зміни. Авторський credit 3385/3914; реєстр 3891 reviewed /59 fixed_rechecked /1892 pending. ID255/327 лишаються окремими C11-залежностями. Докази: completion/v178-acceptance.tsv, completion/v178-prepare-results.json, completion/v178-browser-results.json, completion/v178-registry-results.json, completion/v178-source-review.md, JLPT_N1_v178_audit.md. Це не незалежне, фізичне чи правове/походження приймання.\n"
  bp.write_text(backlog,encoding="utf-8")
+ shutil.copyfile(W/"prepare-results.json",Path("completion/v178-prepare-results.json"))
+ shutil.copyfile(W/"browser-results.json",Path("completion/v178-browser-results.json"))
+ shutil.copyfile(W/"registry-results.json",Path("completion/v178-registry-results.json"))
+ shutil.copyfile(W/"source-review.md",Path("completion/v178-source-review.md"))
  print("Documentation prepared for v178",h)
 if __name__=="__main__": main()

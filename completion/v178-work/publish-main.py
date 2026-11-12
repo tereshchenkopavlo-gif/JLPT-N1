@@ -64,6 +64,10 @@ def main():
   lines=status.read_text(encoding="utf-8").splitlines()
   lines[2]="Оновлено 13 листопада 2026. Актуальна **v178**. Опубліковано в main після успішних детермінованих і Chromium-перевірок; release commit збережено в Git history. Повний JLPT_N1_ukrainian_reading_v178.html, "+format(len(html.read_bytes()),",").replace(",", " ")+" байт, SHA-256 "+h+". [Аудит](JLPT_N1_v178_audit.md)"
   status.write_text("\n".join(lines)+"\n",encoding="utf-8")
+  readme=temp/"README.md"
+  rt=readme.read_text(encoding="utf-8")
+  rt=rt.replace("Кандидат v178 пройшов авторські й технічні перевірки; публікація в main виконується за guarded gate.","Актуальна v178. Перевірений повний HTML, аудит і докази опубліковано в main.",1)
+  readme.write_text(rt,encoding="utf-8")
   git(["config","user.name","github-actions[bot]"],cwd=temp)
   git(["config","user.email","41898282+actions@users.noreply.github.com"],cwd=temp)
   git(["add","--",*paths],cwd=temp)

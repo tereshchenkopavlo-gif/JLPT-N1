@@ -35,10 +35,10 @@ def main():
  reg=Path("completion/review-register.csv")
  with reg.open(encoding="utf-8",newline="") as f:
   r=csv.DictReader(f);names=r.fieldnames;rows=list(r)
- for x in updates:
-  row=next(r for r in rows if r["kind"]=="vocab" and r["key"]==str(x["id"]))
-  if row["finalReview"]!="pending": raise ValueError("unexpected prior status "+str(x["id"])+": "+row["finalReview"])
-  row["finalReview"]="fixed_rechecked";row["evidence"]="completion/v178-acceptance.tsv:"+str(x["id"])+"; author review, not independent"
+ for i in sorted({str(x["id"]) for x in updates},key=int):
+  row=next(r for r in rows if r["kind"]=="vocab" and r["key"]==i)
+  if row["finalReview"]!="pending": raise ValueError("unexpected prior status "+i+": "+row["finalReview"])
+  row["finalReview"]="fixed_rechecked";row["evidence"]="completion/v178-acceptance.tsv:"+i+"; author review, not independent"
  row=next(r for r in rows if r["kind"]=="vocab" and r["key"]=="425")
  if row["finalReview"]!="pending": raise ValueError("unexpected ID425 prior status "+row["finalReview"])
  row["finalReview"]="reviewed";row["evidence"]="completion/v178-acceptance.tsv:425; author review, not independent"
