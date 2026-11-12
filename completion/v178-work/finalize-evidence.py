@@ -51,7 +51,7 @@ def main():
  if dict(c)!=expected: raise ValueError("registry totals "+repr(dict(c)))
  if dict(v)!={"reviewed":3327,"fixed_rechecked":58,"pending":529}: raise ValueError("vocabulary totals "+repr(dict(v)))
  if {k:p.get(k,0) for k in ["reviewed","pending"]}!={"reviewed":18,"pending":841}: raise ValueError("pair totals "+repr(dict(p)))
- result={"pass":True,"registry_counts":dict(c),"vocabulary_counts":dict(v),"lexical_pair_counts":{"reviewed":18,"pending":841},"author_credit":"3385/3914","fixed_rechecked_ids":[str(x["id"]) for x in updates],"reviewed_without_change":["425"],"independent_acceptance":False,"physical_acceptance":False}
+ result={"pass":True,"registry_counts":dict(c),"vocabulary_counts":dict(v),"lexical_pair_counts":{"reviewed":18,"pending":841},"author_credit":"3385/3914","fixed_rechecked_ids":sorted({str(x["id"]) for x in updates},key=int),"reviewed_without_change":["425"],"independent_acceptance":False,"physical_acceptance":False}
  (W/"registry-results.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(json.dumps(result,ensure_ascii=False,indent=2))
 if __name__=="__main__": main()
