@@ -1,0 +1,73 @@
+name: JLPT N1 v173 C10 follow-up
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'completion/v173-work/**'
+      - 'completion/v173-*'
+      - 'completion/C10-followup-3761-3764-20261113.md'
+      - 'PROJECT_STATUS.md'
+      - 'completion/BACKLOG.md'
+      - 'README.md'
+      - 'completion/review-register.csv'
+      - 'JLPT_N1_v173_audit.md'
+      - '.github/workflows/v173-c10.yml'
+  push:
+    branches: [work/v173-c10-3761-3764]
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v173-c10
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: (github.event_name == 'push' && github.ref_name == 'work/v173-c10-3761-3764') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v173-c10-3761-3764')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce v173 from the exact published v172 baseline
+        run: python3 completion/v173-work/prepare.py
+      - name: Check verifier syntax
+        run: node --check completion/v173-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify changed cards, all IDs, translations and progress
+        run: node completion/v173-work/browser.cjs
+      - name: Finalize acceptance and registry evidence
+        run: python3 completion/v173-work/finalize-evidence.py
+      - name: Save verified HTML and evidence to the work branch
+        if: success() && github.event_name == 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v173.html completion/v173-work/prepare-results.json completion/v173-work/browser-results.json completion/v173-work/registry-results.json completion/v173-acceptance.tsv completion/review-register.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v173 C10 checkpoint and acceptance evidence"
+            git push origin HEAD:work/v173-c10-3761-3764
+          fi
+      - name: Publish only the verified v173 release artifacts to main
+        if: success() && github.event_name == 'pull_request' && hashFiles('completion/v173-work/PUBLISH') != ''
+        run: python3 completion/v173-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v173-c10-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v173.html
+            completion/v173-work/prepare-results.json
+            completion/v173-work/browser-results.json
+            completion/v173-work/registry-results.json
+            completion/v173-acceptance.tsv
+          if-no-files-found: error
