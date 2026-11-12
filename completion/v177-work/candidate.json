@@ -1,7 +1,7 @@
 {
   "checkpoint": "v177-c10-candidate",
   "created": "2026-11-13",
-  "base_main_sha": "c8ff882bd49e82747a93b35c0504072d3a43d8f2",
+  "base_main_sha": "34dfa390480e735dc7a351bf910c59781c0b1a08",
   "base_html": "JLPT_N1_ukrainian_reading_v176.html",
   "base_html_sha256": "d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b",
   "scope_ids": [
@@ -49,5 +49,5 @@
     "grammar": 130,
     "lexical_pairs": 859
   },
-  "status": "prepared; awaiting deterministic and Chromium verification; not yet published"
+  "status": "ready for deterministic and Chromium verification; not yet published"
 }
