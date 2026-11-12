@@ -336,7 +336,7 @@ jobs:
             git push origin HEAD:work/v175-c10-remaining-open-ids
           fi
       - name: Publish only the verified v175 release artifacts to main
-        if: success() && github.event_name == 'pull_request' && hashFiles('completion/v175-work/PUBLISH') != ''
+        if: success() && hashFiles('completion/v175-work/PUBLISH') != ''
         run: python3 completion/v175-work/publish-main.py
       - uses: actions/upload-artifact@v4
         if: always()
