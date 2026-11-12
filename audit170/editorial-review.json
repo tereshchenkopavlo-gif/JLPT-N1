@@ -1,0 +1,105 @@
+{
+  "sha256": "e28958926e93343f47395910f243772e1ce2c13052cfa5fd8f4c3ede6cae7f51",
+  "rows": [
+    {
+      "key": "3510",
+      "word": "ウエット",
+      "reading": "うえっと",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3516",
+      "word": "エレガント",
+      "reading": "えれがんと",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3527",
+      "word": "インターナショナル",
+      "reading": "いんたーなしょなる",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3538",
+      "word": "スムーズ",
+      "reading": "すむーず",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3542",
+      "word": "クール",
+      "reading": "くーる",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3546",
+      "word": "シック",
+      "reading": "しっく",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3552",
+      "word": "シビア",
+      "reading": "しびあ",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3605",
+      "word": "デリケート",
+      "reading": "でりけーと",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3611",
+      "word": "ドライ",
+      "reading": "どらい",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3623",
+      "word": "ナンセンス",
+      "reading": "なんせんす",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3638",
+      "word": "ハード",
+      "reading": "はーど",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3645",
+      "word": "フランク",
+      "reading": "ふらんく",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    }
+  ]
+}
