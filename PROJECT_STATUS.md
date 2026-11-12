@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 12 листопада 2026. Актуальна **v171**. Повний `JLPT_N1_ukrainian_reading_v171.html`, 6935833 байти, SHA-256 `80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32`. [Аудит](JLPT_N1_v171_audit.md)
+Оновлено 12 листопада 2026. Актуальна **v171**. Main commit `a552a5656d186de8c43d21ca37189f69cb49683f`. Повний `JLPT_N1_ukrainian_reading_v171.html`, 6935833 байти, SHA-256 `80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32`. [Аудит](JLPT_N1_v171_audit.md)
 
 ## Архівований checkpoint v171 — 12 листопада 2026
 
@@ -8,7 +8,7 @@
 
 ## Поточний випуск v171 — C27 виконано
 
-У v171 виправлено спільний порядок граматичних пояснень у звичайній картці, тренувальній сесії та порівнянні: значення/приєднання → приклади з перекладами → аналіз/обмеження → пов'язані вирази. Для g90 додано окремі приклади сильного наміру в ～ずにはおかない та контрастного ずにはいられない. Технічні докази: [Chromium #11](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351867), [PR Chromium #29](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351872), [data checks #442](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351893), [повний аудит](JLPT_N1_v171_audit.md), [результати](completion/v171-grammar-order-results.json).
+У v171 виправлено спільний порядок граматичних пояснень у звичайній картці, тренувальній сесії та порівнянні: значення/приєднання → приклади з перекладами → аналіз/обмеження → пов'язані вирази. Для g90 додано окремі приклади сильного наміру в ～ずにはおかない та контрастного ずにはいられない. Технічні докази: [Chromium #32](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43214922578), [PR Chromium #63](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43214922453), [data checks #482](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43214922491), [повний аудит](JLPT_N1_v171_audit.md), [результати](completion/v171-grammar-order-results.json).
 
 Підтверджено незмінність 3914 словникових записів, 130 ID граматики та всіх інших розібраних JSON-констант; у граматичних даних змінено лише поле `t` ID 90. Браузер перевірив усі 130 карток у трьох режимах при 412 px та контрольні ID 1/90/130 при 360 і 1280 px. Sentinel прогресу не змінився. Авторський credit 3323/3914 не змінено.
 
