@@ -45,6 +45,13 @@ def main():
     require(browser.get("quizEligibility", {}).get("records") == 3914
             and browser.get("quizEligibility", {}).get("unchanged") is True,
             "quiz eligibility changed unexpectedly")
+    render_checks = browser.get("cardRenderChecks", {})
+    require(browser.get("cardsChecked") == 13 and browser.get("translationsChecked") == 11
+            and render_checks.get("progressStorageUnchanged") is True
+            and len(render_checks.get("checked", [])) == 13
+            and all(x.get("mainTranslation") and x.get("exampleTranslations") and x.get("usage")
+                    for x in render_checks.get("checked", [])),
+            "card rendering or progress-preservation checks are incomplete")
     require(set(x.get("width") for x in browser.get("widths", [])) == {360, 412, 1280},
             "missing POS filter viewport checks")
     require(all(x.get("pass") is True for x in browser.get("widths", [])),
@@ -70,6 +77,10 @@ def main():
         ROOT / "PROJECT_STATUS.md",
         ROOT / "completion" / "BACKLOG.md",
         ROOT / "completion" / "review-register.csv",
+        ROOT / "completion" / "feedback-20261112-grammar.md",
+        ROOT / "completion" / "C10-followup-3701-3716-20261112.md",
+        ROOT / "completion" / "C10-followup-3723-3739-20261112.md",
+        ROOT / "completion" / "C10-followup-3742-3757-20261112.md",
     ]
     for path in required:
         require(path.is_file(), f"publication source is missing: {path.relative_to(ROOT)}")
@@ -80,8 +91,13 @@ def main():
     register = (ROOT / "completion" / "review-register.csv").read_text(encoding="utf-8")
     require(expected_hash in audit and "3701" in audit and "3757" in audit,
             "audit does not identify the exact checkpoint and reviewed IDs")
-    require("v172" in readme and "v172" in status and "v172" in backlog,
-            "README/status/backlog do not point to v172")
+    require("v172" in readme and "v172" in status and "v172" in backlog
+            and "3336 із 3914" in readme and "3336 із 3914" in status,
+            "README/status/backlog do not point to v172 or the accepted-card count")
+    require("3761" in backlog and "3764" in backlog,
+            "remaining C10 IDs 3761/3764 are not retained in BACKLOG")
+    require("| C27 |" in backlog and "**done**" in backlog.split("| C27 |", 1)[1].splitlines()[0],
+            "previous C27 completion was not preserved")
     for id in (3701,3710,3716,3723,3724,3725,3736,3739,3742,3745,3747,3753,3757):
         require(f"vocab,{id},vocab:{id},fixed_rechecked," in register,
                 f"vocabulary ID {id} is not fixed_rechecked")
@@ -89,6 +105,11 @@ def main():
         require(f"vocab_pair,{key}," in register and f"vocab_pair,{key}," in register and "completion/v172-pair-review.tsv" in register,
                 f"pair {key} lacks v172 review evidence")
 
+    for name in ("C10-followup-3701-3716-20261112.md",
+                 "C10-followup-3723-3739-20261112.md",
+                 "C10-followup-3742-3757-20261112.md"):
+        require("Результат v172" in (ROOT / "completion" / name).read_text(encoding="utf-8"),
+                f"{name} has no v172 resolution section")
     require(marker.get("data_check_run") and marker.get("chromium_run"),
             "PUBLISH marker must identify successful data and Chromium runs")
     git(["fetch", "origin", "main"])
@@ -118,6 +139,12 @@ def main():
             ROOT / "PROJECT_STATUS.md": "PROJECT_STATUS.md",
             ROOT / "completion" / "BACKLOG.md": "completion/BACKLOG.md",
             ROOT / "completion" / "review-register.csv": "completion/review-register.csv",
+            ROOT / "completion" / "feedback-20261112-grammar.md": "completion/feedback-20261112-grammar.md",
+            ROOT / "completion" / "C10-followup-3701-3716-20261112.md": "completion/C10-followup-3701-3716-20261112.md",
+            ROOT / "completion" / "C10-followup-3723-3739-20261112.md": "completion/C10-followup-3723-3739-20261112.md",
+            ROOT / "completion" / "C10-followup-3742-3757-20261112.md": "completion/C10-followup-3742-3757-20261112.md",
+            WORK / "inspect-targets.json": "completion/v172-target-inspection.json",
+            WORK / "updates.json": "completion/v172-updates.json",
         }
         targets=[]
         for source,relative in copies.items():
