@@ -32,8 +32,9 @@ async function eligibility(page) {
     const item = { kind: 'v', word, id: word.id };
     return {
       id: Number(word.id),
-      reading: quizReadingOptions(item).length,
-      cloze: clozeWordCandidates(item).length
+      pos: vocabPartOfSpeech(word.id).join('|'),
+      reading: quizReadingOptions(item),
+      cloze: clozeWordCandidates(item)
     };
   }));
 }
@@ -80,8 +81,45 @@ async function main() {
 
     const beforePools = await eligibility(before);
     const afterPools = await eligibility(after);
-    assert.deepEqual(afterPools, beforePools);
-    results.quizEligibility = { records: afterPools.length, unchanged: true };
+    assert.equal(beforePools.length, 3914);
+    assert.equal(afterPools.length, 3914);
+    const clozeChanges = [];
+    for (let i = 0; i < afterPools.length; i++) {
+      const b = beforePools[i], a = afterPools[i];
+      assert.equal(a.id, b.id);
+      assert.deepEqual(a.reading, b.reading, `reading alternatives changed for ID ${a.id}`);
+      const beforeSet = new Set(b.cloze), afterSet = new Set(a.cloze);
+      const added = [...afterSet].filter(x => !beforeSet.has(x)).sort();
+      const removed = [...beforeSet].filter(x => !afterSet.has(x)).sort();
+      if (a.id === 3742) {
+        assert.equal(b.pos, '名詞|ナ形');
+        assert.equal(a.pos, '名詞');
+        assert(a.cloze.length > 3);
+        clozeChanges.push({ id: a.id, kind: 'target-pos-reclassified', before: b.cloze.length, after: a.cloze.length });
+      } else if (b.pos === '名詞') {
+        assert.deepEqual(added, ['お手上げ']);
+        assert.deepEqual(removed, []);
+        clozeChanges.push({ id: a.id, kind: 'noun-pool-addition', added });
+      } else if (b.pos === '名詞|ナ形') {
+        assert.deepEqual(added, []);
+        assert.deepEqual(removed, ['お手上げ']);
+        clozeChanges.push({ id: a.id, kind: 'na-adjective-pool-removal', removed });
+      } else {
+        assert.deepEqual(added, []);
+        assert.deepEqual(removed, []);
+      }
+      if (a.id !== 3742 && b.cloze.length >= 3) assert(a.cloze.length >= 3);
+    }
+    const id3742Quiz = await after.evaluate(() => !!REVIEWED_MEANING_QUIZZES['v_3742']);
+    assert.equal(id3742Quiz, true);
+    results.quizEligibility = {
+      records: afterPools.length,
+      readingOptionsUnchanged: true,
+      clozePoolDeltaVerified: true,
+      changedRecords: clozeChanges.length,
+      targetPool: clozeChanges.find(x => x.id === 3742),
+      id3742ReviewedMeaningDisablesCloze: id3742Quiz
+    };
 
     const rendered = await after.evaluate(rows => rows.map(([id,index,expected]) => {
       const card = VOCAB_DETAILS_BY_ID[id];

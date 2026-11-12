@@ -42,9 +42,12 @@ def main():
             "preparation evidence does not match the exact v172 scope")
     require(browser.get("pass") is True and browser.get("sha256") == expected_hash,
             "Chromium evidence does not match the exact v172 HTML")
-    require(browser.get("quizEligibility", {}).get("records") == 3914
-            and browser.get("quizEligibility", {}).get("unchanged") is True,
-            "quiz eligibility changed unexpectedly")
+    eligibility = browser.get("quizEligibility", {})
+    require(eligibility.get("records") == 3914
+            and eligibility.get("readingOptionsUnchanged") is True
+            and eligibility.get("clozePoolDeltaVerified") is True
+            and eligibility.get("id3742ReviewedMeaningDisablesCloze") is True,
+            "reading options or the expected POS-driven cloze-pool delta failed")
     render_checks = browser.get("cardRenderChecks", {})
     require(browser.get("cardsChecked") == 13 and browser.get("translationsChecked") == 11
             and render_checks.get("progressStorageUnchanged") is True
