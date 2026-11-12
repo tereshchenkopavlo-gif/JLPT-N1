@@ -1,0 +1,7 @@
+{
+  "version": "v177",
+  "expected_main_sha": "34dfa390480e735dc7a351bf910c59781c0b1a08",
+  "expected_html_sha256": "07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e",
+  "work_branch": "work/v177-c10-pos-followups",
+  "authorization": "publish only if deterministic, Chromium, registry and exact-main checks pass"
+}
