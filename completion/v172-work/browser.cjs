@@ -140,15 +140,21 @@ async function main() {
       const sentinel = 'v172-progress-sentinel';
       localStorage.setItem(key, sentinel);
       const checked = [];
+      const normalize = value => String(value || '').replace(/\\s+/g, '');
       for (const id of ids) {
         const data = await getCardData('v', id);
         const html = renderCardShell('v', id, data);
         const record = VOCAB_DETAILS_BY_ID[id];
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = html;
+        const translations = [...wrapper.querySelectorAll('.fc-trans[lang="uk"]')];
+        const exampleTranslations = [...wrapper.querySelectorAll('.grammar-example-ua[lang="uk"]')].map(x => x.textContent);
+        const expectedUsage = displayUsageText(record.usage || '', 'v');
         checked.push({
           id,
-          mainTranslation: html.includes(escapeLex(record.t)),
-          exampleTranslations: (record.exampleTranslations || []).every(value => html.includes(escapeLex(value))),
-          usage: !record.usage || html.includes(escapeLex(record.usage))
+          mainTranslation: !!translations[0] && normalize(translations[0].textContent).includes(normalize(record.t)),
+          exampleTranslations: (record.exampleTranslations || []).every((value, i) => normalize(exampleTranslations[i]) === normalize(value)),
+          usage: !expectedUsage || translations.some(x => normalize(x.textContent).includes(normalize(expectedUsage)))
         });
       }
       return { checked, progressStorageUnchanged: localStorage.getItem(key) === sentinel };
