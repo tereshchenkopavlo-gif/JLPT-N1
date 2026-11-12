@@ -1,0 +1,270 @@
+{
+  "widths": [
+    {
+      "width": 360,
+      "id3742": {
+        "nounFilter": true,
+        "naFilter": false
+      },
+      "pass": true
+    },
+    {
+      "width": 412,
+      "id3742": {
+        "nounFilter": true,
+        "naFilter": false
+      },
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "id3742": {
+        "nounFilter": true,
+        "naFilter": false
+      },
+      "pass": true
+    }
+  ],
+  "cardsChecked": 13,
+  "translationsChecked": 11,
+  "sha256": "f2c21e50ba650151b038a0642026fdeaacc8ed3581f6fd3b48cc03f915cf188a",
+  "correctedFields": {
+    "pass": true,
+    "usage3724": "〜係 — відповідальна особа або функція: N＋係 — 受付係・案内係; V連用形＋係 — 見張り係（見張る→見張り）. Окреме 係 означає доручену роль.",
+    "translation3747": "плутати головне з другорядним; ставити засіб вище за мету",
+    "usage3757": "指折り数えて待つ — нетерпляче відраховувати дні до очікуваної події; 指を折って数える — лічити на пальцях. Не буквальне ламання пальця."
+  },
+  "quizEligibility": {
+    "records": 3914,
+    "readingOptionsUnchanged": true,
+    "clozePoolDeltaVerified": true,
+    "changedRecords": 2338,
+    "targetPool": {
+      "id": 3742,
+      "kind": "target-pos-reclassified",
+      "before": 63,
+      "after": 2272
+    },
+    "id3742ReviewedMeaningDisablesCloze": true
+  },
+  "renderedExamples": [
+    {
+      "id": "3701",
+      "index": 0,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3710",
+      "index": 1,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3716",
+      "index": 0,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3723",
+      "index": 1,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3725",
+      "index": 0,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3725",
+      "index": 1,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3736",
+      "index": 0,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3739",
+      "index": 0,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3745",
+      "index": 0,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3753",
+      "index": 1,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3757",
+      "index": 0,
+      "expectedValue": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    }
+  ],
+  "id3757Target": {
+    "sentence": "開通の日を指折り数えて待つ住民が、駅前に集まっていた。",
+    "target": "指折り数えて",
+    "pass": true
+  },
+  "cardRenderChecks": {
+    "checked": [
+      {
+        "id": "3701",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "шалений,лютий,надзвичайний(префіксвеликоїсили)",
+        "expectedMain": "шалений,лютий,надзвичайний(префіксвеликоїсили)",
+        "usageText": "猛＋іменникпосилюєінтенсивність:猛暑,猛反発.Цечастинаусталенихслів;незамінюєприкметник猛烈なпередбудь-якиміменником.",
+        "expectedUsage": "猛＋іменникпосилюєінтенсивність:猛暑,猛反発.Цечастинаусталенихслів;незамінюєприкметник猛烈なпередбудь-якиміменником."
+      },
+      {
+        "id": "3710",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "особа,-ець(суфіксособи)",
+        "expectedMain": "особа,-ець(суфіксособи)",
+        "usageText": "〜者—людиназадією,станомабороллю:高齢者,責任者.Читаннязалежитьвідслова:しゃ,інодіじゃ.",
+        "expectedUsage": "〜者—людиназадією,станомабороллю:高齢者,責任者.Читаннязалежитьвідслова:しゃ,інодіじゃ."
+      },
+      {
+        "id": "3716",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "угруповання,школа,напрям(суфіксоднодумців)",
+        "expectedMain": "угруповання,школа,напрям(суфіксоднодумців)",
+        "usageText": "〜派—група,течіяабоприхильникпевноїпозиції.Нелишеполітика:朝型派тощо;сполученнязалежатьвідконтексту.",
+        "expectedUsage": "〜派—група,течіяабоприхильникпевноїпозиції.Нелишеполітика:朝型派тощо;сполученнязалежатьвідконтексту."
+      },
+      {
+        "id": "3723",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "погляд,уявлення(суфікс)",
+        "expectedMain": "погляд,уявлення(суфікс)",
+        "usageText": "〜観—системапоглядівнащось:人生観,価値観.Неплутайтез〜感—відчуттямабовраженням.",
+        "expectedUsage": "〜観—системапоглядівнащось:人生観,価値観.Неплутайтез〜感—відчуттямабовраженням."
+      },
+      {
+        "id": "3724",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "відповідальний,черговий;обов'язок(суфікс)",
+        "expectedMain": "відповідальний,черговий;обов'язок(суфікс)",
+        "usageText": "〜係—відповідальнаособаабофункція:N＋係—受付係・案内係;V連用形＋係—見張り係（見張る→見張り）.Окреме係означаєдорученуроль.",
+        "expectedUsage": "〜係—відповідальнаособаабофункція:N＋係—受付係・案内係;V連用形＋係—見張り係（見張る→見張り）.Окреме係означаєдорученуроль."
+      },
+      {
+        "id": "3725",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "зона,сфера,межі(суфікс)",
+        "expectedMain": "зона,сфера,межі(суфікс)",
+        "usageText": "〜圏—територіяпоширенняабодосяжності:首都圏,徒歩圏.Межізалежатьвідконкретногопоняття.",
+        "expectedUsage": "〜圏—територіяпоширенняабодосяжності:首都圏,徒歩圏.Межізалежатьвідконкретногопоняття."
+      },
+      {
+        "id": "3736",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "загін,підрозділ,команда(суфікс)",
+        "expectedMain": "загін,підрозділ,команда(суфікс)",
+        "usageText": "〜隊—організованийзагінабокомандазпевнимзавданням:救助隊,消防隊.Небудь-якевипадковескупченнялюдей.",
+        "expectedUsage": "〜隊—організованийзагінабокомандазпевнимзавданням:救助隊,消防隊.Небудь-якевипадковескупченнялюдей."
+      },
+      {
+        "id": "3739",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "матиширокеколознайомих(бутивідомимбагатьом)",
+        "expectedMain": "матиширокеколознайомих(бутивідомимбагатьом)",
+        "usageText": "顔が広い—матибагатознайомствізв’язків.顔が広くて—сполучнаформа;ценепростозагальнапопулярність.",
+        "expectedUsage": "顔が広い—матибагатознайомствізв’язків.顔が広くて—сполучнаформа;ценепростозагальнапопулярність."
+      },
+      {
+        "id": "3742",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "безсиллящосьудіяти;стан,коливженезнаєшради",
+        "expectedMain": "безсиллящосьудіяти;стан,коливженезнаєшради",
+        "usageText": "Іменниковийвислів:お手上げだ／お手上げの状態.Означаєбезсиллящосьзробити,анедобровільнебайдикування.",
+        "expectedUsage": "Іменниковийвислів:お手上げだ／お手上げの状態.Означаєбезсиллящосьзробити,анедобровільнебайдикування."
+      },
+      {
+        "id": "3745",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "дратувати,зачіпати,ображати",
+        "expectedMain": "дратувати,зачіпати,ображати",
+        "usageText": "人の気に障る／発言が気に障る—зачіпатичивикликатиневдоволення.Звернітьувагунаに;цене気が付く.",
+        "expectedUsage": "人の気に障る／発言が気に障る—зачіпатичивикликатиневдоволення.Звернітьувагунаに;цене気が付く."
+      },
+      {
+        "id": "3747",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "плутатиголовнездругорядним;ставитизасібвищезамету",
+        "expectedMain": "плутатиголовнездругорядним;ставитизасібвищезамету",
+        "usageText": "本末転倒だ／本末転倒になる—плутатиметуіззасобомабоголовнездругорядним.Непростопорушенняхронологічногопорядку.",
+        "expectedUsage": "本末転倒だ／本末転倒になる—плутатиметуіззасобомабоголовнездругорядним.Непростопорушенняхронологічногопорядку."
+      },
+      {
+        "id": "3753",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "умітизберігатитаємниці,нерозголошуватидовіреного",
+        "expectedMain": "умітизберігатитаємниці,нерозголошуватидовіреного",
+        "usageText": "口がかたい—нерозголошуватитаємниць.Людинаможебутибалакучоювіншихситуаціях:寡黙неєточнимсинонімом.",
+        "expectedUsage": "口がかたい—нерозголошуватитаємниць.Людинаможебутибалакучоювіншихситуаціях:寡黙неєточнимсинонімом."
+      },
+      {
+        "id": "3757",
+        "mainTranslation": true,
+        "exampleTranslations": true,
+        "usage": true,
+        "mainText": "рахуватипопальцях",
+        "expectedMain": "рахуватипопальцях",
+        "usageText": "指折り数えて待つ—нетерплячевідраховуватиднідоочікуваноїподії;指を折って数える—лічитинапальцях.Небуквальнеламанняпальця.",
+        "expectedUsage": "指折り数えて待つ—нетерплячевідраховуватиднідоочікуваноїподії;指を折って数える—лічитинапальцях.Небуквальнеламанняпальця."
+      }
+    ],
+    "progressStorageUnchanged": true
+  },
+  "pass": true
+}
