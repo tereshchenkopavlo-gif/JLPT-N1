@@ -7,7 +7,7 @@ const updates=JSON.parse(fs.readFileSync('completion/v177-work/updates.json','ut
 const ids=['364','371','378','379','380','386','395','402','404','410','415','416'];
 const changedIds=['364','378','379','380','386','395','402','404','410','415','416'];
 const pairIndexes=[61,94,99,104];
-function getPath(v,p){return p.split('.').reduce((x,k)=>Array.isArray(x)?x[Number(k)]:x,v);}
+function readPath(v,p){let cur=v;for(const part of String(p).split('.')){if(cur===undefined||cur===null)throw new Error('Missing path '+p);cur=Array.isArray(cur)?cur[Number(part)]:cur[part];}return cur;}
 async function open(browser,name,width=1280){
  const page=await browser.newPage({viewport:{width,height:915}}),errors=[];
  page.on('pageerror',e=>errors.push(String(e)));
