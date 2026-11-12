@@ -1,0 +1,83 @@
+{
+  "sha256": "a012b3d50685353354417e89f4d6ab2767c8003ce1d77b4ff84ef85c77ed8c20",
+  "widths": [
+    {
+      "width": 360,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 412,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    }
+  ],
+  "cardsChecked": 4,
+  "translationsChecked": 3,
+  "renderedCards": [
+    {
+      "id": "3820",
+      "headword": "させていただく",
+      "expectedTranslation": true,
+      "cardRendered": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3828",
+      "headword": "承知する",
+      "expectedTranslation": true,
+      "cardRendered": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3836",
+      "headword": "存じ上げる",
+      "expectedTranslation": true,
+      "cardRendered": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    },
+    {
+      "id": "3900",
+      "headword": "拝啓",
+      "expectedTranslation": true,
+      "cardRendered": true,
+      "exampleRendered": true,
+      "translationRendered": true
+    }
+  ],
+  "progressStorageUnchanged": true,
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859
+  },
+  "changedIds": [
+    "3828",
+    "3836",
+    "3900"
+  ],
+  "pass": true
+}
