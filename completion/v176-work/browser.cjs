@@ -130,8 +130,14 @@ async function main() {
       localStorage.setItem(key, sentinel);
       return { rows, progressStorageUnchanged: localStorage.getItem(key) === sentinel };
     }, { ids, updates });
+    results.renderedCards = rendered.rows;
+    results.progressStorageUnchanged = rendered.progressStorageUnchanged;
+    fs.writeFileSync('completion/v176-work/browser-results.json',
+      JSON.stringify(results, null, 2) + '\n');
+    console.log('RENDERED_DIAGNOSTICS ' + JSON.stringify(rendered.rows));
     assert(rendered.rows.every(row =>
-      row.cardRendered && row.allExamplesRendered && row.fields.every(field => field.present)));
+      row.cardRendered && row.allExamplesRendered && row.fields.every(field => field.present)),
+      JSON.stringify(rendered.rows));
     assert.equal(rendered.progressStorageUnchanged, true);
     results.renderedCards = rendered.rows;
     results.progressStorageUnchanged = rendered.progressStorageUnchanged;
