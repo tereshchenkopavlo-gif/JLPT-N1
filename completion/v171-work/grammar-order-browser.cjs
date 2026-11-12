@@ -69,7 +69,8 @@ const url = pathToFileURL(path.resolve(file)).href;
           if (rows.length !== 2 || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error('comparison examples/translations missing for grammar ' + id);
         }
         const g90 = document.createElement('div');
-        g90.innerHTML = renderCardShell('g', '90', getCardData('g', '90'));
+        const g90Data = await getCardData('g', '90');
+        g90.innerHTML = renderCardShell('g', '90', g90Data);
         const afterLabel90 = g90.querySelector('[data-grammar-layout="after"]');
         const analysis90 = afterLabel90 && afterLabel90.nextElementSibling;
         if (!analysis90) throw new Error('grammar 90 analysis content missing');
