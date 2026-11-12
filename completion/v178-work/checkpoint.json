@@ -18,6 +18,23 @@
     447,
     449
   ],
+  "proposed_changed_ids": [
+    421,
+    423,
+    430,
+    433,
+    435,
+    436,
+    438,
+    440,
+    444,
+    447,
+    449
+  ],
+  "review_unchanged_candidate": [
+    425
+  ],
+  "proposed_operations": 13,
   "prior_pending_dependencies": [
     255,
     327
@@ -26,5 +43,7 @@
     "completion/v153-cards-381-440.tsv",
     "completion/v153-cards-441-500.tsv"
   ],
-  "status": "preaudit only; no card credited; proposed changes require exact baseline and source recheck"
+  "registry_credit": 0,
+  "tests_status": "not run",
+  "status": "author review decisions drafted; candidate generation, exact-before verification and Chromium regression pending"
 }
