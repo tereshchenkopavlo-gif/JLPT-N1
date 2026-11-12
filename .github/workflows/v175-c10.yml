@@ -1,0 +1,94 @@
+name: JLPT N1 v175 C10 follow-up
+
+on:
+  push:
+    branches: [work/v175-c10-remaining-open-ids]
+    paths:
+      - '.github/workflows/v175-c10.yml'
+      - 'completion/v175-work/prepare.py'
+      - 'completion/v175-work/browser.cjs'
+      - 'completion/v175-work/finalize-evidence.py'
+      - 'completion/v175-work/publish-main.py'
+      - 'completion/v175-work/updates.json'
+      - 'completion/v175-work/pair-review.tsv'
+      - 'completion/v175-work/PUBLISH'
+      - 'completion/C10-followup-3802-3816-20261113.md'
+      - 'JLPT_N1_v175_audit.md'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/v175-c10.yml'
+      - 'completion/v175-work/prepare.py'
+      - 'completion/v175-work/browser.cjs'
+      - 'completion/v175-work/finalize-evidence.py'
+      - 'completion/v175-work/publish-main.py'
+      - 'completion/v175-work/updates.json'
+      - 'completion/v175-work/pair-review.tsv'
+      - 'completion/v175-work/PUBLISH'
+      - 'completion/C10-followup-3802-3816-20261113.md'
+      - 'JLPT_N1_v175_audit.md'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jlpt-n1-v175-c10
+  cancel-in-progress: false
+
+jobs:
+  verify-v175:
+    (github.event_name == 'push' && github.ref_name == 'work/v175-c10-remaining-open-ids') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v175-c10-remaining-open-ids')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v175-c10-remaining-open-ids
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Python and browser verifier syntax
+        run: |
+          python3 -m py_compile completion/v175-work/prepare.py completion/v175-work/finalize-evidence.py completion/v175-work/publish-main.py
+          node --check completion/v175-work/browser.cjs
+      - name: Reproduce v175 from the exact published v174 baseline
+        run: python3 completion/v175-work/prepare.py
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify nine cards, ten fields, five pairs and progress
+        run: node completion/v175-work/browser.cjs
+      - name: Finalize author acceptance, pair review and registry evidence
+        run: python3 completion/v175-work/finalize-evidence.py
+      - name: Save verified v175 checkpoint and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v175.html JLPT_N1_v175_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/v175-acceptance.tsv completion/v175-pair-review.tsv completion/v175-work/prepare-results.json completion/v175-work/browser-results.json completion/v175-work/registry-results.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v175 C10 checkpoint and acceptance evidence"
+            git fetch origin work/v175-c10-remaining-open-ids
+            git rebase origin/work/v175-c10-remaining-open-ids
+            git push origin HEAD:work/v175-c10-remaining-open-ids
+          fi
+      - name: Publish only the verified v175 release artifacts to main
+        if: success() && hashFiles('completion/v175-work/PUBLISH') != ''
+        run: python3 completion/v175-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v175-c10-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v175.html
+            completion/v175-work/prepare-results.json
+            completion/v175-work/browser-results.json
+            completion/v175-work/registry-results.json
+            completion/v175-acceptance.tsv
+            completion/v175-pair-review.tsv
+          if-no-files-found: error
