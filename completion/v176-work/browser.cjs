@@ -113,7 +113,10 @@ async function main() {
         const cardUpdates = updates.filter(row => String(row.id) === id);
         const fields = cardUpdates.map(row => {
           const renderedText = row.field.startsWith('exampleTranslations.') ? examplesText : text;
-          return { field: row.field, present: normalize(renderedText).includes(normalize(row.after)) };
+          const expectedDisplay = row.field === 'usage'
+            ? row.after.replace(/^(?:Іменник|Дієслово|Прислівник|[なナ][-‑]прикметник|[いイ][-‑]прикметник)\s*(?:[;:,—–]\s*|\.\s+)/u, '')
+            : row.after;
+          return { field: row.field, expectedDisplay, present: normalize(renderedText).includes(normalize(expectedDisplay)) };
         });
         const allExamplesRendered = (VOCAB_DETAILS_BY_ID[id].exampleTranslations || []).every(value =>
           normalize(examplesText).includes(normalize(value)));
