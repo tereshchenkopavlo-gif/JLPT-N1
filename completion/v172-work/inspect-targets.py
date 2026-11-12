@@ -13,7 +13,7 @@ def compact(value):
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
 
 def extract(source: str, name: str):
-    match = re.search(r"\\bconst\\s+" + re.escape(name) + r"\\s*=\\s*", source)
+    match = re.search(r"\bconst\s+" + re.escape(name) + r"\s*=\s*", source)
     if not match:
         return None
     start = match.end()
@@ -55,7 +55,7 @@ def main():
             result[name] = {k: v for k, v in value.items() if any(str(i) in k for i in IDS)}
     out = Path("completion/v172-work/inspect-targets.json")
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"pass": True, "sha256": result["source_sha256"], "ids": len(IDS), "blocks": result["available_blocks"]}, ensure_ascii=False))
 
 if __name__ == "__main__":
