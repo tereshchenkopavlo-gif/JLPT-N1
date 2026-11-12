@@ -67,7 +67,7 @@ jobs:
             git push origin HEAD:work/v171-grammar-order-checkpoint
           fi
       - name: Publish verified v171 release to main
-        if: success() && github.event_name == 'push' && hashFiles('completion/v171-work/PUBLISH') != ''
+        if: success() && github.event_name == 'pull_request' && hashFiles('completion/v171-work/PUBLISH') != ''
         run: python3 completion/v171-work/publish-main.py
       - uses: actions/upload-artifact@v4
         if: always()
