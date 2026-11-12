@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v177**. Основа main перед випуском — 34dfa390480e735dc7a351bf910c59781c0b1a08 (v176 + workflow infrastructure). Повний JLPT_N1_ukrainian_reading_v177.html, 6 936 947 байт, SHA-256 07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e. [Аудит](JLPT_N1_v177_audit.md)
+Оновлено 13 листопада 2026. Актуальна **v177**. Опубліковано в main commit 5acb8e2c2e1d260d33dc8fc98fe0fb4ad3dcd780 (parent 34dfa390480e735dc7a351bf910c59781c0b1a08). Повний JLPT_N1_ukrainian_reading_v177.html, 6 936 947 байт, SHA-256 07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e. [Аудит](JLPT_N1_v177_audit.md)
 
 ## Поточний випуск v177 — C10 follow-up
 
@@ -8,7 +8,7 @@
 
 Детермінований preparer підтвердив точну основу v176, 11 операцій, повний rollback і незмінність 3914 слів, 130 конструкцій, 859 пар, ID та POS. Chromium перевірив 12 карток, 11 полів, приклади й чотири пари при 360, 412 і 1280 px; тестовий sentinel прогресу не змінився. ID255/327 лишаються відкритими через C11-залежність reading-пулу. Докази: JLPT_N1_v177_audit.md, completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-browser-results.json, completion/v177-registry-results.json.
 
-Поточна робоча гілка — work/v177-c10-pos-followups; candidate v177 пройшов автоматичні перевірки, публікація очікує окремого gate.
+Поточна робоча гілка — work/v178-c10-next-pending (checkpoint dd63c807d52278c9d00aace04dfb77223cec5444), базується на опублікованому v177. Наступна C10-партія: ID421, 423, 425, 430, 433, 435, 436, 438, 440, 444, 447, 449. ID255 і ID327 залишаються окремими C11-залежностями.
 
 C10 не завершено. C07, C11, C12, C14, C16 і C17 залишаються відкритими. Незалежне мовне, правове/походження та фізичне приймання не виконані. v177 — проміжний випуск, не кандидат 1.0.
 
