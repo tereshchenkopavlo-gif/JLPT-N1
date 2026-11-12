@@ -1,3 +1,4 @@
+// v172 C10: content rendering, POS eligibility and progress-sentinel regression checks.
 const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
