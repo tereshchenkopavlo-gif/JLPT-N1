@@ -48,5 +48,8 @@
     "fixed_rechecked": 59
   },
   "author_credit": "3385/3914",
-  "status": "verified candidate; publication guarded by exact main SHA"
+  "status": "published in main after deterministic prepare, Chromium and registry checks",
+  "published_main_sha": "16aa71034bfb6d7c87cab2ed31b7ed7a741e6530",
+  "published_html_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "published_at": "2026-11-13"
 }
