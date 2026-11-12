@@ -1,5 +1,7 @@
 {
   "checkpoint": "v177-c10-candidate",
+  "base_main_sha": "34dfa390480e735dc7a351bf910c59781c0b1a08",
+  "work_branch": "work/v177-c10-pos-followups",
   "base_html": "JLPT_N1_ukrainian_reading_v176.html",
   "base_sha256": "d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b",
   "candidate_html": "JLPT_N1_ukrainian_reading_v177.html",
