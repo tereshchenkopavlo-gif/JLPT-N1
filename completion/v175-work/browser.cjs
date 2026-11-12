@@ -83,16 +83,19 @@ async function main() {
         wrapper.innerHTML = html;
         const text = wrapper.textContent || '';
         const examplesHtml = vocabExamplesHtml(id, card.examples);
+        const examplesWrapper = document.createElement('div');
+        examplesWrapper.innerHTML = examplesHtml;
+        const examplesText = examplesWrapper.textContent || '';
+        const normalize = value => String(value || '').replace(/\\s+/gu, '');
         const cardUpdates = updates.filter(row => String(row.id) === id);
         const fields = cardUpdates.map(row => {
-          const present = row.field.startsWith('exampleTranslations.')
-            ? examplesHtml.includes(escapeLex(row.after))
-            : text.includes(row.after);
+          const renderedText = row.field.startsWith('exampleTranslations.') ? examplesText : text;
+          const present = normalize(renderedText).includes(normalize(row.after));
           return { field: row.field, present };
         });
         const translations = VOCAB_DETAILS_BY_ID[id].exampleTranslations;
         const allExamplesRendered = translations.every(value =>
-          examplesHtml.includes(escapeLex(value)));
+          normalize(examplesText).includes(normalize(value)));
         rows.push({
           id,
           headword: VOCAB_DETAILS_BY_ID[id].w,
@@ -106,6 +109,7 @@ async function main() {
       localStorage.setItem(key, sentinel);
       return { rows, progressStorageUnchanged: localStorage.getItem(key) === sentinel };
     }, { ids, updates });
+    console.log('RENDERED_CARD_DIAGNOSTICS', JSON.stringify(rendered.rows, null, 2));
     assert(rendered.rows.every(row =>
       row.cardRendered && row.allExamplesRendered && row.fields.every(field => field.present)));
     assert.equal(rendered.progressStorageUnchanged, true);
@@ -119,9 +123,12 @@ async function main() {
         for (const id of ids) {
           const card = await getCardData('v', id);
           const html = renderCardShell('v', id, card);
+          const wrapper = document.createElement('div');
+          wrapper.innerHTML = html;
+          const renderedText = (wrapper.textContent || '').replace(/\\s+/gu, '');
           rows.push(html.length > 0 &&
             VOCAB_DETAILS_BY_ID[id].exampleTranslations.every(value =>
-              html.includes(escapeLex(value))));
+              renderedText.includes(String(value).replace(/\\s+/gu, ''))));
         }
         return { width: window.innerWidth, cardsRendered: rows };
       }, ids);
