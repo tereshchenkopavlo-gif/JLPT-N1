@@ -16,7 +16,7 @@ def compact(value):
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
 
 def block(source, name):
-    match = re.search(r"\\bconst\\s+" + re.escape(name) + r"\\s*=\\s*", source)
+    match = re.search(r"\bconst\s+" + re.escape(name) + r"\s*=\s*", source)
     if not match:
         raise ValueError(f"Missing block {name}")
     start = match.end()
@@ -50,15 +50,14 @@ def main():
         raise ValueError("Unexpected v172 title")
     html = html.replace(old_title, new_title, 1)
 
-    # Exact-scope and rollback checks: only exampleTranslations[1] on two IDs may differ.
     after_cards, _, _ = block(html, "VOCAB_DETAILS_BY_ID")
     changed = [key for key in original_cards if original_cards[key] != after_cards[key]]
     if changed != ["3761", "3764"]:
         raise ValueError(f"Unexpected changed card IDs: {changed}")
     for row in updates:
-        before = json.loads(json.dumps(after_cards[str(row["id"])], ensure_ascii=False))
-        before["exampleTranslations"][1] = row["before"]
-        if before != original_cards[str(row["id"])]:
+        restored_card = json.loads(json.dumps(after_cards[str(row["id"])], ensure_ascii=False))
+        restored_card["exampleTranslations"][1] = row["before"]
+        if restored_card != original_cards[str(row["id"])]:
             raise ValueError(f"Unexpected field mutation in {row['id']}")
 
     vocab, _, _ = block(html, "DEFAULT_VOCAB")
@@ -70,18 +69,16 @@ def main():
     if list(cards) != list(original_cards):
         raise ValueError("Vocabulary ID order changed")
 
-    # Reverse the two values and title; the original v172 must be recovered byte-for-byte.
-    restored_cards = json.loads(json.dumps(after_cards, ensure_ascii=False))
+    # Restore the two values and title, then require exact byte-for-byte rollback.
+    restored = html.replace(new_title, old_title, 1)
+    restored_cards, restored_start, restored_end = block(restored, "VOCAB_DETAILS_BY_ID")
     for row in updates:
         restored_cards[str(row["id"])]["exampleTranslations"][1] = row["before"]
-    restored = html.replace(new_title, old_title, 1)
-    restored_start = restored.index("const VOCAB_DETAILS_BY_ID =") + len("const VOCAB_DETAILS_BY_ID =")
-    restored_block, _, restored_end = block(restored, "VOCAB_DETAILS_BY_ID")
     restored = restored[:restored_start] + compact(restored_cards) + restored[restored_end:]
     if restored != original:
         raise ValueError("Exact rollback did not restore v172")
 
-    scripts = re.findall(r"<script(?:\\s[^>]*)?>(.*?)</script>", html, re.S)
+    scripts = re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>", html, re.S)
     checked = 0
     for script in scripts:
         if script.strip():
@@ -107,7 +104,7 @@ def main():
         "pass": True
     }
     out = Path("completion/v173-work/prepare-results.json")
-    out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False))
 
 if __name__ == "__main__":
