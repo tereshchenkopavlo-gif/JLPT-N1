@@ -1,0 +1,85 @@
+{
+  "sha256": "657c81617426dc51e0e7c1784683a4c8950795f3dc010083a7f34ae6b0a9d128",
+  "rows": [
+    {
+      "key": "3067",
+      "word": "旺盛",
+      "reading": "おうせい",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3074",
+      "word": "ひたむき",
+      "reading": "ひたむき",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3084",
+      "word": "頑固",
+      "reading": "がんこ",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3086",
+      "word": "希薄",
+      "reading": "きはく",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3095",
+      "word": "強引",
+      "reading": "ごういん",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3102",
+      "word": "勤勉",
+      "reading": "きんべん",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3108",
+      "word": "堅実",
+      "reading": "けんじつ",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3130",
+      "word": "弱気",
+      "reading": "よわき",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3134",
+      "word": "手薄",
+      "reading": "てうす",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3135",
+      "word": "従順",
+      "reading": "じゅうじゅん",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "base": "v165",
+  "sha256": "657c81617426dc51e0e7c1784683a4c8950795f3dc010083a7f34ae6b0a9d128",
+  "bytes": 6933567,
+  "edits": 10,
+  "example_translations": 6,
+  "japanese_definitions": 1,
+  "primary_translations": 3,
+  "full_card_credits": [
+    3067,
+    3074,
+    3084,
+    3086,
+    3095,
+    3102,
+    3108,
+    3130,
+    3134,
+    3135
+  ],
+  "vocabulary_reviewed": 2869,
+  "register_reviewed": 3416,
+  "register_pending": 2426,
+  "next_id": 3381,
+  "technical_ci_run": 43147270851,
+  "open_pos_id": 2734
+}
