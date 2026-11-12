@@ -11,3 +11,6 @@ CI runner для Chromium-перевірки розміщено в main: `.githu
 
 
 Після успішного read-only PR прогону PUBLISH marker залишається в гілці. Main CI workflow публікує файли лише на push-події після повторного Chromium-прогону та звірки очікуваного SHA main; PR workflow не має write-дозволів і нічого не публікує.
+
+
+The guarded main CI workflow file is also present in this work-branch commit so the push event can run it; the copy is identical to main. The read-only PR workflow remains separate. The PUBLISH marker is gated by exact main SHA, checkpoint hash, data checks and Chromium results.
