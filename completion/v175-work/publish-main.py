@@ -117,7 +117,6 @@ def main():
         ROOT / "completion" / "BACKLOG.md",
         WORK / "prepare-results.json", WORK / "browser-results.json",
         WORK / "registry-results.json", WORK / "updates.json", WORK / "pair-review.tsv",
-        ROOT / ".github" / "workflows" / "v175-c10.yml",
         WORK / "prepare.py", WORK / "browser.cjs",
         WORK / "finalize-evidence.py", WORK / "publish-main.py"
     ]
@@ -153,7 +152,6 @@ def main():
             ROOT / "README.md": "README.md",
             ROOT / "PROJECT_STATUS.md": "PROJECT_STATUS.md",
             ROOT / "completion" / "BACKLOG.md": "completion/BACKLOG.md",
-            ROOT / ".github" / "workflows" / "v175-c10.yml": ".github/workflows/v175-c10.yml",
             WORK / "prepare.py": "completion/v175-work/prepare.py",
             WORK / "browser.cjs": "completion/v175-work/browser.cjs",
             WORK / "finalize-evidence.py": "completion/v175-work/finalize-evidence.py",
