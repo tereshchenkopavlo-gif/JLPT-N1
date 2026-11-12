@@ -39,7 +39,7 @@ const url = pathToFileURL(path.resolve(file)).href;
           const examples = container.querySelector('[data-grammar-layout="examples"]');
           const after = container.querySelector('[data-grammar-layout="after"]');
           const afterContent = after && after.nextElementSibling;
-          if (!before || !examples || !after || !afterContent) { const model = cardStudyModel('g', data); const parts = splitGrammarUsage(model.usage); const item = findAllItem('g', id); const direct = GRAMMAR_DETAILS_BY_ID[String(id)]; const def = item ? SmartEngine.getDefinition(item.label, 'g', id) : null; const diagnostic = {context, id, found:{before:!!before,examples:!!examples,after:!!after,afterContent:!!afterContent}, item, data, directKeys:Object.keys(direct||{}), defKeys:Object.keys(def||{}), def:{m:def?.m,t:def?.t,examples:def?.examples?.length}, usage:model.usage.slice(0,900), parts:{before:parts.before,after:parts.after.slice(0,900)}, rendered:html.slice(Math.max(0,html.indexOf('fc-meaning')),Math.min(html.length,html.indexOf('fc-actions')>0?html.indexOf('fc-actions'):html.length)).slice(0,1600)}; throw new Error(context + ' missing sections for grammar ' + id + ': ' + JSON.stringify(diagnostic)); }
+          if (!before || !examples || !after || !afterContent) { const model = cardStudyModel('g', data); const parts = splitGrammarUsage(model.usage); const item = findAllItem('g', id); const direct = GRAMMAR_DETAILS_BY_ID[String(id)]; const def = item ? SmartEngine.getDefinition(item.label, 'g', id) : null; const diagnostic = {context, id, found:{before:!!before,examples:!!examples,after:!!after,afterContent:!!afterContent}, item, data, snapshot:arguments[4], directKeys:Object.keys(direct||{}), defKeys:Object.keys(def||{}), def:{m:def?.m,t:def?.t,examples:def?.examples?.length}, usage:model.usage.slice(0,900), parts:{before:parts.before,after:parts.after.slice(0,900)}, rendered:html.slice(Math.max(0,html.indexOf('fc-meaning')),Math.min(html.length,html.indexOf('fc-actions')>0?html.indexOf('fc-actions'):html.length)).slice(0,1600)}; throw new Error(context + ' missing sections for grammar ' + id + ': ' + JSON.stringify(diagnostic)); }
           if (!follows(before, examples) || !follows(examples, after)) throw new Error(context + ' order failure for grammar ' + id);
           const rows = [...container.querySelectorAll('.fc-examples li')];
           if (rows.length !== 2 || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error(context + ' examples/translations missing for grammar ' + id);
@@ -48,8 +48,12 @@ const url = pathToFileURL(path.resolve(file)).href;
         const ids = width === 412 ? grammar.map(item => String(item.id)) : ['1', '90', '130'];
         for (const id of ids) {
           const data = getCardData('g', id);
-          checkCard(renderCardShell('g', id, data), cardBody, id, 'card', data);
-          checkCard(renderCardShell('g', id, data, { staticChips: true, hideActions: true }), sessionBody, id, 'session', data);
+          const snapshot = JSON.parse(JSON.stringify(data));
+          const cardHtml = renderCardShell('g', id, data);
+          const afterCard = JSON.parse(JSON.stringify(data));
+          checkCard(cardHtml, cardBody, id, 'card', data, {snapshot,afterCard,getCardDataSource:String(getCardData).slice(0,900)});
+          const sessionData = getCardData('g', id);
+          checkCard(renderCardShell('g', id, sessionData, { staticChips: true, hideActions: true }), sessionBody, id, 'session', sessionData);
           if (!saveComparisonKeys(['g_' + id])) throw new Error('could not save comparison key for grammar ' + id);
           renderComparison();
           const entry = document.querySelector('#compareList .compare-entry');
