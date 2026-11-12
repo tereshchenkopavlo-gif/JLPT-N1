@@ -1,0 +1,30 @@
+{
+  "checkpoint": "v178-c10-next-pending",
+  "created": "2026-11-13",
+  "base_main_sha": "5acb8e2c2e1d260d33dc8fc98fe0fb4ad3dcd780",
+  "base_html": "JLPT_N1_ukrainian_reading_v177.html",
+  "base_html_sha256": "07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e",
+  "scope_ids": [
+    421,
+    423,
+    425,
+    430,
+    433,
+    435,
+    436,
+    438,
+    440,
+    444,
+    447,
+    449
+  ],
+  "prior_pending_dependencies": [
+    255,
+    327
+  ],
+  "pilot_evidence": [
+    "completion/v153-cards-381-440.tsv",
+    "completion/v153-cards-441-500.tsv"
+  ],
+  "status": "preaudit only; no card credited; proposed changes require exact baseline and source recheck"
+}
