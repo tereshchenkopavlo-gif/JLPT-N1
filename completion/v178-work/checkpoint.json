@@ -45,8 +45,11 @@
     "completion/v153-cards-441-500.tsv"
   ],
   "registry_credit": 12,
-  "tests_status": "deterministic prepare and Chromium passed",
-  "status": "verified candidate; guarded publication in progress",
+  "tests_status": "deterministic prepare, Chromium and registry checks passed",
+  "status": "published in main; 11 cards fixed_rechecked, ID425 reviewed unchanged",
   "candidate_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
-  "candidate_bytes": 6937622
+  "candidate_bytes": 6937622,
+  "published_main_sha": "16aa71034bfb6d7c87cab2ed31b7ed7a741e6530",
+  "published_html_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "published_at": "2026-11-13"
 }
