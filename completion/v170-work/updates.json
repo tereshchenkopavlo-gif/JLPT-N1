@@ -1,0 +1,173 @@
+[
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3510"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v167-cards-3501-3520.tsv#3510"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3516"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v167-cards-3501-3520.tsv#3516"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3527"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v167-cards-3521-3540.tsv#3527"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3538"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v167-cards-3521-3540.tsv#3538"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3542"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v167-cards-3541-3560.tsv#3542"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3546"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v167-cards-3541-3560.tsv#3546"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3552"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v167-cards-3541-3560.tsv#3552"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3605"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v168-cards-3601-3620.tsv#3605"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3611"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v168-cards-3601-3620.tsv#3611"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3623"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v168-cards-3621-3640.tsv#3623"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3638"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v168-cards-3621-3640.tsv#3638"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3645"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "evidence": "completion/v168-cards-3641-3660.tsv#3645"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3605",
+      "exampleTranslations",
+      1
+    ],
+    "before": "Людям із чутливою шкірою тут рекомендують засоби з низьким подразнювальним впливом.",
+    "after": "Людям із чутливою шкірою рекомендуємо засоби, що мало подразнюють шкіру.",
+    "evidence": "completion/v168-cards-3601-3620.tsv#3605"
+  }
+]
