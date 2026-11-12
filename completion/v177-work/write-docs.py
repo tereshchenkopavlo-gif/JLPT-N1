@@ -14,14 +14,23 @@ def main():
  candidate={"checkpoint":"v177-c10-candidate","base_main_sha":"34dfa390480e735dc7a351bf910c59781c0b1a08","work_branch":"work/v177-c10-pos-followups","base_html":"JLPT_N1_ukrainian_reading_v176.html","base_sha256":prep["base_sha256"],"candidate_html":"JLPT_N1_ukrainian_reading_v177.html","candidate_sha256":h,"scope_ids":[364,371,378,379,380,386,395,402,404,410,415,416],"changed_ids":prep["changed_ids"],"reviewed_without_change":["371"],"pair_indexes":[61,94,99,104],"structural_invariants":{"vocabulary":3914,"grammar":130,"lexical_pairs":859},"status":"verified candidate; not yet published"}
  (W/"candidate.json").write_text(json.dumps(candidate,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  sp=Path("PROJECT_STATUS.md");status=sp.read_text(encoding="utf-8")
- if "Актуальна **v176**." not in status: raise ValueError("Status header mismatch")
- status=status.replace("Актуальна **v176**.","Актуальна **v177**.",1)
+ if "Актуальна **v176**." in status:
+  status=status.replace("Актуальна **v176**.","Актуальна **v177**.",1)
+ elif "Актуальна **v177**." not in status:
+  raise ValueError("Status header mismatch")
  status=status.replace("Основа main перед випуском — bcc3f1ca290fb376094e53d83b65225694b96612 (v175). Повний JLPT_N1_ukrainian_reading_v176.html, 6 936 616 байт, SHA-256 d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b. [Аудит](JLPT_N1_v176_audit.md)","Основа main перед випуском — 34dfa390480e735dc7a351bf910c59781c0b1a08 (v176 + workflow infrastructure). Повний JLPT_N1_ukrainian_reading_v177.html, 6 936 947 байт, SHA-256 "+h+". [Аудит](JLPT_N1_v177_audit.md)",1)
  status=status.replace("## Поточний випуск v176 — C10 follow-up","## Архівований випуск v176 — C10 follow-up",1)
  anchor="## Архівований випуск v176 — C10 follow-up"
  section="## Поточний випуск v177 — C10 follow-up\n\nАвторськи переглянуто 12 pending карток: 11 виправлено в 11 точних полях і повторно перевірено; ID371 прийнято без зміни. Чотири пари (61, 94, 99, 104) переглянуто без зміни. Авторський credit — 3373/3914; реєстр — 3890 reviewed /48 fixed_rechecked /1904 pending; словниковий зріз — 3326 /47 /541; пари — 18 reviewed /841 pending.\n\nДетермінований preparer підтвердив точну основу v176, 11 операцій, повний rollback і незмінність 3914 слів, 130 конструкцій, 859 пар, ID та POS. Chromium перевірив 12 карток, 11 полів, приклади й чотири пари при 360, 412 і 1280 px; тестовий sentinel прогресу не змінився. ID255/327 лишаються відкритими через C11-залежність reading-пулу. Докази: JLPT_N1_v177_audit.md, completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-browser-results.json, completion/v177-registry-results.json.\n\nПоточна робоча гілка — work/v177-c10-pos-followups; candidate v177 пройшов автоматичні перевірки, публікація очікує окремого gate.\n\nC10 не завершено. C07, C11, C12, C14, C16 і C17 залишаються відкритими. Незалежне мовне, правове/походження та фізичне приймання не виконані. v177 — проміжний випуск, не кандидат 1.0.\n\n"
  if anchor not in status: raise ValueError("Archived v176 section missing")
- status=status.replace(anchor,section+anchor,1);sp.write_text(status,encoding="utf-8")
+ current="## Поточний випуск v177 — C10 follow-up"
+ if current in status:
+  start=status.index(current);end=status.index(anchor,start)
+  status=status[:start]+section+status[end:]
+ else:
+  if anchor not in status: raise ValueError("Archived v176 section missing")
+  status=status.replace(anchor,section+anchor,1)
+ sp.write_text(status,encoding="utf-8")
  rp=Path("README.md");readme=rp.read_text(encoding="utf-8");split="\n## Контрольна версія"
  if split not in readme: raise ValueError("README structure mismatch")
  rest=readme.split(split,1)[1]
@@ -33,7 +42,8 @@ def main():
  line=next((x for x in backlog.splitlines() if x.startswith("| C10 |")),None)
  if line is None: raise ValueError("C10 row missing")
  if "v177 додає" not in line: backlog=backlog.replace(line,line[:-2]+" v177 додає 11 fixed_rechecked та 1 reviewed картку (ID364–416), чотири пари reviewed; авторський credit 3373/3914; реєстр 3890/48/1904. Докази completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-browser-results.json, JLPT_N1_v177_audit.md. Незалежне й фізичне приймання окремі. |",1)
- backlog=backlog.rstrip()+"\n\n## C10 follow-up ID364–416 — 13 листопада 2026\n\nУ v177 авторськи переглянуто 12 pending карток: 11 виправлено й повторно перевірено, ID371 прийнято без зміни. Чотири пари (61, 94, 99, 104) переглянуто без зміни. Авторський credit 3373/3914; реєстр 3890 reviewed /48 fixed_rechecked /1904 pending. ID255 і ID327 лишаються відкритими через C11-залежність reading-пулу. Докази: completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-prepare-results.json, completion/v177-browser-results.json, completion/v177-registry-results.json, JLPT_N1_v177_audit.md. Це не незалежне, фізичне чи правове/походження приймання.\n"
+ if "## C10 follow-up ID364–416 — 13 листопада 2026" not in backlog:
+  backlog=backlog.rstrip()+"\n\n## C10 follow-up ID364–416 — 13 листопада 2026\n\nУ v177 авторськи переглянуто 12 pending карток: 11 виправлено й повторно перевірено, ID371 прийнято без зміни. Чотири пари (61, 94, 99, 104) переглянуто без зміни. Авторський credit 3373/3914; реєстр 3890 reviewed /48 fixed_rechecked /1904 pending. ID255 і ID327 лишаються відкритими через C11-залежність reading-пулу. Докази: completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-prepare-results.json, completion/v177-browser-results.json, completion/v177-registry-results.json, JLPT_N1_v177_audit.md. Це не незалежне, фізичне чи правове/походження приймання.\n"
  bp.write_text(backlog,encoding="utf-8")
  print("Documentation prepared for v177",h)
 if __name__=="__main__":main()
