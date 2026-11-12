@@ -1,0 +1,109 @@
+[
+  {
+    "id": "278",
+    "headword": "同士",
+    "field": "m",
+    "after": "同じ立場や仲間に属する人。また、名詞に付いて、同じ種類・立場に属する人や物の間の関係を表す。",
+    "rationale": "NINJAL IPAL and the dictionary treat 同士 as a noun that can also be used suffixally. The revised definition makes the N＋同士 relation explicit; the POS tag remains 名詞 because adding 接尾語 removes all reading distractors.",
+    "sources": [
+      "https://www2.ninjal.ac.jp/dictionaries/IPALBN/pdf_dir/%E3%81%A9%E3%81%86%E3%81%97.pdf",
+      "https://kotobank.jp/word/%E5%90%8C%E5%BF%97-580349"
+    ],
+    "before": "同じ立場や仲間に属する人。名詞に付いて、同じ種類や立場のものの間の関係を表す。"
+  },
+  {
+    "id": "330",
+    "headword": "舞台",
+    "field": "exampleTranslations.1",
+    "after": "Дія цього роману розгортається в торговельних кварталах Едо.",
+    "rationale": "下町 in the Edo-period context refers to the low-lying merchant and artisan districts, not simply a poor or commoners' quarter.",
+    "sources": [
+      "https://kotobank.jp/word/%E4%B8%8B%E7%94%BA-73757",
+      "https://tabi.jtb.or.jp/tabirepo/shitamachitokanko/"
+    ],
+    "before": "Дія цього роману відбувається в простолюдному міському кварталі доби Едо."
+  },
+  {
+    "id": "332",
+    "headword": "復習",
+    "field": "usage",
+    "after": "Іменник, 復習する: 授業の内容を復習する. Повторення вже вивченого матеріалу; не обов’язково повне навчання заново. 学び直し — повторне опанування теми, часто після перерви або з нуля, тому це не повний синонім звичайного 復習. Протиставлення — 予習, підготовка до майбутнього уроку. Не плутати омонім 復讐（ふくしゅう）— помста.",
+    "rationale": "The usage note now distinguishes ordinary review from relearning, without treating related vocabulary as interchangeable.",
+    "sources": [],
+    "before": "Іменник, 復習する: 授業の内容を復習する. Повторення того, що вже вивчали; не обов’язково повне навчання заново. Протиставлення — 予習, підготовка до майбутнього уроку. Не плутати омонім 復讐（ふくしゅう）— помста."
+  },
+  {
+    "id": "335",
+    "headword": "物語",
+    "field": "exampleTranslations.0",
+    "after": "У романі зображено історію родини, яка жила під час війни.",
+    "rationale": "戦時下に生きた is past-tense; the Ukrainian translation now preserves that temporal relation.",
+    "sources": [
+      "https://kotobank.jp/word/%E3%81%99%E3%81%A8%E3%83%BC%E3%82%8A%E3%83%BC-3156492"
+    ],
+    "before": "У романі зображено історію родини, яка живе під час війни."
+  },
+  {
+    "id": "339",
+    "headword": "分解",
+    "field": "m",
+    "after": "一つにまとまったものを要素や部分に分けること。また、まとまったものが部分に分かれること。",
+    "rationale": "The definition now covers both transitive disassembly and intransitive separation/decomposition, as in the two examples.",
+    "sources": [
+      "https://kotobank.jp/word/%E5%88%86%E8%A7%A3-622973"
+    ],
+    "before": "一つにまとまったものを、部分に分けること。"
+  },
+  {
+    "id": "347",
+    "headword": "保管",
+    "field": "m",
+    "after": "物品を適切な場所に置いて、傷つけたり失ったりしないように管理すること。",
+    "rationale": "The definition now covers proper storage of one's own goods as well as items held in custody, matching both confidential documents and food examples.",
+    "sources": [
+      "https://kotobank.jp/word/%E4%BF%9D%E7%AE%A1-8782"
+    ],
+    "before": "物を、預かって大切に保存すること。"
+  },
+  {
+    "id": "349",
+    "headword": "補給",
+    "field": "exampleTranslations.1",
+    "after": "Судно зайшло до порту, щоб поповнити запас пального.",
+    "rationale": "The translation now expresses replenishing the fuel supply, rather than the awkward phrase 'replenish fuel'.",
+    "sources": [],
+    "before": "Судно зайшло до порту, оскільки потрібно було поповнити пальне."
+  },
+  {
+    "id": "350",
+    "headword": "補充",
+    "field": "exampleTranslations.1",
+    "after": "Коли кількість товару зменшиться, оперативно поповніть запаси.",
+    "rationale": "The translation now naturally expresses replenishing stock after the quantity of goods falls.",
+    "sources": [],
+    "before": "Коли запас зменшиться, оперативно поповніть товар."
+  },
+  {
+    "id": "353",
+    "headword": "崩壊",
+    "field": "m",
+    "after": "物や組織・制度などが崩れ、まとまりや機能を失うこと。",
+    "rationale": "The definition now covers the collapse of physical structures and social/economic systems, matching both examples.",
+    "sources": [
+      "https://kotobank.jp/word/%E5%B4%A9%E5%A3%8A-627170"
+    ],
+    "before": "物が、くずれ壊れること。"
+  },
+  {
+    "id": "355",
+    "headword": "法律",
+    "field": "exampleTranslations.0",
+    "after": "За порушення закону можуть застосувати санкції.",
+    "rationale": "罰則が科されることがある expresses the possibility that a penalty or sanction is imposed, not merely that a penalty is provided in law.",
+    "sources": [
+      "https://kotobank.jp/word/%E6%B3%95%E5%BE%8B-132500",
+      "https://kotobank.jp/word/%E6%B3%95%E8%A6%8F-131865"
+    ],
+    "before": "За порушення закону в окремих випадках передбачене покарання."
+  }
+]

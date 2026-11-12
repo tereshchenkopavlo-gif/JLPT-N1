@@ -276,7 +276,7 @@ vocab,274,vocab:274,reviewed,completion/v153-card-decisions.tsv#274; author ling
 vocab,275,vocab:275,reviewed,completion/v153-card-decisions.tsv#275; author linguistic review
 vocab,276,vocab:276,reviewed,completion/v153-card-decisions.tsv#276; author linguistic review
 vocab,277,vocab:277,reviewed,completion/v153-card-decisions.tsv#277; author linguistic review
-vocab,278,vocab:278,pending,
+vocab,278,vocab:278,fixed_rechecked,"completion/v176-acceptance.tsv:278; exact field review and Chromium regression; author review, not independent"
 vocab,279,vocab:279,reviewed,completion/v153-card-decisions.tsv#279; author linguistic review
 vocab,280,vocab:280,reviewed,completion/v153-card-decisions.tsv#280; author linguistic review
 vocab,281,vocab:281,reviewed,completion/v153-card-decisions.tsv#281; author linguistic review
@@ -328,16 +328,16 @@ vocab,326,vocab:326,reviewed,completion/v153-cards-321-350.tsv#326; author lingu
 vocab,327,vocab:327,pending,
 vocab,328,vocab:328,reviewed,completion/v153-cards-321-350.tsv#328; author linguistic review
 vocab,329,vocab:329,reviewed,completion/v153-cards-321-350.tsv#329; author linguistic review
-vocab,330,vocab:330,pending,
+vocab,330,vocab:330,fixed_rechecked,"completion/v176-acceptance.tsv:330; exact field review and Chromium regression; author review, not independent"
 vocab,331,vocab:331,reviewed,completion/v153-cards-321-350.tsv#331; author linguistic review
-vocab,332,vocab:332,pending,
+vocab,332,vocab:332,fixed_rechecked,"completion/v176-acceptance.tsv:332; exact field review and Chromium regression; author review, not independent"
 vocab,333,vocab:333,reviewed,completion/v153-cards-321-350.tsv#333; author linguistic review
 vocab,334,vocab:334,reviewed,completion/v153-cards-321-350.tsv#334; author linguistic review
-vocab,335,vocab:335,pending,
+vocab,335,vocab:335,fixed_rechecked,"completion/v176-acceptance.tsv:335; exact field review and Chromium regression; author review, not independent"
 vocab,336,vocab:336,reviewed,completion/v153-cards-321-350.tsv#336; author linguistic review
 vocab,337,vocab:337,reviewed,completion/v153-cards-321-350.tsv#337; author linguistic review
 vocab,338,vocab:338,reviewed,completion/v153-cards-321-350.tsv#338; author linguistic review
-vocab,339,vocab:339,pending,
+vocab,339,vocab:339,fixed_rechecked,"completion/v176-acceptance.tsv:339; exact field review and Chromium regression; author review, not independent"
 vocab,340,vocab:340,reviewed,completion/v153-cards-321-350.tsv#340; author linguistic review
 vocab,341,vocab:341,reviewed,completion/v153-cards-321-350.tsv#341; author linguistic review
 vocab,342,vocab:342,reviewed,completion/v153-cards-321-350.tsv#342; author linguistic review
@@ -345,15 +345,15 @@ vocab,343,vocab:343,reviewed,completion/v153-cards-321-350.tsv#343; author lingu
 vocab,344,vocab:344,reviewed,completion/v153-cards-321-350.tsv#344; author linguistic review
 vocab,345,vocab:345,reviewed,completion/v153-cards-321-350.tsv#345; author linguistic review
 vocab,346,vocab:346,reviewed,completion/v153-cards-321-350.tsv#346; author linguistic review
-vocab,347,vocab:347,pending,
+vocab,347,vocab:347,fixed_rechecked,"completion/v176-acceptance.tsv:347; exact field review and Chromium regression; author review, not independent"
 vocab,348,vocab:348,reviewed,completion/v153-cards-321-350.tsv#348; author linguistic review
-vocab,349,vocab:349,pending,
-vocab,350,vocab:350,pending,
+vocab,349,vocab:349,fixed_rechecked,"completion/v176-acceptance.tsv:349; exact field review and Chromium regression; author review, not independent"
+vocab,350,vocab:350,fixed_rechecked,"completion/v176-acceptance.tsv:350; exact field review and Chromium regression; author review, not independent"
 vocab,351,vocab:351,reviewed,completion/v153-cards-351-380.tsv#351; author linguistic review
 vocab,352,vocab:352,reviewed,completion/v153-cards-351-380.tsv#352; author linguistic review
-vocab,353,vocab:353,pending,
+vocab,353,vocab:353,fixed_rechecked,"completion/v176-acceptance.tsv:353; exact field review and Chromium regression; author review, not independent"
 vocab,354,vocab:354,reviewed,completion/v153-cards-351-380.tsv#354; author linguistic review
-vocab,355,vocab:355,pending,
+vocab,355,vocab:355,fixed_rechecked,"completion/v176-acceptance.tsv:355; exact field review and Chromium regression; author review, not independent"
 vocab,356,vocab:356,reviewed,completion/v153-cards-351-380.tsv#356; author linguistic review
 vocab,357,vocab:357,reviewed,completion/v153-cards-351-380.tsv#357; author linguistic review
 vocab,358,vocab:358,reviewed,completion/v153-cards-351-380.tsv#358; author linguistic review
@@ -4115,7 +4115,7 @@ vocab_pair,68:133:281,VOCAB_AUDITED_PAIRS[68],pending,
 vocab_pair,69:37:287,VOCAB_AUDITED_PAIRS[69],pending,
 vocab_pair,70:159:289,VOCAB_AUDITED_PAIRS[70],pending,
 vocab_pair,71:102:309,VOCAB_AUDITED_PAIRS[71],pending,
-vocab_pair,72:293:353,VOCAB_AUDITED_PAIRS[72],pending,
+vocab_pair,72:293:353,VOCAB_AUDITED_PAIRS[72],reviewed,completion/v176-pair-review.tsv:72; author pair review; unchanged; not independent
 vocab_pair,73:303:304,VOCAB_AUDITED_PAIRS[73],pending,
 vocab_pair,74:305:307,VOCAB_AUDITED_PAIRS[74],pending,
 vocab_pair,75:114:308,VOCAB_AUDITED_PAIRS[75],pending,
@@ -4124,11 +4124,11 @@ vocab_pair,77:312:320,VOCAB_AUDITED_PAIRS[77],pending,
 vocab_pair,78:322:323,VOCAB_AUDITED_PAIRS[78],pending,
 vocab_pair,79:324:325,VOCAB_AUDITED_PAIRS[79],pending,
 vocab_pair,80:125:334,VOCAB_AUDITED_PAIRS[80],pending,
-vocab_pair,81:339:341,VOCAB_AUDITED_PAIRS[81],pending,
+vocab_pair,81:339:341,VOCAB_AUDITED_PAIRS[81],reviewed,completion/v176-pair-review.tsv:81; author pair review; unchanged; not independent
 vocab_pair,82:342:391,VOCAB_AUDITED_PAIRS[82],pending,
 vocab_pair,83:348:1995,VOCAB_AUDITED_PAIRS[83],pending,
 vocab_pair,84:348:2003,VOCAB_AUDITED_PAIRS[84],pending,
-vocab_pair,85:349:350,VOCAB_AUDITED_PAIRS[85],pending,
+vocab_pair,85:349:350,VOCAB_AUDITED_PAIRS[85],reviewed,completion/v176-pair-review.tsv:85; author pair review; unchanged; not independent
 vocab_pair,86:351:352,VOCAB_AUDITED_PAIRS[86],pending,
 vocab_pair,87:221:354,VOCAB_AUDITED_PAIRS[87],pending,
 vocab_pair,88:357:384,VOCAB_AUDITED_PAIRS[88],pending,
@@ -4210,7 +4210,7 @@ vocab_pair,163:621:553,VOCAB_AUDITED_PAIRS[163],pending,
 vocab_pair,164:635:642,VOCAB_AUDITED_PAIRS[164],pending,
 vocab_pair,165:639:641,VOCAB_AUDITED_PAIRS[165],pending,
 vocab_pair,166:648:169,VOCAB_AUDITED_PAIRS[166],pending,
-vocab_pair,167:658:335,VOCAB_AUDITED_PAIRS[167],pending,
+vocab_pair,167:658:335,VOCAB_AUDITED_PAIRS[167],reviewed,completion/v176-pair-review.tsv:167; author pair review; unchanged; not independent
 vocab_pair,168:678:561,VOCAB_AUDITED_PAIRS[168],pending,
 vocab_pair,169:687:1336,VOCAB_AUDITED_PAIRS[169],pending,
 vocab_pair,170:687:462,VOCAB_AUDITED_PAIRS[170],pending,
