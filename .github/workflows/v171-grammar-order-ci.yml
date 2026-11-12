@@ -1,7 +1,7 @@
 name: JLPT N1 v171 grammar-order verification
 on:
   push:
-    branches: [work/v171-grammar-order-checkpoint]
+    branches: [work/v171-grammar-order-checkpoint, work/v172-c10-followups]
     paths:
       - 'completion/v171-work/prepare-checkpoint.py'
       - 'completion/v171-work/grammar-order-browser.cjs'
@@ -14,6 +14,18 @@ on:
       - 'README.md'
       - 'completion/review-register.csv'
       - 'completion/feedback-20261112-grammar.md'
+      - 'completion/v172-work/apply.py'
+      - 'completion/v172-work/browser.cjs'
+      - 'completion/v172-work/finalize-evidence.py'
+      - 'completion/v172-work/publish-main.py'
+      - 'completion/v172-work/updates.json'
+      - 'completion/v172-work/inspect-targets.py'
+      - 'completion/v172-work/PUBLISH'
+      - 'completion/v172-work/README.md'
+      - '.github/workflows/v172-c10.yml'
+      - 'completion/C10-followup-3701-3716-20261112.md'
+      - 'completion/C10-followup-3723-3739-20261112.md'
+      - 'completion/C10-followup-3742-3757-20261112.md'
   pull_request:
     branches: [main]
     paths:
@@ -28,6 +40,11 @@ on:
       - 'README.md'
       - 'completion/review-register.csv'
       - 'completion/feedback-20261112-grammar.md'
+      - 'completion/v172-work/**'
+      - '.github/workflows/v172-c10.yml'
+      - 'completion/C10-followup-3701-3716-20261112.md'
+      - 'completion/C10-followup-3723-3739-20261112.md'
+      - 'completion/C10-followup-3742-3757-20261112.md'
 permissions:
   contents: write
 concurrency:
@@ -35,6 +52,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   verify:
+    if: (github.event_name == 'push' && github.ref_name == 'work/v171-grammar-order-checkpoint') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v171-grammar-order-checkpoint')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -77,4 +95,60 @@ jobs:
             completion/v171-work/prepare-results.json
             completion/v171-work/grammar-order-results.json
             JLPT_N1_v171_checkpoint.html
+          if-no-files-found: error
+  verify-v172:
+    if: (github.event_name == 'push' && github.ref_name == 'work/v172-c10-followups') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v172-c10-followups')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v172-c10-followups
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply exact C10 corrections to v171 baseline
+        run: python3 completion/v172-work/apply.py
+      - name: Check test and evidence scripts
+        run: |
+          python3 -m py_compile completion/v172-work/apply.py completion/v172-work/finalize-evidence.py completion/v172-work/publish-main.py
+          node --check completion/v172-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify corrected cards, POS filter, quiz eligibility and progress
+        run: node completion/v172-work/browser.cjs
+      - name: Finalize author acceptance and pair-review evidence
+        run: python3 completion/v172-work/finalize-evidence.py
+      - name: Save verified checkpoint and evidence to work branch
+        if: success() && github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v172.html completion/v172-work/prepare-results.json completion/v172-work/browser-results.json completion/v172-work/registry-results.json completion/v172-acceptance.tsv completion/v172-pair-review.tsv completion/review-register.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v172 C10 checkpoint and acceptance evidence"
+            git push origin HEAD:work/v172-c10-followups
+          fi
+      - name: Publish verified v172 release to main
+        if: success() && github.event_name == 'pull_request' && hashFiles('completion/v172-work/PUBLISH') != ''
+        run: python3 completion/v172-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v172-c10-audit-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v172.html
+            completion/v172-work/prepare-results.json
+            completion/v172-work/browser-results.json
+            completion/v172-work/registry-results.json
+            completion/v172-work/inspect-targets.json
+            completion/v172-work/updates.json
+            completion/v172-acceptance.tsv
+            completion/v172-pair-review.tsv
           if-no-files-found: error
