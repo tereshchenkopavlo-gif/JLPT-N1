@@ -53,6 +53,9 @@ def main():
         value = blocks.get(name)
         if isinstance(value, dict):
             result[name] = {k: v for k, v in value.items() if any(str(i) in k for i in IDS)}
+    kana_targets = blocks.get("VOCAB_KANA_EXAMPLE_TARGETS")
+    if isinstance(kana_targets, dict):
+        result["kana_target_for_3757"] = kana_targets.get("指を折る")
     out = Path("completion/v172-work/inspect-targets.json")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
