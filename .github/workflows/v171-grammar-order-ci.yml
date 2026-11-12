@@ -1,7 +1,7 @@
 name: JLPT N1 v171 grammar-order verification
 on:
   push:
-    branches: [work/v171-grammar-order-checkpoint, work/v172-c10-followups, work/v173-c10-3761-3764]
+    branches: [work/v171-grammar-order-checkpoint, work/v172-c10-followups, work/v173-c10-3761-3764, work/v174-c10-remaining-open-ids]
     paths:
       - 'completion/v171-work/prepare-checkpoint.py'
       - 'completion/v171-work/grammar-order-browser.cjs'
@@ -27,6 +27,10 @@ on:
       - 'completion/C10-followup-3723-3739-20261112.md'
       - 'completion/C10-followup-3742-3757-20261112.md'
       - 'completion/v173-work/**'
+      - 'completion/v174-work/**'
+      - 'completion/v174-*'
+      - 'completion/C10-followup-3820-3900-20261113.md'
+      - 'JLPT_N1_v174_audit.md'
       - 'completion/v173-*'
       - 'completion/C10-followup-3761-3764-20261113.md'
       - 'JLPT_N1_v173_audit.md'
@@ -210,4 +214,58 @@ jobs:
             completion/v173-work/browser-results.json
             completion/v173-work/registry-results.json
             completion/v173-acceptance.tsv
+          if-no-files-found: error
+
+  verify-v174:
+    if: (github.event_name == 'push' && github.ref_name == 'work/v174-c10-remaining-open-ids') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v174-c10-remaining-open-ids')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v174-c10-remaining-open-ids
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Python and browser verifier syntax
+        run: |
+          python3 -m py_compile completion/v174-work/prepare.py completion/v174-work/finalize-evidence.py
+          node --check completion/v174-work/browser.cjs
+      - name: Reproduce v174 from the exact published v173 baseline
+        run: python3 completion/v174-work/prepare.py
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify four C10 cards, all IDs, translations and progress
+        run: node completion/v174-work/browser.cjs
+      - name: Finalize v174 acceptance and registry evidence
+        run: python3 completion/v174-work/finalize-evidence.py
+      - name: Save verified HTML and evidence to the work branch
+        if: success() && github.event_name == 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v174.html completion/v174-work/prepare-results.json completion/v174-work/browser-results.json completion/v174-work/registry-results.json completion/v174-acceptance.tsv completion/review-register.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v174 C10 checkpoint and acceptance evidence"
+            git push origin HEAD:work/v174-c10-remaining-open-ids
+          fi
+      - name: Publish only verified v174 release artifacts to main
+        if: success() && github.event_name == 'pull_request' && hashFiles('completion/v174-work/PUBLISH') != ''
+        run: python3 completion/v174-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v174-c10-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v174.html
+            completion/v174-work/prepare-results.json
+            completion/v174-work/browser-results.json
+            completion/v174-work/registry-results.json
+            completion/v174-acceptance.tsv
           if-no-files-found: error
