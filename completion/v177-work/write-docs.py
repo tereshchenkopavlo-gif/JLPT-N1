@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+import json
+from pathlib import Path
+W=Path("completion/v177-work")
+def main():
+ prep=json.loads((W/"prepare-results.json").read_text(encoding="utf-8"))
+ reg=json.loads((W/"registry-results.json").read_text(encoding="utf-8"))
+ browser=json.loads((W/"browser-results.json").read_text(encoding="utf-8"))
+ if not prep.get("pass") or not reg.get("pass") or not browser.get("pass"): raise ValueError("Evidence incomplete")
+ h=prep["checkpoint_sha256"]
+ audit="# JLPT N1 v177 — C10 author review, ID364–416\n\n**Дата:** 13 листопада 2026. **Основа:** v176, SHA-256 "+prep["base_sha256"]+". **Кандидат:** v177, SHA-256 "+h+".\n\n## Авторський мовний перегляд\n\nПеревірено 12 раніше pending карток і всі наявні приклади. 11 карток виправлено в 11 точних полях і повторно звірено; ID371 прийнято без зміни після перевірки словникової класифікації та впливу POS на пул читання.\n\n| ID | Рішення | Обґрунтування |\n|---:|---|---|\n| 364 万人 | fixed_rechecked | 扱う у правовому контексті означає ставитися до людей, а не тлумачити їх. |\n| 371 目下 | reviewed | もっか — іменник із прислівниковим уживанням; додавання 副詞 зменшує пул читання з 6 до 1. |\n| 378 有力 | fixed_rechecked | 有力視 не обов’язково означає «найімовірніший». |\n| 379 予感 | fixed_rechecked | 虫の知らせ переважно передає недобре передчуття; 予感 нейтральне. |\n| 380 予期 | fixed_rechecked | Дефініцію уточнено як очікування події чи її перебігу. |\n| 386 翌日 | fixed_rechecked | 結論を翌日に持ち越す природно передано як відкладення остаточного рішення. |\n| 395 養成 | fixed_rechecked | Дефініцію доповнено формуванням здібностей і навичок. |\n| 402 連結 | fixed_rechecked | Додано консолідацію звітності групи компаній. |\n| 404 連日 | fixed_rechecked | 熱中症 перекладено ширше за «тепловий удар»; POS залишено 名詞. |\n| 410 解く | fixed_rechecked | Розмежовано читання とく і ほどく; приклади використовують とく. |\n| 415 延びる | fixed_rechecked | Переклад завершення на годину пізніше зроблено природним. |\n| 416 演じる | fixed_rechecked | 役作りに励む передано як наполегливу роботу над образом. |\n\n## Лексичні пари\n\nБез зміни даних переглянуто пари 61 (直感／予感), 94 (予期／予想), 99 (育成／養成) та 104 (解く／解ける). Детальні рішення й джерела наведено в completion/v177-pair-review.tsv.\n\n## Технічні перевірки\n\nДетермінований preparer підтвердив точну основу v176, 11 операцій, повний rollback, незмінність 3914 словникових записів, 130 граматичних конструкцій, 859 пар, усіх ID та POS. Chromium перевірив 12 карток, 11 полів, приклади й чотири пари при 360, 412 і 1280 px; тестовий sentinel прогресу не змінився. POS-діагностика: запропоновані додаткові теги дають 0/2 неправильних reading-варіанти для ID255/327 та 1/2 для ID371/404. Тому POS і механізм вправ не змінювали.\n\n## Облік і межі приймання\n\nАвторський credit — 3373/3914. Реєстр — 3890 reviewed /48 fixed_rechecked /1904 pending; словниковий зріз — 3326 /47 /541; лексичні пари — 18 reviewed /841 pending. ID255 і ID327 залишаються відкритими для окремого C11-рішення.\n\nЦе авторський мовний перегляд і технічна регресія конкретного кандидата. **Незалежне лінгвістичне приймання, фізична перевірка пристроїв та правове/походження приймання не виконані.** v177 — проміжний випуск, не кандидат 1.0.\n\n## Джерела\n\n- 小学館「デジタル大辞泉」: 目下, 有力, 虫の知らせ, 予期, 養成, 連日, 熱中症, 持越す, 解く, 伸びる, 演じる.\n- Пілот v153: completion/v153-cards-351-380.tsv та completion/v153-cards-381-440.tsv.\n- Поіменні джерела: completion/v177-work/updates.json та completion/v177-work/pair-review.tsv.\n"
+ Path("JLPT_N1_v177_audit.md").write_text(audit,encoding="utf-8")
+ Path("completion/C10-followup-364-416-20261113.md").write_text(audit,encoding="utf-8")
+ candidate={"checkpoint":"v177-c10-candidate","base_main_sha":"34dfa390480e735dc7a351bf910c59781c0b1a08","work_branch":"work/v177-c10-pos-followups","base_html":"JLPT_N1_ukrainian_reading_v176.html","base_sha256":prep["base_sha256"],"candidate_html":"JLPT_N1_ukrainian_reading_v177.html","candidate_sha256":h,"scope_ids":[364,371,378,379,380,386,395,402,404,410,415,416],"changed_ids":prep["changed_ids"],"reviewed_without_change":["371"],"pair_indexes":[61,94,99,104],"structural_invariants":{"vocabulary":3914,"grammar":130,"lexical_pairs":859},"status":"verified candidate; not yet published"}
+ (W/"candidate.json").write_text(json.dumps(candidate,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+ sp=Path("PROJECT_STATUS.md");status=sp.read_text(encoding="utf-8")
+ if "Актуальна **v176**." in status:
+  status=status.replace("Актуальна **v176**.","Актуальна **v177**.",1)
+ elif "Актуальна **v177**." not in status:
+  raise ValueError("Status header mismatch")
+ status=status.replace("Основа main перед випуском — bcc3f1ca290fb376094e53d83b65225694b96612 (v175). Повний JLPT_N1_ukrainian_reading_v176.html, 6 936 616 байт, SHA-256 d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b. [Аудит](JLPT_N1_v176_audit.md)","Основа main перед випуском — 34dfa390480e735dc7a351bf910c59781c0b1a08 (v176 + workflow infrastructure). Повний JLPT_N1_ukrainian_reading_v177.html, 6 936 947 байт, SHA-256 "+h+". [Аудит](JLPT_N1_v177_audit.md)",1)
+ status=status.replace("## Поточний випуск v176 — C10 follow-up","## Архівований випуск v176 — C10 follow-up",1)
+ anchor="## Архівований випуск v176 — C10 follow-up"
+ section="## Поточний випуск v177 — C10 follow-up\n\nАвторськи переглянуто 12 pending карток: 11 виправлено в 11 точних полях і повторно перевірено; ID371 прийнято без зміни. Чотири пари (61, 94, 99, 104) переглянуто без зміни. Авторський credit — 3373/3914; реєстр — 3890 reviewed /48 fixed_rechecked /1904 pending; словниковий зріз — 3326 /47 /541; пари — 18 reviewed /841 pending.\n\nДетермінований preparer підтвердив точну основу v176, 11 операцій, повний rollback і незмінність 3914 слів, 130 конструкцій, 859 пар, ID та POS. Chromium перевірив 12 карток, 11 полів, приклади й чотири пари при 360, 412 і 1280 px; тестовий sentinel прогресу не змінився. ID255/327 лишаються відкритими через C11-залежність reading-пулу. Докази: JLPT_N1_v177_audit.md, completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-browser-results.json, completion/v177-registry-results.json.\n\nПоточна робоча гілка — work/v177-c10-pos-followups; candidate v177 пройшов автоматичні перевірки, публікація очікує окремого gate.\n\nC10 не завершено. C07, C11, C12, C14, C16 і C17 залишаються відкритими. Незалежне мовне, правове/походження та фізичне приймання не виконані. v177 — проміжний випуск, не кандидат 1.0.\n\n"
+ if anchor not in status: raise ValueError("Archived v176 section missing")
+ current="## Поточний випуск v177 — C10 follow-up"
+ if current in status:
+  start=status.index(current);end=status.index(anchor,start)
+  status=status[:start]+section+status[end:]
+ else:
+  if anchor not in status: raise ValueError("Archived v176 section missing")
+  status=status.replace(anchor,section+anchor,1)
+ sp.write_text(status,encoding="utf-8")
+ rp=Path("README.md");readme=rp.read_text(encoding="utf-8");split="\n## Контрольна версія"
+ if split not in readme: raise ValueError("README structure mismatch")
+ rest=readme.split(split,1)[1]
+ intro="# JLPT N1 — тренажер з японським інтерфейсом\n\nАктуальна v177. [Повний HTML](JLPT_N1_ukrainian_reading_v177.html) · [Аудит](JLPT_N1_v177_audit.md)\n\nУ v177 авторськи переглянуто 12 pending карток C10: 11 виправлено й повторно перевірено, ID371 прийнято без зміни. Чотири лексичні пари (61, 94, 99, 104) переглянуто без зміни. Збережено 3914 слів, 130 конструкцій, 160 текстів і 381 питання читання. SHA-256 HTML: "+h+".\n\nПісля v177 авторськи зараховано 3373 із 3914 словникових карток; завершальний реєстр — 3890 reviewed / 48 fixed_rechecked / 1904 pending. C10 лишається відкритим; ID255 і ID327 мають окрему залежність C11. C07, C11, C12, незалежне мовне, фізичне та правове/походження приймання не завершені.\n\nНижче збережено історичний журнал v18–v26; він не описує поточний стан.\n"
+ rp.write_text(intro+split+rest,encoding="utf-8")
+ bp=Path("completion/BACKLOG.md");backlog=bp.read_text(encoding="utf-8")
+ backlog=backlog.replace("Поточний HTML — v176, SHA-256","Поточний HTML — v177, SHA-256",1)
+ backlog=backlog.replace("d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b",h,1)
+ line=next((x for x in backlog.splitlines() if x.startswith("| C10 |")),None)
+ if line is None: raise ValueError("C10 row missing")
+ if "v177 додає" not in line: backlog=backlog.replace(line,line[:-2]+" v177 додає 11 fixed_rechecked та 1 reviewed картку (ID364–416), чотири пари reviewed; авторський credit 3373/3914; реєстр 3890/48/1904. Докази completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-browser-results.json, JLPT_N1_v177_audit.md. Незалежне й фізичне приймання окремі. |",1)
+ if "## C10 follow-up ID364–416 — 13 листопада 2026" not in backlog:
+  backlog=backlog.rstrip()+"\n\n## C10 follow-up ID364–416 — 13 листопада 2026\n\nУ v177 авторськи переглянуто 12 pending карток: 11 виправлено й повторно перевірено, ID371 прийнято без зміни. Чотири пари (61, 94, 99, 104) переглянуто без зміни. Авторський credit 3373/3914; реєстр 3890 reviewed /48 fixed_rechecked /1904 pending. ID255 і ID327 лишаються відкритими через C11-залежність reading-пулу. Докази: completion/v177-acceptance.tsv, completion/v177-pair-review.tsv, completion/v177-prepare-results.json, completion/v177-browser-results.json, completion/v177-registry-results.json, JLPT_N1_v177_audit.md. Це не незалежне, фізичне чи правове/походження приймання.\n"
+ bp.write_text(backlog,encoding="utf-8")
+ print("Documentation prepared for v177",h)
+if __name__=="__main__":main()

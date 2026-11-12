@@ -1,0 +1,110 @@
+{
+  "checkpoint": "v177-preaudit",
+  "created": "2026-11-13",
+  "base_main_sha": "89333eae0fed06f318e6fd2bfdc707bba48a8bd4",
+  "base_html": "JLPT_N1_ukrainian_reading_v176.html",
+  "base_html_sha256": "d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b",
+  "base_html_git_blob": "e4f929add8c667dd4e0f8bcdf88e0bf164fe7c47",
+  "scope_ids": [
+    364,
+    371,
+    378,
+    379,
+    380,
+    386,
+    395,
+    402,
+    404,
+    410,
+    415,
+    416
+  ],
+  "prior_pending_dependencies": [
+    255,
+    327
+  ],
+  "planned_changes": {
+    "fixed_candidates": [
+      364,
+      378,
+      379,
+      380,
+      386,
+      395,
+      402,
+      404,
+      410,
+      415,
+      416
+    ],
+    "reviewed_without_change": [
+      371
+    ],
+    "pair_indexes": [
+      61,
+      94,
+      99,
+      104
+    ]
+  },
+  "reading_pool_diagnostics": [
+    {
+      "id": 255,
+      "current_pos": [
+        "名詞"
+      ],
+      "current_wrong_options": 6,
+      "proposed_pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "proposed_wrong_options": 0,
+      "decision": "keep pending"
+    },
+    {
+      "id": 327,
+      "current_pos": [
+        "名詞"
+      ],
+      "current_wrong_options": 6,
+      "proposed_pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "proposed_wrong_options": 2,
+      "decision": "keep pending"
+    },
+    {
+      "id": 371,
+      "current_pos": [
+        "名詞"
+      ],
+      "current_wrong_options": 6,
+      "proposed_pos": [
+        "名詞",
+        "副詞"
+      ],
+      "proposed_wrong_options": 1,
+      "decision": "retain noun POS; dictionary records adverbial use, not a separate POS"
+    },
+    {
+      "id": 404,
+      "current_pos": [
+        "名詞"
+      ],
+      "current_wrong_options": 6,
+      "proposed_pos": [
+        "名詞",
+        "副詞"
+      ],
+      "proposed_wrong_options": 2,
+      "decision": "retain noun POS; dictionary classifies 連日 as a noun with adverbial use"
+    }
+  ],
+  "structural_invariants": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexical_pairs": 859
+  },
+  "status": "preaudit only; no HTML or registry changes yet"
+}
