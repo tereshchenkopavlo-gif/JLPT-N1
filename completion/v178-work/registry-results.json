@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "registry_counts": {
+    "reviewed": 3891,
+    "pending": 1892,
+    "fixed_rechecked": 59
+  },
+  "vocabulary_counts": {
+    "reviewed": 3327,
+    "pending": 529,
+    "fixed_rechecked": 58
+  },
+  "lexical_pair_counts": {
+    "reviewed": 18,
+    "pending": 841
+  },
+  "author_credit": "3385/3914",
+  "fixed_rechecked_ids": [
+    "421",
+    "423",
+    "430",
+    "433",
+    "435",
+    "436",
+    "436",
+    "438",
+    "438",
+    "440",
+    "444",
+    "447",
+    "449"
+  ],
+  "reviewed_without_change": [
+    "425"
+  ],
+  "independent_acceptance": false,
+  "physical_acceptance": false
+}

@@ -1,13 +1,13 @@
 id	headword	decision	fields	status
-421	解ける	fixed_rechecked	m	pending regression
-423	改まる	fixed_rechecked	usage	pending regression
-425	外れる	reviewed		pending regression
-430	寄せる	fixed_rechecked	m	pending regression
-433	詰める	fixed_rechecked	m	pending regression
-435	求める	fixed_rechecked	t	pending regression
-436	許す	fixed_rechecked	examples.1; exampleTranslations.1	pending regression
-438	響く	fixed_rechecked	exampleTranslations.0; exampleTranslations.1	pending regression
-440	勤まる	fixed_rechecked	usage	pending regression
-444	傾ける	fixed_rechecked	exampleTranslations.0	pending regression
-447	繋がる	fixed_rechecked	exampleTranslations.1	pending regression
-449	嫌がる	fixed_rechecked	exampleTranslations.0	pending regression
+421	解ける	fixed_rechecked	m	fixed_rechecked; exact before/after verified; Chromium pass
+423	改まる	fixed_rechecked	usage	fixed_rechecked; exact before/after verified; Chromium pass
+425	外れる	reviewed		reviewed unchanged; source and examples checked; Chromium pass
+430	寄せる	fixed_rechecked	m	fixed_rechecked; exact before/after verified; Chromium pass
+433	詰める	fixed_rechecked	m	fixed_rechecked; exact before/after verified; Chromium pass
+435	求める	fixed_rechecked	t	fixed_rechecked; exact before/after verified; Chromium pass
+436	許す	fixed_rechecked	examples.1; exampleTranslations.1	fixed_rechecked; exact before/after verified; Chromium pass
+438	響く	fixed_rechecked	exampleTranslations.0; exampleTranslations.1	fixed_rechecked; exact before/after verified; Chromium pass
+440	勤まる	fixed_rechecked	usage	fixed_rechecked; exact before/after verified; Chromium pass
+444	傾ける	fixed_rechecked	exampleTranslations.0	fixed_rechecked; exact before/after verified; Chromium pass
+447	繋がる	fixed_rechecked	exampleTranslations.1	fixed_rechecked; exact before/after verified; Chromium pass
+449	嫌がる	fixed_rechecked	exampleTranslations.0	fixed_rechecked; exact before/after verified; Chromium pass
