@@ -1,0 +1,26 @@
+{
+  "base": "v168",
+  "sha256": "a11e1c88b621fda52f23cbb008a8f9b42e0f4c3b909334bdefbb4fe31b8fce2d",
+  "bytes": 6933658,
+  "edits": 10,
+  "example_translations": 6,
+  "primary_translations": 4,
+  "full_card_credits": [
+    3227,
+    3235,
+    3236,
+    3239,
+    3244,
+    3251,
+    3258,
+    3259,
+    3287,
+    3292
+  ],
+  "vocabulary_reviewed": 3104,
+  "register_reviewed": 3651,
+  "register_pending": 2191,
+  "next_id": 3661,
+  "technical_ci_run": 43174910695,
+  "open_pos_id": 2734
+}

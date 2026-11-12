@@ -1,0 +1,108 @@
+[
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3227",
+      "t"
+    ],
+    "before": "протилежний; суперечливий",
+    "after": "протилежний; такий, що суперечить словам чи очікуванням",
+    "evidence": "completion/v164-cards-3221-3240.tsv#3227"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3235",
+      "exampleTranslations",
+      1
+    ],
+    "before": "Рекламу, що викликала етичні заперечення, негайно відкликали.",
+    "after": "Рекламу, проблемну з етичного погляду, негайно відкликали.",
+    "evidence": "completion/v164-cards-3221-3240.tsv#3235"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3236",
+      "exampleTranslations",
+      1
+    ],
+    "before": "Весела тема розрядила офіційну атмосферу наради.",
+    "after": "Весела тема допомогла розрядити скуту атмосферу наради.",
+    "evidence": "completion/v164-cards-3221-3240.tsv#3236"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3239",
+      "t"
+    ],
+    "before": "байдужий, холодний, неприязний",
+    "after": "байдужий, холодний, відсторонений",
+    "evidence": "completion/v164-cards-3221-3240.tsv#3239"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3244",
+      "t"
+    ],
+    "before": "докладний, ретельний, детальний",
+    "after": "детально продуманий, точний; щільний за будовою",
+    "evidence": "completion/v164-cards-3241-3260.tsv#3244"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3251",
+      "t"
+    ],
+    "before": "перспективний, багатообіцяючий, з гарними перспективами",
+    "after": "перспективний; той, що подає надії",
+    "evidence": "completion/v164-cards-3241-3260.tsv#3251"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3258",
+      "exampleTranslations",
+      0
+    ],
+    "before": "Він продемонстрував, як надзвичайно легко розв’язати цю складну задачу.",
+    "after": "Він із разючою легкістю розв’язав цю складну задачу.",
+    "evidence": "completion/v164-cards-3241-3260.tsv#3258"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3259",
+      "exampleTranslations",
+      0
+    ],
+    "before": "Компанії одна за одною, усі разом, узялися за розробку нових товарів.",
+    "after": "Усі компанії взялися за розроблення нових товарів.",
+    "evidence": "completion/v164-cards-3241-3260.tsv#3259"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3287",
+      "exampleTranslations",
+      0
+    ],
+    "before": "Під час наради він раз у раз поглядав на годинник.",
+    "after": "Під час наради він раз у раз думав про те, котра вже година.",
+    "evidence": "completion/v165-cards-3281-3300.tsv#3287"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3292",
+      "exampleTranslations",
+      0
+    ],
+    "before": "Регулярні наради проводять щосереди через тиждень.",
+    "after": "Регулярні наради проводять у середу раз на два тижні.",
+    "evidence": "completion/v165-cards-3281-3300.tsv#3292"
+  }
+]

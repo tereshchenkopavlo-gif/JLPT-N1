@@ -1,0 +1,85 @@
+{
+  "sha256": "a11e1c88b621fda52f23cbb008a8f9b42e0f4c3b909334bdefbb4fe31b8fce2d",
+  "rows": [
+    {
+      "key": "3227",
+      "word": "裏腹",
+      "reading": "うらはら",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3235",
+      "word": "倫理的",
+      "reading": "りんりてき",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3236",
+      "word": "愉快",
+      "reading": "ゆかい",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3239",
+      "word": "冷淡",
+      "reading": "れいたん",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3244",
+      "word": "緻密",
+      "reading": "ちみつ",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3251",
+      "word": "有望",
+      "reading": "ゆうぼう",
+      "partsOfSpeech": [
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3258",
+      "word": "いとも",
+      "reading": "いとも",
+      "partsOfSpeech": [
+        "副詞"
+      ]
+    },
+    {
+      "key": "3259",
+      "word": "こぞって",
+      "reading": "こぞって",
+      "partsOfSpeech": [
+        "副詞"
+      ]
+    },
+    {
+      "key": "3287",
+      "word": "しきりに",
+      "reading": "しきりに",
+      "partsOfSpeech": [
+        "副詞"
+      ]
+    },
+    {
+      "key": "3292",
+      "word": "隔週",
+      "reading": "かくしゅう",
+      "partsOfSpeech": [
+        "名詞"
+      ]
+    }
+  ]
+}
