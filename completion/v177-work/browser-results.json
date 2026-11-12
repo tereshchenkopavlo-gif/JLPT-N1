@@ -1,0 +1,239 @@
+{
+  "sha256": "07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e",
+  "cardsChecked": 12,
+  "fieldsChecked": 11,
+  "pairsChecked": 4,
+  "widths": [
+    {
+      "width": 360,
+      "pass": true,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "width": 412,
+      "pass": true,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "width": 1280,
+      "pass": true,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "posDiagnostics": [
+    {
+      "id": "255",
+      "currentCount": 6,
+      "proposedCount": 0
+    },
+    {
+      "id": "327",
+      "currentCount": 6,
+      "proposedCount": 2
+    },
+    {
+      "id": "371",
+      "currentCount": 6,
+      "proposedCount": 1
+    },
+    {
+      "id": "404",
+      "currentCount": 6,
+      "proposedCount": 2
+    }
+  ],
+  "renderedCards": [
+    {
+      "id": "364",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": []
+    },
+    {
+      "id": "378",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "379",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "usage",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "380",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "395",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "t",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ]
+    }
+  ],
+  "progressStorageUnchanged": true,
+  "changedIds": [
+    "364",
+    "378",
+    "379",
+    "380",
+    "386",
+    "395",
+    "402",
+    "404",
+    "410",
+    "415",
+    "416"
+  ],
+  "pairIndexesReviewed": [
+    61,
+    94,
+    99,
+    104
+  ],
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859
+  },
+  "pass": true
+}

@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "registry_counts": {
+    "reviewed": 3890,
+    "pending": 1904,
+    "fixed_rechecked": 48
+  },
+  "vocabulary_counts": {
+    "reviewed": 3326,
+    "pending": 541,
+    "fixed_rechecked": 47
+  },
+  "lexical_pair_counts": {
+    "reviewed": 18,
+    "pending": 841
+  },
+  "author_credit": "3373/3914",
+  "independent_acceptance": false,
+  "physical_acceptance": false
+}
