@@ -1,0 +1,13 @@
+{
+  "card_acceptances": 2,
+  "newly_transitioned": 2,
+  "registry_counts": {
+    "reviewed": 3874,
+    "pending": 1952,
+    "fixed_rechecked": 16
+  },
+  "author_credit": "3338/3914",
+  "independent_acceptance": false,
+  "physical_acceptance": false,
+  "pass": true
+}

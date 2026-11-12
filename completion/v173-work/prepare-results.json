@@ -1,0 +1,23 @@
+{
+  "base_version": "v172",
+  "base_sha256": "f2c21e50ba650151b038a0642026fdeaacc8ed3581f6fd3b48cc03f915cf188a",
+  "checkpoint_version": "v173",
+  "checkpoint_sha256": "e04cad2441928457d359bd7fb9f42123bf6eec75ffac104db671f1d51edf6d6f",
+  "checkpoint_bytes": 6935972,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "vocab_pos_records": 3914,
+  "lexical_pairs": 859,
+  "changed_ids": [
+    "3761",
+    "3764"
+  ],
+  "changed_fields": [
+    "3761.exampleTranslations.1",
+    "3764.exampleTranslations.1"
+  ],
+  "operations": 2,
+  "inline_scripts_checked": 1,
+  "exact_rollback": true,
+  "pass": true
+}
