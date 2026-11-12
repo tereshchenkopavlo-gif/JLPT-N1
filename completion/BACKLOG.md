@@ -525,4 +525,3 @@ C27 лишається in_progress до Chromium-приймання. C12 окр�
 ## C10 follow-up ID255–355 — 13 листопада 2026
 
 У v176 авторськи переглянуто 12 раніше pending карток із використанням рішень пілота v153 та batch-нотаток: 10 виправлено й повторно перевірено; 2 залишено pending через доведену залежність POS-позначки від reading-пулу. Чотири лексичні пари перевірено без зміни. Повний поіменний розбір і джерела: completion/C10-followup-255-355-20261113.md; acceptance: completion/v176-acceptance.tsv; pair review: completion/v176-pair-review.tsv.
-

@@ -1,6 +1,8 @@
 {
   "pass": true,
-  "newly_transitioned_this_run": 14,
+  "newly_transitioned_this_run": 0,
+  "release_transitions": 14,
+  "registry_already_applied": true,
   "cards_fixed_rechecked": 10,
   "pairs_reviewed_unchanged": 4,
   "registry_counts": {
