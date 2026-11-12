@@ -3759,10 +3759,10 @@ vocab,3757,vocab:3757,fixed_rechecked,"completion/v172-acceptance.tsv#3757; auth
 vocab,3758,vocab:3758,reviewed,completion/v170-cards-3741-3760.tsv#3758; author linguistic review
 vocab,3759,vocab:3759,reviewed,completion/v170-cards-3741-3760.tsv#3759; author linguistic review
 vocab,3760,vocab:3760,reviewed,completion/v170-cards-3741-3760.tsv#3760; author linguistic review
-vocab,3761,vocab:3761,pending,
+vocab,3761,vocab:3761,fixed_rechecked,"completion/v173-acceptance.tsv#3761; author recheck and Chromium regression; v173 SHA-256=e04cad2441928457d359bd7fb9f42123bf6eec75ffac104db671f1d51edf6d6f"
 vocab,3762,vocab:3762,reviewed,completion/v170-cards-3761-3780.tsv#3762; author linguistic review
 vocab,3763,vocab:3763,reviewed,completion/v170-cards-3761-3780.tsv#3763; author linguistic review
-vocab,3764,vocab:3764,pending,
+vocab,3764,vocab:3764,fixed_rechecked,"completion/v173-acceptance.tsv#3764; author recheck and Chromium regression; v173 SHA-256=e04cad2441928457d359bd7fb9f42123bf6eec75ffac104db671f1d51edf6d6f"
 vocab,3765,vocab:3765,pending,
 vocab,3766,vocab:3766,pending,
 vocab,3767,vocab:3767,reviewed,completion/v170-cards-3761-3780.tsv#3767; author linguistic review
