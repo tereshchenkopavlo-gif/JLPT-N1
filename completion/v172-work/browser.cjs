@@ -64,6 +64,15 @@ async function main() {
     assert.deepEqual(afterData.ids, beforeData.ids);
     assert.equal(afterData.eligibility, 3914);
     assert.deepEqual(afterData.pos3742, ['名詞']);
+    const correctedFields = await after.evaluate(() => ({
+      usage3724: VOCAB_DETAILS_BY_ID['3724'].usage,
+      translation3747: VOCAB_DETAILS_BY_ID['3747'].t,
+      usage3757: VOCAB_DETAILS_BY_ID['3757'].usage
+    }));
+    assert.equal(correctedFields.usage3724, '〜係 — відповідальна особа або функція: N＋係 — 受付係・案内係; V連用形＋係 — 見張り係（見張る→見張り）. Окреме 係 означає доручену роль.');
+    assert.equal(correctedFields.translation3747, 'плутати головне з другорядним; підміняти мету засобом');
+    assert.equal(correctedFields.usage3757, '指折り数えて待つ — нетерпляче відраховувати дні до очікуваної події; 指を折って数える — лічити на пальцях. Не буквальне ламання пальця.');
+    results.correctedFields = { pass: true, ...correctedFields };
     const sentence = '開通の日を指折り数えて待つ住民が、駅前に集まっていた。';
     assert.equal(afterData.card3757.examples[0], sentence);
     assert.equal(afterData.target3757[sentence], '指折り数えて');
@@ -102,8 +111,8 @@ async function main() {
     results.pass = true;
     fs.writeFileSync('completion/v172-work/browser-results.json', JSON.stringify(results, null, 2) + '\n');
   } finally {
-    await before?.close?.().catch(()=>{});
-    await after?.close?.().catch(()=>{});
+    if (before) await before.close().catch(()=>{});
+    if (after) await after.close().catch(()=>{});
     await browser.close();
   }
 }
