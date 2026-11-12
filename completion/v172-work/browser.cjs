@@ -38,9 +38,10 @@ async function eligibility(page) {
 async function main() {
   const browser = await chromium.launch({ headless: true });
   const results = { widths: [], cardsChecked: 13, translationsChecked: 11 };
+  let before, after;
   try {
-    const before = await open(browser, base, 1280);
-    const after = await open(browser, file, 1280);
+    before = await open(browser, base, 1280);
+    after = await open(browser, file, 1280);
     const beforeData = await before.evaluate(() => ({
       vocab: Object.keys(VOCAB_DETAILS_BY_ID).length,
       grammar: Object.keys(GRAMMAR_DETAILS_BY_ID).length,
