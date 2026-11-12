@@ -1,0 +1,16 @@
+# v171 checkpoint — граматичний порядок
+
+Основа — main commit d9e60c73481c3a6b851699ba5f8a4aa859d25aff, повний HTML v170 SHA-256 e28958926e93343f47395910f243772e1ce2c13052cfa5fd8f4c3ede6cae7f51.
+
+Підготовка відтворює повний HTML v171 із v170, перевіряє 130 grammar IDs і відсутність інших змін у даних, крім тексту g90. Chromium-тест перевіряє звичайну картку, картку сесії та 比較 для всіх 130 конструкцій на 412 px, а також ID 1/90/130 на 360 і 1280 px. Повний HTML і докази після успішного тесту зберігаються у цій робочій гілці.
+
+До створення completion/v171-work/PUBLISH main лишається v170. Публікація перевіряє, що main не змінився від зафіксованої основи. C12 лишається відкритою: g90 не має підтвердженого контексту в поточних 160 текстах; його треба включити до карти одного з 40 решти слотів.
+
+
+CI runner для Chromium-перевірки розміщено в main: `.github/workflows/v171-grammar-order-ci.yml`. Після оновлення цього checkpoint workflow відтворює HTML, перевіряє всі 130 граматичних карток у трьох режимах і зберігає повний файл та результати в цій робочій гілці. Це тестова інфраструктура, не випуск.
+
+
+Після успішного read-only PR прогону PUBLISH marker залишається в гілці. Main CI workflow публікує файли лише на push-події після повторного Chromium-прогону та звірки очікуваного SHA main; PR workflow не має write-дозволів і нічого не публікує.
+
+
+The guarded main CI workflow file is also present in this work-branch commit so the push event can run it; the copy is identical to main. The read-only PR workflow remains separate. The PUBLISH marker is gated by exact main SHA, checkpoint hash, data checks and Chromium results.

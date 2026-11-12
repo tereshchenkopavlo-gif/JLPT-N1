@@ -1,0 +1,12 @@
+{
+  "base_sha256": "e28958926e93343f47395910f243772e1ce2c13052cfa5fd8f4c3ede6cae7f51",
+  "checkpoint_sha256": "80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32",
+  "checkpoint_bytes": 6935833,
+  "grammar_records": 130,
+  "split_before_after": 130,
+  "g90_examples": [
+    "私は、この不正を最後まで追及せずにはおかない。",
+    "彼女の話を聞いて、私は笑わずにはいられなかった。"
+  ],
+  "pass": true
+}

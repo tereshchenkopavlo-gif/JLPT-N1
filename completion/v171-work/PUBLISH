@@ -1,0 +1,10 @@
+{
+  "expected_main_sha": "80549929888ae7f3caf8e790b6921518949d678c",
+  "checkpoint_sha256": "80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32",
+  "checkpoint_bytes": 6935833,
+  "target_html": "JLPT_N1_ukrainian_reading_v171.html",
+  "audit_source": "completion/v171-work/JLPT_N1_v171_audit.md",
+  "data_check_run": 43212351893,
+  "chromium_run": 43212351867,
+  "pr_chromium_run": 43212351872
+}
