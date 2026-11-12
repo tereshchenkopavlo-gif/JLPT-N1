@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "newly_transitioned_this_run": 14,
+  "cards_fixed_rechecked": 10,
+  "pairs_reviewed_unchanged": 4,
+  "registry_counts": {
+    "reviewed": 3885,
+    "pending": 1920,
+    "fixed_rechecked": 37
+  },
+  "vocabulary_counts": {
+    "reviewed": 3325,
+    "pending": 553,
+    "fixed_rechecked": 36
+  },
+  "lexical_pair_counts": {
+    "pending": 845,
+    "reviewed": 14
+  },
+  "author_credit": "3361/3914",
+  "pending_vocab_ids_first_14": [
+    255,
+    327,
+    364,
+    371,
+    378,
+    379,
+    380,
+    386,
+    395,
+    402,
+    404,
+    410,
+    415,
+    416
+  ],
+  "independent_acceptance": false,
+  "physical_acceptance": false,
+  "provenance_legal_acceptance": false
+}

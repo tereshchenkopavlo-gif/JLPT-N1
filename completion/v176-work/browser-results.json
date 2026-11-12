@@ -1,0 +1,271 @@
+{
+  "sha256": "d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b",
+  "widths": [
+    {
+      "width": 360,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 412,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    }
+  ],
+  "cardsChecked": 12,
+  "fieldsChecked": 10,
+  "pairsChecked": 4,
+  "posDiagnostics": [
+    {
+      "id": "255",
+      "currentPos": [
+        "名詞"
+      ],
+      "proposedPos": [
+        "名詞",
+        "ナ形"
+      ],
+      "currentCount": 6,
+      "proposedCount": 0
+    },
+    {
+      "id": "278",
+      "currentPos": [
+        "名詞"
+      ],
+      "proposedPos": [
+        "名詞",
+        "接尾語"
+      ],
+      "currentCount": 6,
+      "proposedCount": 0
+    },
+    {
+      "id": "327",
+      "currentPos": [
+        "名詞"
+      ],
+      "proposedPos": [
+        "名詞",
+        "ナ形"
+      ],
+      "currentCount": 6,
+      "proposedCount": 2
+    }
+  ],
+  "renderedCards": [
+    {
+      "id": "255",
+      "headword": "直接",
+      "cardRendered": true,
+      "fields": [],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "278",
+      "headword": "同士",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "expectedDisplay": "同じ立場や仲間に属する人。また、名詞に付いて、同じ種類・立場に属する人や物の間の関係を表す。",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "327",
+      "headword": "浮気",
+      "cardRendered": true,
+      "fields": [],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "330",
+      "headword": "舞台",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "expectedDisplay": "Дія цього роману розгортається в торговельних кварталах Едо.",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "332",
+      "headword": "復習",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "usage",
+          "expectedDisplay": "復習する: 授業の内容を復習する. Повторення вже вивченого матеріалу; не обов’язково повне навчання заново. 学び直し — повторне опанування теми, часто після перерви або з нуля, тому це не повний синонім звичайного 復習. Протиставлення — 予習, підготовка до майбутнього уроку. Не плутати омонім 復讐（ふくしゅう）— помста.",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "335",
+      "headword": "物語",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "expectedDisplay": "У романі зображено історію родини, яка жила під час війни.",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "339",
+      "headword": "分解",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "expectedDisplay": "一つにまとまったものを要素や部分に分けること。また、まとまったものが部分に分かれること。",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "347",
+      "headword": "保管",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "expectedDisplay": "物品を適切な場所に置いて、傷つけたり失ったりしないように管理すること。",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "349",
+      "headword": "補給",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "expectedDisplay": "Судно зайшло до порту, щоб поповнити запас пального.",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "350",
+      "headword": "補充",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "expectedDisplay": "Коли кількість товару зменшиться, оперативно поповніть запаси.",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "353",
+      "headword": "崩壊",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "expectedDisplay": "物や組織・制度などが崩れ、まとまりや機能を失うこと。",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "355",
+      "headword": "法律",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "expectedDisplay": "За порушення закону можуть застосувати санкції.",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    }
+  ],
+  "progressStorageUnchanged": true,
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859
+  },
+  "changedIds": [
+    "278",
+    "330",
+    "332",
+    "335",
+    "339",
+    "347",
+    "349",
+    "350",
+    "353",
+    "355"
+  ],
+  "pairIndexesReviewed": [
+    72,
+    81,
+    85,
+    167
+  ],
+  "pass": true
+}

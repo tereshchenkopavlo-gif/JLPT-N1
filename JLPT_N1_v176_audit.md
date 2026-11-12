@@ -3,8 +3,8 @@
 **Release:** v176  
 **Base:** published v175  
 **HTML:** JLPT_N1_ukrainian_reading_v176.html  
-**SHA-256:** __HTML_SHA256__  
-**Bytes:** __HTML_BYTES__
+**SHA-256:** d2abd6fdab401a6265329a3d905097c14b7b3d1bf4caab1f17cf17e1cc4a0b8b  
+**Bytes:** 6936616
 
 ## Scope and decisions
 
