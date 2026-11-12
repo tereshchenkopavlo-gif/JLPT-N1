@@ -57,7 +57,7 @@ async function main() {
       eligibility: ACTIVE_VOCAB.length,
       pos3742: VOCAB_POS_BY_ID['3742'],
       card3757: VOCAB_DETAILS_BY_ID['3757'],
-      target3757: VOCAB_KANA_EXAMPLE_TARGETS['指折り数えて']
+      target3757: VOCAB_KANA_EXAMPLE_TARGETS['指を折る']
     }));
     assert.equal(beforeData.vocab, 3914);
     assert.equal(afterData.vocab, 3914);
