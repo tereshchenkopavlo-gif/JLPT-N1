@@ -5,17 +5,29 @@ on:
     paths:
       - 'completion/v171-work/prepare-checkpoint.py'
       - 'completion/v171-work/grammar-order-browser.cjs'
+      - 'completion/v171-work/publish-main.py'
+      - 'completion/v171-work/JLPT_N1_v171_audit.md'
       - 'completion/v171-work/README.md'
+      - 'completion/v171-work/PUBLISH'
       - 'PROJECT_STATUS.md'
       - 'completion/BACKLOG.md'
+      - 'README.md'
+      - 'completion/review-register.csv'
+      - 'completion/feedback-20261112-grammar.md'
   pull_request:
     branches: [main]
     paths:
       - 'completion/v171-work/prepare-checkpoint.py'
       - 'completion/v171-work/grammar-order-browser.cjs'
+      - 'completion/v171-work/publish-main.py'
+      - 'completion/v171-work/JLPT_N1_v171_audit.md'
       - 'completion/v171-work/README.md'
+      - 'completion/v171-work/PUBLISH'
       - 'PROJECT_STATUS.md'
       - 'completion/BACKLOG.md'
+      - 'README.md'
+      - 'completion/review-register.csv'
+      - 'completion/feedback-20261112-grammar.md'
 permissions:
   contents: write
 concurrency:
@@ -54,6 +66,9 @@ jobs:
             git commit -m "Save verified v171 grammar-order checkpoint"
             git push origin HEAD:work/v171-grammar-order-checkpoint
           fi
+      - name: Publish verified v171 release to main
+        if: success() && github.event_name == 'push' && hashFiles('completion/v171-work/PUBLISH') != ''
+        run: python3 completion/v171-work/publish-main.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
