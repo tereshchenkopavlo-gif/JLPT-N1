@@ -1,0 +1,13 @@
+id	headword	decision	fields	status
+421	解ける	proposed_fix	m	proposed; pending regression
+423	改まる	proposed_fix	usage	proposed; pending regression
+425	外れる	review_unchanged		usage already separates the three senses; pending final evidence check
+430	寄せる	proposed_fix	m	proposed; pending regression
+433	詰める	proposed_fix	m	proposed; pending regression
+435	求める	proposed_fix	t	proposed; pending regression
+436	許す	proposed_fix	examples.1; exampleTranslations.1	proposed; pending regression
+438	響く	proposed_fix	exampleTranslations.0; exampleTranslations.1	proposed; pending regression
+440	勤まる	proposed_fix	usage	proposed; dictionary overlap noted; pending regression
+444	傾ける	proposed_fix	exampleTranslations.0	proposed; pending regression
+447	繋がる	proposed_fix	exampleTranslations.1	proposed; pending regression
+449	嫌がる	proposed_fix	exampleTranslations.0	proposed; pending regression
