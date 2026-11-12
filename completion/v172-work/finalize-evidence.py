@@ -53,7 +53,7 @@ def main():
         elif edit["op"] == "rename_key":
             fields.setdefault("3757", []).append("VOCAB_KANA_EXAMPLE_TARGETS")
     with Path("completion/v172-acceptance.tsv").open("w",encoding="utf-8",newline="") as f:
-        w=csv.writer(f,delimiter="\\t",lineterminator="\\n")
+        w=csv.writer(f,delimiter="\t",lineterminator="\n")
         w.writerow(["id","headword","card_before_sha256","card_after_sha256","pos_before","pos_after","changed_fields","prior_evidence","decision"])
         for id in IDS:
             card_before,card_after=before_cards[str(id)],after_cards[str(id)]
@@ -63,10 +63,10 @@ def main():
             prior=next((e["evidence"] for e in updates if e.get("path",[None])[0]==str(id)), "")
             w.writerow([id,card_after["w"],digest(card_before),digest(card_after),"・".join(pos_before),"・".join(pos_after),"; ".join(fields.get(str(id),[])),prior,"fixed_rechecked after exact field review and browser regression"])
     with Path("completion/v172-pair-review.tsv").open("w",encoding="utf-8",newline="") as f:
-        w=csv.writer(f,delimiter="\\t",lineterminator="\\n")
+        w=csv.writer(f,delimiter="\t",lineterminator="\n")
         w.writerow(["pair_id","index","a","b","type","decision","rationale","evidence"])
         for key,index,a,b,kind,rationale in PAIRS:
-            w.writerow([key,index,a,b,kind,"reviewed",rationale,f"JLPT_N1_v171.html:VOCAB_AUDITED_PAIRS[{index}]; author pair review"])
+            w.writerow([key,index,a,b,kind,"reviewed",rationale,f"JLPT_N1_ukrainian_reading_v171.html:VOCAB_AUDITED_PAIRS[{index}]; author pair review"])
     lines=REGISTRY.read_text(encoding="utf-8").splitlines()
     changed_cards=changed_pairs=0
     new=[]
@@ -93,7 +93,7 @@ def main():
             new.append(line)
     if changed_cards!=13 or changed_pairs!=5:
         raise ValueError(f"Registry rows changed: cards={changed_cards}, pairs={changed_pairs}")
-    REGISTRY.write_text("\\n".join(new)+"\\n",encoding="utf-8")
+    REGISTRY.write_text("\n".join(new)+"\n",encoding="utf-8")
     counts={}
     for line in new[1:]:
         if line:
@@ -103,7 +103,7 @@ def main():
     if counts!=expected:
         raise ValueError(f"Unexpected registry counts: {counts}")
     result={"card_acceptances":changed_cards,"pair_reviews":changed_pairs,"registry_counts":counts,"pass":True}
-    Path("completion/v172-work/registry-results.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    Path("completion/v172-work/registry-results.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(result,ensure_ascii=False))
 
 if __name__=="__main__":
