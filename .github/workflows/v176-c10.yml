@@ -1,0 +1,75 @@
+name: JLPT N1 v176 C10 verification
+on:
+  push:
+    branches: [work/v176-c10-remaining-open-ids]
+    paths:
+      - 'completion/v176-work/**'
+      - 'completion/v176-*'
+      - 'completion/C10-followup-255-355-20261113.md'
+      - 'JLPT_N1_v176_audit.md'
+      - '.github/workflows/v176-c10.yml'
+      - 'README.md'
+      - 'PROJECT_STATUS.md'
+      - 'completion/BACKLOG.md'
+      - 'completion/review-register.csv'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v176-c10
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save verified v176')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v176-c10-remaining-open-ids
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Python and browser verifier syntax
+        run: |
+          python3 -m py_compile completion/v176-work/prepare.py completion/v176-work/finalize-evidence.py completion/v176-work/publish-main.py
+          node --check completion/v176-work/browser.cjs
+      - name: Reproduce v176 from exact published v175 baseline
+        run: python3 completion/v176-work/prepare.py
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify exact C10 card fields, POS/reading pool, pairs and progress
+        run: node completion/v176-work/browser.cjs
+      - name: Finalize author acceptance, pair review and registries
+        run: python3 completion/v176-work/finalize-evidence.py
+      - name: Save verified checkpoint and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v176.html JLPT_N1_v176_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/v176-acceptance.tsv completion/v176-pair-review.tsv completion/v176-work/prepare-results.json completion/v176-work/browser-results.json completion/v176-work/registry-results.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v176 C10 checkpoint and acceptance evidence"
+            git push origin HEAD:work/v176-c10-remaining-open-ids
+          fi
+      - name: Publish verified v176 release to main
+        if: success() && hashFiles('completion/v176-work/PUBLISH') != ''
+        run: python3 completion/v176-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v176-c10-audit-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v176.html
+            JLPT_N1_v176_audit.md
+            completion/v176-work/prepare-results.json
+            completion/v176-work/browser-results.json
+            completion/v176-work/registry-results.json
+            completion/v176-acceptance.tsv
+            completion/v176-pair-review.tsv
+          if-no-files-found: warn
