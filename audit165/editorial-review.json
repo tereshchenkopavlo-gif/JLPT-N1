@@ -1,0 +1,88 @@
+{
+  "sha256": "1dbc46d021d9e05eee9c6a9de21eab43c9948580706f2c315e2b4bac5e11e621",
+  "rows": [
+    {
+      "key": "2963",
+      "word": "賢い",
+      "reading": "かしこい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2965",
+      "word": "厚かましい",
+      "reading": "あつかましい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2974",
+      "word": "手厳しい",
+      "reading": "てきびしい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2978",
+      "word": "渋い",
+      "reading": "しぶい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2982",
+      "word": "心強い",
+      "reading": "こころづよい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "2987",
+      "word": "申し分ない",
+      "reading": "もうしぶんない",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "3000",
+      "word": "尊い",
+      "reading": "とうとい・たっとい",
+      "partsOfSpeech": [
+        "イ形"
+      ]
+    },
+    {
+      "key": "3042",
+      "word": "いくじなし",
+      "reading": "いくじなし",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3045",
+      "word": "いんちき",
+      "reading": "いんちき",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    {
+      "key": "3057",
+      "word": "異色",
+      "reading": "いしょく",
+      "partsOfSpeech": [
+        "名詞",
+        "ナ形"
+      ]
+    }
+  ]
+}

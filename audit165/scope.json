@@ -1,0 +1,28 @@
+{
+  "base": "v164",
+  "sha256": "1dbc46d021d9e05eee9c6a9de21eab43c9948580706f2c315e2b4bac5e11e621",
+  "bytes": 6933425,
+  "edits": 12,
+  "example_translations": 6,
+  "usage_notes": 1,
+  "primary_translations": 2,
+  "pos_labels": 3,
+  "full_card_credits": [
+    2963,
+    2965,
+    2974,
+    2978,
+    2982,
+    2987,
+    3000,
+    3042,
+    3045,
+    3057
+  ],
+  "vocabulary_reviewed": 2769,
+  "register_reviewed": 3316,
+  "register_pending": 2526,
+  "next_id": 3261,
+  "technical_ci_run": 43146021366,
+  "open_pos_id": 2734
+}

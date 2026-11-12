@@ -1,0 +1,92 @@
+{
+  "sha256": "1dbc46d021d9e05eee9c6a9de21eab43c9948580706f2c315e2b4bac5e11e621",
+  "results": [
+    {
+      "width": 360,
+      "checks": {
+        "名詞": [
+          3042,
+          3045,
+          3057
+        ],
+        "ナ形": [
+          3042,
+          3045,
+          3057
+        ],
+        "動詞": []
+      },
+      "pass": true
+    },
+    {
+      "width": 412,
+      "checks": {
+        "名詞": [
+          3042,
+          3045,
+          3057
+        ],
+        "ナ形": [
+          3042,
+          3045,
+          3057
+        ],
+        "動詞": []
+      },
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "checks": {
+        "名詞": [
+          3042,
+          3045,
+          3057
+        ],
+        "ナ形": [
+          3042,
+          3045,
+          3057
+        ],
+        "動詞": []
+      },
+      "pass": true
+    }
+  ],
+  "checkedVocabulary": 3914,
+  "sameEligibility": true,
+  "before": [
+    {
+      "id": 3042,
+      "readings": [],
+      "cloze": 290
+    },
+    {
+      "id": 3045,
+      "readings": [],
+      "cloze": 290
+    },
+    {
+      "id": 3057,
+      "readings": [],
+      "cloze": 290
+    }
+  ],
+  "after": [
+    {
+      "id": 3042,
+      "readings": [],
+      "cloze": 56
+    },
+    {
+      "id": 3045,
+      "readings": [],
+      "cloze": 56
+    },
+    {
+      "id": 3057,
+      "readings": [],
+      "cloze": 56
+    }
+  ]
+}
