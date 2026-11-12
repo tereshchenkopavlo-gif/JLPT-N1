@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import csv,json,re
+import csv,json,re,shutil
 from pathlib import Path
 W=Path("completion/v178-work")
 def main():
