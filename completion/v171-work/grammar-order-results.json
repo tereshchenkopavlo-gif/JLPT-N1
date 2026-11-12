@@ -1,0 +1,47 @@
+{
+  "version": "v171 checkpoint",
+  "sha256": "80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32",
+  "browser": "141.0.7390.37",
+  "results": [
+    {
+      "width": 360,
+      "vocabularyRecords": 3914,
+      "grammarRecords": 130,
+      "grammarIdsUnique": true,
+      "cardsChecked": 3,
+      "cardLayouts": 3,
+      "sessionLayouts": 3,
+      "comparisonLayouts": 3,
+      "translatedMainExamples": 6,
+      "g90SupplementalExamples": 2,
+      "progressStorageUnchanged": true
+    },
+    {
+      "width": 412,
+      "vocabularyRecords": 3914,
+      "grammarRecords": 130,
+      "grammarIdsUnique": true,
+      "cardsChecked": 130,
+      "cardLayouts": 130,
+      "sessionLayouts": 130,
+      "comparisonLayouts": 130,
+      "translatedMainExamples": 260,
+      "g90SupplementalExamples": 2,
+      "progressStorageUnchanged": true
+    },
+    {
+      "width": 1280,
+      "vocabularyRecords": 3914,
+      "grammarRecords": 130,
+      "grammarIdsUnique": true,
+      "cardsChecked": 3,
+      "cardLayouts": 3,
+      "sessionLayouts": 3,
+      "comparisonLayouts": 3,
+      "translatedMainExamples": 6,
+      "g90SupplementalExamples": 2,
+      "progressStorageUnchanged": true
+    }
+  ],
+  "pass": true
+}
