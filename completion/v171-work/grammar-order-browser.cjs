@@ -16,7 +16,7 @@ const url = pathToFileURL(path.resolve(file)).href;
       const errors = [];
       page.on('pageerror', error => errors.push(error.message));
       await page.goto(url, { waitUntil: 'load' });
-      const result = await page.evaluate(({ width }) => {
+      const result = await page.evaluate(async ({ width }) => {
         const all = getAllItems();
         const vocab = all.filter(item => item.kind === 'v');
         const grammar = all.filter(item => item.kind === 'g');
@@ -47,12 +47,12 @@ const url = pathToFileURL(path.resolve(file)).href;
         };
         const ids = width === 412 ? grammar.map(item => String(item.id)) : ['1', '90', '130'];
         for (const id of ids) {
-          const data = getCardData('g', id);
+          const data = await getCardData('g', id);
           const snapshot = JSON.parse(JSON.stringify(data));
           const cardHtml = renderCardShell('g', id, data);
           const afterCard = JSON.parse(JSON.stringify(data));
           checkCard(cardHtml, cardBody, id, 'card', data, {snapshot,afterCard,getCardDataSource:String(getCardData).slice(0,900)});
-          const sessionData = getCardData('g', id);
+          const sessionData = await getCardData('g', id);
           checkCard(renderCardShell('g', id, sessionData, { staticChips: true, hideActions: true }), sessionBody, id, 'session', sessionData);
           if (!saveComparisonKeys(['g_' + id])) throw new Error('could not save comparison key for grammar ' + id);
           renderComparison();
