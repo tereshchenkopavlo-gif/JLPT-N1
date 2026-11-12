@@ -10,7 +10,7 @@ const file = 'JLPT_N1_ukrainian_reading_v172.html';
 const expectedTranslations = [
   ['3701',0,'У період тривалої нестерпної спеки різко зросла кількість людей, яких доправляють до лікарні через перегрівання.'],
   ['3710',1,'Відповідальним за розроблення нового продукту несподівано призначили його — працівника, який працює в компанії десятий рік.'],
-  ['3716',0,'Партійні реформатори зажадали від керівництва партії докорінно все переглянути.'],
+  ['3716',0,'Партійні реформатори зажадали від керівництва партії докорінного перегляду.'],
   ['3723',1,'Досвід за кордоном докорінно змінив його погляди на життя.'],
   ['3725',0,'У столичному регіоні тривалі поїздки на роботу давно залишаються проблемою.'],
   ['3725',1,'Агентство метеорології повідомило, що завтра тайфун, імовірно, наблизиться до столичного регіону.'],
@@ -56,7 +56,7 @@ async function main() {
       eligibility: ACTIVE_VOCAB.length,
       pos3742: VOCAB_POS_BY_ID['3742'],
       card3757: VOCAB_DETAILS_BY_ID['3757'],
-      target3757: VOCAB_KANA_EXAMPLE_TARGETS['指を折る']
+      target3757: VOCAB_KANA_EXAMPLE_TARGETS['指折り数えて']
     }));
     assert.equal(beforeData.vocab, 3914);
     assert.equal(afterData.vocab, 3914);
@@ -70,7 +70,7 @@ async function main() {
       usage3757: VOCAB_DETAILS_BY_ID['3757'].usage
     }));
     assert.equal(correctedFields.usage3724, '〜係 — відповідальна особа або функція: N＋係 — 受付係・案内係; V連用形＋係 — 見張り係（見張る→見張り）. Окреме 係 означає доручену роль.');
-    assert.equal(correctedFields.translation3747, 'плутати головне з другорядним; підміняти мету засобом');
+    assert.equal(correctedFields.translation3747, 'плутати головне з другорядним; ставити засіб вище за мету');
     assert.equal(correctedFields.usage3757, '指折り数えて待つ — нетерпляче відраховувати дні до очікуваної події; 指を折って数える — лічити на пальцях. Не буквальне ламання пальця.');
     results.correctedFields = { pass: true, ...correctedFields };
     const sentence = '開通の日を指折り数えて待つ住民が、駅前に集まっていた。';
@@ -95,6 +95,28 @@ async function main() {
     assert(rendered.every(x => x.expectedValue && x.exampleRendered && x.translationRendered));
     results.renderedExamples = rendered;
     results.id3757Target = { sentence, target: afterData.target3757[sentence], pass: true };
+
+    const cardRenderChecks = await after.evaluate(async ids => {
+      const key = 'choba_n1uk_storage_v1';
+      const sentinel = 'v172-progress-sentinel';
+      localStorage.setItem(key, sentinel);
+      const checked = [];
+      for (const id of ids) {
+        const data = await getCardData('v', id);
+        const html = renderCardShell('v', id, data);
+        const record = VOCAB_DETAILS_BY_ID[id];
+        checked.push({
+          id,
+          mainTranslation: html.includes(escapeLex(record.t)),
+          exampleTranslations: (record.exampleTranslations || []).every(value => html.includes(escapeLex(value))),
+          usage: !record.usage || html.includes(escapeLex(record.usage))
+        });
+      }
+      return { checked, progressStorageUnchanged: localStorage.getItem(key) === sentinel };
+    }, ['3701','3710','3716','3723','3724','3725','3736','3739','3742','3745','3747','3753','3757']);
+    assert(cardRenderChecks.checked.every(x => x.mainTranslation && x.exampleTranslations && x.usage));
+    assert.equal(cardRenderChecks.progressStorageUnchanged, true);
+    results.cardRenderChecks = cardRenderChecks;
 
     for (const width of [360, 412, 1280]) {
       const page = await open(browser, file, width);
