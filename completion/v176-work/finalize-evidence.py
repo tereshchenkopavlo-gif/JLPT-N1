@@ -135,19 +135,31 @@ def main():
     transitioned = []
     for id in EXPECTED_IDS:
         row = next((r for r in register_rows if r["kind"] == "vocab" and r["key"] == id), None)
-        if row is None or row["finalReview"] != "pending":
-            raise ValueError("Expected pending vocabulary row missing or already reviewed: " + id)
-        row["finalReview"] = "fixed_rechecked"
-        row["evidence"] = "completion/v176-acceptance.tsv:" + id + "; exact field review and Chromium regression; author review, not independent"
-        transitioned.append("vocab:" + id)
+        if row is None:
+            raise ValueError("Vocabulary row missing: " + id)
+        evidence = "completion/v176-acceptance.tsv:" + id
+        if row["finalReview"] == "pending":
+            row["finalReview"] = "fixed_rechecked"
+            row["evidence"] = evidence + "; exact field review and Chromium regression; author review, not independent"
+            transitioned.append("vocab:" + id)
+        elif row["finalReview"] == "fixed_rechecked" and evidence in row["evidence"]:
+            pass
+        else:
+            raise ValueError("Unexpected vocabulary review state for " + id + ": " + row["finalReview"])
     for pair_row in pair_inputs:
         key = pair_row["pair_key"]
         row = next((r for r in register_rows if r["kind"] == "vocab_pair" and r["key"] == key), None)
-        if row is None or row["finalReview"] != "pending":
-            raise ValueError("Expected pending pair row missing or already reviewed: " + key)
-        row["finalReview"] = "reviewed"
-        row["evidence"] = "completion/v176-pair-review.tsv:" + pair_row["pair_index"] + "; author pair review; unchanged; not independent"
-        transitioned.append("vocab_pair:" + key)
+        if row is None:
+            raise ValueError("Pair row missing: " + key)
+        evidence = "completion/v176-pair-review.tsv:" + pair_row["pair_index"]
+        if row["finalReview"] == "pending":
+            row["finalReview"] = "reviewed"
+            row["evidence"] = evidence + "; author pair review; unchanged; not independent"
+            transitioned.append("vocab_pair:" + key)
+        elif row["finalReview"] == "reviewed" and evidence in row["evidence"]:
+            pass
+        else:
+            raise ValueError("Unexpected pair review state for " + key + ": " + row["finalReview"])
     with REGISTRY.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
@@ -168,6 +180,8 @@ def main():
     registry_result = {
         "pass": True,
         "newly_transitioned_this_run": len(transitioned),
+        "release_transitions": len(EXPECTED_IDS) + len(pair_inputs),
+        "registry_already_applied": len(transitioned) == 0,
         "cards_fixed_rechecked": len(EXPECTED_IDS),
         "pairs_reviewed_unchanged": len(pair_inputs),
         "registry_counts": dict(counts),
@@ -187,58 +201,74 @@ def main():
     html_bytes = prep["checkpoint_bytes"]
     audit_path = ROOT / "JLPT_N1_v176_audit.md"
     audit = audit_path.read_text(encoding="utf-8")
-    if "__HTML_SHA256__" not in audit or "__HTML_BYTES__" not in audit:
-        raise ValueError("Audit template placeholders missing")
-    audit = audit.replace("__HTML_SHA256__", html_hash).replace("__HTML_BYTES__", str(html_bytes))
-    audit_path.write_text(audit, encoding="utf-8")
+    if "__HTML_SHA256__" in audit and "__HTML_BYTES__" in audit:
+        audit = audit.replace("__HTML_SHA256__", html_hash).replace("__HTML_BYTES__", str(html_bytes))
+        audit_path.write_text(audit, encoding="utf-8")
+    elif html_hash not in audit or str(html_bytes) not in audit:
+        raise ValueError("Audit is neither an untouched template nor the exact v176 audit")
 
     readme_path = ROOT / "README.md"
     readme_lines = readme_path.read_text(encoding="utf-8").splitlines()
-    if len(readme_lines) < 7 or "v175" not in readme_lines[2] or "v175" not in readme_lines[4]:
-        raise ValueError("Unexpected README v175 top block")
-    readme_lines[2] = "Актуальна **v176**. [Повний HTML](JLPT_N1_ukrainian_reading_v176.html) · [Аудит](JLPT_N1_v176_audit.md)"
-    readme_lines[4] = "У v176 авторськи переглянуто 12 pending карток C10: десять виправлено й повторно перевірено; ID255 та ID327 залишено pending через недостатній пул reading після уточнення POS. Чотири лексичні пари (72, 81, 85, 167) переглянуто без зміни. Збережено 3914 слів, 130 конструкцій, 160 текстів і 381 питання читання. SHA-256 HTML: " + html_hash + "."
-    readme_lines[6] = "Після v176 авторськи зараховано **3361 із 3914** словникових карток; завершальний реєстр — **3885 reviewed / 37 fixed_rechecked / 1920 pending**. C10 лишається відкритим; перші pending ID: " + ", ".join(str(x) for x in next_pending) + ". C07, C11, C12, незалежне мовне, фізичне та правове/походження приймання не завершені."
-    readme_path.write_text("\n".join(readme_lines) + "\n", encoding="utf-8")
+    if len(readme_lines) < 7:
+        raise ValueError("README top block is incomplete")
+    if "v175" in readme_lines[2] and "v175" in readme_lines[4]:
+        readme_lines[2] = "Актуальна **v176**. [Повний HTML](JLPT_N1_ukrainian_reading_v176.html) · [Аудит](JLPT_N1_v176_audit.md)"
+        readme_lines[4] = "У v176 авторськи переглянуто 12 pending карток C10: десять виправлено й повторно перевірено; ID255 та ID327 залишено pending через недостатній пул reading після уточнення POS. Чотири лексичні пари (72, 81, 85, 167) переглянуто без зміни. Збережено 3914 слів, 130 конструкцій, 160 текстів і 381 питання читання. SHA-256 HTML: " + html_hash + "."
+        readme_lines[6] = "Після v176 авторськи зараховано **3361 із 3914** словникових карток; завершальний реєстр — **3885 reviewed / 37 fixed_rechecked / 1920 pending**. C10 лишається відкритим; перші pending ID: " + ", ".join(str(x) for x in next_pending) + ". C07, C11, C12, незалежне мовне, фізичне та правове/походження приймання не завершені."
+        readme_path.write_text("\n".join(readme_lines) + "\n", encoding="utf-8")
+    elif "v176" in readme_lines[2] and html_hash in readme_lines[4]:
+        pass
+    else:
+        raise ValueError("README is neither v175 baseline nor exact v176 release")
 
     status_path = ROOT / "PROJECT_STATUS.md"
     status = status_path.read_text(encoding="utf-8")
-    old_current = "## Поточний випуск v175 — C10 follow-up"
-    old_archive = "## Архівований випуск v174"
-    if old_current not in status or old_archive not in status:
-        raise ValueError("Unexpected PROJECT_STATUS release structure")
-    start = status.index(old_current)
-    end = status.index(old_archive, start)
-    old_block = status[start:end].strip()
-    archived = old_block.replace(old_current, "## Архівований випуск v175 — 13 листопада 2026", 1)
-    top_old = status.splitlines()[2]
-    if "v175" not in top_old or EXPECTED_BASE not in top_old:
-        raise ValueError("Unexpected PROJECT_STATUS top hash/version")
-    top_new = (
-        "Оновлено 13 листопада 2026. Актуальна **v176**. Основа main перед випуском — "
-        + "bcc3f1ca290fb376094e53d83b65225694b96612 (v175). Повний "
-        + "JLPT_N1_ukrainian_reading_v176.html, " + f"{html_bytes:,}".replace(",", " ")
-        + " байт, SHA-256 " + html_hash + ". [Аудит](JLPT_N1_v176_audit.md)"
-    )
-    new_block = """## Поточний випуск v176 — C10 follow-up
-
-Авторськи переглянуто 12 pending карток: десять виправлено в десяти точних полях і повторно перевірено (ID278, 330, 332, 335, 339, 347, 349, 350, 353, 355); ID255 і ID327 залишено pending через несумісність уточнених POS-позначок із мінімальним пулом reading. Чотири лексичні пари (72, 81, 85, 167) переглянуто без зміни. Авторський credit — **3361/3914**; реєстр — **3885 reviewed /37 fixed_rechecked /1920 pending**; словниковий зріз — **3325 reviewed /36 fixed_rechecked /553 pending**.
-
-Детермінований preparer підтвердив точну основу v175, десять змінених полів, незмінність 3914 словникових записів, 130 граматичних конструкцій, 859 лексичних пар і повний rollback. Chromium перевірив 12 карток, усі приклади й десять полів при 360, 412 і 1280 px; чотири пари лишилися незмінними; sentinel прогресу не змінився. Додаткова перевірка точного quizReadingOptions показала: поточні POS дають щонайменше три варіанти для ID255/278/327; запропоновані повніші позначки дають відповідно 0, 0 і 2. Тому механізм вправ не змінювали, а ID255/327 залишили відкритими. Докази: [аудит v176](JLPT_N1_v176_audit.md), [acceptance](completion/v176-acceptance.tsv), [pair review](completion/v176-pair-review.tsv), [prepare](completion/v176-prepare-results.json), [Chromium](completion/v176-browser-results.json), [registry](completion/v176-registry-results.json).
-
-C10 не завершено. Наступні pending ID за реєстром: """ + ", ".join(str(x) for x in next_pending) + """. Поточна робоча гілка — work/v176-c10-remaining-open-ids; наступний checkpoint планується у work/v177-c10-pos-followups. C07 для ID230/3890, C11 (семантична якість автоматичних вправ), C12 (21 середній і 19 довгих текстів), C14, C16 і C17 залишаються відкритими. Незалежне мовне, правове/походження та фізичне приймання не виконані. v176 — проміжний випуск, не кандидат 1.0.
-
-"""
-    status = status[:start] + new_block + archived + "\n\n" + status[end:]
-    status = status.replace(top_old, top_new, 1)
-    status_path.write_text(status, encoding="utf-8")
+    if "## Поточний випуск v176 — C10 follow-up" not in status:
+        old_current = "## Поточний випуск v175 — C10 follow-up"
+        old_archive = "## Архівований випуск v174"
+        if old_current not in status or old_archive not in status:
+            raise ValueError("Unexpected PROJECT_STATUS release structure")
+        start = status.index(old_current)
+        end = status.index(old_archive, start)
+        old_block = status[start:end].strip()
+        archived = old_block.replace(old_current, "## Архівований випуск v175 — 13 листопада 2026", 1)
+        top_old = status.splitlines()[2]
+        if "v175" not in top_old or EXPECTED_BASE not in top_old:
+            raise ValueError("Unexpected PROJECT_STATUS top hash/version")
+        top_new = (
+            "Оновлено 13 листопада 2026. Актуальна **v176**. Основа main перед випуском — "
+            + "bcc3f1ca290fb376094e53d83b65225694b96612 (v175). Повний "
+            + "JLPT_N1_ukrainian_reading_v176.html, " + f"{html_bytes:,}".replace(",", " ")
+            + " байт, SHA-256 " + html_hash + ". [Аудит](JLPT_N1_v176_audit.md)"
+        )
+        new_block = """## Поточний випуск v176 — C10 follow-up
+    
+    Авторськи переглянуто 12 pending карток: десять виправлено в десяти точних полях і повторно перевірено (ID278, 330, 332, 335, 339, 347, 349, 350, 353, 355); ID255 і ID327 залишено pending через несумісність уточнених POS-позначок із мінімальним пулом reading. Чотири лексичні пари (72, 81, 85, 167) переглянуто без зміни. Авторський credit — **3361/3914**; реєстр — **3885 reviewed /37 fixed_rechecked /1920 pending**; словниковий зріз — **3325 reviewed /36 fixed_rechecked /553 pending**.
+    
+    Детермінований preparer підтвердив точну основу v175, десять змінених полів, незмінність 3914 словникових записів, 130 граматичних конструкцій, 859 лексичних пар і повний rollback. Chromium перевірив 12 карток, усі приклади й десять полів при 360, 412 і 1280 px; чотири пари лишилися незмінними; sentinel прогресу не змінився. Додаткова перевірка точного quizReadingOptions показала: поточні POS дають щонайменше три варіанти для ID255/278/327; запропоновані повніші позначки дають відповідно 0, 0 і 2. Тому механізм вправ не змінювали, а ID255/327 залишили відкритими. Докази: [аудит v176](JLPT_N1_v176_audit.md), [acceptance](completion/v176-acceptance.tsv), [pair review](completion/v176-pair-review.tsv), [prepare](completion/v176-prepare-results.json), [Chromium](completion/v176-browser-results.json), [registry](completion/v176-registry-results.json).
+    
+    C10 не завершено. Наступні pending ID за реєстром: """ + ", ".join(str(x) for x in next_pending) + """. Поточна робоча гілка — work/v176-c10-remaining-open-ids; наступний checkpoint планується у work/v177-c10-pos-followups. C07 для ID230/3890, C11 (семантична якість автоматичних вправ), C12 (21 середній і 19 довгих текстів), C14, C16 і C17 залишаються відкритими. Незалежне мовне, правове/походження та фізичне приймання не виконані. v176 — проміжний випуск, не кандидат 1.0.
+    
+    """
+        status = status[:start] + new_block + archived + "\n\n" + status[end:]
+        status = status.replace(top_old, top_new, 1)
+        status_path.write_text(status, encoding="utf-8")
+    else:
+        top_existing = status.splitlines()[2]
+        if "v176" not in top_existing or html_hash not in top_existing:
+            raise ValueError("Existing PROJECT_STATUS v176 block has a different HTML hash")
 
     backlog_path = ROOT / "completion" / "BACKLOG.md"
     backlog = backlog_path.read_text(encoding="utf-8")
     top_line = next((line for line in backlog.splitlines() if line.startswith("Оновлено 13 листопада 2026")), None)
-    if top_line is None or "Поточний HTML — v175" not in top_line:
+    if top_line is None:
         raise ValueError("Unexpected BACKLOG top status")
-    backlog = backlog.replace(top_line, top_line.replace("Поточний HTML — v175", "Поточний HTML — v176").replace("c3083a18181429e29fb1d63dcc4e9d39c5d68ccde49253b4f572820b27e1fb86", html_hash), 1)
+    if "Поточний HTML — v175" in top_line:
+        backlog = backlog.replace(top_line, top_line.replace("Поточний HTML — v175", "Поточний HTML — v176").replace("c3083a18181429e29fb1d63dcc4e9d39c5d68ccde49253b4f572820b27e1fb86", html_hash), 1)
+    elif "Поточний HTML — v176" in top_line and html_hash in top_line:
+        pass
+    else:
+        raise ValueError("BACKLOG top status is neither v175 nor exact v176")
     rows = backlog.splitlines()
     c10_index = next((i for i, line in enumerate(rows) if line.startswith("| C10 |")), None)
     if c10_index is None or "v175" not in rows[c10_index]:
