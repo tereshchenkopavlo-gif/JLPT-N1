@@ -46,8 +46,10 @@ const url = pathToFileURL(path.resolve(file)).href;
           if (!afterContent.querySelector('.study-subheading')) throw new Error(context + ' analysis headings missing for grammar ' + id);
         };
         const ids = width === 412 ? grammar.map(item => String(item.id)) : ['1', '90', '130'];
+        let translatedMainExamples = 0;
         for (const id of ids) {
           const data = await getCardData('g', id);
+          translatedMainExamples += (data.examples || []).length;
           const snapshot = JSON.parse(JSON.stringify(data));
           const cardHtml = renderCardShell('g', id, data);
           const afterCard = JSON.parse(JSON.stringify(data));
@@ -91,7 +93,7 @@ const url = pathToFileURL(path.resolve(file)).href;
           cardLayouts: ids.length,
           sessionLayouts: ids.length,
           comparisonLayouts: ids.length,
-          translatedMainExamples: ids.length * 2,
+          translatedMainExamples,
           g90SupplementalExamples: supplemental.length,
           progressStorageUnchanged: true
         };
