@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   verify:
-    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save verified v178')
+    if: github.event_name == 'push' && hashFiles('completion/v178-work/PUBLISH') != '' && !startsWith(github.event.head_commit.message, 'Save verified v178')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
