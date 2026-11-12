@@ -140,7 +140,7 @@ async function main() {
       const sentinel = 'v172-progress-sentinel';
       localStorage.setItem(key, sentinel);
       const checked = [];
-      const normalize = value => String(value || '').replace(/\\s+/g, '');
+      const normalize = value => String(value || '').replace(/\s+/g, '');
       for (const id of ids) {
         const data = await getCardData('v', id);
         const html = renderCardShell('v', id, data);
@@ -150,16 +150,23 @@ async function main() {
         const translations = [...wrapper.querySelectorAll('.fc-trans[lang="uk"]')];
         const exampleTranslations = [...wrapper.querySelectorAll('.grammar-example-ua[lang="uk"]')].map(x => x.textContent);
         const expectedUsage = displayUsageText(record.usage || '', 'v');
+        const mainText = translations[0]?.textContent || '';
+        const usageText = translations.slice(1).map(x => x.textContent).join('');
         checked.push({
           id,
-          mainTranslation: !!translations[0] && normalize(translations[0].textContent).includes(normalize(record.t)),
+          mainTranslation: !!translations[0] && normalize(mainText).includes(normalize(record.t)),
           exampleTranslations: (record.exampleTranslations || []).every((value, i) => normalize(exampleTranslations[i]) === normalize(value)),
-          usage: !expectedUsage || translations.some(x => normalize(x.textContent).includes(normalize(expectedUsage)))
+          usage: !expectedUsage || normalize(usageText).includes(normalize(expectedUsage)),
+          mainText: normalize(mainText),
+          expectedMain: normalize(record.t),
+          usageText: normalize(usageText),
+          expectedUsage: normalize(expectedUsage)
         });
       }
       return { checked, progressStorageUnchanged: localStorage.getItem(key) === sentinel };
     }, ['3701','3710','3716','3723','3724','3725','3736','3739','3742','3745','3747','3753','3757']);
-    assert(cardRenderChecks.checked.every(x => x.mainTranslation && x.exampleTranslations && x.usage));
+    console.log('v172 card render diagnostics', JSON.stringify(cardRenderChecks.checked));
+    assert(cardRenderChecks.checked.every(x => x.mainTranslation && x.exampleTranslations && x.usage), 'Card render content mismatch: ' + JSON.stringify(cardRenderChecks.checked.filter(x => !x.mainTranslation || !x.exampleTranslations || !x.usage)));
     assert.equal(cardRenderChecks.progressStorageUnchanged, true);
     results.cardRenderChecks = cardRenderChecks;
 
