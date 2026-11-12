@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # PR-triggered verification is pinned to the published v174 baseline.
+# This checkpoint is evaluated through the refreshed v175 draft PR.
 """Reproduce the exact v175 C10 follow-up from published v174."""
 from __future__ import annotations
 import hashlib
