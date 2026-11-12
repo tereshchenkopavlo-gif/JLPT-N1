@@ -14,6 +14,19 @@ on:
       - 'completion/v175-work/PUBLISH'
       - 'completion/C10-followup-3802-3816-20261113.md'
       - 'JLPT_N1_v175_audit.md'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/v175-c10.yml'
+      - 'completion/v175-work/prepare.py'
+      - 'completion/v175-work/browser.cjs'
+      - 'completion/v175-work/finalize-evidence.py'
+      - 'completion/v175-work/publish-main.py'
+      - 'completion/v175-work/updates.json'
+      - 'completion/v175-work/pair-review.tsv'
+      - 'completion/v175-work/PUBLISH'
+      - 'completion/C10-followup-3802-3816-20261113.md'
+      - 'JLPT_N1_v175_audit.md'
 
 permissions:
   contents: write
@@ -24,7 +37,7 @@ concurrency:
 
 jobs:
   verify-v175:
-    if: github.event_name == 'push' && github.ref_name == 'work/v175-c10-remaining-open-ids'
+    (github.event_name == 'push' && github.ref_name == 'work/v175-c10-remaining-open-ids') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v175-c10-remaining-open-ids')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
