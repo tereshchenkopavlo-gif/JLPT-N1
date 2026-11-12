@@ -33,12 +33,12 @@ const url = pathToFileURL(path.resolve(file)).href;
         const sessionBody = document.getElementById('teachBody');
         if (!cardBody || !sessionBody) throw new Error('card/session containers missing');
         const follows = (a, b) => Boolean(a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING);
-        const checkCard = (html, container, id, context) => {
+        const checkCard = (html, container, id, context, data) => {
           container.innerHTML = html;
           const before = container.querySelector('[data-grammar-layout="before"]');
           const examples = container.querySelector('[data-grammar-layout="examples"]');
           const after = container.querySelector('[data-grammar-layout="after"]');
-          if (!before || !examples || !after) throw new Error(context + ' missing sections for grammar ' + id);
+          if (!before || !examples || !after) { const model = cardStudyModel('g', data); const parts = splitGrammarUsage(model.usage); console.log('DEBUG_LAYOUT', JSON.stringify({context, id, labels:[...container.querySelectorAll('.fc-section-label')].map(x=>x.textContent.trim()), model, parts, rendered:html.slice(Math.max(0,html.indexOf('fc-meaning')),Math.min(html.length,html.indexOf('fc-actions')>0?html.indexOf('fc-actions'):html.length))})); throw new Error(context + ' missing sections for grammar ' + id); }
           if (!follows(before, examples) || !follows(examples, after)) throw new Error(context + ' order failure for grammar ' + id);
           const rows = [...container.querySelectorAll('.fc-examples li')];
           if (rows.length !== 2 || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error(context + ' examples/translations missing for grammar ' + id);
@@ -47,8 +47,8 @@ const url = pathToFileURL(path.resolve(file)).href;
         const ids = width === 412 ? grammar.map(item => String(item.id)) : ['1', '90', '130'];
         for (const id of ids) {
           const data = getCardData('g', id);
-          checkCard(renderCardShell('g', id, data), cardBody, id, 'card');
-          checkCard(renderCardShell('g', id, data, { staticChips: true, hideActions: true }), sessionBody, id, 'session');
+          checkCard(renderCardShell('g', id, data), cardBody, id, 'card', data);
+          checkCard(renderCardShell('g', id, data, { staticChips: true, hideActions: true }), sessionBody, id, 'session', data);
           if (!saveComparisonKeys(['g_' + id])) throw new Error('could not save comparison key for grammar ' + id);
           renderComparison();
           const entry = document.querySelector('#compareList .compare-entry');
