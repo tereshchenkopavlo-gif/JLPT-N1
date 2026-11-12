@@ -42,11 +42,12 @@ jobs:
       - name: Verify all grammar display paths
         run: node completion/v171-work/grammar-order-browser.cjs
       - name: Save full checkpoint and test evidence in work branch
-        if: success()
+        if: always() && hashFiles('JLPT_N1_v171_checkpoint.html') != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add JLPT_N1_v171_checkpoint.html completion/v171-work/prepare-results.json completion/v171-work/grammar-order-results.json
+          git add JLPT_N1_v171_checkpoint.html completion/v171-work/prepare-results.json
+          if [ -f completion/v171-work/grammar-order-results.json ]; then git add completion/v171-work/grammar-order-results.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Save verified v171 grammar-order checkpoint"
             git push origin HEAD
@@ -61,4 +62,5 @@ jobs:
           path: |
             completion/v171-work/prepare-results.json
             completion/v171-work/grammar-order-results.json
+            JLPT_N1_v171_checkpoint.html
           if-no-files-found: error
