@@ -1,0 +1,55 @@
+{
+  "pass": true,
+  "base_version": "v177",
+  "base_sha256": "07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e",
+  "checkpoint_version": "v178",
+  "checkpoint_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "checkpoint_bytes": 6937622,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "vocab_pos_records": 3914,
+  "lexical_pairs": 859,
+  "changed_ids": [
+    "421",
+    "423",
+    "430",
+    "433",
+    "435",
+    "436",
+    "438",
+    "440",
+    "444",
+    "447",
+    "449"
+  ],
+  "reviewed_without_change": [
+    "425"
+  ],
+  "changed_fields": [
+    "421.m",
+    "423.usage",
+    "430.m",
+    "433.m",
+    "435.t",
+    "436.examples.1",
+    "436.exampleTranslations.1",
+    "438.exampleTranslations.0",
+    "438.exampleTranslations.1",
+    "440.usage",
+    "444.exampleTranslations.0",
+    "447.exampleTranslations.1",
+    "449.exampleTranslations.0"
+  ],
+  "operations": 13,
+  "unchanged_data_blocks": {
+    "DEFAULT_VOCAB": 3914,
+    "GRAMMAR_DETAILS_BY_ID": 130,
+    "VOCAB_POS_BY_ID": 3914,
+    "VOCAB_AUDITED_PAIRS": 859,
+    "VOCAB_KANA_EXAMPLE_TARGETS": 265,
+    "REVIEWED_READING_OPTIONS": 1,
+    "REVIEWED_MEANING_QUIZZES": 383
+  },
+  "inline_scripts_checked": 1,
+  "exact_rollback": true
+}

@@ -1,0 +1,222 @@
+{
+  "sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "cardsChecked": 12,
+  "fieldsChecked": 13,
+  "pairsChecked": 0,
+  "widths": [
+    {
+      "width": 360,
+      "pass": true,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "width": 412,
+      "pass": true,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "width": 1280,
+      "pass": true,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "renderedCards": [
+    {
+      "id": "421",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "usage",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": []
+    },
+    {
+      "id": "430",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "433",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "m",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "435",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "t",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "436",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "examples.1",
+          "present": true
+        },
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "438",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        },
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "440",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "usage",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "444",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "447",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "449",
+      "cardRendered": true,
+      "allExamplesRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ]
+    }
+  ],
+  "progressStorageUnchanged": true,
+  "changedIds": [
+    "421",
+    "423",
+    "430",
+    "433",
+    "435",
+    "436",
+    "438",
+    "440",
+    "444",
+    "447",
+    "449"
+  ],
+  "reviewedWithoutChange": [
+    "425"
+  ],
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859
+  },
+  "pass": true
+}

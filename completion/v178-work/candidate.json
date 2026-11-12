@@ -1,0 +1,52 @@
+{
+  "checkpoint": "v178-c10-candidate",
+  "base_main_sha": "cb402c2c1180d046f801795652c770fdef31d5a9",
+  "work_branch": "work/v178-c10-next-pending",
+  "base_html": "JLPT_N1_ukrainian_reading_v177.html",
+  "base_sha256": "07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e",
+  "candidate_html": "JLPT_N1_ukrainian_reading_v178.html",
+  "candidate_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "scope_ids": [
+    421,
+    423,
+    425,
+    430,
+    433,
+    435,
+    436,
+    438,
+    440,
+    444,
+    447,
+    449
+  ],
+  "changed_ids": [
+    "421",
+    "423",
+    "430",
+    "433",
+    "435",
+    "436",
+    "438",
+    "440",
+    "444",
+    "447",
+    "449"
+  ],
+  "reviewed_without_change": [
+    "425"
+  ],
+  "operations": 13,
+  "structural_invariants": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexical_pairs": 859
+  },
+  "registry_counts": {
+    "reviewed": 3891,
+    "pending": 1892,
+    "fixed_rechecked": 59
+  },
+  "author_credit": "3385/3914",
+  "status": "verified candidate; publication guarded by exact main SHA"
+}

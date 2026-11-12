@@ -1,0 +1,76 @@
+name: JLPT N1 v178 C10 verification
+on:
+  push:
+    branches: [work/v178-c10-next-pending]
+    paths:
+      - 'completion/v178-work/**'
+      - 'completion/v178-*'
+      - 'completion/C10-followup-421-449-20261113.md'
+      - 'JLPT_N1_v178_audit.md'
+      - '.github/workflows/v178-c10.yml'
+      - 'README.md'
+      - 'PROJECT_STATUS.md'
+      - 'completion/BACKLOG.md'
+      - 'completion/review-register.csv'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v178-c10
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save verified v178')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v178-c10-next-pending
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Python and browser verifier syntax
+        run: |
+          python3 -m py_compile completion/v178-work/prepare.py completion/v178-work/finalize-evidence.py completion/v178-work/write-docs.py completion/v178-work/publish-main.py
+          node --check completion/v178-work/browser.cjs
+      - name: Reproduce v178 from exact published v177 baseline
+        run: python3 completion/v178-work/prepare.py
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify exact C10 fields, examples, structure and progress
+        run: node completion/v178-work/browser.cjs
+      - name: Finalize author acceptance and registries
+        run: python3 completion/v178-work/finalize-evidence.py
+      - name: Update audit and project status
+        run: python3 completion/v178-work/write-docs.py
+      - name: Save verified v178 checkpoint and evidence
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v178.html JLPT_N1_v178_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/v178-acceptance.tsv completion/C10-followup-421-449-20261113.md completion/v178-work/prepare.py completion/v178-work/browser.cjs completion/v178-work/finalize-evidence.py completion/v178-work/write-docs.py completion/v178-work/publish-main.py completion/v178-work/updates.json completion/v178-work/author-decisions.tsv completion/v178-work/source-review.md completion/v178-work/scope.tsv completion/v178-work/checkpoint.json completion/v178-work/preaudit-notes.md completion/v178-work/candidate.json completion/v178-work/prepare-results.json completion/v178-work/browser-results.json completion/v178-work/registry-results.json completion/v178-prepare-results.json completion/v178-browser-results.json completion/v178-registry-results.json completion/v178-source-review.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v178 C10 checkpoint and evidence"
+            git push origin HEAD:work/v178-c10-next-pending
+          fi
+      - name: Publish verified v178 release to main
+        if: success() && hashFiles('completion/v178-work/PUBLISH') != ''
+        run: python3 completion/v178-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v178-c10-audit-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v178.html
+            JLPT_N1_v178_audit.md
+            completion/v178-work/prepare-results.json
+            completion/v178-work/browser-results.json
+            completion/v178-work/registry-results.json
+            completion/v178-acceptance.tsv
+          if-no-files-found: warn

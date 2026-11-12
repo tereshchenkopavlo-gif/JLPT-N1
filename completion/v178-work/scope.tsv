@@ -1,0 +1,13 @@
+id	headword	preliminary_action	status
+421	解ける	clarify reading-specific definition	fixed_rechecked; exact before/after verified; Chromium pass
+423	改まる	clarify transitivity and related expressions	fixed_rechecked; exact before/after verified; Chromium pass
+425	外れる	review usage; likely unchanged	reviewed unchanged; source and examples checked; Chromium pass
+430	寄せる	verify definition includes opinions/feedback/donations	fixed_rechecked; exact before/after verified; Chromium pass
+433	詰める	verify discussion/finalization sense in definition	fixed_rechecked; exact before/after verified; Chromium pass
+435	求める	verify Ukrainian gloss includes finding/calculating answer or value	fixed_rechecked; exact before/after verified; Chromium pass
+436	許す	clarify subject and deregulation relation in example	fixed_rechecked; exact before/after verified; Chromium pass
+438	響く	review both Ukrainian example translations	fixed_rechecked; exact before/after verified; Chromium pass
+440	勤まる	research 勤まる／務まる overlap before editing	fixed_rechecked; exact before/after verified; Chromium pass
+444	傾ける	improve naturalness of 耳を傾ける translation	fixed_rechecked; exact before/after verified; Chromium pass
+447	繋がる	remove redundancy in phone-connection translation	fixed_rechecked; exact before/after verified; Chromium pass
+449	嫌がる	preserve outward expression of reluctance, not avoidance	fixed_rechecked; exact before/after verified; Chromium pass
