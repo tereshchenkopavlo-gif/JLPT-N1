@@ -1,6 +1,7 @@
 const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
+const crypto = require('node:crypto');
 const path = require('node:path');
 const { pathToFileURL } = require('node:url');
 
@@ -37,7 +38,7 @@ async function eligibility(page) {
 }
 async function main() {
   const browser = await chromium.launch({ headless: true });
-  const results = { widths: [], cardsChecked: 13, translationsChecked: 11 };
+  const results = { widths: [], cardsChecked: 13, translationsChecked: 11, sha256: crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex') };
   let before, after;
   try {
     before = await open(browser, base, 1280);
