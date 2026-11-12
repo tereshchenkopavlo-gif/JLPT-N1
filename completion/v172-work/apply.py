@@ -52,8 +52,15 @@ def apply_one(html, edit, reverse=False):
         after_value = edit["before_value"] if reverse else edit["after_value"]
         if old_key not in parent or parent[old_key] != before_value or new_key in parent:
             raise ValueError("Unexpected kana-target key")
-        del parent[old_key]
-        parent[new_key] = after_value
+        # Replace the key at its original insertion position so reverse application
+        # restores the exact serialized JSON, not merely an equivalent mapping.
+        items = list(parent.items())
+        parent.clear()
+        for key, value in items:
+            if key == old_key:
+                parent[new_key] = after_value
+            else:
+                parent[key] = value
     else:
         raise ValueError(f"Unknown operation {op}")
     return html[:start] + compact(value) + html[end:]
