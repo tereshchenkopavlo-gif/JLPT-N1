@@ -7,7 +7,7 @@
 Це цільовий випуск для виправлення порядку пояснень у граматичних картках і завершення відгуку щодо grammar ID 90. Це **не** повторний мовний аудит усіх 3914 словникових карток або всіх 130 граматичних конструкцій.
 
 - База: v170, main commit `d9e60c73481c3a6b851699ba5f8a4aa859d25aff`, SHA-256 `e28958926e93343f47395910f243772e1ce2c13052cfa5fd8f4c3ede6cae7f51`.
-- Результат: `JLPT_N1_ukrainian_reading_v171.html`, 6,935,833 байти, SHA-256 `80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32`.
+- Результат: `JLPT_N1_ukrainian_reading_v171.html`, опубліковано commit `a552a5656d186de8c43d21ca37189f69cb49683f`, 6,935,833 байти, SHA-256 `80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32`.
 - Точний checkpoint і відтворення: [prepare-results](completion/v171-prepare-results.json); браузерні результати: [grammar-order-results](completion/v171-grammar-order-results.json).
 
 ## Внесені зміни
@@ -45,9 +45,9 @@
 ## Технічне приймання
 
 Успішні прогони:
-- [Data checks #442](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351893) — структура словника й реєстру;
+- [Data checks #482](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43214922491) — структура словника й реєстру;
 - [v171 Chromium verification #11](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351867) — відтворення точного checkpoint і всі display paths;
-- [PR Chromium verification #29](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351872) — незалежний повторний запуск read-only PR workflow.
+- [PR Chromium verification #63](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43214922453) — read-only PR workflow без write-доступу.
 
 Chromium `141.0.7390.37`:
 - 412 px: усі **130** граматичних карток у звичайному відображенні, сесії та порівнянні; перевірено **261** основний приклад із перекладами (ID 107 має три приклади, решта не примушувалися до фіксованої кількості);
