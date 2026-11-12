@@ -39,15 +39,27 @@ def main():
   r=csv.DictReader(f);names=r.fieldnames;rows=list(r)
  for x in updates:
   row=next(r for r in rows if r["kind"]=="vocab" and r["key"]==str(x["id"]))
-  if row["finalReview"]!="pending": raise ValueError("not pending "+str(x["id"]))
-  row["finalReview"]="fixed_rechecked";row["evidence"]="completion/v177-acceptance.tsv:"+str(x["id"])+"; author review, not independent"
+  evidence="completion/v177-acceptance.tsv:"+str(x["id"])+"; author review, not independent"
+  if row["finalReview"]=="pending":
+   row["finalReview"]="fixed_rechecked";row["evidence"]=evidence
+  elif row["finalReview"]=="fixed_rechecked" and row["evidence"]==evidence:
+   pass
+  else: raise ValueError("unexpected vocab state "+str(x["id"]))
  row=next(r for r in rows if r["kind"]=="vocab" and r["key"]=="371")
- if row["finalReview"]!="pending": raise ValueError("371 not pending")
- row["finalReview"]="reviewed";row["evidence"]="completion/v177-acceptance.tsv:371; author review, not independent"
+ evidence="completion/v177-acceptance.tsv:371; author review, not independent"
+ if row["finalReview"]=="pending":
+  row["finalReview"]="reviewed";row["evidence"]=evidence
+ elif row["finalReview"]=="reviewed" and row["evidence"]==evidence:
+  pass
+ else: raise ValueError("unexpected ID371 state")
  for x in pairs:
   row=next(r for r in rows if r["kind"]=="vocab_pair" and r["key"]==x["pair_key"])
-  if row["finalReview"]!="pending": raise ValueError("pair not pending")
-  row["finalReview"]="reviewed";row["evidence"]="completion/v177-pair-review.tsv:"+x["pair_index"]+"; author review, not independent"
+  evidence="completion/v177-pair-review.tsv:"+x["pair_index"]+"; author review, not independent"
+  if row["finalReview"]=="pending":
+   row["finalReview"]="reviewed";row["evidence"]=evidence
+  elif row["finalReview"]=="reviewed" and row["evidence"]==evidence:
+   pass
+  else: raise ValueError("unexpected pair state "+x["pair_key"])
  with reg.open("w",encoding="utf-8",newline="") as f:
   w=csv.DictWriter(f,fieldnames=names,lineterminator="\n");w.writeheader();w.writerows(rows)
  c=Counter(r["finalReview"] for r in rows)
