@@ -1,0 +1,7 @@
+{
+  "expected_main_sha": "cb402c2c1180d046f801795652c770fdef31d5a9",
+  "work_branch": "work/v178-c10-next-pending",
+  "base_html_sha256": "07b0c89b48ab8d3cffb7d7591a8d13b306a9512e86026e5684216b5e152df45e",
+  "release": "v178",
+  "gate": "publish only after prepare, Chromium and registry checks pass"
+}
