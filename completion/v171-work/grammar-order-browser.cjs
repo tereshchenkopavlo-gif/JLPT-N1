@@ -38,11 +38,12 @@ const url = pathToFileURL(path.resolve(file)).href;
           const before = container.querySelector('[data-grammar-layout="before"]');
           const examples = container.querySelector('[data-grammar-layout="examples"]');
           const after = container.querySelector('[data-grammar-layout="after"]');
-          if (!before || !examples || !after) { const model = cardStudyModel('g', data); const parts = splitGrammarUsage(model.usage); console.log('DEBUG_LAYOUT', JSON.stringify({context, id, labels:[...container.querySelectorAll('.fc-section-label')].map(x=>x.textContent.trim()), model, parts, rendered:html.slice(Math.max(0,html.indexOf('fc-meaning')),Math.min(html.length,html.indexOf('fc-actions')>0?html.indexOf('fc-actions'):html.length))})); throw new Error(context + ' missing sections for grammar ' + id); }
+          const afterContent = after && after.nextElementSibling;
+          if (!before || !examples || !after || !afterContent) { const model = cardStudyModel('g', data); const parts = splitGrammarUsage(model.usage); console.log('DEBUG_LAYOUT', JSON.stringify({context, id, labels:[...container.querySelectorAll('.fc-section-label')].map(x=>x.textContent.trim()), model, parts, rendered:html.slice(Math.max(0,html.indexOf('fc-meaning')),Math.min(html.length,html.indexOf('fc-actions')>0?html.indexOf('fc-actions'):html.length))})); throw new Error(context + ' missing sections for grammar ' + id); }
           if (!follows(before, examples) || !follows(examples, after)) throw new Error(context + ' order failure for grammar ' + id);
           const rows = [...container.querySelectorAll('.fc-examples li')];
           if (rows.length !== 2 || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error(context + ' examples/translations missing for grammar ' + id);
-          if (!after.querySelector('.study-subheading')) throw new Error(context + ' analysis headings missing for grammar ' + id);
+          if (!afterContent.querySelector('.study-subheading')) throw new Error(context + ' analysis headings missing for grammar ' + id);
         };
         const ids = width === 412 ? grammar.map(item => String(item.id)) : ['1', '90', '130'];
         for (const id of ids) {
@@ -56,14 +57,18 @@ const url = pathToFileURL(path.resolve(file)).href;
           const before = entry.querySelector('[data-grammar-layout="before"]');
           const examples = entry.querySelector('.grammar-examples');
           const after = entry.querySelector('[data-grammar-layout="after"]');
-          if (!before || !examples || !after) throw new Error('comparison sections missing for grammar ' + id);
+          const afterContent = after && after.nextElementSibling;
+          if (!before || !examples || !after || !afterContent) throw new Error('comparison sections missing for grammar ' + id);
+          if (!afterContent.querySelector('.study-subheading')) throw new Error('comparison analysis headings missing for grammar ' + id);
           if (!follows(before, examples) || !follows(examples, after)) throw new Error('comparison order failure for grammar ' + id);
           const rows = [...entry.querySelectorAll('.grammar-examples li')];
           if (rows.length !== 2 || rows.some(row => !row.querySelector('.grammar-example-ua'))) throw new Error('comparison examples/translations missing for grammar ' + id);
         }
         const g90 = document.createElement('div');
         g90.innerHTML = renderCardShell('g', '90', getCardData('g', '90'));
-        const analysis90 = g90.querySelector('[data-grammar-layout="after"]');
+        const afterLabel90 = g90.querySelector('[data-grammar-layout="after"]');
+        const analysis90 = afterLabel90 && afterLabel90.nextElementSibling;
+        if (!analysis90) throw new Error('grammar 90 analysis content missing');
         const supplemental = [...analysis90.querySelectorAll('.study-example')];
         const supplementalText = supplemental.map(node => node.textContent).join(' ');
         if (supplemental.length !== 2 || !supplementalText.includes('追及せずにはおかない') || !supplementalText.includes('笑わずにはいられなかった')) {
