@@ -37,7 +37,7 @@ concurrency:
 
 jobs:
   verify-v175:
-    (github.event_name == 'push' && github.ref_name == 'work/v175-c10-remaining-open-ids') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v175-c10-remaining-open-ids')
+    if: (github.event_name == 'push' && github.ref_name == 'work/v175-c10-remaining-open-ids') || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'work/v175-c10-remaining-open-ids')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
