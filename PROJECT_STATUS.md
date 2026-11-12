@@ -8,7 +8,7 @@ Main залишається v170. У цій гілці підготовлено 
 
 ## Поточний випуск v171 — C27 виконано
 
-У v171 виправлено спільний порядок граматичних пояснень у звичайній картці, тренувальній сесії та порівнянні: значення/приєднання → приклади з перекладами → аналіз/обмеження → пов'язані вирази. Для g90 додано окремі приклади сильного наміру в ～ずにはおかない та контрастного ずにはいられない. Технічні докази: [Chromium #11](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351867), [PR Chromium #29](https://github.com/tereshchenchenkopavlo-gif/JLPT-N1/actions/runs/43212351872), [data checks #442](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351893), [повний аудит](JLPT_N1_v171_audit.md), [результати](completion/v171-grammar-order-results.json).
+У v171 виправлено спільний порядок граматичних пояснень у звичайній картці, тренувальній сесії та порівнянні: значення/приєднання → приклади з перекладами → аналіз/обмеження → пов'язані вирази. Для g90 додано окремі приклади сильного наміру в ～ずにはおかない та контрастного ずにはいられない. Технічні докази: [Chromium #11](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351867), [PR Chromium #29](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351872), [data checks #442](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43212351893), [повний аудит](JLPT_N1_v171_audit.md), [результати](completion/v171-grammar-order-results.json).
 
 Підтверджено незмінність 3914 словникових записів, 130 ID граматики та всіх інших розібраних JSON-констант; у граматичних даних змінено лише поле `t` ID 90. Браузер перевірив усі 130 карток у трьох режимах при 412 px та контрольні ID 1/90/130 при 360 і 1280 px. Sentinel прогресу не змінився. Авторський credit 3323/3914 не змінено.
 
