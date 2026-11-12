@@ -253,6 +253,8 @@ jobs:
           git add JLPT_N1_ukrainian_reading_v174.html completion/v174-work/prepare-results.json completion/v174-work/browser-results.json completion/v174-work/registry-results.json completion/v174-acceptance.tsv completion/review-register.csv
           if ! git diff --cached --quiet; then
             git commit -m "Save verified v174 C10 checkpoint and acceptance evidence"
+            git fetch origin work/v174-c10-remaining-open-ids
+            git rebase origin/work/v174-c10-remaining-open-ids
             git push origin HEAD:work/v174-c10-remaining-open-ids
           fi
       - name: Publish only verified v174 release artifacts to main
