@@ -7,6 +7,13 @@ on:
       - '.github/workflows/v171-grammar-order.yml'
       - 'PROJECT_STATUS.md'
       - 'completion/BACKLOG.md'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'completion/v171-work/**'
+      - '.github/workflows/v171-grammar-order.yml'
+      - 'PROJECT_STATUS.md'
+      - 'completion/BACKLOG.md'
 permissions:
   contents: write
 concurrency:
