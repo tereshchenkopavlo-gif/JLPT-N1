@@ -3818,7 +3818,7 @@ vocab,3816,vocab:3816,pending,
 vocab,3817,vocab:3817,reviewed,completion/v170-cards-3801-3820.tsv#3817; author linguistic review
 vocab,3818,vocab:3818,reviewed,completion/v170-cards-3801-3820.tsv#3818; author linguistic review
 vocab,3819,vocab:3819,reviewed,completion/v170-cards-3801-3820.tsv#3819; author linguistic review
-vocab,3820,vocab:3820,pending,
+vocab,3820,vocab:3820,reviewed,"completion/v174-acceptance.tsv#3820; author review, no content change; v174 SHA-256=a012b3d50685353354417e89f4d6ab2767c8003ce1d77b4ff84ef85c77ed8c20"
 vocab,3821,vocab:3821,reviewed,"completion/v170-cards-3821-3914.tsv#3821; author linguistic review, not independent; provenance/physical excluded"
 vocab,3822,vocab:3822,reviewed,"completion/v170-cards-3821-3914.tsv#3822; author linguistic review, not independent; provenance/physical excluded"
 vocab,3823,vocab:3823,reviewed,"completion/v170-cards-3821-3914.tsv#3823; author linguistic review, not independent; provenance/physical excluded"
@@ -3826,7 +3826,7 @@ vocab,3824,vocab:3824,reviewed,"completion/v170-cards-3821-3914.tsv#3824; author
 vocab,3825,vocab:3825,reviewed,"completion/v170-cards-3821-3914.tsv#3825; author linguistic review, not independent; provenance/physical excluded"
 vocab,3826,vocab:3826,reviewed,"completion/v170-cards-3821-3914.tsv#3826; author linguistic review, not independent; provenance/physical excluded"
 vocab,3827,vocab:3827,reviewed,"completion/v170-cards-3821-3914.tsv#3827; author linguistic review, not independent; provenance/physical excluded"
-vocab,3828,vocab:3828,pending,
+vocab,3828,vocab:3828,fixed_rechecked,"completion/v174-acceptance.tsv#3828; author recheck and Chromium regression; v174 SHA-256=a012b3d50685353354417e89f4d6ab2767c8003ce1d77b4ff84ef85c77ed8c20"
 vocab,3829,vocab:3829,reviewed,"completion/v170-cards-3821-3914.tsv#3829; author linguistic review, not independent; provenance/physical excluded"
 vocab,3830,vocab:3830,reviewed,"completion/v170-cards-3821-3914.tsv#3830; author linguistic review, not independent; provenance/physical excluded"
 vocab,3831,vocab:3831,reviewed,"completion/v170-cards-3821-3914.tsv#3831; author linguistic review, not independent; provenance/physical excluded"
@@ -3834,7 +3834,7 @@ vocab,3832,vocab:3832,reviewed,"completion/v170-cards-3821-3914.tsv#3832; author
 vocab,3833,vocab:3833,reviewed,"completion/v170-cards-3821-3914.tsv#3833; author linguistic review, not independent; provenance/physical excluded"
 vocab,3834,vocab:3834,reviewed,"completion/v170-cards-3821-3914.tsv#3834; author linguistic review, not independent; provenance/physical excluded"
 vocab,3835,vocab:3835,reviewed,"completion/v170-cards-3821-3914.tsv#3835; author linguistic review, not independent; provenance/physical excluded"
-vocab,3836,vocab:3836,pending,
+vocab,3836,vocab:3836,fixed_rechecked,"completion/v174-acceptance.tsv#3836; author recheck and Chromium regression; v174 SHA-256=a012b3d50685353354417e89f4d6ab2767c8003ce1d77b4ff84ef85c77ed8c20"
 vocab,3837,vocab:3837,reviewed,"completion/v170-cards-3821-3914.tsv#3837; author linguistic review, not independent; provenance/physical excluded"
 vocab,3838,vocab:3838,reviewed,"completion/v170-cards-3821-3914.tsv#3838; author linguistic review, not independent; provenance/physical excluded"
 vocab,3839,vocab:3839,reviewed,"completion/v170-cards-3821-3914.tsv#3839; author linguistic review, not independent; provenance/physical excluded"
@@ -3898,7 +3898,7 @@ vocab,3896,vocab:3896,reviewed,"completion/v170-cards-3821-3914.tsv#3896; author
 vocab,3897,vocab:3897,reviewed,"completion/v170-cards-3821-3914.tsv#3897; author linguistic review, not independent; provenance/physical excluded"
 vocab,3898,vocab:3898,reviewed,"completion/v170-cards-3821-3914.tsv#3898; author linguistic review, not independent; provenance/physical excluded"
 vocab,3899,vocab:3899,reviewed,"completion/v170-cards-3821-3914.tsv#3899; author linguistic review, not independent; provenance/physical excluded"
-vocab,3900,vocab:3900,pending,
+vocab,3900,vocab:3900,fixed_rechecked,"completion/v174-acceptance.tsv#3900; author recheck and Chromium regression; v174 SHA-256=a012b3d50685353354417e89f4d6ab2767c8003ce1d77b4ff84ef85c77ed8c20"
 vocab,3901,vocab:3901,reviewed,"completion/v170-cards-3821-3914.tsv#3901; author linguistic review, not independent; provenance/physical excluded"
 vocab,3902,vocab:3902,reviewed,"completion/v170-cards-3821-3914.tsv#3902; author linguistic review, not independent; provenance/physical excluded"
 vocab,3903,vocab:3903,reviewed,"completion/v170-cards-3821-3914.tsv#3903; author linguistic review, not independent; provenance/physical excluded"

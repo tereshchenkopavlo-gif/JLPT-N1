@@ -1,0 +1,21 @@
+{
+  "release_acceptances": 4,
+  "newly_transitioned_this_run": 4,
+  "reviewed_without_change": [
+    3820
+  ],
+  "fixed_rechecked": [
+    3828,
+    3836,
+    3900
+  ],
+  "registry_counts": {
+    "reviewed": 3875,
+    "pending": 1948,
+    "fixed_rechecked": 19
+  },
+  "author_credit": "3342/3914",
+  "independent_acceptance": false,
+  "physical_acceptance": false,
+  "pass": true
+}
