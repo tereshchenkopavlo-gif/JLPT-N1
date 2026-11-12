@@ -1,0 +1,121 @@
+[
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3191",
+      "t"
+    ],
+    "before": "насичений, густий; вагомий щодо підозри чи ймовірності",
+    "after": "насичений, густий; вагомий (про підозру), високий (про ймовірність)",
+    "evidence": "completion/v164-cards-3181-3200.tsv#3191"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3194"
+    ],
+    "before": [
+      "ナ形"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v164-cards-3181-3200.tsv#3194"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3197",
+      "t"
+    ],
+    "before": "клопітно складний через численність і переплетення справ",
+    "after": "складний, заплутаний, клопітний через велику кількість деталей",
+    "evidence": "completion/v164-cards-3181-3200.tsv#3197"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3204",
+      "exampleTranslations",
+      0
+    ],
+    "before": "Останнім часом у цьому районі часто вимикають електроенергію.",
+    "after": "Останнім часом у цьому районі часто стаються перебої з електропостачанням.",
+    "evidence": "completion/v164-cards-3201-3220.tsv#3204"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3205",
+      "t"
+    ],
+    "before": "чутливий, вразливий, гострий (на реакцію)",
+    "after": "чутливий; той, що гостро реагує",
+    "evidence": "completion/v164-cards-3201-3220.tsv#3205"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3207"
+    ],
+    "before": [
+      "ナ形"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v164-cards-3201-3220.tsv#3207"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3208"
+    ],
+    "before": [
+      "ナ形"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v164-cards-3201-3220.tsv#3208"
+  },
+  {
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3212"
+    ],
+    "before": [
+      "ナ形"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v164-cards-3201-3220.tsv#3212"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3217",
+      "exampleTranslations",
+      1
+    ],
+    "before": "На превеликий жаль, план за одну ніч остаточно зруйнувався.",
+    "after": "За одну ніч план зазнав нищівного краху.",
+    "evidence": "completion/v164-cards-3201-3220.tsv#3217"
+  },
+  {
+    "block": "VOCAB_DETAILS_BY_ID",
+    "path": [
+      "3221",
+      "exampleTranslations",
+      1
+    ],
+    "before": "Вбрання, яке він вибрав навмання, несподівано всім сподобалося.",
+    "after": "Вбрання, яке він вибрав без довгих роздумів, несподівано дістало схвальні відгуки.",
+    "evidence": "completion/v164-cards-3221-3240.tsv#3221"
+  }
+]
