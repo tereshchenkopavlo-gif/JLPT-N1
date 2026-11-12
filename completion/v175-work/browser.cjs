@@ -86,7 +86,7 @@ async function main() {
         const examplesWrapper = document.createElement('div');
         examplesWrapper.innerHTML = examplesHtml;
         const examplesText = examplesWrapper.textContent || '';
-        const normalize = value => String(value || '').replace(/\\s+/gu, '');
+        const normalize = value => String(value || '').replace(/\s+/gu, '');
         const cardUpdates = updates.filter(row => String(row.id) === id);
         const fields = cardUpdates.map(row => {
           const renderedText = row.field.startsWith('exampleTranslations.') ? examplesText : text;
@@ -125,10 +125,10 @@ async function main() {
           const html = renderCardShell('v', id, card);
           const wrapper = document.createElement('div');
           wrapper.innerHTML = html;
-          const renderedText = (wrapper.textContent || '').replace(/\\s+/gu, '');
+          const renderedText = (wrapper.textContent || '').replace(/\s+/gu, '');
           rows.push(html.length > 0 &&
             VOCAB_DETAILS_BY_ID[id].exampleTranslations.every(value =>
-              renderedText.includes(String(value).replace(/\\s+/gu, ''))));
+              renderedText.includes(String(value).replace(/\s+/gu, ''))));
         }
         return { width: window.innerWidth, cardsRendered: rows };
       }, ids);
