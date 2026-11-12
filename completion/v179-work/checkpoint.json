@@ -1,0 +1,28 @@
+{
+  "checkpoint": "v179-c11-reading-diagnostics",
+  "created": "2026-11-13",
+  "base_main_sha": "5a02ad7b1d93b5e4600adbad4005c5946e1f678c",
+  "base_html": "JLPT_N1_ukrainian_reading_v178.html",
+  "base_html_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "scope": [
+    {
+      "id": 255,
+      "word": "直接",
+      "issue": "dictionary POS [名・形動], adverbial use; reading-pool compatibility"
+    },
+    {
+      "id": 327,
+      "word": "浮気",
+      "issue": "dictionary POS [名・形動]; reading-pool compatibility"
+    }
+  ],
+  "pilot_context": "v176 records current POS yield >=3 distractors; proposed fuller POS gave 0 for ID255 and 2 for ID327. Reproduce exact browser algorithm before deciding.",
+  "guardrails": [
+    "diagnostic only",
+    "no HTML changes",
+    "no POS changes",
+    "no REVIEWED_READING_OPTIONS changes",
+    "no learning-mechanism changes without approval"
+  ],
+  "status": "diagnostic pending"
+}
