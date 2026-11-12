@@ -126,7 +126,7 @@ async function main() {
     };
     results.changedIds = changed;
     results.pass = true;
-    fs.writeFileSync('completion/v173-work/browser-results.json', JSON.stringify(results, null, 2) + '\\n');
+    fs.writeFileSync('completion/v173-work/browser-results.json', JSON.stringify(results, null, 2) + '\n');
     console.log(JSON.stringify(results, null, 2));
   } finally {
     await browser.close();
