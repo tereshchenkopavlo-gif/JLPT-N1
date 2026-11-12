@@ -27,7 +27,7 @@ async function main(){
   assert.deepEqual(after.details['371'],before.details['371']);assert.deepEqual(after.details['255'],before.details['255']);assert.deepEqual(after.details['327'],before.details['327']);
   const changed=Object.keys(before.details).filter(id=>JSON.stringify(before.details[id])!==JSON.stringify(after.details[id]));
   assert.deepEqual(changed,changedIds);
-  for(const row of updates){assert.equal(getPath(before.details[String(row.id)],row.field),row.before);assert.equal(getPath(after.details[String(row.id)],row.field),row.after);}
+  for(const row of updates){assert.equal(typeof row.field,'string');assert.equal(readPath(before.details[String(row.id)],row.field),row.before);assert.equal(readPath(after.details[String(row.id)],row.field),row.after);}
   for(const i of pairIndexes)assert.deepEqual(after.pairs[i],before.pairs[i]);
   const diagnostics=await b.page.evaluate(()=>{
    const cases=[{id:'255',p:['名詞','ナ形']},{id:'327',p:['名詞','ナ形']},{id:'371',p:['名詞','副詞']},{id:'404',p:['名詞','副詞']}];
