@@ -64,6 +64,7 @@ def main():
             and registry_results.get("vocabulary_counts") == {
                 "reviewed": 3325, "fixed_rechecked": 36, "pending": 553
             }
+            and registry_results.get("lexical_pair_counts") == {"reviewed": 14, "pending": 845}
             and registry_results.get("author_credit") == "3361/3914"
             and registry_results.get("independent_acceptance") is False
             and registry_results.get("physical_acceptance") is False,

@@ -52,4 +52,4 @@ A reading question requires at least three wrong options. The POS tags and quiz 
 
 ## Acceptance boundary
 
-This is an **author linguistic review** plus a targeted technical regression. It is **not independent linguistic acceptance**, **not legal/provenance acceptance**, and **not physical Android/Windows acceptance**. C10 and the agreed 1.0 completion plan remain open.
+Це авторський мовний перегляд і цільова технічна регресія; він не є незалежною мовною експертизою, правовим/походженням або фізичним прийманням на Android/Windows. This is an **author linguistic review**, not independent linguistic acceptance, legal/provenance acceptance, or physical Android/Windows acceptance. C10 and the agreed 1.0 completion plan remain open.

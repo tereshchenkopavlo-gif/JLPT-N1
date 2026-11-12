@@ -160,7 +160,7 @@ def main():
         raise ValueError("Overall registry count mismatch: " + repr(dict(counts)))
     if dict(vocab_counts) != {"reviewed": 3325, "fixed_rechecked": 36, "pending": 553}:
         raise ValueError("Vocabulary registry count mismatch: " + repr(dict(vocab_counts)))
-    if pair_counts["reviewed"] < 4 or pair_counts["pending"] != 855:
+    if pair_counts["reviewed"] != 14 or pair_counts["pending"] != 845:
         raise ValueError("Lexical pair registry count mismatch: " + repr(dict(pair_counts)))
     pending_ids = [int(row["key"]) for row in register_rows if row["kind"] == "vocab" and row["finalReview"] == "pending"]
     next_pending = pending_ids[:14]
