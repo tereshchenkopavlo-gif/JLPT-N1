@@ -1,0 +1,47 @@
+{
+  "card_acceptances": 9,
+  "newly_transitioned_this_run": 0,
+  "reviewed_without_change": [
+    3803
+  ],
+  "fixed_rechecked": [
+    3802,
+    3807,
+    3808,
+    3809,
+    3810,
+    3812,
+    3814,
+    3816
+  ],
+  "pair_reviews": [
+    836,
+    838,
+    840,
+    841,
+    843
+  ],
+  "registry_counts": {
+    "reviewed": 3881,
+    "pending": 1934,
+    "fixed_rechecked": 27
+  },
+  "author_credit": "3351/3914",
+  "next_pending_vocabulary_ids": [
+    255,
+    278,
+    327,
+    330,
+    332,
+    335,
+    339,
+    347,
+    349,
+    350,
+    353,
+    355
+  ],
+  "independent_acceptance": false,
+  "physical_acceptance": false,
+  "pass": true
+}
