@@ -3699,7 +3699,7 @@ vocab,3697,vocab:3697,reviewed,completion/v169-cards-3681-3700.tsv#3697; author 
 vocab,3698,vocab:3698,reviewed,completion/v169-cards-3681-3700.tsv#3698; author linguistic review
 vocab,3699,vocab:3699,reviewed,completion/v169-cards-3681-3700.tsv#3699; author linguistic review
 vocab,3700,vocab:3700,reviewed,completion/v169-cards-3681-3700.tsv#3700; author linguistic review
-vocab,3701,vocab:3701,pending,
+vocab,3701,vocab:3701,fixed_rechecked,"completion/v172-acceptance.tsv#3701; author recheck and browser regression"
 vocab,3702,vocab:3702,reviewed,completion/v169-cards-3701-3720.tsv#3702; author linguistic review
 vocab,3703,vocab:3703,reviewed,completion/v169-cards-3701-3720.tsv#3703; author linguistic review
 vocab,3704,vocab:3704,reviewed,completion/v169-cards-3701-3720.tsv#3704; author linguistic review
@@ -3708,22 +3708,22 @@ vocab,3706,vocab:3706,reviewed,completion/v169-cards-3701-3720.tsv#3706; author 
 vocab,3707,vocab:3707,reviewed,completion/v169-cards-3701-3720.tsv#3707; author linguistic review
 vocab,3708,vocab:3708,reviewed,completion/v169-cards-3701-3720.tsv#3708; author linguistic review
 vocab,3709,vocab:3709,reviewed,completion/v169-cards-3701-3720.tsv#3709; author linguistic review
-vocab,3710,vocab:3710,pending,
+vocab,3710,vocab:3710,fixed_rechecked,"completion/v172-acceptance.tsv#3710; author recheck and browser regression"
 vocab,3711,vocab:3711,reviewed,completion/v169-cards-3701-3720.tsv#3711; author linguistic review
 vocab,3712,vocab:3712,reviewed,completion/v169-cards-3701-3720.tsv#3712; author linguistic review
 vocab,3713,vocab:3713,reviewed,completion/v169-cards-3701-3720.tsv#3713; author linguistic review
 vocab,3714,vocab:3714,reviewed,completion/v169-cards-3701-3720.tsv#3714; author linguistic review
 vocab,3715,vocab:3715,reviewed,completion/v169-cards-3701-3720.tsv#3715; author linguistic review
-vocab,3716,vocab:3716,pending,
+vocab,3716,vocab:3716,fixed_rechecked,"completion/v172-acceptance.tsv#3716; author recheck and browser regression"
 vocab,3717,vocab:3717,reviewed,completion/v169-cards-3701-3720.tsv#3717; author linguistic review
 vocab,3718,vocab:3718,reviewed,completion/v169-cards-3701-3720.tsv#3718; author linguistic review
 vocab,3719,vocab:3719,reviewed,completion/v169-cards-3701-3720.tsv#3719; author linguistic review
 vocab,3720,vocab:3720,reviewed,completion/v169-cards-3701-3720.tsv#3720; author linguistic review
 vocab,3721,vocab:3721,reviewed,completion/v170-cards-3721-3740.tsv#3721; author linguistic review
 vocab,3722,vocab:3722,reviewed,completion/v170-cards-3721-3740.tsv#3722; author linguistic review
-vocab,3723,vocab:3723,pending,
-vocab,3724,vocab:3724,pending,
-vocab,3725,vocab:3725,pending,
+vocab,3723,vocab:3723,fixed_rechecked,"completion/v172-acceptance.tsv#3723; author recheck and browser regression"
+vocab,3724,vocab:3724,fixed_rechecked,"completion/v172-acceptance.tsv#3724; author recheck and browser regression"
+vocab,3725,vocab:3725,fixed_rechecked,"completion/v172-acceptance.tsv#3725; author recheck and browser regression"
 vocab,3726,vocab:3726,reviewed,completion/v170-cards-3721-3740.tsv#3726; author linguistic review
 vocab,3727,vocab:3727,reviewed,completion/v170-cards-3721-3740.tsv#3727; author linguistic review
 vocab,3728,vocab:3728,reviewed,completion/v170-cards-3721-3740.tsv#3728; author linguistic review
@@ -3734,28 +3734,28 @@ vocab,3732,vocab:3732,reviewed,completion/v170-cards-3721-3740.tsv#3732; author 
 vocab,3733,vocab:3733,reviewed,completion/v170-cards-3721-3740.tsv#3733; author linguistic review
 vocab,3734,vocab:3734,reviewed,completion/v170-cards-3721-3740.tsv#3734; author linguistic review
 vocab,3735,vocab:3735,reviewed,completion/v170-cards-3721-3740.tsv#3735; author linguistic review
-vocab,3736,vocab:3736,pending,
+vocab,3736,vocab:3736,fixed_rechecked,"completion/v172-acceptance.tsv#3736; author recheck and browser regression"
 vocab,3737,vocab:3737,reviewed,completion/v170-cards-3721-3740.tsv#3737; author linguistic review
 vocab,3738,vocab:3738,reviewed,completion/v170-cards-3721-3740.tsv#3738; author linguistic review
-vocab,3739,vocab:3739,pending,
+vocab,3739,vocab:3739,fixed_rechecked,"completion/v172-acceptance.tsv#3739; author recheck and browser regression"
 vocab,3740,vocab:3740,reviewed,completion/v170-cards-3721-3740.tsv#3740; author linguistic review
 vocab,3741,vocab:3741,reviewed,completion/v170-cards-3741-3760.tsv#3741; author linguistic review
-vocab,3742,vocab:3742,pending,
+vocab,3742,vocab:3742,fixed_rechecked,"completion/v172-acceptance.tsv#3742; author recheck and browser regression"
 vocab,3743,vocab:3743,reviewed,completion/v170-cards-3741-3760.tsv#3743; author linguistic review
 vocab,3744,vocab:3744,reviewed,completion/v170-cards-3741-3760.tsv#3744; author linguistic review
-vocab,3745,vocab:3745,pending,
+vocab,3745,vocab:3745,fixed_rechecked,"completion/v172-acceptance.tsv#3745; author recheck and browser regression"
 vocab,3746,vocab:3746,reviewed,completion/v170-cards-3741-3760.tsv#3746; author linguistic review
-vocab,3747,vocab:3747,pending,
+vocab,3747,vocab:3747,fixed_rechecked,"completion/v172-acceptance.tsv#3747; author recheck and browser regression"
 vocab,3748,vocab:3748,reviewed,completion/v170-cards-3741-3760.tsv#3748; author linguistic review
 vocab,3749,vocab:3749,reviewed,completion/v170-cards-3741-3760.tsv#3749; author linguistic review
 vocab,3750,vocab:3750,reviewed,completion/v170-cards-3741-3760.tsv#3750; author linguistic review
 vocab,3751,vocab:3751,reviewed,completion/v170-cards-3741-3760.tsv#3751; author linguistic review
 vocab,3752,vocab:3752,reviewed,completion/v170-cards-3741-3760.tsv#3752; author linguistic review
-vocab,3753,vocab:3753,pending,
+vocab,3753,vocab:3753,fixed_rechecked,"completion/v172-acceptance.tsv#3753; author recheck and browser regression"
 vocab,3754,vocab:3754,reviewed,completion/v170-cards-3741-3760.tsv#3754; author linguistic review
 vocab,3755,vocab:3755,reviewed,completion/v170-cards-3741-3760.tsv#3755; author linguistic review
 vocab,3756,vocab:3756,reviewed,completion/v170-cards-3741-3760.tsv#3756; author linguistic review
-vocab,3757,vocab:3757,pending,
+vocab,3757,vocab:3757,fixed_rechecked,"completion/v172-acceptance.tsv#3757; author recheck and browser regression"
 vocab,3758,vocab:3758,reviewed,completion/v170-cards-3741-3760.tsv#3758; author linguistic review
 vocab,3759,vocab:3759,reviewed,completion/v170-cards-3741-3760.tsv#3759; author linguistic review
 vocab,3760,vocab:3760,reviewed,completion/v170-cards-3741-3760.tsv#3760; author linguistic review
@@ -4860,13 +4860,13 @@ vocab_pair,813:3686:3687,VOCAB_AUDITED_PAIRS[813],pending,
 vocab_pair,814:3698:3699,VOCAB_AUDITED_PAIRS[814],pending,
 vocab_pair,815:3698:3700,VOCAB_AUDITED_PAIRS[815],pending,
 vocab_pair,816:3693:3694,VOCAB_AUDITED_PAIRS[816],pending,
-vocab_pair,817:3702:3710,VOCAB_AUDITED_PAIRS[817],pending,
+vocab_pair,817:3702:3710,VOCAB_AUDITED_PAIRS[817],reviewed,"completion/v172-pair-review.tsv#817:3702:3710; author pair review"
 vocab_pair,818:3705:3708,VOCAB_AUDITED_PAIRS[818],pending,
-vocab_pair,819:3706:3723,VOCAB_AUDITED_PAIRS[819],pending,
+vocab_pair,819:3706:3723,VOCAB_AUDITED_PAIRS[819],reviewed,"completion/v172-pair-review.tsv#819:3706:3723; author pair review"
 vocab_pair,820:3720:3721,VOCAB_AUDITED_PAIRS[820],pending,
-vocab_pair,821:3725:3726,VOCAB_AUDITED_PAIRS[821],pending,
-vocab_pair,822:3736:3737,VOCAB_AUDITED_PAIRS[822],pending,
-vocab_pair,823:3742:3759,VOCAB_AUDITED_PAIRS[823],pending,
+vocab_pair,821:3725:3726,VOCAB_AUDITED_PAIRS[821],reviewed,"completion/v172-pair-review.tsv#821:3725:3726; author pair review"
+vocab_pair,822:3736:3737,VOCAB_AUDITED_PAIRS[822],reviewed,"completion/v172-pair-review.tsv#822:3736:3737; author pair review"
+vocab_pair,823:3742:3759,VOCAB_AUDITED_PAIRS[823],reviewed,"completion/v172-pair-review.tsv#823:3742:3759; author pair review"
 vocab_pair,824:3754:3759,VOCAB_AUDITED_PAIRS[824],pending,
 vocab_pair,825:3741:3771,VOCAB_AUDITED_PAIRS[825],pending,
 vocab_pair,826:3762:3785,VOCAB_AUDITED_PAIRS[826],pending,

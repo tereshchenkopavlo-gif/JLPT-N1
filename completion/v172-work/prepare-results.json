@@ -1,0 +1,13 @@
+{
+  "base_sha256": "80f557ef2951c3557178f12537e67440d80e35c66d7daaa84a1407f161777d32",
+  "checkpoint_sha256": "f2c21e50ba650151b038a0642026fdeaacc8ed3581f6fd3b48cc03f915cf188a",
+  "checkpoint_bytes": 6935989,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "operations": 17,
+  "cards_corrected": 13,
+  "rendered_example_translations": 11,
+  "scripts_checked": 1,
+  "exact_rollback": true,
+  "pass": true
+}

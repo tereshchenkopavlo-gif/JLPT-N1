@@ -1,0 +1,10 @@
+{
+  "card_acceptances": 13,
+  "pair_reviews": 5,
+  "registry_counts": {
+    "reviewed": 3874,
+    "pending": 1954,
+    "fixed_rechecked": 14
+  },
+  "pass": true
+}
