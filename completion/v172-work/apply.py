@@ -56,11 +56,11 @@ def apply_one(html, edit, reverse=False):
         # restores the exact serialized JSON, not merely an equivalent mapping.
         items = list(parent.items())
         parent.clear()
-        for key, value in items:
+        for key, item_value in items:
             if key == old_key:
                 parent[new_key] = after_value
             else:
-                parent[key] = value
+                parent[key] = item_value
     else:
         raise ValueError(f"Unknown operation {op}")
     return html[:start] + compact(value) + html[end:]
