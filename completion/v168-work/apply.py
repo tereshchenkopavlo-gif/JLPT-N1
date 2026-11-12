@@ -14,8 +14,8 @@ if source.resolve() == target.resolve():
     raise ValueError("Use a separate checkpoint path")
 original = raw.decode("utf-8")
 updates = json.loads(Path(__file__).with_name("updates.json").read_text())
-if len(updates) != 10:
-    raise ValueError("Expected 10 reviewed fields")
+if len(updates) != 9:
+    raise ValueError("Expected 9 reviewed fields")
 
 def compact(value):
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))

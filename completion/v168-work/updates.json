@@ -71,20 +71,6 @@
   {
     "block": "VOCAB_POS_BY_ID",
     "path": [
-      "3208"
-    ],
-    "before": [
-      "ナ形"
-    ],
-    "after": [
-      "名詞",
-      "ナ形"
-    ],
-    "evidence": "completion/v164-cards-3201-3220.tsv#3208"
-  },
-  {
-    "block": "VOCAB_POS_BY_ID",
-    "path": [
       "3212"
     ],
     "before": [

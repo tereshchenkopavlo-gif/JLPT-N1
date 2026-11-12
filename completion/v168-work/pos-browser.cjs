@@ -7,7 +7,7 @@ const { pathToFileURL } = require('node:url');
 const base = 'JLPT_N1_ukrainian_reading_v167.html';
 const file = 'JLPT_N1_v168_working.html';
 const sha256 = require('node:crypto').createHash('sha256').update(fs.readFileSync(file)).digest('hex');
-const ids = [3194,3207,3208,3212];
+const ids = [3194,3207,3212];
 
 async function open(browser, file, width) {
   const page = await browser.newPage({ viewport: { width, height: 915 } });
