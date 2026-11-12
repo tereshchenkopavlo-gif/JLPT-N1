@@ -108,7 +108,8 @@ def main() -> None:
     )
     require(exists.returncode != 0, f"{target_html} already exists on main; refusing overwrite")
 
-    temp = Path(tempfile.mkdtemp(prefix="jlpt-n1-v171-main-"))
+    temp_parent = Path(tempfile.mkdtemp(prefix="jlpt-n1-v171-main-"))
+    temp = temp_parent / "main"
     worktree_added = False
     try:
         git(["worktree", "add", "--detach", str(temp), "origin/main"])
@@ -156,7 +157,7 @@ def main() -> None:
     finally:
         if worktree_added:
             git(["worktree", "remove", "--force", str(temp)], check=False)
-        shutil.rmtree(temp, ignore_errors=True)
+        shutil.rmtree(temp_parent, ignore_errors=True)
 
 
 if __name__ == "__main__":
