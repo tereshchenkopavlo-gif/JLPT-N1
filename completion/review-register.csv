@@ -4002,7 +4002,7 @@ grammar,86,grammar:86,reviewed,"audit148/editorial-review.json:grammar:86; autho
 grammar,87,grammar:87,reviewed,"audit148/editorial-review.json:grammar:87; author linguistic review, not independent; provenance/physical excluded"
 grammar,88,grammar:88,reviewed,"audit148/editorial-review.json:grammar:88; author linguistic review, not independent; provenance/physical excluded"
 grammar,89,grammar:89,reviewed,"audit148/editorial-review.json:grammar:89; author linguistic review, not independent; provenance/physical excluded"
-grammar,90,grammar:90,reviewed,"audit148/editorial-review.json:grammar:90; author linguistic review, not independent; provenance/physical excluded"
+grammar,90,grammar:90,fixed_rechecked,"audit148/editorial-review.json:grammar:90; JLPT_N1_v171_audit.md:g90; C27 author recheck; independent and physical acceptance not claimed"
 grammar,91,grammar:91,reviewed,"audit148/editorial-review.json:grammar:91; author linguistic review, not independent; provenance/physical excluded"
 grammar,92,grammar:92,reviewed,"audit148/editorial-review.json:grammar:92; author linguistic review, not independent; provenance/physical excluded"
 grammar,93,grammar:93,reviewed,"audit148/editorial-review.json:grammar:93; author linguistic review, not independent; provenance/physical excluded"
