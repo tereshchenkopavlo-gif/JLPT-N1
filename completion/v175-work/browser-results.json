@@ -1,0 +1,193 @@
+{
+  "sha256": "c3083a18181429e29fb1d63dcc4e9d39c5d68ccde49253b4f572820b27e1fb86",
+  "widths": [
+    {
+      "width": 360,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 412,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "cardsRendered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true
+    }
+  ],
+  "cardsChecked": 9,
+  "fieldsChecked": 10,
+  "pairsChecked": 5,
+  "renderedCards": [
+    {
+      "id": "3802",
+      "headword": "お待ちくださる",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3803",
+      "headword": "お待ちになる",
+      "cardRendered": true,
+      "fields": [],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3807",
+      "headword": "お読みになる",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "usage",
+          "present": true
+        },
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3808",
+      "headword": "ご利用になる",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.0",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3809",
+      "headword": "お年を召す",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3810",
+      "headword": "ご理解いただく",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "t",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3812",
+      "headword": "なさる",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3814",
+      "headword": "召し上がる",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "usage",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    },
+    {
+      "id": "3816",
+      "headword": "致す",
+      "cardRendered": true,
+      "fields": [
+        {
+          "field": "t",
+          "present": true
+        },
+        {
+          "field": "exampleTranslations.1",
+          "present": true
+        }
+      ],
+      "allExamplesRendered": true
+    }
+  ],
+  "progressStorageUnchanged": true,
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859
+  },
+  "changedIds": [
+    "3802",
+    "3807",
+    "3808",
+    "3809",
+    "3810",
+    "3812",
+    "3814",
+    "3816"
+  ],
+  "reviewedWithoutChange": [
+    "3803"
+  ],
+  "pairIndexesReviewed": [
+    836,
+    838,
+    840,
+    841,
+    843
+  ],
+  "pass": true
+}
