@@ -51,7 +51,7 @@
     746,
     749
   ],
-  "status": "v188 exact artifacts published and verified in main",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified paths only; never merge the work branch",
   "candidate_sha256": "a115fbc8613d2916e9a3abcf732816e3c9853d1ae9811f02ee3c421f528bc885",
   "candidate_bytes": 6942386,
