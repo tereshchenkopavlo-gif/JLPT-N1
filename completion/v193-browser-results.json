@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "e5876cbc6e1799bf5aa8e4d4c6a07ee6cde1a14ffbdf5605cc1359d8623141c8",
+  "candidate_bytes": 6944593,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 857,
+      "word": "沿岸",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1296
+    },
+    {
+      "id": 858,
+      "word": "沿線",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 830
+    },
+    {
+      "id": 860,
+      "word": "縁起",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 626
+    },
+    {
+      "id": 862,
+      "word": "縁談",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 584
+    },
+    {
+      "id": 863,
+      "word": "遠隔",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 611
+    },
+    {
+      "id": 865,
+      "word": "汚職",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 609
+    },
+    {
+      "id": 867,
+      "word": "往来",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 639
+    },
+    {
+      "id": 872,
+      "word": "黄金",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 547
+    },
+    {
+      "id": 873,
+      "word": "屋敷",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 559
+    },
+    {
+      "id": 874,
+      "word": "乙女",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 529
+    },
+    {
+      "id": 878,
+      "word": "下心",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 594
+    },
+    {
+      "id": 880,
+      "word": "下地",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 603
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}

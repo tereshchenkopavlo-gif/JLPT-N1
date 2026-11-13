@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+857	沿岸	えんがん	名詞	fixed_rechecked	m; t	Define the broader shore-adjacent region for sea, lake or river, not merely the edge of land.
+858	沿線	えんせん	名詞	fixed_rechecked	t; exampleTranslations[1]	Include railway and road corridors in the gloss; specify residents along the railway in the example.
+860	縁起	えんぎ	名詞	fixed_rechecked	t; exampleTranslations[0]	Add Buddhist dependent origination; do not force “good” onto the act of observing omens.
+862	縁談	えんだん	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the proposal of marriage brought through an introduction.
+863	遠隔	えんかく	名詞	fixed_rechecked	exampleTranslations[0]	Reflect the already-established system and the broader scope of 診療.
+865	汚職	おしょく	名詞	fixed_rechecked	exampleTranslations[0]	Clarify corruption involving a politician and preserve the ongoing public reaction.
+867	往来	おうらい	名詞	fixed_rechecked	exampleTranslations[0]	Preserve the concrete meaning of ひったくり as snatching belongings from passers-by.
+872	黄金	おうごん／こがね	名詞	fixed_rechecked	m; usage	Add golden colour to the Japanese definition and clarify contextual readings for the two examples.
+873	屋敷	やしき	名詞	fixed_rechecked	t	Add the house plot/grounds as a direct Ukrainian gloss sense.
+874	乙女	おとめ	名詞	fixed_rechecked	exampleTranslations[1]	Replace the unnatural fate phrasing with a natural Ukrainian idiom.
+878	下心	したごころ	名詞	fixed_rechecked	t; usage	Broaden the hidden-motive gloss beyond outward friendliness; keep the possible personal/romantic nuance neutral.
+880	下地	したじ	名詞	fixed_rechecked	exampleTranslations[1]	Translate the wall surface as something to prepare before painting.
