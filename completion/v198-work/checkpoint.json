@@ -7,37 +7,30 @@
   "scope_ids": [
     1015,
     1016,
+    1026,
+    1027
+  ],
+  "fixed_rechecked_ids": [
+    1015,
+    1016,
+    1026,
+    1027
+  ],
+  "reviewed_ids": [],
+  "already_reviewed_excluded": [
     1018,
     1021,
     1023,
     1024,
     1025,
-    1026,
-    1027,
     1030,
     1031,
     1034
   ],
-  "fixed_rechecked_ids": [
-    1018,
-    1024,
-    1026,
-    1034
-  ],
-  "reviewed_ids": [
-    1015,
-    1016,
-    1021,
-    1023,
-    1025,
-    1027,
-    1030,
-    1031
-  ],
   "pending_c11_ids": [],
   "expected_field_updates": 4,
   "author_credit_before": 3559,
-  "author_credit_after": 3571,
+  "author_credit_after": 3563,
   "next_pending_after_scope": [
     1042,
     1043,
@@ -52,6 +45,7 @@
     1073,
     1074
   ],
-  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
+  "prior_run_failure": "The first v198 workflow stopped at the register preimage guard because the draft scope included ID1018, already reviewed in v153. No main publication occurred; the scope has been corrected to the four pending IDs.",
+  "status": "scope corrected to four pending cards; deterministic patch and Chromium verification pending",
   "publication_policy": "copy exact verified paths only; never merge the work branch"
 }
