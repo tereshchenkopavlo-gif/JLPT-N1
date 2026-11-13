@@ -1,1 +1,1 @@
-Trigger v202 C10 deterministic and Chromium acceptance after exact source/example and index corrections; attempt 3.
+Trigger v202 C10 diagnostic build and Chromium acceptance; attempt 4.
