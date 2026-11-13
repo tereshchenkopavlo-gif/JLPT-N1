@@ -1,0 +1,34 @@
+{
+  "checkpoint": "v185-c10-next-pending",
+  "created": "2026-11-13",
+  "base_main_sha": "9e65b8962c8f4e6a656f643821539c4a57e8e4ee",
+  "base_html": "JLPT_N1_ukrainian_reading_v184.html",
+  "base_html_sha256": "e49a3103e5f02c38c8ac2e92917dd268d6f2cef8001373197c5398608fe2a1bd",
+  "previous_checkpoint": "v184-c10-next-pending",
+  "previous_published_author_credit": 3411,
+  "scope": [
+    525,
+    530,
+    533,
+    540,
+    541,
+    544,
+    547,
+    549,
+    550,
+    552,
+    557,
+    563
+  ],
+  "first_pending_id": 525,
+  "status": "checkpoint only; author review not yet started",
+  "guardrails": [
+    "use v153 pilot decisions as hypotheses, not automatic acceptance",
+    "do not repeat IDs 454-524",
+    "review all card fields and both examples",
+    "fix only demonstrated linguistic errors",
+    "no vocabulary/grammar/pair/ID removal",
+    "no POS, quiz target, algorithm or progress-storage changes without separate C11 review",
+    "technical tests, author audit and independent acceptance remain distinct"
+  ]
+}
