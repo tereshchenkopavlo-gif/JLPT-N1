@@ -1,0 +1,55 @@
+{
+  "version": "v214",
+  "base_version": "v213",
+  "base_main_sha": "5a032f11acd61b5bb49a70ab269e37a4ef8ab536",
+  "base_html_sha256": "806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c",
+  "base_html_blob": "8140c2c267ef1b947f129ae133809ca25bfe135c",
+  "base_html_bytes": 6949518,
+  "scope_ids": [
+    1632,
+    1635,
+    1637,
+    1651,
+    1654,
+    1666,
+    1675,
+    1676,
+    1679,
+    1682,
+    1688,
+    1690
+  ],
+  "fixed_rechecked_ids": [
+    1632,
+    1635,
+    1637,
+    1651,
+    1654,
+    1666,
+    1675,
+    1676,
+    1679,
+    1682,
+    1688,
+    1690
+  ],
+  "pending_ids": [],
+  "reviewed_ids": [],
+  "expected_field_updates": 13,
+  "pair_reviewed": [
+    "417:1651:1652",
+    "421:1666:1682"
+  ],
+  "author_credit_before": 3725,
+  "author_credit_addition": 12,
+  "author_credit_after": 3737,
+  "pilot_files": {
+    "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298",
+    "completion/v153-cards-1641-1700.tsv": "f70be41472f9f2f2bac2e284526cf88516f44f0f"
+  },
+  "status": "author review complete; awaiting deterministic build, registry and Chromium verification",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch",
+  "main_guard": "5a032f11acd61b5bb49a70ab269e37a4ef8ab536",
+  "pr_number": null,
+  "attempts": []
+}
