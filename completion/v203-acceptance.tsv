@@ -1,0 +1,12 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1153	欠乏	けつぼう	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the effect of resource scarcity without the calque “life is pressured”.
+1157	決裂	けつれつ	名詞	fixed_rechecked	t	Replace unnatural “breakdown of alignment of positions” with failed talks/no agreement.
+1158	結核	けっかく	名詞	fixed_rechecked	exampleTranslations[1]	Clarify that a case of tuberculosis was identified in a shared-living setting.
+1169	兼業	けんぎょう	名詞	fixed_rechecked	t	Avoid narrowing 兼業 to one specific employment arrangement.
+1173	建前	たてまえ	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Render situational use of public stance versus true feelings; use “allow an exception”.
+1175	検挙	けんきょ	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Align case-count and person-count statistics; do not equate 検挙 with arrest or guilt.
+1178	検事	けんじ	名詞	fixed_rechecked	examples[0];exampleTranslations[1]	Use 被告人 in a criminal-court example; identify 司法試験 as the Japanese qualifying exam for legal professions.
+1182	献立	こんだて	名詞	fixed_rechecked	exampleTranslations[1]	地元の旬の味 is local seasonal produce/flavours, not necessarily traditional local dishes.
+1194	幻想	げんそう	名詞	fixed_rechecked	exampleTranslations[1]	Avoid narrowing 幻想 to “imaginary images” and preserve the time of origin in girlhood.
+1195	減点	げんてん	名詞	fixed_rechecked	exampleTranslations[0]	Distinguish 誤字 (incorrectly written characters) from 脱字 (omitted characters).
+1196	源泉	げんせん	名詞	fixed_rechecked	exampleTranslations[1]	Render 人材 naturally as personnel/talent (“кадри”), not “her people”.
