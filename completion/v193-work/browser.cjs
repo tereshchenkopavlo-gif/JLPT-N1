@@ -25,7 +25,7 @@ const EXPECTED={
  863:{word:'遠隔',translations:['Налагоджено систему, за якою фаховий лікар дистанційно підтримує надання медичної допомоги.']},
  865:{word:'汚職',translations:['Після викриття корупції за участю політика в суспільстві лунає різка критика.']},
  867:{word:'往来',translations:['У жвавому торговельному районі з великим потоком людей слід остерігатися крадіїв, які вихоплюють речі у перехожих.']},
- 872:{word:'黄金',definition:'黄金色に輝くもの。',usage:'黄金に彩られた寺院 — 読み おうごん'},
+ 872:{word:'黄金',definition:'黄金色に輝くもの。',usage:'黄金に彩られた寺院 — читання おうごん'},
  873:{word:'屋敷',gloss:'садиба; земельна ділянка при будинку; великий будинок із прилеглою територією'},
  874:{word:'乙女',translations:['','Оповідь змальовує чистосерду дівчину, яка стала іграшкою долі.']},
  878:{word:'下心',gloss:'прихований, часто корисливий намір; потаємний мотив',usage:'особистий або романтичний інтерес'},
@@ -75,7 +75,7 @@ async function main(){
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
      glossVisible:d.t.split(';').map(x=>x.trim()).filter(Boolean).every(x=>norm(text).includes(norm(x))),
-     usageVisible:[872,878].includes(id)?norm(text).includes(norm(id===872?'黄金に彩られた寺院 — 読み おうごん':'особистий або романтичний інтерес')):true,
+     usageVisible:[872,878].includes(id)?norm(text).includes(norm(id===872?'黄金に彩られた寺院 — читання おうごん':'особистий або романтичний інтерес')):true,
      examplesVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
      bodyTextLength:text.length
     });
