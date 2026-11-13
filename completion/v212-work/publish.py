@@ -30,7 +30,7 @@ for rel in PUBLISH_PATHS:
    text=text.replace("JLPT_N1_ukrainian_reading_v211.html","JLPT_N1_ukrainian_reading_v212.html")
    text=text.replace("JLPT_N1_v211_audit.md","JLPT_N1_v212_audit.md")
   elif rel=="PROJECT_STATUS.md":
-   text=text.replace("Оновлено 13 листопада 2026. Актуальна **v211** у main. Кандидат **v212** у гілці work/v212-c10-next-pending, ще не опублікований. Повний HTML v211 — 6948888 байти, SHA-256 c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68.","Оновлено 13 листопада 2026. Актуальна **v212** у main після guarded-публікації. Повний HTML — "+size+" байти, SHA-256 "+digest+". [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v212.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v212_audit.md).")
+   text=text.replace("Оновлено 13 листопада 2026. Актуальна **v211** у main. Кандидат **v212** у гілці work/v212-c10-next-pending, ще не опублікований. Повний HTML v211 — 6948888 байти, SHA-256 c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68.","Оновлено 13 листопада 2026. Актуальна **v212** у main після guarded-публікації. Повний HTML — "+str(size)+" байти, SHA-256 "+digest+". [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v212.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v212_audit.md).")
    text=text.replace("Підготовлено 15 точних змін","Внесено 15 точних змін")
    text=text.replace("Очікуваний авторський credit після приймання","Авторський credit після v212")
    text=text.replace("## Поточний кандидат v212 — C10 авторський аудит","## Опублікований випуск v212 — C10 авторський аудит")
