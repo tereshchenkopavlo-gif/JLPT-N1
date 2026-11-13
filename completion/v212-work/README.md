@@ -1,5 +1,7 @@
 # v212 C10 author-review checkpoint
 
+Candidate v212 HTML SHA-256: __V212_SHA256__, __V212_BYTES__ bytes.
+
 Base: published v211 at main commit `117c615d69a880fa25b7d5b2d9f87a7b18f8c96c`, HTML SHA-256 `c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68`.
 
 Scope: eleven safe pending cards 1497, 1500, 1502, 1503, 1505, 1507, 1508, 1509, 1513, 1515, 1522. All eleven have v153 pilot evidence. Fifteen exact field updates are proposed in eleven cards, including two Japanese-definition refinements. One pending vocabulary comparison pair (VOCAB_AUDITED_PAIRS[395], 振興/新興) also receives one note correction. One other pending record remains untouched and uncredited.
