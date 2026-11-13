@@ -61,7 +61,7 @@
     "completion/v153-cards-1481-1520.tsv": "e2cc65cfc7cd035f667d76eb9639925d2dbc356e",
     "completion/v153-cards-1521-1560.tsv": "d206d88b12e53e4e0d110732c26de5075a48e601"
   },
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v212 published in main; main HTML SHA-256 and byte count independently verified; PR #37 closed without merge",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -81,11 +81,55 @@
       "run_id": 43474202802,
       "conclusion": "failure",
       "failure": "The candidate/register had already been saved to the work branch by the earlier run after successful Chromium acceptance. The repeated preparer expected the original pending register and rejected the exact v212 target counts. Main remained at the v211 baseline. The preparer now accepts either the exact baseline (apply once) or the exact v212 target with matching per-record evidence (idempotent reuse); mixed states still fail."
+    },
+    {
+      "attempt": 4,
+      "run_id": 43474530932,
+      "conclusion": "success",
+      "result": "Deterministic build, syntax checks, Chromium acceptance, exact-artifact publication and artifact upload all passed. Main HTML blob and SHA-256 independently verified."
     }
   ],
   "candidate_sha256": "a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5",
   "candidate_bytes": 6949301,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "browser_results": "completion/v212-work/browser-results.json"
+  "browser_results": "completion/v212-work/browser-results.json",
+  "publication_commit": "3a762c4d4abce126aee4d88d54c7ae27afe3fea2",
+  "publication_html_blob": "c498bc222a6ec3cf513065a9139e0697446df8e3",
+  "publication_sha256": "a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5",
+  "publication_bytes": 6949301,
+  "registry_after": {
+    "all": {
+      "reviewed": 3916,
+      "fixed_rechecked": 369,
+      "pending": 1562
+    },
+    "vocabulary": {
+      "reviewed": 3347,
+      "fixed_rechecked": 367,
+      "pending": 200
+    },
+    "vocab_pair": {
+      "reviewed": 18,
+      "fixed_rechecked": 1,
+      "pending": 840
+    }
+  },
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 11,
+    "reviewed_pair_count": 1,
+    "deferred_count": 1,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  },
+  "workflow_run": 43474530932,
+  "pr_number": 37,
+  "pr_state": "closed_without_merge"
 }
