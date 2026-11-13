@@ -57,7 +57,7 @@
   "pilot_files": {
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "attempts 1–2 failed on inaccurate preparer baselines; exact reading for ID1373 corrected; attempt 3 pending",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -82,5 +82,10 @@
     ],
     "workflow_pipefail_required": true,
     "id1373_reading": "しゅうちゃく／しゅうじゃく (both source readings retained)"
-  }
+  },
+  "candidate_sha256": "f27b47c33dd4b427cbdc36ac1a3f2b126a1656e36055d2598fc6a5bbcd5e526d",
+  "candidate_bytes": 6946934,
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "browser_results": "completion/v207-work/browser-results.json"
 }

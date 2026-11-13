@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "f27b47c33dd4b427cbdc36ac1a3f2b126a1656e36055d2598fc6a5bbcd5e526d",
+  "candidate_bytes": 6946934,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 1351,
+      "word": "歯科",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1352,
+      "word": "事態",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1353,
+      "word": "事柄",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1354,
+      "word": "児童",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1358,
+      "word": "治癒",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1359,
+      "word": "磁気",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1362,
+      "word": "自我",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1363,
+      "word": "自首",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1370,
+      "word": "辞任",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1372,
+      "word": "執行",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1373,
+      "word": "執着",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1375,
+      "word": "失格",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
