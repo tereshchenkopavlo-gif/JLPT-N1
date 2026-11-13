@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "868b1e37c671a0ecd74c5dea2168d50c3b994e66ef912912b90ea5b426aac4ba",
+  "candidate_bytes": 6943421,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 712,
+      "word": "逆",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 596
+    },
+    {
+      "id": 715,
+      "word": "筋",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1070
+    },
+    {
+      "id": 720,
+      "word": "件",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 554
+    },
+    {
+      "id": 722,
+      "word": "股",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 531
+    },
+    {
+      "id": 724,
+      "word": "垢",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 585
+    },
+    {
+      "id": 731,
+      "word": "柵",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 876
+    },
+    {
+      "id": 739,
+      "word": "主",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 678
+    },
+    {
+      "id": 741,
+      "word": "趣",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 663
+    },
+    {
+      "id": 744,
+      "word": "盾",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 574
+    },
+    {
+      "id": 745,
+      "word": "沼",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 793
+    },
+    {
+      "id": 746,
+      "word": "証",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1322
+    },
+    {
+      "id": 749,
+      "word": "誠",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 489
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
