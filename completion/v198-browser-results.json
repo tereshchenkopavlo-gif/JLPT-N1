@@ -1,0 +1,80 @@
+{
+  "pass": true,
+  "candidate_sha256": "32c0bf74d083db74576d53a249ec1858352f20efcea9a72dd3c80daf3a17a39c",
+  "candidate_bytes": 6945040,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 4,
+  "reviewed_cards": [
+    {
+      "id": 1015,
+      "word": "機材",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "definitionVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1204
+    },
+    {
+      "id": 1016,
+      "word": "帰省",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "definitionVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 603
+    },
+    {
+      "id": 1026,
+      "word": "祈願",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "definitionVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 560
+    },
+    {
+      "id": 1027,
+      "word": "規定",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "definitionVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1495
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}

@@ -1,0 +1,5 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1015	機材	きざい	名詞	fixed_rechecked	exampleTranslations[1]	高性能 means high technical performance/specifications, not generic high quality.
+1016	帰省	きせい	名詞	fixed_rechecked	usage	帰郷 is a return to one's home region/hometown and does not imply another country.
+1026	祈願	きがん	名詞	fixed_rechecked	exampleTranslations[0]	受験生 covers exam candidates more broadly than university applicants.
+1027	規定	きてい	名詞	fixed_rechecked	m	Add the established provision/rule sense as well as the act of stipulating.
