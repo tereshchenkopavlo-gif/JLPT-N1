@@ -2,21 +2,18 @@
 
 Base: published v199, main commit `4ec8f84ad32bb2b17c1081942ae2fb14d96c6b67`, HTML SHA-256 `c81d7624557b2193bd6bc7939c93e200b054323f4b845f19921d70924a9ab280`.
 
-The v153 pilot file `completion/v153-cards-981-1080.tsv` contains individual notes and hashes for IDs1075, 1077 and 1080. These were checked against the current HTML and the register. No v153 file for IDs1081–1095 was found after checking likely paths; no pilot evidence is attributed to those nine cards.
+The full pilot file `completion/v153-cards-981-1080.tsv` supplies individual notes and hashes for ID1077. The full pilot file `completion/v153-cards-1081-1180.tsv` supplies notes and hashes for IDs1087, 1088, 1090, 1092, 1094 and 1095. All seven were pending in the register.
+
+IDs1075, 1080, 1081, 1083 and 1085 were already reviewed with v153 evidence and were removed from the draft scope. They are not re-audited or credited again.
 
 ## Card-specific reasoning
 
-- 1075: the current wording distinguishes false information from a fully established legal conclusion.
-- 1077: the Japanese definition includes both fish and shellfish; 見合わせる conveys temporary postponement/refraining.
-- 1080: 競走 is speed competition; the wider sense of 競争 is separately explained.
-- 1081: physical resonance and figurative agreement/response are distinct senses.
-- 1083: 協議 is discussion among stakeholders and does not guarantee agreement.
-- 1085: 協定 is an agreement between parties; 条約 is a specific international-law term.
-- 1087: 境地 covers a mental state and an attained spiritual/artistic level.
-- 1088: 境内 is the precinct of a shrine/temple; 参道 is an approach path.
-- 1090: 強豪 in the university example denotes a leading force in athletics, not merely the presence of individual strong athletes.
-- 1092: the neutral definition and examples require no linguistic change.
-- 1094: 教科 is a school subject; 科目 may be a specific course or subject unit.
-- 1095: 教訓 conveys a lesson learned from experience and a caution for future action.
+- 1077: 漁船 covers fishing vessels used to catch fish and shellfish; 見合わせる conveys a temporary postponement/refraining.
+- 1087: 境涯 was removed from the close-similar list; it concerns life circumstances rather than the inner state/attained mental realm of 境地. 心境 remains.
+- 1088: 杉 is Japanese cryptomeria/Japanese cedar; the Ukrainian translation now names the species more precisely.
+- 1090: avoid the unsupported absolute “strongest”; describe the university as having a strong athletics team.
+- 1092: correct the Japanese case/attachment in the example with 事件について.
+- 1094: 得意な教科を伸ばす is developing one's strengths in school subjects.
+- 1095: 共有する means sharing the lessons throughout the organization, not merely each member internalizing them.
 
-No Japanese example, POS, ID, quiz target, comparison pair or progress-storage logic is changed.
+Only one Japanese example changes (ID1092, example 0). No POS, ID, quiz target, comparison pair, learning engine or progress-storage logic is changed.
