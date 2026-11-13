@@ -1,7 +1,7 @@
 import hashlib,json,shutil,subprocess
 from pathlib import Path
 ROOT=Path.cwd().resolve()
-EXPECTED_MAIN="5a032f11acd61b5bb49a70ab269e37a4ef8ab536"
+EXPECTED_MAIN="__CURRENT_MAIN_HEAD__"
 HTML_PATH="JLPT_N1_ukrainian_reading_v214.html"
 PUBLISH_PATHS=[
  HTML_PATH,"JLPT_N1_v214_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md",
@@ -31,6 +31,20 @@ for rel in PUBLISH_PATHS:
  if rel in text_paths:
   content=blob.decode("utf-8")
   content=content.replace("__V214_SHA256__",digest).replace("__V214_BYTES__",str(size)).replace("__V214_BLOB__",blob_sha)
+  if rel=="README.md":
+   content=content.replace("Актуальна опублікована редакція: v213.","Актуальна опублікована редакція: v214.")
+   content=content.replace("## Кандидат v214","## Стан випуску v214")
+   content=content.replace("Кандидат v214 у гілці work/v214-c10-next-pending:","Опубліковано v214:")
+  elif rel=="PROJECT_STATUS.md":
+   content=content.replace("Актуальна **v213** у main. Кандидат **v214** у гілці work/v214-c10-next-pending, ще не опублікований.","Актуальна **v214** у main після guarded-публікації.")
+   content=content.replace("## Поточний кандидат v214","## Опублікований випуск v214")
+   content=content.replace("Підготовлено 13 точних змін","Внесено 13 точних змін")
+   content=content.replace("Очікуваний авторський credit після v214","Авторський credit після v214")
+   content=content.replace("Кандидат v214 ще не зібрано; deterministic build, перевірка реєстру та Chromium acceptance очікують запуску.",f"Опублікований HTML v214: {size} байтів, SHA-256 {digest}, Git blob {blob_sha}. Deterministic build, registry та Chromium acceptance успішні.")
+  elif rel=="completion/BACKLOG.md":
+   content=content.replace("v214 candidate:","v214 опубліковано:")
+  elif rel=="JLPT_N1_v214_audit.md":
+   content=content.replace("Кандидат v214:","Опублікований v214:")
   blob=content.encode("utf-8")
  dst=wt/rel; dst.parent.mkdir(parents=True,exist_ok=True); dst.write_bytes(blob)
 run("git","config","user.name","github-actions[bot]",cwd=wt)
