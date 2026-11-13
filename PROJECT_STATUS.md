@@ -1,8 +1,8 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v200** у main після успішного guarded-приймання. Кандидатний HTML — 6945306 байти, SHA-256 d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a. [Кандидатний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v200.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v200_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v200** у main після успішного guarded-приймання. Повний HTML — 6945306 байти, SHA-256 d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a. [Кандидатний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v200.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v200_audit.md).
 
-## Поточний кандидат v200 — C10 авторський аудит
+## Опублікований випуск v200 — C10 авторський аудит
 
 - Після звірки з реєстром і пілотом v153 перевірено 7 pending-карток: ID1077, 1087, 1088, 1090, 1092, 1094, 1095. Усі **7 fixed_rechecked**; внесено **9 точних змін у 7 картках**.
 - ID1075, 1080, 1081, 1083, 1085 вже були reviewed з доказами v153. Їх виключено з v200 і не зараховано повторно.
@@ -11,8 +11,8 @@
 - Японські приклади змінено лише в ID1092, приклад 0. POS-map, ID, quiz payloads/targets, comparison pairs, learning engine та progress-storage code не змінювалися.
 - Авторський credit — **3582/3914**. Реєстр — 3914 reviewed /238 fixed_rechecked /1695 pending; словниковий зріз — 3345 /237 /332. Відкриті C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
 - Збережено 3914 словникових записів та унікальних ID, 130 граматичних конструкцій, 859 лексичних пар.
-- Кандидат v200: **6945306 байти**, SHA-256 `d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a`. Детермінований preparer перевіряє 9 preimage-значень, exact rollback і незмінність захищених даних.
-- Chromium acceptance ще очікує запуску. Після нього — публікація лише точних перевірених артефактів у main.
+- Опублікований HTML v200: **6945306 байти**, SHA-256 `d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a`. Детермінований preparer перевіряє 9 preimage-значень, exact rollback і незмінність захищених даних.
+- Chromium acceptance успішний: усі 7 карток відображаються; ширини 360/412/1280 без переповнення; storage round-trip/restored; page errors — 0. [Workflow v200](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43451296419). Точні перевірені артефакти опубліковано в main commit `c8ff6ac3404a60d36a288be541e64da7c421534e`; PR #25 закрито без злиття робочої гілки.
 - Наступні доступні C10 pending: **1096, 1097, 1098, 1100, 1101, 1102, 1104, 1105, 1106, 1108, 1110, 1111**. Робоча гілка наступного етапу — **work/v201-c10-next-pending**.
 
 v200 — кандидат, не опублікований випуск і не кандидат 1.0. C10/C11 не завершені. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими. C12 також має невиконаний обсяг текстів, зазначений в AGENTS.md.
