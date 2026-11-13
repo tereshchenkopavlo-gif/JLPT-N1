@@ -1,0 +1,60 @@
+{
+  "version": "v203",
+  "base_version": "v202",
+  "base_main_sha": "8a878ed079adb567915d42bdd126a0fa337c8abe",
+  "base_html_sha256": "39aa398f92db161d4c396038d588872b2fabb9fc9c45713a5e530f5a03bae14c",
+  "base_html_blob": "6a8afed90faff63054e15a180d680957101851ef",
+  "base_html_bytes": 6945374,
+  "scope_ids": [
+    1153,
+    1157,
+    1158,
+    1169,
+    1173,
+    1175,
+    1178,
+    1182,
+    1194,
+    1195,
+    1196
+  ],
+  "fixed_rechecked_ids": [
+    1153,
+    1157,
+    1158,
+    1169,
+    1173,
+    1175,
+    1178,
+    1182,
+    1194,
+    1195,
+    1196
+  ],
+  "reviewed_ids": [],
+  "pending_ids": [],
+  "expected_field_updates": 14,
+  "author_credit_before": 3598,
+  "author_credit_addition": 11,
+  "author_credit_after": 3609,
+  "pilot_v153_ids": [
+    1153,
+    1157,
+    1158,
+    1169,
+    1173,
+    1175,
+    1178,
+    1182,
+    1194,
+    1195,
+    1196
+  ],
+  "pilot_files": {
+    "completion/v153-cards-1081-1180.tsv": "4b828dbf37995cfa6491fee94cb63c1854778a6f",
+    "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729"
+  },
+  "deferred_note": "One other item in the selected interval was deferred under safety policy and is not part of this scope; no status change or content reproduction.",
+  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch"
+}
