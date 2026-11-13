@@ -21,7 +21,26 @@
     563
   ],
   "first_pending_id": 525,
-  "status": "checkpoint only; author review not yet started",
+  "status": "author-reviewed; candidate script ready; browser acceptance pending",
+  "author_review": {
+    "fixed_rechecked": [
+      525,
+      530,
+      533,
+      540,
+      541,
+      547,
+      549,
+      563
+    ],
+    "pending_due_C11": [
+      544,
+      550,
+      552,
+      557
+    ],
+    "field_updates": 11
+  },
   "guardrails": [
     "use v153 pilot decisions as hypotheses, not automatic acceptance",
     "do not repeat IDs 454-524",
