@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+615	仮に	かりに	副詞	fixed_rechecked	exampleTranslations[0]; exampleTranslations[1]	Preserve the hypothetical condition; 費用面の負担はどうなるのか asks what the burden will be, not how it will be allocated.
+616	いくらか		副詞	fixed_rechecked	exampleTranslations[0]	根本的な解決 is fundamental/root solution, not a final resolution.
+618	改めて	あらためて	副詞	fixed_rechecked	exampleTranslations[0]	Render 徹底する naturally as thorough implementation of recurrence-prevention measures.
+624	間もなく	まもなく	副詞	reviewed	none	Current usage is sufficient; やがて is also glossed as “before long/soon”, so no rigid contrast was added.
+629	わざと		副詞	fixed_rechecked	usage; exampleTranslations[1]	Correct the erroneous usage gloss and preserve the evidential/grounds nuance of として.
+644	当然	とうぜん	副詞	pending_C11	exampleTranslations[0]	Naturalize the Ukrainian gloss, but dictionary 名・形動 + 副 conflicts with the app's 副詞-only POS map.
+651	インフルエンザ		名詞	fixed_rechecked	m	Define the disease as caused by influenza virus specifically.
+654	ウイルス		名詞	fixed_rechecked	m	Replace circular wording with a concise host-cell replication definition.
+663	オーバー		名詞	pending_C11	none	Dictionary 名 + 形動 and usage オーバーな require C11 quiz-impact review.
+664	スペース		名詞	fixed_rechecked	t	Use пробіл for textual spacing; пропуск is ambiguous.
+672	カウンター		名詞	fixed_rechecked	t; exampleTranslations[1]	Include the counterattack sense and make the counter-service translation natural.
+674	ベース		名詞	fixed_rechecked	t	Include baseball-base and bass-instrument/line senses already covered in usage.
