@@ -59,7 +59,7 @@ EXPECTED_CHANGED = ["615", "616", "618", "629", "644", "651", "654", "664", "672
 EVIDENCE = "completion/v187-acceptance.tsv; JLPT_N1_v187_audit.md"
 
 def extract(source, name):
-    match = re.search(r"\\bconst " + re.escape(name) + r"\\s*=\\s*", source)
+    match = re.search(r"\bconst " + re.escape(name) + r"\s*=\s*", source)
     if not match:
         raise RuntimeError("missing constant " + name)
     start = match.end()
@@ -73,7 +73,7 @@ def extract(source, name):
         if in_string:
             if escaped:
                 escaped = False
-            elif char == "\\\\":
+            elif char == "\\":
                 escaped = True
             elif char == '"':
                 in_string = False
@@ -125,7 +125,7 @@ for card_id, (word, reading_value, expected_pos) in EXPECTED.items():
 before = json.loads(json.dumps(details, ensure_ascii=False))
 for card_id, field, old_value, new_value in UPDATES:
     if field.startswith("exampleTranslations["):
-        index = int(re.search(r"\\[(\\d+)\\]", field).group(1))
+        index = int(re.search(r"\[(\d+)\]", field).group(1))
         actual = details[card_id]["exampleTranslations"][index]
         if actual != old_value:
             raise RuntimeError("translation preimage mismatch for " + card_id + "." + field)
@@ -210,6 +210,7 @@ if any(len(rows_by_id.get(card_id, [])) != 1 for card_id in scope):
     raise RuntimeError("missing or duplicated register scope row")
 
 register_mode = "already_applied"
+register_changed = False
 if current_all == baseline_all and current_vocab == baseline_vocab:
     for card_id in FIXED_IDS:
         row = rows_by_id[card_id][0]
@@ -227,28 +228,35 @@ if current_all == baseline_all and current_vocab == baseline_vocab:
         row = rows_by_id[card_id][0]
         if row["finalReview"] != "pending" or row["evidence"]:
             raise RuntimeError("pending C11 preimage mismatch for " + card_id)
-    with REGISTER.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["kind", "key", "baselineLocation", "finalReview", "evidence"], lineterminator="\\n")
-        writer.writeheader()
-        writer.writerows(register_rows)
     register_mode = "applied_from_baseline"
+    register_changed = True
 elif current_all == target_all and current_vocab == target_vocab:
     for card_id in FIXED_IDS:
         row = rows_by_id[card_id][0]
         if row["finalReview"] != "fixed_rechecked":
             raise RuntimeError("fixed target mismatch for " + card_id)
-        row["evidence"] = EVIDENCE
+        if row["evidence"] != EVIDENCE:
+            row["evidence"] = EVIDENCE
+            register_changed = True
     for card_id in REVIEWED_IDS:
         row = rows_by_id[card_id][0]
         if row["finalReview"] != "reviewed":
             raise RuntimeError("reviewed target mismatch for " + card_id)
-        row["evidence"] = EVIDENCE
+        if row["evidence"] != EVIDENCE:
+            row["evidence"] = EVIDENCE
+            register_changed = True
     for card_id in PENDING_IDS:
         row = rows_by_id[card_id][0]
         if row["finalReview"] != "pending" or row["evidence"]:
             raise RuntimeError("pending target mismatch for " + card_id)
 else:
     raise RuntimeError("register state is neither v186 baseline nor expected v187 target")
+
+if register_changed:
+    with REGISTER.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["kind", "key", "baselineLocation", "finalReview", "evidence"], lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(register_rows)
 
 after_all = counts(register_rows)
 after_vocab = counts(register_rows, "vocab")
@@ -297,8 +305,8 @@ registry = {
     "records_deleted": 0,
     "history_rewritten": False
 }
-(WORK / "prepare-results.json").write_text(json.dumps(prepare, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
-(WORK / "registry-results.json").write_text(json.dumps(registry, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+(WORK / "prepare-results.json").write_text(json.dumps(prepare, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+(WORK / "registry-results.json").write_text(json.dumps(registry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 checkpoint_path = WORK / "checkpoint.json"
 checkpoint = json.loads(checkpoint_path.read_text(encoding="utf-8"))
@@ -307,6 +315,6 @@ checkpoint["candidate_sha256"] = candidate_sha
 checkpoint["candidate_bytes"] = OUT.stat().st_size
 checkpoint["exact_rollback"] = True
 checkpoint["register_mode"] = register_mode
-checkpoint_path.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+checkpoint_path.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 print(json.dumps({"pass": True, "candidate_sha256": candidate_sha, "candidate_bytes": OUT.stat().st_size, "fixed_rechecked": FIXED_IDS, "reviewed": REVIEWED_IDS, "pending_c11": PENDING_IDS, "register_after": after_all, "vocabulary_after": after_vocab}, ensure_ascii=False, indent=2))
