@@ -1,0 +1,146 @@
+{
+  "version": "v218",
+  "base_version": "v217",
+  "base_main_sha": "f8a54df76e6187f3f87b4f4f9977c0612235228c",
+  "base_html_sha256": "58d01e555bdf84810bd16237d8fcf755cbdcf756fb1a8784046eca144e58f79b",
+  "base_html_blob": "e565a0e488ef48014d58bcb2cb175bbc67b738d2",
+  "base_html_bytes": 6950869,
+  "branch": "work/v218-c10-next-pending",
+  "scope_ids": [
+    3119,
+    3127,
+    3131,
+    3164,
+    3168,
+    3169,
+    3176,
+    3208,
+    3234,
+    3266,
+    3269,
+    3272
+  ],
+  "fixed_rechecked_ids": [
+    3119,
+    3127,
+    3131,
+    3164,
+    3168,
+    3169,
+    3176,
+    3234,
+    3269
+  ],
+  "reviewed_ids": [
+    3208,
+    3266,
+    3272
+  ],
+  "deferred_ids": [
+    {
+      "id": 544,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 550,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 552,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 557,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 588,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 599,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 644,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 663,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 1492,
+      "reason": "separate content review; historical pilot evidence preserved"
+    },
+    {
+      "id": 1510,
+      "reason": "separate content review; excluded from this author batch"
+    },
+    {
+      "id": 1631,
+      "reason": "C11 POS/quiz dependency; do not alter POS before pool review"
+    },
+    {
+      "id": 1878,
+      "reason": "existing unresolved issue; avoid duplicate work"
+    },
+    {
+      "id": 2734,
+      "reason": "C11 POS classification dependency; defer until quiz-pool review"
+    }
+  ],
+  "expected_field_updates": 16,
+  "pair_reviewed": [],
+  "author_credit_before": 3783,
+  "author_credit_addition": 12,
+  "author_credit_after": 3795,
+  "pilot_files": [],
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3119,
+    3127,
+    3131,
+    3164,
+    3168,
+    3169,
+    3176,
+    3208,
+    3234,
+    3266,
+    3269,
+    3272
+  ],
+  "expected_registry_after": {
+    "all": {
+      "reviewed": 3935,
+      "fixed_rechecked": 433,
+      "pending": 1479,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3364,
+      "fixed_rechecked": 431,
+      "pending": 119,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 20,
+      "fixed_rechecked": 1,
+      "pending": 838,
+      "total": 859
+    }
+  },
+  "exact_rollback": true,
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch",
+  "main_guard": "f8a54df76e6187f3f87b4f4f9977c0612235228c",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "chromium_verification": "passed",
+  "candidate_sha256": "adc7376d13a74d6d2f9ed00a5d35a9695f4728066aa66659b1ab01218433e425",
+  "candidate_blob_sha": "1776fcf8ae696335afd1417ebca9410d9eae1945",
+  "candidate_bytes": 6951452,
+  "workflow_run_id": 43501574224
+}
