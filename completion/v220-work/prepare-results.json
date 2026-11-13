@@ -114,5 +114,6 @@
   "author_review_only": true,
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
-  "provenance_legal_acceptance": "not performed"
+  "provenance_legal_acceptance": "not performed",
+  "publication_guard": "c2081bc1baee2fd32acdeb9722feb9257da2214f"
 }

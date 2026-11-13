@@ -120,5 +120,11 @@
   "pair_changed": [],
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "workflow_run_id": 43526769689
+  "workflow_run_id": 43526769689,
+  "publication_guard": {
+    "branch": "main",
+    "sha": "c2081bc1baee2fd32acdeb9722feb9257da2214f",
+    "html_blob_at_guard": "352fbf13dbe837e385a5e94fef0b4002bc636f29",
+    "policy": "copy exact verified artifacts; do not merge work branch"
+  }
 }
