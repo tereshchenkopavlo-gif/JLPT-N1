@@ -123,5 +123,8 @@
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
-  "publication_guard": "3162a50d08e4b138dffe0d3aff90c17c5cbf2711"
+  "publication_guard": "3162a50d08e4b138dffe0d3aff90c17c5cbf2711",
+  "publication_status": "published",
+  "published_main_commit": "cb5fc9661df6abf8ea914d560ae2fc743f701948",
+  "main_data_check_run_id": 43525813624
 }

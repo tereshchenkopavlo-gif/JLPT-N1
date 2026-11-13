@@ -1,0 +1,80 @@
+{
+  "version": "v219",
+  "publication_commit": "cb5fc9661df6abf8ea914d560ae2fc743f701948",
+  "publication_guard": "3162a50d08e4b138dffe0d3aff90c17c5cbf2711",
+  "html": {
+    "path": "JLPT_N1_ukrainian_reading_v219.html",
+    "bytes": 6951877,
+    "sha256": "abfaf537a365d5389138f1f0e514c20f2f181cf51ac33ea7b34fb7de48f22481",
+    "git_blob": "352fbf13dbe837e385a5e94fef0b4002bc636f29"
+  },
+  "audit": "JLPT_N1_v219_audit.md",
+  "workflow": {
+    "id": 43525242265,
+    "conclusion": "success",
+    "url": "https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43525242265"
+  },
+  "main_data_check": {
+    "id": 43525813624,
+    "conclusion": "success",
+    "url": "https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43525813624"
+  },
+  "author_credit": {
+    "before": 3795,
+    "after": 3806,
+    "total": 3914
+  },
+  "cards": {
+    "reviewed": 12,
+    "fixed_rechecked": 9,
+    "reviewed_unchanged": 2,
+    "blocked": 1,
+    "field_changes": 12
+  },
+  "pairs": {
+    "reviewed": 7,
+    "changed": 1
+  },
+  "registry": {
+    "all": {
+      "reviewed": 3944,
+      "fixed_rechecked": 442,
+      "pending": 1460,
+      "blocked": 1,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3366,
+      "fixed_rechecked": 440,
+      "pending": 107,
+      "blocked": 1,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 27,
+      "fixed_rechecked": 1,
+      "pending": 831,
+      "blocked": 0,
+      "total": 859
+    }
+  },
+  "v219_work_branch": "work/v219-c10-next-pending",
+  "next_work_branch": "work/v220-c10-next-pending",
+  "next_scope": [
+    3344,
+    3345,
+    3349,
+    3352,
+    3357,
+    3360,
+    3363,
+    3364,
+    3368,
+    3369,
+    3370,
+    3373
+  ],
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed"
+}
