@@ -1,0 +1,14 @@
+id	field	before	after	reason
+1528	t	дружба, добра воля, дружні стосунки	дружні відносини, взаємна приязнь	Replace one-sided goodwill with mutual friendship and cordial relations.
+1529	exampleTranslations[0]	У цій клініці терапевтичних пацієнтів оглядають і лікують навіть без попереднього запису.	У цій клініці пацієнтів терапевтичного профілю оглядають і лікують навіть без попереднього запису.	Use natural internal-medicine patient phrasing.
+1529	exampleTranslations[1]	Забезпечення лікарями малолюдних районів стало нагальним завданням.	Нагальним завданням стало забезпечити лікарів, які надаватимуть медичну допомогу в малолюдних районах.	Clarify that doctors are secured to provide medical care in sparsely populated areas.
+1539	exampleTranslations[0]	Його щирий характер приваблює багатьох людей, які хочуть із ним співпрацювати.	Багато хто, приваблений його порядністю, хоче мати з ним ділові стосунки.	Convey that his sincere character draws people to do business with him.
+1541	usage	図星だ／図星を突かれる: точно вгадати приховану думку чи влучити в болючу правду. Часто реакція на зауваження. Не універсальне слово для будь-якої мішені або будь-якої істини.	図星だ／図星を突かれる: зауваження влучне або точно влучає в болюче місце чи приховану думку. Реакція залежить від контексту; не кожне влучання в ціль є 図星.	Separate accurate-guess and sore-point uses.
+1541	exampleTranslations[1]	Йому влучили в болючу правду, і він відвів погляд, ніби приховуючи хвилювання.	Коли йому влучно вказали на болюче місце, він відвів погляд, намагаючись приховати хвилювання.	Naturalize the reaction to a pointed observation.
+1542	m	強い風とともに雪が激しく降ること。	強い風とともに雪が激しく降ること。また、風が積もった雪を巻き上げて吹き荒れること。	Include snow already on the ground being raised by strong wind.
+1548	exampleTranslations[0]	Якщо перед смаженням добре дати воді стекти з овочів, готова страва не буде липкою й водянистою.	Якщо перед смаженням добре дати воді стекти з овочів, готова страва не буде липкою.	Remove the unsupported watery consequence; べたつかない means not sticky.
+1551	m	勢いが衰えて、おとろえていくこと。	勢いが弱まり、力や活気を失っていくこと。	Remove the duplicated verb in kanji and kana.
+1554	m	社会の人々に共通する、公の意見。	社会の人々の間に形成される、公共の問題についての意見や見方。	Avoid implying unanimity; public opinion may be divided.
+1558	t	ухвалення й запровадження нового закону, правила або системи норм	ухвалення, установлення нового закону, правила або системи норм	Avoid an implementation implication; distinguish 制定 from 施行.
+1625	exampleTranslations[0]	Поліція веде розслідування, вважаючи ймовірною причетність організованої групи.	Поліція продовжує розслідування, оскільки підозрює, що причетність до справи мала організований характер.	Convey suspicion of coordinated involvement without specifying a particular organized group.
+1628	exampleTranslations[1]	Через несанкціоновані дії система автоматично зупинилася.	Через неправомірні маніпуляції система автоматично зупинилася.	Translate 不正な操作 without adding a specific unauthorized-access claim.
