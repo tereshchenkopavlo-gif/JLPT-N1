@@ -202,6 +202,7 @@ if len(register_rows) != 5847:
 
 fixed_ids = set(expected_changed)
 pending_ids = {"588", "599"}
+register_changed = False
 for card_id in scope:
     matches = [row for row in register_rows if row["kind"] == "vocab" and row["key"] == card_id]
     if len(matches) != 1:
@@ -219,6 +220,7 @@ for card_id in scope:
                 raise RuntimeError("applied register evidence mismatch for " + card_id)
             if row["evidence"] != expected_evidence:
                 row["evidence"] = expected_evidence
+                register_changed = True
         else:
             raise RuntimeError("register state is neither baseline nor expected v186 result")
     elif card_id in pending_ids:
@@ -241,6 +243,12 @@ if current_all == baseline_all and current_vocab == baseline_vocab:
 elif current_all == target_all and current_vocab == target_vocab:
     after_all = current_all
     after_vocab = current_vocab
+    if register_changed:
+        with REGISTER.open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=["kind", "key", "baselineLocation", "finalReview", "evidence"], lineterminator="\\n")
+            writer.writeheader()
+            writer.writerows(register_rows)
+        register_mode = "evidence_path_corrected"
 else:
     raise RuntimeError("register baseline mismatch: " + str(current_all) + " / " + str(current_vocab))
 before_all = baseline_all
