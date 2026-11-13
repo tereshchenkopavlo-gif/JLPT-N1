@@ -1,0 +1,62 @@
+{
+  "version": "v205",
+  "base_version": "v204",
+  "base_main_sha": "5a9952fe995300827997d07af0e5344661f37d22",
+  "base_html_sha256": "19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383",
+  "base_html_blob": "bd76db7823e4115a76b3dffa64162cef4ee6003c",
+  "base_html_bytes": 6945619,
+  "scope_ids": [
+    1297,
+    1300,
+    1301,
+    1303,
+    1306,
+    1309,
+    1311,
+    1312,
+    1313,
+    1315,
+    1316,
+    1319
+  ],
+  "fixed_rechecked_ids": [
+    1297,
+    1300,
+    1301,
+    1303,
+    1306,
+    1309,
+    1311,
+    1312,
+    1313,
+    1315,
+    1316,
+    1319
+  ],
+  "reviewed_ids": [],
+  "pending_ids": [],
+  "expected_field_updates": 13,
+  "author_credit_before": 3621,
+  "author_credit_addition": 12,
+  "author_credit_after": 3633,
+  "pilot_v153_ids": [
+    1297,
+    1300,
+    1301,
+    1303,
+    1306,
+    1309,
+    1311,
+    1312,
+    1313,
+    1315,
+    1316,
+    1319
+  ],
+  "pilot_files": {
+    "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786",
+    "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
+  },
+  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch"
+}
