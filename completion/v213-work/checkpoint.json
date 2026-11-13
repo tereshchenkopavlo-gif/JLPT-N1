@@ -74,7 +74,7 @@
     "completion/v153-cards-1561-1620.tsv": "6118ba60c8608cabdad3e10e6c602c93d6942522",
     "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298"
   },
-  "status": "v213 published in main; HTML blob, SHA-256 and byte count independently verified; PR #38 closed without merge",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_workflow_commit": "7e46364004a358ad5b3fb6f076f13f31a408257f",
   "pr_number": 38,
