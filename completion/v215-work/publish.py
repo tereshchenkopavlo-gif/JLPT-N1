@@ -14,7 +14,7 @@ registry=json.loads((ROOT/"completion/v215-work/registry-results.json").read_tex
 browser=json.loads((ROOT/"completion/v215-work/browser-results.json").read_text(encoding="utf-8"))
 if not(prepare.get("pass") and registry.get("pass") and browser.get("pass")): raise SystemExit("Refusing publication: acceptance results did not pass")
 data=(ROOT/HTML_PATH).read_bytes(); digest=hashlib.sha256(data).hexdigest(); size=len(data)
-blob_sha=hashlib.sha1(b"blob "+str(size).encode()+b"\\0"+data).hexdigest()
+blob_sha=hashlib.sha1(b"blob "+str(size).encode()+b"\0"+data).hexdigest()
 if digest!=prepare["candidate_sha256"] or size!=prepare["candidate_bytes"]: raise SystemExit("candidate digest/size mismatch")
 wt=Path("/tmp/jlpt-n1-v215-main")
 if wt.exists(): shutil.rmtree(wt)
@@ -30,18 +30,18 @@ for rel in PUBLISH_PATHS:
    content=content.replace("Актуальна опублікована редакція: v214.","Актуальна опублікована редакція: v215.")
    content=content.replace("Повний автономний HTML v214","Повний автономний HTML v215").replace("JLPT_N1_ukrainian_reading_v214.html","JLPT_N1_ukrainian_reading_v215.html")
    content=content.replace("Авторський аудит v214","Авторський аудит v215").replace("JLPT_N1_v214_audit.md","JLPT_N1_v215_audit.md")
-   section="## Стан випуску v215\\n\\n"+summary+f"\\n\\nHTML v215: {size} байтів; SHA-256 {digest}; Git blob {blob_sha}.\\n"
-   content=content.replace("## Стан випуску v214",section+"\\n## Історичний випуск v214",1)
+   section="## Стан випуску v215\n\n"+summary+f"\n\nHTML v215: {size} байтів; SHA-256 {digest}; Git blob {blob_sha}.\n"
+   content=content.replace("## Стан випуску v214",section+"\n## Історичний випуск v214",1)
   elif rel=="PROJECT_STATUS.md":
    old="Оновлено 14 листопада 2026. Актуальна **v214** у main після guarded-публікації. Повний HTML v214 — 6949689 байтів, SHA-256 0436bb8dc402e85eab47c442e094c1b725c3e97302500f559bd5b1fe944225b8, Git blob 9ca4fcc6dc6f0db7eaaebed232cc684868dfb5b2."
    new=f"Оновлено 14 листопада 2026. Актуальна **v215** у main після guarded-публікації. Повний HTML v215 — {size} байтів, SHA-256 {digest}, Git blob {blob_sha}."
    if old not in content: raise SystemExit("PROJECT_STATUS v214 marker mismatch")
    content=content.replace(old,new,1)
-   section=f"## Опублікований випуск v215 — C10 авторський аудит\\n\\n- Перевірено 12 pending-карток: 1019, 1028, 1078, 1082, 1089, 1093, 1191, 1255, 1258, 1260, 1270, 1272; усі 12 зараховано як fixed_rechecked.\\n- Внесено 13 точних змін; японські приклади й POS-map не змінювалися. Переглянуто 11 порівняльних пар без зміни тексту.\\n- Авторський credit після v215 — 3749/3914. Реєстр: 3929/404/1514 загалом, 3347/402/165 у словнику, 31/1/827 для пар.\\n- HTML v215: {size} байтів, SHA-256 {digest}, Git blob {blob_sha}. Deterministic build, registry, Python/Node syntax та Chromium acceptance успішні.\\n- Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.\\n"
-   content=content.replace("## Опублікований випуск v214 — C10 авторський аудит",section+"\\n## Опублікований випуск v214 — C10 авторський аудит",1)
+   section=f"## Опублікований випуск v215 — C10 авторський аудит\n\n- Перевірено 12 pending-карток: 1019, 1028, 1078, 1082, 1089, 1093, 1191, 1255, 1258, 1260, 1270, 1272; усі 12 зараховано як fixed_rechecked.\n- Внесено 13 точних змін; японські приклади й POS-map не змінювалися. Переглянуто 11 порівняльних пар без зміни тексту.\n- Авторський credit після v215 — 3749/3914. Реєстр: 3929/404/1514 загалом, 3347/402/165 у словнику, 31/1/827 для пар.\n- HTML v215: {size} байтів, SHA-256 {digest}, Git blob {blob_sha}. Deterministic build, registry, Python/Node syntax та Chromium acceptance успішні.\n- Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.\n"
+   content=content.replace("## Опублікований випуск v214 — C10 авторський аудит",section+"\n## Опублікований випуск v214 — C10 авторський аудит",1)
   else:
    content=content.replace("Поточний HTML — v214, SHA-256 0436bb8dc402e85eab47c442e094c1b725c3e97302500f559bd5b1fe944225b8;","Поточний HTML — v215, SHA-256 "+digest+";",1)
-   content=content.replace("\\nv214 — C10:","\\n"+summary+f" HTML: {size} bytes; SHA-256 {digest}; blob {blob_sha}.\\n\\nv214 — C10:",1)
+   content=content.replace("\nv214 — C10:","\n"+summary+f" HTML: {size} bytes; SHA-256 {digest}; blob {blob_sha}.\n\nv214 — C10:",1)
   raw=content.encode("utf-8")
  dst=wt/rel; dst.parent.mkdir(parents=True,exist_ok=True); dst.write_bytes(raw)
 run("git","config","user.name","github-actions[bot]",cwd=wt)
