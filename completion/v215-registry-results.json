@@ -67,5 +67,5 @@
   "duplicate_keys": 0,
   "records_deleted": 0,
   "history_rewritten": false,
-  "idempotent_reuse": false
+  "idempotent_reuse": true
 }
