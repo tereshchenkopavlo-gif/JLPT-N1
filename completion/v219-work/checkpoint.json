@@ -119,7 +119,7 @@
   "provenance_legal_acceptance": "not performed",
   "main_guard": "845f5c9c114a436016a9242fbb0fc0235eeb7f3c",
   "publication_policy": "copy only exact verified artifacts; never merge the work branch",
-  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "status": "v219 published in main; C10 batch complete; v220 checkpoint opened",
   "candidate_sha256": "abfaf537a365d5389138f1f0e514c20f2f181cf51ac33ea7b34fb7de48f22481",
   "candidate_blob_sha": "352fbf13dbe837e385a5e94fef0b4002bc636f29",
   "candidate_bytes": 6951877,
@@ -137,5 +137,9 @@
     "sha": "3162a50d08e4b138dffe0d3aff90c17c5cbf2711",
     "html_blob_at_guard": "1776fcf8ae696335afd1417ebca9410d9eae1945",
     "policy": "copy exact verified artifacts; do not merge work branch"
-  }
+  },
+  "publication_status": "published",
+  "published_main_commit": "cb5fc9661df6abf8ea914d560ae2fc743f701948",
+  "main_data_check_run_id": 43525813624,
+  "published_at": "2026-11-14"
 }
