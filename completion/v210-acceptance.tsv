@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1445	重複	ちょうふく／じゅうふく	名詞	fixed_rechecked	m	Remove an unnecessary implication that every repetition is wasteful.
+1446	重宝	ちょうほう	名詞	fixed_rechecked	m;exampleTranslations[0]	Add the useful/convenient state and naturalize the travel example.
+1449	出没	しゅつぼつ	名詞	fixed_rechecked	exampleTranslations[1]	Convey recurring appearance without unsupported number.
+1451	巡回	じゅんかい	名詞	fixed_rechecked	m	Include visiting multiple places, not only patrolling.
+1455	処置	しょち	名詞	fixed_rechecked	m;examples[1];exampleTranslations[1]	Add the medical sense and naturalize the disciplinary collocation.
+1457	処分	しょぶん	名詞	fixed_rechecked	m	Include disposition of property by sale or transfer.
+1459	初耳	はつみみ	名詞	fixed_rechecked	t;exampleTranslations[0]	Remove the calque and naturalize the ongoing-plan example.
+1460	所在	しょざい	名詞	fixed_rechecked	exampleTranslations[1]	Avoid assuming the document was considered lost.
+1461	所持	しょじ	名詞	fixed_rechecked	t	Distinguish actual possession from ownership.
+1463	庶民	しょみん	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize 庶民の味方 and 親しまれてきた.
+1467	書面	しょめん	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the written agreement and exchange of documents.
+1469	徐行	じょこう	名詞	fixed_rechecked	exampleTranslations[1]	Clarify the track section under inspection while retaining slow movement.
