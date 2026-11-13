@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "registry_rows": 5843,
+  "registry_counts": {
+    "reviewed": 3892,
+    "pending": 1892,
+    "fixed_rechecked": 59
+  },
+  "vocabulary_counts": {
+    "reviewed": 3327,
+    "pending": 529,
+    "fixed_rechecked": 58
+  },
+  "lexical_pair_counts": {
+    "reviewed": 18,
+    "pending": 841
+  },
+  "reviewed_meaning_quizzes": 266,
+  "author_credit": "3385/3914",
+  "new_reviewed_meaning_quiz": [
+    "v_2468"
+  ],
+  "vocabulary_credit_change": 0,
+  "independent_acceptance": false,
+  "physical_acceptance": false
+}

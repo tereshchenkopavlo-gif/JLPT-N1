@@ -1,0 +1,2 @@
+kind	key	decision	scope	evidence	acceptance_boundary
+reviewed_meaning_quiz	v_2468	reviewed	two context-specific example payloads	completion/v179-c11-review.tsv; completion/v179-source-review.md	author review only; not independent linguistic acceptance
