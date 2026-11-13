@@ -112,10 +112,15 @@
     }
   },
   "exact_rollback": true,
-  "status": "initial checkpoint; candidate not yet built",
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_guard": "0982a2699179c0ad0a9d01b0674e07edf60364f6",
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
-  "provenance_legal_acceptance": "not performed"
+  "provenance_legal_acceptance": "not performed",
+  "candidate_sha256": "9166c9c55fac5478dda8768da705986ce9ba42d7f8fb43ae259848d17df156ec",
+  "candidate_blob_sha": "82e8ec96f948084777863e52958e98203b724c25",
+  "candidate_bytes": 6950652,
+  "chromium_verification": "passed",
+  "workflow_run_id": 43496573498
 }

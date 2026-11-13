@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "candidate_sha256": "9166c9c55fac5478dda8768da705986ce9ba42d7f8fb43ae259848d17df156ec",
+  "candidate_bytes": 6950652,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 15,
+  "fixed_rechecked_count": 8,
+  "reviewed_unchanged_count": 7,
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
