@@ -1,0 +1,2 @@
+id	word	current_pos	linguistic_finding	before_reading_candidates	after_reading_candidates	before_cloze_candidates	after_cloze_candidates	decision
+1631	相応	名詞	ナ形も妥当だが、追加するとPOS文字列の完全一致により自動reading候補とcloze候補が大幅に減る。学習ロジック変更は未承認のためPOSは変更せずpendingを維持。	60	2	2269	65	deferred_pending
