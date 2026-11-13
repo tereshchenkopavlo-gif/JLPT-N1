@@ -20,12 +20,12 @@ Pilot v153 evidence was retrieved from `completion/v153-cards-561-620.tsv` and `
 
 ## Sources
 
-- [Kotobank — インフルエンザ](https://kotobank.jp/word/いんふるえんざ-3143764)
-- [Kotobank — ウイルス](https://kotobank.jp/word/ういるす-1507036)
-- [Kotobank — カウンター](https://kotobank.jp/word/かうんたー-3179079)
-- [Kotobank — ベース](https://kotobank.jp/word/べーす-3186518)
-- [Kotobank — 当然](https://kotobank.jp/word/当然-560)
-- [Kotobank — オーバー](https://kotobank.jp/word/オーバー-127458)
+- [Kotobank — インフルエンザ](https://kotobank.jp/word/%E3%81%84%E3%82%93%E3%81%B5%E3%82%8B%E3%81%88%E3%82%93%E3%81%96-3143764)
+- [Kotobank — ウイルス](https://kotobank.jp/word/%E3%81%86%E3%81%84%E3%82%8B%E3%81%99-1507036)
+- [Kotobank — カウンター](https://kotobank.jp/word/%E3%81%8B%E3%81%86%E3%82%93%E3%81%9F%E3%83%BC-3179079)
+- [Kotobank — ベース](https://kotobank.jp/word/%E3%81%B9%E3%83%BC%E3%81%99-3186518)
+- [Kotobank — 当然](https://kotobank.jp/word/%E5%BD%93%E7%84%B6-580778)
+- [Kotobank — オーバー](https://kotobank.jp/word/%E3%81%8A%E3%83%BC%E3%81%B0%E3%83%BC-3208656)
 - [Kotobank — やがて](https://kotobank.jp/word/軈て-647614)
 - [Kotobank — カウンターアタック](https://kotobank.jp/word/かうんたーあたつく-3209135)
 
