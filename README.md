@@ -1,9 +1,9 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-Актуальна v187. У C10 повністю переглянуто 12 карток ID615, 616, 618, 624, 629, 644, 651, 654, 663, 664, 672, 674: 9 fixed_rechecked, 1 reviewed без змін, 2 залишено pending для C11 POS/quiz-аналізу. Внесено 13 точних змін у 10 картках. [Повний HTML](JLPT_N1_ukrainian_reading_v187.html) · [Аудит v187](JLPT_N1_v187_audit.md)
+Актуальна v188. У C10 повністю переглянуто 12 карток ID677, 683, 685, 687, 691, 692, 697, 701, 703, 706, 707, 708: усі 12 fixed_rechecked. Внесено 16 точних змін у 12 картках; японські приклади й POS не змінювалися. [Повний HTML](JLPT_N1_ukrainian_reading_v188.html) · [Аудит v188](JLPT_N1_v188_audit.md)
 
-SHA-256: f321dd68a4beb1958031b000dd8eb94de9106cfc5e84041c4d70ca8cc0e67656 · 6942301 байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3439/3914; реєстр — 3906 reviewed /103 fixed_rechecked /1838 pending; словниковий зріз — 3337 /102 /475. C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
+SHA-256: __V188_SHA256__ · __V188_BYTES__ байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3451/3914; реєстр — 3906 reviewed /115 fixed_rechecked /1826 pending; словниковий зріз — 3337 /114 /463. C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
 
-Докази v187: completion/v187-prepare-results.json, completion/v187-browser-results.json, completion/v187-registry-results.json, completion/v187-acceptance.tsv, completion/v187-c10-review.tsv, completion/v187-source-review.md. Наступні доступні pending ID: 677, 683, 685, 687, 691, 692, 697, 701, 703, 706, 707, 708; робоча гілка — work/v188-c10-next-pending.
+Докази v188: completion/v188-prepare-results.json, completion/v188-browser-results.json, completion/v188-registry-results.json, completion/v188-acceptance.tsv, completion/v188-c10-review.tsv, completion/v188-source-review.md. Наступні доступні pending ID: 712, 715, 720, 722, 724, 731, 739, 741, 744, 745, 746, 749; робоча гілка — work/v189-c10-next-pending.
 
-Нижче збережено історичний журнал v18–v26; він не описує поточний стан.
+Нижче збережено історичний журнал; він не описує поточний стан.
