@@ -1,0 +1,72 @@
+name: JLPT N1 v216 C10 author review
+on:
+  push:
+    branches: [work/v216-c10-next-pending]
+    paths:
+      - "completion/v216-work/trigger.txt"
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v216-c10
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v216-c10-next-pending
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build candidate and registry
+        run: node completion/v216-work/verify.cjs
+      - name: Check JavaScript syntax
+        run: |
+          node --check completion/v216-work/verify.cjs
+          node --check completion/v216-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Run Chromium acceptance
+        run: node completion/v216-work/browser.cjs
+      - name: Copy evidence and mark checkpoint
+        if: success()
+        run: |
+          cp completion/v216-work/prepare-results.json completion/v216-prepare-results.json
+          cp completion/v216-work/registry-results.json completion/v216-registry-results.json
+          cp completion/v216-work/browser-results.json completion/v216-browser-results.json
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const p='completion/v216-work/checkpoint.json',d=JSON.parse(fs.readFileSync(p,'utf8'));
+          d.status='candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication';
+          d.chromium_verification='passed';d.workflow_run_id=Number(process.env.GITHUB_RUN_ID);
+          fs.writeFileSync(p,JSON.stringify(d,null,2)+'\n');
+          const a='JLPT_N1_v216_audit.md';fs.writeFileSync(a,fs.readFileSync(a,'utf8').replace('TECHNICAL_STATUS_PENDING','TECHNICAL_STATUS_PASS'));
+          NODE
+      - name: Save verified candidate and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v216.html JLPT_N1_v216_audit.md completion/review-register.csv completion/v216-work/checkpoint.json completion/v216-work/prepare-results.json completion/v216-work/registry-results.json completion/v216-work/browser-results.json completion/v216-work/rendered-debug.json completion/v216-prepare-results.json completion/v216-registry-results.json completion/v216-browser-results.json
+          git commit -m "Save v216 deterministic and Chromium evidence"
+          git push origin HEAD:work/v216-c10-next-pending
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jlpt-n1-v216-c10-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v216.html
+            JLPT_N1_v216_audit.md
+            completion/v216-acceptance.tsv
+            completion/v216-c10-review.tsv
+            completion/v216-field-changes.tsv
+            completion/v216-source-review.md
+            completion/v216-work/checkpoint.json
+            completion/v216-work/prepare-results.json
+            completion/v216-work/registry-results.json
+            completion/v216-work/browser-results.json
+            completion/v216-work/rendered-debug.json

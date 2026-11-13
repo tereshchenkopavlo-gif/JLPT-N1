@@ -1,0 +1,121 @@
+{
+  "version": "v216",
+  "base_version": "v215",
+  "base_main_sha": "0982a2699179c0ad0a9d01b0674e07edf60364f6",
+  "base_html_sha256": "f537227849b1dd5ac31577b641e05db4d3ab5af05007cd3721aabe31df015de1",
+  "base_html_blob": "9b17504499ab3a0160d1a69d98d3333ad811e383",
+  "base_html_bytes": 6950166,
+  "branch": "work/v216-c10-next-pending",
+  "scope_ids": [
+    1475,
+    1755,
+    1776,
+    1795,
+    1833,
+    1985,
+    2058,
+    2116,
+    2214,
+    2222,
+    3005,
+    3006,
+    3010,
+    3017,
+    3023
+  ],
+  "fixed_rechecked_ids": [
+    1475,
+    1795,
+    1985,
+    2058,
+    2214,
+    2222,
+    3006,
+    3017
+  ],
+  "reviewed_ids": [
+    1755,
+    1776,
+    1833,
+    2116,
+    3005,
+    3010,
+    3023
+  ],
+  "deferred_ids": [
+    {
+      "id": 1492,
+      "reason": "separate content review; historical pilot evidence preserved"
+    },
+    {
+      "id": 1510,
+      "reason": "separate content review; excluded from this author batch"
+    },
+    {
+      "id": 1631,
+      "reason": "C11 POS/quiz dependency; do not alter POS before pool review"
+    },
+    {
+      "id": 1878,
+      "reason": "existing unresolved issue; avoid duplicate work"
+    },
+    {
+      "id": 2734,
+      "reason": "C11 POS classification dependency; defer until quiz-pool review"
+    }
+  ],
+  "expected_field_updates": 9,
+  "pair_reviewed": [],
+  "author_credit_before": 3756,
+  "author_credit_addition": 15,
+  "author_credit_after": 3771,
+  "pilot_files": {
+    "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
+  },
+  "pilot_covered_ids": [
+    1475
+  ],
+  "pilot_missing_ids": [
+    1755,
+    1776,
+    1795,
+    1833,
+    1985,
+    2058,
+    2116,
+    2214,
+    2222,
+    3005,
+    3006,
+    3010,
+    3017,
+    3023
+  ],
+  "expected_registry_after": {
+    "all": {
+      "reviewed": 3925,
+      "fixed_rechecked": 419,
+      "pending": 1503,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3354,
+      "fixed_rechecked": 417,
+      "pending": 143,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 20,
+      "fixed_rechecked": 1,
+      "pending": 838,
+      "total": 859
+    }
+  },
+  "exact_rollback": true,
+  "status": "initial checkpoint; candidate not yet built",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch",
+  "main_guard": "0982a2699179c0ad0a9d01b0674e07edf60364f6",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed"
+}
