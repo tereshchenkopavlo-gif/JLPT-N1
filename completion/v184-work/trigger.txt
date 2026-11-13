@@ -1,1 +1,1 @@
-Retry v184 with diagnostic output for the ID488 detail renderer.
+Retry v184 after adjusting the UI assertion for semicolon-separated translation segments rendered as separate lines.

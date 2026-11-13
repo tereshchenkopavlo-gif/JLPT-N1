@@ -79,17 +79,14 @@ async function main(){
           id,
           word:d.w,
           titleVisible:normalize(text).includes(normalize(d.w)),
-          translationVisible:normalize(text).includes(normalize(d.t)),
+          translationVisible:d.t.split(';').every(part=>normalize(text).includes(normalize(part))),
           examplesVisible:d.exampleTranslations.every(t=>normalize(text).includes(normalize(t))),
-          bodyTextLength:text.length,
-          debugText:id===488?text:undefined,
-          debugTranslation:id===488?d.t:undefined
+          bodyTextLength:text.length
         });
       }
       return results;
     },IDS);
     assert.equal(rendered.length,12);
-    process.stdout.write('RENDERED CARD CHECK '+JSON.stringify(rendered)+'\\n');
     assert.equal(rendered.every(x=>x.titleVisible&&x.translationVisible&&x.examplesVisible),true,'one or more reviewed cards did not render all translations');
 
     const responsive=[];
