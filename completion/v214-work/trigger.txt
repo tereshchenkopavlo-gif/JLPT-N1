@@ -1,0 +1,1 @@
+Trigger v214 deterministic build, registry checks and Chromium acceptance; attempt 1 after correcting candidate metadata and passing EXPECTED into the browser page scope.
