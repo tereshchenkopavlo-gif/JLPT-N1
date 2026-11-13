@@ -1,0 +1,79 @@
+{
+  "version": "v213",
+  "base_version": "v212",
+  "base_main_sha": "8c61eeb6cce2e8455467f45ad4f80a660d30e597",
+  "base_html_sha256": "a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5",
+  "base_html_blob": "c498bc222a6ec3cf513065a9139e0697446df8e3",
+  "base_html_bytes": 6949301,
+  "scope_ids": [
+    1528,
+    1529,
+    1539,
+    1541,
+    1542,
+    1548,
+    1551,
+    1554,
+    1558,
+    1625,
+    1628,
+    1631
+  ],
+  "fixed_rechecked_ids": [
+    1528,
+    1529,
+    1539,
+    1541,
+    1542,
+    1548,
+    1551,
+    1554,
+    1558,
+    1625,
+    1628
+  ],
+  "pending_ids": [
+    1631
+  ],
+  "reviewed_ids": [],
+  "expected_field_updates": 13,
+  "deferred_count": 1,
+  "pos_change_deferred": {
+    "id": 1631,
+    "from": [
+      "名詞"
+    ],
+    "proposed": [
+      "名詞",
+      "ナ形"
+    ],
+    "reading_candidates_before": 60,
+    "reading_candidates_after": 2,
+    "cloze_candidates_before": 2269,
+    "cloze_candidates_after": 65
+  },
+  "author_credit_before": 3714,
+  "author_credit_addition": 11,
+  "author_credit_after": 3725,
+  "pilot_v153_ids": [
+    1528,
+    1529,
+    1539,
+    1541,
+    1542,
+    1548,
+    1551,
+    1554,
+    1558,
+    1625,
+    1628,
+    1631
+  ],
+  "pilot_files": {
+    "completion/v153-cards-1521-1560.tsv": "d206d88b12e53e4e0d110732c26de5075a48e601",
+    "completion/v153-cards-1561-1620.tsv": "6118ba60c8608cabdad3e10e6c602c93d6942522",
+    "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298"
+  },
+  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch"
+}
