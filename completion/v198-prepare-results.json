@@ -1,0 +1,87 @@
+{
+  "pass": true,
+  "base_version": "v197",
+  "base_sha256": "d158eb7d7a619718e982ad4117f603f208339178d47ec0417c2adeab238c1620",
+  "candidate_version": "v198",
+  "candidate_sha256": "32c0bf74d083db74576d53a249ec1858352f20efcea9a72dd3c80daf3a17a39c",
+  "candidate_bytes": 6945040,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    1015,
+    1016,
+    1026,
+    1027
+  ],
+  "fixed_rechecked": [
+    1015,
+    1016,
+    1026,
+    1027
+  ],
+  "reviewed_without_change": [],
+  "already_reviewed_excluded": [
+    1018,
+    1021,
+    1023,
+    1024,
+    1025,
+    1030,
+    1031,
+    1034
+  ],
+  "pending_c11": [],
+  "updated_fields": 4,
+  "changed_cards": [
+    1015,
+    1016,
+    1026,
+    1027
+  ],
+  "field_updates": [
+    {
+      "id": 1015,
+      "field": "exampleTranslations[1]",
+      "before": "Самої лише високоякісної знімальної апаратури недостатньо для створення гарного твору.",
+      "after": "Самої лише знімальної апаратури з високими технічними характеристиками недостатньо, щоб створити хороший твір."
+    },
+    {
+      "id": 1016,
+      "field": "usage",
+      "before": "Іменник; 実家に帰省する、帰省中. Тимчасово повернутися до батьківського дому чи рідних місць, часто відвідати родину. 帰郷 ширше — повернення на батьківщину, також постійне. Святкова дата для 帰省 не обов’язкова.",
+      "after": "Іменник; 実家に帰省する、帰省中. Тимчасово повернутися до батьківського дому чи рідних місць, часто відвідати родину. 帰郷 ширше — повернення в рідні місця; може бути постійним. Святкова дата для 帰省 не обов’язкова."
+    },
+    {
+      "id": 1026,
+      "field": "exampleTranslations[0]",
+      "before": "Багато родичів вступників відвідують святилище, щоб помолитися про успішне складання іспитів.",
+      "after": "Багато родичів тих, хто складає іспити, відвідують святилище, щоб помолитися за їхній успіх."
+    },
+    {
+      "id": 1027,
+      "field": "m",
+      "before": "物事の内容や手続きを、規則として定めること。",
+      "after": "物事の内容や手続きを、規則として定めること。また、そのように定められた条項や規則。"
+    }
+  ],
+  "author_credit_before": 3559,
+  "author_credit_addition": 4,
+  "author_credit_after": 3563,
+  "protected_unchanged": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_POS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_MEANING_QUIZZES": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true
+  },
+  "japanese_examples_unchanged": true,
+  "exact_rollback": true,
+  "register_updated": true,
+  "register_mode": "applied_from_baseline",
+  "author_review_only": true
+}
