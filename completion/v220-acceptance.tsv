@@ -1,0 +1,15 @@
+kind	key	decision	change	note
+vocab	3344	fixed_rechecked	changed	今や
+vocab	3349	fixed_rechecked	changed	若干
+vocab	3364	fixed_rechecked	changed	相変わらず
+vocab	3369	fixed_rechecked	changed	大概
+vocab	3370	fixed_rechecked	changed	大方
+vocab	3352	reviewed	unchanged	所詮
+vocab	3357	reviewed	unchanged	真っ二つに
+vocab	3360	reviewed	unchanged	先立って
+vocab	3368	reviewed	unchanged	大して
+vocab	3373	reviewed	unchanged	中途半端に
+vocab	3345	blocked	unchanged	散々 — C11 POS/quiz
+vocab	3363	blocked	unchanged	相当 — C11 POS/quiz
+vocab_pair	413	reviewed	unchanged	1634/3363
+vocab_pair	760	reviewed	unchanged	3318/3368
