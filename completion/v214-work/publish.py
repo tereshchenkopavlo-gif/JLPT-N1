@@ -1,7 +1,7 @@
 import hashlib,json,shutil,subprocess
 from pathlib import Path
 ROOT=Path.cwd().resolve()
-EXPECTED_MAIN="__CURRENT_MAIN_HEAD__"
+EXPECTED_MAIN="27301098f01d539f88c9b6fa3a922d0c44bd7538"
 HTML_PATH="JLPT_N1_ukrainian_reading_v214.html"
 PUBLISH_PATHS=[
  HTML_PATH,"JLPT_N1_v214_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md",
@@ -33,15 +33,21 @@ for rel in PUBLISH_PATHS:
   content=content.replace("__V214_SHA256__",digest).replace("__V214_BYTES__",str(size)).replace("__V214_BLOB__",blob_sha)
   if rel=="README.md":
    content=content.replace("Актуальна опублікована редакція: v213.","Актуальна опублікована редакція: v214.")
+   content=content.replace("Повний автономний HTML v213","Повний автономний HTML v214").replace("JLPT_N1_ukrainian_reading_v213.html","JLPT_N1_ukrainian_reading_v214.html")
+   content=content.replace("Авторський аудит v213","Авторський аудит v214").replace("JLPT_N1_v213_audit.md","JLPT_N1_v214_audit.md")
    content=content.replace("## Кандидат v214","## Стан випуску v214")
    content=content.replace("Кандидат v214 у гілці work/v214-c10-next-pending:","Опубліковано v214:")
   elif rel=="PROJECT_STATUS.md":
-   content=content.replace("Актуальна **v213** у main. Кандидат **v214** у гілці work/v214-c10-next-pending, ще не опублікований.","Актуальна **v214** у main після guarded-публікації.")
+   old_top="Оновлено 14 листопада 2026. Актуальна **v213** у main. Кандидат **v214** у гілці work/v214-c10-next-pending, ще не опублікований. Повний HTML v213 — 6949518 байтів, SHA-256 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c, Git blob 8140c2c267ef1b947f129ae133809ca25bfe135c."
+   new_top=f"Оновлено 14 листопада 2026. Актуальна **v214** у main після guarded-публікації. Повний HTML v214 — {size} байтів, SHA-256 {digest}, Git blob {blob_sha}."
+   content=content.replace(old_top,new_top)
    content=content.replace("## Поточний кандидат v214","## Опублікований випуск v214")
    content=content.replace("Підготовлено 13 точних змін","Внесено 13 точних змін")
    content=content.replace("Очікуваний авторський credit після v214","Авторський credit після v214")
    content=content.replace("Кандидат v214 ще не зібрано; deterministic build, перевірка реєстру та Chromium acceptance очікують запуску.",f"Опублікований HTML v214: {size} байтів, SHA-256 {digest}, Git blob {blob_sha}. Deterministic build, registry та Chromium acceptance успішні.")
   elif rel=="completion/BACKLOG.md":
+   content=content.replace("Поточний HTML — v213, SHA-256 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c;","Поточний HTML — v214, SHA-256 "+digest+";")
+   content=content.replace("v214 candidate — C10:","v214 — C10:")
    content=content.replace("v214 candidate:","v214 опубліковано:")
   elif rel=="JLPT_N1_v214_audit.md":
    content=content.replace("Кандидат v214:","Опублікований v214:")
