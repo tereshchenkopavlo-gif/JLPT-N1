@@ -1,1 +1,1 @@
-Retry v182 POS and reading-quiz candidate after correcting browser-side distractor source assertion.
+Retry v182 finalization after correcting the register's explicit object-kind counts.
