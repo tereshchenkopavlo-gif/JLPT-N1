@@ -1,0 +1,1 @@
+Trigger v211 C10 deterministic build and Chromium acceptance; attempt 1. Safe reviewed scope: ten cards; two other pending records remain untouched.
