@@ -60,7 +60,7 @@
     "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729",
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "author review complete; deterministic candidate, registry and Chromium verification passed; exact-artifact publication pending",
+  "status": "deterministic build, registry and Chromium acceptance pass; guarded publisher decode bug corrected; publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_guard": "59e621fed204052574e2349752c338fab17598e8",
   "pr_number": null,
@@ -82,6 +82,12 @@
       "status": "failed",
       "stage": "chromium_acceptance",
       "reason": "The test still asserted 12 rendered cards after expanding scope to 19; updated rendered.length assertion to 19."
+    },
+    {
+      "run_id": 43491535424,
+      "status": "failed",
+      "stage": "guarded_publication",
+      "reason": "publish.py decoded content only for documentation paths; full HTML hit NameError before copy. Set content=raw.decode('utf-8') for every artifact."
     }
   ],
   "japanese_definition_changes": [
