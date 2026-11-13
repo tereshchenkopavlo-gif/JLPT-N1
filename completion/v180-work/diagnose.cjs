@@ -66,7 +66,22 @@ async function main(){
         markTarget:SmartEngine.markTarget.toString().slice(0,9000),
         getDefinition:SmartEngine.getDefinition.toString().slice(0,9000)
       };
-      const original255=clone(VOCAB_POS_BY_ID['255']),original327=clone(VOCAB_POS_BY_ID['327']);
+        const uniquePool=item=>{
+        const v=item,word=v.w,reading=v.r,frame=readingFrame(word);
+        const pos=vocabPartOfSpeech(v.id).join('|');
+        const prefix=(word.match(/^[ぁ-ゟー]+/)||[''])[0];
+        const tail=(word.match(/[ぁ-ゟー]+$/)||[''])[0];
+        if((prefix&&!reading.startsWith(prefix))||(tail&&!reading.endsWith(tail)))return [];
+        const core=reading.slice(prefix.length,tail.length?-tail.length:undefined);
+        const raw=ACTIVE_VOCAB.filter(x=>x.id!==v.id&&x.r!==reading&&/^[ぁ-ゟー]+$/.test(x.r||'')&&readingFrame(x.w)===frame&&vocabPartOfSpeech(x.id).join('|')===pos&&Math.abs(x.r.length-reading.length)<=1&&(!prefix||x.r.startsWith(prefix))&&(!tail||x.r.endsWith(tail)))
+          .map(x=>({id:x.id,word:x.w,reading:x.r,pos:vocabPartOfSpeech(x.id),distance:readingDistance(core,x.r.slice(prefix.length,tail.length?-tail.length:undefined))}))
+          .filter(x=>x.distance>0&&x.distance<=2)
+          .sort((a,b)=>a.distance-b.distance||a.reading.localeCompare(b.reading));
+        const seen=new Set(),out=[];
+        for(const x of raw){if(!seen.has(x.reading)){seen.add(x.reading);out.push(x);}}
+        return out.slice(0,6);
+      };
+    const original255=clone(VOCAB_POS_BY_ID['255']),original327=clone(VOCAB_POS_BY_ID['327']);
       const ids=impact.changed_pools.map(x=>Number(x.id));
       const compute=id=>{
         const w=getVocab(id);if(!w)throw new Error('Missing affected pool ID '+id);
