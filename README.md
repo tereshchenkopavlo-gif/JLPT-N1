@@ -18,3 +18,7 @@ HTML v213: 6 949 518 байтів; SHA-256: 806a4649ec32fa1d85fd3cd7066fcdcc0543
 Опубліковано v214: 12 pending-карток, 13 точних змін у 12 картках, три уточнення японських дефініцій і дві пари, переглянуті без зміни тексту. Авторський credit — **3737/3914**. Реєстр після v214: 3918/392/1537 загалом, 3347/390/177 у словнику, 20/1/838 для пар. Deterministic build, Python/Node syntax, registry та Chromium acceptance (360/412/1280 px, storage round-trip, 0 page errors) пройшли. [Успішний workflow run 43482353153](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43482353153); publication commit 16c0d83abe9c0fb51a830543e4aed696ad55c97e. PR #39 закрито без злиття; [збережена робоча гілка v214](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v214-c10-next-pending).
 
 Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
+
+## Кандидат v215
+
+Кандидат v215 у гілці work/v215-c10-next-pending: 19 карток (ID 1019, 1028, 1078, 1082, 1089, 1093, 1191, 1255, 1258, 1260, 1270, 1272, 1276, 1280, 1285, 1290, 1292, 1293, 1296), 23 точні зміни; звірено докази пілота v153. Очікуваний авторський credit — **3756/3914**. POS-мапу та механізм вправ не змінюють; ID1280 залишається з наявною позначкою 名詞 після словникової звірки. Вісім окремо зарезервованих C11/quiz-залежних ID не включено. Детермінований build, перевірка реєстру й Chromium acceptance ще не проведені. [Робоча гілка v215](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v215-c10-next-pending).
