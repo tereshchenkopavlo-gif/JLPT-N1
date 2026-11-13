@@ -4,11 +4,11 @@
 Кандидат: v218, повний автономний HTML.
 Робоча гілка: work/v218-c10-next-pending.
 Workflow run: буде записано після Chromium acceptance.
-HTML bytes: __V218_BYTES__.
-SHA-256: __V218_SHA256__.
-Git blob: __V218_BLOB__.
+HTML bytes: 6951452.
+SHA-256: adc7376d13a74d6d2f9ed00a5d35a9695f4728066aa66659b1ab01218433e425.
+Git blob: 1776fcf8ae696335afd1417ebca9410d9eae1945.
 
-TECHNICAL_STATUS_PENDING
+TECHNICAL_STATUS_PASS
 
 ## Авторський обсяг
 

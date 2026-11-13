@@ -1,0 +1,99 @@
+{
+  "pass": true,
+  "base_version": "v217",
+  "base_main_sha": "f8a54df76e6187f3f87b4f4f9977c0612235228c",
+  "base_sha256": "58d01e555bdf84810bd16237d8fcf755cbdcf756fb1a8784046eca144e58f79b",
+  "candidate_version": "v218",
+  "candidate_sha256": "adc7376d13a74d6d2f9ed00a5d35a9695f4728066aa66659b1ab01218433e425",
+  "candidate_blob_sha": "1776fcf8ae696335afd1417ebca9410d9eae1945",
+  "candidate_bytes": 6951452,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    3119,
+    3127,
+    3131,
+    3164,
+    3168,
+    3169,
+    3176,
+    3208,
+    3234,
+    3266,
+    3269,
+    3272
+  ],
+  "fixed_rechecked": [
+    3119,
+    3127,
+    3131,
+    3164,
+    3168,
+    3169,
+    3176,
+    3234,
+    3269
+  ],
+  "reviewed_ids": [
+    3208,
+    3266,
+    3272
+  ],
+  "updated_fields": 16,
+  "changed_cards": [
+    3119,
+    3127,
+    3131,
+    3164,
+    3168,
+    3169,
+    3176,
+    3234,
+    3269
+  ],
+  "pos_map_unchanged": true,
+  "examples_unchanged": true,
+  "comparison_pairs_unchanged": true,
+  "author_credit_before": 3783,
+  "author_credit_addition": 12,
+  "author_credit_after": 3795,
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3119,
+    3127,
+    3131,
+    3164,
+    3168,
+    3169,
+    3176,
+    3208,
+    3234,
+    3266,
+    3269,
+    3272
+  ],
+  "exact_rollback": true,
+  "register_after": {
+    "all": {
+      "reviewed": 3935,
+      "fixed_rechecked": 433,
+      "pending": 1479,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3364,
+      "fixed_rechecked": 431,
+      "pending": 119,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 20,
+      "fixed_rechecked": 1,
+      "pending": 838,
+      "total": 859
+    }
+  },
+  "author_review_only": true
+}

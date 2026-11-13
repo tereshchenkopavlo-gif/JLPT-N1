@@ -3117,7 +3117,7 @@ vocab,3115,vocab:3115,reviewed,completion/v163-cards-3101-3120.tsv#3115; author 
 vocab,3116,vocab:3116,reviewed,completion/v163-cards-3101-3120.tsv#3116; author linguistic review
 vocab,3117,vocab:3117,reviewed,completion/v163-cards-3101-3120.tsv#3117; author linguistic review
 vocab,3118,vocab:3118,reviewed,completion/v163-cards-3101-3120.tsv#3118; author linguistic review
-vocab,3119,vocab:3119,pending,
+vocab,3119,vocab:3119,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3120,vocab:3120,reviewed,completion/v163-cards-3101-3120.tsv#3120; author linguistic review
 vocab,3121,vocab:3121,reviewed,completion/v163-cards-3121-3140.tsv#3121; author linguistic review
 vocab,3122,vocab:3122,reviewed,completion/v163-cards-3121-3140.tsv#3122; author linguistic review
@@ -3125,11 +3125,11 @@ vocab,3123,vocab:3123,reviewed,completion/v163-cards-3121-3140.tsv#3123; author 
 vocab,3124,vocab:3124,reviewed,completion/v163-cards-3121-3140.tsv#3124; author linguistic review
 vocab,3125,vocab:3125,reviewed,completion/v163-cards-3121-3140.tsv#3125; author linguistic review
 vocab,3126,vocab:3126,reviewed,completion/v163-cards-3121-3140.tsv#3126; author linguistic review
-vocab,3127,vocab:3127,pending,
+vocab,3127,vocab:3127,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3128,vocab:3128,reviewed,completion/v163-cards-3121-3140.tsv#3128; author linguistic review
 vocab,3129,vocab:3129,reviewed,completion/v163-cards-3121-3140.tsv#3129; author linguistic review
 vocab,3130,vocab:3130,reviewed,completion/v166-acceptance.tsv#3130. Author linguistic review of corrected fields and prior evidence.
-vocab,3131,vocab:3131,pending,
+vocab,3131,vocab:3131,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3132,vocab:3132,reviewed,completion/v163-cards-3121-3140.tsv#3132; author linguistic review
 vocab,3133,vocab:3133,reviewed,completion/v163-cards-3121-3140.tsv#3133; author linguistic review
 vocab,3134,vocab:3134,reviewed,completion/v166-acceptance.tsv#3134. Author linguistic review of corrected fields and prior evidence.
@@ -3162,19 +3162,19 @@ vocab,3160,vocab:3160,reviewed,completion/v163-cards-3141-3160.tsv#3160; author 
 vocab,3161,vocab:3161,reviewed,completion/v163-cards-3161-3180.tsv#3161; author linguistic review
 vocab,3162,vocab:3162,reviewed,completion/v167-acceptance.tsv#3162. Author linguistic review of corrected fields and prior evidence.
 vocab,3163,vocab:3163,reviewed,completion/v163-cards-3161-3180.tsv#3163; author linguistic review
-vocab,3164,vocab:3164,pending,
+vocab,3164,vocab:3164,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3165,vocab:3165,reviewed,completion/v163-cards-3161-3180.tsv#3165; author linguistic review
 vocab,3166,vocab:3166,reviewed,completion/v163-cards-3161-3180.tsv#3166; author linguistic review
 vocab,3167,vocab:3167,reviewed,completion/v163-cards-3161-3180.tsv#3167; author linguistic review
-vocab,3168,vocab:3168,pending,
-vocab,3169,vocab:3169,pending,
+vocab,3168,vocab:3168,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
+vocab,3169,vocab:3169,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3170,vocab:3170,reviewed,completion/v163-cards-3161-3180.tsv#3170; author linguistic review
 vocab,3171,vocab:3171,reviewed,completion/v167-acceptance.tsv#3171. Author linguistic review of corrected fields and prior evidence.
 vocab,3172,vocab:3172,reviewed,completion/v163-cards-3161-3180.tsv#3172; author linguistic review
 vocab,3173,vocab:3173,reviewed,completion/v167-acceptance.tsv#3173. Author linguistic review of corrected fields and prior evidence.
 vocab,3174,vocab:3174,reviewed,completion/v163-cards-3161-3180.tsv#3174; author linguistic review
 vocab,3175,vocab:3175,reviewed,completion/v163-cards-3161-3180.tsv#3175; author linguistic review
-vocab,3176,vocab:3176,pending,
+vocab,3176,vocab:3176,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3177,vocab:3177,reviewed,completion/v163-cards-3161-3180.tsv#3177; author linguistic review
 vocab,3178,vocab:3178,reviewed,completion/v163-cards-3161-3180.tsv#3178; author linguistic review
 vocab,3179,vocab:3179,reviewed,completion/v163-cards-3161-3180.tsv#3179; author linguistic review
@@ -3206,7 +3206,7 @@ vocab,3204,vocab:3204,reviewed,completion/v168-acceptance.tsv#3204. Author lingu
 vocab,3205,vocab:3205,reviewed,completion/v168-acceptance.tsv#3205. Author linguistic review of corrected fields and prior evidence.
 vocab,3206,vocab:3206,reviewed,completion/v164-cards-3201-3220.tsv#3206; author linguistic review
 vocab,3207,vocab:3207,reviewed,completion/v168-acceptance.tsv#3207. Author linguistic review of corrected fields and prior evidence.
-vocab,3208,vocab:3208,pending,
+vocab,3208,vocab:3208,reviewed,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3209,vocab:3209,reviewed,completion/v164-cards-3201-3220.tsv#3209; author linguistic review
 vocab,3210,vocab:3210,reviewed,completion/v164-cards-3201-3220.tsv#3210; author linguistic review
 vocab,3211,vocab:3211,reviewed,completion/v164-cards-3201-3220.tsv#3211; author linguistic review
@@ -3232,7 +3232,7 @@ vocab,3230,vocab:3230,reviewed,completion/v164-cards-3221-3240.tsv#3230; author 
 vocab,3231,vocab:3231,reviewed,completion/v164-cards-3221-3240.tsv#3231; author linguistic review
 vocab,3232,vocab:3232,reviewed,completion/v164-cards-3221-3240.tsv#3232; author linguistic review
 vocab,3233,vocab:3233,reviewed,completion/v164-cards-3221-3240.tsv#3233; author linguistic review
-vocab,3234,vocab:3234,pending,
+vocab,3234,vocab:3234,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3235,vocab:3235,reviewed,completion/v169-acceptance.tsv#3235. Author linguistic review of corrected fields and prior evidence.
 vocab,3236,vocab:3236,reviewed,completion/v169-acceptance.tsv#3236. Author linguistic review of corrected fields and prior evidence.
 vocab,3237,vocab:3237,reviewed,completion/v164-cards-3221-3240.tsv#3237; author linguistic review
@@ -3264,13 +3264,13 @@ vocab,3262,vocab:3262,reviewed,completion/v165-cards-3261-3280.tsv#3262; author 
 vocab,3263,vocab:3263,reviewed,completion/v165-cards-3261-3280.tsv#3263; author linguistic review
 vocab,3264,vocab:3264,reviewed,completion/v165-cards-3261-3280.tsv#3264; author linguistic review
 vocab,3265,vocab:3265,reviewed,completion/v165-cards-3261-3280.tsv#3265; author linguistic review
-vocab,3266,vocab:3266,pending,
+vocab,3266,vocab:3266,reviewed,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3267,vocab:3267,reviewed,completion/v165-cards-3261-3280.tsv#3267; author linguistic review
 vocab,3268,vocab:3268,reviewed,completion/v165-cards-3261-3280.tsv#3268; author linguistic review
-vocab,3269,vocab:3269,pending,
+vocab,3269,vocab:3269,fixed_rechecked,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3270,vocab:3270,reviewed,completion/v165-cards-3261-3280.tsv#3270; author linguistic review
 vocab,3271,vocab:3271,reviewed,completion/v165-cards-3261-3280.tsv#3271; author linguistic review
-vocab,3272,vocab:3272,pending,
+vocab,3272,vocab:3272,reviewed,"JLPT_N1_v218_audit.md; completion/v218-acceptance.tsv; completion/v218-c10-review.tsv; author review, not independent; provenance/physical excluded"
 vocab,3273,vocab:3273,reviewed,completion/v165-cards-3261-3280.tsv#3273; author linguistic review
 vocab,3274,vocab:3274,reviewed,completion/v165-cards-3261-3280.tsv#3274; author linguistic review
 vocab,3275,vocab:3275,reviewed,completion/v165-cards-3261-3280.tsv#3275; author linguistic review
