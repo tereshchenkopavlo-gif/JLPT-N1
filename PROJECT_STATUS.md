@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v198** у main після успішного guarded-приймання. Кандидатний HTML — 6945040 байти, SHA-256 32c0bf74d083db74576d53a249ec1858352f20efcea9a72dd3c80daf3a17a39c. [Кандидатний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/work/v198-c10-next-pending/JLPT_N1_ukrainian_reading_v198.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/work/v198-c10-next-pending/JLPT_N1_v198_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v198** у main після успішного guarded-приймання. Повний HTML — 6945040 байти, SHA-256 32c0bf74d083db74576d53a249ec1858352f20efcea9a72dd3c80daf3a17a39c. [Повний HTML](JLPT_N1_ukrainian_reading_v198.html) · [Аудит](JLPT_N1_v198_audit.md).
 
 ## Поточний випуск v198 — C10 авторський аудит
 
@@ -10,9 +10,9 @@
 - Японські приклади, POS-map, ID, quiz payloads/targets, comparison pairs, learning engine та progress-storage code не змінювалися.
 - Авторський credit — **3563/3914**. Реєстр — 3914 reviewed /219 fixed_rechecked /1714 pending; словниковий зріз — 3345 /218 /351. Відкриті C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
 - Збережено 3914 словникових записів та унікальних ID, 130 граматичних конструкцій, 859 лексичних пар.
-- Перший workflow run зупинився на register guard через помилково включений уже reviewed ID1018; main не змінювався. Scope звужено до чотирьох pending ID перед повторним запуском.
-- Кандидат v198: **6945040 байти**, SHA-256 `32c0bf74d083db74576d53a249ec1858352f20efcea9a72dd3c80daf3a17a39c`. Детермінований preparer перевіряє 4 preimage-значення, exact rollback і незмінність захищених даних.
-- Chromium: чотири картки, ширини 360/412/1280, storage round-trip і відсутність page errors — перевіряються повторним workflow.
+- Перший workflow run зупинився на register guard через помилково включений уже reviewed ID1018; main не змінювався. Scope звужено до чотирьох pending ID, після чого workflow #28 успішно завершив усі кроки й опублікував v198 у commit `9c12c0736835a259bf723c161e02be12d23d31a3`. PR #23 закрито без злиття робочої гілки.
+- Опублікований HTML v198: **6945040 байти**, SHA-256 `32c0bf74d083db74576d53a249ec1858352f20efcea9a72dd3c80daf3a17a39c`. Детермінований preparer перевіряє 4 preimage-значення, exact rollback і незмінність захищених даних.
+- Chromium acceptance пройшов: усі 4 картки відображаються; ширини 360/412/1280 без переповнення; storage round-trip і відновлення попереднього значення успішні; page errors — 0. [Workflow v198](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43447653371).
 - Наступні доступні C10 pending: **1042, 1043, 1044, 1046, 1048, 1061, 1063, 1066, 1067, 1072, 1073, 1074**. Робоча гілка наступного етапу — **work/v199-c10-next-pending**.
 
 v198 — проміжний випуск, не кандидат 1.0. C10/C11 не завершені. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими. C12 також має невиконаний обсяг текстів, зазначений в AGENTS.md.
