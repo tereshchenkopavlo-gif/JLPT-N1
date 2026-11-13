@@ -3,7 +3,7 @@
 База: v217, main f8a54df76e6187f3f87b4f4f9977c0612235228c.
 Кандидат: v218, повний автономний HTML.
 Робоча гілка: work/v218-c10-next-pending.
-Workflow run: буде записано після Chromium acceptance.
+Workflow run: 43501574224 — success.
 HTML bytes: 6951452.
 SHA-256: adc7376d13a74d6d2f9ed00a5d35a9695f4728066aa66659b1ab01218433e425.
 Git blob: 1776fcf8ae696335afd1417ebca9410d9eae1945.
