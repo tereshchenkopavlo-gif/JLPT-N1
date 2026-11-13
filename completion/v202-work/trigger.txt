@@ -1,1 +1,1 @@
-Trigger v202 C10 deterministic and Chromium acceptance after default-branch workflow installation; attempt 2.
+Trigger v202 C10 deterministic and Chromium acceptance after exact source/example and index corrections; attempt 3.
