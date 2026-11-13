@@ -56,6 +56,15 @@
   "pilot_files": {
     "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
   },
-  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
-  "publication_policy": "copy exact verified artifacts only; never merge the work branch"
+  "status": "attempt 1 failed on browser-test field selection (similar-expression vs gloss); test corrected, attempt 2 pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": 43467929758,
+      "conclusion": "failure",
+      "failure": "Chromium assertion expected 人手不足 in the Ukrainian gloss, but the reviewed change is in the similar-expression list; no candidate was published. Deterministic build, registry, and syntax checks passed."
+    }
+  ],
+  "corrected_browser_assertion": "ID1408 人手不足 is in VOCAB_DETAILS_BY_ID.s, not t; browser preflight now checks card.similar."
 }
