@@ -7,7 +7,7 @@ UPDATES=Path("completion/v179-work/updates.json")
 BASE_SHA256="b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9"
 def compact(v): return json.dumps(v,ensure_ascii=False,separators=(",",":"))
 def block(source,name):
- m=re.search(r"\\bconst\\s+"+re.escape(name)+r"\\s*=\\s*",source)
+ m=re.search(r"\bconst\s+"+re.escape(name)+r"\\s*=\\s*",source)
  if not m: raise ValueError("Missing block "+name)
  start=m.end();value,end=json.JSONDecoder().raw_decode(source,start)
  if compact(value)!=source[start:end]: raise ValueError("Unexpected serialization "+name)
@@ -86,7 +86,7 @@ def main():
  rollback=rollback[:rs]+compact(rt)+rollback[re_:]
  if rollback!=original: raise ValueError("Exact rollback failed")
  scripts=0
- for script in re.findall(r"<script(?:\\s[^>]*)?>(.*?)</script>",html,re.S):
+ for script in re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>",html,re.S):
   if script.strip(): subprocess.run(["node","--check","-"],input=script,text=True,check=True);scripts+=1
  output=html.encode("utf-8");TARGET.write_bytes(output)
  result={"pass":True,"base_version":"v178","base_sha256":base_hash,"candidate_version":"v179","candidate_sha256":hashlib.sha256(output).hexdigest(),"candidate_bytes":len(output),"vocabulary_records":len(vocab),"grammar_records":len(grammar),"lexical_pairs":len(pairs),"changed_payloads":changed,"unchanged_blocks":counts,"inline_scripts_checked":scripts,"exact_rollback":True,"author_credit_change":0}
