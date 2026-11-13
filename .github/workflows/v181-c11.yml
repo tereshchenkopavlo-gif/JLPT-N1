@@ -1,0 +1,63 @@
+name: JLPT N1 v181 C11 contextual meaning review
+on:
+  push:
+    branches: [work/v181-c11-id2433-quiz-review]
+    paths:
+      - 'completion/v181-work/**'
+      - 'completion/v180-work/**'
+      - '.github/workflows/v181-c11.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v181-c11
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save v181 verified evidence')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v181-c11-id2433-quiz-review
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply exact v181 content-only patch
+        run: python3 completion/v181-work/apply.py
+      - name: Check script syntax
+        run: |
+          python3 -m py_compile completion/v181-work/apply.py completion/v181-work/finalize.py
+          node --check completion/v181-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify both contextual questions, cloze eligibility and progress
+        run: node completion/v181-work/browser.cjs
+      - name: Finalize author acceptance, registry and release notes
+        run: python3 completion/v181-work/finalize.py
+      - name: Save verified checkpoint and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v181.html JLPT_N1_v181_audit.md completion/review-register.csv completion/v181-acceptance.tsv completion/v181-c11-review.tsv completion/v181-registry-results.json completion/v181-work completion/v180-c11-diagnostics.json completion/v180-c11-checkpoint.json completion/v180-c11-preaudit-notes.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Save v181 verified evidence and C11 contextual review"
+            git push origin HEAD:work/v181-c11-id2433-quiz-review
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v181-c11-contextual-meaning-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v181.html
+            JLPT_N1_v181_audit.md
+            completion/v181-*
+            completion/v180-c11-*
+          if-no-files-found: error

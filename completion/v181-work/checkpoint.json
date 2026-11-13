@@ -1,0 +1,25 @@
+{
+  "checkpoint": "v181-c11-id2433-quiz-review",
+  "created": "2026-11-13",
+  "base_main_sha": "0efb016eac498c35559b0f14a929360b8db46eb0",
+  "base_html": "JLPT_N1_ukrainian_reading_v179.html",
+  "base_html_sha256": "359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8",
+  "previous_status_branch": "work/v179-c11-context-quiz-review",
+  "previous_status_head": "d55542503d39373084b8f9a6ec4fb361a9d27545",
+  "latest_diagnostic_branch": "work/v180-c11-cloze-diagnostics",
+  "latest_diagnostic_head": "4cc1bfa6dca558768f3dd95187969d9958144814",
+  "scope": [
+    "ID2433 そびえる: two exact context-specific meaning sets",
+    "verify that adding saved meaning payload does not remove a previously available cloze task",
+    "preserve the v180 23-pool POS/reading diagnostic without changing POS or reading overrides"
+  ],
+  "guardrails": [
+    "content-only saved quiz payload",
+    "no learning engine changes",
+    "no POS or reading override changes",
+    "no progress/storage changes",
+    "no new full-card credit",
+    "author review is not independent acceptance"
+  ],
+  "status": "pending deterministic preparation and Chromium verification"
+}
