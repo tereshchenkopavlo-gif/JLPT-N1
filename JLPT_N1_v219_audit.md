@@ -2,11 +2,11 @@
 
 База: повний v218 у main, HTML SHA-256 adc7376d13a74d6d2f9ed00a5d35a9695f4728066aa66659b1ab01218433e425.
 Кандидат: повний автономний HTML v219.
-HTML bytes: __V219_BYTES__.
-SHA-256: __V219_SHA256__.
-Git blob: __V219_BLOB__.
+HTML bytes: 6951877.
+SHA-256: abfaf537a365d5389138f1f0e514c20f2f181cf51ac33ea7b34fb7de48f22481.
+Git blob: 352fbf13dbe837e385a5e94fef0b4002bc636f29.
 
-TECHNICAL_STATUS_PENDING
+TECHNICAL_STATUS_PASS
 
 ## Авторський обсяг
 

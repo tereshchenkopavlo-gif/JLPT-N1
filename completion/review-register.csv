@@ -3275,11 +3275,11 @@ vocab,3273,vocab:3273,reviewed,completion/v165-cards-3261-3280.tsv#3273; author 
 vocab,3274,vocab:3274,reviewed,completion/v165-cards-3261-3280.tsv#3274; author linguistic review
 vocab,3275,vocab:3275,reviewed,completion/v165-cards-3261-3280.tsv#3275; author linguistic review
 vocab,3276,vocab:3276,reviewed,completion/v165-cards-3261-3280.tsv#3276; author linguistic review
-vocab,3277,vocab:3277,pending,
+vocab,3277,vocab:3277,reviewed,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3278,vocab:3278,reviewed,completion/v165-cards-3261-3280.tsv#3278; author linguistic review
 vocab,3279,vocab:3279,reviewed,completion/v165-cards-3261-3280.tsv#3279; author linguistic review
-vocab,3280,vocab:3280,pending,
-vocab,3281,vocab:3281,pending,
+vocab,3280,vocab:3280,reviewed,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
+vocab,3281,vocab:3281,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3282,vocab:3282,reviewed,completion/v165-cards-3281-3300.tsv#3282; author linguistic review
 vocab,3283,vocab:3283,reviewed,completion/v165-cards-3281-3300.tsv#3283; author linguistic review
 vocab,3284,vocab:3284,reviewed,completion/v165-cards-3281-3300.tsv#3284; author linguistic review
@@ -3291,10 +3291,10 @@ vocab,3289,vocab:3289,reviewed,completion/v165-cards-3281-3300.tsv#3289; author 
 vocab,3290,vocab:3290,reviewed,completion/v165-cards-3281-3300.tsv#3290; author linguistic review
 vocab,3291,vocab:3291,reviewed,completion/v165-cards-3281-3300.tsv#3291; author linguistic review
 vocab,3292,vocab:3292,reviewed,completion/v169-acceptance.tsv#3292. Author linguistic review of corrected fields and prior evidence.
-vocab,3293,vocab:3293,pending,
+vocab,3293,vocab:3293,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3294,vocab:3294,reviewed,completion/v165-cards-3281-3300.tsv#3294; author linguistic review
 vocab,3295,vocab:3295,reviewed,completion/v165-cards-3281-3300.tsv#3295; author linguistic review
-vocab,3296,vocab:3296,pending,
+vocab,3296,vocab:3296,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3297,vocab:3297,reviewed,completion/v165-cards-3281-3300.tsv#3297; author linguistic review
 vocab,3298,vocab:3298,reviewed,completion/v165-cards-3281-3300.tsv#3298; author linguistic review
 vocab,3299,vocab:3299,reviewed,completion/v165-cards-3281-3300.tsv#3299; author linguistic review
@@ -3310,20 +3310,20 @@ vocab,3308,vocab:3308,reviewed,completion/v165-cards-3301-3320.tsv#3308; author 
 vocab,3309,vocab:3309,reviewed,completion/v165-cards-3301-3320.tsv#3309; author linguistic review
 vocab,3310,vocab:3310,reviewed,completion/v165-cards-3301-3320.tsv#3310; author linguistic review
 vocab,3311,vocab:3311,reviewed,completion/v165-cards-3301-3320.tsv#3311; author linguistic review
-vocab,3312,vocab:3312,pending,
+vocab,3312,vocab:3312,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3313,vocab:3313,reviewed,completion/v165-cards-3301-3320.tsv#3313; author linguistic review
 vocab,3314,vocab:3314,reviewed,completion/v165-cards-3301-3320.tsv#3314; author linguistic review
 vocab,3315,vocab:3315,reviewed,completion/v165-cards-3301-3320.tsv#3315; author linguistic review
 vocab,3316,vocab:3316,reviewed,completion/v165-cards-3301-3320.tsv#3316; author linguistic review
 vocab,3317,vocab:3317,reviewed,completion/v165-cards-3301-3320.tsv#3317; author linguistic review
 vocab,3318,vocab:3318,reviewed,completion/v165-cards-3301-3320.tsv#3318; author linguistic review
-vocab,3319,vocab:3319,pending,
+vocab,3319,vocab:3319,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3320,vocab:3320,reviewed,completion/v165-cards-3301-3320.tsv#3320; author linguistic review
-vocab,3321,vocab:3321,pending,
+vocab,3321,vocab:3321,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3322,vocab:3322,reviewed,completion/v165-cards-3321-3340.tsv#3322; author linguistic review
-vocab,3323,vocab:3323,pending,
+vocab,3323,vocab:3323,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3324,vocab:3324,reviewed,completion/v165-cards-3321-3340.tsv#3324; author linguistic review
-vocab,3325,vocab:3325,pending,
+vocab,3325,vocab:3325,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3326,vocab:3326,reviewed,completion/v165-cards-3321-3340.tsv#3326; author linguistic review
 vocab,3327,vocab:3327,reviewed,completion/v165-cards-3321-3340.tsv#3327; author linguistic review
 vocab,3328,vocab:3328,reviewed,completion/v165-cards-3321-3340.tsv#3328; author linguistic review
@@ -3334,8 +3334,8 @@ vocab,3332,vocab:3332,reviewed,completion/v165-cards-3321-3340.tsv#3332; author 
 vocab,3333,vocab:3333,reviewed,completion/v165-cards-3321-3340.tsv#3333; author linguistic review
 vocab,3334,vocab:3334,reviewed,completion/v165-cards-3321-3340.tsv#3334; author linguistic review
 vocab,3335,vocab:3335,reviewed,completion/v165-cards-3321-3340.tsv#3335; author linguistic review
-vocab,3336,vocab:3336,pending,
-vocab,3337,vocab:3337,pending,
+vocab,3336,vocab:3336,fixed_rechecked,"JLPT_N1_v219_audit.md; completion/v219-acceptance.tsv; completion/v219-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
+vocab,3337,vocab:3337,blocked,"completion/v219-c10-review.tsv#3337; content checked; noun use in 一切 requires separate C11 POS/pool-impact review; POS-map unchanged; author review, not independent"
 vocab,3338,vocab:3338,reviewed,completion/v165-cards-3321-3340.tsv#3338; author linguistic review
 vocab,3339,vocab:3339,reviewed,completion/v165-cards-3321-3340.tsv#3339; author linguistic review
 vocab,3340,vocab:3340,reviewed,completion/v165-cards-3321-3340.tsv#3340; author linguistic review
@@ -4790,24 +4790,24 @@ vocab_pair,743:3219:3237,VOCAB_AUDITED_PAIRS[743],pending,
 vocab_pair,744:3237:3239,VOCAB_AUDITED_PAIRS[744],pending,
 vocab_pair,745:3259:3262,VOCAB_AUDITED_PAIRS[745],pending,
 vocab_pair,746:3262:3300,VOCAB_AUDITED_PAIRS[746],pending,
-vocab_pair,747:3260:3281,VOCAB_AUDITED_PAIRS[747],pending,
+vocab_pair,747:3260:3281,VOCAB_AUDITED_PAIRS[747],reviewed,completion/v219-pair-review.tsv#747; author review of the exact pair and stated senses; not independent
 vocab_pair,748:3264:3267,VOCAB_AUDITED_PAIRS[748],pending,
-vocab_pair,749:3269:3280,VOCAB_AUDITED_PAIRS[749],pending,
+vocab_pair,749:3269:3280,VOCAB_AUDITED_PAIRS[749],reviewed,completion/v219-pair-review.tsv#749; author review of the exact pair and stated senses; not independent
 vocab_pair,750:3271:3274,VOCAB_AUDITED_PAIRS[750],pending,
-vocab_pair,751:3271:3277,VOCAB_AUDITED_PAIRS[751],pending,
-vocab_pair,752:3293:3296,VOCAB_AUDITED_PAIRS[752],pending,
+vocab_pair,751:3271:3277,VOCAB_AUDITED_PAIRS[751],reviewed,completion/v219-pair-review.tsv#751; author review of the exact pair and stated senses; not independent
+vocab_pair,752:3293:3296,VOCAB_AUDITED_PAIRS[752],reviewed,completion/v219-pair-review.tsv#752; author review of the exact pair and stated senses; not independent; note corrected to remove unsupported historical restriction
 vocab_pair,753:3308:3366,VOCAB_AUDITED_PAIRS[753],pending,
 vocab_pair,754:3366:3367,VOCAB_AUDITED_PAIRS[754],pending,
 vocab_pair,755:3329:3331,VOCAB_AUDITED_PAIRS[755],pending,
 vocab_pair,756:3374:3375,VOCAB_AUDITED_PAIRS[756],pending,
-vocab_pair,757:3325:3364,VOCAB_AUDITED_PAIRS[757],pending,
+vocab_pair,757:3325:3364,VOCAB_AUDITED_PAIRS[757],reviewed,completion/v219-pair-review.tsv#757; author review of the exact pair and stated senses; not independent
 vocab_pair,758:3362:3385,VOCAB_AUDITED_PAIRS[758],pending,
 vocab_pair,759:3338:3371,VOCAB_AUDITED_PAIRS[759],pending,
 vocab_pair,760:3318:3368,VOCAB_AUDITED_PAIRS[760],pending,
-vocab_pair,761:3316:3319,VOCAB_AUDITED_PAIRS[761],pending,
+vocab_pair,761:3316:3319,VOCAB_AUDITED_PAIRS[761],reviewed,completion/v219-pair-review.tsv#761; author review of the exact pair and stated senses; not independent
 vocab_pair,762:3346:3347,VOCAB_AUDITED_PAIRS[762],pending,
 vocab_pair,763:3324:3361,VOCAB_AUDITED_PAIRS[763],pending,
-vocab_pair,764:3336:3355,VOCAB_AUDITED_PAIRS[764],pending,
+vocab_pair,764:3336:3355,VOCAB_AUDITED_PAIRS[764],reviewed,completion/v219-pair-review.tsv#764; author review of the exact pair and stated senses; not independent
 vocab_pair,765:3372:3400,VOCAB_AUDITED_PAIRS[765],pending,
 vocab_pair,766:3394:3397,VOCAB_AUDITED_PAIRS[766],pending,
 vocab_pair,767:3300:3390,VOCAB_AUDITED_PAIRS[767],pending,
