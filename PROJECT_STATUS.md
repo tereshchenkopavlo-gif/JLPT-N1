@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v202** у main після успішного guarded-приймання. Повний HTML — 6945374 байти, SHA-256 39aa398f92db161d4c396038d588872b2fabb9fc9c45713a5e530f5a03bae14c. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v202.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v202_audit.md).
+Оновлено 13 листопада 2026. Опублікована v202; кандидат **v203** у гілці work/v203-c10-next-pending, ще не опублікований. Повний HTML — 6945374 байти, SHA-256 39aa398f92db161d4c396038d588872b2fabb9fc9c45713a5e530f5a03bae14c. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v202.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v202_audit.md).
 
 ## Поточний кандидат v203 — C10 авторський аудит
 
