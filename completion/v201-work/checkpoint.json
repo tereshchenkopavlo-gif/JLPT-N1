@@ -1,0 +1,56 @@
+{
+  "version": "v201",
+  "base_version": "v200",
+  "base_main_sha": "9d6d46dc87cabbfd495022d6f55b1dafe9581c48",
+  "base_html_sha256": "d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a",
+  "base_html_blob": "afa02897f9442a40b9bdea3e52827e91f0fa8d4c",
+  "scope_ids": [
+    1097,
+    1100,
+    1102,
+    1105
+  ],
+  "fixed_rechecked_ids": [
+    1097,
+    1100,
+    1102,
+    1105
+  ],
+  "reviewed_ids": [],
+  "already_reviewed_excluded": [
+    1096,
+    1098,
+    1101,
+    1104,
+    1106,
+    1108,
+    1110,
+    1111
+  ],
+  "pending_c11_ids": [],
+  "expected_field_updates": 4,
+  "author_credit_before": 3582,
+  "author_credit_after": 3586,
+  "pilot_v153_ids": [
+    1097,
+    1100,
+    1102,
+    1105
+  ],
+  "next_pending_after_scope": [
+    1119,
+    1123,
+    1124,
+    1127,
+    1128,
+    1129,
+    1132,
+    1135,
+    1139,
+    1140,
+    1147,
+    1148
+  ],
+  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
+  "publication_policy": "copy exact verified paths only; never merge the work branch"
+}
