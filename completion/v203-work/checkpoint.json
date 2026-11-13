@@ -55,7 +55,7 @@
     "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729"
   },
   "deferred_note": "One other item in the selected interval was deferred under safety policy and is not part of this scope; no status change or content reproduction.",
-  "status": "v203 published and exact HTML blob verified in main; PR #28 closed without merge",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "candidate_sha256": "81b4e4fbda3be91325493c95c3c28324deac52f69cc230f16bd630db20929339",
   "candidate_bytes": 6945616,
