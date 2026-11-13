@@ -61,7 +61,7 @@
     "completion/v153-cards-1481-1520.tsv": "e2cc65cfc7cd035f667d76eb9639925d2dbc356e",
     "completion/v153-cards-1521-1560.tsv": "d206d88b12e53e4e0d110732c26de5075a48e601"
   },
-  "status": "v212 published in main; main HTML SHA-256 and byte count independently verified; PR #37 closed without merge",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
