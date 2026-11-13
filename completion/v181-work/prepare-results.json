@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "base_version": "v179",
+  "base_sha256": "359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8",
+  "base_bytes": 6939046,
+  "candidate_version": "v181",
+  "candidate_sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
+  "candidate_bytes": 6940370,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "meaning_quiz_entries_before": 383,
+  "meaning_quiz_entries_after": 384,
+  "added_entries": 1,
+  "context_payloads": 2,
+  "changed_blocks": [
+    "REVIEWED_MEANING_QUIZZES.v_2433",
+    "document title"
+  ],
+  "unchanged": {
+    "vocabulary_records": true,
+    "grammar_records": true,
+    "lexical_pairs": true,
+    "all_ids": true,
+    "VOCAB_POS_BY_ID": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "learning_engine": true,
+    "progress_storage_code": true
+  },
+  "exact_rollback": true,
+  "no_card_credit": true,
+  "author_review_only": true
+}

@@ -1,0 +1,3366 @@
+{
+  "pass": true,
+  "base_version": "v179",
+  "base_sha256": "359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8",
+  "base_bytes": 6939046,
+  "diagnostic_only": true,
+  "data": {
+    "counts": {
+      "vocabulary": 3914,
+      "vocabDetails": 3914,
+      "grammar": 130,
+      "lexicalPairs": 859,
+      "reviewedMeaningQuizzes": 384
+    },
+    "id2433": {
+      "headword": "そびえる",
+      "reading": "そびえる",
+      "pos": [
+        "動詞"
+      ],
+      "definition": {
+        "m": "山や建物などが、非常に高く立っている。",
+        "t": "височіти, здійматися",
+        "s": [
+          "そそり立つ",
+          "屹立する"
+        ],
+        "examples": [
+          "市の中心部には、高さ二百メートルの超高層ビルがそびえている。",
+          "雪をいただいた山々が、湖の向こうにそびえて見える。"
+        ],
+        "usage": "Неперехідне 一段: 山／ビルがそびえる. Високо й велично здійматися; не просто будь-де стояти. そそり立つ близьке, часто сильніше підкреслює крутизну чи вертикальність."
+      },
+      "examples": [
+        {
+          "index": 0,
+          "sentence": "市の中心部には、高さ二百メートルの超高層ビルがそびえている。",
+          "translation": "У центрі міста височіє двохсотметровий хмарочос.",
+          "automaticMeaningSeeds": [
+            {
+              "seed": 0,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "ひねられたように、よじれた状態になる。",
+                  "位置や時期を少し動かして、ずれさせる。",
+                  "思うようにならなくて、いらいらする。"
+                ],
+                "note": ""
+              }
+            },
+            {
+              "seed": 0.25,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "思うようにならなくて、いらいらする。",
+                  "物事がもつれて、解決が難しくなる。",
+                  "他からの攻撃や害を受けないように守る。"
+                ],
+                "note": ""
+              }
+            },
+            {
+              "seed": 0.5,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "他からの攻撃や害を受けないように守る。",
+                  "すでにあるものの上を、そのとおりにたどる。",
+                  "ひねられたように、よじれた状態になる。"
+                ],
+                "note": ""
+              }
+            },
+            {
+              "seed": 0.75,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "他からの攻撃や害を受けないように守る。",
+                  "ひねられたように、よじれた状態になる。",
+                  "位置や時期を少し動かして、ずれさせる。"
+                ],
+                "note": ""
+              }
+            }
+          ],
+          "markTarget": {
+            "found": true,
+            "marked": "市の中心部には、高さ二百メートルの超高層ビルが\u0001そびえて\u0002いる。",
+            "spans": [
+              "そびえて"
+            ]
+          },
+          "literalClozeAvailable": false
+        },
+        {
+          "index": 1,
+          "sentence": "雪をいただいた山々が、湖の向こうにそびえて見える。",
+          "translation": "За озером видно високі гори зі сніговими вершинами.",
+          "automaticMeaningSeeds": [
+            {
+              "seed": 0,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "ひねられたように、よじれた状態になる。",
+                  "位置や時期を少し動かして、ずれさせる。",
+                  "思うようにならなくて、いらいらする。"
+                ],
+                "note": ""
+              }
+            },
+            {
+              "seed": 0.25,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "思うようにならなくて、いらいらする。",
+                  "物事がもつれて、解決が難しくなる。",
+                  "他からの攻撃や害を受けないように守る。"
+                ],
+                "note": ""
+              }
+            },
+            {
+              "seed": 0.5,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "他からの攻撃や害を受けないように守る。",
+                  "すでにあるものの上を、そのとおりにたどる。",
+                  "ひねられたように、よじれた状態になる。"
+                ],
+                "note": ""
+              }
+            },
+            {
+              "seed": 0.75,
+              "quiz": {
+                "correct": "山や建物などが、非常に高く立っている。",
+                "wrong": [
+                  "他からの攻撃や害を受けないように守る。",
+                  "ひねられたように、よじれた状態になる。",
+                  "位置や時期を少し動かして、ずれさせる。"
+                ],
+                "note": ""
+              }
+            }
+          ],
+          "markTarget": {
+            "found": true,
+            "marked": "雪をいただいた山々が、湖の向こうに\u0001そびえて\u0002見える。",
+            "spans": [
+              "そびえて"
+            ]
+          },
+          "literalClozeAvailable": false
+        }
+      ],
+      "meaningQuizStorage": {
+        "isArray": false,
+        "length": 384,
+        "matches": [],
+        "sample": [
+          [
+            "v_1178",
+            {
+              "correct": "犯罪を捜査し、公訴を提起・維持する検察官の職名。",
+              "wrong": [
+                "当事者の主張や証拠を検討し、裁判で判決を下す裁判官の職名。",
+                "依頼人の相談に応じ、訴訟でその権利や利益を守る法律専門職。",
+                "裁判の記録を作成・保管し、法廷の手続を支える裁判所の職名。"
+              ],
+              "note": "Тут ідеться про прокурора. Суддя ухвалює рішення, адвокат представляє клієнта, а секретар суду забезпечує процесуальну роботу."
+            }
+          ],
+          [
+            "v_2972",
+            {
+              "correct": "予想していなかったことで、意外に感じられるさま。",
+              "wrong": [
+                "起こることが前もって分かり、当然と思われるさま。",
+                "起こってほしくないため、実現を望まないさま。",
+                "内容を確かめられず、本当かどうか疑わしいさま。"
+              ],
+              "note": "思いがけない означає «несподіваний». Це не обов’язково небажаний чи сумнівний факт: визначальне — відсутність очікування."
+            }
+          ],
+          [
+            "v_1602",
+            {
+              "correct": "応募者や作品を審査し、条件に合うものを選ぶこと。",
+              "wrong": [
+                "候補者について投票し、得票数によって当選者を決めること。",
+                "選ばれた人に、特定の職務を担当するよう命じること。",
+                "条件を示して、その役割を希望する人を広く集めること。"
+              ],
+              "note": "選考 — відбір через оцінювання. Голосування — 選挙, призначення на посаду — 任命, залучення охочих — 募集. Сам відбір не обов’язково проводять голосуванням."
+            }
+          ]
+        ]
+      },
+      "reviewedExampleTargets": [],
+      "kanaExampleTargets": {
+        "byId": [],
+        "byWord": {
+          "市の中心部には、高さ二百メートルの超高層ビルがそびえている。": "そびえて",
+          "雪をいただいた山々が、湖の向こうにそびえて見える。": "そびえて"
+        }
+      },
+      "meaningSimulation": {
+        "beforeCloze": [
+          {
+            "literal": false,
+            "marked": {
+              "s": "市の中心部には、高さ二百メートルの超高層ビルが\u0001そびえて\u0002いる。",
+              "found": true
+            }
+          },
+          {
+            "literal": false,
+            "marked": {
+              "s": "雪をいただいた山々が、湖の向こうに\u0001そびえて\u0002見える。",
+              "found": true
+            }
+          }
+        ],
+        "afterCloze": [
+          {
+            "literal": false,
+            "marked": {
+              "s": "市の中心部には、高さ二百メートルの超高層ビルが\u0001そびえて\u0002いる。",
+              "found": true
+            }
+          },
+          {
+            "literal": false,
+            "marked": {
+              "s": "雪をいただいた山々が、湖の向こうに\u0001そびえて\u0002見える。",
+              "found": true
+            }
+          }
+        ],
+        "simulatedMeaning": [
+          {
+            "correct": "高層の建物などが、周囲より高く立ち、ひときわ目立つこと。",
+            "wrong": [
+              "高層の建物などが、周囲より低い位置に沈み込んでいること。",
+              "高層の建物などが、地面に沿って横に長く広がっていること。",
+              "高層の建物などが、周囲と同じ高さで平らに続いていること。"
+            ],
+            "note": "そびえる — височіти, здійматися. У цьому реченні йдеться про дуже високу будівлю, що виразно підноситься над міським оточенням; це не про заглиблення, горизонтальне поширення чи рівну забудову."
+          },
+          {
+            "correct": "山などが、周囲より高く立ち、遠くからも目立って見えること。",
+            "wrong": [
+              "山などが、周囲より低く沈み、谷のように見えること。",
+              "山などが、なだらかな斜面となって横に広がって見えること。",
+              "山などが、風雨に削られて低くなっていること。"
+            ],
+            "note": "そびえる — височіти. Тут ідеться про гори, які помітно здіймаються над місцевістю за озером; не про долину, пологий схил чи результат руйнування."
+          }
+        ],
+        "clozeUnchanged": true,
+        "exampleTargetsUnchanged": true
+      },
+      "clozeCandidateCount": 705
+    },
+    "id2433FunctionSources": {
+      "quizMeaningOptions": "function quizMeaningOptions(it,def,example='') {\n  const entry=REVIEWED_MEANING_QUIZZES[it.kind+'_'+it.id];\n  const cardExamples=(it.kind==='g'?GRAMMAR_DETAILS_BY_ID:VOCAB_DETAILS_BY_ID)[it.id]?.examples || [];\n  const reviewed=reviewedExampleTarget(example,it.kind,it.word.w)?.quiz || entry?.byExample?.[example] ||\n    ((!example || cardExamples.includes(example)) ? entry : null);\n  if(reviewed)return {correct:reviewed.correct,wrong:reviewed.wrong.slice(),note:reviewed.note};\n  const correct=quizDefinitionText(it.kind,it.id,def.m);\n  const rows=quizCandidateRows(it,def),seen=new Set([correct]),ranked=[];\n  for(const row of rows)if(!seen.has(row.choice)){seen.add(row.choice);ranked.push(row);}\n  // Randomize only among candidates with close scores, keeping the best relevant group.\n  const top=ranked.length?ranked[0].score:0;\n  const shortlist=ranked.filter(r=>r.score>=top-2).slice(0,8);\n  const chosen=shuffleArray(shortlist).slice(0,3);\n  for(const row of ranked)if(chosen.length<3&&!chosen.includes(row))chosen.push(row);\n  return {correct,wrong:chosen.map(r=>r.choice),note:''};\n}",
+      "clozeWordCandidates": "function clozeWordCandidates(item) {\n  if(item.kind!=='v')return [];\n  const pos=vocabPartOfSpeech(item.id).join('|');\n  return [...new Set(ACTIVE_VOCAB.filter(v=>v.id!==item.word.id&&VOCAB_DETAILS_BY_ID[v.id]&&vocabPartOfSpeech(v.id).join('|')===pos&&!/[〜～・／/]/.test(v.w)).map(v=>v.w))];\n}",
+      "literalClozeAvailable": "function literalClozeAvailable(sentence,item,engine) {\n  if(item.kind!=='v'||/[〜～・／/]/.test(item.word.w))return false;\n  const marked=engine.markTarget(sentence,item.kind,item.word.w);\n  const spans=[...marked.s.matchAll(/\\u0001([^\\u0002]*)\\u0002/g)].map(m=>m[1]);\n  return marked.found&&spans.length===1&&spans[0]===item.word.w;\n}",
+      "markTarget": "markTarget(sentence, kind, word) {\n    const exact = reviewedExampleTarget(sentence, kind, word);\n    if (exact) {\n      let result='', cursor=0;\n      for (const form of exact.forms) {\n        const idx=sentence.indexOf(form,cursor);\n        if (idx < 0) return {s:sentence,found:false};\n        result+=sentence.slice(cursor,idx)+'\\u0001'+form+'\\u0002';\n        cursor=idx+form.length;\n      }\n      return {s:result+sentence.slice(cursor),found:true};\n    }\n\n    // Bind each reviewed inflection to its complete source example. A changed\n    // sentence must be reviewed again; never match a short stem in arbitrary text.\n    const reviewed = kind === 'v' && VOCAB_KANA_EXAMPLE_TARGETS[word];\n    const form = reviewed && Object.prototype.hasOwnProperty.call(reviewed, sentence) ? reviewed[sentence] : null;\n    if (form) {\n      const idx = sentence.indexOf(form);\n      if (idx >= 0) return { s: sentence.slice(0, idx) + '\\u0001' + form + '\\u0002' + sentence.slice(idx + form.length), found: true };\n    }\n    let pieces;\n    if (kind === 'g') pieces = word.replace(/^[〜～]/, '').split(/[〜～…・／\\/（）()]/).map(s => s.trim()).filter(Boolean);\n    else pieces = word.replace(/^[〜～]/, '').split('・').filter(Boolean);\n    let s = sentence, found = false;\n    for (const piece of pieces) {\n      let cand = piece, idx = s.indexOf(cand);\n      while (idx < 0 && /[一-鿿]/.test(cand) && cand.length > 2 && /[぀-ゟ]$/.test(cand)) { cand = cand.slice(0, -1); idx = s.indexOf(cand); }\n      if (idx < 0 && cand.length === 2 && /[぀-ゟ]$/.test(cand) && /[一-鿿]/.test(cand[0])) { cand = cand[0]; idx = s.indexOf(cand); }\n      if (idx >= 0) { s = s.slice(0, idx) + '\\u0001' + cand + '\\u0002' + s.slice(idx + cand.length); found = true; }\n    }\n    return { s, found };\n  }",
+      "getDefinition": "getDefinition(word, kind = 'v', id = null) {\n    if (kind === 'v') word=canonicalVocabLabel(word);\n    const cleanWord = word.replace(/^[〜～]/, '');\n    \n    // 文法項目（kind === 'g'）\n    if (kind === 'g') {\n      if (id && GRAMMAR_DETAILS_BY_ID[id]) {\n        return GRAMMAR_DETAILS_BY_ID[id];\n      }\n      const matchedGrammar = GRAMMAR.find(g => {\n        if (id && String(g.id) === String(id)) return true;\n        const gw = (g.w || '').replace(/^[〜～]/, '');\n        return g.w === word || gw === cleanWord;\n      });\n      if (matchedGrammar && GRAMMAR_DETAILS_BY_ID[matchedGrammar.id]) {\n        return GRAMMAR_DETAILS_BY_ID[matchedGrammar.id];\n      }\n      const gItem = matchedGrammar || { c: '文法表現', g: '重要', w: word };\n      return {\n        m: `N1文法「${word}」（分類：${gItem.c}・p.${gItem.g}）。主に論説文・評論文・公式文書で用いられる重要文法。`,\n        t: `японський граматичний зворот (${cleanWord})`,\n        s: ['文法機能語'],\n        examples: [\n          `本件の重大な影響を鑑みれば、いかなる反対があろうとも<b>${word}</b>、責任ある決断を下さねばならない。`,\n          `長年にわたる詳細な現地調査の結果を踏まえた上で、<b>${word}</b>慎重な対応が強く求められている。`\n        ]\n      };\n    }\n\n    // 語彙項目（kind === 'v'）\n    if (id && VOCAB_DETAILS_BY_ID[id] && VOCAB_DETAILS_BY_ID[id].w === word) {\n      const d = VOCAB_DETAILS_BY_ID[id];\n      return { m: d.m, t: d.t, s: d.s, examples: d.examples, usage: d.usage };\n    }\n\n    if (SPECIAL_VOCAB_DICT[word]) {\n      const b = SPECIAL_VOCAB_DICT[word];\n      return {\n        m: b.m,\n        t: b.t,\n        s: ['重要語彙'],\n        examples: [\n          `市場環境が激変する中で、今回の戦略において「${word}」が果たす役割は極めて大きい。`,\n          `組織改革を迅速に推進するためには、「${word}」に対する共通の理解を深めることが不可欠だ。`\n        ]\n      };\n    }\n\n    const vocabItem = ACTIVE_VOCAB.find(v => (id && String(v.id) === String(id)) || v.w === word);\n    const cat = vocabItem ? (vocabItem.c || '') : '';\n\n    // カタカナ語の自動判定\n    const isKatakana = /^[\\u30A0-\\u30FF\\u30FC]+$/.test(word);\n    if (isKatakana || cat.includes('カタカナ')) {\n      return {\n        m: `外来語・国際文脈において広く定着している重要カタカナ語。`,\n        t: `${word.toLowerCase()}`,\n        s: ['外来語', 'カタカナ表現'],\n        examples: [\n          `グローバルな市場競争の中で、組織の「${word}」を最大限に引き出す戦略が求められている。`,\n          `既存の枠組みにとらわれず、新たな「${word}」を取り入れることで業務の効率化を図る。`\n        ]\n      };\n    }\n\n    let meaningDesc = `論説・評論文・ビジネスなどの公的文脈において高頻度で用いられるN1重要語。`;\n    let transDesc = `${word}`;\n    let ex1 = `激変する国際情勢の中で、本件における「${word}」を巡る慎重な対応が求められている。`;\n    let ex2 = `従来の固定観念にとらわれることなく、「${word}」の長期的影響を見極めるべきだ。`;\n\n    if (cat.includes('動詞')) {\n      meaningDesc = `動作や作用、状態の変化を表す動詞表現。`;\n      transDesc = `to ${word}`;\n      ex1 = `いかなる困難が立ちはだかろうとも、最後まで責任を${word}覚悟が必要だ。`;\n      ex2 = `複雑に絡み合う利害関係を${word}ことこそが、組織全体の信頼回復につながる。`;\n    } else if (cat.includes('形容詞')) {\n      meaningDesc = `事物の状態や人の感情・性質を修飾する表現。`;\n      transDesc = `${word} (adjective)`;\n      ex1 = `表面的な数値のみに安住せず、現場を取り巻く${word}現状を直視しなければならない。`;\n      ex2 = `長年の弛まぬ研鑽と組織改革の成果が、ここにきて${word}変化として現れ始めている。`;\n    } else if (cat.includes('副詞') || cat.includes('オノマトペ')) {\n      meaningDesc = `状態や程度、心理的なニュアンスを生き生きと修飾する表現。`;\n      transDesc = `${word} (adverb)`;\n      ex1 = `周囲の反対意見を${word}押し切ってまで、新規事業への投資に踏み切った。`;\n      ex2 = `予断を許さない緊迫した状況の中、状況の変化を${word}注視し続けた。`;\n    }\n\n    return {\n      m: meaningDesc,\n      t: transDesc,\n      s: ['関連語彙'],\n      examples: [ex1, ex2]\n    };\n  }",
+      "quizReadingOptions": "function quizReadingOptions(item) {\n  const v=item.word;\n  if(item.kind!=='v'||!v.r||!/^[ぁ-ゟー]+$/.test(v.r)||!/[一-鿿]/.test(v.w)||/[〜～・／/]/.test(v.w))return [];\n  const reviewed=REVIEWED_READING_OPTIONS[String(item.id)];\n  if(reviewed && reviewed.word===v.w && reviewed.correct===v.r)return reviewed.wrong.slice();\n  const frame=readingFrame(v.w),pos=vocabPartOfSpeech(v.id).join('|');\n  const prefix=(v.w.match(/^[ぁ-ゟー]+/)||[''])[0],tail=(v.w.match(/[ぁ-ゟー]+$/)||[''])[0];\n  if(prefix&&!v.r.startsWith(prefix)||tail&&!v.r.endsWith(tail))return [];\n  const core=v.r.slice(prefix.length,tail.length?-tail.length:undefined);\n  const candidates=ACTIVE_VOCAB.filter(x=>x.id!==v.id&&x.r!==v.r&&/^[ぁ-ゟー]+$/.test(x.r||'')&&readingFrame(x.w)===frame&&vocabPartOfSpeech(x.id).join('|')===pos&&Math.abs(x.r.length-v.r.length)<=1&&(!prefix||x.r.startsWith(prefix))&&(!tail||x.r.endsWith(tail)))\n    .map(x=>({r:x.r,d:readingDistance(core,x.r.slice(prefix.length,tail.length?-tail.length:undefined))})).filter(x=>x.d>0&&x.d<=2).sort((a,b)=>a.d-b.d||a.r.localeCompare(b.r));\n  return [...new Set(candidates.map(x=>x.r))].slice(0,6);\n}"
+    },
+    "readingOverrides": {
+      "count": 1,
+      "sample": [
+        [
+          "3005",
+          {
+            "word": "著しい",
+            "correct": "いちじるしい",
+            "wrong": [
+              "いちずるしい",
+              "いちじらしい",
+              "いちじろしい"
+            ]
+          }
+        ]
+      ]
+    },
+    "readingPools": {
+      "changedPoolCount": 23,
+      "pools": [
+        {
+          "id": 114,
+          "word": "攻撃",
+          "reading": "こうげき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "こうえき",
+              "こうげん",
+              "こうせき",
+              "うわき",
+              "きげき",
+              "こうい"
+            ],
+            "candidates": [
+              {
+                "id": 1215,
+                "word": "交易",
+                "reading": "こうえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 123,
+                "word": "高原",
+                "reading": "こうげん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1219,
+                "word": "功績",
+                "reading": "こうせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1002,
+                "word": "喜劇",
+                "reading": "きげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 118,
+                "word": "行為",
+                "reading": "こうい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "こうえき",
+              "こうげん",
+              "こうせき",
+              "きげき",
+              "こうい",
+              "こうえん"
+            ],
+            "candidates": [
+              {
+                "id": 1215,
+                "word": "交易",
+                "reading": "こうえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 123,
+                "word": "高原",
+                "reading": "こうげん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1219,
+                "word": "功績",
+                "reading": "こうせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1002,
+                "word": "喜劇",
+                "reading": "きげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 118,
+                "word": "行為",
+                "reading": "こうい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1212,
+                "word": "後援",
+                "reading": "こうえん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 204,
+          "word": "新規",
+          "reading": "しんき",
+          "before": {
+            "pos": [
+              "名詞",
+              "ナ形"
+            ],
+            "automaticOptions": [
+              "ほんき",
+              "かんい",
+              "しんこく",
+              "ふしん"
+            ],
+            "candidates": [
+              {
+                "id": 359,
+                "word": "本気",
+                "reading": "ほんき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 48,
+                "word": "簡易",
+                "reading": "かんい",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1517,
+                "word": "深刻",
+                "reading": "しんこく",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 3207,
+                "word": "不振",
+                "reading": "ふしん",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞",
+              "ナ形"
+            ],
+            "automaticOptions": [
+              "ほんき",
+              "うわき",
+              "かんい",
+              "しんこく",
+              "ふしん"
+            ],
+            "candidates": [
+              {
+                "id": 359,
+                "word": "本気",
+                "reading": "ほんき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 48,
+                "word": "簡易",
+                "reading": "かんい",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1517,
+                "word": "深刻",
+                "reading": "しんこく",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 3207,
+                "word": "不振",
+                "reading": "ふしん",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 255,
+          "word": "直接",
+          "reading": "ちょくせつ",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ちょうせつ",
+              "がくせつ",
+              "ぎゃくせつ",
+              "しょくはつ",
+              "ちくせき",
+              "ちょうせい"
+            ],
+            "candidates": [
+              {
+                "id": 1724,
+                "word": "調節",
+                "reading": "ちょうせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 950,
+                "word": "学説",
+                "reading": "がくせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1055,
+                "word": "逆接",
+                "reading": "ぎゃくせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1497,
+                "word": "触発",
+                "reading": "しょくはつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1699,
+                "word": "蓄積",
+                "reading": "ちくせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1723,
+                "word": "調整",
+                "reading": "ちょうせい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞",
+              "ナ形"
+            ],
+            "automaticOptions": [],
+            "candidates": []
+          },
+          "changed": true
+        },
+        {
+          "id": 327,
+          "word": "浮気",
+          "reading": "うわき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "わき",
+              "いしき",
+              "いせき",
+              "うず",
+              "うちわけ",
+              "うつわ"
+            ],
+            "candidates": [
+              {
+                "id": 801,
+                "word": "脇",
+                "reading": "わき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 699,
+                "word": "渦",
+                "reading": "うず",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1819,
+                "word": "内訳",
+                "reading": "うちわけ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 709,
+                "word": "器",
+                "reading": "うつわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞",
+              "ナ形"
+            ],
+            "automaticOptions": [
+              "しんき",
+              "ほんき"
+            ],
+            "candidates": [
+              {
+                "id": 204,
+                "word": "新規",
+                "reading": "しんき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 359,
+                "word": "本気",
+                "reading": "ほんき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 359,
+          "word": "本気",
+          "reading": "ほんき",
+          "before": {
+            "pos": [
+              "名詞",
+              "ナ形"
+            ],
+            "automaticOptions": [
+              "しんき",
+              "かんい"
+            ],
+            "candidates": [
+              {
+                "id": 204,
+                "word": "新規",
+                "reading": "しんき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 48,
+                "word": "簡易",
+                "reading": "かんい",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞",
+              "ナ形"
+            ],
+            "automaticOptions": [
+              "しんき",
+              "うわき",
+              "かんい"
+            ],
+            "candidates": [
+              {
+                "id": 204,
+                "word": "新規",
+                "reading": "しんき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 48,
+                "word": "簡易",
+                "reading": "かんい",
+                "pos": [
+                  "名詞",
+                  "ナ形"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 388,
+          "word": "利益",
+          "reading": "りえき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "いえじ",
+              "いえで",
+              "いしき",
+              "いせき",
+              "うわき",
+              "おき"
+            ],
+            "candidates": [
+              {
+                "id": 889,
+                "word": "家路",
+                "reading": "いえじ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 24,
+                "word": "家出",
+                "reading": "いえで",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "いえじ",
+              "いえで",
+              "いしき",
+              "いせき",
+              "おき",
+              "がっき"
+            ],
+            "candidates": [
+              {
+                "id": 889,
+                "word": "家路",
+                "reading": "いえじ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 24,
+                "word": "家出",
+                "reading": "いえで",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 43,
+                "word": "楽器",
+                "reading": "がっき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 709,
+          "word": "器",
+          "reading": "うつわ",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "うず",
+              "うちがわ",
+              "うちわけ",
+              "うわき",
+              "かんわ",
+              "けつい"
+            ],
+            "candidates": [
+              {
+                "id": 699,
+                "word": "渦",
+                "reading": "うず",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 285,
+                "word": "内側",
+                "reading": "うちがわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1819,
+                "word": "内訳",
+                "reading": "うちわけ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 984,
+                "word": "緩和",
+                "reading": "かんわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 88,
+                "word": "決意",
+                "reading": "けつい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "うず",
+              "うちがわ",
+              "うちわけ",
+              "かんわ",
+              "けつい",
+              "けつぎ"
+            ],
+            "candidates": [
+              {
+                "id": 699,
+                "word": "渦",
+                "reading": "うず",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 285,
+                "word": "内側",
+                "reading": "うちがわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1819,
+                "word": "内訳",
+                "reading": "うちわけ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 984,
+                "word": "緩和",
+                "reading": "かんわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 88,
+                "word": "決意",
+                "reading": "けつい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1154,
+                "word": "決議",
+                "reading": "けつぎ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 801,
+          "word": "脇",
+          "reading": "わき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "うわき",
+              "おき",
+              "きき",
+              "くき",
+              "しき",
+              "じき"
+            ],
+            "candidates": [
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 51,
+                "word": "危機",
+                "reading": "きき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 717,
+                "word": "茎",
+                "reading": "くき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1330,
+                "word": "指揮",
+                "reading": "しき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 156,
+                "word": "時期",
+                "reading": "じき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "おき",
+              "きき",
+              "くき",
+              "しき",
+              "じき",
+              "はき"
+            ],
+            "candidates": [
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 51,
+                "word": "危機",
+                "reading": "きき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 717,
+                "word": "茎",
+                "reading": "くき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1330,
+                "word": "指揮",
+                "reading": "しき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 156,
+                "word": "時期",
+                "reading": "じき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1842,
+                "word": "破棄",
+                "reading": "はき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1040,
+          "word": "儀式",
+          "reading": "ぎしき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "いしき",
+              "しき",
+              "やしき",
+              "あし",
+              "いせき",
+              "うわき"
+            ],
+            "candidates": [
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1330,
+                "word": "指揮",
+                "reading": "しき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 873,
+                "word": "屋敷",
+                "reading": "やしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 711,
+                "word": "脚",
+                "reading": "あし",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "いしき",
+              "しき",
+              "やしき",
+              "あし",
+              "いせき",
+              "おき"
+            ],
+            "candidates": [
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1330,
+                "word": "指揮",
+                "reading": "しき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 873,
+                "word": "屋敷",
+                "reading": "やしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 711,
+                "word": "脚",
+                "reading": "あし",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1044,
+          "word": "疑惑",
+          "reading": "ぎわく",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ぎゃく",
+              "わく",
+              "いたく",
+              "いよく",
+              "うわき",
+              "おもわく"
+            ],
+            "candidates": [
+              {
+                "id": 712,
+                "word": "逆",
+                "reading": "ぎゃく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 799,
+                "word": "枠",
+                "reading": "わく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 822,
+                "word": "委託",
+                "reading": "いたく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 6,
+                "word": "意欲",
+                "reading": "いよく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1329,
+                "word": "思惑",
+                "reading": "おもわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ぎゃく",
+              "わく",
+              "いたく",
+              "いよく",
+              "おもわく",
+              "かく"
+            ],
+            "candidates": [
+              {
+                "id": 712,
+                "word": "逆",
+                "reading": "ぎゃく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 799,
+                "word": "枠",
+                "reading": "わく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 822,
+                "word": "委託",
+                "reading": "いたく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 6,
+                "word": "意欲",
+                "reading": "いよく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1329,
+                "word": "思惑",
+                "reading": "おもわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 703,
+                "word": "核",
+                "reading": "かく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1055,
+          "word": "逆接",
+          "reading": "ぎゃくせつ",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "がくせつ",
+              "ぎゃくてん",
+              "ちょくせつ",
+              "りゃくだつ"
+            ],
+            "candidates": [
+              {
+                "id": 950,
+                "word": "学説",
+                "reading": "がくせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1056,
+                "word": "逆転",
+                "reading": "ぎゃくてん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 255,
+                "word": "直接",
+                "reading": "ちょくせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 2164,
+                "word": "略奪",
+                "reading": "りゃくだつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "がくせつ",
+              "ぎゃくてん",
+              "りゃくだつ"
+            ],
+            "candidates": [
+              {
+                "id": 950,
+                "word": "学説",
+                "reading": "がくせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1056,
+                "word": "逆転",
+                "reading": "ぎゃくてん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 2164,
+                "word": "略奪",
+                "reading": "りゃくだつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1215,
+          "word": "交易",
+          "reading": "こうえき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "こうえん",
+              "こうげき",
+              "こうせき",
+              "ようえき",
+              "うわき",
+              "こうい"
+            ],
+            "candidates": [
+              {
+                "id": 1212,
+                "word": "後援",
+                "reading": "こうえん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 114,
+                "word": "攻撃",
+                "reading": "こうげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1219,
+                "word": "功績",
+                "reading": "こうせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2143,
+                "word": "溶液",
+                "reading": "ようえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 118,
+                "word": "行為",
+                "reading": "こうい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "こうえん",
+              "こうげき",
+              "こうせき",
+              "ようえき",
+              "こうい",
+              "こうか"
+            ],
+            "candidates": [
+              {
+                "id": 1212,
+                "word": "後援",
+                "reading": "こうえん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 114,
+                "word": "攻撃",
+                "reading": "こうげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1219,
+                "word": "功績",
+                "reading": "こうせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2143,
+                "word": "溶液",
+                "reading": "ようえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 118,
+                "word": "行為",
+                "reading": "こうい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 106,
+                "word": "効果",
+                "reading": "こうか",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1319,
+          "word": "仕業",
+          "reading": "しわざ",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "わざ",
+              "うわき",
+              "ぎわく",
+              "こうざ",
+              "しいく",
+              "しえん"
+            ],
+            "candidates": [
+              {
+                "id": 710,
+                "word": "技",
+                "reading": "わざ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1044,
+                "word": "疑惑",
+                "reading": "ぎわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 107,
+                "word": "口座",
+                "reading": "こうざ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1350,
+                "word": "飼育",
+                "reading": "しいく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1336,
+                "word": "支援",
+                "reading": "しえん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "わざ",
+              "ぎわく",
+              "こうざ",
+              "しいく",
+              "しえん",
+              "しお"
+            ],
+            "candidates": [
+              {
+                "id": 710,
+                "word": "技",
+                "reading": "わざ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1044,
+                "word": "疑惑",
+                "reading": "ぎわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 107,
+                "word": "口座",
+                "reading": "こうざ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1350,
+                "word": "飼育",
+                "reading": "しいく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1336,
+                "word": "支援",
+                "reading": "しえん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 771,
+                "word": "潮",
+                "reading": "しお",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1392,
+          "word": "弱音",
+          "reading": "よわね",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "うわき",
+              "かきね",
+              "ぎわく",
+              "しわざ",
+              "ひわ",
+              "ほんね"
+            ],
+            "candidates": [
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 937,
+                "word": "垣根",
+                "reading": "かきね",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1044,
+                "word": "疑惑",
+                "reading": "ぎわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1319,
+                "word": "仕業",
+                "reading": "しわざ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1900,
+                "word": "秘話",
+                "reading": "ひわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 358,
+                "word": "本音",
+                "reading": "ほんね",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "かきね",
+              "ぎわく",
+              "しわざ",
+              "ひわ",
+              "ほんね",
+              "みね"
+            ],
+            "candidates": [
+              {
+                "id": 937,
+                "word": "垣根",
+                "reading": "かきね",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1044,
+                "word": "疑惑",
+                "reading": "ぎわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1319,
+                "word": "仕業",
+                "reading": "しわざ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1900,
+                "word": "秘話",
+                "reading": "ひわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 358,
+                "word": "本音",
+                "reading": "ほんね",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 784,
+                "word": "峰",
+                "reading": "みね",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1542,
+          "word": "吹雪",
+          "reading": "ふぶき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ふっき",
+              "ふんき",
+              "いしき",
+              "いせき",
+              "うわき",
+              "おき"
+            ],
+            "candidates": [
+              {
+                "id": 1941,
+                "word": "復帰",
+                "reading": "ふっき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1960,
+                "word": "奮起",
+                "reading": "ふんき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ふっき",
+              "ふんき",
+              "いしき",
+              "いせき",
+              "おき",
+              "がっき"
+            ],
+            "candidates": [
+              {
+                "id": 1941,
+                "word": "復帰",
+                "reading": "ふっき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1960,
+                "word": "奮起",
+                "reading": "ふんき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 43,
+                "word": "楽器",
+                "reading": "がっき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1656,
+          "word": "打撃",
+          "reading": "だげき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "きげき",
+              "しげき",
+              "いしき",
+              "いせき",
+              "うわき",
+              "おき"
+            ],
+            "candidates": [
+              {
+                "id": 1002,
+                "word": "喜劇",
+                "reading": "きげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1321,
+                "word": "刺激",
+                "reading": "しげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "きげき",
+              "しげき",
+              "いしき",
+              "いせき",
+              "おき",
+              "かげ"
+            ],
+            "candidates": [
+              {
+                "id": 1002,
+                "word": "喜劇",
+                "reading": "きげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1321,
+                "word": "刺激",
+                "reading": "しげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 698,
+                "word": "陰",
+                "reading": "かげ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1724,
+          "word": "調節",
+          "reading": "ちょうせつ",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ちょうせい",
+              "ちょうせん",
+              "ちょうたつ",
+              "ちょくせつ",
+              "きょうせい",
+              "ぎょうせい"
+            ],
+            "candidates": [
+              {
+                "id": 1723,
+                "word": "調整",
+                "reading": "ちょうせい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 250,
+                "word": "挑戦",
+                "reading": "ちょうせん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1725,
+                "word": "調達",
+                "reading": "ちょうたつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 255,
+                "word": "直接",
+                "reading": "ちょくせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1091,
+                "word": "強制",
+                "reading": "きょうせい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 120,
+                "word": "行政",
+                "reading": "ぎょうせい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ちょうせい",
+              "ちょうせん",
+              "ちょうたつ",
+              "きょうせい",
+              "ぎょうせい",
+              "ぎょうせき"
+            ],
+            "candidates": [
+              {
+                "id": 1723,
+                "word": "調整",
+                "reading": "ちょうせい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 250,
+                "word": "挑戦",
+                "reading": "ちょうせん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1725,
+                "word": "調達",
+                "reading": "ちょうたつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1091,
+                "word": "強制",
+                "reading": "きょうせい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 120,
+                "word": "行政",
+                "reading": "ぎょうせい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1106,
+                "word": "業績",
+                "reading": "ぎょうせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1728,
+          "word": "直属",
+          "reading": "ちょくぞく",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ちゃくもく",
+              "ちょうかく",
+              "ちょうこく",
+              "ちょくせつ",
+              "ちょくめん",
+              "ちょちく"
+            ],
+            "candidates": [
+              {
+                "id": 1706,
+                "word": "着目",
+                "reading": "ちゃくもく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1720,
+                "word": "聴覚",
+                "reading": "ちょうかく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1718,
+                "word": "彫刻",
+                "reading": "ちょうこく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 255,
+                "word": "直接",
+                "reading": "ちょくせつ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1729,
+                "word": "直面",
+                "reading": "ちょくめん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 249,
+                "word": "貯蓄",
+                "reading": "ちょちく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ちゃくもく",
+              "ちょうかく",
+              "ちょうこく",
+              "ちょくめん",
+              "ちょちく"
+            ],
+            "candidates": [
+              {
+                "id": 1706,
+                "word": "着目",
+                "reading": "ちゃくもく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1720,
+                "word": "聴覚",
+                "reading": "ちょうかく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1718,
+                "word": "彫刻",
+                "reading": "ちょうこく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1729,
+                "word": "直面",
+                "reading": "ちょくめん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 249,
+                "word": "貯蓄",
+                "reading": "ちょちく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 1819,
+          "word": "内訳",
+          "reading": "うちわけ",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "うちがわ",
+              "うつわ",
+              "うわき"
+            ],
+            "candidates": [
+              {
+                "id": 285,
+                "word": "内側",
+                "reading": "うちがわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 709,
+                "word": "器",
+                "reading": "うつわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "うちがわ",
+              "うつわ"
+            ],
+            "candidates": [
+              {
+                "id": 285,
+                "word": "内側",
+                "reading": "うちがわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 709,
+                "word": "器",
+                "reading": "うつわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 2083,
+          "word": "目先",
+          "reading": "めさき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "あさ",
+              "いしき",
+              "いせき",
+              "うわき",
+              "おき",
+              "かさい"
+            ],
+            "candidates": [
+              {
+                "id": 785,
+                "word": "麻",
+                "reading": "あさ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 893,
+                "word": "火災",
+                "reading": "かさい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "あさ",
+              "いしき",
+              "いせき",
+              "おき",
+              "かさい",
+              "がっき"
+            ],
+            "candidates": [
+              {
+                "id": 785,
+                "word": "麻",
+                "reading": "あさ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 832,
+                "word": "遺跡",
+                "reading": "いせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 701,
+                "word": "沖",
+                "reading": "おき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 893,
+                "word": "火災",
+                "reading": "かさい",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 43,
+                "word": "楽器",
+                "reading": "がっき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 2126,
+          "word": "誘惑",
+          "reading": "ゆうわく",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ゆうぼく",
+              "ゆうわ",
+              "うわき",
+              "おもわく",
+              "ぎわく",
+              "くうはく"
+            ],
+            "candidates": [
+              {
+                "id": 2127,
+                "word": "遊牧",
+                "reading": "ゆうぼく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2132,
+                "word": "融和",
+                "reading": "ゆうわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1329,
+                "word": "思惑",
+                "reading": "おもわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1044,
+                "word": "疑惑",
+                "reading": "ぎわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 80,
+                "word": "空白",
+                "reading": "くうはく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ゆうぼく",
+              "ゆうわ",
+              "おもわく",
+              "ぎわく",
+              "くうはく",
+              "くうふく"
+            ],
+            "candidates": [
+              {
+                "id": 2127,
+                "word": "遊牧",
+                "reading": "ゆうぼく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2132,
+                "word": "融和",
+                "reading": "ゆうわ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1329,
+                "word": "思惑",
+                "reading": "おもわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1044,
+                "word": "疑惑",
+                "reading": "ぎわく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 80,
+                "word": "空白",
+                "reading": "くうはく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1126,
+                "word": "空腹",
+                "reading": "くうふく",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 2140,
+          "word": "様式",
+          "reading": "ようしき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ようえき",
+              "ようしゃ",
+              "いしき",
+              "うわき",
+              "ぎしき",
+              "きょしき"
+            ],
+            "candidates": [
+              {
+                "id": 2143,
+                "word": "溶液",
+                "reading": "ようえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2139,
+                "word": "容赦",
+                "reading": "ようしゃ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1040,
+                "word": "儀式",
+                "reading": "ぎしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1074,
+                "word": "挙式",
+                "reading": "きょしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "ようえき",
+              "ようしゃ",
+              "いしき",
+              "ぎしき",
+              "きょしき",
+              "こうえき"
+            ],
+            "candidates": [
+              {
+                "id": 2143,
+                "word": "溶液",
+                "reading": "ようえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2139,
+                "word": "容赦",
+                "reading": "ようしゃ",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 4,
+                "word": "意識",
+                "reading": "いしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1040,
+                "word": "儀式",
+                "reading": "ぎしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1074,
+                "word": "挙式",
+                "reading": "きょしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1215,
+                "word": "交易",
+                "reading": "こうえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        },
+        {
+          "id": 2143,
+          "word": "溶液",
+          "reading": "ようえき",
+          "before": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "こうえき",
+              "ようしき",
+              "うわき",
+              "こうえん",
+              "こうげき",
+              "こうせき"
+            ],
+            "candidates": [
+              {
+                "id": 1215,
+                "word": "交易",
+                "reading": "こうえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2140,
+                "word": "様式",
+                "reading": "ようしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 327,
+                "word": "浮気",
+                "reading": "うわき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1212,
+                "word": "後援",
+                "reading": "こうえん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 114,
+                "word": "攻撃",
+                "reading": "こうげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1219,
+                "word": "功績",
+                "reading": "こうせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "after": {
+            "pos": [
+              "名詞"
+            ],
+            "automaticOptions": [
+              "こうえき",
+              "ようしき",
+              "こうえん",
+              "こうげき",
+              "こうせき",
+              "しゅうえき"
+            ],
+            "candidates": [
+              {
+                "id": 1215,
+                "word": "交易",
+                "reading": "こうえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 2140,
+                "word": "様式",
+                "reading": "ようしき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 1
+              },
+              {
+                "id": 1212,
+                "word": "後援",
+                "reading": "こうえん",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 114,
+                "word": "攻撃",
+                "reading": "こうげき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 1219,
+                "word": "功績",
+                "reading": "こうせき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              },
+              {
+                "id": 174,
+                "word": "収益",
+                "reading": "しゅうえき",
+                "pos": [
+                  "名詞"
+                ],
+                "distance": 2
+              }
+            ]
+          },
+          "changed": true
+        }
+      ],
+      "lost": [
+        {
+          "id": 255,
+          "word": "直接",
+          "before": 6,
+          "after": 0
+        },
+        {
+          "id": 327,
+          "word": "浮気",
+          "before": 6,
+          "after": 2
+        },
+        {
+          "id": 1819,
+          "word": "内訳",
+          "before": 3,
+          "after": 2
+        }
+      ],
+      "gained": [
+        {
+          "id": 359,
+          "word": "本気",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    "readingPoolSummary": {
+      "expectedChanged": 23,
+      "expectedLost": [
+        {
+          "id": 255,
+          "word": "直接",
+          "before_count": 6,
+          "after_count": 0
+        },
+        {
+          "id": 327,
+          "word": "浮気",
+          "before_count": 6,
+          "after_count": 2
+        },
+        {
+          "id": 1819,
+          "word": "内訳",
+          "before_count": 3,
+          "after_count": 2
+        }
+      ],
+      "expectedGained": [
+        {
+          "id": 359,
+          "word": "本気",
+          "before_count": 2,
+          "after_count": 3
+        }
+      ]
+    },
+    "progressStorageRestored": true,
+    "noPersistedMutation": true
+  },
+  "pageErrors": []
+}

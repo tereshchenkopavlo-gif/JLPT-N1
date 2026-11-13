@@ -1,0 +1,141 @@
+{
+  "pass": true,
+  "version": "v181",
+  "sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
+  "bytes": 6940370,
+  "cardsChecked": 1,
+  "contextsChecked": 2,
+  "generatedPassagesChecked": 2,
+  "uniqueFourOptionSets": true,
+  "clozeEligibilityUnchanged": true,
+  "progressStorageRestored": true,
+  "widths": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyScrollWidth": 360,
+      "pass": true
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyScrollWidth": 412,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyScrollWidth": 1280,
+      "pass": true
+    }
+  ],
+  "pageErrors": [],
+  "data": {
+    "counts": {
+      "vocabulary": 3914,
+      "grammar": 130,
+      "lexicalPairs": 859,
+      "meaningQuizEntries": 385,
+      "uniqueVocabIds": 3914,
+      "posEntries": 3914
+    },
+    "id2433": {
+      "headword": "そびえる",
+      "reading": "そびえる",
+      "pos": [
+        "動詞"
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "sentence": "市の中心部には、高さ二百メートルの超高層ビルがそびえている。",
+          "quiz": {
+            "correct": "建物などが、非常に高く立っていること。",
+            "wrong": [
+              "建物などが、低い位置に建っていること。",
+              "建物などが、地面に沿って横に長く広がること。",
+              "建物などが、地面の下に建てられていること。"
+            ],
+            "note": "У цьому реченні そびえる описує дуже високу вертикальну споруду. Інші варіанти описують низьку будівлю, довгу горизонтальну забудову або підземну споруду."
+          },
+          "unique": true,
+          "markedFound": true,
+          "markedSpans": [
+            "そびえて"
+          ],
+          "literalClozeAvailable": false
+        },
+        {
+          "index": 1,
+          "sentence": "雪をいただいた山々が、湖の向こうにそびえて見える。",
+          "quiz": {
+            "correct": "山などが、非常に高く立っていること。",
+            "wrong": [
+              "山などが、低い谷間に沈んで見えること。",
+              "山などが、低い丘のように丸くなだらかに見えること。",
+              "山などが、周囲の地面と同じ高さで平らに続くこと。"
+            ],
+            "note": "Тут そびえる означає, що гори високо здіймаються над місцевістю за озером. Інші варіанти описують низину, невисокий пагорб або пласку рівнину."
+          },
+          "unique": true,
+          "markedFound": true,
+          "markedSpans": [
+            "そびえて"
+          ],
+          "literalClozeAvailable": false
+        }
+      ],
+      "generated": [
+        {
+          "seed": 0,
+          "passageText": "<div class=\"psent\">市の中心部には、高さ二百メートルの超高層ビルが<b>そびえて</b>いる。</div>",
+          "questionCount": 1,
+          "question": {
+            "prompt": "太字の語「そびえる」の意味として最も適切なものはどれか。",
+            "choices": [
+              "建物などが、地面の下に建てられていること。",
+              "建物などが、地面に沿って横に長く広がること。",
+              "建物などが、非常に高く立っていること。",
+              "建物などが、低い位置に建っていること。"
+            ],
+            "answer": 2,
+            "explain": "そびえる：山や建物などが、非常に高く立っている。（височіти, здійматися） У цьому реченні そびえる описує дуже високу вертикальну споруду. Інші варіанти описують низьку будівлю, довгу горизонтальну забудову або підземну споруду."
+          },
+          "correct": "建物などが、非常に高く立っていること。",
+          "targetKey": "v:2433"
+        },
+        {
+          "seed": 0.999,
+          "passageText": "<div class=\"psent\">雪をいただいた山々が、湖の向こうに<b>そびえて</b>見える。</div>",
+          "questionCount": 1,
+          "question": {
+            "prompt": "太字の語「そびえる」の意味として最も適切なものはどれか。",
+            "choices": [
+              "山などが、周囲の地面と同じ高さで平らに続くこと。",
+              "山などが、低い丘のように丸くなだらかに見えること。",
+              "山などが、非常に高く立っていること。",
+              "山などが、低い谷間に沈んで見えること。"
+            ],
+            "answer": 2,
+            "explain": "そびえる：山や建物などが、非常に高く立っている。（височіти, здійматися） Тут そびえる означає, що гори високо здіймаються над місцевістю за озером. Інші варіанти описують низину, невисокий пагорб або пласку рівнину."
+          },
+          "correct": "山などが、非常に高く立っていること。",
+          "targetKey": "v:2433"
+        }
+      ]
+    },
+    "cloze": {
+      "candidateCount": 705,
+      "beforeEligibility": [
+        false,
+        false
+      ],
+      "afterEligibility": [
+        false,
+        false
+      ],
+      "unchanged": true
+    },
+    "progressStorageRestored": true
+  }
+}
