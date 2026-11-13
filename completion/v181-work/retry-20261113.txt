@@ -1,1 +1,1 @@
-Retry trigger for v181 Chromium verification after correcting the expected runtime REVIEWED_MEANING_QUIZZES key count from 384 to 385. No application data change.
+Trigger v181 Chromium rerun after refining the two distractor sets, strengthening exact-content assertions, and excluding Python cache files from evidence commits.
