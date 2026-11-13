@@ -51,6 +51,7 @@
     1094,
     1095
   ],
-  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
-  "publication_policy": "copy exact verified paths only; never merge the work branch"
+  "status": "deterministic candidate passed; Chromium render assertion corrected to test only fields actually displayed in card detail; rerun pending",
+  "publication_policy": "copy exact verified paths only; never merge the work branch",
+  "browser_scope_note": "usage is a stored linguistic annotation validated directly from VOCAB_DETAILS_BY_ID; it is not rendered in the current card-detail view, so it is checked as data rather than a visible UI element."
 }
