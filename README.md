@@ -1,10 +1,10 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-Актуальна **v210** у main після guarded-публікації. Перевірено 12 карток: усі 12 fixed_rechecked; внесено 14 точних змін. Авторський credit — **3681/3914**. [Повний HTML v209](JLPT_N1_ukrainian_reading_v210.html) · [Аудит v209](JLPT_N1_v210_audit.md).
+Актуальна **v210** у main після guarded-публікації. Перевірено 12 карток: усі 12 fixed_rechecked; внесено 16 точних змін. Авторський credit — **3693/3914**. [Повний HTML v210](JLPT_N1_ukrainian_reading_v210.html) · [Аудит v210](JLPT_N1_v210_audit.md).
 
-SHA-256: `dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf` · 6 948 136 байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Реєстр — 3916 reviewed / 335 fixed_rechecked / 1596 pending; словниковий зріз — 3347 / 334 / 233.
+SHA-256: `ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474` · 6 948 501 байт. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Реєстр — 3916 reviewed / 347 fixed_rechecked / 1584 pending; словниковий зріз — 3347 / 346 / 221.
 
-Докази v209: [deterministic prepare](completion/v209-prepare-results.json), [Chromium acceptance](completion/v209-browser-results.json), [registry](completion/v209-registry-results.json), [acceptance](completion/v209-acceptance.tsv), [повний перегляд](completion/v209-c10-review.tsv), [точні зміни](completion/v209-field-changes.tsv), [джерельна звірка](completion/v209-source-review.md). Workflow run 43468638711 завершився успішно; PR #34 закрито без злиття, робочу гілку збережено.
+Докази v210: [deterministic prepare](completion/v210-prepare-results.json), [Chromium acceptance](completion/v210-browser-results.json), [registry](completion/v210-registry-results.json), [acceptance](completion/v210-acceptance.tsv), [повний перегляд](completion/v210-c10-review.tsv), [точні зміни](completion/v210-field-changes.tsv), [джерельна звірка](completion/v210-source-review.md). Workflow run 43470280808 завершився успішно; PR #35 закрито без злиття, робочу гілку збережено.
 
 Наступний C10 checkpoint буде сформовано з решти pending-записів після окремої перевірки безпеки. C10 триває; C11 POS-залежності, незалежне лінгвістичне приймання, фізична перевірка Android/Windows та правове/походження приймання залишаються відкритими.
 
