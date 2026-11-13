@@ -52,6 +52,11 @@
     1148
   ],
   "next_pending_after_scope": [],
-  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
-  "publication_policy": "copy exact verified paths only; never merge the work branch"
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "publication_policy": "copy exact verified paths only; never merge the work branch",
+  "candidate_sha256": "39aa398f92db161d4c396038d588872b2fabb9fc9c45713a5e530f5a03bae14c",
+  "candidate_bytes": 6945374,
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "browser_results": "completion/v202-work/browser-results.json"
 }

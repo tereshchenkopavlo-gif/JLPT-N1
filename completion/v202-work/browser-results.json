@@ -1,0 +1,124 @@
+{
+  "pass": true,
+  "candidate_sha256": "39aa398f92db161d4c396038d588872b2fabb9fc9c45713a5e530f5a03bae14c",
+  "candidate_bytes": 6945374,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 1119,
+      "word": "近接",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1123,
+      "word": "苦戦",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1124,
+      "word": "駆使",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1127,
+      "word": "屈指",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1128,
+      "word": "屈折",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1129,
+      "word": "群衆",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1132,
+      "word": "刑罰",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1135,
+      "word": "形態",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1139,
+      "word": "継続",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1140,
+      "word": "警戒",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1147,
+      "word": "激減",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1148,
+      "word": "激怒",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
