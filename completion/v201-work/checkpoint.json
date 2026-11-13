@@ -51,11 +51,53 @@
     1147,
     1148
   ],
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v201 exact artifacts published and verified in main",
   "publication_policy": "copy exact verified paths only; never merge the work branch",
   "candidate_sha256": "ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34",
   "candidate_bytes": 6945346,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "browser_results": "completion/v201-work/browser-results.json"
+  "browser_results": "completion/v201-work/browser-results.json",
+  "publication_commit": "fb8b325bb96d0fb236e6328506db15e7f9fd600c",
+  "publication_html_blob": "e9c87751aacfc12d61168fd5e729c4814a9364c0",
+  "publication_sha256": "ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34",
+  "publication_bytes": 6945346,
+  "published_paths": [
+    "JLPT_N1_ukrainian_reading_v201.html",
+    "JLPT_N1_v201_audit.md",
+    "README.md",
+    "PROJECT_STATUS.md",
+    "completion/BACKLOG.md",
+    "completion/review-register.csv",
+    "completion/v201-acceptance.tsv",
+    "completion/v201-c10-review.tsv",
+    "completion/v201-prepare-results.json",
+    "completion/v201-browser-results.json",
+    "completion/v201-registry-results.json",
+    "completion/v201-source-review.md"
+  ],
+  "registry_after": {
+    "all": {
+      "reviewed": 3914,
+      "fixed_rechecked": 242,
+      "pending": 1691
+    },
+    "vocabulary": {
+      "reviewed": 3345,
+      "fixed_rechecked": 241,
+      "pending": 328
+    }
+  },
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 4,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  }
 }
