@@ -49,7 +49,7 @@ for rel in PUBLISH_PATHS:
  dst.write_bytes(blob)
 
 run("git","config","user.name","github-actions[bot]",cwd=worktree)
-run("git","config","user.email","41898282+users.noreply.github.com",cwd=worktree)
+run("git","config","user.email","41898282+actions@users.noreply.github.com",cwd=worktree)
 run("git","add","--",*PUBLISH_PATHS,cwd=worktree)
 if subprocess.run(["git","diff","--cached","--quiet"],cwd=worktree).returncode==0:
  raise SystemExit("Refusing empty v195 publication")
