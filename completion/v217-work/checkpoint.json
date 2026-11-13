@@ -1,0 +1,142 @@
+{
+  "version": "v217",
+  "base_version": "v216",
+  "base_main_sha": "84b15703909d827688a99e941b2704b962205779",
+  "base_html_sha256": "9166c9c55fac5478dda8768da705986ce9ba42d7f8fb43ae259848d17df156ec",
+  "base_html_blob": "82e8ec96f948084777863e52958e98203b724c25",
+  "base_html_bytes": 6950652,
+  "branch": "work/v217-c10-next-pending",
+  "scope_ids": [
+    1740,
+    1796,
+    1816,
+    1823,
+    1824,
+    2142,
+    3020,
+    3029,
+    3034,
+    3041,
+    3052,
+    3059
+  ],
+  "fixed_rechecked_ids": [
+    1816,
+    3020,
+    3041,
+    3052,
+    3059
+  ],
+  "reviewed_ids": [
+    1740,
+    1796,
+    1823,
+    1824,
+    2142,
+    3029,
+    3034
+  ],
+  "deferred_ids": [
+    {
+      "id": 544,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 550,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 552,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 557,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 588,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 599,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 644,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 663,
+      "reason": "C11 POS/quiz dependency; do not change before pool review"
+    },
+    {
+      "id": 1492,
+      "reason": "separate content review; historical pilot evidence preserved"
+    },
+    {
+      "id": 1510,
+      "reason": "separate content review; excluded from this author batch"
+    },
+    {
+      "id": 1631,
+      "reason": "C11 POS/quiz dependency; do not alter POS before pool review"
+    },
+    {
+      "id": 1878,
+      "reason": "existing unresolved issue; avoid duplicate work"
+    },
+    {
+      "id": 2734,
+      "reason": "C11 POS classification dependency; defer until quiz-pool review"
+    }
+  ],
+  "expected_field_updates": 5,
+  "pair_reviewed": [],
+  "author_credit_before": 3771,
+  "author_credit_addition": 12,
+  "author_credit_after": 3783,
+  "pilot_files": [],
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    1740,
+    1796,
+    1816,
+    1823,
+    1824,
+    2142,
+    3020,
+    3029,
+    3034,
+    3041,
+    3052,
+    3059
+  ],
+  "expected_registry_after": {
+    "all": {
+      "reviewed": 3932,
+      "fixed_rechecked": 424,
+      "pending": 1491,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3361,
+      "fixed_rechecked": 422,
+      "pending": 131,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 20,
+      "fixed_rechecked": 1,
+      "pending": 838,
+      "total": 859
+    }
+  },
+  "exact_rollback": true,
+  "status": "author review prepared; deterministic build and Chromium verification pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch",
+  "main_guard": "84b15703909d827688a99e941b2704b962205779",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "chromium_verification": "pending"
+}
