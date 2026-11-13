@@ -1,7 +1,7 @@
 {
   "version": "v215",
   "base_version": "v214",
-  "base_main_sha": "5ff0a3ab9ba8aea733ca3b10d5422b18266bddf9",
+  "base_main_sha": "59e621fed204052574e2349752c338fab17598e8",
   "base_html_sha256": "0436bb8dc402e85eab47c442e094c1b725c3e97302500f559bd5b1fe944225b8",
   "base_html_blob": "9ca4fcc6dc6f0db7eaaebed232cc684868dfb5b2",
   "base_html_bytes": 6949689,
@@ -17,7 +17,14 @@
     1258,
     1260,
     1270,
-    1272
+    1272,
+    1276,
+    1280,
+    1285,
+    1290,
+    1292,
+    1293,
+    1296
   ],
   "fixed_rechecked_ids": [
     1019,
@@ -31,35 +38,57 @@
     1258,
     1260,
     1270,
-    1272
+    1272,
+    1276,
+    1280,
+    1285,
+    1290,
+    1292,
+    1293,
+    1296
   ],
   "pending_ids": [],
   "reviewed_ids": [],
-  "expected_field_updates": 13,
-  "pair_reviewed": [
-    "255:1028:52",
-    "256:1027:1028",
-    "276:1089:1091",
-    "277:1089:1093",
-    "281:1112:1191",
-    "282:1191:75",
-    "303:1155:1089",
-    "316:1191:1192",
-    "324:1214:1272",
-    "339:1255:274",
-    "345:1270:1271"
-  ],
+  "expected_field_updates": 21,
+  "pair_reviewed": [],
   "author_credit_before": 3737,
-  "author_credit_addition": 12,
-  "author_credit_after": 3749,
+  "author_credit_addition": 19,
+  "author_credit_after": 3756,
   "pilot_files": {
     "completion/v153-cards-981-1080.tsv": "d10cf3a593dda90f9a1dcc44011d7468c7fc1b47",
     "completion/v153-cards-1081-1180.tsv": "4b828dbf37995cfa6491fee94cb63c1854778a6f",
-    "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729"
+    "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729",
+    "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "author review prepared; deterministic build, registry, Chromium acceptance and guarded publication pending",
+  "status": "19-card author review reconciled; deterministic build, registry, Chromium acceptance and guarded publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
-  "main_guard": "5ff0a3ab9ba8aea733ca3b10d5422b18266bddf9",
+  "main_guard": "59e621fed204052574e2349752c338fab17598e8",
   "pr_number": null,
-  "attempts": []
+  "attempts": [],
+  "japanese_definition_changes": [
+    1292,
+    1293
+  ],
+  "japanese_example_changes": [],
+  "expected_registry_after": {
+    "all": {
+      "reviewed": 3918,
+      "fixed_rechecked": 411,
+      "pending": 1518,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3347,
+      "fixed_rechecked": 409,
+      "pending": 158,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 20,
+      "fixed_rechecked": 1,
+      "pending": 838,
+      "total": 859
+    }
+  },
+  "pair_review_included": false
 }
