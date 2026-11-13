@@ -37,7 +37,7 @@ jobs:
           node-version: "22"
 
       - name: Build deterministic v207 candidate and registry
-        run: python3 completion/v207-work/apply.py 2>&1 | tee completion/v207-work/apply-error.txt
+        run: set -o pipefail; python3 completion/v207-work/apply.py 2>&1 | tee completion/v207-work/apply-error.txt
 
       - name: Check Python and Node syntax
         run: |
