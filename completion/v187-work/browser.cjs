@@ -70,7 +70,7 @@ async function main(){
     const body=document.getElementById('cardDetailBody');
     const text=body.innerText;
     const d=VOCAB_DETAILS_BY_ID[String(id)];
-    const norm=x=>String(x).replace(/\\s+/g,' ').trim();
+    const norm=x=>String(x).replace(/\s+/g,' ').trim();
     out.push({
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
@@ -108,8 +108,8 @@ async function main(){
   assert.deepEqual(errors,[]);
 
   const result={pass:true,candidate_sha256:sha,candidate_bytes:bytes.length,counts:structural,reviewed_card_count:rendered.length,reviewed_cards:rendered,c11_pos_hold:{'644':['副詞'],'663':['名詞']},responsive,storage,pageErrors:errors};
-  fs.writeFileSync(path.join(WORK,'browser-results.json'),JSON.stringify(result,null,2)+'\\n');
-  process.stdout.write(JSON.stringify(result,null,2)+'\\n');
+  fs.writeFileSync(path.join(WORK,'browser-results.json'),JSON.stringify(result,null,2)+'\n');
+  process.stdout.write(JSON.stringify(result,null,2)+'\n');
  }finally{await browser.close();}
 }
 main().catch(error=>{console.error(error);process.exit(1);});
