@@ -19,5 +19,35 @@
     "no progress/storage changes",
     "no credit until explicit author review and browser recheck"
   ],
-  "status": "diagnostic pending"
+  "status": "diagnostics passed; awaiting manual source review and content-only proposal",
+  "diagnostics_sha256": "790c29d0b13d381115ee4c924839d52d8a2ebde6c0c90c475b081e2ac9cae32e",
+  "changed_pools": 23,
+  "lost_eligibility": [
+    {
+      "id": 255,
+      "word": "直接",
+      "before": 6,
+      "after": 0
+    },
+    {
+      "id": 327,
+      "word": "浮気",
+      "before": 6,
+      "after": 2
+    },
+    {
+      "id": 1819,
+      "word": "内訳",
+      "before": 3,
+      "after": 2
+    }
+  ],
+  "gained_eligibility": [
+    {
+      "id": 359,
+      "word": "本気",
+      "before": 2,
+      "after": 3
+    }
+  ]
 }
