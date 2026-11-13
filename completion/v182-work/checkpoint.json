@@ -59,5 +59,63 @@
       ]
     }
   },
-  "status": "pending corrected-POS browser diagnostic"
+  "status": "diagnostic passed; awaiting manual author acceptance",
+  "changed_pool_count": 23,
+  "lost_eligibility": [
+    {
+      "id": 255,
+      "before": [
+        "ちょうせつ",
+        "がくせつ",
+        "ぎゃくせつ",
+        "しょくはつ",
+        "ちくせき",
+        "ちょうせい"
+      ],
+      "after": []
+    },
+    {
+      "id": 327,
+      "before": [
+        "わき",
+        "いしき",
+        "いせき",
+        "うず",
+        "うちわけ",
+        "うつわ"
+      ],
+      "after": [
+        "しんき",
+        "ほんき"
+      ]
+    },
+    {
+      "id": 1819,
+      "before": [
+        "うちがわ",
+        "うつわ",
+        "うわき"
+      ],
+      "after": [
+        "うちがわ",
+        "うつわ"
+      ]
+    }
+  ],
+  "gained_eligibility": [
+    {
+      "id": 359,
+      "before": [
+        "しんき",
+        "かんい"
+      ],
+      "after": [
+        "しんき",
+        "うわき",
+        "かんい"
+      ]
+    }
+  ],
+  "remaining_lost_after_overrides": [],
+  "diagnostic_file": "completion/v182-work/diagnostics.json"
 }
