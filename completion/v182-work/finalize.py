@@ -64,8 +64,10 @@ after = Counter(r["finalReview"] for r in rows)
 if after.get("reviewed") != 3896 or after.get("fixed_rechecked") != 61 or after.get("pending") != 1890 or len(rows) != 5847:
     raise RuntimeError(f"unexpected post-v182 register counts: {dict(after)}, rows={len(rows)}")
 kind_counts = Counter(r["kind"] for r in rows)
-if kind_counts.get("vocab") != 3914 or kind_counts.get("grammar") != 130 or kind_counts.get("pair") != 859:
-    raise RuntimeError(f"unexpected base object counts by kind: {dict(kind_counts)}")
+expected_kinds = {"vocab": 3914, "grammar": 130, "vocab_pair": 859, "grammar_pair": 92, "antonym_pair": 41, "reading": 160, "reading_question": 381}
+for kind, expected_count in expected_kinds.items():
+    if kind_counts.get(kind) != expected_count:
+        raise RuntimeError(f"unexpected object count for {kind}: {kind_counts.get(kind)} != {expected_count}")
 if kind_counts.get("reviewed_meaning_quiz") != 267 or kind_counts.get("reviewed_reading_quiz") != 3:
     raise RuntimeError(f"unexpected reviewed quiz counts: {dict(kind_counts)}")
 vocab_counts = Counter(r["finalReview"] for r in rows if r["kind"] == "vocab")
