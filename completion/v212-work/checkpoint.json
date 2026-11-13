@@ -61,7 +61,7 @@
     "completion/v153-cards-1481-1520.tsv": "e2cc65cfc7cd035f667d76eb9639925d2dbc356e",
     "completion/v153-cards-1521-1560.tsv": "d206d88b12e53e4e0d110732c26de5075a48e601"
   },
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "attempts 1–2 did not publish: attempt 1 corrected EXPECTED table; attempt 2 passed build and Chromium but hit publisher string/int bug; publisher corrected, attempt 3 pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -69,6 +69,12 @@
       "run_id": 43473608605,
       "conclusion": "failure",
       "failure": "Python preparer stopped before candidate generation because the generated EXPECTED identity/POS table contained JSON null values. No candidate was produced or published. The table was regenerated from the exact v211 vocabulary and POS maps."
+    },
+    {
+      "attempt": 2,
+      "run_id": 43473853926,
+      "conclusion": "failure_at_publish",
+      "result": "Deterministic candidate generation, Python/Node syntax, Chromium acceptance, canonical evidence copy, and work-branch save all passed. Exact-artifact publisher stopped before publication because PROJECT_STATUS string construction concatenated an integer byte count. Main was not changed. The publisher now converts size to string."
     }
   ],
   "candidate_sha256": "a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5",
