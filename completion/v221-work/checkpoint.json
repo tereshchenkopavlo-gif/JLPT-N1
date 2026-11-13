@@ -21,11 +21,61 @@
     3417
   ],
   "scope_status": "pending in main after v220; selected in register order after existing C11/other deferrals",
-  "fixed_rechecked_ids": [],
-  "reviewed_ids": [],
-  "blocked_ids": [],
-  "field_updates": [],
-  "pair_reviewed": [],
+  "fixed_rechecked_ids": [
+    3382,
+    3397,
+    3402,
+    3407,
+    3409,
+    3415
+  ],
+  "reviewed_ids": [
+    3383,
+    3384,
+    3390,
+    3392
+  ],
+  "blocked_ids": [
+    3375,
+    3417
+  ],
+  "field_updates": [
+    {
+      "id": 3382,
+      "field": "examples[0]"
+    },
+    {
+      "id": 3397,
+      "field": "examples[0]"
+    },
+    {
+      "id": 3397,
+      "field": "exampleTranslations[0]"
+    },
+    {
+      "id": 3402,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3407,
+      "field": "exampleTranslations[0]"
+    },
+    {
+      "id": 3409,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3415,
+      "field": "t"
+    }
+  ],
+  "pair_reviewed": [
+    756,
+    766,
+    767,
+    770,
+    772
+  ],
   "pilot_covered_ids": [],
   "pilot_missing_ids": [
     3375,
@@ -42,12 +92,21 @@
     3417
   ],
   "author_credit_before": 3816,
-  "author_credit_after": null,
-  "author_review": "not started",
-  "technical_verification": "not started",
+  "author_credit_after": 3826,
+  "author_review": "completed; 10 cards credited, two C11 POS blocks",
+  "technical_verification": "passed",
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
   "main_guard": "0f4e72d0e2465b0d7a69be927455bd27ac758bab",
-  "publication_policy": "copy only exact verified artifacts; never merge the work branch"
+  "publication_policy": "copy only exact verified artifacts; never merge the work branch",
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "candidate_sha256": "422eda2cde35d511e45dd7d19624352269a3eab10c800d41dd17fb432015d716",
+  "candidate_blob_sha": "07b4cdc4ad43405dba9fbced4d2069ee7e436b1b",
+  "candidate_bytes": 6951849,
+  "pair_changed": [],
+  "exact_rollback": true,
+  "publication_status": "pending",
+  "chromium_verification": "passed",
+  "workflow_run_id": 43529633102
 }

@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+3375	当面	blocked	—	名詞 with adverbial use; 当面の課題 is nominal while app POS-map is 副詞; defer to C11.
+3382	未だ	fixed_rechecked	examples[0]	Remove redundant ままだ after 未だ解明されていない.
+3383	無性に	reviewed	—	Both examples match an intense, hard-to-suppress feeling/desire; no change.
+3384	無論	reviewed	—	無論 and 無論のこと are used naturally; no change.
+3390	満遍なく	reviewed	—	Even coverage without omissions or skew; examples and translations fit.
+3392	あっさり	reviewed	—	Simple/quick action and light taste senses are represented; no clear error.
+3397	きっちり	fixed_rechecked	examples[0]; exampleTranslations[0]	Replace awkward 期日きっちりに with a natural exact-amount transfer example.
+3402	からっと	fixed_rechecked	exampleTranslations[1]	Remove the unexpressed claim that the air became dry.
+3407	ぐっすり	fixed_rechecked	exampleTranslations[0]	Translate 連休 as consecutive/long days off, not an ordinary weekend.
+3409	ひそひそ	fixed_rechecked	exampleTranslations[1]	Replace unnatural Ukrainian word order with natural перешіптування.
+3415	ひらひら	fixed_rechecked	t	Clarify light fluttering/soaring/waving rather than generic movement.
+3417	だぶだぶ	blocked	—	Examples だぶだぶで/だぶだぶの have 形動 function while app POS-map is 副詞; defer to C11.

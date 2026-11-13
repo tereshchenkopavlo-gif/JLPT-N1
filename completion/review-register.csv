@@ -3373,49 +3373,49 @@ vocab,3371,vocab:3371,reviewed,completion/v165-cards-3361-3380.tsv#3371; author 
 vocab,3372,vocab:3372,reviewed,completion/v165-cards-3361-3380.tsv#3372; author linguistic review
 vocab,3373,vocab:3373,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3374,vocab:3374,reviewed,completion/v165-cards-3361-3380.tsv#3374; author linguistic review
-vocab,3375,vocab:3375,pending,
+vocab,3375,vocab:3375,blocked,completion/v221-c10-review.tsv#3375; 当面 is 名詞 with adverbial use; 当面の課題 is nominal while app POS-map is 副詞; C11 required; unchanged
 vocab,3376,vocab:3376,reviewed,completion/v165-cards-3361-3380.tsv#3376; author linguistic review
 vocab,3377,vocab:3377,reviewed,completion/v165-cards-3361-3380.tsv#3377; author linguistic review
 vocab,3378,vocab:3378,reviewed,completion/v165-cards-3361-3380.tsv#3378; author linguistic review
 vocab,3379,vocab:3379,reviewed,completion/v165-cards-3361-3380.tsv#3379; author linguistic review
 vocab,3380,vocab:3380,reviewed,completion/v165-cards-3361-3380.tsv#3380; author linguistic review
 vocab,3381,vocab:3381,reviewed,completion/v166-cards-3381-3400.tsv#3381; author linguistic review
-vocab,3382,vocab:3382,pending,
-vocab,3383,vocab:3383,pending,
-vocab,3384,vocab:3384,pending,
+vocab,3382,vocab:3382,fixed_rechecked,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
+vocab,3383,vocab:3383,reviewed,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
+vocab,3384,vocab:3384,reviewed,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3385,vocab:3385,reviewed,completion/v166-cards-3381-3400.tsv#3385; author linguistic review
 vocab,3386,vocab:3386,reviewed,completion/v166-cards-3381-3400.tsv#3386; author linguistic review
 vocab,3387,vocab:3387,reviewed,completion/v166-cards-3381-3400.tsv#3387; author linguistic review
 vocab,3388,vocab:3388,reviewed,completion/v166-cards-3381-3400.tsv#3388; author linguistic review
 vocab,3389,vocab:3389,reviewed,completion/v166-cards-3381-3400.tsv#3389; author linguistic review
-vocab,3390,vocab:3390,pending,
+vocab,3390,vocab:3390,reviewed,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3391,vocab:3391,reviewed,completion/v166-cards-3381-3400.tsv#3391; author linguistic review
-vocab,3392,vocab:3392,pending,
+vocab,3392,vocab:3392,reviewed,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3393,vocab:3393,reviewed,completion/v166-cards-3381-3400.tsv#3393; author linguistic review
 vocab,3394,vocab:3394,reviewed,completion/v166-cards-3381-3400.tsv#3394; author linguistic review
 vocab,3395,vocab:3395,reviewed,completion/v166-cards-3381-3400.tsv#3395; author linguistic review
 vocab,3396,vocab:3396,reviewed,completion/v166-cards-3381-3400.tsv#3396; author linguistic review
-vocab,3397,vocab:3397,pending,
+vocab,3397,vocab:3397,fixed_rechecked,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3398,vocab:3398,reviewed,completion/v166-cards-3381-3400.tsv#3398; author linguistic review
 vocab,3399,vocab:3399,reviewed,completion/v166-cards-3381-3400.tsv#3399; author linguistic review
 vocab,3400,vocab:3400,reviewed,completion/v166-cards-3381-3400.tsv#3400; author linguistic review
 vocab,3401,vocab:3401,reviewed,completion/v166-cards-3401-3420.tsv#3401; author linguistic review
-vocab,3402,vocab:3402,pending,
+vocab,3402,vocab:3402,fixed_rechecked,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3403,vocab:3403,reviewed,completion/v166-cards-3401-3420.tsv#3403; author linguistic review
 vocab,3404,vocab:3404,reviewed,completion/v166-cards-3401-3420.tsv#3404; author linguistic review
 vocab,3405,vocab:3405,reviewed,completion/v166-cards-3401-3420.tsv#3405; author linguistic review
 vocab,3406,vocab:3406,reviewed,completion/v166-cards-3401-3420.tsv#3406; author linguistic review
-vocab,3407,vocab:3407,pending,
+vocab,3407,vocab:3407,fixed_rechecked,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3408,vocab:3408,reviewed,completion/v166-cards-3401-3420.tsv#3408; author linguistic review
-vocab,3409,vocab:3409,pending,
+vocab,3409,vocab:3409,fixed_rechecked,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3410,vocab:3410,reviewed,completion/v166-cards-3401-3420.tsv#3410; author linguistic review
 vocab,3411,vocab:3411,reviewed,completion/v166-cards-3401-3420.tsv#3411; author linguistic review
 vocab,3412,vocab:3412,reviewed,completion/v166-cards-3401-3420.tsv#3412; author linguistic review
 vocab,3413,vocab:3413,reviewed,completion/v166-cards-3401-3420.tsv#3413; author linguistic review
 vocab,3414,vocab:3414,reviewed,completion/v166-cards-3401-3420.tsv#3414; author linguistic review
-vocab,3415,vocab:3415,pending,
+vocab,3415,vocab:3415,fixed_rechecked,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3416,vocab:3416,reviewed,completion/v166-cards-3401-3420.tsv#3416; author linguistic review
-vocab,3417,vocab:3417,pending,
+vocab,3417,vocab:3417,blocked,completion/v221-c10-review.tsv#3417; だぶだぶ has 副詞 and 形動 uses; examples だぶだぶで/だぶだぶの conflict with app POS-map 副詞; C11 required; unchanged
 vocab,3418,vocab:3418,reviewed,completion/v166-cards-3401-3420.tsv#3418; author linguistic review
 vocab,3419,vocab:3419,reviewed,completion/v166-cards-3401-3420.tsv#3419; author linguistic review
 vocab,3420,vocab:3420,reviewed,completion/v166-cards-3401-3420.tsv#3420; author linguistic review
@@ -4799,7 +4799,7 @@ vocab_pair,752:3293:3296,VOCAB_AUDITED_PAIRS[752],reviewed,completion/v219-pair-
 vocab_pair,753:3308:3366,VOCAB_AUDITED_PAIRS[753],pending,
 vocab_pair,754:3366:3367,VOCAB_AUDITED_PAIRS[754],pending,
 vocab_pair,755:3329:3331,VOCAB_AUDITED_PAIRS[755],pending,
-vocab_pair,756:3374:3375,VOCAB_AUDITED_PAIRS[756],pending,
+vocab_pair,756:3374:3375,VOCAB_AUDITED_PAIRS[756],reviewed,completion/v221-pair-review.tsv#756; author review of exact pair and note; no text change; not independent
 vocab_pair,757:3325:3364,VOCAB_AUDITED_PAIRS[757],reviewed,completion/v219-pair-review.tsv#757; author review of the exact pair and stated senses; not independent
 vocab_pair,758:3362:3385,VOCAB_AUDITED_PAIRS[758],pending,
 vocab_pair,759:3338:3371,VOCAB_AUDITED_PAIRS[759],pending,
@@ -4809,13 +4809,13 @@ vocab_pair,762:3346:3347,VOCAB_AUDITED_PAIRS[762],pending,
 vocab_pair,763:3324:3361,VOCAB_AUDITED_PAIRS[763],pending,
 vocab_pair,764:3336:3355,VOCAB_AUDITED_PAIRS[764],reviewed,completion/v219-pair-review.tsv#764; author review of the exact pair and stated senses; not independent
 vocab_pair,765:3372:3400,VOCAB_AUDITED_PAIRS[765],pending,
-vocab_pair,766:3394:3397,VOCAB_AUDITED_PAIRS[766],pending,
-vocab_pair,767:3300:3390,VOCAB_AUDITED_PAIRS[767],pending,
+vocab_pair,766:3394:3397,VOCAB_AUDITED_PAIRS[766],reviewed,completion/v221-pair-review.tsv#766; author review of exact pair and note; no text change; not independent
+vocab_pair,767:3300:3390,VOCAB_AUDITED_PAIRS[767],reviewed,completion/v221-pair-review.tsv#767; author review of exact pair and note; no text change; not independent
 vocab_pair,768:3313:3377,VOCAB_AUDITED_PAIRS[768],pending,
 vocab_pair,769:3410:3439,VOCAB_AUDITED_PAIRS[769],pending,
-vocab_pair,770:3409:3422,VOCAB_AUDITED_PAIRS[770],pending,
+vocab_pair,770:3409:3422,VOCAB_AUDITED_PAIRS[770],reviewed,completion/v221-pair-review.tsv#770; author review of exact pair and note; no text change; not independent
 vocab_pair,771:3422:3425,VOCAB_AUDITED_PAIRS[771],pending,
-vocab_pair,772:3417:3424,VOCAB_AUDITED_PAIRS[772],pending,
+vocab_pair,772:3417:3424,VOCAB_AUDITED_PAIRS[772],reviewed,completion/v221-pair-review.tsv#772; author review of exact pair and note; no text change; not independent
 vocab_pair,773:3429:3432,VOCAB_AUDITED_PAIRS[773],pending,
 vocab_pair,774:3411:3467,VOCAB_AUDITED_PAIRS[774],pending,
 vocab_pair,775:3440:3443,VOCAB_AUDITED_PAIRS[775],pending,
