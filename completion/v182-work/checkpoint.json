@@ -22,7 +22,23 @@
     "no full-card credit for partial field review",
     "no data or ID removal"
   ],
-  "status": "candidate prepared; awaiting Chromium verification",
+  "status": "candidate verified; NINJAL cross-check and app-specific POS/cloze tradeoff recorded; registry finalization pending",
   "candidate_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
-  "candidate_bytes": 6940820
+  "candidate_bytes": 6940820,
+  "pos_tradeoff": {
+    "current_pos": [
+      "名詞",
+      "ナ形"
+    ],
+    "current_cloze_candidates": 64,
+    "hypothetical_pos": [
+      "名詞",
+      "ナ形",
+      "副詞"
+    ],
+    "hypothetical_cloze_candidates": 2,
+    "combined_reading_pools_changed": 0,
+    "decision": "retain 名詞+ナ形; document adverbial use in usage"
+  },
+  "browser_run": "43365662584"
 }
