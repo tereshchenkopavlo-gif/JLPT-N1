@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1378	嫉妬	しっと	名詞	fixed_rechecked	m;examples[0]	Correct 昇進に嫉妬する and include the romantic-jealousy sense.
+1379	実況	じっきょう	名詞	fixed_rechecked	exampleTranslations[1]	災害 is not necessarily a natural disaster.
+1380	実刑	じっけい	名詞	fixed_rechecked	examples[0];exampleTranslations[0]	Use 被告人 and render the actual prison sentence without suspension.
+1383	実質	じっしつ	名詞	fixed_rechecked	t	Separate nominal substance from adverbial “in effect”.
+1386	実費	じっぴ	名詞	fixed_rechecked	usage	Distinguish bearing actual costs from settling expenses at actual cost.
+1389	社交	しゃこう	名詞	fixed_rechecked	t	Remove “sociability”, better expressed by 社交的.
+1390	謝罪	しゃざい	名詞	fixed_rechecked	t;usage	An apology is not merely an admission of fault; 深く and 誠意ある carry distinct force.
+1396	主軸	しゅじく	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the baseball-specific 打線 metaphor.
+1401	手口	てぐち	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	相次ぐ means successive cases; clarify comparison with methods in earlier cases.
+1405	手数	てすう／てかず	名詞	fixed_rechecked	usage;exampleTranslations[0]	Separate readings by sense and remove an unstated postal method.
+1406	手当	てあて	名詞	fixed_rechecked	t	Include staffing/resource provision in the gloss.
+1407	手配	てはい	名詞	fixed_rechecked	t	Use a noun gloss, separate 手配する, and include 指名手配.
