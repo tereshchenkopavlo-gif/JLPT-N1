@@ -60,6 +60,9 @@ if counts != {"reviewed": 3893, "fixed_rechecked": 59, "pending": 1892}:
 if kind_counts.get("reviewed_meaning_quiz") != 267:
     raise RuntimeError("reviewed meaning quiz count is not 267")
 
+shutil.copyfile("completion/v181-work/prepare-results.json", "completion/v181-prepare-results.json")
+shutil.copyfile("completion/v181-work/browser-results.json", "completion/v181-browser-results.json")
+
 registry = {
     "pass": True,
     "total_objects": len(rows),
