@@ -1,0 +1,68 @@
+{
+  "pass": true,
+  "candidate_sha256": "ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34",
+  "candidate_bytes": 6945346,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 4,
+  "reviewed_cards": [
+    {
+      "id": 1097,
+      "word": "教職",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1100,
+      "word": "興奮",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1102,
+      "word": "驚異",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    },
+    {
+      "id": 1105,
+      "word": "業者",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}

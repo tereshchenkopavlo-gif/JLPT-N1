@@ -1,0 +1,75 @@
+{
+  "pass": true,
+  "base_version": "v200",
+  "base_sha256": "d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a",
+  "candidate_version": "v201",
+  "candidate_sha256": "ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34",
+  "candidate_bytes": 6945346,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    1097,
+    1100,
+    1102,
+    1105
+  ],
+  "fixed_rechecked": [
+    1097,
+    1100,
+    1102,
+    1105
+  ],
+  "reviewed_without_change": [],
+  "updated_fields": 4,
+  "changed_cards": [
+    1097,
+    1100,
+    1102,
+    1105
+  ],
+  "field_updates": [
+    {
+      "id": 1097,
+      "field": "exampleTranslations[1]",
+      "before": "Учитель-практик поділився досвідом зі студентами, які прагнуть працювати в освіті.",
+      "after": "Учитель-практик поділився досвідом зі студентами, які прагнуть стати вчителями."
+    },
+    {
+      "id": 1100,
+      "field": "m",
+      "before": "感情が高ぶって、気持ちが落ち着かなくなること。",
+      "after": "感情や神経などが高ぶり、心身が落ち着かなくなること。"
+    },
+    {
+      "id": 1102,
+      "field": "exampleTranslations[1]",
+      "before": "Перед дивами природи гостро усвідомлюєш, наскільки малі людські справи.",
+      "after": "Перед дивами природи усвідомлюєш, якими незначними здаються людські зусилля."
+    },
+    {
+      "id": 1105,
+      "field": "exampleTranslations[0]",
+      "before": "Місцева влада призупинила діяльність підприємця, який вчинив порушення.",
+      "after": "Місцева влада призупинила діяльність суб’єкта господарювання, який вчинив порушення."
+    }
+  ],
+  "author_credit_before": 3582,
+  "author_credit_addition": 4,
+  "author_credit_after": 3586,
+  "protected_unchanged": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_POS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_MEANING_QUIZZES": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true
+  },
+  "japanese_examples_unchanged": true,
+  "exact_rollback": true,
+  "register_updated": true,
+  "author_review_only": true
+}
