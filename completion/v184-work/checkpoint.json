@@ -21,13 +21,14 @@
     524
   ],
   "first_pending_id": 485,
-  "status": "prepared; full author audit not yet started",
+  "status": "author-reviewed; candidate prepared by deterministic script; browser acceptance pending",
   "guardrails": [
-    "begin with current main and this checkpoint; do not repeat IDs 454-483",
-    "review all card fields and both examples, not just scanner alerts",
+    "use v153 pilot decisions as hypotheses, not automatic acceptance",
+    "do not repeat IDs 454-483",
+    "review all card fields and both examples",
     "fix only demonstrated linguistic errors",
     "no vocabulary/grammar/pair/ID removal",
-    "no POS, quiz target, algorithm or progress-storage changes without separate evidence",
+    "no POS, quiz target, algorithm or progress-storage changes",
     "technical tests, author audit and independent acceptance remain distinct"
   ]
 }
