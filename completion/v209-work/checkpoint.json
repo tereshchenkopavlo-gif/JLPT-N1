@@ -56,7 +56,7 @@
   "pilot_files": {
     "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
   },
-  "status": "attempt 1 failed on browser-test field selection (similar-expression vs gloss); test corrected, attempt 2 pending",
+  "status": "attempts 1–2 failed on browser-test field selection for similar-expression entries; assertions corrected for ID1408 and ID1417; attempt 3 pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -64,7 +64,13 @@
       "run_id": 43467929758,
       "conclusion": "failure",
       "failure": "Chromium assertion expected 人手不足 in the Ukrainian gloss, but the reviewed change is in the similar-expression list; no candidate was published. Deterministic build, registry, and syntax checks passed."
+    },
+    {
+      "attempt": 2,
+      "run_id": 43468295867,
+      "conclusion": "failure",
+      "failure": "Chromium assertion still expected 打ち立てる in the Ukrainian gloss, but this is in the similar-expression list for ID1417. No candidate was published. The ID1408 similar-expression assertion is corrected; ID1417 is now corrected too."
     }
   ],
-  "corrected_browser_assertion": "ID1408 人手不足 is in VOCAB_DETAILS_BY_ID.s, not t; browser preflight now checks card.similar."
+  "corrected_browser_assertion": "ID1408 人手不足 and ID1417 打ち立てる are checked against VOCAB_DETAILS_BY_ID.s, not t or usage."
 }
