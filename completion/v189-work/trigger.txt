@@ -1,1 +1,1 @@
-Trigger v189 C10 deterministic and Chromium acceptance; attempt 1.
+Trigger v189 C10 deterministic and Chromium acceptance after default-branch workflow installation; attempt 2.
