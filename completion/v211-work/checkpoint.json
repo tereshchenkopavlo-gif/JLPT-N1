@@ -51,6 +51,11 @@
     "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de",
     "completion/v153-cards-1481-1520.tsv": "e2cc65cfc7cd035f667d76eb9639925d2dbc356e"
   },
-  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
-  "publication_policy": "copy exact verified artifacts only; never merge the work branch"
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch",
+  "candidate_sha256": "c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68",
+  "candidate_bytes": 6948888,
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "browser_results": "completion/v211-work/browser-results.json"
 }
