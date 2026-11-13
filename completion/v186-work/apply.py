@@ -187,37 +187,62 @@ register_text = REGISTER.read_text(encoding="utf-8")
 register_rows = list(csv.DictReader(register_text.splitlines()))
 if len(register_rows) != 5847:
     raise RuntimeError("unexpected register row count: " + str(len(register_rows)))
-before_all = counts(register_rows)
-before_vocab = counts(register_rows, "vocab")
-if before_all != {"reviewed": 3905, "fixed_rechecked": 84, "pending": 1858, "total": 5847}:
-    raise RuntimeError("register baseline mismatch: " + str(before_all))
-if before_vocab != {"reviewed": 3336, "fixed_rechecked": 83, "pending": 495, "total": 3914}:
-    raise RuntimeError("vocabulary register baseline mismatch: " + str(before_vocab))
+baseline_all = {"reviewed": 3905, "fixed_rechecked": 84, "pending": 1858, "total": 5847}
+baseline_vocab = {"reviewed": 3336, "fixed_rechecked": 83, "pending": 495, "total": 3914}
+target_all = {"reviewed": 3905, "fixed_rechecked": 94, "pending": 1848, "total": 5847}
+target_vocab = {"reviewed": 3336, "fixed_rechecked": 93, "pending": 485, "total": 3914}
+current_all = counts(register_rows)
+current_vocab = counts(register_rows, "vocab")
+keys = [(row["kind"], row["key"]) for row in register_rows]
+duplicate_count = len(keys) - len(set(keys))
+if duplicate_count:
+    raise RuntimeError("duplicate register keys: " + str(duplicate_count))
+if len(register_rows) != 5847:
+    raise RuntimeError("unexpected register row count: " + str(len(register_rows)))
 
 fixed_ids = set(expected_changed)
 pending_ids = {"588", "599"}
 for card_id in scope:
     matches = [row for row in register_rows if row["kind"] == "vocab" and row["key"] == card_id]
-    if len(matches) != 1 or matches[0]["finalReview"] != "pending":
-        raise RuntimeError("register pending preimage mismatch for " + card_id)
+    if len(matches) != 1:
+        raise RuntimeError("register row missing or duplicated for " + card_id)
+    row = matches[0]
     if card_id in fixed_ids:
-        matches[0]["finalReview"] = "fixed_rechecked"
-        matches[0]["evidence"] = "v186-acceptance.tsv; JLPT_N1_v186_audit.md"
-    elif card_id not in pending_ids:
+        expected_evidence = "v186-acceptance.tsv; JLPT_N1_v186_audit.md"
+        if current_all == baseline_all and current_vocab == baseline_vocab:
+            if row["finalReview"] != "pending" or row["evidence"]:
+                raise RuntimeError("register pending preimage mismatch for " + card_id)
+            row["finalReview"] = "fixed_rechecked"
+            row["evidence"] = expected_evidence
+        elif current_all == target_all and current_vocab == target_vocab:
+            if row["finalReview"] != "fixed_rechecked" or row["evidence"] != expected_evidence:
+                raise RuntimeError("applied register evidence mismatch for " + card_id)
+        else:
+            raise RuntimeError("register state is neither baseline nor expected v186 result")
+    elif card_id in pending_ids:
+        if row["finalReview"] != "pending" or row["evidence"]:
+            raise RuntimeError("C11 pending register state changed for " + card_id)
+    else:
         raise RuntimeError("scope decision missing for " + card_id)
 
-after_all = counts(register_rows)
-after_vocab = counts(register_rows, "vocab")
-if after_all != {"reviewed": 3905, "fixed_rechecked": 94, "pending": 1848, "total": 5847}:
-    raise RuntimeError("register result mismatch: " + str(after_all))
-if after_vocab != {"reviewed": 3336, "fixed_rechecked": 93, "pending": 485, "total": 3914}:
-    raise RuntimeError("vocabulary result mismatch: " + str(after_vocab))
-
-with REGISTER.open("w", encoding="utf-8", newline="") as handle:
-    writer = csv.DictWriter(handle, fieldnames=["kind", "key", "baselineLocation", "finalReview", "evidence"], lineterminator="\n")
-    writer.writeheader()
-    writer.writerows(register_rows)
-
+register_mode = "already_applied"
+if current_all == baseline_all and current_vocab == baseline_vocab:
+    after_all = counts(register_rows)
+    after_vocab = counts(register_rows, "vocab")
+    if after_all != target_all or after_vocab != target_vocab:
+        raise RuntimeError("register result mismatch: " + str(after_all) + " / " + str(after_vocab))
+    with REGISTER.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["kind", "key", "baselineLocation", "finalReview", "evidence"], lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(register_rows)
+    register_mode = "applied_from_baseline"
+elif current_all == target_all and current_vocab == target_vocab:
+    after_all = current_all
+    after_vocab = current_vocab
+else:
+    raise RuntimeError("register baseline mismatch: " + str(current_all) + " / " + str(current_vocab))
+before_all = baseline_all
+before_vocab = baseline_vocab
 prepare = {
     "pass": True,
     "base_version": "v185",
