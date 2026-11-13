@@ -1,0 +1,60 @@
+name: JLPT N1 v184 C10 author review
+on:
+  push:
+    branches: [work/v184-c10-next-pending]
+    paths:
+      - 'completion/v184-work/trigger.txt'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v184-c10-485-524
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save v184 browser evidence')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v184-c10-next-pending
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce v184 from exact published v183 baseline
+        run: python3 completion/v184-work/apply.py
+      - name: Check script syntax
+        run: |
+          python3 -m py_compile completion/v184-work/apply.py
+          node --check completion/v184-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify edited cards, data invariants, storage and responsive layout
+        run: node completion/v184-work/browser.cjs
+      - name: Save candidate and browser evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v184.html completion/v184-work/prepare-results.json completion/v184-work/browser-results.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save v184 browser evidence for C10 cards 485-524"
+            git push origin HEAD:work/v184-c10-next-pending
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v184-c10-485-524-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v184.html
+            completion/v184-work/prepare-results.json
+            completion/v184-work/browser-results.json
+            completion/v184-work/source-review.md
+            completion/v184-work/checkpoint.json
+          if-no-files-found: warn
