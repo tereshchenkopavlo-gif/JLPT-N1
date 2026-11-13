@@ -157,10 +157,10 @@ candidate_sha = hashlib.sha256(OUT.read_bytes()).hexdigest()
 register_rows = list(csv.DictReader(REGISTER.read_text(encoding="utf-8").splitlines()))
 if len(register_rows) != 5847:
     raise RuntimeError("unexpected register row count: " + str(len(register_rows)))
-baseline_all = {"reviewed": 3922, "fixed_rechecked": 219, "pending": 1706, "total": 5847}
-baseline_vocab = {"reviewed": 3353, "fixed_rechecked": 218, "pending": 343, "total": 3914}
-target_all = {"reviewed": 3922, "fixed_rechecked": 223, "pending": 1702, "total": 5847}
-target_vocab = {"reviewed": 3353, "fixed_rechecked": 222, "pending": 339, "total": 3914}
+baseline_all = {"reviewed": 3914, "fixed_rechecked": 215, "pending": 1718, "total": 5847}
+baseline_vocab = {"reviewed": 3345, "fixed_rechecked": 214, "pending": 355, "total": 3914}
+target_all = {"reviewed": 3914, "fixed_rechecked": 219, "pending": 1714, "total": 5847}
+target_vocab = {"reviewed": 3345, "fixed_rechecked": 218, "pending": 351, "total": 3914}
 current_all = counts(register_rows)
 current_vocab = counts(register_rows, "vocab")
 keys = [(row["kind"], row["key"]) for row in register_rows]
