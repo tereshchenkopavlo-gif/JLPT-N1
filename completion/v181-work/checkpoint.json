@@ -21,7 +21,7 @@
     "no new full-card credit",
     "author review is not independent acceptance"
   ],
-  "status": "verified; ready for publication to main",
+  "status": "published in main",
   "candidate_html": "JLPT_N1_ukrainian_reading_v181.html",
   "candidate_sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
   "candidate_bytes": 6940370,
@@ -34,5 +34,9 @@
     "fixed_rechecked": 59
   },
   "registry_total_objects": 5844,
-  "audit": "JLPT_N1_v181_audit.md"
+  "audit": "JLPT_N1_v181_audit.md",
+  "published_main_version": "v181",
+  "published_html_sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
+  "published_html_bytes": 6940370,
+  "publication_method": "fast-forward from verified work branch"
 }
