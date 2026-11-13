@@ -21,7 +21,7 @@
     563
   ],
   "first_pending_id": 525,
-  "status": "author-reviewed; candidate script ready; browser acceptance pending",
+  "status": "author review complete; candidate reproduced; Chromium acceptance passed; ready for publication",
   "author_review": {
     "fixed_rechecked": [
       525,
@@ -49,5 +49,26 @@
     "no vocabulary/grammar/pair/ID removal",
     "no POS, quiz target, algorithm or progress-storage changes without separate C11 review",
     "technical tests, author audit and independent acceptance remain distinct"
-  ]
+  ],
+  "candidate_sha256": "0cc48969700d238c27e7c3d4f18773ab31508257b0b11a544e5b15f83a178042",
+  "candidate_bytes": 6941965,
+  "author_credit_after": 3419,
+  "fixed_rechecked": [
+    525,
+    530,
+    533,
+    540,
+    541,
+    547,
+    549,
+    563
+  ],
+  "pending_due_C11": [
+    544,
+    550,
+    552,
+    557
+  ],
+  "browser_run": 43419443351,
+  "data_checks_run": 43419443308
 }
