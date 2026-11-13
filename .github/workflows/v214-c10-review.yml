@@ -1,0 +1,113 @@
+name: JLPT N1 v214 C10 author review
+
+on:
+  push:
+    branches: [work/v214-c10-next-pending]
+    paths:
+      - "completion/v214-work/trigger.txt"
+  pull_request:
+    branches: [main]
+    paths:
+      - "completion/v214-work/trigger.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jlpt-n1-v214-c10
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v214-c10-next-pending
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build deterministic v214 candidate and registry
+        run: set -o pipefail; python3 completion/v214-work/apply.py 2>&1 | tee completion/v214-work/apply-error.txt
+
+      - name: Check Python and Node syntax
+        run: |
+          python3 -m py_compile completion/v214-work/apply.py completion/v214-work/publish.py
+          node --check completion/v214-work/browser.cjs
+
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Run Chromium acceptance
+        run: node completion/v214-work/browser.cjs
+
+      - name: Copy canonical evidence files
+        if: success()
+        run: |
+          cp completion/v214-work/prepare-results.json completion/v214-prepare-results.json
+          cp completion/v214-work/registry-results.json completion/v214-registry-results.json
+          cp completion/v214-work/browser-results.json completion/v214-browser-results.json
+
+      - name: Mark checkpoint after successful Chromium acceptance
+        if: success()
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path("completion/v214-work/checkpoint.json")
+          d = json.loads(p.read_text(encoding="utf-8"))
+          d["status"] = "author review complete; deterministic candidate, registry and Chromium verification passed; exact-artifact publication pending"
+          d["candidate_sha256"] = json.loads(Path("completion/v214-work/prepare-results.json").read_text(encoding="utf-8"))["candidate_sha256"]
+          d["candidate_bytes"] = json.loads(Path("completion/v214-work/prepare-results.json").read_text(encoding="utf-8"))["candidate_bytes"]
+          d["chromium_verification"] = "passed"
+          d["workflow_run_id"] = int(os.environ["GITHUB_RUN_ID"])
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Save candidate and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v214.html completion/review-register.csv completion/v214-work/checkpoint.json completion/v214-work/prepare-results.json completion/v214-work/registry-results.json completion/v214-work/browser-results.json completion/v214-work/rendered-debug.json completion/v214-prepare-results.json completion/v214-registry-results.json completion/v214-browser-results.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to save."
+          else
+            git commit -m "Save v214 deterministic and Chromium evidence"
+            git push origin HEAD:work/v214-c10-next-pending
+          fi
+
+      - name: Publish only exact verified artifacts to main (no bulk branch merge)
+        if: success()
+        run: python3 completion/v214-work/publish.py
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jlpt-n1-v214-c10-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v214.html
+            JLPT_N1_v214_audit.md
+            completion/v214-acceptance.tsv
+            completion/v214-c10-review.tsv
+            completion/v214-field-changes.tsv
+            completion/v214-pair-review.tsv
+            completion/v214-source-review.md
+            completion/v214-work/checkpoint.json
+            completion/v214-work/prepare-results.json
+            completion/v214-work/registry-results.json
+            completion/v214-work/browser-results.json
+            completion/v214-work/rendered-debug.json
+            completion/v214-work/apply.py
+            completion/v214-work/browser.cjs
+            completion/v214-work/publish.py
+            completion/v214-work/apply-error.txt
