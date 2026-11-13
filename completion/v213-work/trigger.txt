@@ -1,1 +1,1 @@
-Trigger v213 C10 deterministic build and Chromium acceptance; attempt 2 with per-card render diagnostics and wait for DOM updates.
+Trigger v213 C10 deterministic build and Chromium acceptance; attempt 3 with field-sample visibility assertions and preserved rendered-debug artifact.
