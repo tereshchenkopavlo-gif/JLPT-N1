@@ -1,9 +1,9 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-Актуальна v199 у main після успішного guarded-приймання. У C10 перевірено 12 pending-карток ID1042, 1043, 1044, 1046, 1048, 1061, 1063, 1066, 1067, 1072, 1073, 1074: усі 12 fixed_rechecked. Внесено 15 точних змін у 12 картках. [Кандидатний HTML](JLPT_N1_ukrainian_reading_v199.html) · [Аудит v199](JLPT_N1_v199_audit.md)
+Опублікована в main версія — v199. Кандидат v200 у робочій гілці work/v200-c10-next-pending; ще не опублікований. Після звірки з реєстром і пілотом v153 залишилося 7 pending-карток: ID1077, 1087, 1088, 1090, 1092, 1094, 1095. Усі 7 fixed_rechecked; внесено 9 точних змін у 7 картках. П’ять уже reviewed ID виключено, без повторного зарахування. [Кандидатний HTML](JLPT_N1_ukrainian_reading_v200.html) · [Аудит v200](JLPT_N1_v200_audit.md)
 
-SHA-256: c81d7624557b2193bd6bc7939c93e200b054323f4b845f19921d70924a9ab280 · 6945305 байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3575/3914; реєстр — 3914 reviewed /231 fixed_rechecked /1702 pending; словниковий зріз — 3345 /230 /339. C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
+SHA-256: __V200_SHA256__ · __V200_BYTES__ байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3582/3914; реєстр — 3914 reviewed /238 fixed_rechecked /1695 pending; словниковий зріз — 3345 /237 /332. C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
 
-Докази v199: completion/v199-prepare-results.json, completion/v199-browser-results.json, completion/v199-registry-results.json, completion/v199-acceptance.tsv, completion/v199-c10-review.tsv, completion/v199-source-review.md. Наступні доступні pending ID: 1075, 1077, 1080, 1081, 1083, 1085, 1087, 1088, 1090, 1092, 1094, 1095; робоча гілка — work/v200-c10-next-pending.
+Докази v200: completion/v200-prepare-results.json, completion/v200-browser-results.json, completion/v200-registry-results.json, completion/v200-acceptance.tsv, completion/v200-c10-review.tsv, completion/v200-source-review.md. Наступні доступні pending ID: 1096, 1097, 1098, 1100, 1101, 1102, 1104, 1105, 1106, 1108, 1110, 1111; робоча гілка — work/v201-c10-next-pending.
 
 Нижче збережено історичний журнал; він не описує поточний стан.
