@@ -1075,7 +1075,7 @@ vocab,1073,vocab:1073,fixed_rechecked,completion/v199-acceptance.tsv; JLPT_N1_v1
 vocab,1074,vocab:1074,fixed_rechecked,completion/v199-acceptance.tsv; JLPT_N1_v199_audit.md
 vocab,1075,vocab:1075,reviewed,completion/v153-cards-981-1080.tsv#1075; author linguistic review
 vocab,1076,vocab:1076,reviewed,completion/v153-cards-981-1080.tsv#1076; author linguistic review
-vocab,1077,vocab:1077,pending,
+vocab,1077,vocab:1077,fixed_rechecked,completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md
 vocab,1078,vocab:1078,pending,
 vocab,1079,vocab:1079,reviewed,completion/v153-cards-981-1080.tsv#1079; author linguistic review
 vocab,1080,vocab:1080,reviewed,completion/v153-cards-981-1080.tsv#1080; author linguistic review
@@ -1085,15 +1085,15 @@ vocab,1083,vocab:1083,reviewed,completion/v153-cards-1081-1180.tsv#1083; author 
 vocab,1084,vocab:1084,reviewed,completion/v153-cards-1081-1180.tsv#1084; author linguistic review
 vocab,1085,vocab:1085,reviewed,completion/v153-cards-1081-1180.tsv#1085; author linguistic review
 vocab,1086,vocab:1086,reviewed,completion/v153-cards-1081-1180.tsv#1086; author linguistic review
-vocab,1087,vocab:1087,pending,
-vocab,1088,vocab:1088,pending,
+vocab,1087,vocab:1087,fixed_rechecked,completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md
+vocab,1088,vocab:1088,fixed_rechecked,completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md
 vocab,1089,vocab:1089,pending,
-vocab,1090,vocab:1090,pending,
+vocab,1090,vocab:1090,fixed_rechecked,completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md
 vocab,1091,vocab:1091,reviewed,completion/v153-cards-1081-1180.tsv#1091; author linguistic review
-vocab,1092,vocab:1092,pending,
+vocab,1092,vocab:1092,fixed_rechecked,completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md
 vocab,1093,vocab:1093,pending,
-vocab,1094,vocab:1094,pending,
-vocab,1095,vocab:1095,pending,
+vocab,1094,vocab:1094,fixed_rechecked,completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md
+vocab,1095,vocab:1095,fixed_rechecked,completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md
 vocab,1096,vocab:1096,reviewed,completion/v153-cards-1081-1180.tsv#1096; author linguistic review
 vocab,1097,vocab:1097,pending,
 vocab,1098,vocab:1098,reviewed,completion/v153-cards-1081-1180.tsv#1098; author linguistic review

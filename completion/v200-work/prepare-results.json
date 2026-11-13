@@ -1,0 +1,135 @@
+{
+  "pass": true,
+  "base_version": "v199",
+  "base_sha256": "c81d7624557b2193bd6bc7939c93e200b054323f4b845f19921d70924a9ab280",
+  "candidate_version": "v200",
+  "candidate_sha256": "d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a",
+  "candidate_bytes": 6945306,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    1077,
+    1087,
+    1088,
+    1090,
+    1092,
+    1094,
+    1095
+  ],
+  "fixed_rechecked": [
+    1077,
+    1087,
+    1088,
+    1090,
+    1092,
+    1094,
+    1095
+  ],
+  "reviewed_without_change": [],
+  "already_reviewed_excluded": [
+    1075,
+    1080,
+    1081,
+    1083,
+    1085
+  ],
+  "pending_c11": [],
+  "updated_fields": 9,
+  "changed_cards": [
+    1077,
+    1087,
+    1088,
+    1090,
+    1092,
+    1094,
+    1095
+  ],
+  "field_updates": [
+    {
+      "id": 1077,
+      "field": "t",
+      "before": "риболовне судно, човен або корабель, призначений для промислового вилову риби",
+      "after": "риболовне судно, човен або корабель, призначений для вилову риби й молюсків"
+    },
+    {
+      "id": 1077,
+      "field": "exampleTranslations[1]",
+      "before": "Через подорожчання пального дедалі більше рибалок відмовляються виходити в море.",
+      "after": "Через подорожчання пального дедалі більше рибалок відкладають вихід у море."
+    },
+    {
+      "id": 1087,
+      "field": "s",
+      "before": [
+        "心境",
+        "境涯"
+      ],
+      "after": [
+        "心境"
+      ]
+    },
+    {
+      "id": 1088,
+      "field": "exampleTranslations[1]",
+      "before": "Старезний великий кедр на території храму має статус природної пам’ятки міста.",
+      "after": "Стара велика криптомерія на території святилища має статус природної пам’ятки міста."
+    },
+    {
+      "id": 1090,
+      "field": "exampleTranslations[0]",
+      "before": "У відбірковому турнірі тривала низка напружених матчів за участю найсильніших представників усієї країни.",
+      "after": "У відбірковому турнірі тривала низка напружених матчів за участю сильних команд з усієї країни."
+    },
+    {
+      "id": 1090,
+      "field": "exampleTranslations[1]",
+      "before": "Цей університет широко відомий сильними легкоатлетами.",
+      "after": "Цей університет широко відомий своєю сильною командою з легкої атлетики."
+    },
+    {
+      "id": 1092,
+      "field": "examples[0]",
+      "before": "深夜の住宅街で発生した強盗事件に、警察が捜査を始めた。",
+      "after": "深夜の住宅街で発生した強盗事件について、警察が捜査を始めた。"
+    },
+    {
+      "id": 1094,
+      "field": "exampleTranslations[1]",
+      "before": "Розвиток здібностей у предметах, які добре даються, сприяє підвищенню бажання вчитися.",
+      "after": "Розвиток сильних сторін у навчальних предметах підвищує мотивацію до навчання."
+    },
+    {
+      "id": 1095,
+      "field": "exampleTranslations[0]",
+      "before": "Важливо, щоб усі в організації засвоїли уроки минулих невдач.",
+      "after": "Важливо, щоб уроками минулих невдач ділилися в усій організації."
+    }
+  ],
+  "author_credit_before": 3575,
+  "author_credit_addition": 7,
+  "author_credit_after": 3582,
+  "protected_unchanged": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_POS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_MEANING_QUIZZES": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true
+  },
+  "japanese_example_changes": [
+    {
+      "id": 1092,
+      "index": 0,
+      "before": "深夜の住宅街で発生した強盗事件に、警察が捜査を始めた。",
+      "after": "深夜の住宅街で発生した強盗事件について、警察が捜査を始めた。"
+    }
+  ],
+  "exact_rollback": true,
+  "register_updated": true,
+  "register_mode": "applied_from_baseline",
+  "author_review_only": true
+}
