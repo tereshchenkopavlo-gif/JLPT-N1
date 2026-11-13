@@ -1,0 +1,106 @@
+{
+  "pass": true,
+  "base_version": "v182",
+  "base_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
+  "base_bytes": 6940820,
+  "candidate_version": "v183",
+  "candidate_sha256": "ef4705c65cf358f167cbd31400c7b69ad7419e6d4210768c5135b3225230be2e",
+  "candidate_bytes": 6940963,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    454,
+    455,
+    458,
+    459,
+    461,
+    464,
+    466,
+    470,
+    472,
+    477,
+    479,
+    483
+  ],
+  "author_credit_addition": 12,
+  "reviewed_without_change": [
+    455,
+    458,
+    459,
+    461,
+    464,
+    470,
+    483
+  ],
+  "fixed_rechecked": [
+    454,
+    466,
+    472,
+    477,
+    479
+  ],
+  "field_updates": [
+    {
+      "id": 454,
+      "field": "t",
+      "before": "бути спрямованим у певний бік; підходити для справи або людині (教師に向いている)",
+      "after": "бути спрямованим у певний бік; пасувати людині; бути придатним для певної роботи чи справи"
+    },
+    {
+      "id": 466,
+      "field": "exampleTranslations[1]",
+      "before": "Відповідно до змін ситуації спосіб реагування гнучко змінюватимуть.",
+      "after": "Зі зміною обставин підхід до реагування гнучко коригуватимуть."
+    },
+    {
+      "id": 472,
+      "field": "exampleTranslations[1]",
+      "before": "Знайомство з твором дало нове відкриття.",
+      "after": "Завдяки безпосередньому знайомству з твором вдалося відкрити для себе щось нове."
+    },
+    {
+      "id": 477,
+      "field": "t",
+      "before": "призвичаюватися до чогось і відчувати близькість або прихильність (книг, природи, культури)",
+      "after": "зближуватися з кимось; часто й невимушено звертатися до чогось, відчуваючи близькість або прихильність (читання, природа, культура)"
+    },
+    {
+      "id": 477,
+      "field": "exampleTranslations[0]",
+      "before": "Створюють середовище, де діти можуть близько знайомитися з природою.",
+      "after": "Створюють умови, щоб діти могли відчути близькість до природи."
+    },
+    {
+      "id": 479,
+      "field": "t",
+      "before": "тремтіти голосом, плечима чи тілом; спричиняти тремтіння або сильне хвилювання; перехідне дієслово",
+      "after": "змушувати голос, плечі чи тіло тремтіти; глибоко зворушувати (心を震わせる)"
+    },
+    {
+      "id": 479,
+      "field": "exampleTranslations[0]",
+      "before": "Він говорив із тремтячими від гніву плечима.",
+      "after": "Він палко звертався до співрозмовників, тремтячи плечима від гніву."
+    }
+  ],
+  "changed_blocks": [
+    "VOCAB_DETAILS_BY_ID",
+    "document title"
+  ],
+  "unchanged": {
+    "vocabulary_records": true,
+    "grammar_records": true,
+    "lexical_pairs": true,
+    "all_ids": true,
+    "pos_map": true,
+    "reading_quiz_targets": true,
+    "meaning_quizzes": true,
+    "reading_overrides": true,
+    "learning_engine": true,
+    "progress_storage_code": true
+  },
+  "exact_rollback": true,
+  "author_review_only": true
+}

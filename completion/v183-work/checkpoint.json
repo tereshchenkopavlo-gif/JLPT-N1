@@ -1,0 +1,48 @@
+{
+  "checkpoint": "v183-c10-pending-454-483",
+  "created": "2026-11-13",
+  "base_main_sha": "6f3618c750613a056ce3742ab21a22d1ed0310c6",
+  "base_html": "JLPT_N1_ukrainian_reading_v182.html",
+  "base_html_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
+  "candidate_html": "JLPT_N1_ukrainian_reading_v183.html",
+  "candidate_sha256": "ef4705c65cf358f167cbd31400c7b69ad7419e6d4210768c5135b3225230be2e",
+  "candidate_bytes": 6940963,
+  "scope": [
+    454,
+    455,
+    458,
+    459,
+    461,
+    464,
+    466,
+    470,
+    472,
+    477,
+    479,
+    483
+  ],
+  "status": "verified; candidate published in main as v183",
+  "author_vocabulary_credit": 3399,
+  "register_counts": {
+    "reviewed": 3903,
+    "fixed_rechecked": 66,
+    "pending": 1878
+  },
+  "vocabulary_counts": {
+    "reviewed": 3334,
+    "fixed_rechecked": 65,
+    "pending": 515
+  },
+  "browser_run": "https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43383989752",
+  "next_pending_vocabulary_id": 485,
+  "guardrails": [
+    "3914 vocabulary records preserved",
+    "130 grammar records preserved",
+    "859 lexical pairs preserved",
+    "no POS or Japanese-example changes",
+    "no quiz target or algorithm changes",
+    "no user progress/storage changes",
+    "exact rollback to v182",
+    "author review distinct from independent/physical/provenance acceptance"
+  ]
+}

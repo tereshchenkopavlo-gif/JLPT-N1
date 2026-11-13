@@ -1,20 +1,22 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна v182 у main. Повний HTML — 6,940,820 байт, SHA-256 53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031. [Повний HTML](JLPT_N1_ukrainian_reading_v182.html) · [Аудит](JLPT_N1_v182_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v183** у main. Повний HTML — 6 940 963 байти, SHA-256 ef4705c65cf358f167cbd31400c7b69ad7419e6d4210768c5135b3225230be2e. [Повний HTML](JLPT_N1_ukrainian_reading_v183.html) · [Аудит](JLPT_N1_v183_audit.md).
 
-## Поточний випуск v182 — C10/C11 POS і reading quiz
+## Поточний випуск v183 — C10 авторський аудит
 
-- ID255 直接: 名詞 + ナ形 за Kotobank Digital Daijisen; NINJAL також фіксує прислівникову класифікацію. У тренажері adverbial use записано в usage; окремий 副詞 тег не додано, бо він знижує cloze pool з 64 до 2, нижче мінімуму 3.
-- ID327 浮気: 名詞 + ナ形 за Kotobank Digital Daijisen.
-- Повні картки ID255/327 повторно перевірено й зараховано fixed_rechecked. Авторський credit збільшився на дві картки до 3387/3914.
-- Додано три reviewed reading-quiz overrides для ID255, ID327 та ID1819. ID1819 не отримує нового повнокарткового credit; ID359 отримав автоматичний дистрактор うわき.
-- Перевірено 23 reading-пули: 20 автоматичних пулів збережено, три ручні overrides пройшли; усі мають мінімум три дистрактори.
+- Перевірено перші 12 pending-карток ID454–483: 7 reviewed без зміни, 5 fixed_rechecked.
+- Виправлено 7 українських полів у ID454, 466, 472, 477 і 479; японські приклади, POS, quiz targets та навчальний код не змінювалися.
+- Авторський credit — **3399/3914**. Реєстр — 3903 reviewed /66 fixed_rechecked /1878 pending; словниковий зріз — 3334 /65 /515.
+- Збережено 3914 словникових записів та ID, 130 граматичних конструкцій і 859 лексичних пар. Reviewed meaning quiz — 267; reviewed reading quiz — 3.
+- Детермінована підготовка має точний rollback до v182. Chromium перевірив 12 карток, видимість перекладів, ширини 360/412/1280, storage round-trip; помилок JS і горизонтального переповнення немає.
+- Докази: completion/v183-prepare-results.json, completion/v183-browser-results.json, completion/v183-registry-results.json, completion/v183-acceptance.tsv, completion/v183-c10-review.tsv.
+- Історичні докази пілота v153 збережено; ID121–320 не починалися повторно з нуля.
 
-Реєстр — 3896 reviewed /61 fixed_rechecked /1890 pending; словниковий зріз — 3327 /60 /527; reviewed meaning quiz — 267; reviewed reading quiz — 3. Збережено 3914 словникових записів та ID, 130 граматичних конструкцій і 859 лексичних пар.
+Робоча гілка — **work/v184-c10-next-pending**; наступний pending ID — **485**. C10 і C11 не завершені. Незалежне лінгвістичне, фізичне Android/Windows і правове/походження приймання залишаються відкритими. v183 — проміжний випуск, не кандидат 1.0.
 
-Технічні докази: completion/v182-prepare-results.json, completion/v182-browser-results.json, completion/v182-reading-pool-review.tsv, completion/v182-registry-results.json. Прогрес користувача й алгоритми навчання не змінювалися; patch має точний rollback до v181. Історичні докази пілота v153 збережено; ID121–320 не починалися повторно з нуля.
+## Архівований випуск v182 — C10/C11 POS і reading quiz
 
-Робоча гілка — work/v183-c10-pending-454-483 (checkpoint від main v182; кандидат ще не опублікований). Наступна дія — авторський аудит перших 12 pending карток ID454–483; v182 checkpoint збережено як завершену основу. Незалежне лінгвістичне, фізичне Android/Windows і правове/походження приймання не завершені. v182 — проміжний випуск, не кандидат 1.0.
+v182 опублікував POS/usage-корекції ID255 直接 та ID327 浮気, а також три reviewed reading-quiz overrides для ID255, ID327 і ID1819. Було перевірено 23 reading-пули: 20 автоматичних і три ручні. Авторський credit на той момент — 3387/3914; реєстр — 3896 reviewed /61 fixed_rechecked /1890 pending. Повний HTML і доказова база збережені в JLPT_N1_ukrainian_reading_v182.html, JLPT_N1_v182_audit.md та completion/v182-*.
 
 ## Архівований випуск v181 — C11 context-specific meaning quiz
 

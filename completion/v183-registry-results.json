@@ -1,0 +1,51 @@
+{
+  "pass": true,
+  "updated_at": "2026-11-13",
+  "register_total": 5847,
+  "register": {
+    "reviewed": 3903,
+    "fixed_rechecked": 66,
+    "pending": 1878
+  },
+  "vocabulary": {
+    "total": 3914,
+    "reviewed": 3334,
+    "fixed_rechecked": 65,
+    "pending": 515
+  },
+  "author_vocabulary_credit": 3399,
+  "credit_added": 12,
+  "reviewed_without_change": [
+    455,
+    458,
+    459,
+    461,
+    464,
+    470,
+    483
+  ],
+  "fixed_rechecked": [
+    454,
+    466,
+    472,
+    477,
+    479
+  ],
+  "updated_fields": 7,
+  "reviewed_meaning_quiz": 267,
+  "reviewed_reading_quiz": 3,
+  "next_pending_vocabulary_id": 485,
+  "next_pending_vocabulary_ids": [
+    485,
+    488,
+    489,
+    491,
+    496,
+    498,
+    499,
+    501
+  ],
+  "duplicate_register_keys": false,
+  "history_rewritten": false,
+  "audit_log_modified": false
+}
