@@ -1,0 +1,136 @@
+{
+  "pass": true,
+  "candidate_sha256": "d158eb7d7a619718e982ad4117f603f208339178d47ec0417c2adeab238c1620",
+  "candidate_bytes": 6944939,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 973,
+      "word": "慣習",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1331
+    },
+    {
+      "id": 974,
+      "word": "慣用",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 575
+    },
+    {
+      "id": 978,
+      "word": "歓声",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 824
+    },
+    {
+      "id": 986,
+      "word": "観賞",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1014
+    },
+    {
+      "id": 989,
+      "word": "観覧",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 948
+    },
+    {
+      "id": 990,
+      "word": "貫禄",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 911
+    },
+    {
+      "id": 991,
+      "word": "還元",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 623
+    },
+    {
+      "id": 993,
+      "word": "間隔",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 447
+    },
+    {
+      "id": 995,
+      "word": "関税",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 424
+    },
+    {
+      "id": 1004,
+      "word": "器材",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 972
+    },
+    {
+      "id": 1008,
+      "word": "寄贈",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1038
+    },
+    {
+      "id": 1013,
+      "word": "棄権",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 612
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}

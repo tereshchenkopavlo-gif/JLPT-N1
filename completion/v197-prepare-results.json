@@ -1,0 +1,101 @@
+{
+  "pass": true,
+  "base_version": "v196",
+  "base_sha256": "0bef35afbc589b4b57312e40a56c87ba3512f504071070e820849529510c7fe5",
+  "candidate_version": "v197",
+  "candidate_sha256": "d158eb7d7a619718e982ad4117f603f208339178d47ec0417c2adeab238c1620",
+  "candidate_bytes": 6944939,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    973,
+    974,
+    978,
+    986,
+    989,
+    990,
+    991,
+    993,
+    995,
+    1004,
+    1008,
+    1013
+  ],
+  "fixed_rechecked": [
+    973,
+    974,
+    978,
+    989,
+    991
+  ],
+  "reviewed_without_change": [
+    986,
+    990,
+    993,
+    995,
+    1004,
+    1008,
+    1013
+  ],
+  "pending_c11": [],
+  "updated_fields": 5,
+  "changed_cards": [
+    973,
+    974,
+    978,
+    989,
+    991
+  ],
+  "field_updates": [
+    {
+      "id": 973,
+      "field": "exampleTranslations[1]",
+      "before": "Відмінності в торговельних звичаях стають проблемою в міжнародних угодах.",
+      "after": "Відмінності в торговельних звичаях стають проблемою в міжнародній торгівлі."
+    },
+    {
+      "id": 974,
+      "field": "exampleTranslations[0]",
+      "before": "«Продавати олію» — ідіоматичний вислів зі значенням «марнувати час на балачки».",
+      "after": "Буквально — «продавати олію»; японський ідіоматичний вислів означає «марнувати час на балачки»."
+    },
+    {
+      "id": 978,
+      "field": "exampleTranslations[1]",
+      "before": "Радісні вигуки глядачів потужно підбадьорювали спортсменів.",
+      "after": "Радісні вигуки глядачів додавали спортсменам наснаги."
+    },
+    {
+      "id": 989,
+      "field": "exampleTranslations[1]",
+      "before": "Місця для глядачів на публічному записі програми були зайняті вже на ранньому етапі.",
+      "after": "Місця для глядачів на відкритому записі телепрограми швидко заповнилися."
+    },
+    {
+      "id": 991,
+      "field": "exampleTranslations[0]",
+      "before": "Від підприємств очікують, що вони повертатимуть отримані прибутки суспільству у вигляді користі.",
+      "after": "Очікується, що компанії повертатимуть суспільству частину отриманого прибутку."
+    }
+  ],
+  "author_credit_before": 3547,
+  "author_credit_addition": 12,
+  "author_credit_after": 3559,
+  "protected_unchanged": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_POS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_MEANING_QUIZZES": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true
+  },
+  "japanese_examples_unchanged": true,
+  "exact_rollback": true,
+  "register_updated": true,
+  "register_mode": "applied_from_baseline",
+  "author_review_only": true
+}
