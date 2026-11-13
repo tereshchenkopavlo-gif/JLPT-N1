@@ -7,7 +7,7 @@ const bytes=fs.readFileSync(HTML),sha=crypto.createHash('sha256').update(bytes).
 assert.equal(sha,prepare.candidate_sha256);assert.equal(prepare.pass,true);assert.equal(prepare.exact_rollback,true);assert.equal(registry.pass,true);
 const IDS=[1119,1123,1124,1127,1128,1129,1132,1135,1139,1140,1147,1148];
 const EXPECTED={
- 1119:{word:'近接',gloss:'безпосередня близькість; розташовуватися зовсім поруч'},
+ 1119:{word:'近接',gloss:'безпосередня близькість у просторі або часі; 近接する — розташовуватися зовсім поруч'},
  1123:{word:'苦戦',translations:['Новий продукт від самого початку мав труднощі на ринку, а продажі не зростали, як очікувалося.']},
  1124:{word:'駆使',translations:['Завдяки вмілому використанню кількох мов він успішно завершив переговори на міжнародній конференції.']},
  1127:{word:'屈指',translations:['Її вважають однією з наймайстерніших піаністок країни.']},
