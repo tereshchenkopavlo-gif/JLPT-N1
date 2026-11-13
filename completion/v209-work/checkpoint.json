@@ -56,7 +56,7 @@
   "pilot_files": {
     "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
   },
-  "status": "attempts 1–2 failed on browser-test field selection for similar-expression entries; assertions corrected for ID1408 and ID1417; attempt 3 pending",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -72,5 +72,10 @@
       "failure": "Chromium assertion still expected 打ち立てる in the Ukrainian gloss, but this is in the similar-expression list for ID1417. No candidate was published. The ID1408 similar-expression assertion is corrected; ID1417 is now corrected too."
     }
   ],
-  "corrected_browser_assertion": "ID1408 人手不足 and ID1417 打ち立てる are checked against VOCAB_DETAILS_BY_ID.s, not t or usage."
+  "corrected_browser_assertion": "ID1408 人手不足 and ID1417 打ち立てる are checked against VOCAB_DETAILS_BY_ID.s, not t or usage.",
+  "candidate_sha256": "dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf",
+  "candidate_bytes": 6948136,
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "browser_results": "completion/v209-work/browser-results.json"
 }
