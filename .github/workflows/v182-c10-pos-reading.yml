@@ -1,0 +1,51 @@
+name: JLPT N1 v182 C10 POS and reading-pool diagnostic
+on:
+  push:
+    branches: [work/v181-c11-id2433-quiz-review]
+    paths:
+      - 'completion/v182-work/trigger.txt'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v182-pos-reading
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v181-c11-id2433-quiz-review
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check diagnostic script syntax
+        run: node --check completion/v182-work/diagnose.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Simulate corrected POS and verify all reading pools
+        run: node completion/v182-work/diagnose.cjs
+      - name: Save diagnostic evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add completion/v182-work/diagnose.cjs completion/v182-work/checkpoint.json completion/v182-work/source-review.md completion/v182-work/preaudit-notes.md completion/v182-work/README.md completion/v182-work/trigger.txt completion/v182-work/diagnostics.json completion/v182-work/reading-pool-review.tsv
+          if ! git diff --cached --quiet; then
+            git commit -m "Save v182 corrected POS and reading-pool diagnostic"
+            git push origin HEAD:work/v181-c11-id2433-quiz-review
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v182-c10-pos-reading-diagnostic
+          path: |
+            completion/v182-work/diagnostics.json
+            completion/v182-work/reading-pool-review.tsv
+            completion/v182-work/checkpoint.json
+          if-no-files-found: error
