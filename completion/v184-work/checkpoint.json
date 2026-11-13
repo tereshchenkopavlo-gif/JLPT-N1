@@ -21,7 +21,7 @@
     524
   ],
   "first_pending_id": 485,
-  "status": "author-reviewed; candidate prepared by deterministic script; browser acceptance pending",
+  "status": "author-reviewed; deterministic candidate reproduced; Chromium acceptance passed; ready for publication",
   "guardrails": [
     "use v153 pilot decisions as hypotheses, not automatic acceptance",
     "do not repeat IDs 454-483",
@@ -30,5 +30,9 @@
     "no vocabulary/grammar/pair/ID removal",
     "no POS, quiz target, algorithm or progress-storage changes",
     "technical tests, author audit and independent acceptance remain distinct"
-  ]
+  ],
+  "browser_run": 43416739627,
+  "data_checks_run": 43416739759,
+  "candidate_sha256": "e49a3103e5f02c38c8ac2e92917dd268d6f2cef8001373197c5398608fe2a1bd",
+  "candidate_bytes": 6941418
 }

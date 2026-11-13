@@ -1,0 +1,136 @@
+{
+  "pass": true,
+  "candidate_sha256": "e49a3103e5f02c38c8ac2e92917dd268d6f2cef8001373197c5398608fe2a1bd",
+  "candidate_bytes": 6941418,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 485,
+      "word": "設ける",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 533
+    },
+    {
+      "id": 488,
+      "word": "染める",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 900
+    },
+    {
+      "id": 489,
+      "word": "狙う",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 571
+    },
+    {
+      "id": 491,
+      "word": "訴える",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 951
+    },
+    {
+      "id": 496,
+      "word": "担う",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 576
+    },
+    {
+      "id": 498,
+      "word": "断つ",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 900
+    },
+    {
+      "id": 499,
+      "word": "断る",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1240
+    },
+    {
+      "id": 501,
+      "word": "調える",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 988
+    },
+    {
+      "id": 503,
+      "word": "通じる",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 590
+    },
+    {
+      "id": 504,
+      "word": "締める",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 593
+    },
+    {
+      "id": 510,
+      "word": "片付ける",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 943
+    },
+    {
+      "id": 524,
+      "word": "飽きる",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 632
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}

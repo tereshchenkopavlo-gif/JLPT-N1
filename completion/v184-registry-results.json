@@ -1,0 +1,53 @@
+{
+  "pass": true,
+  "release": "v184",
+  "base_release": "v183",
+  "total_objects": 5847,
+  "before": {
+    "reviewed": 3903,
+    "fixed_rechecked": 66,
+    "pending": 1878,
+    "vocabulary": {
+      "reviewed": 3334,
+      "fixed_rechecked": 65,
+      "pending": 515
+    },
+    "author_credit": 3399
+  },
+  "reviewed_without_change": [
+    501,
+    503
+  ],
+  "fixed_rechecked": [
+    485,
+    488,
+    489,
+    491,
+    496,
+    498,
+    499,
+    504,
+    510,
+    524
+  ],
+  "after": {
+    "reviewed": 3905,
+    "fixed_rechecked": 76,
+    "pending": 1866,
+    "vocabulary": {
+      "reviewed": 3336,
+      "fixed_rechecked": 75,
+      "pending": 503
+    },
+    "author_credit": 3411
+  },
+  "unchanged": {
+    "grammar_records": 130,
+    "lexical_pairs": 859,
+    "meaning_quiz_reviewed": 267,
+    "reading_quiz_reviewed": 3
+  },
+  "rows_updated": 12,
+  "duplicate_rows": 0,
+  "history_rewritten": false
+}
