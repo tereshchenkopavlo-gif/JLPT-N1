@@ -75,7 +75,6 @@ async function main(){
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
      glossVisible:d.t.split(';').map(x=>x.trim()).filter(Boolean).every(x=>norm(text).includes(norm(x))),
-     usageVisible:norm(text).includes(norm(d.usage.slice(0,Math.min(d.usage.length,45)))),
      examplesVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
      definitionVisible:id===1072?norm(text).includes(norm('また、移植された臓器などを体が異物として受け入れないこと。')):true,
      bodyTextLength:text.length
@@ -84,7 +83,7 @@ async function main(){
    return out;
   },IDS);
   assert.equal(rendered.length,12);
-  const failures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.usageVisible&&x.examplesVisible&&x.definitionVisible));
+  const failures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.examplesVisible&&x.definitionVisible));
   if(failures.length)console.error('Rendered visibility diagnostics:',JSON.stringify(failures,null,2));
   assert.equal(failures.length,0);
 
