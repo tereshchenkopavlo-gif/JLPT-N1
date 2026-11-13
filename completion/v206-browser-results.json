@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "c2ec95102d848b728d352393863fbb4604b29dec864950529cd93f7a5b4c56fd",
+  "candidate_bytes": 6946631,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 1322,
+      "word": "司法",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1323,
+      "word": "始末",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1327,
+      "word": "志向",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1329,
+      "word": "思惑",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1331,
+      "word": "指図",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1333,
+      "word": "指標",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1334,
+      "word": "指紋",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1335,
+      "word": "指令",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1339,
+      "word": "施行",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1340,
+      "word": "施設",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1341,
+      "word": "死傷",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1344,
+      "word": "視覚",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
