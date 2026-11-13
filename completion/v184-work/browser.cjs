@@ -81,7 +81,9 @@ async function main(){
           titleVisible:normalize(text).includes(normalize(d.w)),
           translationVisible:normalize(text).includes(normalize(d.t)),
           examplesVisible:d.exampleTranslations.every(t=>normalize(text).includes(normalize(t))),
-          bodyTextLength:text.length
+          bodyTextLength:text.length,
+          debugText:id===488?text:undefined,
+          debugTranslation:id===488?d.t:undefined
         });
       }
       return results;

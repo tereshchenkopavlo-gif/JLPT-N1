@@ -1,1 +1,1 @@
-Retry v184 browser test with whitespace-normalized rendered text checks.
+Retry v184 with diagnostic output for the ID488 detail renderer.
