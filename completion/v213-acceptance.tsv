@@ -1,0 +1,12 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1528	親善	しんぜん	名詞	fixed_rechecked	t	Replace one-sided goodwill with mutual friendship and cordial relations.
+1529	診療	しんりょう	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Use natural internal-medicine patient phrasing.; Clarify that doctors are secured to provide medical care in sparsely populated areas.
+1539	人柄	ひとがら	名詞	fixed_rechecked	exampleTranslations[0]	Convey that his sincere character draws people to do business with him.
+1541	図星	ずぼし	名詞	fixed_rechecked	usage;exampleTranslations[1]	Separate accurate-guess and sore-point uses.; Naturalize the reaction to a pointed observation.
+1542	吹雪	ふぶき	名詞	fixed_rechecked	m	Include snow already on the ground being raised by strong wind.
+1548	水気	みずけ	名詞	fixed_rechecked	exampleTranslations[0]	Remove the unsupported watery consequence; べたつかない means not sticky.
+1551	衰退	すいたい	名詞	fixed_rechecked	m	Remove the duplicated verb in kanji and kana.
+1554	世論	よろん／せろん	名詞	fixed_rechecked	m	Avoid implying unanimity; public opinion may be divided.
+1558	制定	せいてい	名詞	fixed_rechecked	t	Avoid an implementation implication; distinguish 制定 from 施行.
+1625	捜査	そうさ	名詞	fixed_rechecked	exampleTranslations[0]	Convey suspicion of coordinated involvement without specifying a particular organized group.
+1628	操作	そうさ	名詞	fixed_rechecked	exampleTranslations[1]	Translate 不正な操作 without adding a specific unauthorized-access claim.
