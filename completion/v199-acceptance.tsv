@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1042	技能	ぎのう	名詞	fixed_rechecked	t;usage	Include experience as well as training as a way of acquiring skill.
+1043	犠牲	ぎせい	名詞	fixed_rechecked	exampleTranslations[0]	家庭を犠牲にする concerns family life, not only financial well-being.
+1044	疑惑	ぎわく	名詞	fixed_rechecked	exampleTranslations[0]	Render 不正献金 as improper/illegal monetary contributions, preserving the status of suspicion.
+1046	義理	ぎり	名詞	fixed_rechecked	t	義理の母 has context-dependent kinship readings beyond mother-in-law.
+1048	議決	ぎけつ	名詞	fixed_rechecked	exampleTranslations[0]	Use neutral “правління” for 理事会 when the organization type is unspecified.
+1061	急患	きゅうかん	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Use a natural descriptive phrase for a patient needing urgent care, then avoid repeating it.
+1063	急募	きゅうぼ	名詞	fixed_rechecked	exampleTranslations[0]	Do not infer a specific part-time schedule from アルバイト.
+1066	救済	きゅうさい	名詞	fixed_rechecked	usage	Replace the unnatural collocation “відшкодувати несправедливість”.
+1067	究極	きゅうきょく	名詞	fixed_rechecked	exampleTranslations[0]	Do not add that the subject created the dish when the Japanese only says they pursued it.
+1072	拒絶	きょぜつ	名詞	fixed_rechecked	m;usage	Add the separate biological context 拒絶反応.
+1073	拒否	きょひ	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the rejection of the proposed conditions.
+1074	挙式	きょしき	名詞	fixed_rechecked	exampleTranslations[0]	Translate 郷里 as the home region/locality, not necessarily a country.
