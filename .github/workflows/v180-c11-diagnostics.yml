@@ -1,0 +1,49 @@
+name: JLPT N1 v180 C11 diagnostics
+on:
+  push:
+    branches: [work/v180-c11-cloze-diagnostics]
+    paths:
+      - 'completion/v180-work/**'
+      - '.github/workflows/v180-c11-diagnostics.yml'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v180-c11-diagnostics
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save v180 diagnostic evidence')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v180-c11-cloze-diagnostics
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check diagnostic script
+        run: node --check completion/v180-work/diagnose.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Inspect ID2433 and reproduce all affected reading pools
+        run: node completion/v180-work/diagnose.cjs
+      - name: Save diagnostic evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add completion/v180-work/diagnostics.json completion/v180-work/checkpoint.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save v180 diagnostic evidence"
+            git push origin HEAD:work/v180-c11-cloze-diagnostics
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v180-c11-diagnostics
+          path: completion/v180-work/diagnostics.json
+          if-no-files-found: warn
