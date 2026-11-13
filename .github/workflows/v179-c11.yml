@@ -13,6 +13,19 @@ on:
       - 'PROJECT_STATUS.md'
       - 'completion/BACKLOG.md'
       - 'completion/review-register.csv'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'completion/v179-work/**'
+      - 'completion/v179-*'
+      - 'completion/C11-followup-2433-2468-20261113.md'
+      - 'completion/C11-followup-255-327-20261113.md'
+      - 'JLPT_N1_v179_audit.md'
+      - '.github/workflows/v179-c11.yml'
+      - 'README.md'
+      - 'PROJECT_STATUS.md'
+      - 'completion/BACKLOG.md'
+      - 'completion/review-register.csv'
 permissions:
   contents: write
 concurrency:
@@ -20,7 +33,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   verify:
-    if: github.event_name == 'push' && hashFiles('completion/v179-work/PUBLISH') != '' && !startsWith(github.event.head_commit.message, 'Save verified v179')
+    if: github.event_name == 'pull_request' || (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save verified v179'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -53,7 +66,7 @@ jobs:
       - name: Update audit and project status
         run: python3 completion/v179-work/write-docs.py
       - name: Save verified v179 checkpoint and evidence
-        if: success()
+        if: success() && github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+actions@users.noreply.github.com"
@@ -63,7 +76,7 @@ jobs:
             git push origin HEAD:work/v179-c11-context-quiz-review
           fi
       - name: Publish verified v179 release to main
-        if: success() && hashFiles('completion/v179-work/PUBLISH') != ''
+        if: success() && github.event_name == 'push'
         run: python3 completion/v179-work/publish-main.py
       - uses: actions/upload-artifact@v4
         if: always()
