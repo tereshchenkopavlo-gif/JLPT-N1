@@ -89,6 +89,6 @@
     "REVIEWED_EXAMPLE_TARGETS": true
   },
   "exact_rollback": true,
-  "register_state": "baseline",
+  "register_state": "already_applied",
   "author_review_only": true
 }
