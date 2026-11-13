@@ -66,6 +66,25 @@ async function main(){
         const detail=getDetail(id);
         return [id,{candidateCount:clozeWordCandidates({kind:'v',id,word:item}).length,examples:detail.examples.map(sentence=>({sentence,marked:SmartEngine.markTarget(sentence,'v',item.w).found,literal:literalClozeAvailable(sentence,{kind:'v',id,word:item},SmartEngine)}))}];
       }));
+      const currentPos255=clone(VOCAB_POS_BY_ID['255']);
+      const currentCloze255=clozeWordCandidates({kind:'v',id:255,word:getVocab(255)}).length;
+      const savedOverrides=clone(REVIEWED_READING_OPTIONS);
+      for(const id of ['255','327','1819'])delete REVIEWED_READING_OPTIONS[id];
+      const allIds=DEFAULT_VOCAB.map(x=>Number(x.id));
+      const autoBefore=allIds.map(id=>({id,options:quizReadingOptions({kind:'v',id,word:getVocab(id)})}));
+      VOCAB_POS_BY_ID['255']=['名詞','ナ形','副詞'];
+      const combinedCloze255=clozeWordCandidates({kind:'v',id:255,word:getVocab(255)}).length;
+      const autoAfter=allIds.map(id=>({id,options:quizReadingOptions({kind:'v',id,word:getVocab(id)})}));
+      const combinedChanged=autoBefore.map((x,i)=>({id:x.id,before:x.options,after:autoAfter[i].options})).filter(x=>JSON.stringify(x.before)!==JSON.stringify(x.after));
+      const combinedLost=combinedChanged.filter(x=>x.before.length>=3&&x.after.length<3);
+      const combinedGained=combinedChanged.filter(x=>x.before.length<3&&x.after.length>=3);
+      for(const k of Object.keys(REVIEWED_READING_OPTIONS))delete REVIEWED_READING_OPTIONS[k];
+      Object.assign(REVIEWED_READING_OPTIONS,savedOverrides);
+      const combinedAfterOverrides=allIds.map(id=>({id,options:quizReadingOptions({kind:'v',id,word:getVocab(id)})}));
+      const combinedRemainingLost=autoBefore.map((x,i)=>({id:x.id,before:x.options,after:combinedAfterOverrides[i].options})).filter(x=>x.before.length>=3&&x.after.length<3);
+      VOCAB_POS_BY_ID['255']=currentPos255;
+      const posTradeoff={currentPos:currentPos255,currentClozeCandidates:currentCloze255,withAdverbPos:['名詞','ナ形','副詞'],combinedClozeCandidates:combinedCloze255,combinedAdverbTagKeepsClozeMinimum:combinedCloze255>=3};
+      const combinedPosPoolImpact={changedPoolCount:combinedChanged.length,lostEligibility:combinedLost.map(x=>({id:x.id,before:x.before,after:x.after})),gainedEligibility:combinedGained.map(x=>({id:x.id,before:x.before,after:x.after})),remainingLostAfterExistingOverrides:combinedRemainingLost.map(x=>({id:x.id,before:x.before,after:x.after}))};
       const posHtml={255:wordPosHtml({kind:'v',id:255}),327:wordPosHtml({kind:'v',id:327})};
       const usage={255:getDetail(255).usage,327:getDetail(327).usage};
       const functionSources={
@@ -82,7 +101,7 @@ async function main(){
         counts:{vocabulary:DEFAULT_VOCAB.length,grammar:Object.keys(GRAMMAR_DETAILS_BY_ID).length,lexicalPairs:VOCAB_AUDITED_PAIRS.length,readingOverrideEntries:Object.keys(REVIEWED_READING_OPTIONS).length},
         pos:{before:beforePos,after:{255:vocabPartOfSpeech(255),327:vocabPartOfSpeech(327)}},
         poolResults,manualResults,automaticChecks,
-        clozeAfter,posHtml,usage,functionSources,
+        clozeAfter,posHtml,usage,functionSources,posTradeoff,combinedPosPoolImpact,
         storage:{sentinelRoundTrip,storageRestored}
       };
     },{diagnostic,prepare,expectedManual:EXPECTED_MANUAL});
@@ -101,6 +120,8 @@ async function main(){
     assert.equal(result.clozeAfter[1819].candidateCount,prepare.cloze_candidates_after['1819']);
     assert.equal(result.clozeAfter[359].candidateCount,prepare.cloze_candidates_after['359']);
     assert.equal(result.clozeAfter[255].candidateCount>=3,true);
+    assert.equal(result.posTradeoff.currentClozeCandidates>=3,true);
+    assert.equal(result.posTradeoff.combinedClozeCandidates<3,true,'adding 副詞 to the POS set unexpectedly preserves the cloze minimum');
     assert.equal(result.clozeAfter[327].candidateCount>=3,true);
     assert.equal(result.clozeAfter[1819].candidateCount>=3,true);
     assert.equal(result.clozeAfter[359].candidateCount>=3,true);
@@ -122,7 +143,7 @@ async function main(){
       responsive.push(await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,bodyWidth:document.body.scrollWidth,overflow:document.documentElement.scrollWidth>innerWidth})));
     }
     assert.equal(responsive.every(x=>!x.overflow),true,'horizontal overflow at one or more widths');
-    const output={pass:true,candidate_sha256:sha,candidate_bytes:bytes.length,counts:result.counts,pos:result.pos,reading_pool_count:result.poolResults.length,reading_pool_min_options:Math.min(...result.poolResults.map(x=>x.options.length)),manual_overrides:result.manualResults,automatic_pool_checks:result.automaticChecks.length,cloze_after:result.clozeAfter,responsive,storage:result.storage,pageErrors:errors};
+    const output={pass:true,candidate_sha256:sha,candidate_bytes:bytes.length,counts:result.counts,pos:result.pos,reading_pool_count:result.poolResults.length,reading_pool_min_options:Math.min(...result.poolResults.map(x=>x.options.length)),manual_overrides:result.manualResults,automatic_pool_checks:result.automaticChecks.length,cloze_after:result.clozeAfter,pos_tradeoff:result.posTradeoff,combined_pos_pool_impact:result.combinedPosPoolImpact,responsive,storage:result.storage,pageErrors:errors};
     fs.writeFileSync('completion/v182-work/browser-results.json',JSON.stringify(output,null,2)+'\n');
     console.log(JSON.stringify(output,null,2));
   }finally{await browser.close();}
