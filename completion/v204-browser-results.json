@@ -1,0 +1,137 @@
+{
+  "pass": true,
+  "candidate_sha256": "19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383",
+  "candidate_bytes": 6945619,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 1198,
+      "word": "現行",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1202,
+      "word": "古来",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1214,
+      "word": "誤差",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1218,
+      "word": "公募",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1236,
+      "word": "考慮",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1237,
+      "word": "肯定",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1239,
+      "word": "荒廃",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1241,
+      "word": "講読",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1246,
+      "word": "降参",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1248,
+      "word": "高低",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1249,
+      "word": "合間",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1251,
+      "word": "合席",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "noun_filter_keeps_korai": true,
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
