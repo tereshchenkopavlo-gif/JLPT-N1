@@ -1,1 +1,2 @@
 v216 C10 author audit: verify exact candidate and registry, then Chromium acceptance.
+retry after correcting rendered usage-label assertion.
