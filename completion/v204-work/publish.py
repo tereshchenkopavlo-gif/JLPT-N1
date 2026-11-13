@@ -24,6 +24,7 @@ for rel in PUBLISH_PATHS:
   if rel=="README.md":
    text=text.replace("Опублікована v203 у main. Кандидат v204 у work/v204-c10-next-pending.","Актуальна v204 у main після guarded-публікації.")
    text=text.replace("JLPT_N1_ukrainian_reading_v203.html","JLPT_N1_ukrainian_reading_v204.html")
+   text=text.replace("JLPT_N1_v203_audit.md","JLPT_N1_v204_audit.md")
   elif rel=="PROJECT_STATUS.md":
    text=text.replace("Опублікована v203; кандидат **v204** у гілці work/v204-c10-next-pending, ще не опублікований.","Актуальна **v204** у main після guarded-публікації.")
    text=text.replace("## Поточний кандидат v204 — C10 авторський аудит","## Опублікований випуск v204 — C10 авторський аудит")
