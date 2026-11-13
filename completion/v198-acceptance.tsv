@@ -1,13 +1,5 @@
 id	word	reading	pos	decision	fields_changed	rationale
-1015	機材	きざい	名詞	reviewed	—	The technical-equipment and aviation senses are covered; both examples are natural.
-1016	帰省	きせい	名詞	reviewed	—	Temporary return to the family home is distinguished from the broader 帰郷.
-1018	気質	きしつ／かたぎ	名詞	fixed_rechecked	exampleTranslations[0]	Render 職人気質 through the conduct of a true craftsperson without implying mere stubbornness.
-1021	気配	けはい	名詞	reviewed	—	Indirect signs of presence or an approaching event are accurately conveyed.
-1023	気品	きひん	名詞	reviewed	—	The sense of refined dignity is not reduced to ancestry or social class.
-1024	気風	きふう	名詞	fixed_rechecked	exampleTranslations[1]	Render 進取の気風 as a community's enterprising/initiative spirit without tautology.
-1025	気流	きりゅう	名詞	reviewed	—	Airflow is distinguished from wind and convection; examples are accurate.
-1026	祈願	きがん	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize 地鎮祭 as a traditional pre-construction ceremony praying for safety.
-1027	規定	きてい	名詞	reviewed	—	The distinction between establishing rules and specific provisions is accurate.
-1030	記述	きじゅつ	名詞	reviewed	—	Written description is distinguished from oral explanation.
-1031	貴族	きぞく	名詞	reviewed	—	The historical privileged class and its social role are accurately conveyed.
-1034	起動	きどう	名詞	fixed_rechecked	exampleTranslations[1]	Use natural Ukrainian for power-generation equipment.
+1015	機材	きざい	名詞	fixed_rechecked	exampleTranslations[1]	高性能 means high technical performance/specifications, not generic high quality.
+1016	帰省	きせい	名詞	fixed_rechecked	usage	帰郷 is a return to one's home region/hometown and does not imply another country.
+1026	祈願	きがん	名詞	fixed_rechecked	exampleTranslations[0]	受験生 covers exam candidates more broadly than university applicants.
+1027	規定	きてい	名詞	fixed_rechecked	m	Add the established provision/rule sense as well as the act of stipulating.
