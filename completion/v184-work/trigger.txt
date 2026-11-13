@@ -1,1 +1,1 @@
-Run deterministic v184 preparation and Chromium acceptance for C10 IDs 485–524.
+Retry v184 Chromium acceptance after fixing the test expectation map for reviewed unchanged cards 501 and 503.
