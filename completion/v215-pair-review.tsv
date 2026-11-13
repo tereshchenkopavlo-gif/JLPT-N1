@@ -1,0 +1,12 @@
+pair_index	left_id	right_id	left_word	right_word	decision	content_changed	rationale
+255	1028	52	規範	基準	reviewed	no	規範 is a normative behavioral model; 基準 is a criterion, including measurable standards.
+256	1027	1028	規定	規範	reviewed	no	規定 is a formulated provision; 規範 is a norm of proper conduct, not necessarily written.
+276	1089	1091	強行	強制	reviewed	no	強行 carries out an intention despite resistance; 強制 makes someone act.
+277	1089	1093	強行	恐慌	reviewed	no	Same reading きょうこう does not imply shared meaning: forced action versus panic/crisis.
+281	1112	1191	禁物	厳禁	reviewed	no	禁物 is something to avoid; 厳禁 is a strict prohibition.
+282	1191	75	厳禁	禁止	reviewed	no	厳禁 strengthens the prohibition compared with neutral 禁止.
+303	1155	1089	決行	強行	reviewed	no	決行 emphasizes resolve; 強行 emphasizes resistance/adverse conditions.
+316	1191	1192	厳禁	厳守	reviewed	no	厳禁 establishes a strict ban; 厳守 means comply strictly.
+324	1214	1272	誤差	差額	reviewed	no	誤差 is measurement/error deviation; 差額 is a monetary difference.
+339	1255	274	合併	統合	reviewed	no	合併 often denotes merger into one organization; 統合 is broader integration.
+345	1270	1271	混沌	混乱	reviewed	no	混沌 is an undefined state; 混乱 is disruption/disarray.
