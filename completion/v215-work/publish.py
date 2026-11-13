@@ -25,6 +25,7 @@ run("git","worktree","add","--detach",str(wt),"origin/main")
 summary="v215 — C10: 19 pending-карток (1019, 1028, 1078, 1082, 1089, 1093, 1191, 1255, 1258, 1260, 1270, 1272, 1276, 1280, 1285, 1290, 1292, 1293, 1296) авторськи зараховано як fixed_rechecked; внесено 21 точну зміну у 19 картках, зокрема дві японські дефініції. Для ID1280 збережено POS 名詞 після словникової звірки прислівникового вживання 再三. Лексичні пари не переглядалися й не змінювалися. Авторський credit 3756/3914; реєстр після v215 3918/411/1518, словниковий зріз 3347/409/158, vocab_pair 20/1/838."
 for rel in PUBLISH_PATHS:
  raw=subprocess.run(["git","show",f"HEAD:{rel}"],cwd=ROOT,check=True,stdout=subprocess.PIPE).stdout
+ content=raw.decode("utf-8")
  if rel in {"JLPT_N1_v215_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md"}:
   content=raw.decode("utf-8")
   if rel=="JLPT_N1_v215_audit.md":
