@@ -3,31 +3,41 @@
 Основа: v214, HTML SHA-256 0436bb8dc402e85eab47c442e094c1b725c3e97302500f559bd5b1fe944225b8, Git blob 9ca4fcc6dc6f0db7eaaebed232cc684868dfb5b2, 6 949 689 байтів.
 
 ## Пілот v153
-Усі 12 карток мають поіменні примітки й SHA-256 у збережених файлах:
+Усі 19 карток мають поіменні примітки й індивідуальні SHA-256 у чотирьох збережених пакетах:
 - completion/v153-cards-981-1080.tsv — blob d10cf3a593dda90f9a1dcc44011d7468c7fc1b47 (ID1019, 1028, 1078, 1082, 1089, 1093).
 - completion/v153-cards-1081-1180.tsv — blob 4b828dbf37995cfa6491fee94cb63c1854778a6f (ID1191).
-- completion/v153-cards-1181-1280.tsv — blob d3e932a9cb0d22ed436f68a80354104e6a960729 (ID1255, 1258, 1260, 1270, 1272).
+- completion/v153-cards-1181-1280.tsv — blob d3e932a9cb0d22ed436f68a80354104e6a960729 (ID1255, 1258, 1260, 1270, 1272, 1276, 1280).
+- completion/v153-cards-1281-1380.tsv — blob 921ba71160a557eead53fd96f2d60ab8a6473786 (ID1285, 1290, 1292, 1293, 1296).
 Пілотні нотатки — гіпотези; поточні поля v214 перечитано, рішення не перенесено механічно.
 
 ## Поіменні рішення
-- ID1019 気心: Clarify knowing one another's character, not merely being familiar.
-- ID1028 規範: Make the ethical norms, rather than the civil servants themselves, the grammatical model for society.
-- ID1078 漁村: Replace the calqued 'full of tourists' and specify successors who will continue fishing.
-- ID1082 凶作: Use the precise Ukrainian term for a severely poor harvest: неврожай.
-- ID1089 強行: Do not imply construction had already begun; translate carrying it out despite bad weather.
-- ID1093 恐慌: Remove the unnecessary restriction to mass panic and retain the economic-crisis sense.
-- ID1191 厳禁: 火気 is broader than an open flame; use a wider Ukrainian rendering.
-- ID1255 合併: Add the medical sense of another disease occurring in combination, distinct from 合併症.
-- ID1258 告訴: 業者 can denote a business operator/entity, not necessarily an individual entrepreneur.
-- ID1260 国防: Avoid adding unexpressed dimensions such as budget size and structure to 予算の在り方.
-- ID1270 混沌: 錯綜する can describe tangled information without requiring direct contradictions; make 対応に追われた natural.
-- ID1272 差額: Clarify later settlement/calculation of the monetary difference without assuming payment direction.
+- ID1019 気心: уточнено знання характеру співрозмовника, а не лише загальне знайомство.
+- ID1028 規範: граматично пов’язано взірцевість із етичними нормами, а не з держслужбовцями.
+- ID1078 漁村: усунуто кальку й конкретизовано наступників у рибальській справі.
+- ID1082 凶作: ужито точний відповідник «неврожай».
+- ID1089 強行: прибрано непідтверджене значення «продовження» будівництва.
+- ID1093 恐慌: не звужено паніку до масової; збережено економічне й історичне значення.
+- ID1191 厳禁: 火気 передано ширше за «відкритий вогонь».
+- ID1255 合併: додано медичне значення поєднання з іншим захворюванням, відмінне від 合併症.
+- ID1258 告訴: 業者 не звужено до індивідуального підприємця.
+- ID1260 国防: не додано до 予算の在り方 невисловлені аспекти «обсяг і структура».
+- ID1270 混沌: 錯綜する може описувати заплутаність інформації без прямої суперечності; 対応に追われた передано природно.
+- ID1272 差額: уточнено пізніший остаточний розрахунок без припущення про напрям платежу.
+- ID1276 挫折: відновлено причинний зв’язок: наполегливість після невдачі допомогла людині зростати.
+- ID1280 再三: Kotobank підтверджує іменникову класифікацію й часте прислівникове вживання; 名詞 збережено, usage уточнено.
+- ID1285 採算: やむを得ない передано як можливу відсутність іншого варіанта, а не як категоричну неминучість закриття.
+- ID1290 歳月: виправлено українську граматику й передано відродження події, що вийшла з ужитку.
+- ID1292 細菌: уточнено українську глосу та японське визначення, розмежувавши бактерії й археї в межах прокаріотів.
+- ID1293 細工: у японському визначенні додано готовий виріб як окреме значення.
+- ID1296 在職: нейтрально передано 退職金 без звуження до звільнення з ініціативи роботодавця.
 
 ## Зовнішня японська звірка
-- 恐慌 / 世界恐慌 / 世界大恐慌: Kotobank у статті 昭和恐慌 прямо називає світову кризу 1929 року 世界大恐慌; Historist визначає 世界恐慌 як кризу, що почалася у 1929 році й поширилася світом. https://kotobank.jp/word/%E6%98%AD%E5%92%8C%E6%81%90%E6%85%8C-80026 ; https://www.historist.jp/word_j_se/entry/034036/
-- 火気: Okaya Sanso пояснює, що 火気 може охоплювати裸火, електричні іскри й нагріті частини; Tokyo Fire Department також розрізняє полум’я, іскри та нагрівальні елементи. https://www.okayasanso.co.jp/faqb/gas/law/3485 ; https://www.reiki.metro.tokyo.lg.jp/reiki/reiki_honbun/g101RG00003418.html
-- 告訴: Кабінет міністрів Японії визначає 告訴 як заяву потерпілого або уповноваженої особи до органу розслідування з вимогою покарання. https://www.gender.go.jp/policy/no_violence/e-vaw/siensya/05.html
-- 合併症: Kotobank описує пов’язане з основною хворобою інше захворювання/симптом; матеріал Токійського університету розмежовує 合併症 і не пов’язане з основним захворюванням 併存疾患. У глосі залишено широке «поєднання з іншим захворюванням». https://kotobank.jp/word/%E5%90%88%E4%BD%B5%E7%97%87-464561 ; https://ez2understand.ifi.u-tokyo.ac.jp/terms/terms_27/
+- 再三: Kotobank / デジタル大辞泉 класифікує слово як 名詞 і прямо зазначає 副詞的にも用いる. https://kotobank.jp/word/%E5%86%8D%E4%B8%89-507634
+- やむを得ない: Kotobank / デジタル大辞泉 — «そうするよりほかに方法がない。しかたがない». https://kotobank.jp/word/%E6%AD%A2%E3%82%80%E3%82%92%E5%BE%97%E3%81%AA%E3%81%84-649744
+- 歳月: Kotobank / デジタル大辞泉 визначає як 年月／としつき. https://kotobank.jp/word/%E6%AD%B3%E6%9C%88-507444
+- 細菌: Міністерство сільського, лісового та рибного господарства Японії пояснює, що 細菌 є мікроорганізмами-прокаріотами; Університет Токіо прямо розрізняє бактеріальну та архейну групи прокаріотів. https://www.maff.go.jp/j/syouan/tikusui/yakuzi/bacteria.html ; https://www.k.u-tokyo.ac.jp/information/category/press/10606.html
+- 細工: Kotobank / デジタル大辞泉 включає і процес виготовлення, і створений предмет. https://kotobank.jp/word/%E7%B4%B0%E5%B7%A5-507369
+- 退職金: Kotobank / デジタル大辞泉 — кошти, що виплачуються працівникові під час виходу з роботи. https://kotobank.jp/word/%E9%80%80%E8%81%B7%E9%87%91-91377
 
-## Порівняльні пари
-Авторськи переглянуто 11 pending-пар: 255, 256, 276, 277, 281, 282, 303, 316, 324, 339, 345. Усі залишено без зміни тексту; перевірено спільне, відмінність, сполучуваність і межі заміни. Це авторський, не незалежний перегляд.
+## Межі
+v215 не переглядає й не зараховує лексичні пари: їхні реєстрові статуси не змінюються. Старий робочий файл v215-pair-review.tsv збережено як непублікаційний чернетковий матеріал попереднього checkpoint; він не входить до acceptance, registry credit чи публікаційного набору.
