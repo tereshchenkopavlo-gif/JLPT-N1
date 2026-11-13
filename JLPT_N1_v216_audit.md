@@ -3,7 +3,7 @@
 База: v215, main 0982a2699179c0ad0a9d01b0674e07edf60364f6.
 Кандидат: v216, повний автономний HTML.
 Робоча гілка: work/v216-c10-next-pending.
-Workflow run: __V216_RUN_ID__.
+Workflow run: 43496573498.
 HTML bytes: 6950652.
 SHA-256: 9166c9c55fac5478dda8768da705986ce9ba42d7f8fb43ae259848d17df156ec.
 Git blob: 82e8ec96f948084777863e52958e98203b724c25.
