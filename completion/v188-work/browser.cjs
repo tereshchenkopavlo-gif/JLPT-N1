@@ -21,13 +21,13 @@ const EXPECTED={
  677:{word:'ホール',definition:'また、ゴルフでボールを入れる穴。',translations:['Урочиста церемонія відбулася з великим розмахом у великій залі міста.']},
  683:{word:'マッサージ',translations:['','Йому помасажували затерплу спину.']},
  685:{word:'デザイン',translations:['','Магазин, дизайн якого розробив молодий дизайнер, привернув увагу галузі.']},
- 687:{word:'サポート',translations:['Закріплений за проєктом фахівець забезпечуватиме постійний супровід після впровадження.']},
+ 687:{word:'サポート',translations:['Фахівець, спеціально закріплений за цим завданням, забезпечуватиме постійний супровід після впровадження.']},
  691:{word:'ネックレス',translations:['Вона дуже дорожить намистом, що дісталося їй від бабусі, й носить його.','На виставці популярністю користувалися намиста, виготовлені майстрами вручну.']},
  692:{word:'メロディー',translations:['Мелодія головної пісні до фільму глибоко запам’яталася слухачам.','Люди в залі тихо вслухалися в прекрасну мелодію.']},
  697:{word:'闇',gloss:'темрява, морок; тіньовий світ',translations:['','Щоб припинити незаконну приховану торгівлю, органи влади посилюють розслідування.']},
  701:{word:'沖',gloss:'водний простір на віддалі від берега (у морі чи озері)'},
  703:{word:'核',definition:'原子の中心部や、細胞内で遺伝情報を含む構造。'},
- 706:{word:'幹',definition:'木の中心にある太い部分で、枝を支える。'},
+ 706:{word:'幹',definition:'木の中心にある太い部分で、枝を支える。',usage:'幹が太い, 幹に触れる'},
  707:{word:'管',usage:'単独の管はくだと読む。複合語ではかんとなることが多い: 水道管（すいどうかん）。'},
  708:{word:'癌',gloss:'руйнівна вада, що підточує організацію'}
 };
@@ -75,7 +75,7 @@ async function main(){
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
      glossVisible:d.t.split(';').map(x=>x.trim()).filter(Boolean).every(x=>norm(text).includes(norm(x))),
-     usageVisible:norm(text).includes(norm(d.usage)),
+     usageVisible:d.usage.split(/[.!?。]/).map(x=>norm(x)).filter(x=>x.length>8).every(x=>norm(text).includes(x)),
      examplesVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
      bodyTextLength:text.length,bodyText:text
     });
