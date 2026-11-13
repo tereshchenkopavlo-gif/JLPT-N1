@@ -1,7 +1,7 @@
 import hashlib,json,shutil,subprocess
 from pathlib import Path
 ROOT=Path.cwd().resolve()
-EXPECTED_MAIN="5a9952fe995300827997d07af0e5344661f37d22"
+EXPECTED_MAIN="aa19f3b354530e3d886314f140c592401f2a66d5"
 HTML_PATH="JLPT_N1_ukrainian_reading_v205.html"
 PUBLISH_PATHS=[HTML_PATH,"JLPT_N1_v205_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md","completion/review-register.csv","completion/v205-acceptance.tsv","completion/v205-c10-review.tsv","completion/v205-field-changes.tsv","completion/v205-source-review.md","completion/v205-prepare-results.json","completion/v205-browser-results.json","completion/v205-registry-results.json"]
 def run(*args,cwd=ROOT,capture=True):
