@@ -11,3 +11,10 @@ id	word	reading	pos	decision	fields_changed	rationale
 1260	国防	こくぼう	名詞	fixed_rechecked	exampleTranslations[0]	Avoid adding unexpressed dimensions such as budget size and structure to 予算の在り方.
 1270	混沌	こんとん	名詞	fixed_rechecked	exampleTranslations[1]	錯綜する can describe tangled information without requiring direct contradictions; make 対応に追われた natural.
 1272	差額	さがく	名詞	fixed_rechecked	exampleTranslations[0]	Clarify later settlement/calculation of the monetary difference without assuming payment direction.
+1276	挫折	ざせつ	名詞	fixed_rechecked	exampleTranslations[1]	Restore the causal meaning of 姿勢が彼を成長させた in natural Ukrainian.
+1280	再三	さいさん	名詞	fixed_rechecked	usage	Keep 名詞 classification; explain the documented adverbial use and 再三の + noun.
+1285	採算	さいさん	名詞	fixed_rechecked	exampleTranslations[0]	Render やむを得ない as no other option, not certainty of closure.
+1290	歳月	さいげつ	名詞	fixed_rechecked	exampleTranslations[1]	Correct the Ukrainian grammar and preserve the sense of an event fallen into disuse.
+1292	細菌	さいきん	名詞	fixed_rechecked	t;m	Clarify bacteria as prokaryotes distinct from archaea; avoid overgeneralizing microorganisms.
+1293	細工	さいく	名詞	fixed_rechecked	m	Add the finished craft object as a distinct dictionary sense.
+1296	在職	ざいしょく	名詞	fixed_rechecked	exampleTranslations[1]	Avoid implying employer-initiated dismissal in the rendering of 退職金.
