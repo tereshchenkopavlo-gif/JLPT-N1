@@ -1,6 +1,15 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v211** у main після guarded-публікації. Повний HTML — 6948888 байти, SHA-256 c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v211.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v211_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v212** у main після guarded-публікації. Повний HTML — 6949301 байти, SHA-256 a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v212.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v212_audit.md). [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v211.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v211_audit.md).
+
+## Опублікований випуск v212 — C10 авторський аудит
+
+- Перевірено 11 pending-карток: ID1497, 1500, 1502, 1503, 1505, 1507, 1508, 1509, 1513, 1515, 1522. Для всіх є індивідуальні докази пілота v153.
+- Внесено 15 точних змін у 11 картках; уточнено дві японські дефініції. Додатково перевірено одну pending-пару порівняння (VOCAB_AUDITED_PAIRS[395]) і підготовлено одну зміну її примітки.
+- Один інший pending-запис залишено без змін і без зарахування.
+- Авторський credit після v212 — **3714/3914**. Реєстр після приймання: 3916 reviewed /369 fixed_rechecked /1562 pending; словниковий зріз — 3347 /367 /200; vocab_pair — 18 /1 /840.
+- Опублікований HTML v212: 6949301 байти, SHA-256 a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5. Deterministic build, registry та Chromium acceptance успішні; робочу гілку не зливати.
+- C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
 
 ## Опублікований випуск v211 — C10 авторський аудит
 

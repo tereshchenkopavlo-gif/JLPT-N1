@@ -1495,32 +1495,32 @@ vocab,1493,vocab:1493,fixed_rechecked,completion/v211-acceptance.tsv; JLPT_N1_v2
 vocab,1494,vocab:1494,reviewed,completion/v153-cards-1481-1520.tsv#1494; author linguistic review
 vocab,1495,vocab:1495,reviewed,completion/v153-cards-1481-1520.tsv#1495; author linguistic review
 vocab,1496,vocab:1496,fixed_rechecked,completion/v211-acceptance.tsv; JLPT_N1_v211_audit.md
-vocab,1497,vocab:1497,pending,
+vocab,1497,vocab:1497,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1498,vocab:1498,reviewed,completion/v153-cards-1481-1520.tsv#1498; author linguistic review
 vocab,1499,vocab:1499,reviewed,completion/v153-cards-1481-1520.tsv#1499; author linguistic review
-vocab,1500,vocab:1500,pending,
+vocab,1500,vocab:1500,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1501,vocab:1501,reviewed,completion/v153-cards-1481-1520.tsv#1501; author linguistic review
-vocab,1502,vocab:1502,pending,
-vocab,1503,vocab:1503,pending,
+vocab,1502,vocab:1502,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
+vocab,1503,vocab:1503,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1504,vocab:1504,reviewed,completion/v153-cards-1481-1520.tsv#1504; author linguistic review
-vocab,1505,vocab:1505,pending,
+vocab,1505,vocab:1505,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1506,vocab:1506,reviewed,completion/v153-cards-1481-1520.tsv#1506; author linguistic review
-vocab,1507,vocab:1507,pending,
-vocab,1508,vocab:1508,pending,
-vocab,1509,vocab:1509,pending,
+vocab,1507,vocab:1507,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
+vocab,1508,vocab:1508,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
+vocab,1509,vocab:1509,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1510,vocab:1510,pending,
 vocab,1511,vocab:1511,reviewed,completion/v153-cards-1481-1520.tsv#1511; author linguistic review
 vocab,1512,vocab:1512,reviewed,completion/v153-cards-1481-1520.tsv#1512; author linguistic review
-vocab,1513,vocab:1513,pending,
+vocab,1513,vocab:1513,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1514,vocab:1514,reviewed,completion/v153-cards-1481-1520.tsv#1514; author linguistic review
-vocab,1515,vocab:1515,pending,
+vocab,1515,vocab:1515,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1516,vocab:1516,reviewed,completion/v153-cards-1481-1520.tsv#1516; author linguistic review
 vocab,1517,vocab:1517,reviewed,completion/v153-cards-1481-1520.tsv#1517; author linguistic review
 vocab,1518,vocab:1518,reviewed,completion/v153-cards-1481-1520.tsv#1518; author linguistic review
 vocab,1519,vocab:1519,reviewed,completion/v153-cards-1481-1520.tsv#1519; author linguistic review
 vocab,1520,vocab:1520,reviewed,completion/v153-cards-1481-1520.tsv#1520; author linguistic review
 vocab,1521,vocab:1521,reviewed,completion/v153-cards-1521-1560.tsv#1521; author linguistic review
-vocab,1522,vocab:1522,pending,
+vocab,1522,vocab:1522,fixed_rechecked,completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md
 vocab,1523,vocab:1523,reviewed,completion/v153-cards-1521-1560.tsv#1523; author linguistic review
 vocab,1524,vocab:1524,reviewed,completion/v153-cards-1521-1560.tsv#1524; author linguistic review
 vocab,1525,vocab:1525,reviewed,completion/v153-cards-1521-1560.tsv#1525; author linguistic review
@@ -4438,7 +4438,7 @@ vocab_pair,391:1502:1504,VOCAB_AUDITED_PAIRS[391],pending,
 vocab_pair,392:1503:1599,VOCAB_AUDITED_PAIRS[392],pending,
 vocab_pair,393:1505:1506,VOCAB_AUDITED_PAIRS[393],pending,
 vocab_pair,394:1507:1508,VOCAB_AUDITED_PAIRS[394],pending,
-vocab_pair,395:1512:1513,VOCAB_AUDITED_PAIRS[395],pending,
+vocab_pair,395:1512:1513,VOCAB_AUDITED_PAIRS[395],fixed_rechecked,completion/v212-pair-review.tsv; JLPT_N1_v212_audit.md
 vocab_pair,396:1523:1524,VOCAB_AUDITED_PAIRS[396],pending,
 vocab_pair,397:1527:1528,VOCAB_AUDITED_PAIRS[397],pending,
 vocab_pair,398:1537:213,VOCAB_AUDITED_PAIRS[398],pending,
