@@ -2,7 +2,7 @@
 
 Дата: 13 листопада 2026 року. Основа: опублікований v209, main commit `e8a23e2bdbe7cadd3a14f0032ec9fa1e939e19e5`, HTML SHA-256 `dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf`, Git blob `e5c089298c45aaa82d693bab5a876c8cb28239fd`, 6 948 136 байти.
 
-Кандидат v210: SHA-256 ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474, 6948501 байти.
+Опублікований v210: SHA-256 ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474, 6948501 байти; Git blob `aba56a2ff2b01a828c4bc1d9ae91f5936884ad00`; main commit `e75dd899772e698a0f41b1826d500b9b1e96ef09`.
 
 ## Обсяг і рішення
 
@@ -38,6 +38,10 @@
 - POS-map, усі ID, 3914 словникових записів, 130 граматичних конструкцій, 859 лексичних пар, quiz payloads/targets, порівняння, навчальний код і сховище прогресу захищені перевірками.
 - Реєстр до v210: 3916 reviewed /335 fixed_rechecked /1596 pending; словник — 3347 /334 /233. Очікувано після: 3916 /347 /1584; словниковий зріз — 3347 /346 /221. Авторський credit — 3693/3914.
 - Chromium перевіряє всі 12 карток, видимість глос, usage, японських прикладів і перекладів, ширини 360/412/1280, storage round-trip та відсутність page errors.
+
+## Публікація
+
+Повний HTML, аудит, реєстр, acceptance і машинні докази опубліковано в main commit `e75dd899772e698a0f41b1826d500b9b1e96ef09`. SHA-256 і розмір main HTML незалежно звірено з deterministic prepare: збіг точний. Workflow run 43470280808 завершився success: deterministic build, registry, syntax checks, Chromium acceptance, exact-artifact publisher і artifact upload — усі кроки успішні. Chromium: 12 карток, 360/412/1280 px без переповнення, storage round-trip/restored, page errors — 0. PR #35 закрито без злиття.
 
 ## Межі
 
