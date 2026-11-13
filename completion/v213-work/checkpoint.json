@@ -74,7 +74,7 @@
     "completion/v153-cards-1561-1620.tsv": "6118ba60c8608cabdad3e10e6c602c93d6942522",
     "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298"
   },
-  "status": "v213 attempts 1–2 passed deterministic build/syntax; browser test false-negative on field formatting; sample-based visibility assertions and debug artifact added; attempt 3 pending",
+  "status": "v213 attempt 3 triggered with sample-based rendered assertions; main publication guard matches current main",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_workflow_commit": "7e46364004a358ad5b3fb6f076f13f31a408257f",
   "pr_number": 38,
@@ -91,5 +91,6 @@
       "conclusion": "failure_at_render_assertion",
       "failure": "Deterministic build and syntax passed. Chromium rendered all eleven cards and all titles, examples, and translations; the assertion incorrectly required entire gloss/usage strings to be contiguous in innerText despite UI line wrapping/section formatting. The debug excerpts show the content present. Assertions now check visible field samples and section content rather than whole-field contiguity."
     }
-  ]
+  ],
+  "main_guard": "2d685c4f79cd6bad26f4f9d7cc5507b8b2a6402d"
 }
