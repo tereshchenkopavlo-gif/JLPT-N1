@@ -40,6 +40,19 @@ jobs:
           sudo apt-get install -y fonts-noto-cjk
       - name: Verify all 12 cards, unchanged POS dependencies, storage and responsive layout
         run: node completion/v186-work/browser.cjs
+      - name: Mark checkpoint after successful Chromium acceptance
+        if: success()
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("completion/v186-work/checkpoint.json")
+          d=json.loads(p.read_text(encoding="utf-8"))
+          d["status"]="author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending"
+          d["chromium_verification"]="passed"
+          d["browser_results"]="completion/v186-work/browser-results.json"
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+          PY
       - name: Save candidate and evidence to work branch
         if: success()
         run: |
@@ -50,6 +63,9 @@ jobs:
             git commit -m "Save v186 browser evidence for C10 cards 565-609"
             git push origin HEAD:work/v186-c10-next-pending
           fi
+      - name: Publish only exact verified artifacts to main (no bulk branch merge)
+        if: success()
+        run: python3 completion/v186-work/publish.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
