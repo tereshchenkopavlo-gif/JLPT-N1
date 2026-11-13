@@ -35,7 +35,7 @@
   ],
   "reviewed_ids": [],
   "pending_ids": [],
-  "expected_field_updates": 13,
+  "expected_field_updates": 14,
   "author_credit_before": 3621,
   "author_credit_addition": 12,
   "author_credit_after": 3633,
@@ -57,11 +57,41 @@
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786",
     "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
   },
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v205 published and exact HTML blob verified in main; PR #30 closed without merge",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "candidate_sha256": "3b06dc6001359d033d31902227e56daaacd95501471faece756c1a70a582e2aa",
   "candidate_bytes": 6945868,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "browser_results": "completion/v205-work/browser-results.json"
+  "browser_results": "completion/v205-work/browser-results.json",
+  "publication_commit": "1d609cd9bec52d0947fbe635c6b5307a32a0b8d9",
+  "publication_html_blob": "8001c7e70618d160bd1e582f3135418b57dd4b9d",
+  "publication_sha256": "3b06dc6001359d033d31902227e56daaacd95501471faece756c1a70a582e2aa",
+  "publication_bytes": 6945868,
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 12,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  },
+  "registry_after": {
+    "all": {
+      "reviewed": 3915,
+      "fixed_rechecked": 288,
+      "pending": 1644
+    },
+    "vocabulary": {
+      "reviewed": 3346,
+      "fixed_rechecked": 287,
+      "pending": 281
+    }
+  },
+  "pr_number": 30,
+  "pr_state": "closed_without_merge"
 }
