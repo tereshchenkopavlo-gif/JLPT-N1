@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1632	相互	そうご	名詞	fixed_rechecked	t	Separate the noun sense of mutuality from the adjective-like use in 相互の.
+1635	総会	そうかい	名詞	fixed_rechecked	t	Keep the general gloss specific to an organization's general assembly; plenary session is context-dependent.
+1637	草花	くさばな	名詞	fixed_rechecked	t	Use a natural Ukrainian equivalent for flowering herbaceous plants and retain the separate 草と花 sense.
+1651	損害	そんがい	名詞	fixed_rechecked	t	Remove the unsupported requirement that damage must be assessed or compensated; retain general harm/loss.
+1654	妥協	だきょう	名詞	fixed_rechecked	m	Include the use of yielding one's own standards or demands, as in 品質で妥協しない.
+1666	滞納	たいのう	名詞	fixed_rechecked	exampleTranslations[1]	Do not soften 退去を求められた to a voluntary suggestion.
+1675	大筋	おおすじ	名詞	fixed_rechecked	exampleTranslations[1]	Translate 大筋 as the overall direction/main outline, not procedural provisions.
+1676	大口	おおぐち	名詞	fixed_rechecked	t	Include the literal large-mouth and boastful-speech senses already present in the Japanese definition.
+1679	大物	おおもの	名詞	fixed_rechecked	m;exampleTranslations[1]	Include a large object in the Japanese definition and remove the unsupported prediction of a future master.
+1682	脱税	だつぜい	名詞	fixed_rechecked	exampleTranslations[0]	Render 告発された as a report to competent authorities, not a formal prosecutorial charge.
+1688	鍛錬	たんれん	名詞	fixed_rechecked	m	Include the literal metal-forging sense already noted in the card.
+1690	弾力	だんりょく	名詞	fixed_rechecked	t	Include the figurative flexibility/adaptability sense as well as physical elasticity.
