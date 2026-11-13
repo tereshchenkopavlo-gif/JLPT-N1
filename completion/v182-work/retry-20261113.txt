@@ -1,1 +1,1 @@
-Retry v182 C11 reading-pool verification after correcting cleanup of the temporary archive.
+Retry v182 after NINJAL cross-check and POS/cloze tradeoff test.
