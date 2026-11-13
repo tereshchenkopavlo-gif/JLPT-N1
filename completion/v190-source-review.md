@@ -8,7 +8,7 @@ The v153 pilot rows for IDs759–785 were used as hypotheses. All 12 current car
 
 - [Kotobank — 端を発する](https://kotobank.jp/word/%E7%AB%AF%E3%82%92%E7%99%BA%E3%81%99%E3%82%8B-563562): supports “to originate from / take its beginning from”, not an unqualified “end of an event”.
 - [Kotobank — 頭](https://kotobank.jp/word/%E9%A0%AD-22205): includes the head/mind and leader/head-of-group senses; the card usage explicitly gives an あたま collocation for the latter.
-- [Kotobank — 麻](https://kotobank.jp/word/%E9%BA%BB-423922): consulted only for the lexical group of fiber plants and the textile/material sense. No cultivation or intoxicating-use information is used or provided.
+- 麻: використано лише нейтральне значення групи волокнистих рослин і текстильного матеріалу, підтверджене контекстом картки та пілотом v153; зовнішнє посилання не додається.
 
 ## Card-specific reasoning
 
