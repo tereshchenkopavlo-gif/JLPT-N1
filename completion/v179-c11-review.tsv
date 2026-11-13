@@ -1,0 +1,5 @@
+id	headword	example_index	example	decision	correct	wrong_1	wrong_2	wrong_3	note	boundary
+2468	下す	0	裁判所は、被告に対して厳しい判決を下した。	reviewed_saved_contextual_quiz	裁判所が、審理の結果を判決として言い渡すこと。	裁判所が、判決を出す前に証拠を調べ、事実関係を明らかにすること。	裁判所が、すでに言い渡した判決を取り消すこと。	裁判所が、判決で定めた刑罰や命令を実際に執行すること。	判決を下す is the act of handing down the judgment, not the hearing, cancellation, or execution.	author review; not independent acceptance
+2468	下す	1	経営陣は、慎重な検討の末に撤退という決断を下した。	reviewed_saved_contextual_quiz	十分に検討したうえで、最終的な決断をすること。	複数の案を比べ、どれを選ぶか検討し続けること。	結論を出さず、決断を先送りにすること。	すでに決めた方針を取り消し、別の方針に変えること。	決断を下す is to make the final decision after consideration, not merely continue deliberation, defer, or reverse it.	author review; not independent acceptance
+2433	そびえる	0	市の中心部には、高さ二百メートルの超高層ビルがそびえている。	pending_no_saved_set					Automatic set retained; exact reviewed target would disable the existing cloze route for this kana-only headword.	C11 open
+2433	そびえる	1	雪をいただいた山々が、湖の向こうにそびえて見える。	pending_no_saved_set					Automatic set retained; exact reviewed target would disable the existing cloze route for this kana-only headword.	C11 open
