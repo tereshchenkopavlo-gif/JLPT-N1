@@ -22,7 +22,7 @@ for rel in PUBLISH_PATHS:
  if rel in {"JLPT_N1_v205_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md"}:
   text=blob.decode("utf-8").replace("__V205_SHA256__",digest).replace("__V205_BYTES__",str(size))
   if rel=="README.md":
-   text=text.replace("Актуальна v204 у main після guarded-публікації. Кандидат v205 у work/v205-c10-next-pending.","Актуальна v205 у main після guarded-публікації.")
+   text=text.replace("Актуальна **v204** у main після guarded-публікації. Кандидат v205 у work/v205-c10-next-pending.","Актуальна **v205** у main після guarded-публікації.")
    text=text.replace("JLPT_N1_ukrainian_reading_v204.html","JLPT_N1_ukrainian_reading_v205.html")
    text=text.replace("JLPT_N1_v204_audit.md","JLPT_N1_v205_audit.md")
   elif rel=="PROJECT_STATUS.md":
