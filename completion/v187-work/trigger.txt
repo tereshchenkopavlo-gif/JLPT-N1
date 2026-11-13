@@ -1,0 +1,1 @@
+Run guarded v187 C10 author review and exact-artifact publication after Chromium pass. Trigger attempt 1, 2026-11-13T22:05:00+09:00.
