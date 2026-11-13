@@ -24,6 +24,7 @@ for rel in PUBLISH_PATHS:
   if rel=="README.md":
    text=text.replace("Актуальна **v211** у main після guarded-публікації. Кандидат v212 у work/v212-c10-next-pending.","Актуальна **v212** у main після guarded-публікації.")
    text=text.replace("Кандидат v212:","Опубліковано v212:")
+   text=text.replace("Докази v211:","Докази v212:")
    text=text.replace("completion/v211-","completion/v212-")
    text=text.replace("JLPT_N1_v211","JLPT_N1_v212")
    text=text.replace("JLPT_N1_ukrainian_reading_v211.html","JLPT_N1_ukrainian_reading_v212.html")
