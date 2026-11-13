@@ -4,6 +4,10 @@ on:
     branches: [work/v186-c10-next-pending]
     paths:
       - 'completion/v186-work/trigger.txt'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'completion/v186-work/**'
 permissions:
   contents: write
 concurrency:
@@ -11,7 +15,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   verify:
-    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save v186 browser evidence')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
