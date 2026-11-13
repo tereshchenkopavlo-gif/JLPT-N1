@@ -89,6 +89,7 @@
   },
   "all_other_pairs_unchanged": true,
   "exact_rollback": true,
-  "register_updated": true,
+  "register_updated": false,
+  "register_reused": true,
   "author_review_only": true
 }

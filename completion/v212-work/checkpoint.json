@@ -61,7 +61,7 @@
     "completion/v153-cards-1481-1520.tsv": "e2cc65cfc7cd035f667d76eb9639925d2dbc356e",
     "completion/v153-cards-1521-1560.tsv": "d206d88b12e53e4e0d110732c26de5075a48e601"
   },
-  "status": "attempts 1–3 did not publish; candidate and browser acceptance already pass in work branch; register preparer now idempotent for exact target state; attempt 4 pending",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {

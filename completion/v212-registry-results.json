@@ -63,5 +63,6 @@
   "author_credit_after": 3714,
   "duplicate_keys": 0,
   "records_deleted": 0,
-  "history_rewritten": false
+  "history_rewritten": false,
+  "idempotent_reuse": true
 }
