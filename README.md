@@ -1,11 +1,22 @@
-Кандидат v213 HTML SHA-256: 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c, 6949518 bytes. Актуальна **v213** у main після guarded-публікації. Перевірено 12 pending-карток: 11 fixed_rechecked і одна залишена pending; внесення 13 точних змін охоплює 11 карток. POS-корекцію ID1631 відкладено: автоматичні кандидати читання скорочуються 60→2, cloze 2269→65, тому POS-map і логіку вправ не змінено. Очікуваний авторський credit — **3725/3914**.
+# JLPT N1 — тренажер з японським інтерфейсом
 
-Кандидат v213 HTML SHA-256: 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c, 6949518 bytes. Актуальна **v213** у main після guarded-публікації. Опубліковано v213: 12 pending-карток (1528, 1529, 1539, 1541, 1542, 1548, 1551, 1554, 1558, 1625, 1628, 1631), 13 точних змін у 11 картках. POS-корекцію ID1631 відкладено: читання 60→2, cloze 2269→65; POS-map і логіку вправ не змінено. Очікуваний credit 3725/3914. Перевірено 11 карток: усі 11 fixed_rechecked; внесено 15 точних змін і одна зміна примітки порівняльної пари. Один інший pending-запис залишився без змін і не зараховувався. Авторський credit — **3725/3914**. [Повний HTML v212](JLPT_N1_ukrainian_reading_v213.html) · [Аудит v212](JLPT_N1_v213_audit.md).
+**Актуальна опублікована редакція: v213.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
-SHA-256: `a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5` · 6,949,301 байт. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Реєстр — 3916 reviewed / 369 fixed_rechecked / 1562 pending; словниковий зріз — 3347 / 367 / 200; vocab_pair — 18 / 1 / 840.
+- [Повний автономний HTML v213](JLPT_N1_ukrainian_reading_v213.html)
+- [Авторський аудит v213](JLPT_N1_v213_audit.md)
+- [Поточний стан проєкту](PROJECT_STATUS.md)
+- [Єдиний реєстр завершення 1.0](completion/BACKLOG.md)
 
-Докази v213: [deterministic prepare](completion/v213-prepare-results.json), [Chromium acceptance](completion/v213-browser-results.json), [registry](completion/v213-registry-results.json), [acceptance](completion/v213-acceptance.tsv), [повний перегляд](completion/v213-c10-review.tsv), [точні зміни](completion/v213-field-changes.tsv), [джерельна звірка](completion/v213-source-review.md). Workflow run 43474530932 завершився успішно; PR #37 закрито без злиття, робочу гілку збережено.
+## Стан випуску v213
 
-Наступний C10 checkpoint буде сформовано з решти pending-записів після окремої перевірки безпеки. C10 триває; C11 POS-залежності, незалежне лінгвістичне приймання, фізична перевірка Android/Windows та правове/походження приймання залишаються відкритими.
+Перевірено 12 pending-карток: 11 отримали статус fixed_rechecked, одна (ID1631 相応) залишилася pending через виміряний вплив запропонованої POS-зміни на автоматичні банки вправ. Внесено 13 точних змін у 11 картках; японські приклади, POS-map і навчальну логіку не змінено.
 
-Нижче збережено історичний журнал; він не описує поточний стан.
+Авторський credit: **3725/3914** словникових карток. У базі збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар.
+
+HTML v213: 6 949 518 байтів; SHA-256:
+`806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c`.
+
+Докази: [deterministic prepare](completion/v213-prepare-results.json), [Chromium acceptance](completion/v213-browser-results.json), [registry](completion/v213-registry-results.json), [acceptance](completion/v213-acceptance.tsv), [повний перегляд](completion/v213-c10-review.tsv), [точні зміни](completion/v213-field-changes.tsv), [джерельна звірка](completion/v213-source-review.md).
+
+Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються окремими відкритими задачами. Робочу гілку v213 не зливали; у main опубліковано лише перевірені артефакти.
+
