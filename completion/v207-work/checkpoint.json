@@ -57,7 +57,7 @@
   "pilot_files": {
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v207 published and exact HTML blob verified in main; PR #32 closed without merge",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -71,6 +71,12 @@
       "run_id": 43465261481,
       "conclusion": "failure",
       "failure": "Identity/POS preimage mismatch at ID1373: the source vocabulary reading includes both しゅうちゃく／しゅうじゃく, while the preparer expected only しゅうちゃく. No candidate or register update was produced; pipefail correctly stopped the job."
+    },
+    {
+      "attempt": 3,
+      "run_id": 43465490607,
+      "conclusion": "success",
+      "result": "deterministic build and registry pass; syntax checks pass; Chromium acceptance pass at 360/412/1280; storage round-trip/restored; zero page errors; exact-artifact publication and artifact upload pass"
     }
   ],
   "corrected_preimages": {
@@ -87,5 +93,35 @@
   "candidate_bytes": 6946934,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "browser_results": "completion/v207-work/browser-results.json"
+  "browser_results": "completion/v207-work/browser-results.json",
+  "publication_commit": "1da6fe0c932681294b1ad5a9789bd5ca610a0999",
+  "publication_html_blob": "8c20f18aeee4a4bf1200d1feb3374b93e200aa2c",
+  "publication_sha256": "f27b47c33dd4b427cbdc36ac1a3f2b126a1656e36055d2598fc6a5bbcd5e526d",
+  "publication_bytes": 6946934,
+  "registry_after": {
+    "all": {
+      "reviewed": 3916,
+      "fixed_rechecked": 311,
+      "pending": 1620
+    },
+    "vocabulary": {
+      "reviewed": 3347,
+      "fixed_rechecked": 310,
+      "pending": 257
+    }
+  },
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 12,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  },
+  "pr_number": 32,
+  "pr_state": "closed_without_merge"
 }
