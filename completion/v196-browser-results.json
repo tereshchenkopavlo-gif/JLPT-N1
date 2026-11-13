@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "0bef35afbc589b4b57312e40a56c87ba3512f504071070e820849529510c7fe5",
+  "candidate_bytes": 6944969,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 943,
+      "word": "獲物",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 488
+    },
+    {
+      "id": 944,
+      "word": "確信",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1116
+    },
+    {
+      "id": 949,
+      "word": "学芸",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 585
+    },
+    {
+      "id": 951,
+      "word": "楽観",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 613
+    },
+    {
+      "id": 952,
+      "word": "楽譜",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 431
+    },
+    {
+      "id": 956,
+      "word": "葛藤",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 607
+    },
+    {
+      "id": 960,
+      "word": "勘定",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 510
+    },
+    {
+      "id": 961,
+      "word": "勘弁",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 565
+    },
+    {
+      "id": 963,
+      "word": "完結",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 538
+    },
+    {
+      "id": 965,
+      "word": "完備",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 583
+    },
+    {
+      "id": 968,
+      "word": "幹部",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 533
+    },
+    {
+      "id": 969,
+      "word": "感触",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 867
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
