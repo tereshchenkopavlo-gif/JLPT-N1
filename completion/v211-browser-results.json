@@ -1,0 +1,131 @@
+{
+  "pass": true,
+  "candidate_sha256": "c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68",
+  "candidate_bytes": 6948888,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 10,
+  "deferred_count": 2,
+  "reviewed_cards": [
+    {
+      "id": 1471,
+      "word": "傷跡",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1477,
+      "word": "消息",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1479,
+      "word": "照合",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1484,
+      "word": "証拠",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1485,
+      "word": "詳細",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1486,
+      "word": "賞賛",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1487,
+      "word": "障害",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1489,
+      "word": "上陸",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1493,
+      "word": "譲歩",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1496,
+      "word": "触覚",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
