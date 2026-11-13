@@ -43,6 +43,12 @@ for rel in PUBLISH_PATHS:
  blob=subprocess.run(["git","show",f"HEAD:{rel}"],cwd=ROOT,check=True,stdout=subprocess.PIPE).stdout
  if rel in {"JLPT_N1_v198_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md"}:
   text=blob.decode("utf-8").replace("__V198_SHA256__",digest).replace("__V198_BYTES__",str(size))
+  if rel=="README.md":
+   text=text.replace("Опублікована в main версія — v197. Кандидат v198 у робочій гілці work/v198-c10-next-pending; ще не опублікований.","Актуальна v198 у main після успішного guarded-приймання.")
+  elif rel=="PROJECT_STATUS.md":
+   text=text.replace("Опублікована в main версія — **v197**. Кандидат **v198** у гілці work/v198-c10-next-pending; guarded-приймання та публікація ще очікуються.","Актуальна **v198** у main після успішного guarded-приймання.")
+  elif rel=="completion/BACKLOG.md":
+   text=text.replace("Поточний опублікований HTML у main — v197, SHA-256 d158eb7d7a619718e982ad4117f603f208339178d47ec0417c2adeab238c1620. Кандидат v198 у work/v198-c10-next-pending, SHA-256 "+digest+"; публікація очікує guarded-приймання.","Поточний HTML — v198, SHA-256 "+digest+"; початкова інвентаризація зафіксована на v135.")
   blob=text.encode("utf-8")
  dst=worktree/rel
  dst.parent.mkdir(parents=True,exist_ok=True)
