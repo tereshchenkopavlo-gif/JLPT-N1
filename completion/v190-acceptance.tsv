@@ -10,4 +10,4 @@ id	word	reading	pos	decision	fields_changed	rationale
 779	棟	むね／とう	名詞	fixed_rechecked	m	Add the building-wing/building-unit sense alongside roof ridge and counter.
 780	柄	え／がら	名詞	fixed_rechecked	m	Add body build/physique to the Japanese definition, matching the card’s usage.
 783	頭	あたま	名詞	fixed_rechecked	usage	Add an あたま example for the leader/head-of-group sense already present in the definition.
-785	麻	あさ	名詞	fixed_rechecked	m; exampleTranslations[0]	Specify the fiber-plant group and move the material explanation out of the example translation.
+785	麻	あさ	名詞	fixed_rechecked	m; exampleTranslations[0]; exampleTranslations[1]	Specify the fiber-plant group; remove the parenthetical material list and naturalize the second Ukrainian translation.
