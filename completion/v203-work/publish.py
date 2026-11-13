@@ -14,7 +14,6 @@ browser=json.loads((ROOT/"completion/v203-work/browser-results.json").read_text(
 if not(prepare.get("pass") and registry.get("pass") and browser.get("pass")):raise SystemExit("Refusing publication: acceptance results did not pass")
 data=(ROOT/HTML_PATH).read_bytes();digest=hashlib.sha256(data).hexdigest();size=len(data)
 if digest!=prepare["candidate_sha256"] or size!=prepare["candidate_bytes"]:raise SystemExit("candidate digest/size mismatch")
-PUBLISH_PATHS += ["completion/v203-work/checkpoint.json"]
 wt=Path("/tmp/jlpt-n1-v203-main")
 if wt.exists():shutil.rmtree(wt)
 run("git","worktree","add","--detach",str(wt),"origin/main")
@@ -22,9 +21,12 @@ for rel in PUBLISH_PATHS:
  blob=subprocess.run(["git","show",f"HEAD:{rel}"],cwd=ROOT,check=True,stdout=subprocess.PIPE).stdout
  if rel in {"JLPT_N1_v203_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md"}:
   text=blob.decode("utf-8").replace("__V203_SHA256__",digest).replace("__V203_BYTES__",str(size))
-  if rel=="README.md":text=text.replace("Опублікована в main версія — v202. Кандидат v203 у робочій гілці work/v203-c10-next-pending; ще не опублікований.","Актуальна v203 у main після успішного guarded-приймання.")
+  if rel=="README.md":
+   text=text.replace("Опублікована v202; кандидат v203 у work/v203-c10-next-pending, ще не опублікований.","Актуальна v203 у main після успішного guarded-приймання.")
   elif rel=="PROJECT_STATUS.md":
-   text=text.replace("Опублікована в main версія — **v202**. Кандидат **v203** у гілці work/v203-c10-next-pending; guarded-приймання та публікація ще очікуються.","Актуальна **v203** у main після успішного guarded-приймання.")
+   text=text.replace("Опублікована v202; кандидат **v203** у гілці work/v203-c10-next-pending, ще не опублікований.","Актуальна **v203** у main після успішного guarded-приймання.")
+   text=text.replace("## Поточний кандидат v203 — C10 авторський аудит","## Опублікований випуск v203 — C10 авторський аудит")
+   text=text.replace("Кандидат v203 ще не зібраний і не опублікований.","Опублікований HTML v203: __V203_BYTES__ байти, SHA-256 __V203_SHA256__.")
    text=text.replace("blob/work/v203-c10-next-pending/JLPT_N1_ukrainian_reading_v203.html","blob/main/JLPT_N1_ukrainian_reading_v203.html")
    text=text.replace("blob/work/v203-c10-next-pending/JLPT_N1_v203_audit.md","blob/main/JLPT_N1_v203_audit.md")
   elif rel=="completion/BACKLOG.md":
