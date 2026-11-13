@@ -52,7 +52,34 @@ async function main(){
         finally{Math.random=old;}
       };
       const targets=REVIEWED_EXAMPLE_TARGETS.filter(x=>Number(x.id)===id2433);
-      const kanaTargets=findRows(VOCAB_KANA_EXAMPLE_TARGETS,id2433);
+      const kanaTargetsById=findRows(VOCAB_KANA_EXAMPLE_TARGETS,id2433);\n      const kanaTargetsByWord=VOCAB_KANA_EXAMPLE_TARGETS[item.w]??null;
+      const meaningProposal={byExample:{
+        [detail.examples[0]]:{
+          correct:'高層の建物などが、周囲より高く立ち、ひときわ目立つこと。',
+          wrong:[
+            '高層の建物などが、周囲より低い位置に沈み込んでいること。',
+            '高層の建物などが、地面に沿って横に長く広がっていること。',
+            '高層の建物などが、周囲と同じ高さで平らに続いていること。'
+          ],
+          note:'そびえる — височіти, здійматися. У цьому реченні йдеться про дуже високу будівлю, що виразно підноситься над міським оточенням; це не про заглиблення, горизонтальне поширення чи рівну забудову.'
+        },
+        [detail.examples[1]]:{
+          correct:'山などが、周囲より高く立ち、遠くからも目立って見えること。',
+          wrong:[
+            '山などが、周囲より低く沈み、谷のように見えること。',
+            '山などが、なだらかな斜面となって横に広がって見えること。',
+            '山などが、風雨に削られて低くなっていること。'
+          ],
+          note:'そびえる — височіти. Тут ідеться про гори, які помітно здіймаються над місцевістю за озером; не про долину, пологий схил чи результат руйнування.'
+        }
+      }};
+      const oldMeaningEntry=REVIEWED_MEANING_QUIZZES['v_2433'];
+      const beforeCloze=detail.examples.map(sentence=>({literal:literalClozeAvailable(sentence,{kind:'v',id:id2433,word:item},SmartEngine),marked:SmartEngine.markTarget(sentence,'v',item.w)}));
+      REVIEWED_MEANING_QUIZZES['v_2433']=meaningProposal;
+      const simulatedMeaning=detail.examples.map(sentence=>getQuiz(id2433,sentence,0.25));
+      const afterCloze=detail.examples.map(sentence=>({literal:literalClozeAvailable(sentence,{kind:'v',id:id2433,word:item},SmartEngine),marked:SmartEngine.markTarget(sentence,'v',item.w)}));
+      if(oldMeaningEntry===undefined)delete REVIEWED_MEANING_QUIZZES['v_2433'];else REVIEWED_MEANING_QUIZZES['v_2433']=oldMeaningEntry;
+      const meaningSimulation={beforeCloze,afterCloze,simulatedMeaning,clozeUnchanged:JSON.stringify(beforeCloze)===JSON.stringify(afterCloze),exampleTargetsUnchanged:JSON.stringify(targets)===JSON.stringify(REVIEWED_EXAMPLE_TARGETS.filter(x=>Number(x.id)===id2433))};
       const examples=detail.examples.map((sentence,index)=>{
         const marked=SmartEngine.markTarget(sentence,'v',item.w);
         return {index,sentence,translation:detail.exampleTranslations?.[index]??null,automaticMeaningSeeds:[0,0.25,0.5,0.75].map(seed=>({seed,quiz:getQuiz(id2433,sentence,seed)})),markTarget:{found:marked.found,marked:marked.s,spans:[...marked.s.matchAll(/\u0001([^\u0002]*)\u0002/g)].map(m=>m[1])},literalClozeAvailable:literalClozeAvailable(sentence,{kind:'v',id:id2433,word:item},SmartEngine)};
@@ -64,7 +91,7 @@ async function main(){
         clozeWordCandidates:clozeWordCandidates.toString().slice(0,9000),
         literalClozeAvailable:literalClozeAvailable.toString().slice(0,9000),
         markTarget:SmartEngine.markTarget.toString().slice(0,9000),
-        getDefinition:SmartEngine.getDefinition.toString().slice(0,9000)
+        getDefinition:SmartEngine.getDefinition.toString().slice(0,9000),\n        quizReadingOptions:quizReadingOptions.toString().slice(0,9000)
       };
         const uniquePool=item=>{
         const v=item,word=v.w,reading=v.r,frame=readingFrame(word);
@@ -103,9 +130,9 @@ async function main(){
       if(oldStorage===null)localStorage.removeItem(progressKey);else localStorage.setItem(progressKey,oldStorage);
       return {
         counts:{vocabulary:DEFAULT_VOCAB.length,vocabDetails:Object.keys(VOCAB_DETAILS_BY_ID).length,grammar:Object.keys(GRAMMAR_DETAILS_BY_ID).length,lexicalPairs:VOCAB_AUDITED_PAIRS.length,reviewedMeaningQuizzes:REVIEWED_MEANING_QUIZZES.length??Object.keys(REVIEWED_MEANING_QUIZZES).length},
-        id2433:{headword:item.w,reading:item.r,pos:vocabPartOfSpeech(id2433),definition:SmartEngine.getDefinition(item.w,'v',id2433),examples,meaningQuizStorage:{isArray:meaningQuizArray,length:meaningQuizArray?meaningRows.length:Object.keys(meaningRows).length,matches:findRows(meaningRows,id2433),sample:meaningQuizSample},reviewedExampleTargets:targets,kanaExampleTargets:kanaTargets,clozeCandidateCount:clozeWordCandidates({kind:'v',id:id2433,word:item}).length},
+        id2433:{headword:item.w,reading:item.r,pos:vocabPartOfSpeech(id2433),definition:SmartEngine.getDefinition(item.w,'v',id2433),examples,meaningQuizStorage:{isArray:meaningQuizArray,length:meaningQuizArray?meaningRows.length:Object.keys(meaningRows).length,matches:findRows(meaningRows,id2433),sample:meaningQuizSample},reviewedExampleTargets:targets,kanaExampleTargets:{byId:kanaTargetsById,byWord:kanaTargetsByWord},meaningSimulation,clozeCandidateCount:clozeWordCandidates({kind:'v',id:id2433,word:item}).length},
         id2433FunctionSources:source,
-        readingPools:{changedPoolCount:pools.filter(x=>x.changed).length,pools,lost,gained},
+        readingOverrides:{count:Object.keys(REVIEWED_READING_OPTIONS).length,sample:Object.entries(REVIEWED_READING_OPTIONS).slice(0,8)},\n        readingPools:{changedPoolCount:pools.filter(x=>x.changed).length,pools,lost,gained},
         readingPoolSummary:{expectedChanged:impact.changed_pool_count,expectedLost:impact.lost_eligibility,expectedGained:impact.gained_eligibility},
         progressStorageRestored:storageUnchanged,
         noPersistedMutation:true
