@@ -47,11 +47,16 @@
     "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298",
     "completion/v153-cards-1641-1700.tsv": "f70be41472f9f2f2bac2e284526cf88516f44f0f"
   },
-  "status": "v213 current in main; v214 candidate reconciled; browser scope bug fixed; deterministic build and Chromium acceptance pending",
+  "status": "author review complete; deterministic candidate, registry and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_guard": "c0ead25c29a9cc7409900cf5f58c8024cd6fff4f",
   "pr_number": 39,
   "attempts": [],
   "current_main_head_before_run": "b1e504836fa8d3f4adb1b0e14b4bbbf143ed6275",
-  "main_guard_after_metadata": "c0ead25c29a9cc7409900cf5f58c8024cd6fff4f"
+  "main_guard_after_metadata": "c0ead25c29a9cc7409900cf5f58c8024cd6fff4f",
+  "candidate_sha256": "0436bb8dc402e85eab47c442e094c1b725c3e97302500f559bd5b1fe944225b8",
+  "candidate_bytes": 6949689,
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "workflow_run_id": 43482353153
 }
