@@ -6,6 +6,10 @@ const path=require('node:path');
 const {pathToFileURL}=require('node:url');
 
 const HTML='JLPT_N1_ukrainian_reading_v181.html';
+const EXPECTED=[
+ {correct:'建物などが、非常に高く立っていること。',wrong:['建物などが、低い位置に建っていること。','建物などが、地面に沿って横に長く広がること。','建物などが、地面の下に建てられていること。'],note:'У цьому реченні そびえる описує дуже високу вертикальну споруду. Інші варіанти описують низьку будівлю, довгу горизонтальну забудову або підземну споруду.'},
+ {correct:'山などが、非常に高く立っていること。',wrong:['山などが、低い谷間に沈んで見えること。','山などが、低い丘のように丸くなだらかに見えること。','山などが、周囲の地面と同じ高さで平らに続くこと。'],note:'Тут そびえる означає, що гори високо здіймаються над місцевістю за озером. Інші варіанти описують низину, невисокий пагорб або пласку рівнину.'}
+];
 const prepare=JSON.parse(fs.readFileSync('completion/v181-work/prepare-results.json','utf8'));
 const bytes=fs.readFileSync(HTML);
 const sha=crypto.createHash('sha256').update(bytes).digest('hex');
@@ -72,7 +76,9 @@ async function main(){
           vocabulary:DEFAULT_VOCAB.length,
           grammar:Object.keys(GRAMMAR_DETAILS_BY_ID).length,
           lexicalPairs:VOCAB_AUDITED_PAIRS.length,
-          meaningQuizEntries:Object.keys(REVIEWED_MEANING_QUIZZES).length
+          meaningQuizEntries:Object.keys(REVIEWED_MEANING_QUIZZES).length,
+          uniqueVocabIds:new Set(DEFAULT_VOCAB.map(x=>String(x.id))).size,
+          posEntries:Object.keys(VOCAB_POS_BY_ID).length
         },
         id2433:{headword:item.w,reading:item.r,pos:vocabPartOfSpeech(2433),examples:rows,generated},
         cloze:{candidateCount:clozeWordCandidates(it).length,beforeEligibility,afterEligibility,unchanged:JSON.stringify(beforeEligibility)===JSON.stringify(afterEligibility)},
@@ -80,11 +86,15 @@ async function main(){
       };
     });
     assert.deepEqual(errors,[],'page errors');
-    assert.deepEqual(result.counts,{vocabulary:3914,grammar:130,lexicalPairs:859,meaningQuizEntries:385});
+    assert.deepEqual(result.counts,{vocabulary:3914,grammar:130,lexicalPairs:859,meaningQuizEntries:385,uniqueVocabIds:3914,posEntries:3914});
     assert.equal(result.id2433.headword,'そびえる');
     assert.equal(result.id2433.reading,'そびえる');
     assert.equal(result.id2433.examples.length,2);
     for(const row of result.id2433.examples){
+      const expected=EXPECTED[row.index];
+      assert.equal(row.quiz.correct,expected.correct);
+      assert.deepEqual(row.quiz.wrong,expected.wrong);
+      assert.equal(row.quiz.note,expected.note);
       assert.equal(row.quiz.wrong.length,3);
       assert.equal(row.unique,true);
       assert.equal(row.markedFound,true);
@@ -105,6 +115,7 @@ async function main(){
       assert.ok(generated.passageText.includes('<b>そびえて</b>'));
       assert.equal(generated.targetKey,'v:2433');
       assert.equal(generated.correct,expected.quiz.correct);
+      assert.ok(generated.question.explain.includes(EXPECTED[i].note));
       assert.equal(new Set(generated.question.choices).size,4);
     }
     const widths=[];
