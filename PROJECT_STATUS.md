@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v191** у main після успішного guarded-приймання. Повний HTML — 6944170 байти, SHA-256 3358191011496dbe19506879d850f767544e491dc9daa1017ca45cfd74659fe3. [Повний HTML](JLPT_N1_ukrainian_reading_v191.html) · [Аудит](JLPT_N1_v191_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v192** у main після успішного guarded-приймання. Повний HTML — 6944306 байти, SHA-256 ebd6dfe16edb7367349a299e445797fd7309c0098855b07b46bf6fb4b1f1c54a. [Повний HTML](JLPT_N1_ukrainian_reading_v192.html) · [Аудит](JLPT_N1_v192_audit.md).
 
 ## Поточний випуск v192 — C10 авторський аудит
 
