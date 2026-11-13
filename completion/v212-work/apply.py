@@ -236,25 +236,37 @@ base_pairs={"reviewed":18,"fixed_rechecked":0,"pending":841,"total":859}
 target_all={"reviewed":3916,"fixed_rechecked":369,"pending":1562,"total":5847}
 target_vocab={"reviewed":3347,"fixed_rechecked":367,"pending":200,"total":3914}
 target_pairs={"reviewed":18,"fixed_rechecked":1,"pending":840,"total":859}
-if counts(rows)!=base_all or counts(rows,"vocab")!=base_vocab or counts(rows,"vocab_pair")!=base_pairs:raise RuntimeError("register baseline mismatch")
+current_all=counts(rows);current_vocab=counts(rows,"vocab");current_pairs=counts(rows,"vocab_pair")
+if current_all==base_all and current_vocab==base_vocab and current_pairs==base_pairs:
+ register_state="baseline"
+elif current_all==target_all and current_vocab==target_vocab and current_pairs==target_pairs:
+ register_state="already_applied"
+else:raise RuntimeError("register is neither the exact baseline nor exact v212 target")
 keys=[(r["kind"],r["key"]) for r in rows]
 if len(keys)!=len(set(keys)):raise RuntimeError("duplicate register keys")
 bykey={}
 for r in rows:
  if r["kind"]=="vocab" and r["key"] in FIXED_IDS:bykey.setdefault(r["key"],[]).append(r)
 if any(len(bykey.get(cid,[]))!=1 for cid in FIXED_IDS):raise RuntimeError("vocabulary register scope missing/duplicate")
-for cid in FIXED_IDS:
- r=bykey[cid][0]
- if r["finalReview"]!="pending" or r["evidence"]:raise RuntimeError("vocabulary register preimage mismatch "+cid)
- r["finalReview"]="fixed_rechecked";r["evidence"]="completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md"
 pairrows=[r for r in rows if r["kind"]=="vocab_pair" and r["key"]==PAIR_KEY]
-if len(pairrows)!=1 or pairrows[0]["finalReview"]!="pending" or pairrows[0]["evidence"]:raise RuntimeError("pair register preimage mismatch")
-pairrows[0]["finalReview"]="fixed_rechecked";pairrows[0]["evidence"]="completion/v212-pair-review.tsv; JLPT_N1_v212_audit.md"
-with REGISTER.open("w",encoding="utf-8",newline="") as f:
- w=csv.DictWriter(f,fieldnames=["kind","key","baselineLocation","finalReview","evidence"],lineterminator="\n");w.writeheader();w.writerows(rows)
+if len(pairrows)!=1:raise RuntimeError("pair register scope missing/duplicate")
+if register_state=="baseline":
+ for cid in FIXED_IDS:
+  r=bykey[cid][0]
+  if r["finalReview"]!="pending" or r["evidence"]:raise RuntimeError("vocabulary register preimage mismatch "+cid)
+  r["finalReview"]="fixed_rechecked";r["evidence"]="completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md"
+ if pairrows[0]["finalReview"]!="pending" or pairrows[0]["evidence"]:raise RuntimeError("pair register preimage mismatch")
+ pairrows[0]["finalReview"]="fixed_rechecked";pairrows[0]["evidence"]="completion/v212-pair-review.tsv; JLPT_N1_v212_audit.md"
+ with REGISTER.open("w",encoding="utf-8",newline="") as f:
+  w=csv.DictWriter(f,fieldnames=["kind","key","baselineLocation","finalReview","evidence"],lineterminator="\\n");w.writeheader();w.writerows(rows)
+else:
+ for cid in FIXED_IDS:
+  r=bykey[cid][0]
+  if r["finalReview"]!="fixed_rechecked" or r["evidence"]!="completion/v212-acceptance.tsv; JLPT_N1_v212_audit.md":raise RuntimeError("already-applied vocabulary evidence mismatch "+cid)
+ if pairrows[0]["finalReview"]!="fixed_rechecked" or pairrows[0]["evidence"]!="completion/v212-pair-review.tsv; JLPT_N1_v212_audit.md":raise RuntimeError("already-applied pair evidence mismatch")
 if counts(rows)!=target_all or counts(rows,"vocab")!=target_vocab or counts(rows,"vocab_pair")!=target_pairs:raise RuntimeError("register target mismatch")
-prepare={"pass":True,"base_version":"v211","base_sha256":base_sha,"candidate_version":"v212","candidate_sha256":digest,"candidate_bytes":OUT.stat().st_size,"vocabulary_records":len(vocab),"grammar_records":len(grammar),"lexical_pairs":len(pairs),"unique_vocabulary_ids":len({int(x["id"]) for x in vocab}),"review_scope":[int(x) for x in FIXED_IDS],"fixed_rechecked":[int(x) for x in FIXED_IDS],"reviewed_without_change":[],"deferred_count":1,"updated_fields":len(UPDATES),"changed_cards":[int(x) for x in changed],"pair_updates":[{"index":PAIR_ID,"a":1512,"b":1513,"field":"note","before":PAIR_UPDATE[0],"after":PAIR_UPDATE[1]}],"changed_pairs":[PAIR_ID],"japanese_example_changes":[],"japanese_definition_changes":[{"id":1497,"field":"m"},{"id":1503,"field":"m"}],"author_credit_before":3703,"author_credit_addition":11,"author_credit_after":3714,"protected_unchanged":{k:True for k in protected},"all_other_pairs_unchanged":True,"exact_rollback":True,"register_updated":True,"author_review_only":True}
-registry={"pass":True,"register_rows":len(rows),"before":{"all":base_all,"vocabulary":base_vocab,"vocab_pair":base_pairs},"after":{"all":counts(rows),"vocabulary":counts(rows,"vocab"),"vocab_pair":counts(rows,"vocab_pair")},"fixed_rechecked_ids":[int(x) for x in FIXED_IDS],"pair_fixed_rechecked_ids":[PAIR_ID],"reviewed_ids":[],"deferred_count":1,"author_credit_before":3703,"author_credit_after":3714,"duplicate_keys":0,"records_deleted":0,"history_rewritten":False}
+prepare={"pass":True,"base_version":"v211","base_sha256":base_sha,"candidate_version":"v212","candidate_sha256":digest,"candidate_bytes":OUT.stat().st_size,"vocabulary_records":len(vocab),"grammar_records":len(grammar),"lexical_pairs":len(pairs),"unique_vocabulary_ids":len({int(x["id"]) for x in vocab}),"review_scope":[int(x) for x in FIXED_IDS],"fixed_rechecked":[int(x) for x in FIXED_IDS],"reviewed_without_change":[],"deferred_count":1,"updated_fields":len(UPDATES),"changed_cards":[int(x) for x in changed],"pair_updates":[{"index":PAIR_ID,"a":1512,"b":1513,"field":"note","before":PAIR_UPDATE[0],"after":PAIR_UPDATE[1]}],"changed_pairs":[PAIR_ID],"japanese_example_changes":[],"japanese_definition_changes":[{"id":1497,"field":"m"},{"id":1503,"field":"m"}],"author_credit_before":3703,"author_credit_addition":11,"author_credit_after":3714,"protected_unchanged":{k:True for k in protected},"all_other_pairs_unchanged":True,"exact_rollback":True,"register_updated":register_state=="baseline","register_reused":register_state=="already_applied","author_review_only":True}
+registry={"pass":True,"register_rows":len(rows),"before":{"all":base_all,"vocabulary":base_vocab,"vocab_pair":base_pairs},"after":{"all":counts(rows),"vocabulary":counts(rows,"vocab"),"vocab_pair":counts(rows,"vocab_pair")},"fixed_rechecked_ids":[int(x) for x in FIXED_IDS],"pair_fixed_rechecked_ids":[PAIR_ID],"reviewed_ids":[],"deferred_count":1,"author_credit_before":3703,"author_credit_after":3714,"duplicate_keys":0,"records_deleted":0,"history_rewritten":False,"idempotent_reuse":register_state=="already_applied"}
 (WORK/"prepare-results.json").write_text(json.dumps(prepare,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 (WORK/"registry-results.json").write_text(json.dumps(registry,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 cp=WORK/"checkpoint.json";d=json.loads(cp.read_text(encoding="utf-8"));d["status"]="author review complete; deterministic candidate and registry prepared; Chromium verification pending";d["candidate_sha256"]=digest;d["candidate_bytes"]=OUT.stat().st_size;d["exact_rollback"]=True;cp.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
