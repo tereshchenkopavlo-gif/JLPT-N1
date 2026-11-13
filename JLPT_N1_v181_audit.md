@@ -1,6 +1,6 @@
 # JLPT N1 v181 — C11 context-specific meaning quiz review
 
-**Дата:** 13 листопада 2026. **Основа:** v179, SHA-256 359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8. **Кандидат:** v181, SHA-256 6a090e7e8108e37d1ec2ccf0b2ccbef88c54b04927d2d3f0bc1829bdfe4fd028 (6,940,562 байт).
+**Дата:** 13 листопада 2026. **Основа:** v179, SHA-256 359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8. **Кандидат:** v181, SHA-256 32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f (6,940,370 байт).
 
 ## Авторський перегляд
 
@@ -40,15 +40,15 @@
 ## Lexical basis
 
 - Shogakukan Digital Daijisen via Kotobank, 聳える: https://kotobank.jp/word/%E8%81%B3%E3%81%88%E3%82%8B-555102
-  - The contemporary sense is an intransitive verb: mountains, buildings, etc. stand very high; the entry gives examples involving a sacred peak and high-rise housing.
+  - The entry labels そびえる as an intransitive verb. Sense 1: mountains and similar objects stand very high; examples include a sacred peak and high-rise housing. Sense 2 (slender/straight in appearance) is not the sense used in either current card example.
   - This supports the existing card definition “山や建物などが、非常に高く立っている。” and the Ukrainian gloss “височіти, здійматися”.
 - The exact v179 card examples are preserved. Both contain the inflected form そびえて, which is already bound to the headword by VOCAB_KANA_EXAMPLE_TARGETS. No example text or target mapping was changed.
 
 ## Question design
 
-- Building context: the correct option expresses a building standing very high relative to its surroundings. The three distractors describe a lower position, equal height with surrounding buildings, and horizontal spread.
-- Mountain context: the correct option expresses a mountain standing very high relative to its surroundings. The distractors describe a low valley-like position, a low rounded hill, and a flat continuation at ground level.
-- All four options in each context are distinct and comparable in grammatical form and approximate length. The Ukrainian note identifies the contextual sense and explains the contrast.
+- Building context: the correct option expresses a building standing very high. The three distractors describe a low building, a long horizontal structure, and an underground building. The sentence itself does not specify the heights of neighbouring buildings, so no distractor relies on an unsupported claim about their relative heights.
+- Mountain context: the correct option expresses a mountain standing very high. The distractors describe a low valley, a low rounded hill, and a flat surface at ground level.
+- All four options in each context are distinct and use comparable definitional syntax and approximate length. The Ukrainian note identifies the contextual sense and explains why the other spatial descriptions do not fit.
 - The existing automatic candidates for そびえる included unrelated meanings from other cards (e.g. twisting, shifting position, irritation, protection, following a route). The saved context-specific sets replace those unrelated options only for the two exact examples.
 
 ## Cloze boundary
