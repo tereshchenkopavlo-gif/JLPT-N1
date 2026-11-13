@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+759	蔵	くら	名詞	fixed_rechecked	exampleTranslations[1]	Restore the discovery event in 発見された; the documents were found in the storehouse.
+761	対	つい／たい	名詞	fixed_rechecked	m	Add the たい ratio use already shown by 三対二.
+763	端	はし／はた／たん	名詞	fixed_rechecked	t	Restrict the event sense to the attested 端を発する expression: beginning/origin.
+766	扉	とびら	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the metaphor and preserve the resolve in 覚悟.
+771	潮	しお	名詞	fixed_rechecked	t; exampleTranslations[1]	Add current/flow; specify withdrawal from this business line rather than all entrepreneurship.
+772	票	ひょう	名詞	fixed_rechecked	t	Remove duplicate “vote/ballot”; separate counted vote, ballot, and ticket/voucher.
+774	苗	なえ	名詞	fixed_rechecked	exampleTranslations[0]	Remove unsupported “flooded” from 田んぼ.
+775	頂	いただき	名詞	fixed_rechecked	exampleTranslations[1]	Translate 日夜 as “вдень і вночі”.
+779	棟	むね／とう	名詞	fixed_rechecked	m	Add the building-wing/building-unit sense alongside roof ridge and counter.
+780	柄	え／がら	名詞	fixed_rechecked	m	Add body build/physique to the Japanese definition, matching the card’s usage.
+783	頭	あたま	名詞	fixed_rechecked	usage	Add an あたま example for the leader/head-of-group sense already present in the definition.
+785	麻	あさ	名詞	fixed_rechecked	m; exampleTranslations[0]	Specify the fiber-plant group and move the material explanation out of the example translation.
