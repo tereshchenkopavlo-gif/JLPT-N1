@@ -6,4 +6,4 @@ Scope: IDs 1042, 1043, 1044, 1046, 1048, 1061, 1063, 1066, 1067, 1072, 1073, 107
 
 Author decisions: all 12 fixed_rechecked, 15 exact field updates across 12 cards. No Japanese example, POS map, ID, quiz payload/target, comparison pair, learning engine or progress-storage code is changed.
 
-The workflow must reproduce v199 from the exact v198 base, validate all 15 field preimages and the review register, run Chromium at 360/412/1280 with storage round-trip, then publish only exact verified release artifacts under a strict main-HEAD guard. The work branch must not be merged.
+The workflow must reproduce v199 from the exact v198 base, validate all 15 field preimages and the review register, run Chromium at 360/412/1280 with storage round-trip, then publish only exact verified release artifacts under a strict main-HEAD guard. Usage annotations are validated directly from the stored card data; the current card-detail view does not render that field, so it is not asserted as visible UI text. The work branch must not be merged.
