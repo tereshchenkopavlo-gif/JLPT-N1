@@ -23,20 +23,28 @@ with register_path.open("r", encoding="utf-8", newline="") as f:
     rows = list(reader)
 if fields != ["kind", "key", "baselineLocation", "finalReview", "evidence"]:
     raise RuntimeError("unexpected review-register schema")
-if any(r["kind"] == "reviewed_meaning_quiz" and r["key"] == "v_2433" for r in rows):
-    raise RuntimeError("v_2433 meaning quiz is already registered")
+existing = [r for r in rows if r["kind"] == "reviewed_meaning_quiz" and r["key"] == "v_2433"]
+if len(existing) > 1:
+    raise RuntimeError("duplicate v_2433 meaning quiz registry rows")
 before_counts = {}
 for r in rows:
     before_counts[r["finalReview"]] = before_counts.get(r["finalReview"], 0) + 1
-if before_counts.get("reviewed") != 3892 or before_counts.get("fixed_rechecked") != 59 or before_counts.get("pending") != 1892:
-    raise RuntimeError(f"unexpected pre-v181 register counts: {before_counts}")
-rows.append({
-    "kind": "reviewed_meaning_quiz",
-    "key": "v_2433",
-    "baselineLocation": "REVIEWED_MEANING_QUIZZES.v_2433",
-    "finalReview": "reviewed",
-    "evidence": f"completion/v181-c11-review.tsv; two exact context-specific payloads; author review, not independent; v181 SHA-256={html_sha}"
-})
+if existing:
+    if before_counts.get("reviewed") != 3893 or before_counts.get("fixed_rechecked") != 59 or before_counts.get("pending") != 1892:
+        raise RuntimeError(f"unexpected existing-v181 register counts: {before_counts}")
+    existing[0]["baselineLocation"] = "REVIEWED_MEANING_QUIZZES.v_2433"
+    existing[0]["finalReview"] = "reviewed"
+    existing[0]["evidence"] = f"completion/v181-c11-review.tsv; two exact context-specific payloads; author review, not independent; v181 SHA-256={html_sha}"
+else:
+    if before_counts.get("reviewed") != 3892 or before_counts.get("fixed_rechecked") != 59 or before_counts.get("pending") != 1892:
+        raise RuntimeError(f"unexpected pre-v181 register counts: {before_counts}")
+    rows.append({
+        "kind": "reviewed_meaning_quiz",
+        "key": "v_2433",
+        "baselineLocation": "REVIEWED_MEANING_QUIZZES.v_2433",
+        "finalReview": "reviewed",
+        "evidence": f"completion/v181-c11-review.tsv; two exact context-specific payloads; author review, not independent; v181 SHA-256={html_sha}"
+    })
 with register_path.open("w", encoding="utf-8", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
     writer.writeheader()
