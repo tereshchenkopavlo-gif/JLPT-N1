@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+677	ホール		名詞	fixed_rechecked	m; exampleTranslations[0]	Add the golf-hole sense to the Japanese definition; naturalize the city-hall translation.
+683	マッサージ		名詞	fixed_rechecked	exampleTranslations[1]	てもらった says he received a massage; it does not state that he asked for one.
+685	デザイン		名詞	fixed_rechecked	exampleTranslations[1]	デザインした店舗 is a designed store, not merely a decorated one.
+687	サポート		名詞	fixed_rechecked	exampleTranslations[0]	専任 denotes a person dedicated to one assignment; 一貫して conveys continuous/consistent support.
+691	ネックレス		名詞	fixed_rechecked	exampleTranslations[0]; exampleTranslations[1]	Preserve 大切に (cherishing) and 職人 (craftsperson).
+692	メロディー		名詞	fixed_rechecked	exampleTranslations[0]; exampleTranslations[1]	主題歌 is a theme song; 人々 is not necessarily viewers.
+697	闇	やみ	名詞	fixed_rechecked	t; exampleTranslations[1]	Keep black-market meaning in compounds such as 闇取引, not in the generic gloss for 闇.
+701	沖	おき	名詞	fixed_rechecked	t	Japanese definition includes sea and lake; Ukrainian gloss must include both.
+703	核	かく	名詞	fixed_rechecked	m	Replace circular repetition of 核 with substantive descriptions of atomic and cell nuclei.
+706	幹	みき	名詞	fixed_rechecked	m	Correct the trunk/branch relationship and preserve the figurative core meaning.
+707	管	くだ／かん	名詞	fixed_rechecked	usage	State くだ for standalone 管 and かん in compounds such as 水道管; preserve 管を巻く.
+708	癌	がん	名詞	fixed_rechecked	t	Remove unsupported duration (“задавнена”) from the figurative sense.
