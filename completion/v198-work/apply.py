@@ -8,41 +8,25 @@ REGISTER = Path("completion/review-register.csv")
 BASE_SHA = "d158eb7d7a619718e982ad4117f603f208339178d47ec0417c2adeab238c1620"
 
 UPDATES = [
-    ("1018", "exampleTranslations[0]", "Він мав непоступливу вдачу майстра й ніколи не відвантажував вироби, доки не був задоволений результатом.", "Він, як справжній майстер, ніколи не відвантажував вироби, доки не був цілком задоволений результатом."),
-    ("1024", "exampleTranslations[1]", "Притаманна цьому краю підприємливість сприяла появі численних підприємців.", "Ініціативний дух, притаманний цьому краю, сприяв появі багатьох підприємців."),
-    ("1026", "exampleTranslations[1]", "На будівельному майданчику провели обряд освячення землі, молячись про безпеку робіт.", "На будівельному майданчику провели традиційний обряд перед початком робіт, просячи про їхню безпеку."),
-    ("1034", "exampleTranslations[1]", "Нове електрогенерувальне обладнання запустили, і почалося постачання електроенергії в регіон.", "Нове обладнання для виробництва електроенергії запустили, і почалося її постачання в регіон.")
+    ("1015", "exampleTranslations[1]", "Самої лише високоякісної знімальної апаратури недостатньо для створення гарного твору.", "Самої лише знімальної апаратури з високими технічними характеристиками недостатньо, щоб створити хороший твір."),
+    ("1016", "usage", "Іменник; 実家に帰省する、帰省中. Тимчасово повернутися до батьківського дому чи рідних місць, часто відвідати родину. 帰郷 ширше — повернення на батьківщину, також постійне. Святкова дата для 帰省 не обов’язкова.", "Іменник; 実家に帰省する、帰省中. Тимчасово повернутися до батьківського дому чи рідних місць, часто відвідати родину. 帰郷 ширше — повернення в рідні місця; може бути постійним. Святкова дата для 帰省 не обов’язкова."),
+    ("1026", "exampleTranslations[0]", "Багато родичів вступників відвідують святилище, щоб помолитися про успішне складання іспитів.", "Багато родичів тих, хто складає іспити, відвідують святилище, щоб помолитися за їхній успіх."),
+    ("1027", "m", "物事の内容や手続きを、規則として定めること。", "物事の内容や手続きを、規則として定めること。また、そのように定められた条項や規則。")
 ]
 EXPECTED = {
     "1015": ("機材", "きざい", ["名詞"]),
     "1016": ("帰省", "きせい", ["名詞"]),
-    "1018": ("気質", "きしつ／かたぎ", ["名詞"]),
-    "1021": ("気配", "けはい", ["名詞"]),
-    "1023": ("気品", "きひん", ["名詞"]),
-    "1024": ("気風", "きふう", ["名詞"]),
-    "1025": ("気流", "きりゅう", ["名詞"]),
     "1026": ("祈願", "きがん", ["名詞"]),
-    "1027": ("規定", "きてい", ["名詞"]),
-    "1030": ("記述", "きじゅつ", ["名詞"]),
-    "1031": ("貴族", "きぞく", ["名詞"]),
-    "1034": ("起動", "きどう", ["名詞"])
+    "1027": ("規定", "きてい", ["名詞"])
 }
 EXPECTED_EXAMPLES = {
     "1015": ["工事に使う機材の搬入が遅れ、予定していた着工が先送りとなった。", "高性能な撮影機材をそろえるだけで、良い作品ができるわけではない。"],
     "1016": ["年末年始に帰省する人々で、新幹線の主要駅は大変な混雑となった。", "仕事が忙しく、この数年は帰省できないままになっている。"],
-    "1018": ["職人気質の彼は、納得がいくまで決して製品を出荷しなかった。", "この地域には、新しいものを受け入れる開放的な気質がある。"],
-    "1021": ["市場には、景気が回復に向かう気配がようやく見え始めている。", "交渉が決裂する気配を察して、仲介役が急いで間に入った。"],
-    "1023": ["その老紳士は、立ち居振る舞いのすべてに気品が漂っていた。", "気品のあるデザインが評価され、このブランドは長く支持されている。"],
-    "1024": ["この会社には、若手の発言を尊重する自由な気風が根付いている。", "進取の気風に富んだ土地柄が、数々の起業家を生み出してきた。"],
-    "1025": ["飛行機は、乱気流に巻き込まれて大きく揺れた。", "山の斜面を駆け上がる気流が、独特の雲を生み出している。"],
     "1026": ["受験生の家族が、合格祈願のために神社へ大勢参拝している。", "工事の安全を祈願して、現場で地鎮祭が執り行われた。"],
-    "1027": ["法律で規定された手続きを経ずに、役所が処分を下すことはできない。", "就業規則には、休暇の取得方法が詳細に規定されている。"],
-    "1030": ["報告書では、調査の経緯を客観的に記述することが重視される。", "この論文は、実験の手順をきわめて詳細に記述している。"],
-    "1031": ["中世の貴族は、広大な荘園から得る収入で優雅な生活を送っていた。", "貴族階級の没落は、社会構造を大きく変える契機となった。"],
-    "1034": ["システムを起動すると、設定画面が表示される。", "新型の発電設備が起動し、地域への電力供給が始まった。"]
+    "1027": ["法律で規定された手続きを経ずに、役所が処分を下すことはできない。", "就業規則には、休暇の取得方法が詳細に規定されている。"]
 }
-FIXED_IDS = ["1018", "1024", "1026", "1034"]
-REVIEWED_IDS = ["1015", "1016", "1021", "1023", "1025", "1027", "1030", "1031"]
+FIXED_IDS = ["1015", "1016", "1026", "1027"]
+REVIEWED_IDS = []
 PENDING_IDS = []
 EXPECTED_CHANGED = FIXED_IDS
 EVIDENCE = "completion/v198-acceptance.tsv; JLPT_N1_v198_audit.md"
@@ -128,7 +112,12 @@ changed_cards = sorted((card_id for card_id in details if details[card_id] != be
 if changed_cards != EXPECTED_CHANGED:
     raise RuntimeError("unexpected changed-card set: " + str(changed_cards))
 
-allowed_fields = {card_id: {"exampleTranslations"} for card_id in FIXED_IDS}
+allowed_fields = {
+    "1015": {"exampleTranslations"},
+    "1016": {"usage"},
+    "1026": {"exampleTranslations"},
+    "1027": {"m"}
+}
 for card_id in details:
     for field in before[card_id]:
         if before[card_id][field] != details[card_id][field] and field not in allowed_fields.get(card_id, set()):
@@ -168,10 +157,10 @@ candidate_sha = hashlib.sha256(OUT.read_bytes()).hexdigest()
 register_rows = list(csv.DictReader(REGISTER.read_text(encoding="utf-8").splitlines()))
 if len(register_rows) != 5847:
     raise RuntimeError("unexpected register row count: " + str(len(register_rows)))
-baseline_all = {"reviewed": 3914, "fixed_rechecked": 215, "pending": 1718, "total": 5847}
-baseline_vocab = {"reviewed": 3345, "fixed_rechecked": 214, "pending": 355, "total": 3914}
-target_all = {"reviewed": 3922, "fixed_rechecked": 219, "pending": 1706, "total": 5847}
-target_vocab = {"reviewed": 3353, "fixed_rechecked": 218, "pending": 343, "total": 3914}
+baseline_all = {"reviewed": 3922, "fixed_rechecked": 219, "pending": 1706, "total": 5847}
+baseline_vocab = {"reviewed": 3353, "fixed_rechecked": 218, "pending": 343, "total": 3914}
+target_all = {"reviewed": 3922, "fixed_rechecked": 223, "pending": 1702, "total": 5847}
+target_vocab = {"reviewed": 3353, "fixed_rechecked": 222, "pending": 339, "total": 3914}
 current_all = counts(register_rows)
 current_vocab = counts(register_rows, "vocab")
 keys = [(row["kind"], row["key"]) for row in register_rows]
@@ -194,12 +183,6 @@ if current_all == baseline_all and current_vocab == baseline_vocab:
             raise RuntimeError("fixed preimage mismatch for " + card_id)
         row["finalReview"] = "fixed_rechecked"
         row["evidence"] = EVIDENCE
-    for card_id in REVIEWED_IDS:
-        row = rows_by_id[card_id][0]
-        if row["finalReview"] != "pending" or row["evidence"]:
-            raise RuntimeError("reviewed preimage mismatch for " + card_id)
-        row["finalReview"] = "reviewed"
-        row["evidence"] = EVIDENCE
     register_mode = "applied_from_baseline"
     register_changed = True
 elif current_all == target_all and current_vocab == target_vocab:
@@ -207,13 +190,6 @@ elif current_all == target_all and current_vocab == target_vocab:
         row = rows_by_id[card_id][0]
         if row["finalReview"] != "fixed_rechecked":
             raise RuntimeError("fixed target mismatch for " + card_id)
-        if row["evidence"] != EVIDENCE:
-            row["evidence"] = EVIDENCE
-            register_changed = True
-    for card_id in REVIEWED_IDS:
-        row = rows_by_id[card_id][0]
-        if row["finalReview"] != "reviewed":
-            raise RuntimeError("reviewed target mismatch for " + card_id)
         if row["evidence"] != EVIDENCE:
             row["evidence"] = EVIDENCE
             register_changed = True
@@ -244,14 +220,15 @@ prepare = {
     "unique_vocabulary_ids": len({int(item["id"]) for item in vocab}),
     "review_scope": [int(card_id) for card_id in scope],
     "fixed_rechecked": [int(card_id) for card_id in FIXED_IDS],
-    "reviewed_without_change": [int(card_id) for card_id in REVIEWED_IDS],
+    "reviewed_without_change": [],
+    "already_reviewed_excluded": [1018,1021,1023,1024,1025,1030,1031,1034],
     "pending_c11": [],
     "updated_fields": len(UPDATES),
     "changed_cards": [int(card_id) for card_id in changed_cards],
     "field_updates": [{"id": int(card_id), "field": field, "before": old, "after": new} for card_id, field, old, new in UPDATES],
     "author_credit_before": 3559,
-    "author_credit_addition": 12,
-    "author_credit_after": 3571,
+    "author_credit_addition": 4,
+    "author_credit_after": 3563,
     "protected_unchanged": {name: True for name in protected},
     "japanese_examples_unchanged": True,
     "exact_rollback": True,
@@ -265,10 +242,11 @@ registry = {
     "before": {"all": baseline_all, "vocabulary": baseline_vocab},
     "after": {"all": after_all, "vocabulary": after_vocab},
     "fixed_rechecked_ids": [int(card_id) for card_id in FIXED_IDS],
-    "reviewed_ids": [int(card_id) for card_id in REVIEWED_IDS],
+    "reviewed_ids": [],
+    "already_reviewed_excluded": [1018,1021,1023,1024,1025,1030,1031,1034],
     "pending_c11_ids": [],
     "author_credit_before": 3559,
-    "author_credit_after": 3571,
+    "author_credit_after": 3563,
     "duplicate_keys": 0,
     "records_deleted": 0,
     "history_rewritten": False
@@ -278,11 +256,11 @@ registry = {
 
 checkpoint_path = WORK / "checkpoint.json"
 checkpoint = json.loads(checkpoint_path.read_text(encoding="utf-8"))
-checkpoint["status"] = "author review complete; deterministic candidate and register prepared; Chromium verification pending"
+checkpoint["status"] = "corrected four-card pending scope; deterministic candidate and register prepared; Chromium verification pending"
 checkpoint["candidate_sha256"] = candidate_sha
 checkpoint["candidate_bytes"] = OUT.stat().st_size
 checkpoint["exact_rollback"] = True
 checkpoint["register_mode"] = register_mode
 checkpoint_path.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-print(json.dumps({"pass": True, "candidate_sha256": candidate_sha, "candidate_bytes": OUT.stat().st_size, "fixed_rechecked": FIXED_IDS, "reviewed_without_change": REVIEWED_IDS, "updated_fields": len(UPDATES), "register_after": after_all, "vocabulary_after": after_vocab}, ensure_ascii=False, indent=2))
+print(json.dumps({"pass": True, "candidate_sha256": candidate_sha, "candidate_bytes": OUT.stat().st_size, "fixed_rechecked": FIXED_IDS, "already_reviewed_excluded": [1018,1021,1023,1024,1025,1030,1031,1034], "updated_fields": len(UPDATES), "register_after": after_all, "vocabulary_after": after_vocab}, ensure_ascii=False, indent=2))
