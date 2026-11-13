@@ -1,0 +1,128 @@
+{
+  "pass": true,
+  "candidate_sha256": "81b4e4fbda3be91325493c95c3c28324deac52f69cc230f16bd630db20929339",
+  "candidate_bytes": 6945616,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 11,
+  "reviewed_cards": [
+    {
+      "id": 1153,
+      "word": "欠乏",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1157,
+      "word": "決裂",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1158,
+      "word": "結核",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1169,
+      "word": "兼業",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1173,
+      "word": "建前",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1175,
+      "word": "検挙",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1178,
+      "word": "検事",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1182,
+      "word": "献立",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1194,
+      "word": "幻想",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1195,
+      "word": "減点",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1196,
+      "word": "源泉",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
