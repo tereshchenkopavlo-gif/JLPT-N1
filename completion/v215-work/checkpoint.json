@@ -60,10 +60,10 @@
     "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729",
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "author review complete; deterministic candidate, registry and Chromium verification passed; exact-artifact publication pending",
+  "status": "published v215 in main; PR #40 closed without merge; work branch and audit evidence retained",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_guard": "59e621fed204052574e2349752c338fab17598e8",
-  "pr_number": null,
+  "pr_number": 40,
   "attempts": [
     {
       "run_id": 43490912169,
@@ -88,6 +88,18 @@
       "status": "failed",
       "stage": "guarded_publication",
       "reason": "publish.py decoded content only for documentation paths; full HTML hit NameError before copy. Set content=raw.decode('utf-8') for every artifact."
+    },
+    {
+      "run_id": 43491541250,
+      "status": "failed",
+      "stage": "save_work_branch",
+      "reason": "Run checked out an earlier branch tip; a concurrent branch update made its evidence push non-fast-forward. No main write occurred in that run."
+    },
+    {
+      "run_id": 43491903670,
+      "status": "success",
+      "stage": "full_pipeline",
+      "reason": "Deterministic build, Python/Node syntax, Chromium acceptance, evidence save and guarded exact-artifact publication all passed."
     }
   ],
   "japanese_definition_changes": [
@@ -120,5 +132,13 @@
   "candidate_bytes": 6950166,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "workflow_run_id": 43491903670
+  "workflow_run_id": 43491903670,
+  "publication_commit": "279ddd6d11b6185f447fcdd32238185fe9287e95",
+  "publication_html_blob": "9b17504499ab3a0160d1a69d98d3333ad811e383",
+  "publication_html_sha256": "f537227849b1dd5ac31577b641e05db4d3ab5af05007cd3721aabe31df015de1",
+  "publication_bytes": 6950166,
+  "publication_workflow_run_id": 43491903670,
+  "pr_state": "closed",
+  "main_after_publication": "279ddd6d11b6185f447fcdd32238185fe9287e95",
+  "main_after_readme_update": "0982a2699179c0ad0a9d01b0674e07edf60364f6"
 }
