@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+712	逆	ぎゃく	名詞	fixed_rechecked	m; t	Broaden opposite sense to include result and position, as demonstrated by both examples.
+715	筋	すじ	名詞	fixed_rechecked	m; usage; exampleTranslations[1]	Add line/stripe sense; distinguish off-the-mark judgment from impropriety in 筋が違う.
+720	件	けん	名詞	fixed_rechecked	m	Add the counter use already explained in usage and gloss.
+722	股	また	名詞	fixed_rechecked	m	Add branching/fork sense already shown by 二股 and the road example.
+724	垢	あか	名詞	fixed_rechecked	t; exampleTranslations[0]	Replace overly narrow “moral impurity” and naturalize accumulated-grime translation.
+731	柵	さく	名詞	fixed_rechecked	m; usage	Remove tautological definition; replace unnatural “стовпці” with “стовпи”.
+739	主	ぬし／おも／しゅ	名詞	fixed_rechecked	t; exampleTranslations[1]	Include master/owner in しゅ gloss; correct “старожил” in company example.
+741	趣	おもむき	名詞	fixed_rechecked	t; usage	Separate atmosphere/character of circumstances from literary gist/content.
+744	盾	たて	名詞	fixed_rechecked	t	Include cover/protection/justification through an external basis, not only patronage.
+745	沼	ぬま	名詞	fixed_rechecked	m; t; usage	Replace water-puddle definition with shallow water area; add marked colloquial obsession sense.
+746	証	あかし	名詞	fixed_rechecked	m	Include symbolic sign/witness as well as factual evidence.
+749	誠	まこと	名詞	fixed_rechecked	exampleTranslations[1]	Remove an unsupported cause from the formal apology.
