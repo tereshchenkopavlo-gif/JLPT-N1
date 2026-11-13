@@ -1,6 +1,6 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-Актуальна **v209** у main після guarded-публікації. Перевірено 12 карток: усі 12 fixed_rechecked; внесено 14 точних змін. Авторський credit — **3681/3914**. [Повний HTML v209](JLPT_N1_ukrainian_reading_v209.html) · [Аудит v209](JLPT_N1_v209_audit.md).
+Актуальна **v209** у main після guarded-публікації. Кандидат v210 у work/v210-c10-next-pending. Перевірено 12 карток: усі 12 fixed_rechecked; внесено 14 точних змін. Авторський credit — **3681/3914**. [Повний HTML v209](JLPT_N1_ukrainian_reading_v209.html) · [Аудит v209](JLPT_N1_v209_audit.md).
 
 SHA-256: `dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf` · 6 948 136 байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Реєстр — 3916 reviewed / 335 fixed_rechecked / 1596 pending; словниковий зріз — 3347 / 334 / 233.
 
