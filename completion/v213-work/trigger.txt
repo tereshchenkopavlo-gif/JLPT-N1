@@ -1,1 +1,1 @@
-Trigger v213 C10 deterministic build and Chromium acceptance; attempt 3 with field-sample visibility assertions and preserved rendered-debug artifact.
+Trigger v213 C10 deterministic build and Chromium acceptance; attempt 3 with sample-based gloss/usage visibility checks and debug artifact preservation.
