@@ -225,11 +225,13 @@ rows=list(csv.DictReader(REGISTER.read_text(encoding="utf-8").splitlines()))
 if len(rows)!=5847:raise RuntimeError("register row count mismatch")
 base_all={"reviewed":3916,"fixed_rechecked":369,"pending":1562,"total":5847}
 base_vocab={"reviewed":3347,"fixed_rechecked":367,"pending":200,"total":3914}
+base_pairs={"reviewed":18,"fixed_rechecked":1,"pending":840,"total":859}
 target_all={"reviewed":3916,"fixed_rechecked":380,"pending":1551,"total":5847}
 target_vocab={"reviewed":3347,"fixed_rechecked":378,"pending":189,"total":3914}
-cur=counts(rows);cv=counts(rows,"vocab")
-if cur==base_all and cv==base_vocab:state="baseline"
-elif cur==target_all and cv==target_vocab:state="already_applied"
+target_pairs=base_pairs
+cur=counts(rows);cv=counts(rows,"vocab");cp=counts(rows,"vocab_pair")
+if cur==base_all and cv==base_vocab and cp==base_pairs:state="baseline"
+elif cur==target_all and cv==target_vocab and cp==target_pairs:state="already_applied"
 else:raise RuntimeError("register is neither exact v212 baseline nor exact v213 target")
 keys=[(r["kind"],r["key"]) for r in rows]
 if len(keys)!=len(set(keys)):raise RuntimeError("duplicate register keys")
@@ -250,9 +252,9 @@ else:
  for cid in FIXED_IDS:
   r=bykey[str(cid)][0]
   if r["finalReview"]!="fixed_rechecked" or r["evidence"]!="completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md":raise RuntimeError("already-applied evidence mismatch "+str(cid))
-if counts(rows)!=target_all or counts(rows,"vocab")!=target_vocab:raise RuntimeError("register target mismatch")
+if counts(rows)!=target_all or counts(rows,"vocab")!=target_vocab or counts(rows,"vocab_pair")!=target_pairs:raise RuntimeError("register target mismatch")
 prepare={"pass":True,"base_version":"v212","base_sha256":base_sha,"candidate_version":"v213","candidate_sha256":digest,"candidate_bytes":OUT.stat().st_size,"vocabulary_records":len(vocab),"grammar_records":len(grammar),"lexical_pairs":len(pairs),"unique_vocabulary_ids":len({int(x["id"]) for x in vocab}),"review_scope":[int(x) for x in EXPECTED],"fixed_rechecked":[int(x) for x in FIXED_IDS],"pending_ids":[DEFERRED_ID],"updated_fields":len(UPDATES),"changed_cards":[int(x) for x in changed],"japanese_example_changes":[],"japanese_definition_changes":[{"id":1542,"field":"m"},{"id":1551,"field":"m"},{"id":1554,"field":"m"}],"pos_map_unchanged":True,"pos_change_deferred":{"id":DEFERRED_ID,"current":["名詞"],"proposed":["名詞","ナ形"],"reading_candidates_before":60,"reading_candidates_after":2,"cloze_candidates_before":2269,"cloze_candidates_after":65},"author_credit_before":3714,"author_credit_addition":11,"author_credit_after":3725,"protected_unchanged":{k:True for k in protected},"exact_rollback":True,"register_state":state,"author_review_only":True}
-registry={"pass":True,"register_rows":len(rows),"before":{"all":base_all,"vocabulary":base_vocab},"after":{"all":counts(rows),"vocabulary":counts(rows,"vocab")},"fixed_rechecked_ids":[int(x) for x in FIXED_IDS],"pending_ids":[DEFERRED_ID],"reviewed_ids":[],"author_credit_before":3714,"author_credit_after":3725,"duplicate_keys":0,"records_deleted":0,"history_rewritten":False,"idempotent_reuse":state=="already_applied"}
+registry={"pass":True,"register_rows":len(rows),"before":{"all":base_all,"vocabulary":base_vocab,"vocab_pair":base_pairs},"after":{"all":counts(rows),"vocabulary":counts(rows,"vocab"),"vocab_pair":counts(rows,"vocab_pair")},"fixed_rechecked_ids":[int(x) for x in FIXED_IDS],"pending_ids":[DEFERRED_ID],"reviewed_ids":[],"author_credit_before":3714,"author_credit_after":3725,"duplicate_keys":0,"records_deleted":0,"history_rewritten":False,"idempotent_reuse":state=="already_applied"}
 (WORK/"prepare-results.json").write_text(json.dumps(prepare,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 (WORK/"registry-results.json").write_text(json.dumps(registry,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 (WORK/"pos-diagnostic.json").write_text(json.dumps(prepare["pos_change_deferred"],ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
