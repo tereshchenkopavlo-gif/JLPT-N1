@@ -1,0 +1,68 @@
+{
+  "pass": true,
+  "base_version": "v181",
+  "base_sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
+  "base_bytes": 6940370,
+  "candidate_version": "v182",
+  "candidate_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
+  "candidate_bytes": 6940820,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "pos_updates": {
+    "255": [
+      "名詞",
+      "ナ形"
+    ],
+    "327": [
+      "名詞",
+      "ナ形"
+    ]
+  },
+  "usage_updates": [
+    "255",
+    "327"
+  ],
+  "reading_override_ids_added": [
+    "1819",
+    "255",
+    "327"
+  ],
+  "reading_override_entries_before": 1,
+  "reading_override_entries_after": 4,
+  "reading_pool_diagnostic": "completion/v180-c11-diagnostics.json",
+  "reading_pool_review_scope": 23,
+  "cloze_candidates_before": {
+    "255": 2272,
+    "327": 2272,
+    "1819": 2272,
+    "359": 62
+  },
+  "cloze_candidates_after": {
+    "255": 64,
+    "327": 64,
+    "1819": 2270,
+    "359": 64
+  },
+  "changed_blocks": [
+    "VOCAB_POS_BY_ID",
+    "VOCAB_DETAILS_BY_ID",
+    "REVIEWED_READING_OPTIONS",
+    "document title"
+  ],
+  "unchanged": {
+    "vocabulary_records": true,
+    "grammar_records": true,
+    "lexical_pairs": true,
+    "all_ids": true,
+    "learning_engine": true,
+    "progress_storage_code": true,
+    "reading_quiz_algorithm": true,
+    "cloze_algorithm": true,
+    "reviewed_meaning_quizzes": true
+  },
+  "exact_rollback": true,
+  "full_card_credit_changed": false,
+  "author_review_only": true
+}

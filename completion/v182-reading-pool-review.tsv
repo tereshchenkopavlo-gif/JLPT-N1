@@ -1,0 +1,24 @@
+id	word	reading	before_count	before_options	automatic_after_count	automatic_after_options	manual_override	final_wrong_count	decision	note
+114	攻撃	こうげき	6	こうえき / こうげん / こうせき / うわき / きげき / こうい	6	こうえき / こうげん / こうせき / きげき / こうい / こうえん		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+204	新規	しんき	4	ほんき / かんい / しんこく / ふしん	5	ほんき / うわき / かんい / しんこく / ふしん		5	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+255	直接	ちょくせつ	6	ちょうせつ / がくせつ / ぎゃくせつ / しょくはつ / ちくせき / ちょうせい	0		ちょうせつ / ちょうせい / がくせつ	3	manual_override_reviewed	Three unique verified distractors stored in REVIEWED_READING_OPTIONS; exact target reading excluded.
+327	浮気	うわき	6	わき / いしき / いせき / うず / うちわけ / うつわ	2	しんき / ほんき	いしき / いせき / うつわ	3	manual_override_reviewed	Three unique verified distractors stored in REVIEWED_READING_OPTIONS; exact target reading excluded.
+359	本気	ほんき	2	しんき / かんい	3	しんき / うわき / かんい		3	automatic_pool_gained	Correct POS for 浮気 adds うわき as a third valid distractor for 本気.
+388	利益	りえき	6	いえじ / いえで / いしき / いせき / うわき / おき	6	いえじ / いえで / いしき / いせき / おき / がっき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+709	器	うつわ	6	うず / うちがわ / うちわけ / うわき / かんわ / けつい	6	うず / うちがわ / うちわけ / かんわ / けつい / けつぎ		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+801	脇	わき	6	うわき / おき / きき / くき / しき / じき	6	おき / きき / くき / しき / じき / はき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1040	儀式	ぎしき	6	いしき / しき / やしき / あし / いせき / うわき	6	いしき / しき / やしき / あし / いせき / おき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1044	疑惑	ぎわく	6	ぎゃく / わく / いたく / いよく / うわき / おもわく	6	ぎゃく / わく / いたく / いよく / おもわく / かく		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1055	逆接	ぎゃくせつ	4	がくせつ / ぎゃくてん / ちょくせつ / りゃくだつ	3	がくせつ / ぎゃくてん / りゃくだつ		3	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1215	交易	こうえき	6	こうえん / こうげき / こうせき / ようえき / うわき / こうい	6	こうえん / こうげき / こうせき / ようえき / こうい / こうか		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1319	仕業	しわざ	6	わざ / うわき / ぎわく / こうざ / しいく / しえん	6	わざ / ぎわく / こうざ / しいく / しえん / しお		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1392	弱音	よわね	6	うわき / かきね / ぎわく / しわざ / ひわ / ほんね	6	かきね / ぎわく / しわざ / ひわ / ほんね / みね		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1542	吹雪	ふぶき	6	ふっき / ふんき / いしき / いせき / うわき / おき	6	ふっき / ふんき / いしき / いせき / おき / がっき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1656	打撃	だげき	6	きげき / しげき / いしき / いせき / うわき / おき	6	きげき / しげき / いしき / いせき / おき / かげ		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1724	調節	ちょうせつ	6	ちょうせい / ちょうせん / ちょうたつ / ちょくせつ / きょうせい / ぎょうせい	6	ちょうせい / ちょうせん / ちょうたつ / きょうせい / ぎょうせい / ぎょうせき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1728	直属	ちょくぞく	6	ちゃくもく / ちょうかく / ちょうこく / ちょくせつ / ちょくめん / ちょちく	5	ちゃくもく / ちょうかく / ちょうこく / ちょくめん / ちょちく		5	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+1819	内訳	うちわけ	3	うちがわ / うつわ / うわき	2	うちがわ / うつわ	うちがわ / うつわ / うわき	3	manual_override_reviewed	Three unique verified distractors stored in REVIEWED_READING_OPTIONS; exact target reading excluded.
+2083	目先	めさき	6	あさ / いしき / いせき / うわき / おき / かさい	6	あさ / いしき / いせき / おき / かさい / がっき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+2126	誘惑	ゆうわく	6	ゆうぼく / ゆうわ / うわき / おもわく / ぎわく / くうはく	6	ゆうぼく / ゆうわ / おもわく / ぎわく / くうはく / くうふく		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+2140	様式	ようしき	6	ようえき / ようしゃ / いしき / うわき / ぎしき / きょしき	6	ようえき / ようしゃ / いしき / ぎしき / きょしき / こうえき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.
+2143	溶液	ようえき	6	こうえき / ようしき / うわき / こうえん / こうげき / こうせき	6	こうえき / ようしき / こうえん / こうげき / こうせき / しゅうえき		6	automatic_pool_retained	Three or more unique automatic distractors retained; browser matched the frozen diagnostic.

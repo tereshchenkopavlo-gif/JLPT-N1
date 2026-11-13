@@ -1,0 +1,3 @@
+id	word	reading	pos_before	pos_after	fields_rechecked	decision	source	note
+255	直接	ちょくせつ	名詞	名詞|ナ形	definition; reading; 2 Japanese examples; 2 Ukrainian translations; usage	fixed_rechecked	Kotobank Digital Daijisen; NINJAL cross-check	Daijisen supports 名・形動 and 直接な（の）交渉; adverbial use is recorded in usage. Adding 副詞 as a third app POS tag would reduce cloze candidates from 64 to 2, so the app retains 名詞+ナ形.
+327	浮気	うわき	名詞	名詞|ナ形	definition; reading; 2 Japanese examples; 2 Ukrainian translations; usage	fixed_rechecked	Kotobank Digital Daijisen	Modern うわき is 名・形動; historical ふき is not used as a distractor.

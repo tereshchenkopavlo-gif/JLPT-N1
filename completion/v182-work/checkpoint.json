@@ -22,23 +22,27 @@
     "no full-card credit for partial field review",
     "no data or ID removal"
   ],
-  "status": "candidate verified; NINJAL cross-check and app-specific POS/cloze tradeoff recorded; registry finalization pending",
+  "status": "verified; ready for publication to main",
   "candidate_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
   "candidate_bytes": 6940820,
-  "pos_tradeoff": {
-    "current_pos": [
-      "名詞",
-      "ナ形"
-    ],
-    "current_cloze_candidates": 64,
-    "hypothetical_pos": [
-      "名詞",
-      "ナ形",
-      "副詞"
-    ],
-    "hypothetical_cloze_candidates": 2,
-    "combined_reading_pools_changed": 0,
-    "decision": "retain 名詞+ナ形; document adverbial use in usage"
+  "candidate_html": "JLPT_N1_ukrainian_reading_v182.html",
+  "author_vocabulary_credit": 3387,
+  "register_counts": {
+    "reviewed": 3896,
+    "fixed_rechecked": 61,
+    "pending": 1890
   },
-  "browser_run": "43365662584"
+  "vocabulary_counts": {
+    "reviewed": 3327,
+    "fixed_rechecked": 60,
+    "pending": 527
+  },
+  "reviewed_meaning_quiz": 267,
+  "reviewed_reading_quiz": 3,
+  "reading_pool_count": 23,
+  "manual_reading_overrides": 3,
+  "cloze_pos_tradeoff": {
+    "current": 64,
+    "with_extra_adverb_tag": 2
+  }
 }
