@@ -57,7 +57,7 @@ jobs:
         run: |
           cp completion/v213-work/prepare-results.json completion/v213-prepare-results.json
           cp completion/v213-work/registry-results.json completion/v213-registry-results.json
-          cp completion/v213-work/browser-results.json completion/v213-pos-diagnostic.json completion/v213-browser-results.json
+          cp completion/v213-work/browser-results.json completion/v213-browser-results.json
           cp completion/v213-work/pos-diagnostic.json completion/v213-pos-diagnostic.json
 
       - name: Mark checkpoint after successful Chromium acceptance
@@ -102,6 +102,8 @@ jobs:
             completion/v213-c10-review.tsv
             completion/v213-field-changes.tsv
             completion/v213-source-review.md
+            completion/v213-deferred.tsv
+            completion/v213-pos-diagnostic.json
             completion/v213-work/checkpoint.json
             completion/v213-work/prepare-results.json
             completion/v213-work/registry-results.json
