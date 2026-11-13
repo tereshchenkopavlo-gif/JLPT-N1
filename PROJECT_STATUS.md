@@ -1,13 +1,13 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v205** у main після guarded-публікації. Повний HTML v204 — 6945619 байти, SHA-256 19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v204.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v204_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v205** у main після guarded-публікації. Повний HTML v205 — 6945868 байти, SHA-256 3b06dc6001359d033d31902227e56daaacd95501471faece756c1a70a582e2aa. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v205.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v205_audit.md).
 
 ## Опублікований випуск v205 — C10 авторський аудит
 
 - Перевірено 12 pending-карток: ID1297, 1300, 1301, 1303, 1306, 1309, 1311, 1312, 1313, 1315, 1316, 1319. Для всіх є індивідуальні докази пілота v153.
-- Підготовлено 13 точних змін у 12 картках; японські приклади не змінюються.
-- Очікуваний авторський credit після приймання — **3633/3914**. Реєстр після приймання: 3915 reviewed /288 fixed_rechecked /1644 pending; словниковий зріз — 3346 /287 /281.
-- Опублікований HTML v205: 6945868 байти, SHA-256 3b06dc6001359d033d31902227e56daaacd95501471faece756c1a70a582e2aa. Deterministic build, registry та Chromium acceptance успішні; робочу гілку не зливати.
+- Внесено **14 точних змін у 12 картках**; японські приклади не змінювалися.
+- Авторський credit після приймання — **3633/3914**. Реєстр після v205: 3915 reviewed /288 fixed_rechecked /1644 pending; словниковий зріз — 3346 /287 /281.
+- Опублікований HTML v205: 6945868 байти, SHA-256 3b06dc6001359d033d31902227e56daaacd95501471faece756c1a70a582e2aa, Git blob `8001c7e70618d160bd1e582f3135418b57dd4b9d`; main commit `1d609cd9bec52d0947fbe635c6b5307a32a0b8d9`. Deterministic build, registry та Chromium acceptance успішні; PR #30 закрито без злиття, робочу гілку збережено.
 - Один інший елемент попереднього діапазону залишається pending і не входить до цього аудиту за правилами безпеки.
 - C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
 
@@ -20,7 +20,7 @@
 - Авторськи зараховано **3621/3914** словникових карток. Реєстр: 3915 reviewed /276 fixed_rechecked /1656 pending; словниковий зріз — 3346 /275 /293.
 - Технічні докази: deterministic prepare і registry — pass; Chromium — 12 карток, ширини 360/412/1280 без переповнення, storage round-trip/restored, page errors — 0. [Prepare](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/completion/v204-prepare-results.json) · [Chromium](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/completion/v204-browser-results.json) · [Registry](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/completion/v204-registry-results.json).
 - PR #29 закрито без злиття; робочу гілку й докази збережено. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
-- Наступна безпечна C10 партія попередньо: **1297, 1300, 1301, 1303, 1306, 1309, 1311, 1312, 1313, 1315, 1316, 1319**. Перед аудитом кожну картку окремо перевірити на відповідність правилам безпеки.
+- Наступну C10 партію буде сформовано з решти pending-записів після окремої перевірки безпеки; до аудиту потрапляють лише безпечні картки.
 - C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
 
 
