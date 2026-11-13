@@ -10,15 +10,16 @@ BASE_SHA = "c81d7624557b2193bd6bc7939c93e200b054323f4b845f19921d70924a9ab280"
 UPDATES = [
     ("1077", "t", "риболовне судно, човен або корабель, призначений для промислового вилову риби", "риболовне судно, човен або корабель, призначений для вилову риби й молюсків"),
     ("1077", "exampleTranslations[1]", "Через подорожчання пального дедалі більше рибалок відмовляються виходити в море.", "Через подорожчання пального дедалі більше рибалок відкладають вихід у море."),
-    ("1090", "exampleTranslations[1]", "Цей університет широко відомий сильними легкоатлетами.", "Цей університет широко відомий як один із лідерів у легкій атлетиці.")
+    ("1087", "s", ["心境", "境涯"], ["心境"]),
+    ("1088", "exampleTranslations[1]", "Старезний великий кедр на території храму має статус природної пам’ятки міста.", "Стара велика криптомерія на території святилища має статус природної пам’ятки міста."),
+    ("1090", "exampleTranslations[0]", "У відбірковому турнірі тривала низка напружених матчів за участю найсильніших представників усієї країни.", "У відбірковому турнірі тривала низка напружених матчів за участю сильних команд з усієї країни."),
+    ("1090", "exampleTranslations[1]", "Цей університет широко відомий сильними легкоатлетами.", "Цей університет широко відомий своєю сильною командою з легкої атлетики."),
+    ("1092", "examples[0]", "深夜の住宅街で発生した強盗事件に、警察が捜査を始めた。", "深夜の住宅街で発生した強盗事件について、警察が捜査を始めた。"),
+    ("1094", "exampleTranslations[1]", "Розвиток здібностей у предметах, які добре даються, сприяє підвищенню бажання вчитися.", "Розвиток сильних сторін у навчальних предметах підвищує мотивацію до навчання."),
+    ("1095", "exampleTranslations[0]", "Важливо, щоб усі в організації засвоїли уроки минулих невдач.", "Важливо, щоб уроками минулих невдач ділилися в усій організації.")
 ]
 EXPECTED = {
-    "1075": ("虚偽", "きょぎ", ["名詞"]),
     "1077": ("漁船", "ぎょせん", ["名詞"]),
-    "1080": ("競走", "きょうそう", ["名詞"]),
-    "1081": ("共鳴", "きょうめい", ["名詞"]),
-    "1083": ("協議", "きょうぎ", ["名詞"]),
-    "1085": ("協定", "きょうてい", ["名詞"]),
     "1087": ("境地", "きょうち", ["名詞"]),
     "1088": ("境内", "けいだい", ["名詞"]),
     "1090": ("強豪", "きょうごう", ["名詞"]),
@@ -27,21 +28,16 @@ EXPECTED = {
     "1095": ("教訓", "きょうくん", ["名詞"])
 }
 EXPECTED_EXAMPLES = {
-    "1075": ["申告書に虚偽の内容がないか、担当者が確認した。", "虚偽の情報が拡散し、市場に大きな混乱を招いた。"],
     "1077": ["夜明けとともに、港から多くの漁船が沖へと出ていった。", "燃料の高騰で、漁船の出港を見合わせる漁師が相次いでいる。"],
-    "1080": ["子どもたちは、運動会で百メートルを競走した。", "地元の商店街では、毎年恒例の馬車競走が行われている。"],
-    "1081": ["彼の理念に共鳴した若者たちが、各地から集まってきた。", "二つの音叉は共鳴して、静かな部屋に澄んだ音が響いた。"],
-    "1083": ["今後の方針については、両社の担当者が改めて協議する予定である。", "各国代表は、気候変動への対応策を協議した。"],
-    "1085": ["両国は、関税を段階的に引き下げる協定を結んだ。", "新たに結ばれた協定により、環境保護の枠組みが強化された。"],
     "1087": ["長年の修練の末、彼は無心の境地に到達したと語った。", "達観した境地に至るまでには、多くの苦労があったという。"],
     "1088": ["正月には、多くの参拝客で神社の境内が埋め尽くされる。", "境内の古い杉の大木は、市の天然記念物に指定されている。"],
     "1090": ["予選では、全国の強豪が顔を合わせる白熱した試合が続いた。", "この大学は、陸上競技の強豪として広く知られている。"],
-    "1092": ["深夜の住宅街で発生した強盗事件に、警察が捜査を始めた。", "店に押し入った強盗の一人が、警察に逮捕された。"],
+    "1092": ["深夜の住宅街で発生した強盗事件について、警察が捜査を始めた。", "店に押し入った強盗の一人が、警察に逮捕された。"],
     "1094": ["新しい学習指導要領により、小学校で教える教科の内容が見直された。", "得意な教科を伸ばすことが、学習意欲の向上につながる。"],
     "1095": ["過去の失敗から得た教訓を、組織全体で共有することが重要である。", "この災害の教訓を、次の世代に確実に伝えていかなければならない。"]
 }
-FIXED_IDS = ["1077", "1090"]
-REVIEWED_IDS = ["1075", "1080", "1081", "1083", "1085", "1087", "1088", "1092", "1094", "1095"]
+FIXED_IDS = ["1077","1087","1088","1090","1092","1094","1095"]
+REVIEWED_IDS = []
 PENDING_IDS = []
 EXPECTED_CHANGED = FIXED_IDS
 EVIDENCE = "completion/v200-acceptance.tsv; JLPT_N1_v200_audit.md"
@@ -107,21 +103,24 @@ for card_id, (word, reading_value, expected_pos) in EXPECTED.items():
     item = by_id.get(card_id)
     if item is None or (item["w"], item["r"], pos_map[card_id]) != (word, reading_value, expected_pos):
         raise RuntimeError("identity/reading/POS mismatch for " + card_id)
-    if details[card_id]["examples"] != EXPECTED_EXAMPLES[card_id]:
-        raise RuntimeError("Japanese example preimage mismatch for " + card_id)
 
 before = json.loads(json.dumps(details, ensure_ascii=False))
 for card_id, field, old_value, new_value in UPDATES:
-    if field.startswith("exampleTranslations["):
+    if field.startswith("exampleTranslations[") or field.startswith("examples["):
+        key = field.split("[")[0]
         index = int(re.search(r"\[(\d+)\]", field).group(1))
-        actual = details[card_id]["exampleTranslations"][index]
+        actual = details[card_id][key][index]
         if actual != old_value:
-            raise RuntimeError("translation preimage mismatch for " + card_id + "." + field)
-        details[card_id]["exampleTranslations"][index] = new_value
+            raise RuntimeError("array preimage mismatch for " + card_id + "." + field)
+        details[card_id][key][index] = new_value
     else:
         if details[card_id][field] != old_value:
             raise RuntimeError("field preimage mismatch for " + card_id + "." + field)
         details[card_id][field] = new_value
+
+for card_id, expected in EXPECTED_EXAMPLES.items():
+    if details[card_id]["examples"] != expected:
+        raise RuntimeError("Japanese example postimage mismatch for " + card_id)
 
 changed_cards = sorted((card_id for card_id in details if details[card_id] != before[card_id]), key=int)
 if changed_cards != EXPECTED_CHANGED:
@@ -129,14 +128,17 @@ if changed_cards != EXPECTED_CHANGED:
 
 allowed_fields = {
     "1077": {"t","exampleTranslations"},
-    "1090": {"exampleTranslations"}
+    "1087": {"s"},
+    "1088": {"exampleTranslations"},
+    "1090": {"exampleTranslations"},
+    "1092": {"examples"},
+    "1094": {"exampleTranslations"},
+    "1095": {"exampleTranslations"}
 }
 for card_id in details:
     for field in before[card_id]:
         if before[card_id][field] != details[card_id][field] and field not in allowed_fields.get(card_id, set()):
             raise RuntimeError("unexpected field mutation: " + card_id + "." + field)
-    if before[card_id]["examples"] != details[card_id]["examples"]:
-        raise RuntimeError("Japanese example changed: " + card_id)
 
 literal = json.dumps(details, ensure_ascii=False, separators=(",", ":"))
 candidate = base[:detail_start] + literal + base[detail_end:]
@@ -172,8 +174,8 @@ if len(register_rows) != 5847:
     raise RuntimeError("unexpected register row count: " + str(len(register_rows)))
 baseline_all = {"reviewed": 3914, "fixed_rechecked": 231, "pending": 1702, "total": 5847}
 baseline_vocab = {"reviewed": 3345, "fixed_rechecked": 230, "pending": 339, "total": 3914}
-target_all = {"reviewed": 3924, "fixed_rechecked": 233, "pending": 1690, "total": 5847}
-target_vocab = {"reviewed": 3355, "fixed_rechecked": 232, "pending": 327, "total": 3914}
+target_all = {"reviewed": 3914, "fixed_rechecked": 238, "pending": 1695, "total": 5847}
+target_vocab = {"reviewed": 3345, "fixed_rechecked": 237, "pending": 332, "total": 3914}
 current_all = counts(register_rows)
 current_vocab = counts(register_rows, "vocab")
 keys = [(row["kind"], row["key"]) for row in register_rows]
@@ -196,12 +198,6 @@ if current_all == baseline_all and current_vocab == baseline_vocab:
             raise RuntimeError("fixed preimage mismatch for " + card_id)
         row["finalReview"] = "fixed_rechecked"
         row["evidence"] = EVIDENCE
-    for card_id in REVIEWED_IDS:
-        row = rows_by_id[card_id][0]
-        if row["finalReview"] != "pending" or row["evidence"]:
-            raise RuntimeError("reviewed preimage mismatch for " + card_id)
-        row["finalReview"] = "reviewed"
-        row["evidence"] = EVIDENCE
     register_mode = "applied_from_baseline"
     register_changed = True
 elif current_all == target_all and current_vocab == target_vocab:
@@ -209,13 +205,6 @@ elif current_all == target_all and current_vocab == target_vocab:
         row = rows_by_id[card_id][0]
         if row["finalReview"] != "fixed_rechecked":
             raise RuntimeError("fixed target mismatch for " + card_id)
-        if row["evidence"] != EVIDENCE:
-            row["evidence"] = EVIDENCE
-            register_changed = True
-    for card_id in REVIEWED_IDS:
-        row = rows_by_id[card_id][0]
-        if row["finalReview"] != "reviewed":
-            raise RuntimeError("reviewed target mismatch for " + card_id)
         if row["evidence"] != EVIDENCE:
             row["evidence"] = EVIDENCE
             register_changed = True
@@ -246,16 +235,17 @@ prepare = {
     "unique_vocabulary_ids": len({int(item["id"]) for item in vocab}),
     "review_scope": [int(card_id) for card_id in scope],
     "fixed_rechecked": [int(card_id) for card_id in FIXED_IDS],
-    "reviewed_without_change": [int(card_id) for card_id in REVIEWED_IDS],
+    "reviewed_without_change": [],
+    "already_reviewed_excluded": [1075,1080,1081,1083,1085],
     "pending_c11": [],
     "updated_fields": len(UPDATES),
     "changed_cards": [int(card_id) for card_id in changed_cards],
     "field_updates": [{"id": int(card_id), "field": field, "before": old, "after": new} for card_id, field, old, new in UPDATES],
     "author_credit_before": 3575,
-    "author_credit_addition": 12,
-    "author_credit_after": 3587,
+    "author_credit_addition": 7,
+    "author_credit_after": 3582,
     "protected_unchanged": {name: True for name in protected},
-    "japanese_examples_unchanged": True,
+    "japanese_example_changes": [{"id":1092,"index":0,"before":before["1092"]["examples"][0],"after":details["1092"]["examples"][0]}],
     "exact_rollback": True,
     "register_updated": True,
     "register_mode": register_mode,
@@ -267,10 +257,11 @@ registry = {
     "before": {"all": baseline_all, "vocabulary": baseline_vocab},
     "after": {"all": after_all, "vocabulary": after_vocab},
     "fixed_rechecked_ids": [int(card_id) for card_id in FIXED_IDS],
-    "reviewed_ids": [int(card_id) for card_id in REVIEWED_IDS],
+    "reviewed_ids": [],
+    "already_reviewed_excluded": [1075,1080,1081,1083,1085],
     "pending_c11_ids": [],
     "author_credit_before": 3575,
-    "author_credit_after": 3587,
+    "author_credit_after": 3582,
     "duplicate_keys": 0,
     "records_deleted": 0,
     "history_rewritten": False
@@ -280,11 +271,12 @@ registry = {
 
 checkpoint_path = WORK / "checkpoint.json"
 checkpoint = json.loads(checkpoint_path.read_text(encoding="utf-8"))
-checkpoint["status"] = "author review complete; deterministic candidate and register prepared; Chromium verification pending"
+checkpoint["status"] = "corrected seven-card pending scope; deterministic patch and register prepared; Chromium verification pending"
 checkpoint["candidate_sha256"] = candidate_sha
 checkpoint["candidate_bytes"] = OUT.stat().st_size
 checkpoint["exact_rollback"] = True
 checkpoint["register_mode"] = register_mode
+checkpoint["japanese_example_changes"] = [1092]
 checkpoint_path.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-print(json.dumps({"pass": True, "candidate_sha256": candidate_sha, "candidate_bytes": OUT.stat().st_size, "fixed_rechecked": FIXED_IDS, "reviewed_without_change": REVIEWED_IDS, "updated_fields": len(UPDATES), "register_after": after_all, "vocabulary_after": after_vocab}, ensure_ascii=False, indent=2))
+print(json.dumps({"pass": True, "candidate_sha256": candidate_sha, "candidate_bytes": OUT.stat().st_size, "fixed_rechecked": FIXED_IDS, "already_reviewed_excluded": [1075,1080,1081,1083,1085], "updated_fields": len(UPDATES), "register_after": after_all, "vocabulary_after": after_vocab}, ensure_ascii=False, indent=2))
