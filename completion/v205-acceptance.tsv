@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1297	在籍	ざいせき	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Naturalize enrolment/official membership and 休職 as a temporary work leave with employment retained.
+1300	搾取	さくしゅ	名詞	fixed_rechecked	exampleTranslations[1]	Preserve the negative meaning of exploitation, not neutral use.
+1301	昨今	さっこん	名詞	fixed_rechecked	exampleTranslations[1]	Use natural Ukrainian for 働き方の多様化.
+1303	察知	さっち	名詞	fixed_rechecked	usage	Align usage note with the existing sensor example; distinguish 察知 from neutral signal detection.
+1306	参観	さんかん	名詞	fixed_rechecked	exampleTranslations[1]	現場 refers to the actual factory/work site, not local technology.
+1309	山岳	さんがく	名詞	fixed_rechecked	exampleTranslations[0]	Do not narrow 登山者 to alpinists; naturalize weather change.
+1311	山脈	さんみゃく	名詞	fixed_rechecked	exampleTranslations[0]	交流 is broader than communication; render links between countries.
+1312	惨事	さんじ	名詞	fixed_rechecked	exampleTranslations[0]	徹底 concerns thorough implementation of safety measures.
+1313	惨敗	ざんぱい	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Preserve accountability call and the crushing nature of the defeat.
+1315	産物	さんぶつ	名詞	fixed_rechecked	exampleTranslations[0]	郷土の味 does not establish “delicacy”.
+1316	酸化	さんか	名詞	fixed_rechecked	t	Precise Ukrainian chemistry definition: combination with oxygen or loss of electrons.
+1319	仕業	しわざ	名詞	fixed_rechecked	t	Correct the ungrammatical Ukrainian idiom.
