@@ -1,1 +1,1 @@
-Trigger v202 C10 diagnostic build after exact ID1119 gloss preimage correction; attempt 6.
+Trigger v202 C10 diagnostic build after correcting exact ID1128 and ID1140 preimages; attempt 7.
