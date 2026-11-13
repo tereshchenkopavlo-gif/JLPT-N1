@@ -1,1 +1,1 @@
-Trigger v212 C10 deterministic build and Chromium acceptance; attempt 1. Scope: eleven cards plus one comparison-pair note.
+Trigger v212 C10 deterministic build and Chromium acceptance; attempt 2 after correcting the EXPECTED identity/POS table.
