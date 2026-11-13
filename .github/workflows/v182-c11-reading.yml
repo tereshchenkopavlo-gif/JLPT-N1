@@ -24,32 +24,30 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Extract the v182 work package
-        run: |
-          base64 -d completion/v182-work/bootstrap.tar.xz.b64 > completion/v182-work/bootstrap.tar.xz
-          tar -xJf completion/v182-work/bootstrap.tar.xz -C .
       - name: Reproduce v182 from exact published v181 baseline
         run: python3 completion/v182-work/apply.py
       - name: Check script syntax
         run: |
-          python3 -m py_compile completion/v182-work/apply.py
+          python3 -m py_compile completion/v182-work/apply.py completion/v182-work/finalize.py
           node --check completion/v182-work/browser.cjs
       - name: Install Chromium
         run: |
           npm install --no-save playwright@1.56.1
           npx playwright install --with-deps chromium
           sudo apt-get install -y fonts-noto-cjk
-      - name: Verify all 23 reading pools, POS, cloze and progress
+      - name: Verify reading pools, POS, cloze, POS-tag tradeoff and progress
         run: node completion/v182-work/browser.cjs
+      - name: Finalize author audit, registry and release evidence
+        run: python3 completion/v182-work/finalize.py
       - name: Save verified checkpoint and evidence to work branch
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+actions@users.noreply.github.com"
-          git rm -f completion/v182-work/bootstrap.tar.xz.b64
+          git rm -f --ignore-unmatch completion/v182-work/bootstrap.tar.xz.b64
           rm -f completion/v182-work/bootstrap.tar.xz
           find completion/v182-work -type d -name __pycache__ -prune -exec rm -rf {} +
-          git add JLPT_N1_ukrainian_reading_v182.html completion/v182-work/apply.py completion/v182-work/browser.cjs completion/v182-work/checkpoint.json completion/v182-work/source-review.md completion/v182-work/README.md completion/v182-work/prepare-results.json completion/v182-work/browser-results.json completion/v182-work/updates.json
+          git add JLPT_N1_ukrainian_reading_v182.html JLPT_N1_v182_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/C10-followup-255-327-20261113.md completion/C11-followup-255-327-20261113.md completion/v182-acceptance.tsv completion/v182-c10-review.tsv completion/v182-reading-pool-review.tsv completion/v182-prepare-results.json completion/v182-browser-results.json completion/v182-registry-results.json completion/v182-work/apply.py completion/v182-work/browser.cjs completion/v182-work/finalize.py completion/v182-work/checkpoint.json completion/v182-work/source-review.md completion/v182-work/README.md completion/v182-work/prepare-results.json completion/v182-work/browser-results.json completion/v182-work/updates.json completion/v182-work/retry-20261113.txt
           if ! git diff --cached --quiet; then
             git commit -m "Save v182 verified evidence and C11 reading-pool review"
             git push origin HEAD:work/v182-c11-reading-pool-review
@@ -60,6 +58,13 @@ jobs:
           name: v182-c11-reading-pool-evidence
           path: |
             JLPT_N1_ukrainian_reading_v182.html
+            JLPT_N1_v182_audit.md
+            completion/v182-acceptance.tsv
+            completion/v182-c10-review.tsv
+            completion/v182-reading-pool-review.tsv
+            completion/v182-prepare-results.json
+            completion/v182-browser-results.json
+            completion/v182-registry-results.json
             completion/v182-work/*
             completion/v180-c11-diagnostics.json
           if-no-files-found: warn

@@ -253,7 +253,7 @@ vocab,251,vocab:251,reviewed,completion/v153-card-decisions.tsv#251; author ling
 vocab,252,vocab:252,reviewed,completion/v153-card-decisions.tsv#252; author linguistic review
 vocab,253,vocab:253,reviewed,completion/v153-card-decisions.tsv#253; author linguistic review
 vocab,254,vocab:254,reviewed,completion/v154-acceptance.tsv#254; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
-vocab,255,vocab:255,pending,
+vocab,255,vocab:255,fixed_rechecked,completion/v182-c10-review.tsv#255; POS/usage corrected and full card fields rechecked; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
 vocab,256,vocab:256,reviewed,completion/v153-card-decisions.tsv#256; author linguistic review
 vocab,257,vocab:257,reviewed,completion/v153-card-decisions.tsv#257; author linguistic review
 vocab,258,vocab:258,reviewed,completion/v153-card-decisions.tsv#258; author linguistic review
@@ -325,7 +325,7 @@ vocab,323,vocab:323,reviewed,completion/v153-cards-321-350.tsv#323; author lingu
 vocab,324,vocab:324,reviewed,completion/v153-cards-321-350.tsv#324; author linguistic review
 vocab,325,vocab:325,reviewed,completion/v153-cards-321-350.tsv#325; author linguistic review
 vocab,326,vocab:326,reviewed,completion/v153-cards-321-350.tsv#326; author linguistic review
-vocab,327,vocab:327,pending,
+vocab,327,vocab:327,fixed_rechecked,completion/v182-c10-review.tsv#327; POS/usage corrected and full card fields rechecked; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
 vocab,328,vocab:328,reviewed,completion/v153-cards-321-350.tsv#328; author linguistic review
 vocab,329,vocab:329,reviewed,completion/v153-cards-321-350.tsv#329; author linguistic review
 vocab,330,vocab:330,fixed_rechecked,"completion/v176-acceptance.tsv:330; exact field review and Chromium regression; author review, not independent"
@@ -5843,3 +5843,6 @@ reviewed_meaning_quiz,v_3900,REVIEWED_MEANING_QUIZZES.v_3900,reviewed,"audit141/
 reviewed_meaning_quiz,v_3902,REVIEWED_MEANING_QUIZZES.v_3902,reviewed,"audit141/editorial-review.json:v_3902; both examples, alternatives, key, note; author review, not independent; v141 SHA-256=08e016a95f1786f243c29f54289edf5dd65aac4c43c9ff863b25c9f0422f75a3"
 reviewed_meaning_quiz,v_2468,REVIEWED_EXAMPLE_TARGETS:v_2468,reviewed,"completion/v179-acceptance.tsv; two exact context-specific payloads; author review, not independent"
 reviewed_meaning_quiz,v_2433,REVIEWED_MEANING_QUIZZES.v_2433,reviewed,"completion/v181-c11-review.tsv; two exact context-specific payloads; author review, not independent; v181 SHA-256=32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f"
+reviewed_reading_quiz,r_255,REVIEWED_READING_OPTIONS.255,reviewed,completion/v182-reading-pool-review.tsv#255; three distinct verified distractors for 直接/ちょくせつ; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
+reviewed_reading_quiz,r_327,REVIEWED_READING_OPTIONS.327,reviewed,completion/v182-reading-pool-review.tsv#327; three distinct verified distractors for 浮気/うわき; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
+reviewed_reading_quiz,r_1819,REVIEWED_READING_OPTIONS.1819,reviewed,completion/v182-reading-pool-review.tsv#1819; three distinct verified distractors for 内訳/うちわけ; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031

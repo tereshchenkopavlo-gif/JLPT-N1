@@ -1,0 +1,48 @@
+{
+  "checkpoint": "v182-c11-reading-pool-review",
+  "created": "2026-11-13",
+  "base_main_sha": "d225ad1e5f023a776153394562287f4bff920cb5",
+  "base_html": "JLPT_N1_ukrainian_reading_v181.html",
+  "base_html_sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
+  "previous_status_work_branch": "work/v181-c11-id2433-quiz-review",
+  "previous_status_work_head": "bb8732d5847bc0a3407ced17e0bdae37bcef8e6d",
+  "diagnostic_checkpoint": "completion/v180-c11-checkpoint.json",
+  "diagnostic_sha256": "479e95f7f53287cd4ea2a9d1144e0e1d516731a2cc5f4c29dc76c2bc3cceb34a",
+  "scope": [
+    "23 reading pools affected by ID255/327 POS correction",
+    "ID1819 minimum distractor eligibility",
+    "ID359 gained pool quality",
+    "POS/usage source review for ID255 and ID327"
+  ],
+  "guardrails": [
+    "content-only POS/usage and existing reviewed-reading override fields",
+    "no learning algorithm changes",
+    "no grammar or lexical-pair changes",
+    "no user progress/storage changes",
+    "no full-card credit for partial field review",
+    "no data or ID removal"
+  ],
+  "status": "verified; ready for publication to main",
+  "candidate_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
+  "candidate_bytes": 6940820,
+  "candidate_html": "JLPT_N1_ukrainian_reading_v182.html",
+  "author_vocabulary_credit": 3387,
+  "register_counts": {
+    "reviewed": 3896,
+    "fixed_rechecked": 61,
+    "pending": 1890
+  },
+  "vocabulary_counts": {
+    "reviewed": 3327,
+    "fixed_rechecked": 60,
+    "pending": 527
+  },
+  "reviewed_meaning_quiz": 267,
+  "reviewed_reading_quiz": 3,
+  "reading_pool_count": 23,
+  "manual_reading_overrides": 3,
+  "cloze_pos_tradeoff": {
+    "current": 64,
+    "with_extra_adverb_tag": 2
+  }
+}

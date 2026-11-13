@@ -1,0 +1,6 @@
+object_type	id	decision	credit_effect	evidence
+vocab	255	fixed_rechecked	+1 accepted vocabulary card	completion/v182-c10-review.tsv#255
+vocab	327	fixed_rechecked	+1 accepted vocabulary card	completion/v182-c10-review.tsv#327
+reviewed_reading_quiz	r_255	reviewed	no additional card credit	completion/v182-reading-pool-review.tsv#255
+reviewed_reading_quiz	r_327	reviewed	no additional card credit	completion/v182-reading-pool-review.tsv#327
+reviewed_reading_quiz	r_1819	reviewed	no additional card credit	completion/v182-reading-pool-review.tsv#1819

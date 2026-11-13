@@ -1,0 +1,178 @@
+{
+  "pass": true,
+  "candidate_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
+  "candidate_bytes": 6940820,
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859,
+    "readingOverrideEntries": 4
+  },
+  "pos": {
+    "before": {
+      "255": [
+        "名詞",
+        "ナ形"
+      ],
+      "327": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    "after": {
+      "255": [
+        "名詞",
+        "ナ形"
+      ],
+      "327": [
+        "名詞",
+        "ナ形"
+      ]
+    }
+  },
+  "reading_pool_count": 23,
+  "reading_pool_min_options": 3,
+  "manual_overrides": [
+    {
+      "id": 255,
+      "word": "直接",
+      "correct": "ちょくせつ",
+      "wrong": [
+        "ちょうせつ",
+        "ちょうせい",
+        "がくせつ"
+      ],
+      "unique": true
+    },
+    {
+      "id": 327,
+      "word": "浮気",
+      "correct": "うわき",
+      "wrong": [
+        "いしき",
+        "いせき",
+        "うつわ"
+      ],
+      "unique": true
+    },
+    {
+      "id": 1819,
+      "word": "内訳",
+      "correct": "うちわけ",
+      "wrong": [
+        "うちがわ",
+        "うつわ",
+        "うわき"
+      ],
+      "unique": true
+    }
+  ],
+  "automatic_pool_checks": 20,
+  "cloze_after": {
+    "255": {
+      "candidateCount": 64,
+      "examples": [
+        {
+          "sentence": "詳細については、担当者に直接お問い合わせください。",
+          "marked": true,
+          "literal": true
+        },
+        {
+          "sentence": "問題の直接の原因は、操作ミスにあった。",
+          "marked": true,
+          "literal": true
+        }
+      ]
+    },
+    "327": {
+      "candidateCount": 64,
+      "examples": [
+        {
+          "sentence": "浮気が原因で、夫婦関係が破綻した。",
+          "marked": true,
+          "literal": true
+        },
+        {
+          "sentence": "浮気を疑われ、信頼を取り戻すのに長い時間を要した。",
+          "marked": true,
+          "literal": true
+        }
+      ]
+    },
+    "359": {
+      "candidateCount": 64,
+      "examples": [
+        {
+          "sentence": "彼が本気で取り組んだ結果、計画は予定よりも早く完了した。",
+          "marked": true,
+          "literal": true
+        },
+        {
+          "sentence": "本気で変わろうとしなければ、組織は再生しない。",
+          "marked": true,
+          "literal": true
+        }
+      ]
+    },
+    "1819": {
+      "candidateCount": 2270,
+      "examples": [
+        {
+          "sentence": "予算の内訳を示さなければ、議会の承認は得られない。",
+          "marked": true,
+          "literal": true
+        },
+        {
+          "sentence": "参加者の内訳は、学生が六割、社会人が四割であった。",
+          "marked": true,
+          "literal": true
+        }
+      ]
+    }
+  },
+  "pos_tradeoff": {
+    "currentPos": [
+      "名詞",
+      "ナ形"
+    ],
+    "currentClozeCandidates": 64,
+    "withAdverbPos": [
+      "名詞",
+      "ナ形",
+      "副詞"
+    ],
+    "combinedClozeCandidates": 2,
+    "combinedAdverbTagKeepsClozeMinimum": false
+  },
+  "combined_pos_pool_impact": {
+    "changedPoolCount": 0,
+    "lostEligibility": [],
+    "gainedEligibility": [],
+    "remainingLostAfterExistingOverrides": []
+  },
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "sentinelRoundTrip": true,
+    "storageRestored": true
+  },
+  "pageErrors": []
+}
