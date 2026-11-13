@@ -40,7 +40,7 @@ async function main(){
   assert.deepEqual(tested.auto2433,autoBefore);
   for(const width of [360,412,1280]){
    const p=await open(browser,file,width);
-   const check=await p.page.evaluate(()=>[2433,2468].map(id=>{const d=VOCAB_DETAILS_BY_ID[id],shell=renderCardShell('v',id,d),wrap=document.createElement('div');wrap.innerHTML=shell;const ex=vocabExamplesHtml(id,d.examples);return {id,cardRendered:wrap.textContent.includes(d.w),examplesRendered:d.exampleTranslations.every(t=>ex.includes(t));}));
+   const check=await p.page.evaluate(()=>[2433,2468].map(id=>{const d=VOCAB_DETAILS_BY_ID[id],shell=renderCardShell('v',id,d),wrap=document.createElement('div');wrap.innerHTML=shell;const ex=vocabExamplesHtml(id,d.examples);return {id,cardRendered:wrap.textContent.includes(d.w),examplesRendered:d.exampleTranslations.every(t=>ex.includes(t))};));
    assert.deepEqual(p.errors,[]);assert(check.every(x=>x.cardRendered&&x.examplesRendered),JSON.stringify(check));
    result.widths.push({width,pass:true,cards:check});await p.page.close();
   }
