@@ -208,15 +208,17 @@ for card_id in scope:
         raise RuntimeError("register row missing or duplicated for " + card_id)
     row = matches[0]
     if card_id in fixed_ids:
-        expected_evidence = "v186-acceptance.tsv; JLPT_N1_v186_audit.md"
+        expected_evidence = "completion/v186-acceptance.tsv; JLPT_N1_v186_audit.md"
         if current_all == baseline_all and current_vocab == baseline_vocab:
             if row["finalReview"] != "pending" or row["evidence"]:
                 raise RuntimeError("register pending preimage mismatch for " + card_id)
             row["finalReview"] = "fixed_rechecked"
             row["evidence"] = expected_evidence
         elif current_all == target_all and current_vocab == target_vocab:
-            if row["finalReview"] != "fixed_rechecked" or row["evidence"] != expected_evidence:
+            if row["finalReview"] != "fixed_rechecked" or row["evidence"] not in (expected_evidence, "v186-acceptance.tsv; JLPT_N1_v186_audit.md"):
                 raise RuntimeError("applied register evidence mismatch for " + card_id)
+            if row["evidence"] != expected_evidence:
+                row["evidence"] = expected_evidence
         else:
             raise RuntimeError("register state is neither baseline nor expected v186 result")
     elif card_id in pending_ids:
