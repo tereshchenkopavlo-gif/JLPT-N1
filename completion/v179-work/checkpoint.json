@@ -1,0 +1,13 @@
+{
+  "checkpoint": "v179-c11-context-quiz-review",
+  "base_main_sha": "5a02ad7b1d93b5e4600adbad4005c5946e1f678c",
+  "work_branch": "work/v179-c11-context-quiz-review",
+  "scope": [
+    "ID2468 example 0 and example 1 meaning payloads"
+  ],
+  "open_dependencies": [
+    "ID2433 automatic meaning set/cloze interaction",
+    "ID255 and ID327 POS/reading pool impact"
+  ],
+  "status": "prepared; awaiting deterministic and Chromium verification"
+}

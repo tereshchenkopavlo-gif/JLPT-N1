@@ -1,0 +1,80 @@
+name: JLPT N1 v179 C11 verification
+on:
+  push:
+    branches: [work/v179-c11-context-quiz-review]
+    paths:
+      - 'completion/v179-work/**'
+      - 'completion/v179-*'
+      - 'completion/C11-followup-2433-2468-20261113.md'
+      - 'completion/C11-followup-255-327-20261113.md'
+      - 'JLPT_N1_v179_audit.md'
+      - '.github/workflows/v179-c11.yml'
+      - 'README.md'
+      - 'PROJECT_STATUS.md'
+      - 'completion/BACKLOG.md'
+      - 'completion/review-register.csv'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v179-c11
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'push' && hashFiles('completion/v179-work/PUBLISH') != '' && !startsWith(github.event.head_commit.message, 'Save verified v179')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v179-c11-context-quiz-review
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check script syntax
+        run: |
+          python3 -m py_compile completion/v179-work/prepare.py completion/v179-work/finalize-evidence.py completion/v179-work/write-docs.py completion/v179-work/publish-main.py
+          node --check completion/v179-work/browser.cjs
+      - name: Reproduce v179 from exact published v178 baseline
+        run: python3 completion/v179-work/prepare.py
+      - name: Run repository structural checks
+        run: node scripts/check-data.mjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify contextual quizzes, rendering and progress
+        run: node completion/v179-work/browser.cjs
+      - name: Finalize author acceptance and registry
+        run: python3 completion/v179-work/finalize-evidence.py
+      - name: Update audit and project status
+        run: python3 completion/v179-work/write-docs.py
+      - name: Save verified v179 checkpoint and evidence
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v179.html JLPT_N1_v179_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/v179-c11-review.tsv completion/v179-reading-pool-impact.json completion/C11-followup-2433-2468-20261113.md completion/C11-followup-255-327-20261113.md completion/v179-acceptance.tsv completion/v179-prepare-results.json completion/v179-browser-results.json completion/v179-registry-results.json completion/v179-source-review.md completion/v179-work/prepare.py completion/v179-work/browser.cjs completion/v179-work/finalize-evidence.py completion/v179-work/write-docs.py completion/v179-work/publish-main.py completion/v179-work/updates.json completion/v179-work/source-review.md completion/v179-work/checkpoint.json completion/v179-work/candidate.json completion/v179-work/prepare-results.json completion/v179-work/browser-results.json completion/v179-work/registry-results.json completion/v179-work/PUBLISH
+          if ! git diff --cached --quiet; then
+            git commit -m "Save verified v179 C11 checkpoint and evidence"
+            git push origin HEAD:work/v179-c11-context-quiz-review
+          fi
+      - name: Publish verified v179 release to main
+        if: success() && hashFiles('completion/v179-work/PUBLISH') != ''
+        run: python3 completion/v179-work/publish-main.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v179-c11-audit-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v179.html
+            JLPT_N1_v179_audit.md
+            completion/v179-work/prepare-results.json
+            completion/v179-work/browser-results.json
+            completion/v179-work/registry-results.json
+            completion/v179-acceptance.tsv
+            completion/v179-reading-pool-impact.json
+          if-no-files-found: warn
