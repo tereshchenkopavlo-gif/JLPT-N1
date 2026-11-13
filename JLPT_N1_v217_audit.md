@@ -3,7 +3,7 @@
 База: v216, main 84b15703909d827688a99e941b2704b962205779.
 Кандидат: v217, повний автономний HTML.
 Робоча гілка: work/v217-c10-next-pending.
-Workflow run: буде записано після Chromium-приймання.
+Workflow run: 43498502532 — success.
 HTML bytes: 6950869.
 SHA-256: 58d01e555bdf84810bd16237d8fcf755cbdcf756fb1a8784046eca144e58f79b.
 Git blob: e565a0e488ef48014d58bcb2cb175bbc67b738d2.
@@ -45,7 +45,7 @@ TECHNICAL_STATUS_PASS
 
 ## Технічне приймання
 
-Детермінований build, exact rollback, синтаксис Python/Node, незмінність захищених структур/ID, Chromium 360/412/1280 px, storage round-trip і 0 page errors мають бути підтверджені workflow перед публікацією.
+Підтверджено workflow 43498502532 (success): deterministic build, exact rollback, Python/Node syntax, 3914/130/859 інвентаризація, 12 карток у Chromium, responsive 360/412/1280 px без overflow, storage round-trip/restore і 0 page errors.
 
 ## Відкриті питання
 
