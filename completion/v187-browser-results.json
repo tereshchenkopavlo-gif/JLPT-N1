@@ -1,0 +1,156 @@
+{
+  "pass": true,
+  "candidate_sha256": "f321dd68a4beb1958031b000dd8eb94de9106cfc5e84041c4d70ca8cc0e67656",
+  "candidate_bytes": 6942301,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 615,
+      "word": "仮に",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 569
+    },
+    {
+      "id": 616,
+      "word": "いくらか",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 502
+    },
+    {
+      "id": 618,
+      "word": "改めて",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 996
+    },
+    {
+      "id": 624,
+      "word": "間もなく",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 437
+    },
+    {
+      "id": 629,
+      "word": "わざと",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 946
+    },
+    {
+      "id": 644,
+      "word": "当然",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 539
+    },
+    {
+      "id": 651,
+      "word": "インフルエンザ",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 508
+    },
+    {
+      "id": 654,
+      "word": "ウイルス",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 528
+    },
+    {
+      "id": 663,
+      "word": "オーバー",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 590
+    },
+    {
+      "id": 664,
+      "word": "スペース",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 494
+    },
+    {
+      "id": 672,
+      "word": "カウンター",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 577
+    },
+    {
+      "id": 674,
+      "word": "ベース",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 542
+    }
+  ],
+  "c11_pos_hold": {
+    "644": [
+      "副詞"
+    ],
+    "663": [
+      "名詞"
+    ]
+  },
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
