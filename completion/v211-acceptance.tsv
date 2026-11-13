@@ -1,0 +1,11 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1471	傷跡	きずあと	名詞	fixed_rechecked	usage	Clarify the related spelling 傷痕 and broader figurative trace sense.
+1477	消息	しょうそく	名詞	fixed_rechecked	t;exampleTranslations[0]	Broaden the gloss beyond location and render 発生 as incident onset.
+1479	照合	しょうごう	名詞	fixed_rechecked	t;usage	Cover two or more comparison sources and fix the merged phrase.
+1484	証拠	しょうこ	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the requirement not to bring a case without sufficient evidence.
+1485	詳細	しょうさい	名詞・ナ形	fixed_rechecked	t;exampleTranslations[0]	Include the adjective use and convey 終わり次第.
+1486	賞賛	しょうさん	名詞	fixed_rechecked	exampleTranslations[0]	Make media the subject praising the brave decision.
+1487	障害	しょうがい	名詞	fixed_rechecked	t	Add the contextual translation for 障害のある人.
+1489	上陸	じょうりく	名詞	fixed_rechecked	usage;exampleTranslations[0]	Naturalize the typhoon example and clarify meteorological usage.
+1493	譲歩	じょうほ	名詞	fixed_rechecked	usage;exampleTranslations[0]	Correct 条件面で譲歩する and render 望めない as lack of prospects.
+1496	触覚	しょっかく	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the subtle difference in thickness.
