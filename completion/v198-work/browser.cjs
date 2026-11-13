@@ -16,20 +16,12 @@ assert.equal(prepare.pass,true);
 assert.equal(prepare.exact_rollback,true);
 assert.equal(registry.pass,true);
 
-const IDS=[1015,1016,1018,1021,1023,1024,1025,1026,1027,1030,1031,1034];
+const IDS=[1015,1016,1026,1027];
 const EXPECTED={
- 1015:{word:'機材'},
- 1016:{word:'帰省'},
- 1018:{word:'気質',translations:['Він, як справжній майстер, ніколи не відвантажував вироби, доки не був цілком задоволений результатом.']},
- 1021:{word:'気配'},
- 1023:{word:'気品'},
- 1024:{word:'気風',translations:['','Ініціативний дух, притаманний цьому краю, сприяв появі багатьох підприємців.']},
- 1025:{word:'気流'},
- 1026:{word:'祈願',translations:['','На будівельному майданчику провели традиційний обряд перед початком робіт, просячи про їхню безпеку.']},
- 1027:{word:'規定'},
- 1030:{word:'記述'},
- 1031:{word:'貴族'},
- 1034:{word:'起動',translations:['','Нове обладнання для виробництва електроенергії запустили, і почалося її постачання в регіон.']}
+ 1015:{word:'機材',translations:['','Самої лише знімальної апаратури з високими технічними характеристиками недостатньо, щоб створити хороший твір.']},
+ 1016:{word:'帰省',usage:'帰郷 ширше — повернення в рідні місця; може бути постійним'},
+ 1026:{word:'祈願',translations:['Багато родичів тих, хто складає іспити, відвідують святилище, щоб помолитися за їхній успіх.']},
+ 1027:{word:'規定',definition:'また、そのように定められた条項や規則。'}
 };
 
 async function main(){
@@ -55,6 +47,8 @@ async function main(){
   for(const card of data){
    const e=EXPECTED[card.id];
    assert.equal(card.word,e.word);
+   if(e.definition)assert.ok(card.definition.includes(e.definition),'definition mismatch '+card.id);
+   if(e.usage)assert.ok(card.usage.includes(e.usage),'usage mismatch '+card.id);
    if(e.translations)for(const t of e.translations.filter(Boolean))assert.ok(card.translations.includes(t),'translation mismatch '+card.id);
    assert.deepEqual(card.pos,['名詞'],'POS changed '+card.id);
   }
@@ -72,14 +66,16 @@ async function main(){
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
      glossVisible:d.t.split(';').map(x=>x.trim()).filter(Boolean).every(x=>norm(text).includes(norm(x))),
+     usageVisible:id===1016?norm(text).includes(norm('帰郷 ширше — повернення в рідні місця; може бути постійним')):true,
+     definitionVisible:id===1027?norm(text).includes(norm('また、そのように定められた条項や規則。')):true,
      examplesVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
      bodyTextLength:text.length
     });
    }
    return out;
   },IDS);
-  assert.equal(rendered.length,12);
-  const visibilityFailures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.examplesVisible));
+  assert.equal(rendered.length,4);
+  const visibilityFailures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.usageVisible&&x.definitionVisible&&x.examplesVisible));
   if(visibilityFailures.length)console.error('Rendered visibility diagnostics:',JSON.stringify(visibilityFailures,null,2));
   assert.equal(visibilityFailures.length,0);
 
