@@ -2,8 +2,6 @@
 
 Оновлено 13 листопада 2026. Актуальна **v204** у main. Повний HTML — 6945619 байти, SHA-256 19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v204.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v204_audit.md).
 
-Оновлено 13 листопада 2026. Актуальна **v203** у main після успішного guarded-приймання. Повний HTML — 6945616 байти, SHA-256 81b4e4fbda3be91325493c95c3c28324deac52f69cc230f16bd630db20929339. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v203.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v203_audit.md).
-
 ## Опублікований випуск v204 — C10 авторський аудит
 
 - Перевірено **12 карток** із доказами пілота v153: **11 fixed_rechecked, 1 reviewed без зміни**.
