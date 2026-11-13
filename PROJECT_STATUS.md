@@ -1,6 +1,14 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v209** у main після guarded-публікації. Повний HTML — 6948136 байти, SHA-256 dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v209.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v209_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v210** у main після guarded-публікації. Повний HTML v209 — 6948136 байти, SHA-256 dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v209.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v209_audit.md).
+
+## Опублікований випуск v210 — C10 авторський аудит
+
+- Перевірено 12 pending-карток: ID1445, 1446, 1449, 1451, 1455, 1457, 1459, 1460, 1461, 1463, 1467, 1469. Для всіх є індивідуальні докази пілота v153.
+- Підготовлено 16 точних змін у 12 картках; уточнено п’ять японських дефініцій і один японський приклад.
+- Очікуваний авторський credit після приймання — **3693/3914**. Реєстр після приймання: 3916 reviewed /347 fixed_rechecked /1584 pending; словниковий зріз — 3347 /346 /221.
+- Опублікований HTML v210: 6948501 байти, SHA-256 ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474. Deterministic build, registry та Chromium acceptance успішні; робочу гілку не зливати.
+- C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
 
 ## Опублікований випуск v209 — C10 авторський аудит
 
