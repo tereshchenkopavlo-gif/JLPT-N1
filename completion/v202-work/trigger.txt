@@ -1,1 +1,1 @@
-Trigger v202 C10 diagnostic build after publisher guard update; attempt 5.
+Trigger v202 C10 diagnostic build after exact ID1119 gloss preimage correction; attempt 6.
