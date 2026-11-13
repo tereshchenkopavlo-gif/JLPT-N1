@@ -133,7 +133,7 @@ async function main(){
   },{ids:IDS,expected:EXPECTED});
   fs.writeFileSync(path.join(WORK,'rendered-debug.json'),JSON.stringify(rendered,null,2)+'\n');
   const failures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.definitionVisible&&x.usageVisible&&x.translationsVisible&&x.examplesVisible));
-  assert.equal(rendered.length,12);
+  assert.equal(rendered.length,19);
   if(failures.length) throw new Error('Card detail visibility mismatches: '+JSON.stringify(failures));
   const responsive=[];
   for(const width of [360,412,1280]){
