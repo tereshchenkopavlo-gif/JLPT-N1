@@ -49,7 +49,7 @@
 
 ## Публікація
 
-Опубліковано в main із SHA-256 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c, 6949518 байт. Deterministic prepare, registry і Chromium acceptance успішні.
+Опубліковано в main: commit 225552bb9854a4e5726b56ce90885cb4f4c11bb7, Git blob 8140c2c267ef1b947f129ae133809ca25bfe135c, SHA-256 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c, 6949518 байт. Workflow run 43478546381 завершився успішно; deterministic prepare, registry і Chromium acceptance пройшли; PR #38 закрито без злиття.
 
 ## Межі
 
