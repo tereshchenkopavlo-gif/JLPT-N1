@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "base_version": "v178",
+  "base_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "candidate_version": "v179",
+  "candidate_sha256": "359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8",
+  "candidate_bytes": 6939046,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "changed_payloads": [
+    {
+      "id": 2468,
+      "word": "下す",
+      "exampleIndex": 0,
+      "sentence": "裁判所は、被告に対して厳しい判決を下した。"
+    },
+    {
+      "id": 2468,
+      "word": "下す",
+      "exampleIndex": 1,
+      "sentence": "経営陣は、慎重な検討の末に撤退という決断を下した。"
+    }
+  ],
+  "unchanged_blocks": {
+    "DEFAULT_VOCAB": 3914,
+    "VOCAB_DETAILS_BY_ID": 3914,
+    "GRAMMAR_DETAILS_BY_ID": 130,
+    "VOCAB_POS_BY_ID": 3914,
+    "VOCAB_AUDITED_PAIRS": 859,
+    "REVIEWED_READING_OPTIONS": 1,
+    "REVIEWED_MEANING_QUIZZES": 383,
+    "VOCAB_KANA_EXAMPLE_TARGETS": 265
+  },
+  "inline_scripts_checked": 1,
+  "exact_rollback": true,
+  "author_credit_change": 0
+}

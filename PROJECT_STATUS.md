@@ -1,8 +1,18 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v178**. Опубліковано в main commit 16aa71034bfb6d7c87cab2ed31b7ed7a741e6530 після успішних детермінованих і Chromium-перевірок. Повний JLPT_N1_ukrainian_reading_v178.html, 6 937 622 байт, SHA-256 b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9. [Аудит](JLPT_N1_v178_audit.md)
+Оновлено 13 листопада 2026. Актуальна **v179**. Опубліковано в main після успішних детермінованих і Chromium-перевірок. Повний JLPT_N1_ukrainian_reading_v179.html, 6,939,046 байт, SHA-256 359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8. [Аудит](JLPT_N1_v179_audit.md)
 
-## Поточний випуск v178 — C10 follow-up
+## Поточний випуск v179 — C11 context-specific meaning quiz
+
+Додано два авторськи перевірені контекстні meaning-набори ID2468 下す. Авторський credit — 3385/3914 (без змін); завершальний реєстр — 3892 reviewed /59 fixed_rechecked /1892 pending; словниковий зріз — 3327 /58 /529; лексичні пари — 18 /841; reviewed meaning quiz — 266.
+
+Детермінований preparer підтвердив точну основу v178, два payload, повний rollback і незмінність 3914 слів, 130 конструкцій, 859 пар, ID, POS та reading overrides. Chromium перевірив обидва контексти, унікальність чотирьох варіантів, точне виділення прикладів і картки при 360, 412 та 1280 px; автоматичні набори ID2433 не змінилися, sentinel прогресу не змінився. Докази: JLPT_N1_v179_audit.md, completion/v179-c11-review.tsv, completion/v179-acceptance.tsv, completion/v179-prepare-results.json, completion/v179-browser-results.json, completion/v179-registry-results.json.
+
+Робоча гілка — work/v179-c11-context-quiz-review. ID2433 залишається відкритим через взаємодію точного example override з cloze; ID255/327 залишаються C10/C11 POS-reading залежностями, оскільки запропоновані POS змінюють 23 пули й знижують поріг для ID1819. Діагностика: completion/v179-reading-pool-impact.json. Жодних змін POS, reading-алгоритму або прогресу не внесено.
+
+C10 і C11 не завершено. Незалежне лінгвістичне, фізичне та правове/походження приймання не виконані. v179 — проміжний випуск, не кандидат 1.0.
+
+## Архівований випуск v178 — C10 follow-up
 
 Авторськи переглянуто 12 pending карток: 11 виправлено у 13 точних полях і повторно перевірено; ID425 прийнято без зміни. Авторський credit — 3385/3914; завершальний реєстр — 3891 reviewed /59 fixed_rechecked /1892 pending; словниковий зріз — 3327 /58 /529; лексичні пари — 18 reviewed /841 pending.
 

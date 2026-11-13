@@ -1,0 +1,152 @@
+{
+  "pass": true,
+  "sha256": "359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8",
+  "cardsChecked": [
+    2433,
+    2468
+  ],
+  "contextPayloadsChecked": 2,
+  "widths": [
+    {
+      "width": 360,
+      "pass": true,
+      "cards": [
+        {
+          "id": 2433,
+          "cardRendered": true,
+          "examplesRendered": true
+        },
+        {
+          "id": 2468,
+          "cardRendered": true,
+          "examplesRendered": true
+        }
+      ]
+    },
+    {
+      "width": 412,
+      "pass": true,
+      "cards": [
+        {
+          "id": 2433,
+          "cardRendered": true,
+          "examplesRendered": true
+        },
+        {
+          "id": 2468,
+          "cardRendered": true,
+          "examplesRendered": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "pass": true,
+      "cards": [
+        {
+          "id": 2433,
+          "cardRendered": true,
+          "examplesRendered": true
+        },
+        {
+          "id": 2468,
+          "cardRendered": true,
+          "examplesRendered": true
+        }
+      ]
+    }
+  ],
+  "contextResults": [
+    {
+      "id": 2468,
+      "exampleIndex": 0,
+      "sentence": "裁判所は、被告に対して厳しい判決を下した。",
+      "quiz": {
+        "correct": "裁判所が、審理の結果を判決として言い渡すこと。",
+        "wrong": [
+          "裁判所が、判決を出す前に証拠を調べ、事実関係を明らかにすること。",
+          "裁判所が、すでに言い渡した判決を取り消すこと。",
+          "裁判所が、判決で定めた刑罰や命令を実際に執行すること。"
+        ],
+        "note": "判決を下す — винести судове рішення. 審理 — судовий розгляд; 取消 — скасування вже ухваленого рішення; 執行 — його виконання. Тут перевіряється саме винесення вироку, а не підготовчий розгляд чи виконання."
+      },
+      "marked": true,
+      "spans": [
+        "下した"
+      ]
+    },
+    {
+      "id": 2468,
+      "exampleIndex": 1,
+      "sentence": "経営陣は、慎重な検討の末に撤退という決断を下した。",
+      "quiz": {
+        "correct": "十分に検討したうえで、最終的な決断をすること。",
+        "wrong": [
+          "複数の案を比べ、どれを選ぶか検討し続けること。",
+          "結論を出さず、決断を先送りにすること。",
+          "すでに決めた方針を取り消し、別の方針に変えること。"
+        ],
+        "note": "決断を下す — ухвалити остаточне рішення. 検討する — розглядати варіанти; 保留する — відкласти рішення; 撤回する — відкликати вже прийняте рішення. У прикладі керівництво вже визначилося з виходом із напряму."
+      },
+      "marked": true,
+      "spans": [
+        "下した"
+      ]
+    }
+  ],
+  "automatic2433": [
+    {
+      "correct": "山や建物などが、非常に高く立っている。",
+      "wrong": [
+        "ひねられたように、よじれた状態になる。",
+        "位置や時期を少し動かして、ずれさせる。",
+        "思うようにならなくて、いらいらする。"
+      ],
+      "note": ""
+    },
+    {
+      "correct": "山や建物などが、非常に高く立っている。",
+      "wrong": [
+        "ひねられたように、よじれた状態になる。",
+        "位置や時期を少し動かして、ずれさせる。",
+        "思うようにならなくて、いらいらする。"
+      ],
+      "note": ""
+    }
+  ],
+  "cards": [
+    {
+      "id": 2433,
+      "readingOptions": [],
+      "clozeCount": 705,
+      "clozeExamples": [
+        false,
+        false
+      ],
+      "rendered": true
+    },
+    {
+      "id": 2468,
+      "readingOptions": [
+        "くずす",
+        "みだす",
+        "いたす",
+        "いやす",
+        "おかす",
+        "おどす"
+      ],
+      "clozeCount": 705,
+      "clozeExamples": [
+        false,
+        false
+      ],
+      "rendered": true
+    }
+  ],
+  "progressStorageUnchanged": true,
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859
+  }
+}

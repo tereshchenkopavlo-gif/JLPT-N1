@@ -2,12 +2,15 @@
   "checkpoint": "v179-c11-context-quiz-review",
   "base_main_sha": "fc644673247f6b334e73e634e2c5ec7fdb31c740",
   "work_branch": "work/v179-c11-context-quiz-review",
-  "scope": [
-    "ID2468 example 0 and example 1 meaning payloads"
+  "base_html_sha256": "b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9",
+  "candidate_sha256": "359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8",
+  "scope_ids": [
+    2433,
+    2468,
+    255,
+    327
   ],
-  "open_dependencies": [
-    "ID2433 automatic meaning set/cloze interaction",
-    "ID255 and ID327 POS/reading pool impact"
-  ],
-  "status": "prepared; awaiting deterministic and Chromium verification"
+  "status": "verified candidate; guarded main publication completed",
+  "candidate_bytes": 6939046,
+  "tests_status": "deterministic and Chromium passed"
 }
