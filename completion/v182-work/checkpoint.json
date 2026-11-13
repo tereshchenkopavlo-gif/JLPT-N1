@@ -59,7 +59,7 @@
       ]
     }
   },
-  "status": "diagnostic passed; awaiting manual author acceptance",
+  "status": "verified; ready for publication to main",
   "changed_pool_count": 23,
   "lost_eligibility": [
     {
@@ -117,5 +117,24 @@
     }
   ],
   "remaining_lost_after_overrides": [],
-  "diagnostic_file": "completion/v182-work/diagnostics.json"
+  "diagnostic_file": "completion/v182-work/diagnostics.json",
+  "candidate_html": "JLPT_N1_ukrainian_reading_v182.html",
+  "candidate_sha256": "d33c28362362bd1d696951128c722228accff5d24503822fc5fafd2aad4b4e7b",
+  "candidate_bytes": 6940692,
+  "card_credit_effect": "+2 fixed_rechecked",
+  "reading_quiz_objects": 3,
+  "author_vocabulary_credit": 3387,
+  "register_counts": {
+    "reviewed": 3896,
+    "fixed_rechecked": 61,
+    "pending": 1890
+  },
+  "vocabulary_counts": {
+    "reviewed": 3327,
+    "fixed_rechecked": 60,
+    "pending": 527
+  },
+  "reviewed_reading_quiz": 3,
+  "reviewed_meaning_quiz": 267,
+  "remaining_lost_reading_pools": 0
 }

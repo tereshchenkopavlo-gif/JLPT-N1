@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "id": "255",
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "副詞"
+    ],
+    "evidence": "completion/v182-work/source-review.md"
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "id": "327",
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "evidence": "completion/v182-work/source-review.md"
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_READING_OPTIONS",
+    "entries": {
+      "255": {
+        "word": "直接",
+        "correct": "ちょくせつ",
+        "wrong": [
+          "ちょうせつ",
+          "ちょうせい",
+          "ちくせき"
+        ]
+      },
+      "327": {
+        "word": "浮気",
+        "correct": "うわき",
+        "wrong": [
+          "いしき",
+          "いせき",
+          "うつわ"
+        ]
+      },
+      "1819": {
+        "word": "内訳",
+        "correct": "うちわけ",
+        "wrong": [
+          "うちがわ",
+          "うつわ",
+          "うわき"
+        ]
+      }
+    },
+    "evidence": "completion/v182-work/reading-pool-review.tsv"
+  }
+]

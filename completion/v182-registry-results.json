@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "total_objects": 5847,
+  "status_counts": {
+    "reviewed": 3896,
+    "fixed_rechecked": 61,
+    "pending": 1890
+  },
+  "kind_counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "vocab_pair": 859,
+    "grammar_pair": 92,
+    "antonym_pair": 41,
+    "reading": 160,
+    "reading_question": 381,
+    "reviewed_meaning_quiz": 267,
+    "reviewed_reading_quiz": 3
+  },
+  "vocabulary_status_counts": {
+    "reviewed": 3327,
+    "fixed_rechecked": 60,
+    "pending": 527
+  },
+  "author_vocabulary_credit": 3387,
+  "reviewed_meaning_quiz": 267,
+  "reviewed_reading_quiz": 3,
+  "v182_added": {
+    "vocab_fixed_rechecked": [
+      255,
+      327
+    ],
+    "reviewed_reading_quiz": [
+      "r_255",
+      "r_327",
+      "r_1819"
+    ]
+  },
+  "no_duplicate_rows": true,
+  "html_sha256": "d33c28362362bd1d696951128c722228accff5d24503822fc5fafd2aad4b4e7b"
+}

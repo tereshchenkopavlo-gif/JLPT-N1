@@ -1,10 +1,10 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-Актуальна v181. У v181 додано два контекстні meaning-набори для вже авторськи прийнятої картки ID2433 そびえる. [Повний HTML](JLPT_N1_ukrainian_reading_v181.html) · [Аудит](JLPT_N1_v181_audit.md)
+Актуальна v182. У v182 уточнено POS для ID255 直接 та ID327 浮気 і збережено три перевірені reading-quiz пули для ID255/327/1819. [Повний HTML](JLPT_N1_ukrainian_reading_v182.html) · [Аудит](JLPT_N1_v182_audit.md)
 
-Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3385/3914; завершальний реєстр — 3893 reviewed /59 fixed_rechecked /1892 pending; reviewed meaning quiz — 267. Незалежне, фізичне та правове/походження приймання не завершені.
+Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3387/3914; завершальний реєстр — 3896 reviewed /61 fixed_rechecked /1890 pending; reviewed meaning quiz — 267; reviewed reading quiz — 3. Незалежне, фізичне та правове/походження приймання не завершені.
 
-Докази v181: [підготовка](completion/v181-prepare-results.json), [Chromium](completion/v181-browser-results.json), [реєстр](completion/v181-registry-results.json).
+Докази v182: [підготовка](completion/v182-prepare-results.json), [Chromium](completion/v182-browser-results.json), [реєстр](completion/v182-registry-results.json), [23 reading-пули](completion/v182-reading-pool-review.tsv).
 
 Нижче збережено історичний журнал v18–v26; він не описує поточний стан.
 

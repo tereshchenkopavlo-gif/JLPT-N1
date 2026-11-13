@@ -1,0 +1,84 @@
+{
+  "pass": true,
+  "base_version": "v181",
+  "base_sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
+  "candidate_version": "v182",
+  "candidate_sha256": "d33c28362362bd1d696951128c722228accff5d24503822fc5fafd2aad4b4e7b",
+  "candidate_bytes": 6940692,
+  "vocabulary_records": 3914,
+  "unique_vocabulary_ids": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "pos_entries": 3914,
+  "reading_overrides_before": 1,
+  "reading_overrides_after": 4,
+  "reviewed_meaning_quiz_entries": 384,
+  "pos_changes": {
+    "255": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "副詞"
+      ]
+    },
+    "327": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "ナ形"
+      ]
+    }
+  },
+  "reading_overrides_added": {
+    "255": {
+      "word": "直接",
+      "correct": "ちょくせつ",
+      "wrong": [
+        "ちょうせつ",
+        "ちょうせい",
+        "ちくせき"
+      ]
+    },
+    "327": {
+      "word": "浮気",
+      "correct": "うわき",
+      "wrong": [
+        "いしき",
+        "いせき",
+        "うつわ"
+      ]
+    },
+    "1819": {
+      "word": "内訳",
+      "correct": "うちわけ",
+      "wrong": [
+        "うちがわ",
+        "うつわ",
+        "うわき"
+      ]
+    }
+  },
+  "changed_blocks": [
+    "VOCAB_POS_BY_ID.255",
+    "VOCAB_POS_BY_ID.327",
+    "REVIEWED_READING_OPTIONS.255/327/1819",
+    "document title"
+  ],
+  "unchanged": {
+    "all_vocabulary_records": true,
+    "all_vocabulary_ids": true,
+    "grammar_records": true,
+    "lexical_pairs": true,
+    "vocab_details": true,
+    "reviewed_meaning_quizzes": true,
+    "learning_engine": true,
+    "progress_storage_code": true
+  },
+  "exact_rollback": true,
+  "card_credit_effect": "two pending cards fixed_rechecked after browser verification",
+  "author_review_only": true
+}

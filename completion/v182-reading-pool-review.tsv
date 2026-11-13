@@ -1,0 +1,24 @@
+id	word	reading	pos_after	before_count	before_options	after_count	after_options	after_override_count	decision	note
+114	攻撃	こうげき	名詞	6	こうえき / こうげん / こうせき / うわき / きげき / こうい	6	こうえき / こうげん / こうせき / きげき / こうい / こうえん	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+204	新規	しんき	名詞|ナ形	4	ほんき / かんい / しんこく / ふしん	5	ほんき / うわき / かんい / しんこく / ふしん	5	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+255	直接	ちょくせつ	名詞|副詞	6	ちょうせつ / がくせつ / ぎゃくせつ / しょくはつ / ちくせき / ちょうせい	0		3	manual_override_proposed	Exact override options are source-checked against existing vocabulary readings; author review pending.
+327	浮気	うわき	名詞|ナ形	6	わき / いしき / いせき / うず / うちわけ / うつわ	2	しんき / ほんき	3	manual_override_proposed	Exact override options are source-checked against existing vocabulary readings; author review pending.
+359	本気	ほんき	名詞|ナ形	2	しんき / かんい	3	しんき / うわき / かんい	3	automatic_pool_gained	Pool gains eligibility from the corrected POS of another vocabulary item.
+388	利益	りえき	名詞	6	いえじ / いえで / いしき / いせき / うわき / おき	6	いえじ / いえで / いしき / いせき / おき / がっき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+709	器	うつわ	名詞	6	うず / うちがわ / うちわけ / うわき / かんわ / けつい	6	うず / うちがわ / うちわけ / かんわ / けつい / けつぎ	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+801	脇	わき	名詞	6	うわき / おき / きき / くき / しき / じき	6	おき / きき / くき / しき / じき / はき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1040	儀式	ぎしき	名詞	6	いしき / しき / やしき / あし / いせき / うわき	6	いしき / しき / やしき / あし / いせき / おき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1044	疑惑	ぎわく	名詞	6	ぎゃく / わく / いたく / いよく / うわき / おもわく	6	ぎゃく / わく / いたく / いよく / おもわく / かく	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1055	逆接	ぎゃくせつ	名詞	4	がくせつ / ぎゃくてん / ちょくせつ / りゃくだつ	3	がくせつ / ぎゃくてん / りゃくだつ	3	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1215	交易	こうえき	名詞	6	こうえん / こうげき / こうせき / ようえき / うわき / こうい	6	こうえん / こうげき / こうせき / ようえき / こうい / こうか	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1319	仕業	しわざ	名詞	6	わざ / うわき / ぎわく / こうざ / しいく / しえん	6	わざ / ぎわく / こうざ / しいく / しえん / しお	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1392	弱音	よわね	名詞	6	うわき / かきね / ぎわく / しわざ / ひわ / ほんね	6	かきね / ぎわく / しわざ / ひわ / ほんね / みね	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1542	吹雪	ふぶき	名詞	6	ふっき / ふんき / いしき / いせき / うわき / おき	6	ふっき / ふんき / いしき / いせき / おき / がっき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1656	打撃	だげき	名詞	6	きげき / しげき / いしき / いせき / うわき / おき	6	きげき / しげき / いしき / いせき / おき / かげ	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1724	調節	ちょうせつ	名詞	6	ちょうせい / ちょうせん / ちょうたつ / ちょくせつ / きょうせい / ぎょうせい	6	ちょうせい / ちょうせん / ちょうたつ / きょうせい / ぎょうせい / ぎょうせき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1728	直属	ちょくぞく	名詞	6	ちゃくもく / ちょうかく / ちょうこく / ちょくせつ / ちょくめん / ちょちく	5	ちゃくもく / ちょうかく / ちょうこく / ちょくめん / ちょちく	5	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+1819	内訳	うちわけ	名詞	3	うちがわ / うつわ / うわき	2	うちがわ / うつわ	3	manual_override_proposed	Exact override options are source-checked against existing vocabulary readings; author review pending.
+2083	目先	めさき	名詞	6	あさ / いしき / いせき / うわき / おき / かさい	6	あさ / いしき / いせき / おき / かさい / がっき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+2126	誘惑	ゆうわく	名詞	6	ゆうぼく / ゆうわ / うわき / おもわく / ぎわく / くうはく	6	ゆうぼく / ゆうわ / おもわく / ぎわく / くうはく / くうふく	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+2140	様式	ようしき	名詞	6	ようえき / ようしゃ / いしき / うわき / ぎしき / きょしき	6	ようえき / ようしゃ / いしき / ぎしき / きょしき / こうえき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.
+2143	溶液	ようえき	名詞	6	こうえき / ようしき / うわき / こうえん / こうげき / こうせき	6	こうえき / ようしき / こうえん / こうげき / こうせき / しゅうえき	6	automatic_pool_retained	Automatic pool retains at least three distinct readings; no override proposed.

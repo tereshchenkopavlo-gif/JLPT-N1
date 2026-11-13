@@ -1,0 +1,165 @@
+{
+  "pass": true,
+  "version": "v182",
+  "sha256": "d33c28362362bd1d696951128c722228accff5d24503822fc5fafd2aad4b4e7b",
+  "bytes": 6940692,
+  "counts": {
+    "vocabulary": 3914,
+    "uniqueVocabIds": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859,
+    "posEntries": 3914,
+    "readingOverrides": 4
+  },
+  "pos": {
+    "255": [
+      "名詞",
+      "副詞"
+    ],
+    "327": [
+      "名詞",
+      "ナ形"
+    ],
+    "359": [
+      "名詞",
+      "ナ形"
+    ],
+    "1819": [
+      "名詞"
+    ]
+  },
+  "quiz": {
+    "255": {
+      "word": "直接",
+      "reading": "ちょくせつ",
+      "pos": [
+        "名詞",
+        "副詞"
+      ],
+      "wrong": [
+        "ちょうせつ",
+        "ちょうせい",
+        "ちくせき"
+      ],
+      "wrongSources": [
+        [
+          {
+            "id": 1724,
+            "word": "調節",
+            "reading": "ちょうせつ"
+          }
+        ],
+        [
+          {
+            "id": 1723,
+            "word": "調整",
+            "reading": "ちょうせい"
+          }
+        ],
+        [
+          {
+            "id": 1699,
+            "word": "蓄積",
+            "reading": "ちくせき"
+          }
+        ]
+      ]
+    },
+    "327": {
+      "word": "浮気",
+      "reading": "うわき",
+      "pos": [
+        "名詞",
+        "ナ形"
+      ],
+      "wrong": [
+        "いしき",
+        "いせき",
+        "うつわ"
+      ],
+      "wrongSources": [
+        [
+          {
+            "id": 4,
+            "word": "意識",
+            "reading": "いしき"
+          }
+        ],
+        [
+          {
+            "id": 832,
+            "word": "遺跡",
+            "reading": "いせき"
+          }
+        ],
+        [
+          {
+            "id": 709,
+            "word": "器",
+            "reading": "うつわ"
+          }
+        ]
+      ]
+    },
+    "1819": {
+      "word": "内訳",
+      "reading": "うちわけ",
+      "pos": [
+        "名詞"
+      ],
+      "wrong": [
+        "うちがわ",
+        "うつわ",
+        "うわき"
+      ],
+      "wrongSources": [
+        [
+          {
+            "id": 285,
+            "word": "内側",
+            "reading": "うちがわ"
+          }
+        ],
+        [
+          {
+            "id": 709,
+            "word": "器",
+            "reading": "うつわ"
+          }
+        ],
+        [
+          {
+            "id": 327,
+            "word": "浮気",
+            "reading": "うわき"
+          }
+        ]
+      ]
+    }
+  },
+  "changedPools": 23,
+  "lostEligibility": 3,
+  "gainedEligibility": 1,
+  "remainingLostAfterOverrides": [],
+  "progressStorageWrite": true,
+  "progressStorageRestored": true,
+  "widths": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "bodyWidth": 360
+    },
+    {
+      "width": 412,
+      "documentWidth": 412,
+      "bodyWidth": 412
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280
+    }
+  ],
+  "pageErrors": [],
+  "scope": "author regression only; not independent or physical acceptance"
+}
