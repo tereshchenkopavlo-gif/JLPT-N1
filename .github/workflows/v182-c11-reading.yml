@@ -46,7 +46,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+actions@users.noreply.github.com"
-          git rm -f completion/v182-work/bootstrap.tar.xz.b64 completion/v182-work/bootstrap.tar.xz
+          git rm -f completion/v182-work/bootstrap.tar.xz.b64
+          rm -f completion/v182-work/bootstrap.tar.xz
           find completion/v182-work -type d -name __pycache__ -prune -exec rm -rf {} +
           git add JLPT_N1_ukrainian_reading_v182.html completion/v182-work/apply.py completion/v182-work/browser.cjs completion/v182-work/checkpoint.json completion/v182-work/source-review.md completion/v182-work/README.md completion/v182-work/prepare-results.json completion/v182-work/browser-results.json completion/v182-work/updates.json
           if ! git diff --cached --quiet; then
