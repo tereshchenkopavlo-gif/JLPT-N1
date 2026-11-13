@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+943	獲物	えもの	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize “узявся до переговорів” while preserving the prey metaphor and intent not to lose the target.
+944	確信	かくしん	名詞	fixed_rechecked	exampleTranslations[1]	Replace the awkward “дійшов твердої переконаності” with “остаточно переконався”.
+949	学芸	がくげい	名詞	fixed_rechecked	t; usage; exampleTranslations[0]; exampleTranslations[1]	Broaden 学問 beyond “science” and identify 学芸員 as museum curators.
+951	楽観	らっかん	名詞	fixed_rechecked	exampleTranslations[0]	Translate 事態の収束 as settling/resolution of the situation, not necessarily a crisis.
+952	楽譜	がくふ	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the expression of depth in musical performance.
+956	葛藤	かっとう	名詞	fixed_rechecked	t	Include conflict between people or groups, as in the Japanese definition.
+960	勘定	かんじょう	名詞	fixed_rechecked	t	Add counting quantities as a distinct sense.
+961	勘弁	かんべん	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the request to be spared unreasonable demands.
+963	完結	かんけつ	名詞	fixed_rechecked	usage; exampleTranslations[0]	Translate 連載 naturally as a work published in installments; remove tautology in usage.
+965	完備	かんび	名詞	fixed_rechecked	exampleTranslations[0]	Preserve the strength of 最新 as “the latest”.
+968	幹部	かんぶ	名詞	fixed_rechecked	exampleTranslations[0]	Translate 経営方針 as the company’s operating direction/priorities.
+969	感触	かんしょく	名詞	fixed_rechecked	exampleTranslations[1]	Preserve the positive signal received during negotiations, not only a personal impression.
