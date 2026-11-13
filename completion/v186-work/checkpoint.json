@@ -38,7 +38,7 @@
   "author_credit_before": 3419,
   "author_credit_after": 3429,
   "updated_fields": 10,
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v186 exact artifacts published and verified in main",
   "guardrails": [
     "v153 pilot notes are hypotheses, not automatic acceptance",
     "reread all current fields and both examples for all 12 cards",
@@ -72,5 +72,22 @@
   "exact_rollback": true,
   "chromium_verification": "passed",
   "browser_results": "completion/v186-work/browser-results.json",
-  "publication_policy": "copy exact verified paths only; never merge the bulk work branch"
+  "publication_policy": "copy exact verified paths only; never merge the bulk work branch",
+  "publication_commit": "9a9e61a59cbddb5f9e51f896728b50f471137be7",
+  "publication_blob": "e1a9f85ea4bc80461c7684fb06c7e933c5bb6f21",
+  "publication_sha256": "75387f14bb77bfcc9f5d0ec224e5f4e6e14ba3d51465b0f435117d4f3af4351b",
+  "published_paths": [
+    "JLPT_N1_ukrainian_reading_v186.html",
+    "JLPT_N1_v186_audit.md",
+    "README.md",
+    "PROJECT_STATUS.md",
+    "completion/BACKLOG.md",
+    "completion/review-register.csv",
+    "completion/v186-acceptance.tsv",
+    "completion/v186-c10-review.tsv",
+    "completion/v186-prepare-results.json",
+    "completion/v186-browser-results.json",
+    "completion/v186-registry-results.json",
+    "completion/v186-source-review.md"
+  ]
 }
