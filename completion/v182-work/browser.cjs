@@ -42,7 +42,9 @@ async function main(){
       const details=Object.fromEntries(ids.map(id=>[id,VOCAB_DETAILS_BY_ID[String(id)]]));
       const quiz=Object.fromEntries([255,327,1819].map(id=>{
         const item=records[id];
-        return [id,{word:item.w,reading:item.r,pos:vocabPartOfSpeech(id),wrong:quizReadingOptions({kind:'v',id,word:item})}];
+        const wrong=quizReadingOptions({kind:'v',id,word:item});
+        const wrongSources=wrong.map(r=>DEFAULT_VOCAB.filter(x=>x.r===r&&Number(x.id)!==id).map(x=>({id:x.id,word:x.w,reading:x.r})));
+        return [id,{word:item.w,reading:item.r,pos:vocabPartOfSpeech(id),wrong,wrongSources}];
       }));
       const storageKey='choba_n1uk_storage_v1';
       const old=localStorage.getItem(storageKey);
@@ -63,7 +65,7 @@ async function main(){
       assert.equal(data.quiz[id].reading,EXPECTED[id].correct);
       assert.deepEqual(data.quiz[id].wrong,EXPECTED[id].wrong,'reading override mismatch '+id);
       assert.equal(new Set([data.quiz[id].reading,...data.quiz[id].wrong]).size,4,'duplicate reading option '+id);
-      assert.ok(data.quiz[id].wrong.every(r=>DEFAULT_VOCAB.some(x=>x.r===r&&Number(x.id)!==id)),'unverified reading distractor '+id);
+      assert.ok(data.quiz[id].wrongSources.every(x=>x.length>=1),'unverified reading distractor '+id);
     }
     assert.deepEqual(data.details[255].examples,[
       '詳細については、担当者に直接お問い合わせください。',
