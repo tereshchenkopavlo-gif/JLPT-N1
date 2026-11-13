@@ -4,6 +4,6 @@
 
 SHA-256: 39aa398f92db161d4c396038d588872b2fabb9fc9c45713a5e530f5a03bae14c · 6945374 байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3598/3914; реєстр — 3914 reviewed /254 fixed_rechecked /1679 pending; словниковий зріз — 3345 /253 /316. C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
 
-Докази v202: completion/v202-prepare-results.json, completion/v202-browser-results.json, completion/v202-registry-results.json, completion/v202-acceptance.tsv, completion/v202-c10-review.tsv, completion/v202-source-review.md. Наступна безпечна C10 партія: 1153, 1157, 1158, 1169, 1173, 1175, 1178, 1182, 1194, 1195, 1196. Один інший елемент діапазону залишено pending і не включено до аудиту за правилами безпеки. Робоча гілка — work/v203-c10-next-pending.
+Докази v202: completion/v202-prepare-results.json, completion/v202-browser-results.json, completion/v202-registry-results.json, completion/v202-acceptance.tsv, completion/v202-c10-review.tsv, completion/v202-source-review.md. v203 перевіряє 11 pending-карток: 1153, 1157, 1158, 1169, 1173, 1175, 1178, 1182, 1194, 1195, 1196; 14 точних змін у 11 картках, з них одна японська термінологічна правка в прикладі ID1178. Один інший елемент вибраного діапазону залишено pending і не включено до аудиту за правилами безпеки. [Аудит v203](JLPT_N1_v203_audit.md) · [Реєстр приймання](completion/v203-acceptance.tsv).
 
 Нижче збережено історичний журнал; він не описує поточний стан.
