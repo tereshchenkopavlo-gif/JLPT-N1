@@ -47,16 +47,54 @@
     "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298",
     "completion/v153-cards-1641-1700.tsv": "f70be41472f9f2f2bac2e284526cf88516f44f0f"
   },
-  "status": "author review complete; deterministic candidate, registry and Chromium verification passed; exact-artifact publication pending",
+  "status": "v214 published in main; deterministic build, registry, Chromium and exact-artifact publication passed; PR #39 closed without merge",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_guard": "c0ead25c29a9cc7409900cf5f58c8024cd6fff4f",
   "pr_number": 39,
-  "attempts": [],
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": 43482353153,
+      "conclusion": "success",
+      "result": "Deterministic candidate build, Python/Node syntax, Chromium acceptance, register transitions, work-branch checkpoint, exact-artifact publication and artifact upload all passed."
+    },
+    {
+      "attempt": 2,
+      "run_id": 43482365221,
+      "conclusion": "publication_guard_refusal",
+      "result": "A concurrent main update made the original publisher guard stale; no data was lost. A subsequent successful push run 43482353153 published the exact verified v214 artifacts."
+    }
+  ],
   "current_main_head_before_run": "b1e504836fa8d3f4adb1b0e14b4bbbf143ed6275",
   "main_guard_after_metadata": "c0ead25c29a9cc7409900cf5f58c8024cd6fff4f",
   "candidate_sha256": "0436bb8dc402e85eab47c442e094c1b725c3e97302500f559bd5b1fe944225b8",
   "candidate_bytes": 6949689,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "workflow_run_id": 43482365221
+  "workflow_run_id": 43482365221,
+  "publication_commit": "16c0d83abe9c0fb51a830543e4aed696ad55c97",
+  "publication_main_head_at_run": "16c0d83abe9c0fb51a830543e4aed696ad55c97",
+  "publication_html_blob": "9ca4fcc6dc6f0db7eaaebed232cc684868dfb5b2",
+  "publication_sha256": "0436bb8dc402e85eab47c442e094c1b725c3e97302500f559bd5b1fe944225b8",
+  "publication_bytes": 6949689,
+  "workflow_run": 43482353153,
+  "artifact_id": 14065208663,
+  "pr_state": "closed_without_merge",
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 12,
+    "pending_card_count": 0,
+    "reviewed_pair_indices": [
+      417,
+      421
+    ],
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  }
 }
