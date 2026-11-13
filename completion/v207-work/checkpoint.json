@@ -57,7 +57,7 @@
   "pilot_files": {
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "attempt 1 failed on incorrect Japanese-example baseline; exact source preimages corrected; attempt 2 pending",
+  "status": "attempts 1–2 failed on inaccurate preparer baselines; exact reading for ID1373 corrected; attempt 3 pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -65,6 +65,12 @@
       "run_id": 43464467271,
       "conclusion": "failure",
       "failure": "apply.py stopped at Japanese example preimage mismatch for ID1351 because the baseline example arrays in the script were copied inaccurately; the workflow lacked pipefail so the failed pipeline was masked, then Chromium failed with ENOENT. No candidate HTML or registry was produced and nothing was published."
+    },
+    {
+      "attempt": 2,
+      "run_id": 43465261481,
+      "conclusion": "failure",
+      "failure": "Identity/POS preimage mismatch at ID1373: the source vocabulary reading includes both しゅうちゃく／しゅうじゃく, while the preparer expected only しゅうちゃく. No candidate or register update was produced; pipefail correctly stopped the job."
     }
   ],
   "corrected_preimages": {
@@ -74,6 +80,7 @@
       "1363.usage",
       "1372.usage"
     ],
-    "workflow_pipefail_required": true
+    "workflow_pipefail_required": true,
+    "id1373_reading": "しゅうちゃく／しゅうじゃく (both source readings retained)"
   }
 }
