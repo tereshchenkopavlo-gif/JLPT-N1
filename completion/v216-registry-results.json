@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "register_rows": 5847,
+  "after": {
+    "all": {
+      "reviewed": 3925,
+      "fixed_rechecked": 419,
+      "pending": 1503,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3354,
+      "fixed_rechecked": 417,
+      "pending": 143,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 20,
+      "fixed_rechecked": 1,
+      "pending": 838,
+      "total": 859
+    }
+  },
+  "reviewed_pair_keys": [],
+  "duplicate_keys": 0,
+  "records_deleted": 0,
+  "history_rewritten": false
+}

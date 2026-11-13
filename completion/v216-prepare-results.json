@@ -1,0 +1,109 @@
+{
+  "pass": true,
+  "base_version": "v215",
+  "base_sha256": "f537227849b1dd5ac31577b641e05db4d3ab5af05007cd3721aabe31df015de1",
+  "candidate_version": "v216",
+  "candidate_sha256": "9166c9c55fac5478dda8768da705986ce9ba42d7f8fb43ae259848d17df156ec",
+  "candidate_blob_sha": "82e8ec96f948084777863e52958e98203b724c25",
+  "candidate_bytes": 6950652,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    1475,
+    1755,
+    1776,
+    1795,
+    1833,
+    1985,
+    2058,
+    2116,
+    2214,
+    2222,
+    3005,
+    3006,
+    3010,
+    3017,
+    3023
+  ],
+  "fixed_rechecked": [
+    1475,
+    1795,
+    1985,
+    2058,
+    2214,
+    2222,
+    3006,
+    3017
+  ],
+  "reviewed_ids": [
+    1755,
+    1776,
+    1833,
+    2116,
+    3005,
+    3010,
+    3023
+  ],
+  "updated_fields": 9,
+  "changed_cards": [
+    1475,
+    1795,
+    1985,
+    2058,
+    2214,
+    2222,
+    3006,
+    3017
+  ],
+  "japanese_definition_changes": [
+    1475
+  ],
+  "pos_map_unchanged": true,
+  "comparison_pairs_unchanged": true,
+  "author_credit_before": 3756,
+  "author_credit_addition": 15,
+  "author_credit_after": 3771,
+  "pilot_covered_ids": [
+    1475
+  ],
+  "pilot_missing_ids": [
+    1755,
+    1776,
+    1795,
+    1833,
+    1985,
+    2058,
+    2116,
+    2214,
+    2222,
+    3005,
+    3006,
+    3010,
+    3017,
+    3023
+  ],
+  "exact_rollback": true,
+  "register_after": {
+    "all": {
+      "reviewed": 3925,
+      "fixed_rechecked": 419,
+      "pending": 1503,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3354,
+      "fixed_rechecked": 417,
+      "pending": 143,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 20,
+      "fixed_rechecked": 1,
+      "pending": 838,
+      "total": 859
+    }
+  },
+  "author_review_only": true
+}
