@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+565	順調	じゅんちょう	ナ形	fixed_rechecked	exampleTranslations[0]	Separate scheduled completion from the forecast expressed by 見込みだ.
+571	盛大	せいだい	ナ形	fixed_rechecked	exampleTranslations[1]	退職 means leaving employment; the context does not establish retirement.
+572	積極的	せっきょくてき	ナ形	fixed_rechecked	t	Include the positive/supportive stance in the Japanese definition.
+579	地味	じみ	ナ形	fixed_rechecked	exampleTranslations[0]	Keep 積み重ね as repeated work; remove the added object “results of work”.
+586	典型的	てんけいてき	ナ形	fixed_rechecked	exampleTranslations[1]	Preserve 典型的な英雄像 as “типовий образ героя”.
+588	独特	どくとく	ナ形	pending_C11	none	Dictionary POS is 名・形動; app POS/quiz impact requires C11.
+590	否定的	ひていてき	ナ形	fixed_rechecked	exampleTranslations[1]	Translate 真摯に受け止める naturally as taking criticism seriously.
+593	平気	へいき	ナ形	fixed_rechecked	exampleTranslations[0]	Make the unbothered attitude explicit rather than attaching it to lateness itself.
+595	未熟	みじゅく	ナ形	fixed_rechecked	exampleTranslations[0]	取り返しのつかない refers to irreparable consequences.
+597	無難	ぶなん	ナ形	fixed_rechecked	exampleTranslations[1]	Replace the ungrammatical calque with neutral, inoffensive statements.
+599	無礼	ぶれい	ナ形	pending_C11	none	Nominal 無礼を詫びる and dictionary 名・形動 require C11 quiz-impact review.
+609	わりに		副詞	fixed_rechecked	usage	Disambiguate noun, verb, i-adjective and na-adjective connection forms.
