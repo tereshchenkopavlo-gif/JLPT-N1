@@ -24,6 +24,7 @@ for rel in PUBLISH_PATHS:
   if rel=="README.md":
    text=text.replace("Актуальна **v212** у main після guarded-публікації. Кандидат v213 у work/v213-c10-next-pending.","Актуальна **v213** у main після guarded-публікації.")
    text=text.replace("Кандидат v213:","Опубліковано v213:")
+   text=text.replace("Докази v212:","Докази v213:")
    text=text.replace("completion/v212-","completion/v213-").replace("JLPT_N1_v212","JLPT_N1_v213").replace("JLPT_N1_ukrainian_reading_v212.html","JLPT_N1_ukrainian_reading_v213.html")
   elif rel=="PROJECT_STATUS.md":
    text=text.replace("Оновлено 13 листопада 2026. Актуальна **v212** у main. Кандидат **v213** у гілці work/v213-c10-next-pending, ще не опублікований. Повний HTML v212 — 6949301 байти, SHA-256 a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5.","Оновлено 13 листопада 2026. Актуальна **v213** у main після guarded-публікації.")
