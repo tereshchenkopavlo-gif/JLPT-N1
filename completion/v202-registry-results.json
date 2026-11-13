@@ -1,0 +1,52 @@
+{
+  "pass": true,
+  "register_rows": 5847,
+  "before": {
+    "all": {
+      "reviewed": 3914,
+      "fixed_rechecked": 242,
+      "pending": 1691,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3345,
+      "fixed_rechecked": 241,
+      "pending": 328,
+      "total": 3914
+    }
+  },
+  "after": {
+    "all": {
+      "reviewed": 3914,
+      "fixed_rechecked": 254,
+      "pending": 1679,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3345,
+      "fixed_rechecked": 253,
+      "pending": 316,
+      "total": 3914
+    }
+  },
+  "fixed_rechecked_ids": [
+    1119,
+    1123,
+    1124,
+    1127,
+    1128,
+    1129,
+    1132,
+    1135,
+    1139,
+    1140,
+    1147,
+    1148
+  ],
+  "reviewed_ids": [],
+  "author_credit_before": 3586,
+  "author_credit_after": 3598,
+  "duplicate_keys": 0,
+  "records_deleted": 0,
+  "history_rewritten": false
+}
