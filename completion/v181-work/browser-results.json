@@ -1,0 +1,139 @@
+{
+  "pass": true,
+  "version": "v181",
+  "sha256": "6a090e7e8108e37d1ec2ccf0b2ccbef88c54b04927d2d3f0bc1829bdfe4fd028",
+  "bytes": 6940562,
+  "cardsChecked": 1,
+  "contextsChecked": 2,
+  "generatedPassagesChecked": 2,
+  "uniqueFourOptionSets": true,
+  "clozeEligibilityUnchanged": true,
+  "progressStorageRestored": true,
+  "widths": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyScrollWidth": 360,
+      "pass": true
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyScrollWidth": 412,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyScrollWidth": 1280,
+      "pass": true
+    }
+  ],
+  "pageErrors": [],
+  "data": {
+    "counts": {
+      "vocabulary": 3914,
+      "grammar": 130,
+      "lexicalPairs": 859,
+      "meaningQuizEntries": 385
+    },
+    "id2433": {
+      "headword": "そびえる",
+      "reading": "そびえる",
+      "pos": [
+        "動詞"
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "sentence": "市の中心部には、高さ二百メートルの超高層ビルがそびえている。",
+          "quiz": {
+            "correct": "建物などが、周囲よりも非常に高く立っていること。",
+            "wrong": [
+              "建物などが、周囲よりも低い位置に建っていること。",
+              "建物などが、周囲と同じ高さで並んでいること。",
+              "建物などが、地面に沿って横に長く広がっていること。"
+            ],
+            "note": "У цьому реченні そびえる описує хмарочос, що височіє над навколишньою забудовою. Варіанти про нижче розташування, однакову висоту або горизонтальне поширення не відповідають образу високої споруди."
+          },
+          "unique": true,
+          "markedFound": true,
+          "markedSpans": [
+            "そびえて"
+          ],
+          "literalClozeAvailable": false
+        },
+        {
+          "index": 1,
+          "sentence": "雪をいただいた山々が、湖の向こうにそびえて見える。",
+          "quiz": {
+            "correct": "山などが、周囲よりも非常に高く立っていること。",
+            "wrong": [
+              "山などが、周囲よりも低く、谷のようにくぼんで見えること。",
+              "山などが、低く丸みを帯びた丘のように見えること。",
+              "山などが、周囲の地面と同じ高さで平らに続くこと。"
+            ],
+            "note": "Тут そびえる означає, що гори високо здіймаються над навколишньою місцевістю й виразно видніються за озером. Це не низина, невисокий пагорб або рівна поверхня."
+          },
+          "unique": true,
+          "markedFound": true,
+          "markedSpans": [
+            "そびえて"
+          ],
+          "literalClozeAvailable": false
+        }
+      ],
+      "generated": [
+        {
+          "seed": 0,
+          "passageText": "<div class=\"psent\">市の中心部には、高さ二百メートルの超高層ビルが<b>そびえて</b>いる。</div>",
+          "questionCount": 1,
+          "question": {
+            "prompt": "太字の語「そびえる」の意味として最も適切なものはどれか。",
+            "choices": [
+              "建物などが、地面に沿って横に長く広がっていること。",
+              "建物などが、周囲と同じ高さで並んでいること。",
+              "建物などが、周囲よりも非常に高く立っていること。",
+              "建物などが、周囲よりも低い位置に建っていること。"
+            ],
+            "answer": 2,
+            "explain": "そびえる：山や建物などが、非常に高く立っている。（височіти, здійматися） У цьому реченні そびえる описує хмарочос, що височіє над навколишньою забудовою. Варіанти про нижче розташування, однакову висоту або горизонтальне поширення не відповідають образу високої споруди."
+          },
+          "correct": "建物などが、周囲よりも非常に高く立っていること。",
+          "targetKey": "v:2433"
+        },
+        {
+          "seed": 0.999,
+          "passageText": "<div class=\"psent\">雪をいただいた山々が、湖の向こうに<b>そびえて</b>見える。</div>",
+          "questionCount": 1,
+          "question": {
+            "prompt": "太字の語「そびえる」の意味として最も適切なものはどれか。",
+            "choices": [
+              "山などが、周囲の地面と同じ高さで平らに続くこと。",
+              "山などが、低く丸みを帯びた丘のように見えること。",
+              "山などが、周囲よりも非常に高く立っていること。",
+              "山などが、周囲よりも低く、谷のようにくぼんで見えること。"
+            ],
+            "answer": 2,
+            "explain": "そびえる：山や建物などが、非常に高く立っている。（височіти, здійматися） Тут そびえる означає, що гори високо здіймаються над навколишньою місцевістю й виразно видніються за озером. Це не низина, невисокий пагорб або рівна поверхня."
+          },
+          "correct": "山などが、周囲よりも非常に高く立っていること。",
+          "targetKey": "v:2433"
+        }
+      ]
+    },
+    "cloze": {
+      "candidateCount": 705,
+      "beforeEligibility": [
+        false,
+        false
+      ],
+      "afterEligibility": [
+        false,
+        false
+      ],
+      "unchanged": true
+    },
+    "progressStorageRestored": true
+  }
+}

@@ -21,5 +21,18 @@
     "no new full-card credit",
     "author review is not independent acceptance"
   ],
-  "status": "pending deterministic preparation and Chromium verification"
+  "status": "verified; ready for publication to main",
+  "candidate_html": "JLPT_N1_ukrainian_reading_v181.html",
+  "candidate_sha256": "6a090e7e8108e37d1ec2ccf0b2ccbef88c54b04927d2d3f0bc1829bdfe4fd028",
+  "candidate_bytes": 6940562,
+  "meaning_quiz_entries_added": 1,
+  "context_payloads_added": 2,
+  "card_credit_changed": false,
+  "registry_counts": {
+    "reviewed": 3893,
+    "pending": 1892,
+    "fixed_rechecked": 59
+  },
+  "registry_total_objects": 5844,
+  "audit": "JLPT_N1_v181_audit.md"
 }

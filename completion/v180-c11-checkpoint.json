@@ -1,0 +1,53 @@
+{
+  "checkpoint": "v180-c11-cloze-diagnostics",
+  "created": "2026-11-13",
+  "base_main_sha": "0efb016eac498c35559b0f14a929360b8db46eb0",
+  "base_html": "JLPT_N1_ukrainian_reading_v179.html",
+  "base_html_sha256": "359490152e9d4c7ae86cc746e2b69d132922946767890bc7aa7be6f5cdef2ba8",
+  "previous_work_branch": "work/v179-c11-context-quiz-review",
+  "previous_work_head": "d55542503d39373084b8f9a6ec4fb361a9d27545",
+  "scope": [
+    "ID2433 そびえる meaning alternatives and cloze interaction",
+    "all 23 reading pools affected by proposed POS tags for ID255/327",
+    "ID1819 and ID359 eligibility side effects"
+  ],
+  "guardrails": [
+    "diagnostic only",
+    "no HTML changes",
+    "no POS or reading override changes",
+    "no learning mechanism changes",
+    "no progress/storage changes",
+    "no credit until explicit author review and browser recheck"
+  ],
+  "status": "diagnostics passed; awaiting manual source review and content-only proposal",
+  "diagnostics_sha256": "479e95f7f53287cd4ea2a9d1144e0e1d516731a2cc5f4c29dc76c2bc3cceb34a",
+  "changed_pools": 23,
+  "lost_eligibility": [
+    {
+      "id": 255,
+      "word": "直接",
+      "before": 6,
+      "after": 0
+    },
+    {
+      "id": 327,
+      "word": "浮気",
+      "before": 6,
+      "after": 2
+    },
+    {
+      "id": 1819,
+      "word": "内訳",
+      "before": 3,
+      "after": 2
+    }
+  ],
+  "gained_eligibility": [
+    {
+      "id": 359,
+      "word": "本気",
+      "before": 2,
+      "after": 3
+    }
+  ]
+}

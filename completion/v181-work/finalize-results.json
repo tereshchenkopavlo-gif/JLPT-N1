@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "candidate_sha256": "6a090e7e8108e37d1ec2ccf0b2ccbef88c54b04927d2d3f0bc1829bdfe4fd028",
+  "registry_counts": {
+    "reviewed": 3893,
+    "pending": 1892,
+    "fixed_rechecked": 59
+  },
+  "reviewed_meaning_quiz": 267,
+  "vocabulary_author_credit": "3385/3914",
+  "files_updated": [
+    "completion/review-register.csv",
+    "JLPT_N1_v181_audit.md",
+    "completion/v181-c11-review.tsv",
+    "completion/v181-acceptance.tsv",
+    "completion/v181-registry-results.json",
+    "completion/v180-c11-diagnostics.json",
+    "completion/v180-c11-checkpoint.json",
+    "completion/v180-c11-preaudit-notes.md"
+  ]
+}
