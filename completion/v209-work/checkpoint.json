@@ -56,7 +56,7 @@
   "pilot_files": {
     "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
   },
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v209 published in main; main HTML SHA-256 and byte count independently verified; PR #34 closed without merge",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -70,6 +70,18 @@
       "run_id": 43468295867,
       "conclusion": "failure",
       "failure": "Chromium assertion still expected 打ち立てる in the Ukrainian gloss, but this is in the similar-expression list for ID1417. No candidate was published. The ID1408 similar-expression assertion is corrected; ID1417 is now corrected too."
+    },
+    {
+      "attempt": 3,
+      "run_id": 43468638711,
+      "conclusion": "success",
+      "result": "deterministic build and registry pass; syntax checks pass; Chromium acceptance pass at 360/412/1280; storage round-trip/restored; zero page errors; exact-artifact publication and artifact upload pass"
+    },
+    {
+      "attempt": 4,
+      "run_id": 43468657256,
+      "conclusion": "failure_after_publication",
+      "failure": "A duplicate workflow run after successful publication encountered the already-advanced register baseline (v209 entries fixed_rechecked). No changes were published; do not rerun against the v208 baseline."
     }
   ],
   "corrected_browser_assertion": "ID1408 人手不足 and ID1417 打ち立てる are checked against VOCAB_DETAILS_BY_ID.s, not t or usage.",
@@ -77,5 +89,35 @@
   "candidate_bytes": 6948136,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "browser_results": "completion/v209-work/browser-results.json"
+  "browser_results": "completion/v209-work/browser-results.json",
+  "publication_commit": "8704efb8fa3a357c324ae8858f26b5e3869e7fe5",
+  "publication_html_blob": "e5c089298c45aaa82d693bab5a876c8cb28239fd",
+  "publication_sha256": "dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf",
+  "publication_bytes": 6948136,
+  "registry_after": {
+    "all": {
+      "reviewed": 3916,
+      "fixed_rechecked": 335,
+      "pending": 1596
+    },
+    "vocabulary": {
+      "reviewed": 3347,
+      "fixed_rechecked": 334,
+      "pending": 233
+    }
+  },
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 12,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  },
+  "pr_number": 34,
+  "pr_state": "closed_without_merge"
 }
