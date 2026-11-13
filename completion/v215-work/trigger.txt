@@ -3,3 +3,4 @@ retry after draft PR opened
 retry after Python tuple fix
 retry after exact ID1272 preimage fix
 retry after 19-card Chromium count fix
+retry after guarded publisher decode fix
