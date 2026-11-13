@@ -1,0 +1,56 @@
+{
+  "version": "v211",
+  "base_version": "v210",
+  "base_main_sha": "2934b17b1210583dd8de876bb0219133dee13b17",
+  "base_html_sha256": "ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474",
+  "base_html_blob": "aba56a2ff2b01a828c4bc1d9ae91f5936884ad00",
+  "base_html_bytes": 6948501,
+  "scope_ids": [
+    1471,
+    1477,
+    1479,
+    1484,
+    1485,
+    1486,
+    1487,
+    1489,
+    1493,
+    1496
+  ],
+  "fixed_rechecked_ids": [
+    1471,
+    1477,
+    1479,
+    1484,
+    1485,
+    1486,
+    1487,
+    1489,
+    1493,
+    1496
+  ],
+  "reviewed_ids": [],
+  "deferred_count": 2,
+  "expected_field_updates": 15,
+  "author_credit_before": 3693,
+  "author_credit_addition": 10,
+  "author_credit_after": 3703,
+  "pilot_v153_ids": [
+    1471,
+    1477,
+    1479,
+    1484,
+    1485,
+    1486,
+    1487,
+    1489,
+    1493,
+    1496
+  ],
+  "pilot_files": {
+    "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de",
+    "completion/v153-cards-1481-1520.tsv": "e2cc65cfc7cd035f667d76eb9639925d2dbc356e"
+  },
+  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch"
+}
