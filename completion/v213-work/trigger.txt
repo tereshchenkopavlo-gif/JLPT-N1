@@ -1,1 +1,1 @@
-Trigger v213 C10 deterministic build and Chromium acceptance; attempt 3 with sample-based gloss/usage visibility checks and debug artifact preservation.
+Trigger v213 C10 deterministic build and Chromium acceptance; attempt 4 with Japanese usage-sample visibility checks.
