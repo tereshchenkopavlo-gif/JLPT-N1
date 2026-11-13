@@ -9,5 +9,5 @@ id	word	reading	pos	decision	fields_changed	rationale
 1135	形態	けいたい	名詞	fixed_rechecked	exampleTranslations[1]	共同出資 means joint capital investment, not any shared financing.
 1139	継続	けいぞく	名詞	fixed_rechecked	exampleTranslations[0]	確かな成果 is better rendered as tangible/solid results.
 1140	警戒	けいかい	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize heightened vigilance regarding storm surge.
-1147	激減	げきげん	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Remove an unstated cause/rural-only assumption and broaden 宿泊業界 beyond hotels.
+1147	激減	げきげん	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Preserve the stated birth-rate cause, remove the rural-only assumption in 地方, and broaden 宿泊業界 beyond hotels.
 1148	激怒	げきど	名詞	fixed_rechecked	exampleTranslations[0]	呼びつける is a direct sharp summons, not a request to summon via an intermediary.
