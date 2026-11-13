@@ -1,0 +1,156 @@
+{
+  "pass": true,
+  "candidate_sha256": "75387f14bb77bfcc9f5d0ec224e5f4e6e14ba3d51465b0f435117d4f3af4351b",
+  "candidate_bytes": 6942092,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 565,
+      "word": "順調",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 557
+    },
+    {
+      "id": 571,
+      "word": "盛大",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 568
+    },
+    {
+      "id": 572,
+      "word": "積極的",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 878
+    },
+    {
+      "id": 579,
+      "word": "地味",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 559
+    },
+    {
+      "id": 586,
+      "word": "典型的",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 567
+    },
+    {
+      "id": 588,
+      "word": "独特",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 588
+    },
+    {
+      "id": 590,
+      "word": "否定的",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 950
+    },
+    {
+      "id": 593,
+      "word": "平気",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 949
+    },
+    {
+      "id": 595,
+      "word": "未熟",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 644
+    },
+    {
+      "id": 597,
+      "word": "無難",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 625
+    },
+    {
+      "id": 599,
+      "word": "無礼",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 498
+    },
+    {
+      "id": 609,
+      "word": "わりに",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 537
+    }
+  ],
+  "c11_pos_hold": {
+    "588": [
+      "ナ形"
+    ],
+    "599": [
+      "ナ形"
+    ]
+  },
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
