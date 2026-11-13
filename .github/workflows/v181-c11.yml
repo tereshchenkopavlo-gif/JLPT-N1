@@ -46,7 +46,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+actions@users.noreply.github.com"
-          git add JLPT_N1_ukrainian_reading_v181.html JLPT_N1_v181_audit.md completion/review-register.csv completion/v181-acceptance.tsv completion/v181-c11-review.tsv completion/v181-registry-results.json completion/v181-work completion/v180-c11-diagnostics.json completion/v180-c11-checkpoint.json completion/v180-c11-preaudit-notes.md
+          find completion/v181-work -type d -name __pycache__ -prune -exec rm -rf {} +
+          git add JLPT_N1_ukrainian_reading_v181.html JLPT_N1_v181_audit.md completion/review-register.csv completion/v181-acceptance.tsv completion/v181-c11-review.tsv completion/v181-registry-results.json completion/v181-work/apply.py completion/v181-work/browser.cjs completion/v181-work/finalize.py completion/v181-work/checkpoint.json completion/v181-work/source-review.md completion/v181-work/README.md completion/v181-work/prepare-results.json completion/v181-work/browser-results.json completion/v181-work/updates.json completion/v181-work/finalize-results.json completion/v180-c11-diagnostics.json completion/v180-c11-checkpoint.json completion/v180-c11-preaudit-notes.md
           if ! git diff --cached --quiet; then
             git commit -m "Save v181 verified evidence and C11 contextual review"
             git push origin HEAD:work/v181-c11-id2433-quiz-review
