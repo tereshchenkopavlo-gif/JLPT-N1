@@ -1,0 +1,31 @@
+{
+  "checkpoint": "v183-c10-pending-454-483",
+  "created": "2026-11-13",
+  "base_main_sha": "6f3618c750613a056ce3742ab21a22d1ed0310c6",
+  "base_html": "JLPT_N1_ukrainian_reading_v182.html",
+  "base_html_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
+  "scope": [
+    454,
+    455,
+    458,
+    459,
+    461,
+    464,
+    466,
+    470,
+    472,
+    477,
+    479,
+    483
+  ],
+  "plan": "Review first 12 pending vocab rows; fix only evidenced Ukrainian wording issues; keep Japanese examples and quiz dependencies unchanged.",
+  "guardrails": [
+    "no vocabulary/grammar/pair/ID removal",
+    "no POS or Japanese-example changes",
+    "no quiz target or algorithm changes",
+    "no user progress/storage changes",
+    "exact rollback to v182",
+    "author review distinct from independent/physical/provenance acceptance"
+  ],
+  "status": "candidate preparation and Chromium acceptance pending"
+}

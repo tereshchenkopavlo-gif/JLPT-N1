@@ -1,0 +1,60 @@
+name: JLPT N1 v183 C10 author review
+on:
+  push:
+    branches: [work/v183-c10-pending-454-483]
+    paths:
+      - 'completion/v183-work/trigger.txt'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v183-c10-454-483
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save v183 browser evidence')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v183-c10-pending-454-483
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce v183 from exact published v182 baseline
+        run: python3 completion/v183-work/apply.py
+      - name: Check script syntax
+        run: |
+          python3 -m py_compile completion/v183-work/apply.py
+          node --check completion/v183-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify edited cards, data invariants, storage and responsive layout
+        run: node completion/v183-work/browser.cjs
+      - name: Save candidate and browser evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v183.html completion/v183-work/prepare-results.json completion/v183-work/browser-results.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save v183 browser evidence for C10 cards 454-483"
+            git push origin HEAD:work/v183-c10-pending-454-483
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v183-c10-454-483-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v183.html
+            completion/v183-work/prepare-results.json
+            completion/v183-work/browser-results.json
+            completion/v183-work/source-review.md
+            completion/v183-work/checkpoint.json
+          if-no-files-found: warn
