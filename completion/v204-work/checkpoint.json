@@ -58,11 +58,41 @@
     "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729",
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v204 published and exact HTML blob verified in main; PR #29 closed without merge",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "candidate_sha256": "19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383",
   "candidate_bytes": 6945619,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "browser_results": "completion/v204-work/browser-results.json"
+  "browser_results": "completion/v204-work/browser-results.json",
+  "publication_commit": "5b1761135478984fdd142d68f68db3534db6d6be",
+  "publication_html_blob": "bd76db7823e4115a76b3dffa64162cef4ee6003c",
+  "publication_sha256": "19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383",
+  "publication_bytes": 6945619,
+  "registry_after": {
+    "all": {
+      "reviewed": 3915,
+      "fixed_rechecked": 276,
+      "pending": 1656
+    },
+    "vocabulary": {
+      "reviewed": 3346,
+      "fixed_rechecked": 275,
+      "pending": 293
+    }
+  },
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 12,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  },
+  "pr_number": 29,
+  "pr_state": "closed_without_merge"
 }
