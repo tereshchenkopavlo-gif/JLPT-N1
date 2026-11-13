@@ -1,1 +1,1 @@
-Run v186 C10 author review after source review, acceptance and deterministic preparer are in place. Trigger attempt 2, 2026-11-13T20:55:34+09:00.
+Run guarded v186 C10 author review with the workflow file present in both default and work branches. Trigger attempt 3, 2026-11-13T20:56:10+09:00.
