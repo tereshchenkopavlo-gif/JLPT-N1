@@ -100,7 +100,6 @@ jobs:
             completion/v215-acceptance.tsv
             completion/v215-c10-review.tsv
             completion/v215-field-changes.tsv
-            completion/v215-pair-review.tsv
             completion/v215-source-review.md
             completion/v215-work/checkpoint.json
             completion/v215-work/prepare-results.json
