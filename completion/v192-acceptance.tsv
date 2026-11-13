@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+815	圧倒	あっとう	名詞	fixed_rechecked	exampleTranslations[0]	Translate the company’s technological level/capability as surpassing competitors, not the competitors themselves.
+818	暗殺	あんさつ	名詞	fixed_rechecked	t; exampleTranslations[1]	Mark political/ideological motive as typical, not mandatory; preserve the targeted secret-killing sense without graphic detail.
+819	暗算	あんざん	名詞	fixed_rechecked	t	Make mental calculation the primary gloss; “oral arithmetic” can imply speaking numbers aloud.
+822	委託	いたく	名詞	fixed_rechecked	exampleTranslations[1]	Translate 第三者機関 as a third-party/outside organization, not necessarily independent.
+825	意義	いぎ	名詞	fixed_rechecked	exampleTranslations[1]	Preserve the mutual reaffirmation in 確認し合った.
+828	異動	いどう	名詞	fixed_rechecked	usage	Distinguish 異動 and 移動 as separate homophones, not alternate spellings.
+831	遺言	ゆいごん／いごん	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize 遺言に as “у заповіті”.
+839	一息	ひといき	名詞	fixed_rechecked	exampleTranslations[0]	Translate 一段落 as a stage/phase completed, not the whole undertaking.
+844	一連	いちれん	名詞	fixed_rechecked	m; exampleTranslations[1]	Remove tautology in 一連なり and simplify the procedural-sequence translation.
+845	逸品	いっぴん	名詞	fixed_rechecked	exampleTranslations[1]	Replace the unnatural “вклав усю старанність” with “виготовив із великою ретельністю”.
+855	閲覧	えつらん	名詞	fixed_rechecked	exampleTranslations[0]	Remove the cumbersome “доступ до перегляду”.
+856	援助	えんじょ	名詞	fixed_rechecked	usage	Use 人を援助する for the direct object and 人に援助を行う for the recipient marked by に.

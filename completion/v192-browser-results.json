@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "ebd6dfe16edb7367349a299e445797fd7309c0098855b07b46bf6fb4b1f1c54a",
+  "candidate_bytes": 6944306,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 815,
+      "word": "圧倒",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 591
+    },
+    {
+      "id": 818,
+      "word": "暗殺",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 626
+    },
+    {
+      "id": 819,
+      "word": "暗算",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 563
+    },
+    {
+      "id": 822,
+      "word": "委託",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1525
+    },
+    {
+      "id": 825,
+      "word": "意義",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 878
+    },
+    {
+      "id": 828,
+      "word": "異動",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 664
+    },
+    {
+      "id": 831,
+      "word": "遺言",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 547
+    },
+    {
+      "id": 839,
+      "word": "一息",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 530
+    },
+    {
+      "id": 844,
+      "word": "一連",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 915
+    },
+    {
+      "id": 845,
+      "word": "逸品",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 585
+    },
+    {
+      "id": 855,
+      "word": "閲覧",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 571
+    },
+    {
+      "id": 856,
+      "word": "援助",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1037
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
