@@ -1,1 +1,1 @@
-Trigger v181 C11 verification after removing tracked Python cache files and switching to in-memory syntax checks.
+Trigger v181 final evidence run with top-level copies referenced by the audit.
