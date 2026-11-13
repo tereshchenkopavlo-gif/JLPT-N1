@@ -1,1 +1,1 @@
-Retry v184 Chromium acceptance after fixing the test expectation map for reviewed unchanged cards 501 and 503.
+Retry v184 browser test with whitespace-normalized rendered text checks.

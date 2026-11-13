@@ -74,18 +74,20 @@ async function main(){
         const body=document.getElementById('cardDetailBody');
         const text=body.innerText;
         const d=VOCAB_DETAILS_BY_ID[String(id)];
+        const normalize=value=>String(value).replace(/\\s+/g,' ').trim();
         results.push({
           id,
           word:d.w,
-          titleVisible:text.includes(d.w),
-          translationVisible:text.includes(d.t),
-          examplesVisible:d.exampleTranslations.every(t=>text.includes(t)),
+          titleVisible:normalize(text).includes(normalize(d.w)),
+          translationVisible:normalize(text).includes(normalize(d.t)),
+          examplesVisible:d.exampleTranslations.every(t=>normalize(text).includes(normalize(t))),
           bodyTextLength:text.length
         });
       }
       return results;
     },IDS);
     assert.equal(rendered.length,12);
+    process.stdout.write('RENDERED CARD CHECK '+JSON.stringify(rendered)+'\\n');
     assert.equal(rendered.every(x=>x.titleVisible&&x.translationVisible&&x.examplesVisible),true,'one or more reviewed cards did not render all translations');
 
     const responsive=[];
