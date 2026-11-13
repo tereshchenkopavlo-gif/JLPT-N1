@@ -7,7 +7,7 @@ const bytes=fs.readFileSync(HTML),sha=crypto.createHash('sha256').update(bytes).
 assert.equal(sha,prepare.candidate_sha256);assert.equal(prepare.pass,true);assert.equal(prepare.exact_rollback,true);assert.equal(registry.pass,true);
 const IDS=[1408,1413,1415,1417,1419,1421,1423,1426,1427,1431,1436,1443];
 const EXPECTED={
- 1408:{word:'手薄',gloss:'人手不足',usage:'手薄な'},
+ 1408:{word:'手薄',similar:'人手不足',usage:'手薄な'},
  1413:{word:'受理',gloss:'офіційне прийняття'},
  1415:{word:'授与',translations:['Відзначаючи багаторічні наукові заслуги, університет присудив йому почесний докторський ступінь.']},
  1417:{word:'樹立',translations:['Партії правлячої коаліції поспішають узгодити формування стабільного уряду.'],gloss:'打ち立てる'},
@@ -27,7 +27,7 @@ async function main(){
   await page.goto(pathToFileURL(path.resolve(HTML)).href);
   const structural=await page.evaluate(()=>({vocab:DEFAULT_VOCAB.length,grammar:Object.keys(GRAMMAR_DETAILS_BY_ID).length,pairs:VOCAB_AUDITED_PAIRS.length,uniqueIds:new Set(DEFAULT_VOCAB.map(x=>Number(x.id))).size,allIdsPresent:DEFAULT_VOCAB.every(x=>VOCAB_DETAILS_BY_ID[String(x.id)]&&VOCAB_POS_BY_ID[String(x.id)])}));
   assert.deepEqual(structural,{vocab:3914,grammar:130,pairs:859,uniqueIds:3914,allIdsPresent:true});
-  const data=await page.evaluate(ids=>ids.map(id=>{const d=VOCAB_DETAILS_BY_ID[String(id)];return{id,word:d.w,gloss:d.t,usage:d.usage,definition:d.m,translations:d.exampleTranslations,examples:d.examples,pos:VOCAB_POS_BY_ID[String(id)]}}),IDS);
+  const data=await page.evaluate(ids=>ids.map(id=>{const d=VOCAB_DETAILS_BY_ID[String(id)];return{id,word:d.w,gloss:d.t,usage:d.usage,definition:d.m,similar:d.s,translations:d.exampleTranslations,examples:d.examples,pos:VOCAB_POS_BY_ID[String(id)]}}),IDS);
   for(const card of data){const e=EXPECTED[card.id];assert.equal(card.word,e.word);if(e.gloss)assert.ok((card.gloss+' '+card.usage).includes(e.gloss));if(e.usage)assert.ok(card.usage.includes(e.usage));if(e.translations)for(const t of e.translations)assert.ok(card.translations.includes(t));assert.deepEqual(card.pos,card.id===1408?['名詞','ナ形']:['名詞']);}
   const rendered=await page.evaluate(async ids=>{showView('cards');const out=[];for(const id of ids){await openCardDetail('v',id);const body=document.getElementById('cardDetailBody'),text=body.innerText,norm=x=>String(x).replace(/\s+/g,' ').trim(),d=VOCAB_DETAILS_BY_ID[String(id)];out.push({id,word:d.w,titleVisible:norm(text).includes(norm(d.w)),glossVisible:norm(text).includes(norm(d.t)),usageVisible:norm(text).includes(norm(d.usage)),translationsVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),examplesVisible:d.examples.every(x=>norm(text).includes(norm(x)))});}return out;},IDS);
   assert.equal(rendered.length,12);assert.equal(rendered.every(x=>x.titleVisible&&x.glossVisible&&x.usageVisible&&x.translationsVisible&&x.examplesVisible),true);
