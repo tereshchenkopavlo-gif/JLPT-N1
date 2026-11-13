@@ -1,1 +1,1 @@
-Trigger v199 C10 deterministic and Chromium acceptance after default-branch workflow installation; attempt 2.
+Trigger v199 C10 deterministic and Chromium acceptance after narrowing render visibility assertions to fields actually displayed; attempt 2.
