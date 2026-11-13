@@ -61,7 +61,7 @@
     "completion/v153-cards-1481-1520.tsv": "e2cc65cfc7cd035f667d76eb9639925d2dbc356e",
     "completion/v153-cards-1521-1560.tsv": "d206d88b12e53e4e0d110732c26de5075a48e601"
   },
-  "status": "attempt 1 failed before candidate generation on generated EXPECTED table; corrected exact identity/POS values; attempt 2 pending",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "attempts": [
     {
@@ -70,5 +70,10 @@
       "conclusion": "failure",
       "failure": "Python preparer stopped before candidate generation because the generated EXPECTED identity/POS table contained JSON null values. No candidate was produced or published. The table was regenerated from the exact v211 vocabulary and POS maps."
     }
-  ]
+  ],
+  "candidate_sha256": "a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5",
+  "candidate_bytes": 6949301,
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "browser_results": "completion/v212-work/browser-results.json"
 }

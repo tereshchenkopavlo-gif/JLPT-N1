@@ -1,0 +1,94 @@
+{
+  "pass": true,
+  "base_version": "v211",
+  "base_sha256": "c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68",
+  "candidate_version": "v212",
+  "candidate_sha256": "a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5",
+  "candidate_bytes": 6949301,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    1497,
+    1500,
+    1502,
+    1503,
+    1505,
+    1507,
+    1508,
+    1509,
+    1513,
+    1515,
+    1522
+  ],
+  "fixed_rechecked": [
+    1497,
+    1500,
+    1502,
+    1503,
+    1505,
+    1507,
+    1508,
+    1509,
+    1513,
+    1515,
+    1522
+  ],
+  "reviewed_without_change": [],
+  "deferred_count": 1,
+  "updated_fields": 15,
+  "changed_cards": [
+    1497,
+    1500,
+    1502,
+    1503,
+    1505,
+    1507,
+    1508,
+    1509,
+    1513,
+    1515,
+    1522
+  ],
+  "pair_updates": [
+    {
+      "index": 395,
+      "a": 1512,
+      "b": 1513,
+      "field": "note",
+      "before": "Обидва читаються しんこう і пов’язані з розвитком. 振興 — активне сприяння; 新興 — нове піднесення або новий впливовий учасник. Моделі: 産業を振興する; 新興企業. 観光を振興する。— Розвивати туризм. 新興企業が参入した。— На ринок вийшла нова перспективна компанія. 新興 не підставляють у модель 産業を振興する: це не назва тієї самої дії.",
+      "after": "Обидва читаються しんこう і пов’язані з розвитком. 振興 — активне сприяння; 新興 — нове піднесення або новий впливовий учасник. Моделі: 産業を振興する; 新興企業. 観光を振興する。— Розвивати туризм. 新興企業が参入した。— На ринок вийшла нова компанія, що набирає ваги. 新興 не підставляють у модель 産業を振興する: це не назва тієї самої дії."
+    }
+  ],
+  "changed_pairs": [
+    395
+  ],
+  "japanese_example_changes": [],
+  "japanese_definition_changes": [
+    {
+      "id": 1497,
+      "field": "m"
+    },
+    {
+      "id": 1503,
+      "field": "m"
+    }
+  ],
+  "author_credit_before": 3703,
+  "author_credit_addition": 11,
+  "author_credit_after": 3714,
+  "protected_unchanged": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_POS_BY_ID": true,
+    "REVIEWED_MEANING_QUIZZES": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true
+  },
+  "all_other_pairs_unchanged": true,
+  "exact_rollback": true,
+  "register_updated": true,
+  "author_review_only": true
+}
