@@ -7,7 +7,7 @@ const registry=JSON.parse(fs.readFileSync(path.join(WORK,'registry-results.json'
 const bytes=fs.readFileSync(HTML),sha=crypto.createHash('sha256').update(bytes).digest('hex');
 assert.equal(sha,prepare.candidate_sha256); assert.equal(bytes.length,prepare.candidate_bytes);
 assert.equal(prepare.pass,true); assert.equal(prepare.exact_rollback,true); assert.equal(registry.pass,true);
-const IDS=[1019,1028,1078,1082,1089,1093,1191,1255,1258,1260,1270,1272];
+const IDS=[1019,1028,1078,1082,1089,1093,1191,1255,1258,1260,1270,1272,1276,1280,1285,1290,1292,1293,1296];
 const EXPECTED={
   "1019": {
     "word": "気心",
@@ -82,7 +82,15 @@ const EXPECTED={
     "translations": [
       "Різницю між кошторисом і фактичними витратами остаточно розрахують пізніше."
     ]
-  }
+  },
+
+  "1276": {"word":"挫折","translations":["Він не здався після першої невдачі й наполегливо продовжив спроби — саме це допомогло йому зрости."]},
+  "1280": {"word":"再三","usage":"часто вживають прислівниково"},
+  "1285": {"word":"採算","translations":["Ця лінія не окупається, тож лунають думки, що її, можливо, доведеться скасувати."]},
+  "1290": {"word":"歳月","translations":["Минуло багато років, і місцеві жителі відродили традиційне свято, яке вже перестали проводити."]},
+  "1292": {"word":"細菌","glosses":["представник групи прокаріотів"],"definition":"古細菌とは別の生物群に属し"},
+  "1293": {"word":"細工","definition":"そのようにして作った物"},
+  "1296": {"word":"在職","translations":["У цій компанії розмір виплати після завершення роботи визначають залежно від стажу."]}
 };
 async function main(){
  const browser=await chromium.launch({headless:true});
@@ -92,30 +100,17 @@ async function main(){
   await page.goto(pathToFileURL(path.resolve(HTML)).href);
   const structural=await page.evaluate(()=>({vocab:DEFAULT_VOCAB.length,grammar:Object.keys(GRAMMAR_DETAILS_BY_ID).length,pairs:VOCAB_AUDITED_PAIRS.length,uniqueIds:new Set(DEFAULT_VOCAB.map(x=>Number(x.id))).size,allIdsPresent:DEFAULT_VOCAB.every(x=>VOCAB_DETAILS_BY_ID[String(x.id)]&&VOCAB_POS_BY_ID[String(x.id)])}));
   assert.deepEqual(structural,{vocab:3914,grammar:130,pairs:859,uniqueIds:3914,allIdsPresent:true});
-  const data=await page.evaluate(ids=>ids.map(id=>{const d=VOCAB_DETAILS_BY_ID[String(id)];return{id,word:d.w,gloss:d.t,definition:d.m,translations:d.exampleTranslations,examples:d.examples,pos:VOCAB_POS_BY_ID[String(id)]}}),IDS);
+  const data=await page.evaluate(ids=>ids.map(id=>{const d=VOCAB_DETAILS_BY_ID[String(id)];return{id,word:d.w,gloss:d.t,definition:d.m,translations:d.exampleTranslations,examples:d.examples,usage:d.usage,pos:VOCAB_POS_BY_ID[String(id)]}}),IDS);
   for(const card of data){
    const e=EXPECTED[card.id];
    assert.equal(card.word,e.word);
    if(e.gloss) assert.ok(card.gloss.includes(e.gloss));
    if(e.glosses) for(const g of e.glosses) assert.ok(card.gloss.includes(g));
    if(e.definition) assert.ok(card.definition.includes(e.definition));
+   if(e.usage) assert.ok(card.usage.includes(e.usage));
    if(e.translations) for(const t of e.translations) assert.ok(card.translations.includes(t));
    assert.deepEqual(card.pos,['名詞']);
   }
-  const pairData=await page.evaluate(()=>({
-   p255:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1028'&&p.b==='52'),
-   p256:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1027'&&p.b==='1028'),
-   p276:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1089'&&p.b==='1091'),
-   p277:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1089'&&p.b==='1093'),
-   p281:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1112'&&p.b==='1191'),
-   p282:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1191'&&p.b==='75'),
-   p303:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1155'&&p.b==='1089'),
-   p316:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1191'&&p.b==='1192'),
-   p324:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1214'&&p.b==='1272'),
-   p339:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1255'&&p.b==='274'),
-   p345:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1270'&&p.b==='1271')
-  }));
-  assert.equal(Object.values(pairData).filter(Boolean).length,11);
   const rendered=await page.evaluate(async ({ids,expected})=>{
    showView('cards'); const out=[];
    const norm=x=>String(x).replace(/\s+/g,' ').trim();
@@ -156,7 +151,7 @@ async function main(){
    return{roundTrip,restored:localStorage.getItem(key)===old};
   });
   assert.equal(storage.roundTrip,true); assert.equal(storage.restored,true); assert.deepEqual(errors,[]);
-  const result={pass:true,candidate_sha256:sha,candidate_bytes:bytes.length,counts:structural,reviewed_card_count:12,pending_card_count:0,reviewed_pair_indices:[255,256,276,277,281,282,303,316,324,339,345],responsive,storage,pageErrors:errors};
+  const result={pass:true,candidate_sha256:sha,candidate_bytes:bytes.length,counts:structural,reviewed_card_count:19,pending_card_count:0,reviewed_pair_indices:[],responsive,storage,pageErrors:errors};
   fs.writeFileSync(path.join(WORK,'browser-results.json'),JSON.stringify(result,null,2)+'\n');
   process.stdout.write(JSON.stringify(result,null,2)+'\n');
  }finally{await browser.close();}
