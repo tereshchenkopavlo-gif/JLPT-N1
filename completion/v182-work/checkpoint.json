@@ -1,0 +1,63 @@
+{
+  "checkpoint": "v182-c10-pos-reading-followup",
+  "created": "2026-11-13",
+  "base_main_sha": "d225ad1e5f023a776153394562287f4bff920cb5",
+  "base_html": "JLPT_N1_ukrainian_reading_v181.html",
+  "base_html_sha256": "32c6f482db1e98dd1f98deb0197324a037fbd1a1bae8d5dd4b4f7123f126da7f",
+  "work_branch": "work/v181-c11-id2433-quiz-review",
+  "previous_diagnostic": "completion/v180-c11-diagnostics.json",
+  "previous_diagnostic_sha": "de09cb7cd0fbc8f9f9201d6df257643765a6cc85",
+  "scope": [
+    "ID255 直接 POS correction to noun + adverb, not na-adjective",
+    "ID327 浮気 POS correction to noun + na-adjective",
+    "recompute all reading pools after corrected POS",
+    "assess manual overrides for ID255, ID327 and ID1819",
+    "verify ID359 本気 gained pool"
+  ],
+  "guardrails": [
+    "diagnostic only; no HTML or registry changes until author review",
+    "no card credit before full card recheck",
+    "do not use historical ふき as a wrong reading for modern 浮気",
+    "preserve all IDs, progress, learning code and Git history"
+  ],
+  "proposed_pos": {
+    "255": [
+      "名詞",
+      "副詞"
+    ],
+    "327": [
+      "名詞",
+      "ナ形"
+    ]
+  },
+  "proposed_reading_overrides": {
+    "255": {
+      "word": "直接",
+      "correct": "ちょくせつ",
+      "wrong": [
+        "ちょうせつ",
+        "ちょうせい",
+        "ちくせき"
+      ]
+    },
+    "327": {
+      "word": "浮気",
+      "correct": "うわき",
+      "wrong": [
+        "いしき",
+        "いせき",
+        "うつわ"
+      ]
+    },
+    "1819": {
+      "word": "内訳",
+      "correct": "うちわけ",
+      "wrong": [
+        "うちがわ",
+        "うつわ",
+        "うわき"
+      ]
+    }
+  },
+  "status": "pending corrected-POS browser diagnostic"
+}
