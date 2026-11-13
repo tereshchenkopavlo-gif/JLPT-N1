@@ -23,14 +23,23 @@ for rel in PUBLISH_PATHS:
   text=blob.decode("utf-8").replace("__V212_SHA256__",digest).replace("__V212_BYTES__",str(size))
   if rel=="README.md":
    text=text.replace("Актуальна **v211** у main після guarded-публікації. Кандидат v212 у work/v212-c10-next-pending.","Актуальна **v212** у main після guarded-публікації.")
+   text=text.replace("Кандидат v212:","Опубліковано v212:")
+   text=text.replace("completion/v211-","completion/v212-")
+   text=text.replace("JLPT_N1_v211","JLPT_N1_v212")
    text=text.replace("JLPT_N1_ukrainian_reading_v211.html","JLPT_N1_ukrainian_reading_v212.html")
    text=text.replace("JLPT_N1_v211_audit.md","JLPT_N1_v212_audit.md")
   elif rel=="PROJECT_STATUS.md":
-   text=text.replace("Актуальна **v211** у main. Кандидат **v212** у гілці work/v212-c10-next-pending, ще не опублікований.","Актуальна **v212** у main після guarded-публікації.")
+   text=text.replace("Оновлено 13 листопада 2026. Актуальна **v211** у main. Кандидат **v212** у гілці work/v212-c10-next-pending, ще не опублікований. Повний HTML v211 — 6948888 байти, SHA-256 c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68.","Оновлено 13 листопада 2026. Актуальна **v212** у main після guarded-публікації. Повний HTML — "+size+" байти, SHA-256 "+digest+". [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v212.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v212_audit.md).")
+   text=text.replace("Підготовлено 15 точних змін","Внесено 15 точних змін")
+   text=text.replace("Очікуваний авторський credit після приймання","Авторський credit після v212")
    text=text.replace("## Поточний кандидат v212 — C10 авторський аудит","## Опублікований випуск v212 — C10 авторський аудит")
    text=text.replace("Кандидат v212 ще не зібрано; після детермінованої перевірки й Chromium acceptance публікувати лише точні артефакти в main, робочу гілку не зливати.",f"Опублікований HTML v212: {size} байти, SHA-256 {digest}. Deterministic build, registry та Chromium acceptance успішні; робочу гілку не зливати.")
   elif rel=="completion/BACKLOG.md":
    text=text.replace("Поточний HTML — v211, SHA-256 c4e10162669b9b0634c9b04b9d1986895ec96d628a02514f2a9a2352989b5f68; початкова інвентаризація зафіксована на v135.",f"Поточний HTML — v212, SHA-256 {digest}; початкова інвентаризація зафіксована на v135.")
+   text=text.replace("v212 candidate:","v212 опубліковано:")
+ if rel=="JLPT_N1_v212_audit.md":
+  text=text.replace("Кандидат v212:","Опублікований v212:")
+  text=text.replace("## Межі",f"## Публікація\n\nОпубліковано в main із SHA-256 {digest}, {size} байт. Deterministic prepare, registry і Chromium acceptance успішні.\n\n## Межі")
  blob=blob if not (rel in {"JLPT_N1_v212_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md"}) else text.encode("utf-8")
  dst=wt/rel;dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(blob)
 run("git","config","user.name","github-actions[bot]",cwd=wt);run("git","config","user.email","41898282+users.noreply.github.com",cwd=wt)
