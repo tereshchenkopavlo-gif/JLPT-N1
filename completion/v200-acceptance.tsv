@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1075	虚偽	きょぎ	名詞	reviewed	—	The current translations preserve falsity without automatically asserting every legal element.
+1077	漁船	ぎょせん	名詞	fixed_rechecked	t;exampleTranslations[1]	The definition includes fish and shellfish; 見合わせる conveys a temporary postponement or refraining.
+1080	競走	きょうそう	名詞	reviewed	—	Speed competition is distinguished from broader 競争.
+1081	共鳴	きょうめい	名詞	reviewed	—	Physical resonance and figurative response to ideas are distinguished.
+1083	協議	きょうぎ	名詞	reviewed	—	Discussion aimed at agreement is not presented as an agreement already reached.
+1085	協定	きょうてい	名詞	reviewed	—	An agreement is distinguished from the specific international-law term 条約.
+1087	境地	きょうち	名詞	reviewed	—	Mental state and attained level of mastery/awareness are accurately represented.
+1088	境内	けいだい	名詞	reviewed	—	Temple/shrine precinct is distinguished from an approach path.
+1090	強豪	きょうごう	名詞	fixed_rechecked	exampleTranslations[1]	Describe the university as a leading force in athletics rather than merely having strong athletes.
+1092	強盗	ごうとう	名詞	reviewed	—	Neutral definitions and examples require no linguistic change.
+1094	教科	きょうか	名詞	reviewed	—	School subject is distinguished from a specific course/subject unit.
+1095	教訓	きょうくん	名詞	reviewed	—	Lessons learned from experience are conveyed naturally.
