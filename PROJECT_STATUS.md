@@ -1,13 +1,13 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v206** у main після guarded-публікації. Повний HTML — 6946631 байти, SHA-256 c2ec95102d848b728d352393863fbb4604b29dec864950529cd93f7a5b4c56fd. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v206.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v206_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v207** у main після guarded-публікації. Повний HTML — 6946934 байти, SHA-256 f27b47c33dd4b427cbdc36ac1a3f2b126a1656e36055d2598fc6a5bbcd5e526d. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v207.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v207_audit.md).
 
 ## Опублікований випуск v207 — C10 авторський аудит
 
 - Перевірено 12 pending-карток: ID1351, 1352, 1353, 1354, 1358, 1359, 1362, 1363, 1370, 1372, 1373, 1375. Для всіх є індивідуальні докази пілота v153.
-- Підготовлено 16 точних змін у 11 картках; ID1354 reviewed без зміни. Японські приклади не змінюються.
-- Очікуваний авторський credit після приймання — **3657/3914**. Реєстр після приймання: 3916 reviewed /311 fixed_rechecked /1620 pending; словниковий зріз — 3347 /310 /257.
-- Опублікований HTML v207: 6946934 байти, SHA-256 f27b47c33dd4b427cbdc36ac1a3f2b126a1656e36055d2598fc6a5bbcd5e526d. Deterministic build, registry та Chromium acceptance успішні; робочу гілку не зливати.
+- Внесено 16 точних змін у 11 картках; ID1354 reviewed без зміни. Японські приклади не змінювалися; уточнено три японські дефініції.
+- Авторський credit після приймання — **3657/3914**. Реєстр після v207: 3916 reviewed /311 fixed_rechecked /1620 pending; словниковий зріз — 3347 /310 /257.
+- Опублікований HTML v207: 6946934 байти, SHA-256 f27b47c33dd4b427cbdc36ac1a3f2b126a1656e36055d2598fc6a5bbcd5e526d, Git blob `8c20f18aeee4a4bf1200d1feb3374b93e200aa2c`; main commit `1da6fe0c932681294b1ad5a9789bd5ca610a0999`. Workflow run 43465490607 успішний; PR #32 закрито без злиття, робочу гілку збережено.
 - C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
 
 ## Опублікований випуск v206 — C10 авторський аудит
