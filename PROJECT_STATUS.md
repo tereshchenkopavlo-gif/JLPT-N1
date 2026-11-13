@@ -1,8 +1,21 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v186** у main. Повний HTML — 6,942,092 байти, SHA-256 75387f14bb77bfcc9f5d0ec224e5f4e6e14ba3d51465b0f435117d4f3af4351b. [Повний HTML](JLPT_N1_ukrainian_reading_v186.html) · [Аудит](JLPT_N1_v186_audit.md).
+Оновлено 13 листопада 2026. Актуальна **v187** у main після успішного guarded-приймання. Повний HTML — 6942301 байти, SHA-256 f321dd68a4beb1958031b000dd8eb94de9106cfc5e84041c4d70ca8cc0e67656. [Повний HTML](JLPT_N1_ukrainian_reading_v187.html) · [Аудит](JLPT_N1_v187_audit.md).
 
-## Поточний випуск v186 — C10 авторський аудит із двома C11-залежностями
+## Поточний випуск v187 — C10 авторський аудит із двома C11-залежностями
+
+- Повністю перечитано поля, японські приклади й українські переклади 12 карток: ID615, 616, 618, 624, 629, 644, 651, 654, 663, 664, 672, 674. **9 fixed_rechecked**, **1 reviewed без зміни** (624), **2 pending** (644, 663) через C11-перевірку POS/quiz-пулів.
+- Внесено **13 точних змін у 10 картках**. Японські приклади, POS-map, reading/meaning quiz payloads, targets, comparison pairs, learning engine та progress-storage code не змінювалися.
+- Авторський credit — **3439/3914**. Реєстр — 3906 reviewed /103 fixed_rechecked /1838 pending; словниковий зріз — 3337 /102 /475. Відкриті C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
+- Збережено 3914 словникових записів та унікальних ID, 130 граматичних конструкцій, 859 лексичних пар, 267 reviewed meaning quiz і 3 reviewed reading quiz.
+- Кандидат v187: **6942301 байти**, SHA-256 `f321dd68a4beb1958031b000dd8eb94de9106cfc5e84041c4d70ca8cc0e67656`. Детермінований preparer відтворив його з точного v186 SHA; 13 preimage-перевірок, exact rollback, незмінність захищених даних.
+- Chromium: усі 12 карток видимі; ширини 360/412/1280 без переповнення; storage round-trip/restored; page errors — 0. Машинні докази: completion/v187-prepare-results.json, completion/v187-browser-results.json, completion/v187-registry-results.json.
+- Докази v153 використано як гіпотези; усі поточні поля й приклади перечитано. ID644/663 залишено pending; POS не змінювався.
+- Наступні доступні C10 pending: **677, 683, 685, 687, 691, 692, 697, 701, 703, 706, 707, 708**. Робоча гілка наступного етапу — **work/v188-c10-next-pending**.
+
+v187 — проміжний випуск, не кандидат 1.0. C10/C11 не завершені. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
+
+## Архівований випуск v186 — C10 авторський аудит із двома C11-залежностями
 
 - Повністю перечитано всі поля, обидва японські приклади й українські переклади 12 pending-карток: ID565, 571, 572, 579, 586, 588, 590, 593, 595, 597, 599, 609. **10 fixed_rechecked**, **2 pending** (ID588, 599) через окрему C11-перевірку POS/quiz-пулів.
 - Внесено **10 точних змін у 10 картках**. Японські приклади, POS-map, reading/meaning quiz payloads, targets, comparison pairs, learning engine і progress-storage code не змінювалися.
@@ -13,7 +26,7 @@
 - Guarded push workflow зберіг результати через bot commit `11341f141733e162cfcf7c3b5c9623a2d4f8309f` після кроку `if: success()`. PR-triggered run 43424495483 мав `action_required` і не містив jobs; його не зараховано як успішний тест.
 - Докази: JLPT_N1_v186_audit.md, completion/v186-acceptance.tsv, completion/v186-c10-review.tsv, completion/v186-prepare-results.json, completion/v186-browser-results.json, completion/v186-registry-results.json, completion/v186-source-review.md.
 - Докази v153 використано як гіпотези; усі поточні поля й приклади перечитано. ID588/599 залишено pending; POS не змінювався.
-- Наступні доступні C10 pending: **615, 616, 618, 624, 629, 644, 651, 654, 663, 664, 672, 674**. Робоча гілка наступного етапу — **work/v187-c10-next-pending**.
+- На момент v186 наступною була партія ID615–674; її завершено у v187. Наступна робоча гілка — **work/v188-c10-next-pending**.
 
 v186 — проміжний випуск, не кандидат 1.0. C10/C11 не завершені. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
 
