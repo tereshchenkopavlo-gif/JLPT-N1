@@ -51,7 +51,7 @@
     905,
     906
   ],
-  "status": "v193 exact artifacts published and verified in main",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified paths only; never merge the work branch",
   "candidate_sha256": "e5876cbc6e1799bf5aa8e4d4c6a07ee6cde1a14ffbdf5605cc1359d8623141c8",
   "candidate_bytes": 6944593,
