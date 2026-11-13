@@ -9,5 +9,5 @@ id	word	reading	pos	decision	fields_changed	rationale
 1363	自首	じしゅ	名詞	fixed_rechecked	m;t;usage	Correct the statutory timing criterion: before the investigative authority learns of the crime itself.
 1370	辞任	じにん	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize taking responsibility for the situation surrounding allegations.
 1372	執行	しっこう	名詞	fixed_rechecked	usage	Distinguish 執行する from the compound 執行部 in the second example.
-1373	執着	しゅうちゃく	名詞	fixed_rechecked	t	Replace overly broad “stubbornness” with excessive attachment/clinging.
+1373	執着	しゅうちゃく／しゅうじゃく	名詞	fixed_rechecked	t	Replace overly broad “stubbornness” with excessive attachment/clinging.
 1375	失格	しっかく	名詞	fixed_rechecked	m;t	Define loss of qualification/ineligibility and separate noun from verb form.
