@@ -1,0 +1,8 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1077	漁船	ぎょせん	名詞	fixed_rechecked	t;exampleTranslations[1]	The definition includes fish and shellfish; 見合わせる conveys temporary postponement or refraining.
+1087	境地	きょうち	名詞	fixed_rechecked	s	Remove 境涯 from close-similar words; it belongs to life-circumstances vocabulary, not a close synonym of inner state.
+1088	境内	けいだい	名詞	fixed_rechecked	exampleTranslations[1]	杉 is Japanese cryptomeria/Japanese cedar, not a generic cedar.
+1090	強豪	きょうごう	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Avoid absolute “strongest”; render the university as a strong athletics team.
+1092	強盗	ごうとう	名詞	fixed_rechecked	examples[0]	Correct Japanese case/attachment with 事件について.
+1094	教科	きょうか	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize 得意な教科を伸ばす as developing strengths in school subjects.
+1095	教訓	きょうくん	名詞	fixed_rechecked	exampleTranslations[0]	Preserve the meaning of sharing lessons throughout the organization.
