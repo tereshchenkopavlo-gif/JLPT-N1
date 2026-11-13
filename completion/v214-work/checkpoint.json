@@ -47,10 +47,11 @@
     "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298",
     "completion/v153-cards-1641-1700.tsv": "f70be41472f9f2f2bac2e284526cf88516f44f0f"
   },
-  "status": "author review prepared; main docs corrected to v213 current / v214 candidate; browser Node EXPECTED scope bug fixed; deterministic build pending",
+  "status": "v213 is current; v214 candidate metadata corrected; browser expected scope fixed; publisher guard updated; workflow trigger pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_guard": "5a032f11acd61b5bb49a70ab269e37a4ef8ab536",
   "pr_number": null,
   "attempts": [],
-  "current_main_head_before_run": "b1e504836fa8d3f4adb1b0e14b4bbbf143ed6275"
+  "current_main_head_before_run": "b1e504836fa8d3f4adb1b0e14b4bbbf143ed6275",
+  "main_guard_after_metadata": "c0ead25c29a9cc7409900cf5f58c8024cd6fff4f"
 }
