@@ -1,0 +1,14 @@
+id	field	before	after	reason
+1632	t	взаємний; такий, що діє між двома або кількома сторонами	взаємність; взаємний, обопільний	Separate the noun sense from the adjective-like use in 相互の.
+1635	t	загальні збори, пленарне засідання	загальні збори організації	Do not equate 総会 with any plenary session.
+1637	t	трав'янисті квіти, трави й квіти	квіткові трав’янисті рослини; трави й квіти	Use the natural botanical gloss and preserve both dictionary senses.
+1651	t	матеріальна чи інша шкода, що підлягає оцінці або відшкодуванню	шкода, збитки	Remove an unsupported condition of assessment/compensation.
+1654	m	対立する双方が、互いに譲り合って折り合いをつけること。	対立する双方が、互いに譲り合って折り合いをつけること。また、自分の要求や基準を譲ること。	Include the established use of compromising one's own standards or demands.
+1666	exampleTranslations[1]	Орендареві запропонували виїхати через тривалу заборгованість з орендної плати.	Через тривалу заборгованість з орендної плати орендареві висунули вимогу звільнити помешкання.	Preserve the force of 退去を求められた.
+1675	exampleTranslations[1]	Домовилися перейти до узгодження деталей, визначивши основні положення переговорів.	З’ясувавши загальний напрям переговорів, домовилися перейти до узгодження деталей.	Avoid implying that 大筋 means procedural provisions.
+1676	t	велика сума, велика партія (угода), великі обсяги	великий рот; хвастощі, самовпевнені слова; велика сума або обсяг угоди чи замовлення	Cover the literal, boastful, and transaction senses in the Japanese definition.
+1679	m	力や地位が大きい人物。また、大きな獲物。	力や地位が大きい人物。また、大きな物や獲物。	Add the large-object sense already present in the Ukrainian gloss.
+1679	exampleTranslations[1]	Він привертає увагу як новачок, у якому вже відчувається масштаб майбутнього майстра.	Він привертає увагу як новачок, що вже має поставу впливової постаті.	Remove the unsupported future-master prediction from 風格をそなえた.
+1682	exampleTranslations[0]	Керівника компанії офіційно звинуватили за підозрою в ухиленні від податків на величезну суму.	На керівника компанії подали заяву до правоохоронних органів за підозрою у масштабному ухиленні від сплати податків.	Reflect the procedural meaning of 告発, not a formal charge.
+1688	m	心身や技術を、繰り返し鍛えて磨くこと。	心身や技術を、繰り返し鍛えて磨くこと。また、金属を打ち鍛えること。	Include the literal metal-forging sense.
+1690	t	пружність, еластичність	пружність, еластичність; переносно — гнучкість у пристосуванні до обставин	Include figurative adaptability/flexibility.
