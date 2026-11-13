@@ -1,0 +1,136 @@
+{
+  "pass": true,
+  "candidate_sha256": "0cc48969700d238c27e7c3d4f18773ab31508257b0b11a544e5b15f83a178042",
+  "candidate_bytes": 6941965,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 525,
+      "word": "抜ける",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 578
+    },
+    {
+      "id": 530,
+      "word": "埋める",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1410
+    },
+    {
+      "id": 533,
+      "word": "誘う",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1086
+    },
+    {
+      "id": 540,
+      "word": "冷やす",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 539
+    },
+    {
+      "id": 541,
+      "word": "励ます",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 969
+    },
+    {
+      "id": 544,
+      "word": "いい加減",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 976
+    },
+    {
+      "id": 547,
+      "word": "気楽",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1059
+    },
+    {
+      "id": 549,
+      "word": "気軽",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1392
+    },
+    {
+      "id": 550,
+      "word": "わがまま",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 580
+    },
+    {
+      "id": 552,
+      "word": "確か",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 906
+    },
+    {
+      "id": 557,
+      "word": "結構",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 556
+    },
+    {
+      "id": 563,
+      "word": "手軽",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1347
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
