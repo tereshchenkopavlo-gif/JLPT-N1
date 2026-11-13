@@ -60,11 +60,24 @@
     "completion/v153-cards-1181-1280.tsv": "d3e932a9cb0d22ed436f68a80354104e6a960729",
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "19-card author review reconciled; deterministic build, registry, Chromium acceptance and guarded publication pending",
+  "status": "reconciled 19-card scope; exact preimage correction applied; deterministic build and Chromium acceptance pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_guard": "59e621fed204052574e2349752c338fab17598e8",
   "pr_number": null,
-  "attempts": [],
+  "attempts": [
+    {
+      "run_id": 43490912169,
+      "status": "failed",
+      "stage": "deterministic_build",
+      "reason": "UPDATES list lacked a comma after ID1272; fixed in branch commit 57c7de16352198cf385baa5a69c9be9af31357f5."
+    },
+    {
+      "run_id": 43491041736,
+      "status": "failed",
+      "stage": "preimage_validation",
+      "reason": "BASE_EXAMPLES for ID1272 used ASCII full stop; exact Japanese punctuation restored after comparison with v214 HTML."
+    }
+  ],
   "japanese_definition_changes": [
     1292,
     1293
