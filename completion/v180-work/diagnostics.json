@@ -203,7 +203,69 @@
         ]
       },
       "reviewedExampleTargets": [],
-      "kanaExampleTargets": [],
+      "kanaExampleTargets": {
+        "byId": [],
+        "byWord": {
+          "市の中心部には、高さ二百メートルの超高層ビルがそびえている。": "そびえて",
+          "雪をいただいた山々が、湖の向こうにそびえて見える。": "そびえて"
+        }
+      },
+      "meaningSimulation": {
+        "beforeCloze": [
+          {
+            "literal": false,
+            "marked": {
+              "s": "市の中心部には、高さ二百メートルの超高層ビルが\u0001そびえて\u0002いる。",
+              "found": true
+            }
+          },
+          {
+            "literal": false,
+            "marked": {
+              "s": "雪をいただいた山々が、湖の向こうに\u0001そびえて\u0002見える。",
+              "found": true
+            }
+          }
+        ],
+        "afterCloze": [
+          {
+            "literal": false,
+            "marked": {
+              "s": "市の中心部には、高さ二百メートルの超高層ビルが\u0001そびえて\u0002いる。",
+              "found": true
+            }
+          },
+          {
+            "literal": false,
+            "marked": {
+              "s": "雪をいただいた山々が、湖の向こうに\u0001そびえて\u0002見える。",
+              "found": true
+            }
+          }
+        ],
+        "simulatedMeaning": [
+          {
+            "correct": "高層の建物などが、周囲より高く立ち、ひときわ目立つこと。",
+            "wrong": [
+              "高層の建物などが、周囲より低い位置に沈み込んでいること。",
+              "高層の建物などが、地面に沿って横に長く広がっていること。",
+              "高層の建物などが、周囲と同じ高さで平らに続いていること。"
+            ],
+            "note": "そびえる — височіти, здійматися. У цьому реченні йдеться про дуже високу будівлю, що виразно підноситься над міським оточенням; це не про заглиблення, горизонтальне поширення чи рівну забудову."
+          },
+          {
+            "correct": "山などが、周囲より高く立ち、遠くからも目立って見えること。",
+            "wrong": [
+              "山などが、周囲より低く沈み、谷のように見えること。",
+              "山などが、なだらかな斜面となって横に広がって見えること。",
+              "山などが、風雨に削られて低くなっていること。"
+            ],
+            "note": "そびえる — височіти. Тут ідеться про гори, які помітно здіймаються над місцевістю за озером; не про долину, пологий схил чи результат руйнування."
+          }
+        ],
+        "clozeUnchanged": true,
+        "exampleTargetsUnchanged": true
+      },
       "clozeCandidateCount": 705
     },
     "id2433FunctionSources": {
@@ -211,7 +273,25 @@
       "clozeWordCandidates": "function clozeWordCandidates(item) {\n  if(item.kind!=='v')return [];\n  const pos=vocabPartOfSpeech(item.id).join('|');\n  return [...new Set(ACTIVE_VOCAB.filter(v=>v.id!==item.word.id&&VOCAB_DETAILS_BY_ID[v.id]&&vocabPartOfSpeech(v.id).join('|')===pos&&!/[〜～・／/]/.test(v.w)).map(v=>v.w))];\n}",
       "literalClozeAvailable": "function literalClozeAvailable(sentence,item,engine) {\n  if(item.kind!=='v'||/[〜～・／/]/.test(item.word.w))return false;\n  const marked=engine.markTarget(sentence,item.kind,item.word.w);\n  const spans=[...marked.s.matchAll(/\\u0001([^\\u0002]*)\\u0002/g)].map(m=>m[1]);\n  return marked.found&&spans.length===1&&spans[0]===item.word.w;\n}",
       "markTarget": "markTarget(sentence, kind, word) {\n    const exact = reviewedExampleTarget(sentence, kind, word);\n    if (exact) {\n      let result='', cursor=0;\n      for (const form of exact.forms) {\n        const idx=sentence.indexOf(form,cursor);\n        if (idx < 0) return {s:sentence,found:false};\n        result+=sentence.slice(cursor,idx)+'\\u0001'+form+'\\u0002';\n        cursor=idx+form.length;\n      }\n      return {s:result+sentence.slice(cursor),found:true};\n    }\n\n    // Bind each reviewed inflection to its complete source example. A changed\n    // sentence must be reviewed again; never match a short stem in arbitrary text.\n    const reviewed = kind === 'v' && VOCAB_KANA_EXAMPLE_TARGETS[word];\n    const form = reviewed && Object.prototype.hasOwnProperty.call(reviewed, sentence) ? reviewed[sentence] : null;\n    if (form) {\n      const idx = sentence.indexOf(form);\n      if (idx >= 0) return { s: sentence.slice(0, idx) + '\\u0001' + form + '\\u0002' + sentence.slice(idx + form.length), found: true };\n    }\n    let pieces;\n    if (kind === 'g') pieces = word.replace(/^[〜～]/, '').split(/[〜～…・／\\/（）()]/).map(s => s.trim()).filter(Boolean);\n    else pieces = word.replace(/^[〜～]/, '').split('・').filter(Boolean);\n    let s = sentence, found = false;\n    for (const piece of pieces) {\n      let cand = piece, idx = s.indexOf(cand);\n      while (idx < 0 && /[一-鿿]/.test(cand) && cand.length > 2 && /[぀-ゟ]$/.test(cand)) { cand = cand.slice(0, -1); idx = s.indexOf(cand); }\n      if (idx < 0 && cand.length === 2 && /[぀-ゟ]$/.test(cand) && /[一-鿿]/.test(cand[0])) { cand = cand[0]; idx = s.indexOf(cand); }\n      if (idx >= 0) { s = s.slice(0, idx) + '\\u0001' + cand + '\\u0002' + s.slice(idx + cand.length); found = true; }\n    }\n    return { s, found };\n  }",
-      "getDefinition": "getDefinition(word, kind = 'v', id = null) {\n    if (kind === 'v') word=canonicalVocabLabel(word);\n    const cleanWord = word.replace(/^[〜～]/, '');\n    \n    // 文法項目（kind === 'g'）\n    if (kind === 'g') {\n      if (id && GRAMMAR_DETAILS_BY_ID[id]) {\n        return GRAMMAR_DETAILS_BY_ID[id];\n      }\n      const matchedGrammar = GRAMMAR.find(g => {\n        if (id && String(g.id) === String(id)) return true;\n        const gw = (g.w || '').replace(/^[〜～]/, '');\n        return g.w === word || gw === cleanWord;\n      });\n      if (matchedGrammar && GRAMMAR_DETAILS_BY_ID[matchedGrammar.id]) {\n        return GRAMMAR_DETAILS_BY_ID[matchedGrammar.id];\n      }\n      const gItem = matchedGrammar || { c: '文法表現', g: '重要', w: word };\n      return {\n        m: `N1文法「${word}」（分類：${gItem.c}・p.${gItem.g}）。主に論説文・評論文・公式文書で用いられる重要文法。`,\n        t: `японський граматичний зворот (${cleanWord})`,\n        s: ['文法機能語'],\n        examples: [\n          `本件の重大な影響を鑑みれば、いかなる反対があろうとも<b>${word}</b>、責任ある決断を下さねばならない。`,\n          `長年にわたる詳細な現地調査の結果を踏まえた上で、<b>${word}</b>慎重な対応が強く求められている。`\n        ]\n      };\n    }\n\n    // 語彙項目（kind === 'v'）\n    if (id && VOCAB_DETAILS_BY_ID[id] && VOCAB_DETAILS_BY_ID[id].w === word) {\n      const d = VOCAB_DETAILS_BY_ID[id];\n      return { m: d.m, t: d.t, s: d.s, examples: d.examples, usage: d.usage };\n    }\n\n    if (SPECIAL_VOCAB_DICT[word]) {\n      const b = SPECIAL_VOCAB_DICT[word];\n      return {\n        m: b.m,\n        t: b.t,\n        s: ['重要語彙'],\n        examples: [\n          `市場環境が激変する中で、今回の戦略において「${word}」が果たす役割は極めて大きい。`,\n          `組織改革を迅速に推進するためには、「${word}」に対する共通の理解を深めることが不可欠だ。`\n        ]\n      };\n    }\n\n    const vocabItem = ACTIVE_VOCAB.find(v => (id && String(v.id) === String(id)) || v.w === word);\n    const cat = vocabItem ? (vocabItem.c || '') : '';\n\n    // カタカナ語の自動判定\n    const isKatakana = /^[\\u30A0-\\u30FF\\u30FC]+$/.test(word);\n    if (isKatakana || cat.includes('カタカナ')) {\n      return {\n        m: `外来語・国際文脈において広く定着している重要カタカナ語。`,\n        t: `${word.toLowerCase()}`,\n        s: ['外来語', 'カタカナ表現'],\n        examples: [\n          `グローバルな市場競争の中で、組織の「${word}」を最大限に引き出す戦略が求められている。`,\n          `既存の枠組みにとらわれず、新たな「${word}」を取り入れることで業務の効率化を図る。`\n        ]\n      };\n    }\n\n    let meaningDesc = `論説・評論文・ビジネスなどの公的文脈において高頻度で用いられるN1重要語。`;\n    let transDesc = `${word}`;\n    let ex1 = `激変する国際情勢の中で、本件における「${word}」を巡る慎重な対応が求められている。`;\n    let ex2 = `従来の固定観念にとらわれることなく、「${word}」の長期的影響を見極めるべきだ。`;\n\n    if (cat.includes('動詞')) {\n      meaningDesc = `動作や作用、状態の変化を表す動詞表現。`;\n      transDesc = `to ${word}`;\n      ex1 = `いかなる困難が立ちはだかろうとも、最後まで責任を${word}覚悟が必要だ。`;\n      ex2 = `複雑に絡み合う利害関係を${word}ことこそが、組織全体の信頼回復につながる。`;\n    } else if (cat.includes('形容詞')) {\n      meaningDesc = `事物の状態や人の感情・性質を修飾する表現。`;\n      transDesc = `${word} (adjective)`;\n      ex1 = `表面的な数値のみに安住せず、現場を取り巻く${word}現状を直視しなければならない。`;\n      ex2 = `長年の弛まぬ研鑽と組織改革の成果が、ここにきて${word}変化として現れ始めている。`;\n    } else if (cat.includes('副詞') || cat.includes('オノマトペ')) {\n      meaningDesc = `状態や程度、心理的なニュアンスを生き生きと修飾する表現。`;\n      transDesc = `${word} (adverb)`;\n      ex1 = `周囲の反対意見を${word}押し切ってまで、新規事業への投資に踏み切った。`;\n      ex2 = `予断を許さない緊迫した状況の中、状況の変化を${word}注視し続けた。`;\n    }\n\n    return {\n      m: meaningDesc,\n      t: transDesc,\n      s: ['関連語彙'],\n      examples: [ex1, ex2]\n    };\n  }"
+      "getDefinition": "getDefinition(word, kind = 'v', id = null) {\n    if (kind === 'v') word=canonicalVocabLabel(word);\n    const cleanWord = word.replace(/^[〜～]/, '');\n    \n    // 文法項目（kind === 'g'）\n    if (kind === 'g') {\n      if (id && GRAMMAR_DETAILS_BY_ID[id]) {\n        return GRAMMAR_DETAILS_BY_ID[id];\n      }\n      const matchedGrammar = GRAMMAR.find(g => {\n        if (id && String(g.id) === String(id)) return true;\n        const gw = (g.w || '').replace(/^[〜～]/, '');\n        return g.w === word || gw === cleanWord;\n      });\n      if (matchedGrammar && GRAMMAR_DETAILS_BY_ID[matchedGrammar.id]) {\n        return GRAMMAR_DETAILS_BY_ID[matchedGrammar.id];\n      }\n      const gItem = matchedGrammar || { c: '文法表現', g: '重要', w: word };\n      return {\n        m: `N1文法「${word}」（分類：${gItem.c}・p.${gItem.g}）。主に論説文・評論文・公式文書で用いられる重要文法。`,\n        t: `японський граматичний зворот (${cleanWord})`,\n        s: ['文法機能語'],\n        examples: [\n          `本件の重大な影響を鑑みれば、いかなる反対があろうとも<b>${word}</b>、責任ある決断を下さねばならない。`,\n          `長年にわたる詳細な現地調査の結果を踏まえた上で、<b>${word}</b>慎重な対応が強く求められている。`\n        ]\n      };\n    }\n\n    // 語彙項目（kind === 'v'）\n    if (id && VOCAB_DETAILS_BY_ID[id] && VOCAB_DETAILS_BY_ID[id].w === word) {\n      const d = VOCAB_DETAILS_BY_ID[id];\n      return { m: d.m, t: d.t, s: d.s, examples: d.examples, usage: d.usage };\n    }\n\n    if (SPECIAL_VOCAB_DICT[word]) {\n      const b = SPECIAL_VOCAB_DICT[word];\n      return {\n        m: b.m,\n        t: b.t,\n        s: ['重要語彙'],\n        examples: [\n          `市場環境が激変する中で、今回の戦略において「${word}」が果たす役割は極めて大きい。`,\n          `組織改革を迅速に推進するためには、「${word}」に対する共通の理解を深めることが不可欠だ。`\n        ]\n      };\n    }\n\n    const vocabItem = ACTIVE_VOCAB.find(v => (id && String(v.id) === String(id)) || v.w === word);\n    const cat = vocabItem ? (vocabItem.c || '') : '';\n\n    // カタカナ語の自動判定\n    const isKatakana = /^[\\u30A0-\\u30FF\\u30FC]+$/.test(word);\n    if (isKatakana || cat.includes('カタカナ')) {\n      return {\n        m: `外来語・国際文脈において広く定着している重要カタカナ語。`,\n        t: `${word.toLowerCase()}`,\n        s: ['外来語', 'カタカナ表現'],\n        examples: [\n          `グローバルな市場競争の中で、組織の「${word}」を最大限に引き出す戦略が求められている。`,\n          `既存の枠組みにとらわれず、新たな「${word}」を取り入れることで業務の効率化を図る。`\n        ]\n      };\n    }\n\n    let meaningDesc = `論説・評論文・ビジネスなどの公的文脈において高頻度で用いられるN1重要語。`;\n    let transDesc = `${word}`;\n    let ex1 = `激変する国際情勢の中で、本件における「${word}」を巡る慎重な対応が求められている。`;\n    let ex2 = `従来の固定観念にとらわれることなく、「${word}」の長期的影響を見極めるべきだ。`;\n\n    if (cat.includes('動詞')) {\n      meaningDesc = `動作や作用、状態の変化を表す動詞表現。`;\n      transDesc = `to ${word}`;\n      ex1 = `いかなる困難が立ちはだかろうとも、最後まで責任を${word}覚悟が必要だ。`;\n      ex2 = `複雑に絡み合う利害関係を${word}ことこそが、組織全体の信頼回復につながる。`;\n    } else if (cat.includes('形容詞')) {\n      meaningDesc = `事物の状態や人の感情・性質を修飾する表現。`;\n      transDesc = `${word} (adjective)`;\n      ex1 = `表面的な数値のみに安住せず、現場を取り巻く${word}現状を直視しなければならない。`;\n      ex2 = `長年の弛まぬ研鑽と組織改革の成果が、ここにきて${word}変化として現れ始めている。`;\n    } else if (cat.includes('副詞') || cat.includes('オノマトペ')) {\n      meaningDesc = `状態や程度、心理的なニュアンスを生き生きと修飾する表現。`;\n      transDesc = `${word} (adverb)`;\n      ex1 = `周囲の反対意見を${word}押し切ってまで、新規事業への投資に踏み切った。`;\n      ex2 = `予断を許さない緊迫した状況の中、状況の変化を${word}注視し続けた。`;\n    }\n\n    return {\n      m: meaningDesc,\n      t: transDesc,\n      s: ['関連語彙'],\n      examples: [ex1, ex2]\n    };\n  }",
+      "quizReadingOptions": "function quizReadingOptions(item) {\n  const v=item.word;\n  if(item.kind!=='v'||!v.r||!/^[ぁ-ゟー]+$/.test(v.r)||!/[一-鿿]/.test(v.w)||/[〜～・／/]/.test(v.w))return [];\n  const reviewed=REVIEWED_READING_OPTIONS[String(item.id)];\n  if(reviewed && reviewed.word===v.w && reviewed.correct===v.r)return reviewed.wrong.slice();\n  const frame=readingFrame(v.w),pos=vocabPartOfSpeech(v.id).join('|');\n  const prefix=(v.w.match(/^[ぁ-ゟー]+/)||[''])[0],tail=(v.w.match(/[ぁ-ゟー]+$/)||[''])[0];\n  if(prefix&&!v.r.startsWith(prefix)||tail&&!v.r.endsWith(tail))return [];\n  const core=v.r.slice(prefix.length,tail.length?-tail.length:undefined);\n  const candidates=ACTIVE_VOCAB.filter(x=>x.id!==v.id&&x.r!==v.r&&/^[ぁ-ゟー]+$/.test(x.r||'')&&readingFrame(x.w)===frame&&vocabPartOfSpeech(x.id).join('|')===pos&&Math.abs(x.r.length-v.r.length)<=1&&(!prefix||x.r.startsWith(prefix))&&(!tail||x.r.endsWith(tail)))\n    .map(x=>({r:x.r,d:readingDistance(core,x.r.slice(prefix.length,tail.length?-tail.length:undefined))})).filter(x=>x.d>0&&x.d<=2).sort((a,b)=>a.d-b.d||a.r.localeCompare(b.r));\n  return [...new Set(candidates.map(x=>x.r))].slice(0,6);\n}"
+    },
+    "readingOverrides": {
+      "count": 1,
+      "sample": [
+        [
+          "3005",
+          {
+            "word": "著しい",
+            "correct": "いちじるしい",
+            "wrong": [
+              "いちずるしい",
+              "いちじらしい",
+              "いちじろしい"
+            ]
+          }
+        ]
+      ]
     },
     "readingPools": {
       "changedPoolCount": 23,
