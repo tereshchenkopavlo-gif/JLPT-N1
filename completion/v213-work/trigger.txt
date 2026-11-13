@@ -1,1 +1,1 @@
-Trigger v213 C10 deterministic build and Chromium acceptance; attempt 1. POS change for ID1631 is intentionally deferred after exercise-pool diagnostic; no POS or learning-logic mutation.
+Trigger v213 C10 deterministic build and Chromium acceptance; attempt 2 with per-card render diagnostics and wait for DOM updates.
