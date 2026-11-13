@@ -24,3 +24,15 @@ The v180 diagnostic reproduces the current `quizReadingOptions` function with th
 ## Cloze and data boundaries
 
 The existing cloze algorithm is unchanged. Exact candidate counts for the four affected targets are recorded in `v182-prepare-results.json`; all remain comfortably above the minimum of three. Both examples for ID255 and ID327 retain literal cloze eligibility. The three manual reading overrides and two POS/usage field corrections do **not** grant full-card credit. No vocabulary, grammar, lexical-pair, ID, example, user-progress or storage record is removed or migrated. This is author review, not independent acceptance.
+
+
+## NINJAL cross-check and app-specific POS decision
+
+An additional authoritative source was checked after the initial Daijisen review:
+
+- NINJAL CHOKUSETSU: https://mmsrv.ninjal.ac.jp/kamus/data/item315.html — labels 直接 as 名・副 and distinguishes 直接的 as 形動.
+- Shogakukan Digital Daijisen via Kotobank: https://kotobank.jp/word/%E7%9B%B4%E6%8E%A5-569297 — labels 直接 as 名・形動, gives 直接な（の）交渉, and notes adverbial use.
+
+These are differing but valid dictionary classifications, not evidence that one source is simply wrong. The app keeps the explicit 名詞 + ナ形 tag because Daijisen supplies a direct attributive example and the existing usage note also records adverbial use. A separate browser simulation tests adding 副詞 as a third tag. The app's cloze candidate pool falls below the minimum three when that extra tag is applied, so it is not adopted in this release; adverbial use remains documented in the usage note. This is an app-specific compatibility decision, not a universal claim that 直接 cannot be adverbial.
+
+The v182 browser regression records the exact current and hypothetical cloze counts and the reading-pool impact of the hypothetical third tag. No learning algorithm is changed.
