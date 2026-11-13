@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1351	歯科	しか	名詞	fixed_rechecked	exampleTranslations[1]	最新 means latest/newest, not merely modern.
+1352	事態	じたい	名詞	fixed_rechecked	exampleTranslations[0];exampleTranslations[1]	Naturalize time comparison and request not to leave home without urgent need.
+1353	事柄	ことがら	名詞	fixed_rechecked	t;exampleTranslations[0]	Clarify matter/item under discussion and 決定した事柄.
+1354	児童	じどう	名詞	reviewed	—	Broad child sense is supported by the Japanese definition; demographic context does not require “school pupils”.
+1358	治癒	ちゆ	名詞	fixed_rechecked	exampleTranslations[1]	Avoid narrowing general recovery to wound healing.
+1359	磁気	じき	名詞	fixed_rechecked	m	Include magnetic phenomena associated with electric current as well as magnets.
+1362	自我	じが	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize 自我の形成 and avoid a calque.
+1363	自首	じしゅ	名詞	fixed_rechecked	m;t;usage	Correct the statutory timing criterion: before the investigative authority learns of the crime itself.
+1370	辞任	じにん	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize taking responsibility for the situation surrounding allegations.
+1372	執行	しっこう	名詞	fixed_rechecked	usage	Distinguish 執行する from the compound 執行部 in the second example.
+1373	執着	しゅうちゃく	名詞	fixed_rechecked	t	Replace overly broad “stubbornness” with excessive attachment/clinging.
+1375	失格	しっかく	名詞	fixed_rechecked	m;t	Define loss of qualification/ineligibility and separate noun from verb form.
