@@ -1,0 +1,141 @@
+{
+  "pass": true,
+  "candidate_sha256": "0933cf494010d2c4a8ff3f200d35882d3773f59395193b68ea48604b8a8bfba9",
+  "candidate_bytes": 6944830,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 883,
+      "word": "加減",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 619
+    },
+    {
+      "id": 884,
+      "word": "加味",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1060
+    },
+    {
+      "id": 885,
+      "word": "可決",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1412
+    },
+    {
+      "id": 888,
+      "word": "家来",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 531
+    },
+    {
+      "id": 890,
+      "word": "架空",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 597
+    },
+    {
+      "id": 893,
+      "word": "火災",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 470
+    },
+    {
+      "id": 894,
+      "word": "稼働",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 939
+    },
+    {
+      "id": 900,
+      "word": "過剰",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1372
+    },
+    {
+      "id": 901,
+      "word": "過疎",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 743
+    },
+    {
+      "id": 903,
+      "word": "我々",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 599
+    },
+    {
+      "id": 905,
+      "word": "介護",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1472
+    },
+    {
+      "id": 906,
+      "word": "介入",
+      "titleVisible": true,
+      "glossVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1402
+    }
+  ],
+  "pos_filter": {
+    "hasPronounOption": true,
+    "pronounContains903": true,
+    "nounContains903": false
+  },
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}

@@ -1,0 +1,13 @@
+id	word	reading	pos_before	pos_after	decision	fields_changed	rationale
+883	加減	かげん	名詞	名詞	fixed_rechecked	exampleTranslations[1]	Preserve the salt-measure nuance in 塩加減.
+884	加味	かみ	名詞	名詞	fixed_rechecked	t	Include both literal flavour addition and figurative consideration of a factor.
+885	可決	かけつ	名詞	名詞	fixed_rechecked	exampleTranslations[1]	Render 曲折 as expected complications and turns in the process before passage.
+888	家来	けらい	名詞	名詞	fixed_rechecked	exampleTranslations[1]	Preserve unwillingness to express one's own opinion and the retainer/obedience contrast.
+890	架空	かくう	名詞	名詞	fixed_rechecked	m; t	Separate the act of imagining something nonexistent from the resulting fictional thing/adjectival use.
+893	火災	かさい	名詞	名詞	fixed_rechecked	exampleTranslations[1]	Use “fire detector” for 火災報知機 and remove duplicated regular/annual wording.
+894	稼働	かどう	名詞	名詞	fixed_rechecked	exampleTranslations[0]	本格的に means full-scale operation, not necessarily maximum capacity.
+900	過剰	かじょう	名詞・ナ形	名詞・ナ形	fixed_rechecked	exampleTranslations[0]	Render 資金繰り as financing current expenses/payments.
+901	過疎	かそ	名詞	名詞	fixed_rechecked	t	Distinguish the state 過疎 from the process 過疎化.
+903	我々	われわれ	名詞	代名詞	fixed_rechecked	VOCAB_POS_BY_ID	Existing UI supports 代名詞; assign the pronoun to that filter and verify it remains accessible without changing ID.
+905	介護	かいご	名詞	名詞	fixed_rechecked	exampleTranslations[0]; exampleTranslations[1]	Avoid implying both parents; use a natural professional-care workforce term.
+906	介入	かいにゅう	名詞	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize 慎重に検討 as carefully weighing whether to intervene.
