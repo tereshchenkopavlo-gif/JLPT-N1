@@ -1,6 +1,6 @@
 # v207 — C10 source review
 
-Base: published v206, main commit `bc44e36f9f3c3e3db3f9a8a03f2c7b9d2a0b8c1e`, HTML SHA-256 `c2ec95102d848b728d352393863fbb4604b29dec864950529cd93f7a5b4c56fd`, blob `1c02bcb6e733b42c9d00e7db680a048bae3dd51c`.
+Base: published v206, main commit `bc44e36f6b3823f3b759eacad245d45a85c4826d`, HTML SHA-256 `c2ec95102d848b728d352393863fbb4604b29dec864950529cd93f7a5b4c56fd`, blob `1c02bcb6e733b42c9d00e7db680a048bae3dd51c`.
 
 All twelve reviewed cards were pending in the v206 register. Individual v153 pilot notes and hashes were checked in:
 - `completion/v153-cards-1281-1380.tsv`
