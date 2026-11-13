@@ -130,6 +130,26 @@
       ]
     }
   },
+  "pos_tradeoff": {
+    "currentPos": [
+      "名詞",
+      "ナ形"
+    ],
+    "currentClozeCandidates": 64,
+    "withAdverbPos": [
+      "名詞",
+      "ナ形",
+      "副詞"
+    ],
+    "combinedClozeCandidates": 2,
+    "combinedAdverbTagKeepsClozeMinimum": false
+  },
+  "combined_pos_pool_impact": {
+    "changedPoolCount": 0,
+    "lostEligibility": [],
+    "gainedEligibility": [],
+    "remainingLostAfterExistingOverrides": []
+  },
   "responsive": [
     {
       "width": 360,

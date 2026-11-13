@@ -22,8 +22,7 @@
     "no full-card credit for partial field review",
     "no data or ID removal"
   ],
-  "status": "candidate verified; NINJAL cross-check and POS/cloze tradeoff recorded",
+  "status": "candidate prepared; awaiting Chromium verification",
   "candidate_sha256": "53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031",
-  "candidate_bytes": 6940820,
-  "source_review_addendum": "NINJAL and Daijisen POS classifications differ; the app retains 名詞+ナ形 because the Daijisen example supports 直接な and a third 副詞 tag drops cloze candidates below three. Adverbial use remains in usage."
+  "candidate_bytes": 6940820
 }
