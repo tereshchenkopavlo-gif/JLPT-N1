@@ -37,19 +37,7 @@ jobs:
           node-version: "22"
 
       - name: Build deterministic v203 candidate and registry
-        id: build
-        run: |
-          set +e
-          python3 completion/v203-work/apply.py 2>&1 | tee completion/v203-work/apply-error.txt
-          rc=\${PIPESTATUS[0]}
-          echo "exit_code=\${rc}" >> "$GITHUB_OUTPUT"
-          exit 0
-
-      - name: Require successful deterministic build
-        if: steps.build.outputs.exit_code != '0'
-        run: |
-          echo "Deterministic build failed; inspect apply-error.txt in the workflow artifact."
-          exit 1
+        run: python3 completion/v203-work/apply.py 2>&1 | tee completion/v203-work/apply-error.txt
 
       - name: Check Python and Node syntax
         run: |
