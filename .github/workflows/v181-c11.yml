@@ -28,7 +28,11 @@ jobs:
         run: python3 completion/v181-work/apply.py
       - name: Check script syntax
         run: |
-          python3 -m py_compile completion/v181-work/apply.py completion/v181-work/finalize.py
+          python3 - <<'PY'
+          from pathlib import Path
+          for p in ['completion/v181-work/apply.py','completion/v181-work/finalize.py']:
+              compile(Path(p).read_text(encoding='utf-8'), p, 'exec')
+          PY
           node --check completion/v181-work/browser.cjs
       - name: Install Chromium
         run: |
@@ -44,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+actions@users.noreply.github.com"
-          git rm -r --ignore-unmatch completion/v181-work/__pycache__
+          git rm -f -r --ignore-unmatch completion/v181-work/__pycache__
           find completion/v181-work -type d -name __pycache__ -prune -exec rm -rf {} +
           git add JLPT_N1_ukrainian_reading_v181.html JLPT_N1_v181_audit.md completion/review-register.csv completion/v181-acceptance.tsv completion/v181-c11-review.tsv completion/v181-registry-results.json completion/v181-work/apply.py completion/v181-work/browser.cjs completion/v181-work/finalize.py completion/v181-work/checkpoint.json completion/v181-work/source-review.md completion/v181-work/README.md completion/v181-work/prepare-results.json completion/v181-work/browser-results.json completion/v181-work/updates.json completion/v181-work/finalize-results.json completion/v180-c11-diagnostics.json completion/v180-c11-checkpoint.json completion/v180-c11-preaudit-notes.md
           if ! git diff --cached --quiet; then
