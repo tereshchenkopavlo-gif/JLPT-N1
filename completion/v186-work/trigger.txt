@@ -1,1 +1,1 @@
-Run guarded v186 C10 author review with the workflow file present in both default and work branches. Trigger attempt 3, 2026-11-13T20:56:10+09:00.
+Run guarded v186 C10 author review and exact-artifact publication after Chromium pass. Trigger attempt 4, 2026-11-13T21:29:41+09:00.
