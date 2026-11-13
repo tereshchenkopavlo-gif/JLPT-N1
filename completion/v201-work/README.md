@@ -6,4 +6,4 @@ Scope: IDs 1097, 1100, 1102 and 1105. All four were pending and have individual 
 
 Author decisions: all four fixed_rechecked, four exact field updates in four cards. No Japanese example, POS map, ID, quiz payload/target, comparison pair, learning engine or progress-storage code is changed.
 
-The workflow must reproduce v201 from the exact v200 base, validate all four field preimages and the review register, run Chromium at 360/412/1280 with storage round-trip, then publish only exact verified release artifacts under a strict main-HEAD guard. The work branch must not be merged.
+The corrected workflow passed: all four field preimages, protected data, exact rollback, registry update, four-card Chromium render checks at 360/412/1280, storage round-trip and no page errors. v201 was published to main in commit `fb8b325bb96d0fb236e6328506db15e7f9fd600c` (SHA-256 `ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34`, 6,945,346 bytes). PR #26 was closed without merging; the work branch and evidence are preserved.
