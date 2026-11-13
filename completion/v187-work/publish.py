@@ -2,7 +2,7 @@ import hashlib, json, shutil, subprocess
 from pathlib import Path
 
 ROOT=Path.cwd().resolve()
-EXPECTED_MAIN="9a9e61a59cbddb5f9e51f896728b50f471137be7"
+EXPECTED_MAIN="2271cc8009b78b7782b08ca230ef9fd23bd0014b"
 HTML_PATH="JLPT_N1_ukrainian_reading_v187.html"
 PUBLISH_PATHS=[
  HTML_PATH,"JLPT_N1_v187_audit.md","README.md","PROJECT_STATUS.md","completion/BACKLOG.md",
