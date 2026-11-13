@@ -1,0 +1,64 @@
+name: JLPT N1 v186 C10 author review
+on:
+  push:
+    branches: [work/v186-c10-next-pending]
+    paths:
+      - 'completion/v186-work/trigger.txt'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v186-c10-565-609
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'Save v186 browser evidence')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v186-c10-next-pending
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce v186 from exact published v185 baseline and validate register
+        run: python3 completion/v186-work/apply.py
+      - name: Check Python and browser-test syntax
+        run: |
+          python3 -m py_compile completion/v186-work/apply.py
+          node --check completion/v186-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify all 12 cards, unchanged POS dependencies, storage and responsive layout
+        run: node completion/v186-work/browser.cjs
+      - name: Save candidate and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v186.html completion/review-register.csv completion/v186-work/prepare-results.json completion/v186-work/registry-results.json completion/v186-work/browser-results.json completion/v186-work/checkpoint.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Save v186 browser evidence for C10 cards 565-609"
+            git push origin HEAD:work/v186-c10-next-pending
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v186-c10-565-609-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v186.html
+            completion/review-register.csv
+            completion/v186-work/prepare-results.json
+            completion/v186-work/registry-results.json
+            completion/v186-work/browser-results.json
+            completion/v186-work/source-review.md
+            completion/v186-work/acceptance.tsv
+            completion/v186-work/c10-review.tsv
+            completion/v186-work/checkpoint.json
+          if-no-files-found: warn
