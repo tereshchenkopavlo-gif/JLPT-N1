@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1198	現行	げんこう	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the statement about aspects of the current system that cannot adapt to changes.
+1202	古来	こらい	名詞	reviewed	—	Keep 名詞: the word is nominal with standard adverbial use; 古来の is valid. No POS change without separate C11 quiz-impact acceptance.
+1214	誤差	ごさ	名詞	fixed_rechecked	exampleTranslations[0]	数ポイント does not specify percentage points; do not add that precision.
+1218	公募	こうぼ	名詞	fixed_rechecked	exampleTranslations[1]	Remove redundant “more than five times more”; compare number of applications with available places.
+1236	考慮	こうりょ	名詞	fixed_rechecked	t	Use “during decision-making”, not “during a decision”.
+1237	肯定	こうてい	名詞	fixed_rechecked	examples[1];exampleTranslations[1]	Correct the Japanese subject/counting group and align Ukrainian translation.
+1239	荒廃	こうはい	名詞	fixed_rechecked	exampleTranslations[0]	土砂災害 is broader than landslides alone; include debris flows.
+1241	講読	こうどく	名詞	fixed_rechecked	t;exampleTranslations[0]	Remove mandatory-teacher implication and avoid narrowing 背景 to historical background.
+1246	降参	こうさん	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the other side yielding to persistence.
+1248	高低	こうてい	名詞	fixed_rechecked	t	Avoid adding “lowland” as a landform.
+1249	合間	あいま	名詞	fixed_rechecked	exampleTranslations[1]	稜線 is the line of a mountain ridge, not the whole range.
+1251	合席	あいせき	名詞	fixed_rechecked	exampleTranslations[1]	Natural Ukrainian request for sharing a table; preserve 相席 as the more common spelling in usage.
