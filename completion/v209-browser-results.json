@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "dcf845b65e20764f1bb8bbf0cbff5b20a368d13e8bfaad059f8728ca0fe8b2cf",
+  "candidate_bytes": 6948136,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 1408,
+      "word": "手薄",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1413,
+      "word": "受理",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1415,
+      "word": "授与",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1417,
+      "word": "樹立",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1419,
+      "word": "収穫",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1421,
+      "word": "収集",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1423,
+      "word": "収束",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1426,
+      "word": "就活",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1427,
+      "word": "就業",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1431,
+      "word": "修飾",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1436,
+      "word": "終始",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1443,
+      "word": "渋滞",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}

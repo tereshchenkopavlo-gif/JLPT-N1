@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1408	手薄	てうす	名詞・ナ形	fixed_rechecked	s;usage	Replace rare 手薄い recommendation with transparent 人手不足 and clarify standard inflection.
+1413	受理	じゅり	名詞	fixed_rechecked	t	Use a noun gloss for formal acceptance for consideration and separate 受理する.
+1415	授与	じゅよ	名詞	fixed_rechecked	exampleTranslations[0]	Translate 名誉博士号 as an honorary doctoral degree.
+1417	樹立	じゅりつ	名詞	fixed_rechecked	exampleTranslations[0];s	Naturalize government formation and replace unusual 樹てる recommendation.
+1419	収穫	しゅうかく	名詞	fixed_rechecked	t	Separate noun senses from 収穫する.
+1421	収集	しゅうしゅう	名詞	fixed_rechecked	t	Include the する form without changing POS or quiz mechanism.
+1423	収束	しゅうそく	名詞	fixed_rechecked	t	Add mathematical convergence explicitly.
+1426	就活	しゅうかつ	名詞	fixed_rechecked	t	Separate noun “job search” from 就活する.
+1427	就業	しゅうぎょう	名詞	fixed_rechecked	usage	Replace the unnatural 業務に就業する collocation with natural examples.
+1431	修飾	しゅうしょく	名詞	fixed_rechecked	t	Define grammatical modification/qualification rather than “definition”.
+1436	終始	しゅうし	名詞	fixed_rechecked	t	Separate 〜に終始する “be limited to” sense in the main gloss.
+1443	渋滞	じゅうたい	名詞	fixed_rechecked	t	Separate the noun traffic jam from 道路が渋滞する.
