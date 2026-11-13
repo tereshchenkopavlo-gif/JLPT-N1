@@ -1,1 +1,1 @@
-Trigger v191 C10 deterministic and Chromium acceptance after default-branch workflow installation; attempt 2.
+Trigger v191 C10 deterministic and Chromium acceptance after the first browser assertion was narrowed to the modified ID809 usage/related chip; attempt 2.
