@@ -80,7 +80,7 @@ async function main(){
       };
     });
     assert.deepEqual(errors,[],'page errors');
-    assert.deepEqual(result.counts,{vocabulary:3914,grammar:130,lexicalPairs:859,meaningQuizEntries:384});
+    assert.deepEqual(result.counts,{vocabulary:3914,grammar:130,lexicalPairs:859,meaningQuizEntries:385});
     assert.equal(result.id2433.headword,'そびえる');
     assert.equal(result.id2433.reading,'そびえる');
     assert.equal(result.id2433.examples.length,2);
