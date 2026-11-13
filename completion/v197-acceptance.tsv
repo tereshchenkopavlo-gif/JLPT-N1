@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+973	慣習	かんしゅう	名詞	fixed_rechecked	exampleTranslations[1]	国際取引 is international trade/transactions, not only agreements.
+974	慣用	かんよう	名詞	fixed_rechecked	exampleTranslations[0]	Mark the Japanese literal phrase separately from its idiomatic meaning.
+978	歓声	かんせい	名詞	fixed_rechecked	exampleTranslations[1]	Use natural Ukrainian for the encouragement expressed by 背中を押す.
+986	観賞	かんしょう	名詞	reviewed	—	The 観賞/鑑賞 distinction and both examples are accurate and natural.
+989	観覧	かんらん	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the translation of audience seating at a public programme.
+990	貫禄	かんろく	名詞	reviewed	—	The gloss and examples convey gravitas/solidity without reducing it to body weight.
+991	還元	かんげん	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the return of profits/benefits to society.
+993	間隔	かんかく	名詞	reviewed	—	Spatial and temporal interval senses and the contrast with 感覚 are correct.
+995	関税	かんぜい	名詞	reviewed	—	The distinction among 関税, 関税率 and 税関 is accurate.
+1004	器材	きざい	名詞	reviewed	—	The gloss and 器材/機材 distinction are sufficiently precise.
+1008	寄贈	きぞう	名詞	reviewed	—	Free donation to an institution is distinguished from 寄付 and 贈呈.
+1013	棄権	きけん	名詞	reviewed	—	Sports withdrawal and abstention from voting are accurately distinguished.
