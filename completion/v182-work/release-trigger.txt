@@ -1,1 +1,1 @@
-Run the v182 deterministic patch, Chromium regression, registry finalization and release evidence build.
+Retry v182 POS and reading-quiz candidate after correcting browser-side distractor source assertion.
