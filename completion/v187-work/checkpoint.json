@@ -58,7 +58,7 @@
   "candidate_sha256": "f321dd68a4beb1958031b000dd8eb94de9106cfc5e84041c4d70ca8cc0e67656",
   "candidate_bytes": 6942301,
   "exact_rollback": true,
-  "register_mode": "applied_from_baseline",
+  "register_mode": "already_applied",
   "chromium_verification": "passed",
   "browser_results": "completion/v187-work/browser-results.json"
 }
