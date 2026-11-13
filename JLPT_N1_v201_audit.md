@@ -1,6 +1,6 @@
 # JLPT N1 v201 — C10 авторський аудит і технічне приймання
 
-Дата: 13 листопада 2026 року. Основа: опублікований v200, main commit `9d6d46dc87cabbfd495022d6f55b1dafe9581c48`, HTML SHA-256 `d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a`, 6 945 306 байт. Кандидат v201: SHA-256 `ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34`, `6945346` байти.
+Дата: 13 листопада 2026 року. Основа: опублікований v200, main commit `9d6d46dc87cabbfd495022d6f55b1dafe9581c48`, HTML SHA-256 `d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a`, 6 945 306 байт. Опублікований випуск v201: SHA-256 `ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34`, `6945346` байти.
 
 ## Обсяг і рішення
 
@@ -26,7 +26,11 @@
 - Детермінований preparer відтворює v201 з точного v200 SHA-256; перевіряє 4 preimage-значення, точний набір 4 змінених карток і exact rollback.
 - Захищені дані: 3914 словникових записів та унікальних ID, 130 граматичних конструкцій, 859 лексичних пар, POS-map, quiz payloads/targets, усі японські приклади, learning engine та progress-storage code.
 - Реєстр до v201: 5847 рядків; очікуваний стан після: 3914 reviewed /242 fixed_rechecked /1691 pending; словник — 3345 /241 /328. Авторський credit — 3586/3914.
-- Chromium перевіряє 4 картки, видимість глос/перекладів/дефініції, ширини 360/412/1280, storage round-trip і відсутність page errors.
+- Chromium acceptance успішний: усі 4 картки й потрібні поля видимі; ширини 360/412/1280 без переповнення; storage round-trip/restored; page errors — 0. [Workflow v201](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43452669093).
+
+## Публікація
+
+Випуск v201 опубліковано в main commit `fb8b325bb96d0fb236e6328506db15e7f9fd600c`. HTML blob `e9c87751aacfc12d61168fd5e729c4814a9364c0`, SHA-256 `ab7369a2ff4af2a74b79111713ad14b19d1dd4ae4519c15580a8e2e25674ce34`, 6 945 346 байт. PR #26 закрито без злиття робочої гілки.
 
 ## Межі
 
