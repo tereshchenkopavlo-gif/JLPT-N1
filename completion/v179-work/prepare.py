@@ -7,7 +7,7 @@ UPDATES=Path("completion/v179-work/updates.json")
 BASE_SHA256="b8120e2bffc45936aa1208251d6b5ccee549daf54a1ce644693a458224c039e9"
 def compact(v): return json.dumps(v,ensure_ascii=False,separators=(",",":"))
 def block(source,name):
- m=re.search(r"\bconst\s+"+re.escape(name)+r"\\s*=\\s*",source)
+ m=re.search(r"\bconst\s+"+re.escape(name)+r"\s*=\s*",source)
  if not m: raise ValueError("Missing block "+name)
  start=m.end();value,end=json.JSONDecoder().raw_decode(source,start)
  if compact(value)!=source[start:end]: raise ValueError("Unexpected serialization "+name)
