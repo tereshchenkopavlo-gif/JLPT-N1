@@ -1,10 +1,10 @@
 id	word	reading	pos	decision	fields_changed	rationale
 1119	近接	きんせつ	名詞	fixed_rechecked	t	Avoid a Ukrainian gloss that can imply a shared border; preserve simple spatial proximity.
 1123	苦戦	くせん	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the product struggling in the market.
-1124	駆使	くし	名詞	fixed_rechecked	exampleTranslations[0]	Replace calqued “bring negotiations to an agreement” with successfully concluding negotiations.
-1127	屈指	くっし	名詞	fixed_rechecked	exampleTranslations[0]	Use mastery/skill rather than physical strength for pianists.
+1124	駆使	くし	名詞	fixed_rechecked	exampleTranslations[1]	Replace calqued “bring negotiations to an agreement” with successfully concluding negotiations.
+1127	屈指	くっし	名詞	fixed_rechecked	exampleTranslations[1]	Use mastery/skill rather than physical strength for pianists.
 1128	屈折	くっせつ	名詞	fixed_rechecked	t	Include bending and refraction of light or waves.
-1129	群衆	ぐんしゅう	名詞	fixed_rechecked	exampleTranslations[0]	Express incitement as an action rather than a permanent personal label.
+1129	群衆	ぐんしゅう	名詞	fixed_rechecked	exampleTranslations[1]	Express incitement as an action rather than a permanent personal label.
 1132	刑罰	けいばつ	名詞	fixed_rechecked	exampleTranslations[0]	Correct Ukrainian government for legally prescribed punishment.
 1135	形態	けいたい	名詞	fixed_rechecked	exampleTranslations[1]	共同出資 means joint capital investment, not any shared financing.
 1139	継続	けいぞく	名詞	fixed_rechecked	exampleTranslations[0]	確かな成果 is better rendered as tangible/solid results.
