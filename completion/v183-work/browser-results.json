@@ -1,0 +1,136 @@
+{
+  "pass": true,
+  "candidate_sha256": "ef4705c65cf358f167cbd31400c7b69ad7419e6d4210768c5135b3225230be2e",
+  "candidate_bytes": 6940963,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 454,
+      "word": "向く",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 568
+    },
+    {
+      "id": 455,
+      "word": "広まる",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 784
+    },
+    {
+      "id": 458,
+      "word": "合わす",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 525
+    },
+    {
+      "id": 459,
+      "word": "込める",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 529
+    },
+    {
+      "id": 461,
+      "word": "仕上げる",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 833
+    },
+    {
+      "id": 464,
+      "word": "謝る",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 819
+    },
+    {
+      "id": 466,
+      "word": "従う",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 851
+    },
+    {
+      "id": 470,
+      "word": "招く",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1285
+    },
+    {
+      "id": 472,
+      "word": "触れる",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 578
+    },
+    {
+      "id": 477,
+      "word": "親しむ",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 954
+    },
+    {
+      "id": 479,
+      "word": "震わせる",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 815
+    },
+    {
+      "id": 483,
+      "word": "生じる",
+      "titleVisible": true,
+      "translationVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 544
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
