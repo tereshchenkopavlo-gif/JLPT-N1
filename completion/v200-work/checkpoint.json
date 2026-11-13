@@ -57,12 +57,12 @@
     1110,
     1111
   ],
-  "status": "v200 exact artifacts published and verified in main",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified paths only; never merge the work branch",
   "candidate_sha256": "d3563bf1f9601d8b87b5508e979116dfde07a8135cd46311d0626c8a1aac7d1a",
   "candidate_bytes": 6945306,
   "exact_rollback": true,
-  "register_mode": "applied_from_baseline",
+  "register_mode": "already_applied",
   "japanese_example_changes": [
     1092
   ],
