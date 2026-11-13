@@ -15,6 +15,6 @@ HTML v213: 6 949 518 байтів; SHA-256: 806a4649ec32fa1d85fd3cd7066fcdcc0543
 
 ## Стан випуску v214
 
-Опубліковано v214: 12 pending-карток, 13 точних змін у 12 картках, три уточнення японських дефініцій і дві пари для повторного перегляду без зміни тексту. Очікуваний авторський credit — **3737/3914**. Детермінований build, перевірка реєстру та Chromium acceptance ще не проведені. [Робоча гілка v214](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v214-c10-next-pending).
+Опубліковано v214: 12 pending-карток, 13 точних змін у 12 картках, три уточнення японських дефініцій і дві пари, переглянуті без зміни тексту. Авторський credit — **3737/3914**. Реєстр після v214: 3918/392/1537 загалом, 3347/390/177 у словнику, 20/1/838 для пар. Deterministic build, Python/Node syntax, registry та Chromium acceptance (360/412/1280 px, storage round-trip, 0 page errors) пройшли. [Успішний workflow run 43482353153](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43482353153); publication commit 16c0d83abe9c0fb51a830543e4aed696ad55c97e. PR #39 закрито без злиття; [збережена робоча гілка v214](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v214-c10-next-pending).
 
 Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
