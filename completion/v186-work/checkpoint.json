@@ -38,7 +38,7 @@
   "author_credit_before": 3419,
   "author_credit_after": 3429,
   "updated_fields": 10,
-  "status": "author review complete; deterministic candidate and register prepared; Chromium verification pending",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "guardrails": [
     "v153 pilot notes are hypotheses, not automatic acceptance",
     "reread all current fields and both examples for all 12 cards",
@@ -69,5 +69,8 @@
   },
   "candidate_sha256": "75387f14bb77bfcc9f5d0ec224e5f4e6e14ba3d51465b0f435117d4f3af4351b",
   "candidate_bytes": 6942092,
-  "exact_rollback": true
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "browser_results": "completion/v186-work/browser-results.json",
+  "publication_policy": "copy exact verified paths only; never merge the bulk work branch"
 }
