@@ -56,11 +56,42 @@
   "pilot_files": {
     "completion/v153-cards-1381-1480.tsv": "b99b9963ae926b91b34169226cc300c1768576de"
   },
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v210 published in main; main HTML SHA-256 and byte count independently verified; PR #35 closed without merge",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "candidate_sha256": "ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474",
   "candidate_bytes": 6948501,
   "exact_rollback": true,
   "chromium_verification": "passed",
-  "browser_results": "completion/v210-work/browser-results.json"
+  "browser_results": "completion/v210-work/browser-results.json",
+  "publication_commit": "e75dd899772e698a0f41b1826d500b9b1e96ef09",
+  "publication_html_blob": "aba56a2ff2b01a828c4bc1d9ae91f5936884ad00",
+  "publication_sha256": "ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474",
+  "publication_bytes": 6948501,
+  "registry_after": {
+    "all": {
+      "reviewed": 3916,
+      "fixed_rechecked": 347,
+      "pending": 1584
+    },
+    "vocabulary": {
+      "reviewed": 3347,
+      "fixed_rechecked": 346,
+      "pending": 221
+    }
+  },
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 12,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  },
+  "workflow_run": 43470280808,
+  "pr_number": 35,
+  "pr_state": "closed_without_merge"
 }
