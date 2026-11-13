@@ -161,6 +161,6 @@
   "japanese_examples_unchanged": true,
   "exact_rollback": true,
   "register_updated": true,
-  "register_mode": "applied_from_baseline",
+  "register_mode": "already_applied",
   "author_review_only": true
 }
