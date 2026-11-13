@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+911	怪獣	かいじゅう	名詞	reviewed	—	The phrase “акцентує на надприродній істоті” is grammatically correct after “на”; the pilot suggestion would introduce an accusative case error.
+914	改築	かいちく	名詞	fixed_rechecked	t	The Japanese definition does not require a change in structure/layout; the gloss now covers rebuilding all or part of a building.
+915	改訂	かいてい	名詞	fixed_rechecked	exampleTranslations[0]	Remove the repeated “перегляд” while distinguishing 改訂 of the textbook from 見直す of class materials.
+920	開催	かいさい	名詞	fixed_rechecked	t	Keep the gloss focused on holding/conducting an event; 主催 identifies the organizer.
+922	開幕	かいまく	名詞	fixed_rechecked	t	Include theatrical opening and figurative beginning of a new era.
+927	外観	がいかん	名詞	fixed_rechecked	exampleTranslations[1]	Replace a calque with natural Ukrainian syntax.
+928	外泊	がいはく	名詞	fixed_rechecked	exampleTranslations[1]	Use “without notice” in the family context rather than assuming formal permission was required.
+932	概要	がいよう	名詞	fixed_rechecked	exampleTranslations[0]	Naturalize the explanation of the project overview.
+933	概略	がいりゃく	名詞	fixed_rechecked	usage	Remove the false adverbial reading; 概略をつかむ means grasp the overall picture.
+934	街角	まちかど	名詞	fixed_rechecked	exampleTranslations[0]	Translate 会社員 as company employees, not public servants.
+936	該当	がいとう	名詞	fixed_rechecked	exampleTranslations[1]	Translate 事業者 broadly as business entities/operators.
+941	格闘	かくとう	名詞	fixed_rechecked	m	Correct the particle used with 取り組む in the Japanese definition.
