@@ -74,7 +74,7 @@
     "completion/v153-cards-1561-1620.tsv": "6118ba60c8608cabdad3e10e6c602c93d6942522",
     "completion/v153-cards-1621-1640.tsv": "6fb615aba1d31d986ac5b133557c35bb8df75298"
   },
-  "status": "v213 attempt 3 triggered with sample-based rendered assertions; main publication guard matches current main",
+  "status": "v213 attempts 1–3 passed deterministic build/syntax; remaining browser false-negative was mixed-language usage prefix; Japanese usage-sample check added; attempt 4 pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "main_workflow_commit": "7e46364004a358ad5b3fb6f076f13f31a408257f",
   "pr_number": 38,
@@ -90,6 +90,12 @@
       "run_id": 43477554086,
       "conclusion": "failure_at_render_assertion",
       "failure": "Deterministic build and syntax passed. Chromium rendered all eleven cards and all titles, examples, and translations; the assertion incorrectly required entire gloss/usage strings to be contiguous in innerText despite UI line wrapping/section formatting. The debug excerpts show the content present. Assertions now check visible field samples and section content rather than whole-field contiguity."
+    },
+    {
+      "attempt": 3,
+      "run_id": 43478222350,
+      "conclusion": "failure_at_usage_sample",
+      "failure": "Deterministic candidate build and syntax passed. Chromium confirmed all card titles, gloss samples, examples, and translations visible. Two usage checks failed because the usage field begins with a Ukrainian POS prefix or mixed-language formatting; the visible Japanese usage models are present. The browser check now extracts the first Japanese usage phrase and verifies that sample in the rendered detail."
     }
   ],
   "main_guard": "2d685c4f79cd6bad26f4f9d7cc5507b8b2a6402d"
