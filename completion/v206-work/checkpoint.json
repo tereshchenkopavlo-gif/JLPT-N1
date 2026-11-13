@@ -56,7 +56,7 @@
   "pilot_files": {
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "v206 published and exact HTML blob verified in main; PR #31 closed without merge",
+  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
   "publication_policy": "copy exact verified artifacts only; never merge the work branch",
   "candidate_sha256": "c2ec95102d848b728d352393863fbb4604b29dec864950529cd93f7a5b4c56fd",
   "candidate_bytes": 6946631,
