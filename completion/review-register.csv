@@ -3342,36 +3342,36 @@ vocab,3340,vocab:3340,reviewed,completion/v165-cards-3321-3340.tsv#3340; author 
 vocab,3341,vocab:3341,reviewed,completion/v165-cards-3341-3360.tsv#3341; author linguistic review
 vocab,3342,vocab:3342,reviewed,completion/v165-cards-3341-3360.tsv#3342; author linguistic review
 vocab,3343,vocab:3343,reviewed,completion/v165-cards-3341-3360.tsv#3343; author linguistic review
-vocab,3344,vocab:3344,pending,
-vocab,3345,vocab:3345,pending,
+vocab,3344,vocab:3344,fixed_rechecked,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
+vocab,3345,vocab:3345,blocked,completion/v220-c10-review.tsv#3345; mixed adverb and な-adjective example plus byExample payload; POS-map remains 副詞; C11 required; no data changed
 vocab,3346,vocab:3346,reviewed,completion/v165-cards-3341-3360.tsv#3346; author linguistic review
 vocab,3347,vocab:3347,reviewed,completion/v165-cards-3341-3360.tsv#3347; author linguistic review
 vocab,3348,vocab:3348,reviewed,completion/v165-cards-3341-3360.tsv#3348; author linguistic review
-vocab,3349,vocab:3349,pending,
+vocab,3349,vocab:3349,fixed_rechecked,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3350,vocab:3350,reviewed,completion/v165-cards-3341-3360.tsv#3350; author linguistic review
 vocab,3351,vocab:3351,reviewed,completion/v165-cards-3341-3360.tsv#3351; author linguistic review
-vocab,3352,vocab:3352,pending,
+vocab,3352,vocab:3352,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3353,vocab:3353,reviewed,completion/v165-cards-3341-3360.tsv#3353; author linguistic review
 vocab,3354,vocab:3354,reviewed,completion/v165-cards-3341-3360.tsv#3354; author linguistic review
 vocab,3355,vocab:3355,reviewed,completion/v165-cards-3341-3360.tsv#3355; author linguistic review
 vocab,3356,vocab:3356,reviewed,completion/v165-cards-3341-3360.tsv#3356; author linguistic review
-vocab,3357,vocab:3357,pending,
+vocab,3357,vocab:3357,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3358,vocab:3358,reviewed,completion/v165-cards-3341-3360.tsv#3358; author linguistic review
 vocab,3359,vocab:3359,reviewed,completion/v165-cards-3341-3360.tsv#3359; author linguistic review
-vocab,3360,vocab:3360,pending,
+vocab,3360,vocab:3360,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3361,vocab:3361,reviewed,completion/v165-cards-3361-3380.tsv#3361; author linguistic review
 vocab,3362,vocab:3362,reviewed,completion/v165-cards-3361-3380.tsv#3362; author linguistic review
-vocab,3363,vocab:3363,pending,
-vocab,3364,vocab:3364,pending,
+vocab,3363,vocab:3363,blocked,completion/v220-c10-review.tsv#3363; adjectival 相当な時間 example conflicts with adverbial POS and quiz scope; C11 required; no data changed
+vocab,3364,vocab:3364,fixed_rechecked,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3365,vocab:3365,reviewed,completion/v165-cards-3361-3380.tsv#3365; author linguistic review
 vocab,3366,vocab:3366,reviewed,completion/v165-cards-3361-3380.tsv#3366; author linguistic review
 vocab,3367,vocab:3367,reviewed,completion/v165-cards-3361-3380.tsv#3367; author linguistic review
-vocab,3368,vocab:3368,pending,
-vocab,3369,vocab:3369,pending,
-vocab,3370,vocab:3370,pending,
+vocab,3368,vocab:3368,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
+vocab,3369,vocab:3369,fixed_rechecked,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
+vocab,3370,vocab:3370,fixed_rechecked,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3371,vocab:3371,reviewed,completion/v165-cards-3361-3380.tsv#3371; author linguistic review
 vocab,3372,vocab:3372,reviewed,completion/v165-cards-3361-3380.tsv#3372; author linguistic review
-vocab,3373,vocab:3373,pending,
+vocab,3373,vocab:3373,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3374,vocab:3374,reviewed,completion/v165-cards-3361-3380.tsv#3374; author linguistic review
 vocab,3375,vocab:3375,pending,
 vocab,3376,vocab:3376,reviewed,completion/v165-cards-3361-3380.tsv#3376; author linguistic review
@@ -4456,7 +4456,7 @@ vocab_pair,409:1621:229,VOCAB_AUDITED_PAIRS[409],pending,
 vocab_pair,410:1625:1626,VOCAB_AUDITED_PAIRS[410],pending,
 vocab_pair,411:1628:1629,VOCAB_AUDITED_PAIRS[411],pending,
 vocab_pair,412:1631:1634,VOCAB_AUDITED_PAIRS[412],pending,
-vocab_pair,413:1634:3363,VOCAB_AUDITED_PAIRS[413],pending,
+vocab_pair,413:1634:3363,VOCAB_AUDITED_PAIRS[413],reviewed,completion/v220-pair-review.tsv#413; author review of the exact pair and stated senses; not independent; ID3363 card remains blocked for separate C11 POS/quiz analysis
 vocab_pair,414:1639:1640,VOCAB_AUDITED_PAIRS[414],pending,
 vocab_pair,415:1641:1642,VOCAB_AUDITED_PAIRS[415],pending,
 vocab_pair,416:1646:1648,VOCAB_AUDITED_PAIRS[416],pending,
@@ -4803,7 +4803,7 @@ vocab_pair,756:3374:3375,VOCAB_AUDITED_PAIRS[756],pending,
 vocab_pair,757:3325:3364,VOCAB_AUDITED_PAIRS[757],reviewed,completion/v219-pair-review.tsv#757; author review of the exact pair and stated senses; not independent
 vocab_pair,758:3362:3385,VOCAB_AUDITED_PAIRS[758],pending,
 vocab_pair,759:3338:3371,VOCAB_AUDITED_PAIRS[759],pending,
-vocab_pair,760:3318:3368,VOCAB_AUDITED_PAIRS[760],pending,
+vocab_pair,760:3318:3368,VOCAB_AUDITED_PAIRS[760],reviewed,completion/v220-pair-review.tsv#760; author review of the exact pair and stated senses; not independent
 vocab_pair,761:3316:3319,VOCAB_AUDITED_PAIRS[761],reviewed,completion/v219-pair-review.tsv#761; author review of the exact pair and stated senses; not independent
 vocab_pair,762:3346:3347,VOCAB_AUDITED_PAIRS[762],pending,
 vocab_pair,763:3324:3361,VOCAB_AUDITED_PAIRS[763],pending,

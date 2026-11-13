@@ -1,0 +1,119 @@
+{
+  "pass": true,
+  "base_version": "v219",
+  "base_main_sha": "cb5fc9661df6abf8ea914d560ae2fc743f701948",
+  "main_status_commit": "919cc7dd73c27b6cb526e5323b16f10ef0339bcf",
+  "base_sha256": "abfaf537a365d5389138f1f0e514c20f2f181cf51ac33ea7b34fb7de48f22481",
+  "candidate_version": "v220",
+  "candidate_sha256": "b508b0e7455d7a1dbb03828a0f7afafe94631a2547f2590bc1924a047859025f",
+  "candidate_blob_sha": "307333c9e983ce8387be7cd6469d00aeb99dd9df",
+  "candidate_bytes": 6951790,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    3344,
+    3345,
+    3349,
+    3352,
+    3357,
+    3360,
+    3363,
+    3364,
+    3368,
+    3369,
+    3370,
+    3373
+  ],
+  "fixed_rechecked_ids": [
+    3344,
+    3349,
+    3364,
+    3369,
+    3370
+  ],
+  "reviewed_ids": [
+    3352,
+    3357,
+    3360,
+    3368,
+    3373
+  ],
+  "blocked_ids": [
+    3345,
+    3363
+  ],
+  "updated_fields": 11,
+  "changed_cards": [
+    3344,
+    3349,
+    3364,
+    3369,
+    3370
+  ],
+  "pair_reviewed_indices": [
+    413,
+    760
+  ],
+  "pair_changed_indices": [],
+  "pair_updates": 0,
+  "pos_map_unchanged": true,
+  "reading_and_cloze_pools_unchanged": true,
+  "example_target_tables_unchanged": true,
+  "reviewed_meaning_quizzes_unchanged": true,
+  "japanese_examples_changed": [
+    3349,
+    3364,
+    3369,
+    3370
+  ],
+  "example_target_rows_found_for_changed_examples": 0,
+  "author_credit_before": 3806,
+  "author_credit_addition": 10,
+  "author_credit_after": 3816,
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3344,
+    3345,
+    3349,
+    3352,
+    3357,
+    3360,
+    3363,
+    3364,
+    3368,
+    3369,
+    3370,
+    3373
+  ],
+  "exact_rollback": true,
+  "register_after": {
+    "all": {
+      "reviewed": 3951,
+      "fixed_rechecked": 447,
+      "pending": 1446,
+      "blocked": 3,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3371,
+      "fixed_rechecked": 445,
+      "pending": 95,
+      "blocked": 3,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 29,
+      "fixed_rechecked": 1,
+      "pending": 829,
+      "blocked": 0,
+      "total": 859
+    }
+  },
+  "author_review_only": true,
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "publication_guard": "c2081bc1baee2fd32acdeb9722feb9257da2214f"
+}

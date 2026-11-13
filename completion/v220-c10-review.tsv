@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+3344	今や	fixed_rechecked	t; exampleTranslations[1]	Narrow “у цей момент” to current-era/state change; naturalize social-responsibility translation
+3345	散々	blocked	—	The card includes adverbial and な-adjective uses while POS-map is only 副詞; byExample quiz depends on the adjective example; defer to C11
+3349	若干	fixed_rechecked	examples[0]; exampleTranslations[0]; examples[1]; exampleTranslations[1]	Make both examples consistently adverbial, matching the current POS-map
+3352	所詮	reviewed	—	Resigned/limiting conclusion sense and both examples checked; no change
+3357	真っ二つに	reviewed	—	Literal and figurative two-way split checked; no change
+3360	先立って	reviewed	—	Reading さきだって and pre-event use checked; no change
+3363	相当	blocked	—	Adverbial quiz and POS conflict with adjectival 相当な時間 example/usage; defer to C11
+3364	相変わらず	fixed_rechecked	examples[0]	Remove redundant 低迷が続いている while preserving unchanged-state meaning
+3368	大して	reviewed	—	Negative-polarity examples and limited-degree meaning checked; no change
+3369	大概	fixed_rechecked	examples[0]; exampleTranslations[0]	Use an adverbial example instead of 大概のこと, aligning the card POS
+3370	大方	fixed_rechecked	examples[1]; exampleTranslations[1]	Use an adverbial “mostly” example instead of nominal 大方の予想
+3373	中途半端に	reviewed	—	Incomplete/half-hearted action and both examples checked; no change
