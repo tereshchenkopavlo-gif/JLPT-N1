@@ -1,0 +1,136 @@
+{
+  "pass": true,
+  "candidate_sha256": "3b06dc6001359d033d31902227e56daaacd95501471faece756c1a70a582e2aa",
+  "candidate_bytes": 6945868,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 1297,
+      "word": "在籍",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1300,
+      "word": "搾取",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1301,
+      "word": "昨今",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1303,
+      "word": "察知",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1306,
+      "word": "参観",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1309,
+      "word": "山岳",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1311,
+      "word": "山脈",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1312,
+      "word": "惨事",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1313,
+      "word": "惨敗",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1315,
+      "word": "産物",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1316,
+      "word": "酸化",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1319,
+      "word": "仕業",
+      "titleVisible": true,
+      "glossVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
