@@ -1,1 +1,2 @@
-Run v183 deterministic preparation and Chromium acceptance for the first 12 pending C10 vocabulary rows. No user data or history is modified.
+Run v183 deterministic preparation and Chromium acceptance for the first 12 pending C10 vocabulary rows.
+Triggered after the workflow was installed on main; base HTML remains published v182.
