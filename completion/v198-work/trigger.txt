@@ -1,1 +1,1 @@
-Trigger v198 C10 deterministic and Chromium acceptance after scope correction to four pending cards; attempt 4.
+Trigger v198 C10 deterministic and Chromium acceptance after correcting register baseline to actual v197 counts; attempt 5.
