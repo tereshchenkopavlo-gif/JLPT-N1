@@ -1,6 +1,14 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v213** у main після guarded-публікації.
+Оновлено 14 листопада 2026. Актуальна **v214** у main після guarded-публікації. Повний HTML v214 — __V214_BYTES__ байтів, SHA-256 __V214_SHA256__, Git blob __V214_BLOB__. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v214.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v214_audit.md).
+
+## Опублікований випуск v214 — C10 авторський аудит
+
+- Перевірено 12 pending-карток: ID1632, 1635, 1637, 1651, 1654, 1666, 1675, 1676, 1679, 1682, 1688, 1690. Усі 12 fixed_rechecked; внесено 13 точних змін у 12 картках, зокрема три японські дефініції.
+- Додатково переглянуто VOCAB_AUDITED_PAIRS[417] (損害／損傷) та [421] (滞納／脱税); обидві примітки залишено без змін.
+- Авторський credit після v214 — **3737/3914**. Реєстр після приймання: 3918 reviewed /392 fixed_rechecked /1537 pending; словниковий зріз — 3347 /390 /177; vocab_pair — 20 /1 /838.
+- Опублікований HTML v214: __V214_BYTES__ байтів, SHA-256 __V214_SHA256__. Deterministic build, registry та Chromium acceptance успішні. POS-map, японські приклади, навчальна логіка й прогрес не змінювалися.
+- Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
 
 ## Опублікований випуск v213 — C10 авторський аудит
 
