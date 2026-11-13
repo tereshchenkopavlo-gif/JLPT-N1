@@ -1,1 +1,1 @@
-Run v185 after the C10 author-review patch and browser script are committed.
+Run v185 C10 author review after the workflow was added to main; trigger attempt 2.
