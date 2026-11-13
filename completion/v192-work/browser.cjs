@@ -75,7 +75,7 @@ async function main(){
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
      glossVisible:d.t.split(';').map(x=>x.trim()).filter(Boolean).every(x=>norm(text).includes(norm(x))),
-     usageVisible:[828,856].includes(id)?norm(text).includes(id===828?'移動 — загальне переміщення':'人を援助する'):true,
+     usageVisible:[828,856].includes(id)?norm(text).includes(norm(id===828?'移動 — загальне переміщення':'人を援助する')):true,
      examplesVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
      bodyTextLength:text.length
     });
