@@ -77,13 +77,15 @@ async function main(){
      glossVisible:d.t.split(';').map(x=>x.trim()).filter(Boolean).every(x=>norm(text).includes(norm(x))),
      usageVisible:norm(text).includes(norm(d.usage)),
      examplesVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
-     bodyTextLength:text.length
+     bodyTextLength:text.length,bodyText:text
     });
    }
    return out;
   },IDS);
   assert.equal(rendered.length,12);
-  assert.equal(rendered.every(x=>x.titleVisible&&x.glossVisible&&x.usageVisible&&x.examplesVisible),true);
+  const visibilityFailures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.usageVisible&&x.examplesVisible));
+  if(visibilityFailures.length)console.error('Rendered visibility diagnostics:',JSON.stringify(visibilityFailures,null,2));
+  assert.equal(visibilityFailures.length,0);
 
   const responsive=[];
   for(const width of [360,412,1280]){
