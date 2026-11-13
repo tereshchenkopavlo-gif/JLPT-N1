@@ -16,7 +16,7 @@ The pilot file `completion/v153-cards-1081-1180.tsv` contains individual notes a
 - 1135: 共同出資 is joint capital investment, not generic shared financing.
 - 1139: 確かな成果 means tangible/solid results in this context.
 - 1140: render increased vigilance regarding storm surge naturally.
-- 1147: remove the unstated birth-rate cause and rural-only assumption; 宿泊業界 is broader than hotels.
+- 1147: preserve the explicitly stated birth-rate cause (少子化の影響で), remove the rural-only assumption in 地方, and broaden 宿泊業界 beyond hotels.
 - 1148: 呼びつける is a direct sharp summons/order to appear, not an indirect request to summon someone.
 
 No Japanese example, POS, ID, quiz target, comparison pair, learning engine or progress-storage logic is changed.
