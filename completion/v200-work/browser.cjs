@@ -16,20 +16,15 @@ assert.equal(prepare.pass,true);
 assert.equal(prepare.exact_rollback,true);
 assert.equal(registry.pass,true);
 
-const IDS=[1075,1077,1080,1081,1083,1085,1087,1088,1090,1092,1094,1095];
+const IDS=[1077,1087,1088,1090,1092,1094,1095];
 const EXPECTED={
- 1075:{word:'虚偽'},
  1077:{word:'漁船',gloss:'вилову риби й молюсків',translations:['','Через подорожчання пального дедалі більше рибалок відкладають вихід у море.']},
- 1080:{word:'競走'},
- 1081:{word:'共鳴'},
- 1083:{word:'協議'},
- 1085:{word:'協定'},
- 1087:{word:'境地'},
- 1088:{word:'境内'},
- 1090:{word:'強豪',translations:['','Цей університет широко відомий як один із лідерів у легкій атлетиці.']},
- 1092:{word:'強盗'},
- 1094:{word:'教科'},
- 1095:{word:'教訓'}
+ 1087:{word:'境地',similar:['心境']},
+ 1088:{word:'境内',translations:['','Стара велика криптомерія на території святилища має статус природної пам’ятки міста.']},
+ 1090:{word:'強豪',translations:['У відбірковому турнірі тривала низка напружених матчів за участю сильних команд з усієї країни.','Цей університет широко відомий своєю сильною командою з легкої атлетики.']},
+ 1092:{word:'強盗',examples:['深夜の住宅街で発生した強盗事件について、警察が捜査を始めた。','店に押し入った強盗の一人が、警察に逮捕された。']},
+ 1094:{word:'教科',translations:['','Розвиток сильних сторін у навчальних предметах підвищує мотивацію до навчання.']},
+ 1095:{word:'教訓',translations:['Важливо, щоб уроками минулих невдач ділилися в усій організації.']}
 };
 
 async function main(){
@@ -50,14 +45,14 @@ async function main(){
 
   const data=await page.evaluate(ids=>ids.map(id=>{
    const d=VOCAB_DETAILS_BY_ID[String(id)];
-   return {id,word:d.w,definition:d.m,gloss:d.t,usage:d.usage,examples:d.examples,translations:d.exampleTranslations,pos:VOCAB_POS_BY_ID[String(id)]};
+   return {id,word:d.w,definition:d.m,gloss:d.t,usage:d.usage,similar:d.s,examples:d.examples,translations:d.exampleTranslations,pos:VOCAB_POS_BY_ID[String(id)]};
   }),IDS);
   for(const card of data){
    const e=EXPECTED[card.id];
    assert.equal(card.word,e.word);
-   if(e.definition)assert.ok(card.definition.includes(e.definition),'definition mismatch '+card.id);
    if(e.gloss)assert.ok(card.gloss.includes(e.gloss),'gloss mismatch '+card.id);
-   if(e.usage)assert.ok(card.usage.includes(e.usage),'usage mismatch '+card.id);
+   if(e.similar)assert.deepEqual(card.similar,e.similar,'similar words mismatch '+card.id);
+   if(e.examples)assert.deepEqual(card.examples,e.examples,'Japanese example mismatch '+card.id);
    if(e.translations)for(const t of e.translations.filter(Boolean))assert.ok(card.translations.includes(t),'translation mismatch '+card.id);
    assert.deepEqual(card.pos,['名詞'],'POS changed '+card.id);
   }
@@ -75,14 +70,14 @@ async function main(){
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
      glossVisible:d.t.split(';').map(x=>x.trim()).filter(Boolean).every(x=>norm(text).includes(norm(x))),
-     examplesVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
+     translationsVisible:d.exampleTranslations.every(x=>norm(text).includes(norm(x))),
      bodyTextLength:text.length
     });
    }
    return out;
   },IDS);
-  assert.equal(rendered.length,12);
-  const failures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.examplesVisible));
+  assert.equal(rendered.length,7);
+  const failures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.translationsVisible));
   if(failures.length)console.error('Rendered visibility diagnostics:',JSON.stringify(failures,null,2));
   assert.equal(failures.length,0);
 
