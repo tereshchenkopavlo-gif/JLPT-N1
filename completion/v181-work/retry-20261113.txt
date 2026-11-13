@@ -1,1 +1,1 @@
-Trigger v181 C11 verification after making the registry update idempotent and refining the contextual distractors.
+Trigger v181 C11 verification after removing tracked Python cache files and switching to in-memory syntax checks.
