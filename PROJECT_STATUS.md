@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — JLPT N1
 
-Оновлено 13 листопада 2026. Актуальна **v198** у main після успішного guarded-приймання. Повний HTML — __V198_BYTES__ байти, SHA-256 __V198_SHA256__. [Повний HTML](JLPT_N1_ukrainian_reading_v198.html) · [Аудит](JLPT_N1_v198_audit.md).
+Оновлено 13 листопада 2026. Опублікована в main версія — **v197**. Кандидат **v198** у гілці work/v198-c10-next-pending; guarded-приймання та публікація ще очікуються. Кандидатний HTML — __V198_BYTES__ байти, SHA-256 __V198_SHA256__. [Кандидатний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/work/v198-c10-next-pending/JLPT_N1_ukrainian_reading_v198.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/work/v198-c10-next-pending/JLPT_N1_v198_audit.md).
 
 ## Поточний випуск v198 — C10 авторський аудит
 
