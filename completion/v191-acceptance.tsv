@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+788	脈	みゃく	名詞	fixed_rechecked	exampleTranslations[1]	Translate 商談 as negotiations, not a business proposal; preserve the object whose prospects are being assessed.
+789	婿	むこ	名詞	fixed_rechecked	m; t	Separate daughter’s husband/son-in-law from groom in a wedding context.
+790	網	あみ	名詞	fixed_rechecked	exampleTranslations[0]; exampleTranslations[1]	Naturalize 早朝から and render 捜査の網を張る as coordinated search activity.
+793	翼	つばさ	名詞	fixed_rechecked	exampleTranslations[1]	Preserve the wing/takeoff metaphor without the awkward “крила у вигляді” construction.
+794	裸	はだか	名詞	fixed_rechecked	t	Give the noun its own Ukrainian equivalents; keep adjective forms under 裸の.
+797	例	れい	名詞	fixed_rechecked	exampleTranslations[1]	Translate the meeting’s ending later than scheduled, not a longer duration.
+801	脇	わき	名詞	fixed_rechecked	m	Specify the anatomical under-arm area while retaining the broader side/outlying-place sense.
+803	入隊	にゅうたい	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the enlistment-ceremony translation and the solemn manner of the oath.
+805	主観	しゅかん	名詞	fixed_rechecked	exampleTranslations[1]	Remove the mixed phrase “однобічно суб’єктивною”; express excessive dependence on personal views.
+808	愛嬌	あいきょう	名詞	fixed_rechecked	m	Broaden the definition beyond smiling to likable/cute qualities and behavior.
+809	愛想	あいそ／あいそう	名詞	fixed_rechecked	s[0]; usage	Display the related spelling as 愛嬌／愛敬 and clarify that it is あいきょう, not a variant of 愛想.
+811	挨拶	あいさつ	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the courtesy-visit expression and “relevant offices”.

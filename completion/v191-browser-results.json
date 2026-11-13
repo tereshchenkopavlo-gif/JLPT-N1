@@ -1,0 +1,160 @@
+{
+  "pass": true,
+  "candidate_sha256": "3358191011496dbe19506879d850f767544e491dc9daa1017ca45cfd74659fe3",
+  "candidate_bytes": 6944170,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 788,
+      "word": "脈",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 568
+    },
+    {
+      "id": 789,
+      "word": "婿",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 488
+    },
+    {
+      "id": 790,
+      "word": "網",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 500
+    },
+    {
+      "id": 793,
+      "word": "翼",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 448
+    },
+    {
+      "id": 794,
+      "word": "裸",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 495
+    },
+    {
+      "id": 797,
+      "word": "例",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 501
+    },
+    {
+      "id": 801,
+      "word": "脇",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 482
+    },
+    {
+      "id": 803,
+      "word": "入隊",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 603
+    },
+    {
+      "id": 805,
+      "word": "主観",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 647
+    },
+    {
+      "id": 808,
+      "word": "愛嬌",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1003
+    },
+    {
+      "id": 809,
+      "word": "愛想",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 1098
+    },
+    {
+      "id": 811,
+      "word": "挨拶",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "relatedVisible": true,
+      "examplesVisible": true,
+      "bodyTextLength": 649
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
