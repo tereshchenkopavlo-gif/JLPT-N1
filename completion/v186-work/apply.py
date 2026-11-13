@@ -245,7 +245,7 @@ elif current_all == target_all and current_vocab == target_vocab:
     after_vocab = current_vocab
     if register_changed:
         with REGISTER.open("w", encoding="utf-8", newline="") as handle:
-            writer = csv.DictWriter(handle, fieldnames=["kind", "key", "baselineLocation", "finalReview", "evidence"], lineterminator="\\n")
+            writer = csv.DictWriter(handle, fieldnames=["kind", "key", "baselineLocation", "finalReview", "evidence"], lineterminator="\n")
             writer.writeheader()
             writer.writerows(register_rows)
         register_mode = "evidence_path_corrected"
