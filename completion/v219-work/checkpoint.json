@@ -1,0 +1,141 @@
+{
+  "version": "v219",
+  "base_version": "v218",
+  "base_main_sha": "845f5c9c114a436016a9242fbb0fc0235eeb7f3c",
+  "base_html_sha256": "adc7376d13a74d6d2f9ed00a5d35a9695f4728066aa66659b1ab01218433e425",
+  "base_html_blob": "1776fcf8ae696335afd1417ebca9410d9eae1945",
+  "base_html_bytes": 6951452,
+  "branch": "work/v219-c10-next-pending",
+  "scope_ids": [
+    3277,
+    3280,
+    3281,
+    3293,
+    3296,
+    3312,
+    3319,
+    3321,
+    3323,
+    3325,
+    3336,
+    3337
+  ],
+  "scope_status": "pending in main after v218; selected in register order after existing C11/other deferrals",
+  "fixed_rechecked_ids": [
+    3281,
+    3293,
+    3296,
+    3312,
+    3319,
+    3321,
+    3323,
+    3325,
+    3336
+  ],
+  "reviewed_ids": [
+    3277,
+    3280
+  ],
+  "field_updates": [
+    {
+      "id": 3281,
+      "field": "t"
+    },
+    {
+      "id": 3293,
+      "field": "t"
+    },
+    {
+      "id": 3293,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3296,
+      "field": "usage"
+    },
+    {
+      "id": 3312,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3319,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3321,
+      "field": "exampleTranslations[0]"
+    },
+    {
+      "id": 3323,
+      "field": "examples[1]"
+    },
+    {
+      "id": 3323,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3325,
+      "field": "examples[1]"
+    },
+    {
+      "id": 3325,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3336,
+      "field": "usage"
+    }
+  ],
+  "pair_reviewed": [
+    747,
+    749,
+    751,
+    752,
+    757,
+    761,
+    764
+  ],
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3277,
+    3280,
+    3281,
+    3293,
+    3296,
+    3312,
+    3319,
+    3321,
+    3323,
+    3325,
+    3336,
+    3337
+  ],
+  "author_credit_before": 3795,
+  "author_credit_after": 3806,
+  "author_review": "completed; 11 cards credited, one C11 POS block",
+  "technical_verification": "passed",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "main_guard": "845f5c9c114a436016a9242fbb0fc0235eeb7f3c",
+  "publication_policy": "copy only exact verified artifacts; never merge the work branch",
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "candidate_sha256": "abfaf537a365d5389138f1f0e514c20f2f181cf51ac33ea7b34fb7de48f22481",
+  "candidate_blob_sha": "352fbf13dbe837e385a5e94fef0b4002bc636f29",
+  "candidate_bytes": 6951877,
+  "blocked_ids": [
+    3337
+  ],
+  "pair_changed": [
+    752
+  ],
+  "exact_rollback": true,
+  "chromium_verification": "passed",
+  "workflow_run_id": 43525242265,
+  "publication_guard": {
+    "branch": "main",
+    "sha": "3162a50d08e4b138dffe0d3aff90c17c5cbf2711",
+    "html_blob_at_guard": "1776fcf8ae696335afd1417ebca9410d9eae1945",
+    "policy": "copy exact verified artifacts; do not merge work branch"
+  }
+}

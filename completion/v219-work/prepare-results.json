@@ -1,0 +1,127 @@
+{
+  "pass": true,
+  "base_version": "v218",
+  "base_main_sha": "845f5c9c114a436016a9242fbb0fc0235eeb7f3c",
+  "main_status_commit": "c5e13bbe3a2845f3821ce8cd3aaa4289a3ee7116",
+  "base_sha256": "adc7376d13a74d6d2f9ed00a5d35a9695f4728066aa66659b1ab01218433e425",
+  "candidate_version": "v219",
+  "candidate_sha256": "abfaf537a365d5389138f1f0e514c20f2f181cf51ac33ea7b34fb7de48f22481",
+  "candidate_blob_sha": "352fbf13dbe837e385a5e94fef0b4002bc636f29",
+  "candidate_bytes": 6951877,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    3277,
+    3280,
+    3281,
+    3293,
+    3296,
+    3312,
+    3319,
+    3321,
+    3323,
+    3325,
+    3336,
+    3337
+  ],
+  "fixed_rechecked_ids": [
+    3281,
+    3293,
+    3296,
+    3312,
+    3319,
+    3321,
+    3323,
+    3325,
+    3336
+  ],
+  "reviewed_ids": [
+    3277,
+    3280
+  ],
+  "blocked_ids": [
+    3337
+  ],
+  "updated_fields": 12,
+  "changed_cards": [
+    3281,
+    3293,
+    3296,
+    3312,
+    3319,
+    3321,
+    3323,
+    3325,
+    3336
+  ],
+  "pair_reviewed_indices": [
+    747,
+    749,
+    751,
+    752,
+    757,
+    761,
+    764
+  ],
+  "pair_changed_indices": [
+    752
+  ],
+  "pair_updates": 1,
+  "pos_map_unchanged": true,
+  "reading_and_cloze_pools_unchanged": true,
+  "example_target_tables_unchanged": true,
+  "japanese_examples_changed": [
+    3323,
+    3325
+  ],
+  "example_target_rows_found_for_changed_examples": 0,
+  "author_credit_before": 3795,
+  "author_credit_addition": 11,
+  "author_credit_after": 3806,
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3277,
+    3280,
+    3281,
+    3293,
+    3296,
+    3312,
+    3319,
+    3321,
+    3323,
+    3325,
+    3336,
+    3337
+  ],
+  "exact_rollback": true,
+  "register_after": {
+    "all": {
+      "reviewed": 3944,
+      "fixed_rechecked": 442,
+      "pending": 1460,
+      "blocked": 1,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3366,
+      "fixed_rechecked": 440,
+      "pending": 107,
+      "blocked": 1,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 27,
+      "fixed_rechecked": 1,
+      "pending": 831,
+      "blocked": 0,
+      "total": 859
+    }
+  },
+  "author_review_only": true,
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "publication_guard": "3162a50d08e4b138dffe0d3aff90c17c5cbf2711"
+}

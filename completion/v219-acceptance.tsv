@@ -1,0 +1,20 @@
+kind	key	decision	change	note
+vocab	3277	reviewed	unchanged	さぞや
+vocab	3280	reviewed	unchanged	さも
+vocab	3281	fixed_rechecked	changed	しいて
+vocab	3293	fixed_rechecked	changed	どうにか
+vocab	3296	fixed_rechecked	changed	どうやら
+vocab	3312	fixed_rechecked	changed	よくも
+vocab	3319	fixed_rechecked	changed	極力
+vocab	3321	fixed_rechecked	changed	安静に
+vocab	3323	fixed_rechecked	changed	案の定
+vocab	3325	fixed_rechecked	changed	依然
+vocab	3336	fixed_rechecked	changed	まして
+vocab	3337	blocked	unchanged	一切 — C11 POS/pool impact
+vocab_pair	747	reviewed	unchanged	3260/3281
+vocab_pair	749	reviewed	unchanged	3269/3280
+vocab_pair	751	reviewed	unchanged	3271/3277
+vocab_pair	752	reviewed	note corrected	3293/3296
+vocab_pair	757	reviewed	unchanged	3325/3364
+vocab_pair	761	reviewed	unchanged	3316/3319
+vocab_pair	764	reviewed	unchanged	3336/3355

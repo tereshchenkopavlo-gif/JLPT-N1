@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+3277	さぞや	reviewed	—	Both examples, definition and empathic conjecture usage checked; no change
+3280	さも	reviewed	—	As-if use, examples and caveat against assuming deception checked; no change
+3281	しいて	fixed_rechecked	t	Remove misleading deliberate-against-natural-course gloss; retain forced/pressed and forced-choice senses
+3293	どうにか	fixed_rechecked	t; exampleTranslations[1]	Naturalize gloss and avoid over-specific cash-shortage translation for 資金繰り
+3296	どうやら	fixed_rechecked	usage	Correct claim that the “somehow” sense is merely historical; distinguish two current senses
+3312	よくも	fixed_rechecked	exampleTranslations[1]	Replace calque of 世話になる with natural Ukrainian
+3319	極力	fixed_rechecked	exampleTranslations[1]	Preserve the maximum-effort force of 極力避ける
+3321	安静に	fixed_rechecked	exampleTranslations[0]	Specify physical rest without asserting mandatory bed rest
+3323	案の定	fixed_rechecked	examples[1]; exampleTranslations[1]	Remove redundant forecast/as-expected cue and keep a clear prior sign
+3325	依然	fixed_rechecked	examples[1]; exampleTranslations[1]	Remove redundant continuation wording and retain unchanged-state meaning
+3336	まして	fixed_rechecked	usage	Explain the logical direction from A to the more obvious/stronger B case
+3337	一切	blocked	—	Content checked; noun use is documented but app POS map/pool impact requires C11
