@@ -9,14 +9,12 @@
 
 ## Стан випуску v213
 
-Перевірено 12 pending-карток: 11 отримали статус fixed_rechecked, одна (ID1631 相応) залишилася pending через виміряний вплив запропонованої POS-зміни на автоматичні банки вправ. Внесено 13 точних змін у 11 картках; японські приклади, POS-map і навчальну логіку не змінено.
+Перевірено 12 pending-карток: 11 fixed_rechecked, одна залишена pending. Внесено 13 точних змін у 11 картках. Авторський credit: **3725/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар.
 
-Авторський credit: **3725/3914** словникових карток. У базі збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар.
+HTML v213: 6 949 518 байтів; SHA-256: 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c; Git blob: 8140c2c267ef1b947f129ae133809ca25bfe135c. Успішний [workflow run 43478546381](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43478546381); PR #38 закрито без злиття.
 
-HTML v213: 6 949 518 байтів; SHA-256:
-`806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c`.
+## Кандидат v214
 
-Докази: [deterministic prepare](completion/v213-prepare-results.json), [Chromium acceptance](completion/v213-browser-results.json), [registry](completion/v213-registry-results.json), [acceptance](completion/v213-acceptance.tsv), [повний перегляд](completion/v213-c10-review.tsv), [точні зміни](completion/v213-field-changes.tsv), [джерельна звірка](completion/v213-source-review.md).
+Кандидат v214 у гілці work/v214-c10-next-pending: 12 pending-карток, 13 точних змін у 12 картках, три уточнення японських дефініцій і дві пари для повторного перегляду без зміни тексту. Очікуваний авторський credit — **3737/3914**. Детермінований build, перевірка реєстру та Chromium acceptance ще не проведені. [Робоча гілка v214](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v214-c10-next-pending).
 
-Публікація: [успішний workflow run 43478546381](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43478546381), main commit 225552bb9854a4e5726b56ce90885cb4f4c11bb7. PR #38 закрито без злиття; робочу гілку та докази збережено. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються окремими відкритими задачами.
-
+Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
