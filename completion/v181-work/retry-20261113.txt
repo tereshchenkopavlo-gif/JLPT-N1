@@ -1,1 +1,1 @@
-Trigger v181 Chromium rerun after refining the two distractor sets, strengthening exact-content assertions, and excluding Python cache files from evidence commits.
+Trigger v181 C11 verification after making the registry update idempotent and refining the contextual distractors.
