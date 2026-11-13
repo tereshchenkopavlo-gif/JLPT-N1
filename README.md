@@ -1,22 +1,20 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна опублікована редакція: v214.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
+**Актуальна опублікована редакція: v213.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
-- [Повний автономний HTML v214](JLPT_N1_ukrainian_reading_v214.html)
-- [Авторський аудит v214](JLPT_N1_v214_audit.md)
+- [Повний автономний HTML v213](JLPT_N1_ukrainian_reading_v213.html)
+- [Авторський аудит v213](JLPT_N1_v213_audit.md)
 - [Поточний стан проєкту](PROJECT_STATUS.md)
 - [Єдиний реєстр завершення 1.0](completion/BACKLOG.md)
 
-## Стан випуску v214
+## Стан випуску v213
 
-Перевірено 12 pending-карток: усі 12 отримали статус fixed_rechecked; внесено 13 точних змін. Додатково переглянуто дві лексичні пари без зміни їхніх приміток.
+Перевірено 12 pending-карток: 11 fixed_rechecked, одна залишена pending. Внесено 13 точних змін у 11 картках. Авторський credit: **3725/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар.
 
-Авторський credit: **3737/3914** словникових карток. У базі збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар.
+HTML v213: 6 949 518 байтів; SHA-256: 806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c; Git blob: 8140c2c267ef1b947f129ae133809ca25bfe135c. Успішний [workflow run 43478546381](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43478546381); PR #38 закрито без злиття.
 
-HTML v214: __V214_BYTES__ байтів; SHA-256: `__V214_SHA256__`; Git blob: `__V214_BLOB__`.
+## Кандидат v214
 
-Докази: [deterministic prepare](completion/v214-prepare-results.json), [Chromium acceptance](completion/v214-browser-results.json), [registry](completion/v214-registry-results.json), [acceptance](completion/v214-acceptance.tsv), [повний перегляд](completion/v214-c10-review.tsv), [точні зміни](completion/v214-field-changes.tsv), [перевірка пар](completion/v214-pair-review.tsv), [джерельна звірка](completion/v214-source-review.md).
+Кандидат v214 у гілці work/v214-c10-next-pending: 12 pending-карток, 13 точних змін у 12 картках, три уточнення японських дефініцій і дві пари для повторного перегляду без зміни тексту. Очікуваний авторський credit — **3737/3914**. Детермінований build, перевірка реєстру та Chromium acceptance ще не проведені. [Робоча гілка v214](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v214-c10-next-pending).
 
-Попередній випуск: [v213 HTML](JLPT_N1_ukrainian_reading_v213.html) · [v213 аудит](JLPT_N1_v213_audit.md).
-
-Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються окремими відкритими задачами. Робочу гілку v214 не зливали; у main опубліковано лише перевірені артефакти.
+Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
