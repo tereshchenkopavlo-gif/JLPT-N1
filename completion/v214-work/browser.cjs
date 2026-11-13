@@ -44,7 +44,7 @@ async function main(){
    p421:VOCAB_AUDITED_PAIRS.find(p=>p.a==='1666'&&p.b==='1682')
   }));
   assert.ok(pairData.p417); assert.ok(pairData.p421);
-  const rendered=await page.evaluate(async ids=>{
+  const rendered=await page.evaluate(async ({ids,expected})=>{
    showView('cards'); const out=[];
    const norm=x=>String(x).replace(/\s+/g,' ').trim();
    for(const id of ids){
@@ -55,7 +55,7 @@ async function main(){
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
      glossVisible:!d.t||norm(text).includes(norm(d.t.split(/[;\n]/)[0])),
-     definitionVisible:!EXPECTED[id].definition||norm(text).includes(norm(EXPECTED[id].definition)),
+     definitionVisible:!expected[id].definition||norm(text).includes(norm(expected[id].definition)),
      usageVisible:!usageSample||norm(text).includes(norm(usageSample)),
      translationsVisible:d.exampleTranslations.every(x=>!x||norm(text).includes(norm(x))),
      examplesVisible:d.examples.every(x=>!x||norm(text).includes(norm(x))),
@@ -63,7 +63,7 @@ async function main(){
     });
    }
    return out;
-  },IDS);
+  },{ids:IDS,expected:EXPECTED});
   fs.writeFileSync(path.join(WORK,'rendered-debug.json'),JSON.stringify(rendered,null,2)+'\n');
   const failures=rendered.filter(x=>!(x.titleVisible&&x.glossVisible&&x.definitionVisible&&x.usageVisible&&x.translationsVisible&&x.examplesVisible));
   assert.equal(rendered.length,12);
