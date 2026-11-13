@@ -57,6 +57,23 @@
   "pilot_files": {
     "completion/v153-cards-1281-1380.tsv": "921ba71160a557eead53fd96f2d60ab8a6473786"
   },
-  "status": "author review decisions prepared; deterministic patch and Chromium verification pending",
-  "publication_policy": "copy exact verified artifacts only; never merge the work branch"
+  "status": "attempt 1 failed on incorrect Japanese-example baseline; exact source preimages corrected; attempt 2 pending",
+  "publication_policy": "copy exact verified artifacts only; never merge the work branch",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": 43464467271,
+      "conclusion": "failure",
+      "failure": "apply.py stopped at Japanese example preimage mismatch for ID1351 because the baseline example arrays in the script were copied inaccurately; the workflow lacked pipefail so the failed pipeline was masked, then Chromium failed with ENOENT. No candidate HTML or registry was produced and nothing was published."
+    }
+  ],
+  "corrected_preimages": {
+    "japanese_examples": "re-read from exact v206 HTML blob 1c02bcb6e733b42c9d00e7db680a048bae3dd51c",
+    "mismatched_fields": [
+      "1363.t",
+      "1363.usage",
+      "1372.usage"
+    ],
+    "workflow_pipefail_required": true
+  }
 }
