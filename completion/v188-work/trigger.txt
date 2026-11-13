@@ -1,1 +1,1 @@
-Trigger v188 after browser visibility diagnostic and ID687 translation refinement; attempt 3.
+Trigger v188 after dash-spacing normalizer fix for rendered usage; attempt 4.
