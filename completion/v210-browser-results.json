@@ -1,0 +1,148 @@
+{
+  "pass": true,
+  "candidate_sha256": "ced09771cf3ca0a2fdeba08691768f27a8f62b41c56353aacafee21be08f1474",
+  "candidate_bytes": 6948501,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 12,
+  "reviewed_cards": [
+    {
+      "id": 1445,
+      "word": "重複",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1446,
+      "word": "重宝",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1449,
+      "word": "出没",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1451,
+      "word": "巡回",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1455,
+      "word": "処置",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1457,
+      "word": "処分",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1459,
+      "word": "初耳",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1460,
+      "word": "所在",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1461,
+      "word": "所持",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1463,
+      "word": "庶民",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1467,
+      "word": "書面",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    },
+    {
+      "id": 1469,
+      "word": "徐行",
+      "titleVisible": true,
+      "glossVisible": true,
+      "usageVisible": true,
+      "translationsVisible": true,
+      "examplesVisible": true
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": []
+}
