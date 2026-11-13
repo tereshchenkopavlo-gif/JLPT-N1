@@ -23,8 +23,11 @@ for rel in PUBLISH_PATHS:
   text=blob.decode("utf-8").replace("__V203_SHA256__",digest).replace("__V203_BYTES__",str(size))
   if rel=="README.md":
    text=text.replace("Опублікована v202; кандидат v203 у work/v203-c10-next-pending, ще не опублікований.","Актуальна v203 у main після успішного guarded-приймання.")
+   text=text.replace("JLPT_N1_ukrainian_reading_v202.html","JLPT_N1_ukrainian_reading_v203.html")
   elif rel=="PROJECT_STATUS.md":
    text=text.replace("Опублікована v202; кандидат **v203** у гілці work/v203-c10-next-pending, ще не опублікований.","Актуальна **v203** у main після успішного guarded-приймання.")
+   text=text.replace("blob/work/v203-c10-next-pending/JLPT_N1_ukrainian_reading_v203.html","blob/main/JLPT_N1_ukrainian_reading_v203.html")
+   text=text.replace("blob/work/v203-c10-next-pending/JLPT_N1_v203_audit.md","blob/main/JLPT_N1_v203_audit.md")
    text=text.replace("## Поточний кандидат v203 — C10 авторський аудит","## Опублікований випуск v203 — C10 авторський аудит")
    text=text.replace("Кандидат v203 ще не зібраний і не опублікований.","Опублікований HTML v203: __V203_BYTES__ байти, SHA-256 __V203_SHA256__.")
    text=text.replace("blob/work/v203-c10-next-pending/JLPT_N1_ukrainian_reading_v203.html","blob/main/JLPT_N1_ukrainian_reading_v203.html")
