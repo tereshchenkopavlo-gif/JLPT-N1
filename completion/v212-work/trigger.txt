@@ -1,1 +1,1 @@
-Trigger v212 C10 deterministic build and Chromium acceptance; attempt 2 after correcting the EXPECTED identity/POS table.
+Trigger v212 C10 deterministic build and Chromium acceptance; attempt 3 after correcting publisher byte-count string conversion.
