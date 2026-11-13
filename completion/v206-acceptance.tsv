@@ -1,0 +1,13 @@
+id	word	reading	pos	decision	fields_changed	rationale
+1322	司法	しほう	名詞	fixed_rechecked	t	Add the judicial-branch sense while retaining administration of justice.
+1323	始末	しまつ	名詞	fixed_rechecked	exampleTranslations[0]	Clarify appropriate cleanup/disposal of used equipment.
+1327	志向	しこう	名詞	fixed_rechecked	exampleTranslations[0]	傾向が強い describes a strong tendency, not a temporal increase.
+1329	思惑	おもわく	名詞	fixed_rechecked	t	Include expectations and others’ opinions as senses.
+1331	指図	さしず	名詞	fixed_rechecked	t	Separate noun gloss from 指図する.
+1333	指標	しひょう	名詞	fixed_rechecked	exampleTranslations[1]	Render environmental consideration as consideration of environmental impact.
+1334	指紋	しもん	名詞	fixed_rechecked	m;t	Define ridge pattern and its impression separately.
+1335	指令	しれい	名詞	fixed_rechecked	exampleTranslations[0]	撤収 means leaving/withdrawing from the site, not merely stepping back.
+1339	施行	しこう／せこう	名詞	fixed_rechecked	t;usage	Narrow gloss to laws/rules/policies in force and clarify reading by context.
+1340	施設	しせつ	名詞	fixed_rechecked	t	Include equipped facility/institution, not only building/complex.
+1341	死傷	ししょう	名詞	fixed_rechecked	exampleTranslations[0]	Render 十数人 as an approximate low-teens count.
+1344	視覚	しかく	名詞	fixed_rechecked	exampleTranslations[1]	Naturalize the phrase about tactile exploration of exhibits.
