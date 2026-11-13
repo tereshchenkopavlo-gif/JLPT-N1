@@ -70,7 +70,7 @@ async function main(){
     const body=document.getElementById('cardDetailBody');
     const text=body.innerText;
     const d=VOCAB_DETAILS_BY_ID[String(id)];
-    const norm=x=>String(x).replace(/\s+/g,' ').trim();
+    const norm=x=>String(x).replace(/\s+/g,' ').replace(/\s*([—–])\s*/g,'$1').trim();
     out.push({
      id,word:d.w,
      titleVisible:norm(text).includes(norm(d.w)),
