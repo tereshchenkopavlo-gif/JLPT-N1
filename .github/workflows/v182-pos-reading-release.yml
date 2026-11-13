@@ -1,0 +1,70 @@
+name: JLPT N1 v182 POS and reading-quiz release candidate
+on:
+  push:
+    branches: [work/v181-c11-id2433-quiz-review]
+    paths:
+      - 'completion/v182-work/release-trigger.txt'
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v182-release
+  cancel-in-progress: false
+jobs:
+  build-and-test:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v181-c11-id2433-quiz-review
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Python and Node syntax without writing caches
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          for p in ['completion/v182-work/apply.py','completion/v182-work/finalize.py']:
+              compile(Path(p).read_text(encoding='utf-8'), p, 'exec')
+          PY
+          node --check completion/v182-work/diagnose.cjs
+          node --check completion/v182-work/browser.cjs
+      - name: Build deterministic v182 candidate
+        run: python3 completion/v182-work/apply.py
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Run browser regression for POS and reading quizzes
+        run: node completion/v182-work/browser.cjs
+      - name: Finalize audit, registry and release evidence
+        run: python3 completion/v182-work/finalize.py
+      - name: Save verified candidate to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v182.html JLPT_N1_v182_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/C10-followup-255-327-20261113.md completion/C11-followup-255-327-20261113.md completion/v182-acceptance.tsv completion/v182-c10-review.tsv completion/v182-reading-pool-review.tsv completion/v182-diagnostics.json completion/v182-prepare-results.json completion/v182-browser-results.json completion/v182-registry-results.json completion/v182-work/apply.py completion/v182-work/browser.cjs completion/v182-work/finalize.py completion/v182-work/diagnose.cjs completion/v182-work/checkpoint.json completion/v182-work/source-review.md completion/v182-work/preaudit-notes.md completion/v182-work/README.md completion/v182-work/prepare-results.json completion/v182-work/browser-results.json completion/v182-work/diagnostics.json completion/v182-work/reading-pool-review.tsv completion/v182-work/updates.json completion/v182-work/trigger.txt completion/v182-work/release-trigger.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Prepare JLPT N1 v182 POS and reading-quiz release"
+            git push origin HEAD:work/v181-c11-id2433-quiz-review
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jlpt-n1-v182-pos-reading
+          path: |
+            JLPT_N1_ukrainian_reading_v182.html
+            JLPT_N1_v182_audit.md
+            completion/v182-acceptance.tsv
+            completion/v182-c10-review.tsv
+            completion/v182-reading-pool-review.tsv
+            completion/v182-prepare-results.json
+            completion/v182-browser-results.json
+            completion/v182-registry-results.json
+          if-no-files-found: error
