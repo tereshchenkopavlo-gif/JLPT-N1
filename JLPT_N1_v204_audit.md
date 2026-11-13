@@ -2,7 +2,7 @@
 
 Дата: 13 листопада 2026 року. Основа: опублікований v203, main commit `7a5bcfec47231c5501b98dbd16a77b2d97730b8b`, HTML SHA-256 `81b4e4fbda3be91325493c95c3c28324deac52f69cc230f16bd630db20929339`, Git blob `a096e885d726ee16388e91e5ed4e8fcf3641c3bd`, 6 945 616 байтів.
 
-Кандидат v204: SHA-256 19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383, 6945619 байти.
+Опублікований v204: SHA-256 19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383, 6945619 байти; Git blob `bd76db7823e4115a76b3dffa64162cef4ee6003c`; main commit `5b1761135478984fdd142d68f68db3534db6d6be`.
 
 ## Обсяг і рішення
 
@@ -42,6 +42,10 @@
 - POS-map, усі ID, 3914 словникових записів, 130 граматичних конструкцій, 859 лексичних пар, quiz payloads/targets, порівняння, навчальний код і сховище прогресу захищені перевірками.
 - Реєстр до v204: 3914 reviewed /265 fixed_rechecked /1668 pending; словник — 3345 /264 /305. Очікувано після: 3915 /276 /1656; словник — 3346 /275 /293. Авторський credit — 3621/3914.
 - Chromium перевіряє 12 карток, postimage прикладу ID1237, POS-фільтр 名詞 для 古来, видимість усіх прикладів і перекладів, ширини 360/412/1280, storage round-trip та відсутність page errors.
+
+## Публікація
+
+Повний HTML, аудит, реєстр, acceptance і машинні докази опубліковано в main commit `5b1761135478984fdd142d68f68db3534db6d6be`. Опублікований HTML blob збігається з робочим кандидатом. Workflow run 43460625602 завершився success: deterministic build, syntax checks, Chromium acceptance, exact-artifact publisher і artifact upload — усі кроки успішні. PR #29 закрито без злиття.
 
 ## Межі
 
