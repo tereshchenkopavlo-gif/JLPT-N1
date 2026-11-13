@@ -4,11 +4,11 @@
 Кандидат: v217, повний автономний HTML.
 Робоча гілка: work/v217-c10-next-pending.
 Workflow run: буде записано після Chromium-приймання.
-HTML bytes: __V217_BYTES__.
-SHA-256: __V217_SHA256__.
-Git blob: __V217_BLOB__.
+HTML bytes: 6950869.
+SHA-256: 58d01e555bdf84810bd16237d8fcf755cbdcf756fb1a8784046eca144e58f79b.
+Git blob: e565a0e488ef48014d58bcb2cb175bbc67b738d2.
 
-TECHNICAL_STATUS_PENDING
+TECHNICAL_STATUS_PASS
 
 ## Авторський обсяг
 

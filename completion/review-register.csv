@@ -1738,7 +1738,7 @@ vocab,1736,vocab:1736,reviewed,completion/v154-cards-1721-1780.tsv#1736; author 
 vocab,1737,vocab:1737,reviewed,completion/v154-cards-1721-1780.tsv#1737; author linguistic review
 vocab,1738,vocab:1738,reviewed,completion/v154-cards-1721-1780.tsv#1738; author linguistic review
 vocab,1739,vocab:1739,reviewed,completion/v154-cards-1721-1780.tsv#1739; author linguistic review
-vocab,1740,vocab:1740,pending,
+vocab,1740,vocab:1740,reviewed,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,1741,vocab:1741,reviewed,completion/v154-cards-1721-1780.tsv#1741; author linguistic review
 vocab,1742,vocab:1742,reviewed,completion/v154-cards-1721-1780.tsv#1742; author linguistic review
 vocab,1743,vocab:1743,reviewed,completion/v155-acceptance.tsv#1743; prior author review carried for unchanged fields; edited fields rechecked; v155 browser evidence
@@ -1794,7 +1794,7 @@ vocab,1792,vocab:1792,reviewed,completion/v154-cards-1781-1840.tsv#1792; author 
 vocab,1793,vocab:1793,reviewed,completion/v154-cards-1781-1840.tsv#1793; author linguistic review
 vocab,1794,vocab:1794,reviewed,completion/v155-acceptance.tsv#1794; prior author review carried for unchanged fields; edited fields rechecked; v155 browser evidence
 vocab,1795,vocab:1795,fixed_rechecked,completion/v216-acceptance.tsv; JLPT_N1_v216_audit.md
-vocab,1796,vocab:1796,pending,
+vocab,1796,vocab:1796,reviewed,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,1797,vocab:1797,reviewed,completion/v154-cards-1781-1840.tsv#1797; author linguistic review
 vocab,1798,vocab:1798,reviewed,completion/v154-cards-1781-1840.tsv#1798; author linguistic review
 vocab,1799,vocab:1799,reviewed,completion/v154-cards-1781-1840.tsv#1799; author linguistic review
@@ -1814,15 +1814,15 @@ vocab,1812,vocab:1812,reviewed,completion/v154-cards-1781-1840.tsv#1812; author 
 vocab,1813,vocab:1813,reviewed,completion/v154-cards-1781-1840.tsv#1813; author linguistic review
 vocab,1814,vocab:1814,reviewed,completion/v155-acceptance.tsv#1814; prior author review carried for unchanged fields; edited fields rechecked; v155 browser evidence
 vocab,1815,vocab:1815,reviewed,completion/v154-cards-1781-1840.tsv#1815; author linguistic review
-vocab,1816,vocab:1816,pending,
+vocab,1816,vocab:1816,fixed_rechecked,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,1817,vocab:1817,reviewed,completion/v154-cards-1781-1840.tsv#1817; author linguistic review
 vocab,1818,vocab:1818,reviewed,completion/v154-cards-1781-1840.tsv#1818; author linguistic review
 vocab,1819,vocab:1819,reviewed,completion/v154-cards-1781-1840.tsv#1819; author linguistic review
 vocab,1820,vocab:1820,reviewed,completion/v154-cards-1781-1840.tsv#1820; author linguistic review
 vocab,1821,vocab:1821,reviewed,completion/v154-cards-1781-1840.tsv#1821; author linguistic review
 vocab,1822,vocab:1822,reviewed,completion/v154-cards-1781-1840.tsv#1822; author linguistic review
-vocab,1823,vocab:1823,pending,
-vocab,1824,vocab:1824,pending,
+vocab,1823,vocab:1823,reviewed,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
+vocab,1824,vocab:1824,reviewed,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,1825,vocab:1825,reviewed,completion/v154-cards-1781-1840.tsv#1825; author linguistic review
 vocab,1826,vocab:1826,reviewed,completion/v154-cards-1781-1840.tsv#1826; author linguistic review
 vocab,1827,vocab:1827,reviewed,completion/v154-cards-1781-1840.tsv#1827; author linguistic review
@@ -2140,7 +2140,7 @@ vocab,2138,vocab:2138,reviewed,completion/v156-cards-2121-2140.tsv#2138; author 
 vocab,2139,vocab:2139,reviewed,completion/v156-cards-2121-2140.tsv#2139; author linguistic review
 vocab,2140,vocab:2140,reviewed,completion/v156-cards-2121-2140.tsv#2140; author linguistic review
 vocab,2141,vocab:2141,reviewed,completion/v157-cards-2141-2160.tsv#2141; author linguistic review
-vocab,2142,vocab:2142,pending,
+vocab,2142,vocab:2142,reviewed,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,2143,vocab:2143,reviewed,completion/v157-cards-2141-2160.tsv#2143; author linguistic review
 vocab,2144,vocab:2144,reviewed,completion/v158-acceptance.tsv#2144; edited fields rechecked; unchanged author evidence carried; not independent
 vocab,2145,vocab:2145,reviewed,completion/v157-cards-2141-2160.tsv#2145; author linguistic review
@@ -3018,7 +3018,7 @@ vocab,3016,vocab:3016,reviewed,completion/v162-cards-3001-3020.tsv#3016; author 
 vocab,3017,vocab:3017,fixed_rechecked,completion/v216-acceptance.tsv; JLPT_N1_v216_audit.md
 vocab,3018,vocab:3018,reviewed,completion/v162-cards-3001-3020.tsv#3018; author linguistic review
 vocab,3019,vocab:3019,reviewed,completion/v162-cards-3001-3020.tsv#3019; author linguistic review
-vocab,3020,vocab:3020,pending,
+vocab,3020,vocab:3020,fixed_rechecked,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,3021,vocab:3021,reviewed,completion/v162-cards-3021-3040.tsv#3021; author linguistic review
 vocab,3022,vocab:3022,reviewed,completion/v162-cards-3021-3040.tsv#3022; author linguistic review
 vocab,3023,vocab:3023,reviewed,completion/v216-acceptance.tsv; JLPT_N1_v216_audit.md
@@ -3027,19 +3027,19 @@ vocab,3025,vocab:3025,reviewed,completion/v162-cards-3021-3040.tsv#3025; author 
 vocab,3026,vocab:3026,reviewed,completion/v162-cards-3021-3040.tsv#3026; author linguistic review
 vocab,3027,vocab:3027,reviewed,completion/v162-cards-3021-3040.tsv#3027; author linguistic review
 vocab,3028,vocab:3028,reviewed,completion/v162-cards-3021-3040.tsv#3028; author linguistic review
-vocab,3029,vocab:3029,pending,
+vocab,3029,vocab:3029,reviewed,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,3030,vocab:3030,reviewed,completion/v162-cards-3021-3040.tsv#3030; author linguistic review
 vocab,3031,vocab:3031,reviewed,completion/v162-cards-3021-3040.tsv#3031; author linguistic review
 vocab,3032,vocab:3032,reviewed,completion/v162-cards-3021-3040.tsv#3032; author linguistic review
 vocab,3033,vocab:3033,reviewed,completion/v162-cards-3021-3040.tsv#3033; author linguistic review
-vocab,3034,vocab:3034,pending,
+vocab,3034,vocab:3034,reviewed,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,3035,vocab:3035,reviewed,completion/v162-cards-3021-3040.tsv#3035; author linguistic review
 vocab,3036,vocab:3036,reviewed,completion/v162-cards-3021-3040.tsv#3036; author linguistic review
 vocab,3037,vocab:3037,reviewed,completion/v162-cards-3021-3040.tsv#3037; author linguistic review
 vocab,3038,vocab:3038,reviewed,completion/v162-cards-3021-3040.tsv#3038; author linguistic review
 vocab,3039,vocab:3039,reviewed,completion/v162-cards-3021-3040.tsv#3039; author linguistic review
 vocab,3040,vocab:3040,reviewed,completion/v162-cards-3021-3040.tsv#3040; author linguistic review
-vocab,3041,vocab:3041,pending,
+vocab,3041,vocab:3041,fixed_rechecked,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,3042,vocab:3042,reviewed,completion/v165-acceptance.tsv#3042. Author linguistic review of corrected fields and prior evidence.
 vocab,3043,vocab:3043,reviewed,completion/v162-cards-3041-3060.tsv#3043; author linguistic review
 vocab,3044,vocab:3044,reviewed,completion/v162-cards-3041-3060.tsv#3044; author linguistic review
@@ -3050,14 +3050,14 @@ vocab,3048,vocab:3048,reviewed,completion/v162-cards-3041-3060.tsv#3048; author 
 vocab,3049,vocab:3049,reviewed,completion/v162-cards-3041-3060.tsv#3049; author linguistic review
 vocab,3050,vocab:3050,reviewed,completion/v162-cards-3041-3060.tsv#3050; author linguistic review
 vocab,3051,vocab:3051,reviewed,completion/v162-cards-3041-3060.tsv#3051; author linguistic review
-vocab,3052,vocab:3052,pending,
+vocab,3052,vocab:3052,fixed_rechecked,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,3053,vocab:3053,reviewed,completion/v162-cards-3041-3060.tsv#3053; author linguistic review
 vocab,3054,vocab:3054,reviewed,completion/v162-cards-3041-3060.tsv#3054; author linguistic review
 vocab,3055,vocab:3055,reviewed,completion/v162-cards-3041-3060.tsv#3055; author linguistic review
 vocab,3056,vocab:3056,reviewed,completion/v162-cards-3041-3060.tsv#3056; author linguistic review
 vocab,3057,vocab:3057,reviewed,completion/v165-acceptance.tsv#3057. Author linguistic review of corrected fields and prior evidence.
 vocab,3058,vocab:3058,reviewed,completion/v162-cards-3041-3060.tsv#3058; author linguistic review
-vocab,3059,vocab:3059,pending,
+vocab,3059,vocab:3059,fixed_rechecked,"completion/v217-acceptance.tsv; JLPT_N1_v217_audit.md; author review, not independent"
 vocab,3060,vocab:3060,reviewed,completion/v162-cards-3041-3060.tsv#3060; author linguistic review
 vocab,3061,vocab:3061,reviewed,completion/v162-cards-3061-3080.tsv#3061; author linguistic review
 vocab,3062,vocab:3062,reviewed,completion/v162-cards-3061-3080.tsv#3062; author linguistic review
