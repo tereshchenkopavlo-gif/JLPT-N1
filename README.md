@@ -1,9 +1,9 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-Актуальна v192. У C10 повністю переглянуто 12 карток ID815, 818, 819, 822, 825, 828, 831, 839, 844, 845, 855, 856: усі 12 fixed_rechecked. Внесено 14 точних змін у 12 картках; японські приклади й POS не змінювалися. [Повний HTML](JLPT_N1_ukrainian_reading_v192.html) · [Аудит v192](JLPT_N1_v192_audit.md)
+Актуальна v193. У C10 повністю переглянуто 12 карток ID857, 858, 860, 862, 863, 865, 867, 872, 873, 874, 878, 880: усі 12 fixed_rechecked. Внесено 17 точних змін у 12 картках; японські приклади й POS не змінювалися. [Повний HTML](JLPT_N1_ukrainian_reading_v193.html) · [Аудит v193](JLPT_N1_v193_audit.md)
 
-SHA-256: ebd6dfe16edb7367349a299e445797fd7309c0098855b07b46bf6fb4b1f1c54a · 6944306 байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3499/3914; реєстр — 3906 reviewed /163 fixed_rechecked /1778 pending; словниковий зріз — 3337 /162 /415. C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
+SHA-256: __V193_SHA256__ · __V193_BYTES__ байти. Збережено 3914 словникових записів, 130 граматичних конструкцій і 859 лексичних пар. Авторський credit — 3511/3914; реєстр — 3906 reviewed /175 fixed_rechecked /1766 pending; словниковий зріз — 3337 /174 /403. C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
 
-Докази v192: completion/v192-prepare-results.json, completion/v192-browser-results.json, completion/v192-registry-results.json, completion/v192-acceptance.tsv, completion/v192-c10-review.tsv, completion/v192-source-review.md. Наступні доступні pending ID: 857, 858, 860, 862, 863, 865, 867, 872, 873, 874, 878, 880; робоча гілка — work/v193-c10-next-pending.
+Докази v193: completion/v193-prepare-results.json, completion/v193-browser-results.json, completion/v193-registry-results.json, completion/v193-acceptance.tsv, completion/v193-c10-review.tsv, completion/v193-source-review.md. Наступні доступні pending ID: 883, 884, 885, 888, 890, 893, 894, 900, 901, 903, 905, 906; робоча гілка — work/v194-c10-next-pending.
 
 Нижче збережено історичний журнал; він не описує поточний стан.
