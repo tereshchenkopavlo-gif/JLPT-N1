@@ -51,7 +51,7 @@
     1094,
     1095
   ],
-  "status": "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending",
+  "status": "v199 exact artifacts published and verified in main",
   "publication_policy": "copy exact verified paths only; never merge the work branch",
   "browser_scope_note": "usage is a stored linguistic annotation validated directly from VOCAB_DETAILS_BY_ID; it is not rendered in the current card-detail view, so it is checked as data rather than a visible UI element.",
   "candidate_sha256": "c81d7624557b2193bd6bc7939c93e200b054323f4b845f19921d70924a9ab280",
@@ -59,5 +59,47 @@
   "exact_rollback": true,
   "register_mode": "applied_from_baseline",
   "chromium_verification": "passed",
-  "browser_results": "completion/v199-work/browser-results.json"
+  "browser_results": "completion/v199-work/browser-results.json",
+  "publication_commit": "024905a16ab57e8c50c412837fbb23443e7fbf82",
+  "publication_html_blob": "61d003c515de11be9bc211c4dfc6e52ef73bbded",
+  "publication_sha256": "c81d7624557b2193bd6bc7939c93e200b054323f4b845f19921d70924a9ab280",
+  "publication_bytes": 6945305,
+  "published_paths": [
+    "JLPT_N1_ukrainian_reading_v199.html",
+    "JLPT_N1_v199_audit.md",
+    "README.md",
+    "PROJECT_STATUS.md",
+    "completion/BACKLOG.md",
+    "completion/review-register.csv",
+    "completion/v199-acceptance.tsv",
+    "completion/v199-c10-review.tsv",
+    "completion/v199-prepare-results.json",
+    "completion/v199-browser-results.json",
+    "completion/v199-registry-results.json",
+    "completion/v199-source-review.md"
+  ],
+  "registry_after": {
+    "all": {
+      "reviewed": 3914,
+      "fixed_rechecked": 231,
+      "pending": 1702
+    },
+    "vocabulary": {
+      "reviewed": 3345,
+      "fixed_rechecked": 230,
+      "pending": 339
+    }
+  },
+  "chromium": {
+    "pass": true,
+    "reviewed_card_count": 12,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  }
 }
