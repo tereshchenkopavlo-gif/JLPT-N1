@@ -52,7 +52,8 @@ async function main(){
         finally{Math.random=old;}
       };
       const targets=REVIEWED_EXAMPLE_TARGETS.filter(x=>Number(x.id)===id2433);
-      const kanaTargetsById=findRows(VOCAB_KANA_EXAMPLE_TARGETS,id2433);\n      const kanaTargetsByWord=VOCAB_KANA_EXAMPLE_TARGETS[item.w]??null;
+      const kanaTargetsById=findRows(VOCAB_KANA_EXAMPLE_TARGETS,id2433);
+      const kanaTargetsByWord=VOCAB_KANA_EXAMPLE_TARGETS[item.w]??null;
       const meaningProposal={byExample:{
         [detail.examples[0]]:{
           correct:'高層の建物などが、周囲より高く立ち、ひときわ目立つこと。',
@@ -91,7 +92,8 @@ async function main(){
         clozeWordCandidates:clozeWordCandidates.toString().slice(0,9000),
         literalClozeAvailable:literalClozeAvailable.toString().slice(0,9000),
         markTarget:SmartEngine.markTarget.toString().slice(0,9000),
-        getDefinition:SmartEngine.getDefinition.toString().slice(0,9000),\n        quizReadingOptions:quizReadingOptions.toString().slice(0,9000)
+        getDefinition:SmartEngine.getDefinition.toString().slice(0,9000),
+        quizReadingOptions:quizReadingOptions.toString().slice(0,9000)
       };
         const uniquePool=item=>{
         const v=item,word=v.w,reading=v.r,frame=readingFrame(word);
@@ -132,7 +134,8 @@ async function main(){
         counts:{vocabulary:DEFAULT_VOCAB.length,vocabDetails:Object.keys(VOCAB_DETAILS_BY_ID).length,grammar:Object.keys(GRAMMAR_DETAILS_BY_ID).length,lexicalPairs:VOCAB_AUDITED_PAIRS.length,reviewedMeaningQuizzes:REVIEWED_MEANING_QUIZZES.length??Object.keys(REVIEWED_MEANING_QUIZZES).length},
         id2433:{headword:item.w,reading:item.r,pos:vocabPartOfSpeech(id2433),definition:SmartEngine.getDefinition(item.w,'v',id2433),examples,meaningQuizStorage:{isArray:meaningQuizArray,length:meaningQuizArray?meaningRows.length:Object.keys(meaningRows).length,matches:findRows(meaningRows,id2433),sample:meaningQuizSample},reviewedExampleTargets:targets,kanaExampleTargets:{byId:kanaTargetsById,byWord:kanaTargetsByWord},meaningSimulation,clozeCandidateCount:clozeWordCandidates({kind:'v',id:id2433,word:item}).length},
         id2433FunctionSources:source,
-        readingOverrides:{count:Object.keys(REVIEWED_READING_OPTIONS).length,sample:Object.entries(REVIEWED_READING_OPTIONS).slice(0,8)},\n        readingPools:{changedPoolCount:pools.filter(x=>x.changed).length,pools,lost,gained},
+        readingOverrides:{count:Object.keys(REVIEWED_READING_OPTIONS).length,sample:Object.entries(REVIEWED_READING_OPTIONS).slice(0,8)},
+        readingPools:{changedPoolCount:pools.filter(x=>x.changed).length,pools,lost,gained},
         readingPoolSummary:{expectedChanged:impact.changed_pool_count,expectedLost:impact.lost_eligibility,expectedGained:impact.gained_eligibility},
         progressStorageRestored:storageUnchanged,
         noPersistedMutation:true
