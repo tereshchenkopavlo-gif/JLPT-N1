@@ -1,16 +1,21 @@
 # PROJECT_STATUS.md — JLPT N1
 
+Оновлено 13 листопада 2026. Актуальна **v204** у main. Повний HTML — 6945619 байти, SHA-256 19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v204.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v204_audit.md).
+
 Оновлено 13 листопада 2026. Актуальна **v203** у main після успішного guarded-приймання. Повний HTML — 6945616 байти, SHA-256 81b4e4fbda3be91325493c95c3c28324deac52f69cc230f16bd630db20929339. [Повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_ukrainian_reading_v203.html) · [Аудит](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/JLPT_N1_v203_audit.md).
 
 ## Опублікований випуск v204 — C10 авторський аудит
 
-- Наступна партія охоплює 12 pending-карток: **1198, 1202, 1214, 1218, 1236, 1237, 1239, 1241, 1246, 1248, 1249, 1251**; для всіх знайдено відповідні примітки пілота v153.
-- Попередній авторський розбір: 11 кандидатів на виправлення та одна картка, яку можна зарахувати без зміни. Остаточне рішення після точного звірення полів і регресії.
-- Планований обсяг — 14 точних змін; одна японська редакція прикладу та один словниковий варіант написання потребують окремої postimage-перевірки.
-- Очікуваний авторський credit після зарахування всіх 12 — **3621/3914**. Очікуваний реєстр: 3915 reviewed /276 fixed_rechecked /1656 pending; словниковий зріз — 3346 /275 /293.
-- Робоча гілка: **work/v204-c10-next-pending**. Опублікований HTML v204: 6945619 байти, SHA-256 19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383. Детермінований build, registry та Chromium acceptance успішні; робочу гілку не зливати.
-- POS для 古来 залишити 名詞: це іменник із нормативним адвербіальним уживанням; зміну POS не робити без окремої C11 перевірки впливу на quiz.
-- C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
+- Перевірено **12 карток** із доказами пілота v153: **11 fixed_rechecked, 1 reviewed без зміни**.
+- Внесено **13 точних змін у 11 картках**. Єдина зміна японського прикладу — ID1237, другий приклад; інші японські приклади незмінні.
+- **古来** залишено з POS 名詞: прислівникове вживання нормативне, а noun-filter перевірено окремо. POS-map не змінювався.
+- Опублікований HTML v204: **6945619 байти**, SHA-256 `19b13f568b34d26d72d40ee09866dfab5c2ca90532dbd8b9f5fe1abda0802383`, Git blob `bd76db7823e4115a76b3dffa64162cef4ee6003c`; main commit `5b1761135478984fdd142d68f68db3534db6d6be`.
+- Авторськи зараховано **3621/3914** словникових карток. Реєстр: 3915 reviewed /276 fixed_rechecked /1656 pending; словниковий зріз — 3346 /275 /293.
+- Технічні докази: deterministic prepare і registry — pass; Chromium — 12 карток, ширини 360/412/1280 без переповнення, storage round-trip/restored, page errors — 0. [Prepare](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/completion/v204-prepare-results.json) · [Chromium](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/completion/v204-browser-results.json) · [Registry](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/main/completion/v204-registry-results.json).
+- PR #29 закрито без злиття; робочу гілку й докази збережено. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
+- Наступна безпечна C10 партія попередньо: **1297, 1300, 1301, 1303, 1306, 1309, 1311, 1312, 1313, 1315, 1316, 1319**. Перед аудитом кожну картку окремо перевірити на відповідність правилам безпеки.
+- C11 POS-залежності: ID544, 550, 552, 557, 588, 599, 644, 663.
+
 
 ## Опублікований випуск v203 — C10 авторський аудит
 
