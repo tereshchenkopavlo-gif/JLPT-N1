@@ -1,0 +1,107 @@
+name: JLPT N1 v194 C10 author review
+
+on:
+  push:
+    branches: [work/v194-c10-next-pending]
+    paths:
+      - "completion/v194-work/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - "completion/v194-work/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jlpt-n1-v194-c10
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v194-c10-next-pending
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build deterministic v194 candidate and registry
+        run: python3 completion/v194-work/apply.py
+
+      - name: Check Python and Node syntax
+        run: |
+          python3 -m py_compile completion/v194-work/apply.py completion/v194-work/publish.py
+          node --check completion/v194-work/browser.cjs
+
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Run Chromium acceptance
+        run: node completion/v194-work/browser.cjs
+
+      - name: Copy canonical evidence files
+        if: success()
+        run: |
+          cp completion/v194-work/prepare-results.json completion/v194-prepare-results.json
+          cp completion/v194-work/registry-results.json completion/v194-registry-results.json
+          cp completion/v194-work/browser-results.json completion/v194-browser-results.json
+
+      - name: Mark checkpoint after successful Chromium acceptance
+        if: success()
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("completion/v194-work/checkpoint.json")
+          d = json.loads(p.read_text(encoding="utf-8"))
+          d["status"] = "author review complete; deterministic candidate and Chromium verification passed; exact-artifact publication pending"
+          d["chromium_verification"] = "passed"
+          d["browser_results"] = "completion/v194-work/browser-results.json"
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Save candidate and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v194.html completion/review-register.csv completion/v194-work/checkpoint.json completion/v194-work/prepare-results.json completion/v194-work/registry-results.json completion/v194-work/browser-results.json completion/v194-prepare-results.json completion/v194-registry-results.json completion/v194-browser-results.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to save."
+          else
+            git commit -m "Save v194 deterministic and Chromium evidence"
+            git push origin HEAD:work/v194-c10-next-pending
+          fi
+
+      - name: Publish only exact verified artifacts to main (no bulk branch merge)
+        if: success()
+        run: python3 completion/v194-work/publish.py
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jlpt-n1-v194-c10-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v194.html
+            JLPT_N1_v194_audit.md
+            completion/v194-acceptance.tsv
+            completion/v194-c10-review.tsv
+            completion/v194-source-review.md
+            completion/v194-work/checkpoint.json
+            completion/v194-work/prepare-results.json
+            completion/v194-work/registry-results.json
+            completion/v194-work/browser-results.json
+            completion/v194-work/apply.py
+            completion/v194-work/browser.cjs
+            completion/v194-work/publish.py
