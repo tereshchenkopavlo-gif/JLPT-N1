@@ -18,5 +18,5 @@ HTML v213: 6 949 518 байтів; SHA-256:
 
 Докази: [deterministic prepare](completion/v213-prepare-results.json), [Chromium acceptance](completion/v213-browser-results.json), [registry](completion/v213-registry-results.json), [acceptance](completion/v213-acceptance.tsv), [повний перегляд](completion/v213-c10-review.tsv), [точні зміни](completion/v213-field-changes.tsv), [джерельна звірка](completion/v213-source-review.md).
 
-Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються окремими відкритими задачами. Робочу гілку v213 не зливали; у main опубліковано лише перевірені артефакти.
+Публікація: [успішний workflow run 43478546381](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43478546381), main commit 225552bb9854a4e5726b56ce90885cb4f4c11bb7. PR #38 закрито без злиття; робочу гілку та докази збережено. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються окремими відкритими задачами.
 
