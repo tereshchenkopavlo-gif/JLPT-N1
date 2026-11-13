@@ -1,0 +1,14 @@
+{
+  "id": 1631,
+  "current": [
+    "名詞"
+  ],
+  "proposed": [
+    "名詞",
+    "ナ形"
+  ],
+  "reading_candidates_before": 60,
+  "reading_candidates_after": 2,
+  "cloze_candidates_before": 2269,
+  "cloze_candidates_after": 65
+}

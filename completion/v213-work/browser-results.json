@@ -1,0 +1,53 @@
+{
+  "pass": true,
+  "candidate_sha256": "806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c",
+  "candidate_bytes": 6949518,
+  "counts": {
+    "vocab": 3914,
+    "grammar": 130,
+    "pairs": 859,
+    "uniqueIds": 3914,
+    "allIdsPresent": true
+  },
+  "reviewed_card_count": 11,
+  "pending_card_count": 1,
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": [],
+  "deferred_pos_diagnostic": {
+    "id": 1631,
+    "current": [
+      "名詞"
+    ],
+    "proposed": [
+      "名詞",
+      "ナ形"
+    ],
+    "reading_candidates_before": 60,
+    "reading_candidates_after": 2,
+    "cloze_candidates_before": 2269,
+    "cloze_candidates_after": 65
+  }
+}

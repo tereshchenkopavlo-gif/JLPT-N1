@@ -1,0 +1,102 @@
+{
+  "pass": true,
+  "base_version": "v212",
+  "base_sha256": "a0dd07bc265bb549b648ec3dcc02fa836f5ee59449a92cbdcc53c682bdc28bb5",
+  "candidate_version": "v213",
+  "candidate_sha256": "806a4649ec32fa1d85fd3cd7066fcdcc05432ea88f2b1e7218e891e35aebb50c",
+  "candidate_bytes": 6949518,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    1528,
+    1529,
+    1539,
+    1541,
+    1542,
+    1548,
+    1551,
+    1554,
+    1558,
+    1625,
+    1628,
+    1631
+  ],
+  "fixed_rechecked": [
+    1528,
+    1529,
+    1539,
+    1541,
+    1542,
+    1548,
+    1551,
+    1554,
+    1558,
+    1625,
+    1628
+  ],
+  "pending_ids": [
+    1631
+  ],
+  "updated_fields": 13,
+  "changed_cards": [
+    1528,
+    1529,
+    1539,
+    1541,
+    1542,
+    1548,
+    1551,
+    1554,
+    1558,
+    1625,
+    1628
+  ],
+  "japanese_example_changes": [],
+  "japanese_definition_changes": [
+    {
+      "id": 1542,
+      "field": "m"
+    },
+    {
+      "id": 1551,
+      "field": "m"
+    },
+    {
+      "id": 1554,
+      "field": "m"
+    }
+  ],
+  "pos_map_unchanged": true,
+  "pos_change_deferred": {
+    "id": 1631,
+    "current": [
+      "名詞"
+    ],
+    "proposed": [
+      "名詞",
+      "ナ形"
+    ],
+    "reading_candidates_before": 60,
+    "reading_candidates_after": 2,
+    "cloze_candidates_before": 2269,
+    "cloze_candidates_after": 65
+  },
+  "author_credit_before": 3714,
+  "author_credit_addition": 11,
+  "author_credit_after": 3725,
+  "protected_unchanged": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_POS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_MEANING_QUIZZES": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true
+  },
+  "exact_rollback": true,
+  "register_state": "baseline",
+  "author_review_only": true
+}

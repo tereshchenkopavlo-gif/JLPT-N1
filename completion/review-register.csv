@@ -1526,8 +1526,8 @@ vocab,1524,vocab:1524,reviewed,completion/v153-cards-1521-1560.tsv#1524; author 
 vocab,1525,vocab:1525,reviewed,completion/v153-cards-1521-1560.tsv#1525; author linguistic review
 vocab,1526,vocab:1526,reviewed,completion/v154-acceptance.tsv#1526; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
 vocab,1527,vocab:1527,reviewed,completion/v153-cards-1521-1560.tsv#1527; author linguistic review
-vocab,1528,vocab:1528,pending,
-vocab,1529,vocab:1529,pending,
+vocab,1528,vocab:1528,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
+vocab,1529,vocab:1529,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1530,vocab:1530,reviewed,completion/v153-cards-1521-1560.tsv#1530; author linguistic review
 vocab,1531,vocab:1531,reviewed,completion/v153-cards-1521-1560.tsv#1531; author linguistic review
 vocab,1532,vocab:1532,reviewed,completion/v154-acceptance.tsv#1532; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
@@ -1537,26 +1537,26 @@ vocab,1535,vocab:1535,reviewed,completion/v153-cards-1521-1560.tsv#1535; author 
 vocab,1536,vocab:1536,reviewed,completion/v153-cards-1521-1560.tsv#1536; author linguistic review
 vocab,1537,vocab:1537,reviewed,completion/v154-acceptance.tsv#1537; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
 vocab,1538,vocab:1538,reviewed,completion/v154-acceptance.tsv#1538; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
-vocab,1539,vocab:1539,pending,
+vocab,1539,vocab:1539,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1540,vocab:1540,reviewed,completion/v153-cards-1521-1560.tsv#1540; author linguistic review
-vocab,1541,vocab:1541,pending,
-vocab,1542,vocab:1542,pending,
+vocab,1541,vocab:1541,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
+vocab,1542,vocab:1542,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1543,vocab:1543,reviewed,completion/v153-cards-1521-1560.tsv#1543; author linguistic review
 vocab,1544,vocab:1544,reviewed,completion/v153-cards-1521-1560.tsv#1544; author linguistic review
 vocab,1545,vocab:1545,reviewed,completion/v153-cards-1521-1560.tsv#1545; author linguistic review
 vocab,1546,vocab:1546,reviewed,completion/v153-cards-1521-1560.tsv#1546; author linguistic review
 vocab,1547,vocab:1547,reviewed,completion/v154-acceptance.tsv#1547; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
-vocab,1548,vocab:1548,pending,
+vocab,1548,vocab:1548,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1549,vocab:1549,reviewed,completion/v153-cards-1521-1560.tsv#1549; author linguistic review
 vocab,1550,vocab:1550,reviewed,completion/v153-cards-1521-1560.tsv#1550; author linguistic review
-vocab,1551,vocab:1551,pending,
+vocab,1551,vocab:1551,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1552,vocab:1552,reviewed,completion/v153-cards-1521-1560.tsv#1552; author linguistic review
 vocab,1553,vocab:1553,reviewed,completion/v154-acceptance.tsv#1553; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
-vocab,1554,vocab:1554,pending,
+vocab,1554,vocab:1554,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1555,vocab:1555,reviewed,completion/v153-cards-1521-1560.tsv#1555; author linguistic review
 vocab,1556,vocab:1556,reviewed,completion/v153-cards-1521-1560.tsv#1556; author linguistic review
 vocab,1557,vocab:1557,reviewed,completion/v153-cards-1521-1560.tsv#1557; author linguistic review
-vocab,1558,vocab:1558,pending,
+vocab,1558,vocab:1558,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1559,vocab:1559,reviewed,completion/v153-cards-1521-1560.tsv#1559; author linguistic review
 vocab,1560,vocab:1560,reviewed,completion/v154-acceptance.tsv#1560; prior author review carried for unchanged fields; changed field rechecked; v154 browser evidence
 vocab,1561,vocab:1561,reviewed,completion/v153-cards-1561-1620.tsv#1561; author linguistic review
@@ -1623,10 +1623,10 @@ vocab,1621,vocab:1621,reviewed,completion/v153-cards-1621-1640.tsv#1621; author 
 vocab,1622,vocab:1622,reviewed,completion/v153-cards-1621-1640.tsv#1622; author linguistic review
 vocab,1623,vocab:1623,reviewed,completion/v153-cards-1621-1640.tsv#1623; author linguistic review
 vocab,1624,vocab:1624,reviewed,completion/v153-cards-1621-1640.tsv#1624; author linguistic review
-vocab,1625,vocab:1625,pending,
+vocab,1625,vocab:1625,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1626,vocab:1626,reviewed,completion/v153-cards-1621-1640.tsv#1626; author linguistic review
 vocab,1627,vocab:1627,reviewed,completion/v153-cards-1621-1640.tsv#1627; author linguistic review
-vocab,1628,vocab:1628,pending,
+vocab,1628,vocab:1628,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1629,vocab:1629,reviewed,completion/v153-cards-1621-1640.tsv#1629; author linguistic review
 vocab,1630,vocab:1630,reviewed,completion/v153-cards-1621-1640.tsv#1630; author linguistic review
 vocab,1631,vocab:1631,pending,
