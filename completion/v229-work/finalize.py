@@ -35,7 +35,7 @@ for r in rows[1:]:
         assert r[3]=="blocked"
         r[3]="fixed_rechecked"; r[4]=ev; found.add(int(r[1]))
 assert found==set(ids)
-with rp.open("w",encoding="utf-8",newline="") as f: csv.writer(f,lineterminator="\\n").writerows(rows)
+with rp.open("w",encoding="utf-8",newline="") as f: csv.writer(f,lineterminator="\n").writerows(rows)
 
 def count(rs):
     c=Counter(r[3] for r in rs if len(r)>=4)
@@ -60,7 +60,7 @@ cp.update({
  "meaning_quiz_structure":"24 contexts manually reviewed; three unique distractors, correct-answer exclusion, stable samples and length ratio <=1.5 verified",
  "workflow_run_id":int(os.environ.get("GITHUB_RUN_ID","0"))
 })
-(w/"checkpoint.json").write_text(json.dumps(cp,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+(w/"checkpoint.json").write_text(json.dumps(cp,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 summary={"pass":True,"technical_verification":"passed","chromium_verification":"passed",
  "semantic_quiz_review":"passed_manual_author_review","semantic_contexts_reviewed":24,
  "registry_credit_applied":True,"main_publication":False,
@@ -68,6 +68,6 @@ summary={"pass":True,"technical_verification":"passed","chromium_verification":"
  "remaining_blocked_ids":remaining,"candidate_sha256":p["candidate_sha256"],
  "candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],
  "workflow_run_id":cp["workflow_run_id"]}
-(w/"finalize-results.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
-(w/"review-register-results.json").write_text(json.dumps(cp["registry_counts_after"],ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+(w/"finalize-results.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+(w/"review-register-results.json").write_text(json.dumps(cp["registry_counts_after"],ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print(json.dumps(summary,ensure_ascii=False,indent=2))
