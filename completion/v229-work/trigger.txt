@@ -1,1 +1,1 @@
-Rerun v229 after fixing four Python syntax tokens in prepare.py; execute semantic-review.json acceptance for all 24 contexts; update review-register and checkpoint; 2026-11-15T02:31+09:00
+Rerun v229 after correcting scoped quiz guard and 24-context finalizer count; prepare, browser, semantic acceptance and registry checks; 2026-11-15T02:36+09:00
