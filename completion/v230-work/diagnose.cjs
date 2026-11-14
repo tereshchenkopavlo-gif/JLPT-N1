@@ -5,7 +5,7 @@ const crypto=require("node:crypto");
 const path=require("node:path");
 const {pathToFileURL}=require("node:url");
 
-const HTML="JLPT_N1_ukrainian_reading_v229.html";
+const HTML="JLPT_N1_ukrainian_reading_v230.html";
 const BASE="JLPT_N1_ukrainian_reading_v229.html";
 const W="completion/v230-work";
 const IDS=[3363,3375,3417,3441,3444,3525,3561,3565,3569,3594,3636,3646];
@@ -14,6 +14,9 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
 (async()=>{
   const candidateBytes=fs.readFileSync(HTML);
   const candidateSha=crypto.createHash("sha256").update(candidateBytes).digest("hex");
+  const prep=JSON.parse(fs.readFileSync(path.join(W,"prepare-results.json"),"utf8"));
+  assert.equal(candidateSha,prep.candidate_sha256,"candidate SHA differs from deterministic prepare result");
+  assert.equal(candidateBytes.length,prep.candidate_bytes,"candidate byte count differs from prepare result");
   const browser=await chromium.launch({headless:true});
   try{
     const errors=[];
@@ -123,10 +126,14 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       }
       return out;
     },IDS);
-    const reviewedOverridePass=reviewedOverrideChecks.every(x=>x.correctMatch&&x.wrongSetMatch);
+    const reviewedOverridePass=reviewedOverrideChecks.length===24&&reviewedOverrideChecks.every(x=>x.correctMatch&&x.wrongSetMatch&&x.noteMatch);
     fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\n");
     fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\n");
     assert.ok(meaningStructurePass,"meaning quiz options must contain one key and three unique distinct distractors");
+    assert.ok(meaningLengthPass,"meaning quiz options must not create a strong answer-length clue");
+    assert.ok(reviewedOverridePass,"all 24 exact example contexts must use their reviewed payload");
+    assert.ok(poolImpact.every(x=>x.clozeEligibleAfter),"all scoped cloze pools must remain eligible");
+    assert.ok(!poolImpact.some(x=>!x.readingEligibleBefore&&x.readingEligibleAfter),"newly eligible reading pools require separate manual review");
     const rendered=await page.evaluate(async ids=>{
       const norm=x=>String(x||"").replace(/[\\n\\r\\t]/g," ").split(" ").filter(Boolean).join(" ");
       const out=[];
@@ -178,7 +185,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     assert.deepEqual(errors,[]);
 
     const result={
-      pass:meaningStructurePass,diagnostic_only:true,author_review_required:true,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
+      pass:meaningStructurePass&&meaningLengthPass&&reviewedOverridePass&&poolImpact.every(x=>x.clozeEligibleAfter),diagnostic_only:false,author_review_required:false,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
       counts:structural,scope_count:IDS.length,
       poolImpact,meaningStructurePass,meaningLengthPass,meaningDiagnosticCount:meaningDiagnostics.length,
       reviewedOverridePass,reviewedOverrideCoverage:reviewedOverrideChecks.length,reviewedOverrideChecks,lengthOutliers,lengthCueWarnings:lengthOutliers.length,rendered,responsive,storage,pageErrors:errors,
