@@ -130,6 +130,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     assert.equal(new Set([quiz3345.correct,...quiz3345.wrong]).size,4);
 
     const rendered=await page.evaluate(async ids=>{
+      const norm=x=>String(x||"").replace(/[\\n\\r\\t]/g," ").split(" ").filter(Boolean).join(" ");
       const out=[];
       showView("cards");
       for(const id of ids){
@@ -167,7 +168,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     assert.ok(responsive.every(x=>!x.overflow));
 
     const storage=await page.evaluate(()=>{
-      const k="choba_n1uk_storage_v1",old=localStorage.getItem(k);
+      const k=STORAGE_KEY,old=localStorage.getItem(k);
       const sentinel=JSON.stringify({meta:{sessionSize:10,streak:7,lastStudyDate:"2026-11-14"},vp:{"2734":{status:"S",timesShown:3}},gp:{"95":{status:"X"}}});
       localStorage.setItem(k,sentinel);
       const roundTrip=localStorage.getItem(k)===sentinel;
