@@ -1,0 +1,46 @@
+name: JLPT N1 v230 C11 diagnostics
+on:
+  push:
+    branches:
+      - work/v230-c11-next-blockers
+    paths:
+      - completion/v230-work/trigger.txt
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v230-c11
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v230-c11-next-blockers
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check v230 diagnostic script
+        run: node --check completion/v230-work/diagnose.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Diagnose POS pools, meaning options, cards and progress on v229
+        run: node completion/v230-work/diagnose.cjs
+      - name: Save v230 diagnostic evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add completion/v230-work/
+          git commit -m "Save v230 C11 baseline diagnostics"
+          git push origin HEAD:work/v230-c11-next-blockers
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jlpt-n1-v230-c11-diagnostics
+          path: completion/v230-work/
+          if-no-files-found: warn
