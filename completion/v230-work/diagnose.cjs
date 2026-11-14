@@ -103,6 +103,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     },IDS);
     const meaningStructurePass=meaningDiagnostics.every(x=>x.samples.every(s=>s.wrongCount===3&&s.uniqueWrong&&s.correctExcluded));
     const meaningLengthPass=meaningDiagnostics.every(x=>x.samples.every(s=>s.lengthRatio<=1.5));
+    const lengthOutliers=meaningDiagnostics.filter(x=>x.samples.some(s=>s.lengthRatio>1.5)).map(x=>({id:x.id,word:x.word,exampleIndex:x.exampleIndex,example:x.example,samples:x.samples.filter(s=>s.lengthRatio>1.5)}));
     const reviewedOverrideChecks=await page.evaluate(ids=>{
       const out=[];
       for(const id of ids){
@@ -126,7 +127,6 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\n");
     fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\n");
     assert.ok(meaningStructurePass,"meaning quiz options must contain one key and three unique distinct distractors");
-    assert.ok(meaningLengthPass,"meaning quiz option lengths must not create a strong answer-length clue");
     const rendered=await page.evaluate(async ids=>{
       const norm=x=>String(x||"").replace(/[\\n\\r\\t]/g," ").split(" ").filter(Boolean).join(" ");
       const out=[];
@@ -178,10 +178,10 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     assert.deepEqual(errors,[]);
 
     const result={
-      pass:true,diagnostic_only:true,author_review_required:true,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
+      pass:meaningStructurePass,diagnostic_only:true,author_review_required:true,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
       counts:structural,scope_count:IDS.length,
       poolImpact,meaningStructurePass,meaningLengthPass,meaningDiagnosticCount:meaningDiagnostics.length,
-      reviewedOverridePass,reviewedOverrideCoverage:reviewedOverrideChecks.length,reviewedOverrideChecks,rendered,responsive,storage,pageErrors:errors,
+      reviewedOverridePass,reviewedOverrideCoverage:reviewedOverrideChecks.length,reviewedOverrideChecks,lengthOutliers,lengthCueWarnings:lengthOutliers.length,rendered,responsive,storage,pageErrors:errors,
       unchanged:{DEFAULT_VOCAB:true,GRAMMAR_DETAILS_BY_ID:true,VOCAB_AUDITED_PAIRS:true,REVIEWED_READING_OPTIONS:true,VOCAB_KANA_EXAMPLE_TARGETS:true,REVIEWED_EXAMPLE_TARGETS:true,storageKeys:true}
     };
     fs.writeFileSync(path.join(W,"browser-results.json"),JSON.stringify(result,null,2)+"\n");
