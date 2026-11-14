@@ -1,0 +1,69 @@
+{
+  "version": "v225",
+  "base_version": "v224",
+  "base_main_sha": "fc471671622b10aac6053a5bd74903bdc34b9eef",
+  "base_html_sha256": "19a9d8ca2e9f52a33c977674eb199ae7a132024adedd741681a4193f51a30cf6",
+  "base_html_blob": "e125da7bc2d404409c3d9f8bbfb2666eeee43b99",
+  "base_html_bytes": 6952257,
+  "branch": "work/v225-c10-next-pending",
+  "scope_ids": [
+    3589,
+    3594,
+    3599,
+    3601,
+    3607,
+    3614,
+    3635,
+    3636,
+    3637,
+    3642,
+    3644,
+    3646
+  ],
+  "fixed_rechecked_ids": [],
+  "reviewed_ids": [
+    3589,
+    3599,
+    3601,
+    3607,
+    3614,
+    3635,
+    3637,
+    3642,
+    3644
+  ],
+  "blocked_ids": [
+    3594,
+    3636,
+    3646
+  ],
+  "pair_reviewed": [
+    791,
+    792
+  ],
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3589,
+    3594,
+    3599,
+    3601,
+    3607,
+    3614,
+    3635,
+    3636,
+    3637,
+    3642,
+    3644,
+    3646
+  ],
+  "author_credit_before": 3856,
+  "author_credit_after": 3865,
+  "author_review": "preaudit prepared; final card-by-card decision pending",
+  "technical_verification": "pending",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "publication_policy": "publish only exact verified artifacts; never merge work branch",
+  "status": "checkpoint created; author audit pending",
+  "publication_status": "pending"
+}
