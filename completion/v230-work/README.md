@@ -1,6 +1,6 @@
 # v230 C11 POS and meaning review
 
-Base: published v229 HTML from main HEAD `5354a748fe8ae147ae81f54f82da07e00ccccddc`; HTML SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`.
+Review base: published v229 HTML from main HEAD `5354a748fe8ae147ae81f54f82da07e00ccccddc`; latest status-only main HEAD `afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba` (HTML unchanged); HTML SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`.
 
 ## Review state
 
