@@ -84,13 +84,28 @@
   "provenance_legal_acceptance": "not performed",
   "main_guard": "a8cec9889e5385bc375a8019e227e0750ac25c45",
   "publication_policy": "publish only exact verified artifacts; never merge work branch",
-  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "status": "published to main as exact verified artifacts; work branch preserved and not merged",
   "candidate_sha256": "36200574a5ff6e03386ff48b3f21d2686bd69fb335cec690db5930b37bd40955",
   "candidate_blob_sha": "2ca9191848ecd598aaede1693f8fbf35c772f7ae",
   "candidate_bytes": 6952219,
   "pair_changed": [],
   "exact_rollback": true,
-  "publication_status": "pending",
+  "publication_status": "published_exact_artifacts",
   "chromium_verification": "passed",
-  "workflow_run_id": 43551517774
+  "workflow_run_id": 43551517774,
+  "published_main_commit": "5193f3be1ac7b10b91a1b10581e495616ccb4a39",
+  "published_files": [
+    "JLPT_N1_ukrainian_reading_v223.html",
+    "JLPT_N1_v223_audit.md",
+    "completion/review-register.csv",
+    "completion/v223-acceptance.tsv",
+    "completion/v223-c10-review.tsv",
+    "completion/v223-field-changes.tsv",
+    "completion/v223-pair-review.tsv",
+    "completion/v223-source-review.md",
+    "completion/v223-prepare-results.json",
+    "completion/v223-browser-results.json",
+    "completion/v223-registry-results.json"
+  ],
+  "artifact_digest": "sha256:39245281a9576a7acceddd403a1e86bf98ab2bd9dc70646eca8b30c5fd7cdf91"
 }
