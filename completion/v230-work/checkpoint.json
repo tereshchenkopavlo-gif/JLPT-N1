@@ -31,7 +31,7 @@
     "do not broaden a card to unrelated dictionary senses solely to match a global POS label",
     "keep v153 pilot credit limited to documented IDs 121-320"
   ],
-  "status": "manual author POS/sense and 24-context quiz review completed; deterministic candidate and Chromium verification pending; no registry credit until successful finalization",
+  "status": "manual author review and static preflight passed; deterministic candidate/browser verification not yet evidenced; no registry credit and no main publication",
   "pilot_credit_applied": 0,
   "main_publication": false,
   "diagnostic_run_id": 43622947862,
@@ -64,5 +64,29 @@
     "retained_context_overrides": 2,
     "decision": "author_review_pass_pending_technical_verification",
     "independent_review": false
+  },
+  "static_preflight": {
+    "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+    "exact_example_bindings": "24/24",
+    "distinct_answer_options": "24/24",
+    "max_answer_length_ratio": 1.4667,
+    "length_ratio_threshold": 1.5,
+    "warnings_remaining": 0,
+    "pos_map_scope": 12,
+    "new_context_specific_quiz_keys": 11,
+    "new_contexts": 22,
+    "retained_reviewed_contexts": 2,
+    "v153_pilot_credit": 0,
+    "result": "static_preflight_passed",
+    "browser_candidate_verification": "pending",
+    "ci_run_evidence": "not_observed",
+    "registry_credit": 0
+  },
+  "workflow_attempt": {
+    "trigger_commit": "8bebc4dd986284d1be3a67bd5c7618772e2b8fc5",
+    "verification_pr": 41,
+    "workflow_runs_returned": 0,
+    "combined_statuses_returned": 0,
+    "interpretation": "no technical pass may be inferred; candidate remains unpublished"
   }
 }
