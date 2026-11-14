@@ -1,0 +1,108 @@
+{
+  "pass": true,
+  "base_version": "v222",
+  "base_main_sha": "a8cec9889e5385bc375a8019e227e0750ac25c45",
+  "base_html_sha256": "a05e32438c6eb1866d33395ec3eac62922df70dbf9af9befb7fa4362efebb6da",
+  "candidate_version": "v223",
+  "candidate_sha256": "36200574a5ff6e03386ff48b3f21d2686bd69fb335cec690db5930b37bd40955",
+  "candidate_blob_sha": "2ca9191848ecd598aaede1693f8fbf35c772f7ae",
+  "candidate_bytes": 6952219,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    3461,
+    3474,
+    3475,
+    3487,
+    3490,
+    3499,
+    3504,
+    3505,
+    3507,
+    3509,
+    3514,
+    3520
+  ],
+  "fixed_rechecked_ids": [
+    3487,
+    3505
+  ],
+  "reviewed_ids": [
+    3461,
+    3474,
+    3475,
+    3490,
+    3499,
+    3504,
+    3507,
+    3509,
+    3514,
+    3520
+  ],
+  "blocked_ids": [],
+  "updated_fields": 4,
+  "changed_cards": [
+    3487,
+    3505
+  ],
+  "pair_reviewed_indices": [
+    786,
+    788
+  ],
+  "pair_changed_indices": [],
+  "pos_map_unchanged": true,
+  "reading_and_cloze_pools_unchanged": true,
+  "example_target_tables_unchanged": true,
+  "reviewed_meaning_quizzes_unchanged": true,
+  "japanese_examples_changed": [],
+  "author_credit_before": 3836,
+  "author_credit_addition": 12,
+  "author_credit_after": 3848,
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3461,
+    3474,
+    3475,
+    3487,
+    3490,
+    3499,
+    3504,
+    3505,
+    3507,
+    3509,
+    3514,
+    3520
+  ],
+  "exact_rollback": true,
+  "register_after": {
+    "all": {
+      "reviewed": 3979,
+      "fixed_rechecked": 460,
+      "pending": 1401,
+      "blocked": 7,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3390,
+      "fixed_rechecked": 458,
+      "pending": 59,
+      "blocked": 7,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 38,
+      "fixed_rechecked": 1,
+      "pending": 820,
+      "blocked": 0,
+      "total": 859
+    }
+  },
+  "author_review_only": true,
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "publication_guard": "a8cec9889e5385bc375a8019e227e0750ac25c45",
+  "publication_status": "pending"
+}

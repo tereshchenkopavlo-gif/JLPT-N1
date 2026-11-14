@@ -21,11 +21,45 @@
     3520
   ],
   "scope_status": "pending in main after v222; selected after existing older follow-ups",
-  "fixed_rechecked_ids": [],
-  "reviewed_ids": [],
+  "fixed_rechecked_ids": [
+    3487,
+    3505
+  ],
+  "reviewed_ids": [
+    3461,
+    3474,
+    3475,
+    3490,
+    3499,
+    3504,
+    3507,
+    3509,
+    3514,
+    3520
+  ],
   "blocked_ids": [],
-  "field_updates": [],
-  "pair_reviewed": [],
+  "field_updates": [
+    {
+      "id": 3487,
+      "field": "t"
+    },
+    {
+      "id": 3487,
+      "field": "exampleTranslations[0]"
+    },
+    {
+      "id": 3505,
+      "field": "m"
+    },
+    {
+      "id": 3505,
+      "field": "t"
+    }
+  ],
+  "pair_reviewed": [
+    786,
+    788
+  ],
   "pilot_covered_ids": [],
   "pilot_missing_ids": [
     3461,
@@ -42,21 +76,21 @@
     3520
   ],
   "author_credit_before": 3836,
-  "author_credit_after": null,
-  "author_review": "in progress",
-  "technical_verification": "not run",
+  "author_credit_after": 3848,
+  "author_review": "completed; 12 cards credited, no C11 blockers",
+  "technical_verification": "passed",
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
   "main_guard": "a8cec9889e5385bc375a8019e227e0750ac25c45",
   "publication_policy": "publish only exact verified artifacts; never merge work branch",
-  "status": "checkpoint created; author audit pending",
-  "candidate_sha256": null,
-  "candidate_blob_sha": null,
-  "candidate_bytes": null,
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "candidate_sha256": "36200574a5ff6e03386ff48b3f21d2686bd69fb335cec690db5930b37bd40955",
+  "candidate_blob_sha": "2ca9191848ecd598aaede1693f8fbf35c772f7ae",
+  "candidate_bytes": 6952219,
   "pair_changed": [],
-  "exact_rollback": null,
+  "exact_rollback": true,
   "publication_status": "pending",
-  "chromium_verification": "not run",
-  "workflow_run_id": null
+  "chromium_verification": "passed",
+  "workflow_run_id": 43551517774
 }
