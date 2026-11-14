@@ -1,13 +1,17 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна опублікована редакція: v224.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
+**Актуальна опублікована редакція: v225.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
-- [Повний автономний HTML v224](JLPT_N1_ukrainian_reading_v224.html)
-- [Авторський аудит v224](JLPT_N1_v224_audit.md)
+- [Повний автономний HTML v225](JLPT_N1_ukrainian_reading_v225.html)
+- [Авторський аудит v225](JLPT_N1_v225_audit.md)
 - [Поточний стан проєкту](PROJECT_STATUS.md)
 - [Єдиний реєстр завершення 1.0](completion/BACKLOG.md)
 
-v224: 12 карток переглянуто (1 fixed_rechecked, 7 reviewed без змін, 4 blocked до C11), внесено одну точну зміну; дві лексичні пари reviewed без змін. Авторський credit — **3856/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6952257 байтів; SHA-256 19a9d8ca2e9f52a33c977674eb199ae7a132024adedd741681a4193f51a30cf6; Git blob e125da7bc2d404409c3d9f8bbfb2666eeee43b99. [Успішний workflow run 43552883556](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43552883556). [Main data-check 43553151083](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43553151083) успішний. Незалежне, фізичне й правове/походження приймання залишаються відкритими.
+v225: 12 карток переглянуто (9 reviewed без змін, 3 blocked до C11); дві лексичні пари reviewed без змін. Авторський credit — **3865/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6952257 байтів; SHA-256 53f733699fc4cf6e487c739fdd96e007e9cc27822fbeebc871da4498007d19b4; Git blob f34a255430bf268f942a175ee5013eeb5c4e1206. [Успішний workflow run 43553598565](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43553598565). [Main data-check 43553760186](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43553760186) успішний. Незалежне, фізичне й правове/походження приймання залишаються відкритими.
+
+## Історичний випуск v224
+
+12 карток переглянуто (1 fixed_rechecked, 7 reviewed без змін, 4 blocked до C11), внесено одну точну зміну; дві лексичні пари reviewed без змін. Авторський credit — **3856/3914**. HTML 6952257 байтів; SHA-256 19a9d8ca2e9f52a33c977674eb199ae7a132024adedd741681a4193f51a30cf6; Git blob e125da7bc2d404409c3d9f8bbfb2666eeee43b99. Workflow 43552883556 успішний.
 
 ## Історичний випуск v223
 
