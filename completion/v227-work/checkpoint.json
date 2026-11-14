@@ -1,0 +1,78 @@
+{
+  "version": "v227",
+  "base_version": "v226",
+  "base_branch_sha": "6109042ab37dc6e6f8c7e6da5ad6b62a6ed875fa",
+  "base_main_sha": "e10d27b70674a2b11a76a018c415939435785490",
+  "base_html_sha256": "f281a5d42ebbb0703e7b58df9e8749f602750b5a6424ccc24ae2bed815915247",
+  "branch": "work/v227-c10-old-followups",
+  "scope_ids": [
+    544,
+    550,
+    552,
+    557,
+    588,
+    599,
+    644,
+    663,
+    1492,
+    1510,
+    1631,
+    1878
+  ],
+  "assessed_ids": [
+    544,
+    550,
+    552,
+    557,
+    588,
+    599,
+    644,
+    663,
+    1492,
+    1631,
+    1878
+  ],
+  "not_assessed_ids": [
+    1510
+  ],
+  "fixed_rechecked_ids": [
+    1492,
+    1878
+  ],
+  "blocked_ids": [
+    544,
+    550,
+    552,
+    557,
+    588,
+    599,
+    644,
+    663,
+    1631
+  ],
+  "pair_reviewed": [
+    142,
+    145,
+    388,
+    412,
+    446
+  ],
+  "pair_changed": [],
+  "field_updates": 4,
+  "author_credit_before": 3873,
+  "author_credit_after": 3875,
+  "author_review": "11 cards assessed; 2 fixed_rechecked; 9 blocked for C11; 1 held without assessment",
+  "technical_verification": "passed",
+  "chromium_verification": "passed",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "main_guard": "e10d27b70674a2b11a76a018c415939435785490",
+  "publication_status": "pending",
+  "candidate_sha256": "ddce570993d53a32de5d101dedd26a46a5090e07a412b023d4994347344b9b52",
+  "candidate_blob_sha": "52df05e55eab1eb4e0d1f9653226ff79fbc263d6",
+  "candidate_bytes": 6952922,
+  "exact_rollback": true,
+  "workflow_run_id": 43570139682,
+  "status": "candidate prepared; Node syntax, deterministic rollback, Chromium and storage checks passed; ready for guarded publication"
+}
