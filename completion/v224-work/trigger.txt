@@ -1,1 +1,1 @@
-Run deterministic v224 C10 audit, registry update, syntax checks, and Chromium acceptance.
+Run v224 C10 author review after workflow registration on the default branch.
