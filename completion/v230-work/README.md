@@ -1,13 +1,13 @@
-# v230 C11 next blockers
+# v230 C11 POS and meaning review
 
-Base: v229 published in main. This branch is a preaudit checkpoint only.
+Base: exact published v229 HTML from current main HEAD `5354a748fe8ae147ae81f54f82da07e00ccccddc`; HTML SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`.
 
-1. Read `checkpoint.json` and `preaudit-notes.md`.
-2. Inspect all 12 cards in v229 and their existing meaning quiz payloads.
-3. Verify each POS/sense with Japanese dictionaries; do not apply broad dictionary POS blindly.
-4. Measure reading/cloze pool impact before any POS-map change.
-5. Review exact example-context meaning options and byExample bindings.
-6. Only after manual decisions, prepare the deterministic patch, browser checks and registry transition.
-7. Keep author review, technical tests and independent acceptance separate.
+The manual author review is prepared for 12 cards and 24 exact example contexts. The candidate changes only 12 scoped POS-map entries and 11 context-specific meaning-quiz keys (22 contexts); ID3363's two existing reviewed contexts are retained. No vocabulary records, grammar, examples, translations, lexical pairs, reading overrides, target tables, learning logic or storage keys are changed.
 
-Baseline diagnostics run 43622947862 succeeded: 12 cards rendered, 24 contexts structurally valid, but two answer-length outliers in ID3444; only ID3363 has existing reviewed overrides. Reading pool: ID3375 has 4 candidates, other 11 have 0; cloze pools all remain eligible. No application data or registry rows have been changed in this checkpoint. No credit has been granted. Pilot v153 does not cover these IDs (121–320 only).
+1. `python3 completion/v230-work/prepare.py` reproduces the candidate from exact v229 HTML.
+2. `node --check completion/v230-work/diagnose.cjs`.
+3. The current main workflow runs deterministic preparation, Chromium verification, pool-impact checks and registry finalization.
+4. The workflow saves the full candidate HTML and evidence to this branch only.
+5. Publish only exact verified blobs to main after rechecking main HEAD; do not merge this diverged work branch wholesale.
+
+The v153 pilot covers only IDs 121–320; none of this scope qualifies for pilot credit. ID3636 has lower-confidence secondary POS sourcing explicitly recorded in source-review.md. Independent linguistic, physical-device and provenance/legal acceptance remain separate.
