@@ -1,7 +1,7 @@
 {
   "checkpoint": "v230-c11-next-blockers",
   "created": "2026-11-15",
-  "base_main_sha": "5354a748fe8ae147ae81f54f82da07e00ccccddc",
+  "base_main_sha": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba",
   "base_html": "JLPT_N1_ukrainian_reading_v229.html",
   "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
   "base_html_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb",
@@ -88,5 +88,7 @@
     "workflow_runs_returned": 0,
     "combined_statuses_returned": 0,
     "interpretation": "no technical pass may be inferred; candidate remains unpublished"
-  }
+  },
+  "review_base_main_sha": "5354a748fe8ae147ae81f54f82da07e00ccccddc",
+  "status_sync_commit": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba"
 }
