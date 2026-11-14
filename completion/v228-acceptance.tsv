@@ -1,0 +1,15 @@
+kind	key	decision	change	note
+vocab	3765	fixed_rechecked	updated	途方に暮れる
+vocab	3766	fixed_rechecked	updated	優柔不断
+vocab	3772	fixed_rechecked	updated	良しとする
+vocab	3778	fixed_rechecked	updated	目に見える
+vocab	3786	fixed_rechecked	updated	波に乗る
+vocab	3792	fixed_rechecked	updated	お会いになる
+vocab	3794	fixed_rechecked	updated	お帰りになる
+vocab	3798	fixed_rechecked	updated	お見えになる
+vocab	3779	reviewed	unchanged	体の具合
+vocab	3788	reviewed	unchanged	おわかりになる
+vocab	2734	blocked	held_for_C11	来る
+vocab_pair	830	reviewed	unchanged	830:3790:3798
+vocab_pair	831	reviewed	unchanged	831:3788:3804
+vocab_pair	834	reviewed	unchanged	834:3792:3826

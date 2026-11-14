@@ -46,12 +46,17 @@
   "author_credit_before": 3875,
   "author_credit_after": 3885,
   "author_review": "11 cards assessed; 8 fixed_rechecked; 2 reviewed unchanged; 1 blocked for C11; ID1510 remains outside scope",
-  "technical_verification": "pending",
-  "chromium_verification": "pending",
+  "technical_verification": "passed",
+  "chromium_verification": "passed",
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
   "main_guard": "82d4c42daf28b8f2002b4cc0ef08814dc65f091d",
   "publication_status": "not published; work checkpoint only",
-  "workflow_run_id": null
-}
+  "candidate_sha256": "189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8",
+  "candidate_blob_sha": "58c1411685f06053f96ca9d99d04965c52ecfec8",
+  "candidate_bytes": 6952984,
+  "exact_rollback": true,
+  "workflow_run_id": 43589714845,
+  "status": "candidate prepared; Node syntax, deterministic rollback, Chromium and storage checks passed; ready for guarded publication"
+}\n
