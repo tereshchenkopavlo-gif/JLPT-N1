@@ -3,7 +3,7 @@ function ext(s,n){const m="const "+n+" =",a=s.indexOf(m);assert.ok(a>=0);let i=a
 function csv(s){const out=[];let row=[],f="",q=false;for(let i=0;i<s.length;i++){const x=s[i];if(q){if(x==='"'&&s[i+1]==='"'){f+='"';i++;}else if(x==='"')q=false;else f+=x;}else if(x==='"')q=true;else if(x===","){row.push(f);f="";}else if(x==="\n"){row.push(f);out.push(row);row=[];f="";}else if(x!=="\r")f+=x;}if(f||row.length){row.push(f);out.push(row);}return out;}
 const cc=v=>{const s=String(v??"");return /[",\r\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;},tc=v=>String(v??"").replace(/\t/g," ").replace(/\r?\n/g," ");
 const BASE="JLPT_N1_ukrainian_reading_v226.html",OUT="JLPT_N1_ukrainian_reading_v227.html",W="completion/v227-work",BASE_SHA="f281a5d42ebbb0703e7b58df9e8749f602750b5a6424ccc24ae2bed815915247";
-const base=fs.readFileSync(BASE,"utf8");assert.equal(crypto.createHash("sha256").update(base).digest("hex"),BASE_SHA);
+const base=fs.readFileSync(BASE,"utf8"),baseSha=crypto.createHash("sha256").update(base).digest("hex");assert.equal(baseSha,BASE_SHA);
 const de=ext(base,"VOCAB_DETAILS_BY_ID"),orig=JSON.parse(JSON.stringify(de.value)),d=JSON.parse(JSON.stringify(de.value)),ch=[];
 function set(id,f,v){const old=d[id][f];assert.notDeepEqual(old,v);d[id][f]=v;ch.push({id,word:d[id].w,field:f,old,new:v});}
 function arr(id,f,i,v){const old=d[id][f][i];assert.notEqual(old,v);d[id][f][i]=v;ch.push({id,word:d[id].w,field:f+"["+i+"]",old,new:v});}
