@@ -1,7 +1,7 @@
 {
   "checkpoint": "v230-c11-next-blockers",
   "created": "2026-11-15",
-  "base_main_sha": "1c3b14522784509c22069dda9fbb08f418475d99",
+  "base_main_sha": "5354a748fe8ae147ae81f54f82da07e00ccccddc",
   "base_html": "JLPT_N1_ukrainian_reading_v229.html",
   "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
   "base_html_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb",
@@ -31,7 +31,7 @@
     "do not broaden a card to unrelated dictionary senses solely to match a global POS label",
     "keep v153 pilot credit limited to documented IDs 121-320"
   ],
-  "status": "baseline diagnostics complete; manual author review and POS/pool decisions pending; no card data or registry changes; no author credit",
+  "status": "manual author POS/sense and 24-context quiz review completed; deterministic candidate and Chromium verification pending; no registry credit until successful finalization",
   "pilot_credit_applied": 0,
   "main_publication": false,
   "diagnostic_run_id": 43622947862,
@@ -55,5 +55,14 @@
     "storage_restored": true,
     "page_errors": 0
   },
-  "author_credit_applied": 0
+  "author_credit_applied": 0,
+  "manual_review": {
+    "cards_reviewed": 12,
+    "contexts_reviewed": 24,
+    "pos_map_updates": 12,
+    "new_context_overrides": 22,
+    "retained_context_overrides": 2,
+    "decision": "author_review_pass_pending_technical_verification",
+    "independent_review": false
+  }
 }
