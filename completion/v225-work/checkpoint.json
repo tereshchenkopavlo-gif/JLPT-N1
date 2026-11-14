@@ -20,6 +20,7 @@
     3644,
     3646
   ],
+  "scope_status": "pending in main after v224; selected after older follow-ups",
   "fixed_rechecked_ids": [],
   "reviewed_ids": [
     3589,
@@ -37,6 +38,7 @@
     3636,
     3646
   ],
+  "field_updates": [],
   "pair_reviewed": [
     791,
     792
@@ -58,12 +60,20 @@
   ],
   "author_credit_before": 3856,
   "author_credit_after": 3865,
-  "author_review": "preaudit prepared; final card-by-card decision pending",
-  "technical_verification": "pending",
+  "author_review": "completed; 9 cards credited, 3 blocked for C11 POS/quiz analysis",
+  "technical_verification": "passed",
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
+  "main_guard": "fc471671622b10aac6053a5bd74903bdc34b9eef",
   "publication_policy": "publish only exact verified artifacts; never merge work branch",
-  "status": "checkpoint created; author audit pending",
-  "publication_status": "pending"
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "candidate_sha256": "53f733699fc4cf6e487c739fdd96e007e9cc27822fbeebc871da4498007d19b4",
+  "candidate_blob_sha": "f34a255430bf268f942a175ee5013eeb5c4e1206",
+  "candidate_bytes": 6952257,
+  "pair_changed": [],
+  "exact_rollback": true,
+  "publication_status": "pending",
+  "chromium_verification": "passed",
+  "workflow_run_id": 43553598565
 }

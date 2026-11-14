@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+3589	データベース	reviewed	—	Definition and examples correctly describe an organized, searchable database; データベース化して is translated adequately.
+3594	ストレート	blocked	—	Kotobank classifies it as 名・形動; app POS-map has 名詞 only, while examples use ストレートに／な. C11 required.
+3599	デビュー	reviewed	—	Noun+する marker is correct; debut as singer and first-team pitcher are natural.
+3601	ペア	reviewed	—	Pair of people or objects; note correctly prevents an exclusively romantic reading.
+3607	ボイコット	reviewed	—	Noun+する marker and collective refusal/participation senses are correct.
+3614	トリック	reviewed	—	Deceptive device/trick; mystery and advertising examples are natural.
+3635	ノルマ	reviewed	—	Assigned work quantity within a period; sales target and failure examples fit.
+3636	プライベート	blocked	—	Card usage includes プライベートなN and nominal プライベート; POS-map has 名詞 only. C11 required.
+3637	ムード	reviewed	—	Mood/atmosphere and wider social trend are both represented by examples.
+3642	ブランク	reviewed	—	Blank and period away from a job/activity are accurately distinguished.
+3644	ハーモニー	reviewed	—	General harmony and musical 和声 are correctly distinguished from a single 和音.
+3646	モダン	blocked	—	JMDict-based source and card examples show adjectival モダンな usage; POS-map has 名詞 only. C11 required.

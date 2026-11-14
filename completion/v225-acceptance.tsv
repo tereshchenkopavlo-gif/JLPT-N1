@@ -1,0 +1,15 @@
+kind	key	decision	change	note
+vocab	3589	reviewed	unchanged	データベース
+vocab	3599	reviewed	unchanged	デビュー
+vocab	3601	reviewed	unchanged	ペア
+vocab	3607	reviewed	unchanged	ボイコット
+vocab	3614	reviewed	unchanged	トリック
+vocab	3635	reviewed	unchanged	ノルマ
+vocab	3637	reviewed	unchanged	ムード
+vocab	3642	reviewed	unchanged	ブランク
+vocab	3644	reviewed	unchanged	ハーモニー
+vocab	3594	blocked	held_for_C11	ストレート
+vocab	3636	blocked	held_for_C11	プライベート
+vocab	3646	blocked	held_for_C11	モダン
+vocab_pair	791	reviewed	unchanged	3530/3577
+vocab_pair	792	reviewed	unchanged	3554/3557
