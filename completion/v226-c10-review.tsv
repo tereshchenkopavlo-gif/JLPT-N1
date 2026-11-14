@@ -1,1 +1,13 @@
 id	headword	decision	changed_fields	reason
+3652	ユニーク	blocked	exampleTranslations[0]	Translation refined; card remains blocked because な-adjective use is absent from POS-map.
+3654	ブロック	blocked	—	Dictionary marks 名詞(スル), and the card itself uses ブロックして; DEFAULT_VOCAB has no する marker. C11 required.
+3657	プロフィール	reviewed	—	Definition, profile/biographical senses, examples and translations are accurate.
+3668	リベンジ	fixed_rechecked	m;t;usage	Added dictionary-supported revenge/retaliation sense alongside sports rematch and colloquial retry.
+3671	リミット	fixed_rechecked	exampleTranslations[0..1]	Corrected the deadline collocation and made the profitability-limit translation natural.
+3677	ルーズ	blocked	t;exampleTranslations[0]	Gloss and translation refined; remains blocked because Kotobank classifies it as 形動 while POS-map has 名詞 only.
+3679	ワンマン	blocked	exampleTranslations[0..1]	Corrected 社長 as company head and clarified the founder's management style; remains blocked because the dictionary gives 名詞(形動) while POS-map has 名詞 only.
+3680	あるいは	reviewed	—	Conjunction and adverbial possibility uses are both represented; POS-map includes 副詞 and 接続詞.
+3681	その上	fixed_rechecked	usage	Removed an overly restrictive claim that additions must have the same evaluative direction.
+3682	にもかかわらず	reviewed	—	Concessive meaning, examples and documented attachment are consistent.
+3685	もしくは	reviewed	—	Formal alternative use and documentary register are represented accurately.
+3694	誤〜	fixed_rechecked	exampleTranslations[1]	訂正記事 means a correction article; replaced the misleading 'спростування' with 'стаття з виправленням'.
