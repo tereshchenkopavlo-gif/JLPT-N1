@@ -1,0 +1,74 @@
+name: JLPT N1 v222 C10 author review
+on:
+  push:
+    branches: [work/v222-c10-next-pending]
+    paths:
+      - "completion/v222-work/trigger.txt"
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v222-c10
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v222-c10-next-pending
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build candidate and registry
+        run: node completion/v222-work/verify.cjs
+      - name: Check JavaScript syntax
+        run: |
+          node --check completion/v222-work/verify.cjs
+          node --check completion/v222-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Run Chromium acceptance
+        run: node completion/v222-work/browser.cjs
+      - name: Copy evidence and mark checkpoint
+        if: success()
+        run: |
+          cp completion/v222-work/prepare-results.json completion/v222-prepare-results.json
+          cp completion/v222-work/registry-results.json completion/v222-registry-results.json
+          cp completion/v222-work/browser-results.json completion/v222-browser-results.json
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const p='completion/v222-work/checkpoint.json',d=JSON.parse(fs.readFileSync(p,'utf8'));
+          d.status='candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication';
+          d.chromium_verification='passed';d.workflow_run_id=Number(process.env.GITHUB_RUN_ID);
+          d.technical_verification='passed';
+          fs.writeFileSync(p,JSON.stringify(d,null,2)+'\n');
+          const a='JLPT_N1_v222_audit.md';fs.writeFileSync(a,fs.readFileSync(a,'utf8').replace('TECHNICAL_STATUS_PENDING','TECHNICAL_STATUS_PASS'));
+          NODE
+      - name: Save verified candidate and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v222.html JLPT_N1_v222_audit.md completion/review-register.csv completion/v222-acceptance.tsv completion/v222-c10-review.tsv completion/v222-field-changes.tsv completion/v222-pair-review.tsv completion/v222-source-review.md completion/v222-work/checkpoint.json completion/v222-work/prepare-results.json completion/v222-work/registry-results.json completion/v222-work/browser-results.json completion/v222-work/rendered-debug.json completion/v222-work/verify.cjs completion/v222-work/browser.cjs completion/v222-work/trigger.txt completion/v222-work/preaudit-notes.md completion/v222-prepare-results.json completion/v222-registry-results.json completion/v222-browser-results.json
+          git commit -m "Save v222 C10 review and Chromium evidence"
+          git push origin HEAD:work/v222-c10-next-pending
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jlpt-n1-v222-c10-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v222.html
+            JLPT_N1_v222_audit.md
+            completion/v222-acceptance.tsv
+            completion/v222-c10-review.tsv
+            completion/v222-field-changes.tsv
+            completion/v222-pair-review.tsv
+            completion/v222-source-review.md
+            completion/v222-work/checkpoint.json
+            completion/v222-work/prepare-results.json
+            completion/v222-work/registry-results.json
+            completion/v222-work/browser-results.json
+            completion/v222-work/rendered-debug.json
