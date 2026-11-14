@@ -66,7 +66,49 @@
   "author_credit_applied": 0,
   "registry_changes": 0,
   "main_publication": false,
-  "status": "manual author review and static quiz preflight completed; awaiting v230 technical gate; no registry credit",
+  "status": "author review complete; technical application is blocked pending v230 decision on reviewed-meaning override suppressing cloze",
   "review_base_main_sha": "5354a748fe8ae147ae81f54f82da07e00ccccddc",
-  "status_sync_commit": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba"
+  "status_sync_commit": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba",
+  "decision_dependency": "v230 decision required: accept meaning-only coverage or approve a learning-engine change to preserve cloze; do not modify engine without approval",
+  "cloze_availability_projection": {
+    "new_lost_contexts": 6,
+    "affected_ids": [
+      3652,
+      3677,
+      3679
+    ],
+    "note": "New reviewed meaning keys suppress both cloze examples for these three cards. ID3654 already had a reviewed meaning key in v229, so its cloze state does not newly change.",
+    "pool_impact": [
+      {
+        "id": 3652,
+        "word": "ユニーク",
+        "pos": "名詞→ナ形",
+        "reading": "0→0",
+        "cloze": "2269→294"
+      },
+      {
+        "id": 3654,
+        "word": "ブロック",
+        "pos": "名詞→名詞",
+        "reading": "0→0",
+        "cloze": "2269→2266",
+        "existing_meaning_override": true
+      },
+      {
+        "id": 3677,
+        "word": "ルーズ",
+        "pos": "名詞→ナ形",
+        "reading": "0→0",
+        "cloze": "2269→294"
+      },
+      {
+        "id": 3679,
+        "word": "ワンマン",
+        "pos": "名詞→名詞・ナ形",
+        "reading": "0→0",
+        "cloze": "2269→65"
+      }
+    ]
+  },
+  "registry_credit": 0
 }
