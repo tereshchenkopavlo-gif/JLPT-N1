@@ -77,7 +77,11 @@
     3679
   ],
   "pilot_credit_applied": 0,
-  "main_publication": false,
+  "main_publication": true,
   "meaning_quiz_structure": "24 contexts manually reviewed; three unique distractors, correct-answer exclusion, stable samples and length ratio <=1.5 verified",
-  "workflow_run_id": 43621856689
+  "workflow_run_id": 43621856689,
+  "publication_commit": "650379afed99e00da1b868720a937d506de8302a",
+  "publication_base_main_sha": "e9f79ba7163d5b6dc8f0fb003691f143bcb94d7e",
+  "published_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "published_html_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb"
 }
