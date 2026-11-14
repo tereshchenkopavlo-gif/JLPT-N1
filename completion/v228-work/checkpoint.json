@@ -1,0 +1,57 @@
+{
+  "version": "v228",
+  "base_version": "v227",
+  "base_main_sha": "82d4c42daf28b8f2002b4cc0ef08814dc65f091d",
+  "base_html_sha256": "ddce570993d53a32de5d101dedd26a46a5090e07a412b023d4994347344b9b52",
+  "branch": "work/v228-c10-next-pending",
+  "scope_ids": [
+    2734,
+    3765,
+    3766,
+    3772,
+    3778,
+    3779,
+    3786,
+    3788,
+    3792,
+    3794,
+    3798
+  ],
+  "fixed_rechecked_ids": [
+    3765,
+    3766,
+    3772,
+    3778,
+    3786,
+    3792,
+    3794,
+    3798
+  ],
+  "reviewed_ids": [
+    3779,
+    3788
+  ],
+  "blocked_ids": [
+    2734
+  ],
+  "held_pending_outside_scope": [
+    1510
+  ],
+  "pair_reviewed_indices": [
+    830,
+    831,
+    834
+  ],
+  "field_updates": 11,
+  "author_credit_before": 3875,
+  "author_credit_after": 3885,
+  "author_review": "11 cards assessed; 8 fixed_rechecked; 2 reviewed unchanged; 1 blocked for C11; ID1510 remains outside scope",
+  "technical_verification": "pending",
+  "chromium_verification": "pending",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "main_guard": "82d4c42daf28b8f2002b4cc0ef08814dc65f091d",
+  "publication_status": "not published; work checkpoint only",
+  "workflow_run_id": null
+}
