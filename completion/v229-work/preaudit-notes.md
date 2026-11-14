@@ -18,3 +18,8 @@ The browser run must quantify every affected reading/cloze pool, inspect all mea
 ## First diagnostic review: quiz distractors
 
 The first Chromium run exposed answer-length cues and context drift in automatic meaning quizzes for IDs 2734, 544, 552, 557, 588, 599, 663 and 1631. Added only scoped reviewed payloads for these eight cards; ID557 and ID663 use byExample payloads because the two examples instantiate distinct senses. ID550 and ID644 automatic options were balanced and semantically distinct. Existing reviewed options for ID3337 and ID3345 were retained. The next browser run must assert three unique wrong answers, correct-answer exclusion and max/min option length <= 1.5 for every example.
+
+
+## v229 C11 semantic follow-up — 14 November 2026
+
+The first Chromium diagnostic caught an answer-length ratio of 1.53 in ID3345's first meaning item; the correct option was shortened and the distractors were made contextually comparable. A later pass added context-specific payloads for ID644's revised examples and both positive/negative uses of 一切 in ID3337. The browser now asserts exact application of all 12 reviewed quiz payloads across 24 card examples. No quiz algorithm or learning mechanism is changed. ID2734 is tagged 連体詞; its reading/cloze pools are intentionally not forced below the three-valid-choice threshold.
