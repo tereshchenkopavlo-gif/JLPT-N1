@@ -68,11 +68,14 @@
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
   "main_guard": "e10d27b70674a2b11a76a018c415939435785490",
-  "publication_status": "pending",
+  "publication_status": "published",
   "candidate_sha256": "ddce570993d53a32de5d101dedd26a46a5090e07a412b023d4994347344b9b52",
   "candidate_blob_sha": "52df05e55eab1eb4e0d1f9653226ff79fbc263d6",
   "candidate_bytes": 6952922,
   "exact_rollback": true,
   "workflow_run_id": 43570139682,
-  "status": "candidate prepared; Node syntax, deterministic rollback, Chromium and storage checks passed; ready for guarded publication"
+  "status": "published in main; work branch retained separately; documentation synchronized in follow-up commit",
+  "publication_commit": "b4568dbe430a28b4cce64a2040a9bfa274a52087",
+  "publication_parent": "e10d27b70674a2b11a76a018c415939435785490",
+  "published_branch_head": "2d97f473c37631bb271a90621f17486682f91315"
 }
