@@ -140,7 +140,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       }
       return out;
     },IDS);
-    const reviewedOverridePass=reviewedOverrideChecks.length===22&&reviewedOverrideChecks.every(x=>x.correctMatch&&x.wrongSetMatch);
+    const reviewedOverridePass=reviewedOverrideChecks.length===24&&reviewedOverrideChecks.every(x=>x.correctMatch&&x.wrongSetMatch);
     assert.ok(reviewedOverridePass,"reviewed meaning-quiz payloads were not applied to every intended example");
     fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\\n");
     fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\\n");
