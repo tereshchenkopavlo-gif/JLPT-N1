@@ -63,7 +63,7 @@ with (W/"field-changes.tsv").open("w",encoding="utf-8",newline="") as f:
     for k,v in p["pos_updates"].items(): w.writerow(["VOCAB_POS_BY_ID",k,json.dumps(v["before"],ensure_ascii=False),json.dumps(v["after"],ensure_ascii=False),"C11 POS-map reconciled with selected card senses and observed forms."])
     for k in new_keys: w.writerow(["REVIEWED_MEANING_QUIZZES",k,"absent","22 byExample contexts","Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change."])
 (W/"registry-results.json").write_text(json.dumps({"overall":allc,"vocabulary":vc,"lexical_pairs":pc,"reviewed_meaning_quiz_rows":sum(1 for r in rows[1:] if r[0]=="reviewed_meaning_quiz")},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-cp.update({"candidate_sha256":p["candidate_sha256"],"candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],"technical_verification":"passed","chromium_verification":"passed","semantic_review":"passed_manual_author_review","semantic_review_contexts":24,"new_context_overrides":22,"retained_context_overrides":2,"registry_credit_applied":True,"author_credit_after":"3909/3914","registry_counts_after":{"overall":allc,"vocabulary":vc,"lexical_pairs":pc},"remaining_blocked_ids":remaining,"pilot_credit_applied":0,"main_publication":False,"status":"12 cards fixed_rechecked; author POS/semantic review and Chromium checks passed; ready for guarded main publication","workflow_run_id":int(os.environ.get("GITHUB_RUN_ID","0"))})
+cp.update({"candidate_sha256":p["candidate_sha256"],"candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],"technical_verification":"passed","chromium_verification":"passed","diagnostic_only":False,"semantic_review":"passed_manual_author_review","semantic_review_contexts":24,"new_context_overrides":22,"retained_context_overrides":2,"registry_credit_applied":True,"author_credit_after":"3909/3914","registry_counts_after":{"overall":allc,"vocabulary":vc,"lexical_pairs":pc},"remaining_blocked_ids":remaining,"pilot_credit_applied":0,"main_publication":False,"status":"12 cards fixed_rechecked; author POS/semantic review and Chromium checks passed; ready for guarded main publication","workflow_run_id":int(os.environ.get("GITHUB_RUN_ID","0"))})
 (W/"checkpoint.json").write_text(json.dumps(cp,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 summary={"pass":True,"technical_verification":"passed","chromium_verification":"passed","semantic_quiz_review":"passed_manual_author_review","semantic_contexts_reviewed":24,"new_context_overrides":22,"retained_context_overrides":2,"registry_credit_applied":True,"main_publication":False,"author_credit_after":"3909/3914","registry_counts_after":{"overall":allc,"vocabulary":vc,"lexical_pairs":pc},"remaining_blocked_ids":remaining,"candidate_sha256":p["candidate_sha256"],"candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],"workflow_run_id":cp["workflow_run_id"]}
 (W/"finalize-results.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
@@ -117,3 +117,39 @@ if diagpath.exists():
     if "v230 C11 review result" not in existing: diagpath.write_text(existing.rstrip()+"\n\n"+summary_text,encoding="utf-8")
 else: diagpath.write_text(summary_text,encoding="utf-8")
 print(json.dumps(summary,ensure_ascii=False,indent=2))
+
+
+# Export stable, top-level v230 evidence alongside the detailed work checkpoint.
+ROOT=Path("completion")
+copies={
+    "acceptance.tsv":"v230-acceptance.tsv",
+    "c11-review.tsv":"v230-c11-review.tsv",
+    "field-changes.tsv":"v230-field-changes.tsv",
+    "pool-impact.tsv":"v230-pool-impact.tsv",
+    "semantic-review.json":"v230-semantic-review.json",
+    "source-review.md":"v230-source-review.md",
+    "prepare-results.json":"v230-prepare-results.json",
+    "browser-results.json":"v230-browser-results.json",
+    "registry-results.json":"v230-registry-results.json",
+    "finalize-results.json":"v230-finalize-results.json",
+    "diagnostic-summary.md":"v230-diagnostic-summary.md",
+    "checkpoint.json":"v230-checkpoint.json",
+    "updates.json":"v230-updates.json"
+}
+for source,destination in copies.items():
+    (ROOT/destination).write_bytes((W/source).read_bytes())
+semantic=json.loads((W/"semantic-review.json").read_text(encoding="utf-8"))
+md=[
+    "# JLPT N1 v230 — context-specific meaning review",
+    "",
+    "Author review only; not independent linguistic acceptance. Each row binds one exact Japanese example to one context-specific key and three distinct distractors.",
+    "",
+    "| ID | Example index | Exact example | Correct meaning | Three distractors |",
+    "|---:|---:|---|---|---|"
+]
+for item in semantic["decisions"]:
+    esc=lambda value: str(value).replace("|","\\|").replace("\\n"," ")
+    wrong="<br>".join(esc(x) for x in item["wrong"])
+    md.append(f"| {item['id']} | {item['exampleIndex']} | {esc(item['example'])} | {esc(item['correct'])} | {wrong} |")
+md += ["","ID3363 retains its two pre-existing reviewed contexts; the other 22 contexts use 11 new byExample keys. Length/uniqueness/binding checks are recorded separately in v230-browser-results.json."]
+(ROOT/"v230-semantic-review.md").write_text("\\n".join(md)+"\\n",encoding="utf-8")
