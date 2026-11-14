@@ -1,0 +1,18 @@
+{
+  "version": "v226",
+  "published": true,
+  "publication_commit": "7855585f291b5712c357161042aae43402950e97",
+  "parent_main_sha": "bc309450cee79fe61b1fbde0b605752174a35779",
+  "html_path": "JLPT_N1_ukrainian_reading_v226.html",
+  "html_blob_sha": "1310c6b0c9b1266c6651039abb5d9ae723871d77",
+  "html_sha256": "f281a5d42ebbb0703e7b58df9e8749f602750b5a6424ccc24ae2bed815915247",
+  "workflow_run_id": 43555277343,
+  "branch_data_check_run_id": 43555277234,
+  "main_data_check_run_id": 43555746170,
+  "exact_blob_match": true,
+  "work_branch": "work/v226-c10-next-pending",
+  "work_branch_preserved": true,
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed"
+}

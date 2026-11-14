@@ -80,10 +80,14 @@
   "candidate_blob_sha": "1310c6b0c9b1266c6651039abb5d9ae723871d77",
   "candidate_bytes": 6952855,
   "exact_rollback": true,
-  "publication_status": "pending",
+  "publication_status": "published",
   "main_guard": "bc309450cee79fe61b1fbde0b605752174a35779",
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
-  "status": "author review and technical verification passed; exact artifacts ready for guarded publication to main"
+  "status": "v226 full HTML, audit, registry and evidence published to main; v227 checkpoint created separately",
+  "publication_guard": "bc309450cee79fe61b1fbde0b605752174a35779",
+  "main_publication_commit": "7855585f291b5712c357161042aae43402950e97",
+  "main_data_check_run_id": 43555746170,
+  "published_html_blob_sha": "1310c6b0c9b1266c6651039abb5d9ae723871d77"
 }

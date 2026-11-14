@@ -1,13 +1,13 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна опублікована редакція: v225.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
+**Актуальна опублікована редакція: v226.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
-- [Повний автономний HTML v225](JLPT_N1_ukrainian_reading_v225.html)
-- [Авторський аудит v225](JLPT_N1_v225_audit.md)
+- [Повний автономний HTML v226](JLPT_N1_ukrainian_reading_v226.html)
+- [Авторський аудит v226](JLPT_N1_v226_audit.md)
 - [Поточний стан проєкту](PROJECT_STATUS.md)
 - [Єдиний реєстр завершення 1.0](completion/BACKLOG.md)
 
-v225: 12 карток переглянуто (9 reviewed без змін, 3 blocked до C11); дві лексичні пари reviewed без змін. Авторський credit — **3865/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6952257 байтів; SHA-256 53f733699fc4cf6e487c739fdd96e007e9cc27822fbeebc871da4498007d19b4; Git blob f34a255430bf268f942a175ee5013eeb5c4e1206. [Успішний workflow run 43553598565](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43553598565). [Main data-check 43553760186](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43553760186) успішний. Незалежне, фізичне й правове/походження приймання залишаються відкритими.
+v226: 12 карток перевірено (4 fixed_rechecked, 4 reviewed без змін, 4 blocked до C11); чотири лексичні пари reviewed без зміни нотаток. Внесено 12 точних змін у 7 картках, але три змінені картки залишаються blocked. Авторський credit — **3873/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6952855 байтів; SHA-256 f281a5d42ebbb0703e7b58df9e8749f602750b5a6424ccc24ae2bed815915247; Git blob 1310c6b0c9b1266c6651039abb5d9ae723871d77. [Успішний workflow run 43555277343](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43555277343). [Main data-check 43555746170](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43555746170) успішний. Чотири POS/する-marker питання передано до C11; незалежне, фізичне й правове/походження приймання залишаються відкритими.
 
 ## Історичний випуск v224
 
