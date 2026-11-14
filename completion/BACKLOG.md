@@ -1,4 +1,9 @@
-Наступний checkpoint v230 — C11: `work/v230-c11-next-blockers`; наступні 12 із 16 blockers: 3363, 3375, 3417, 3441, 3444, 3525, 3561, 3565, 3569, 3594, 3636, 3646. Решта після цієї партії: 3652, 3654, 3677, 3679. C10 завершено для всіх доступних до оцінки карток; ID1510 лишається pending safety hold і не оцінювався.
+Наступна дія в `work/v230-c11-next-blockers`: вручну перевірити 24 meaning-quiz contexts, виправити два length-cue outliers ID3444, замінити семантично випадкові distractors у контекстах без reviewed override, звірити точні POS-сенси за словниками та виміряти pool impact. Baseline run 43622947862 успішний; 2 length warnings; 2/24 existing override coverage; ID3375 reading pool 4, інші 11 — 0; усі cloze pools eligible. Жодних даних чи реєстрових статусів не змінено, author credit = 0.
+
+## v230 — C11 baseline diagnostics (не є аудитом/прийманням)
+
+12 blockers: 3363, 3375, 3417, 3441, 3444, 3525, 3561, 3565, 3569, 3594, 3636, 3646. Diagnostic workflow 43622947862 успішний: 24 contexts; meaning option structure pass; 2 length warnings у ID3444 (ratios 1.93–3.87); лише ID3363 має existing reviewed overrides (2/24). Reading pool: ID3375 — 4, решта 11 — 0; cloze pools усі eligible. Усі 12 карток rendered, responsive і storage перевірені. Жодних змін карток, POS-map, quiz payloads або реєстру; author credit 0. Наступне — ручний semantic review, POS/sense reconciliation і pool impact.
+
 
 ## v229 — C11 POS-map і meaning quiz (завершено й опубліковано)
 
