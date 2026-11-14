@@ -1,0 +1,48 @@
+const {chromium}=require("playwright"),assert=require("node:assert/strict"),fs=require("node:fs"),crypto=require("node:crypto"),path=require("node:path");
+const {pathToFileURL}=require("node:url"),HTML="JLPT_N1_ukrainian_reading_v223.html",BASE="JLPT_N1_ukrainian_reading_v222.html",WORK="completion/v223-work";
+const prep=JSON.parse(fs.readFileSync(path.join(WORK,"prepare-results.json"),"utf8"));
+const IDS=[3461,3474,3475,3487,3490,3499,3504,3505,3507,3509,3514,3520];
+const EXPECTED={
+"3461":{word:"すっきり",reading:"すっきり",pos:["副詞"]},
+"3474":{word:"さっと",reading:"さっと",pos:["副詞"]},
+"3475":{word:"はるばる",reading:"はるばる",pos:["副詞"]},
+"3487":{word:"長々",reading:"ながなが",pos:["副詞"],gloss:"дуже довго, затяжно",translation:"Виступ керівника компанії затягнувся, і присутні почали втомлюватися."},
+"3490":{word:"ガード",reading:"がーど",pos:["名詞"]},
+"3499":{word:"カウンセラー",reading:"かうんせらー",pos:["名詞"]},
+"3504":{word:"インフレ",reading:"いんふれ",pos:["名詞"]},
+"3505":{word:"カムバック",reading:"かむばっく",pos:["名詞"],meaning:"一度活動を離れたり、勢いが衰えたりした後、元の地位・状態に戻ること。",gloss:"повернення до колишньої діяльності чи становища; відновлення активності"},
+"3507":{word:"ウエート",reading:"うえーと",pos:["名詞"]},
+"3509":{word:"アマチュア",reading:"あまちゅあ",pos:["名詞"]},
+"3514":{word:"カレンダー",reading:"かれんだー",pos:["名詞"]},
+"3520":{word:"キープ",reading:"きーぷ",pos:["名詞"]}
+};
+(async()=>{
+ const bytes=fs.readFileSync(HTML),sha=crypto.createHash("sha256").update(bytes).digest("hex");
+ assert.equal(sha,prep.candidate_sha256);assert.equal(bytes.length,prep.candidate_bytes);
+ const browser=await chromium.launch({headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:412,height:900}}),errors=[];
+  page.on("pageerror",e=>errors.push(String(e)));
+  await page.goto(pathToFileURL(path.resolve(HTML)).href);
+  const structural=await page.evaluate(()=>({vocab:DEFAULT_VOCAB.length,grammar:Object.keys(GRAMMAR_DETAILS_BY_ID).length,pairs:VOCAB_AUDITED_PAIRS.length,uniqueIds:new Set(DEFAULT_VOCAB.map(x=>Number(x.id))).size,allIdsPresent:DEFAULT_VOCAB.every(x=>VOCAB_DETAILS_BY_ID[String(x.id)]&&VOCAB_POS_BY_ID[String(x.id)])}));
+  assert.deepEqual(structural,{vocab:3914,grammar:130,pairs:859,uniqueIds:3914,allIdsPresent:true});
+  const data=await page.evaluate(ids=>ids.map(id=>{const v=DEFAULT_VOCAB.find(x=>Number(x.id)===id),d=VOCAB_DETAILS_BY_ID[String(id)];return{id,word:d.w,reading:v.r,pos:VOCAB_POS_BY_ID[String(id)],gloss:d.t,meaning:d.m,usage:d.usage,examples:d.examples,translations:d.exampleTranslations};}),IDS);
+  for(const c of data){const e=EXPECTED[String(c.id)];assert.equal(c.word,e.word);assert.equal(c.reading,e.reading);assert.deepEqual(c.pos,e.pos);assert.ok(c.usage&&c.usage.length>0);if(e.gloss)assert.equal(c.gloss,e.gloss);if(e.meaning)assert.equal(c.meaning,e.meaning);if(e.translation)assert.ok(c.translations.includes(e.translation));assert.equal(c.examples.length,2);assert.equal(c.translations.length,2);}
+  const pairData=await page.evaluate(()=>[786,788].map(i=>({index:i,...VOCAB_AUDITED_PAIRS[i]})));
+  const expectedPairs=[["3505","3599"],["3520","3588"]];
+  pairData.forEach((p,i)=>{assert.equal(p.a,expectedPairs[i][0]);assert.equal(p.b,expectedPairs[i][1]);assert.ok(p.note);});
+  const rendered=await page.evaluate(async ids=>{showView("cards");const out=[],norm=x=>String(x).replaceAll("\n"," ").replaceAll("\r"," ").replaceAll("\t"," ").split(" ").filter(Boolean).join(" ");for(const id of ids){await openCardDetail("v",id);await new Promise(r=>setTimeout(r,35));const body=document.getElementById("cardDetailBody"),txt=body?.innerText||"",d=VOCAB_DETAILS_BY_ID[String(id)];out.push({id,word:d.w,titleVisible:norm(txt).includes(norm(d.w)),definitionVisible:norm(txt).includes(norm(d.m)),usageVisible:norm(txt).includes("用法・接続"),examplesVisible:d.examples.every(x=>norm(txt).includes(norm(x))),translationsVisible:d.exampleTranslations.every(x=>norm(txt).includes(norm(x)))});}return out;},IDS);
+  fs.writeFileSync(path.join(WORK,"rendered-debug.json"),JSON.stringify(rendered,null,2)+"\n");
+  assert.ok(rendered.every(x=>x.titleVisible&&x.definitionVisible&&x.usageVisible&&x.examplesVisible&&x.translationsVisible));
+  const basePage=await browser.newPage();await basePage.goto(pathToFileURL(path.resolve(BASE)).href);
+  const stableBase=await basePage.evaluate(()=>({vocab:JSON.stringify(DEFAULT_VOCAB),pos:JSON.stringify(VOCAB_POS_BY_ID),grammar:JSON.stringify(GRAMMAR_DETAILS_BY_ID),pairs:JSON.stringify(VOCAB_AUDITED_PAIRS),meaning:JSON.stringify(REVIEWED_MEANING_QUIZZES),reading:JSON.stringify(REVIEWED_READING_OPTIONS),kana:JSON.stringify(VOCAB_KANA_EXAMPLE_TARGETS),targets:JSON.stringify(REVIEWED_EXAMPLE_TARGETS)}));
+  const stableCandidate=await page.evaluate(()=>({vocab:JSON.stringify(DEFAULT_VOCAB),pos:JSON.stringify(VOCAB_POS_BY_ID),grammar:JSON.stringify(GRAMMAR_DETAILS_BY_ID),pairs:JSON.stringify(VOCAB_AUDITED_PAIRS),meaning:JSON.stringify(REVIEWED_MEANING_QUIZZES),reading:JSON.stringify(REVIEWED_READING_OPTIONS),kana:JSON.stringify(VOCAB_KANA_EXAMPLE_TARGETS),targets:JSON.stringify(REVIEWED_EXAMPLE_TARGETS)}));
+  assert.deepEqual(stableCandidate,stableBase);
+  const responsive=[];for(const width of [360,412,1280]){await page.setViewportSize({width,height:900});const d=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,bodyWidth:document.body.scrollWidth}));responsive.push({...d,overflow:d.scrollWidth>width||d.bodyWidth>width});}
+  assert.ok(responsive.every(x=>!x.overflow));
+  const storage=await page.evaluate(()=>{const key="choba_n1uk_storage_v1",old=localStorage.getItem(key),sentinel=JSON.stringify({meta:{sessionSize:10,streak:5,lastStudyDate:"2026-11-14"},vp:{"3461":{status:"S",timesShown:2}},gp:{"90":{status:"X"}}});localStorage.setItem(key,sentinel);const roundTrip=localStorage.getItem(key)===sentinel;if(old===null)localStorage.removeItem(key);else localStorage.setItem(key,old);return{roundTrip,restored:localStorage.getItem(key)===old};});
+  assert.ok(storage.roundTrip&&storage.restored);assert.deepEqual(errors,[]);
+  const result={pass:true,candidate_sha256:sha,candidate_bytes:bytes.length,counts:structural,reviewed_card_count:12,fixed_rechecked_count:2,reviewed_unchanged_count:10,blocked_count:0,pair_reviewed_count:2,pair_changed_count:0,responsive,storage,stablePoolsUnchanged:true,pageErrors:errors};
+  fs.writeFileSync(path.join(WORK,"browser-results.json"),JSON.stringify(result,null,2)+"\n");console.log(JSON.stringify(result,null,2));
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1);});

@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+3461	すっきり	reviewed	—	The card covers tidiness and a cleared mood; both examples fit these common adverbial senses.
+3474	さっと	reviewed	—	The definition and examples match quick, brief action; the usage note correctly avoids implying thoroughness.
+3475	はるばる	reviewed	—	The card focuses on coming from far away after effort; both examples fit.
+3487	長々	fixed_rechecked	t; exampleTranslations[0]	長々 is duration/length, not 'for a long time into the future'; 社長 is rendered as company head, not political president.
+3490	ガード	reviewed	—	The noun/suru use and protection meaning are correct; examples fit guarding and protecting.
+3499	カウンセラー	reviewed	—	The dictionary defines a counselor as a consultation/support professional; school and workplace examples fit.
+3504	インフレ	reviewed	—	The definition and usage correctly describe persistent general price-level increases, not a single product price.
+3505	カムバック	fixed_rechecked	m; t	Broadened the definition to include returning after an interruption/injury as well as retirement or decline; translation no longer restricts it to a position.
+3507	ウエート	reviewed	—	The entry covers physical weight and importance; both examples use the importance/weight sense.
+3509	アマチュア	reviewed	—	The definition matches hobby rather than professional activity; usage correctly warns that amateur does not mean incompetent.
+3514	カレンダー	reviewed	—	Calendar as a date/day table is correct; usage distinguishes a schedule table.
+3520	キープ	reviewed	—	The definition covers retaining and reserving; examples fit keeping first place and reserving a room.
