@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+actions@users.noreply.github.com"
-          git add JLPT_N1_ukrainian_reading_v230.html JLPT_N1_v230_audit.md completion/review-register.csv completion/v230-work/
+          git add JLPT_N1_ukrainian_reading_v230.html JLPT_N1_v230_audit.md completion/review-register.csv completion/v230-* completion/v230-work/
           git commit -m "Save v230 C11 POS and meaning review"
           git push origin HEAD:work/v230-c11-next-blockers
       - uses: actions/upload-artifact@v4
