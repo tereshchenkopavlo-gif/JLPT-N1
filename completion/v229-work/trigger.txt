@@ -3,3 +3,4 @@ Retry on pinned Ubuntu 24.04 runner.
 Retry with workflow file pinned to Ubuntu 24.04.
 Retry with detailed card-render diagnostics.
 Retry after narrowing git add to generated candidate/evidence files.
+Rerun after adding reviewed meaning-quiz overrides and answer-length checks.
