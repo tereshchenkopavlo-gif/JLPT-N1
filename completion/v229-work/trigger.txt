@@ -1,1 +1,1 @@
-Rerun v229 after correcting scoped quiz guard and 24-context finalizer count; prepare, browser, semantic acceptance and registry checks; 2026-11-15T02:36+09:00
+Rerun v229 after fixing evidence newline encoding and restoring canonical review register; 2026-11-15T02:43+09:00
