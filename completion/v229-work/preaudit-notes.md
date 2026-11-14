@@ -14,3 +14,7 @@
 - ID3345 散々: current second example uses 散々な as a な-adjectival form while the first is adverbial. Replace the second with an unambiguous adverbial example and update its exact byExample meaning payload; retain the supplementary 形動 use in usage.
 
 The browser run must quantify every affected reading/cloze pool, inspect all meaning-option sets, verify card rendering, storage round-trip/restore, and responsive widths. No C11 credit or main publication until the diagnostics have been reviewed.
+
+## First diagnostic review: quiz distractors
+
+The first Chromium run exposed answer-length cues and context drift in automatic meaning quizzes for IDs 2734, 544, 552, 557, 588, 599, 663 and 1631. Added only scoped reviewed payloads for these eight cards; ID557 and ID663 use byExample payloads because the two examples instantiate distinct senses. ID550 and ID644 automatic options were balanced and semantically distinct. Existing reviewed options for ID3337 and ID3345 were retained. The next browser run must assert three unique wrong answers, correct-answer exclusion and max/min option length <= 1.5 for every example.
