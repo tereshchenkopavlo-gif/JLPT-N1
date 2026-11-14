@@ -1,0 +1,85 @@
+{
+  "version": "v224",
+  "base_version": "v223",
+  "base_main_sha": "d148859cf9760dd58b3478e5d7ac7ebaf38220f3",
+  "base_html_sha256": "36200574a5ff6e03386ff48b3f21d2686bd69fb335cec690db5930b37bd40955",
+  "base_html_blob": "2ca9191848ecd598aaede1693f8fbf35c772f7ae",
+  "base_html_bytes": 6952219,
+  "branch": "work/v224-c10-next-pending",
+  "scope_ids": [
+    3522,
+    3525,
+    3532,
+    3537,
+    3548,
+    3556,
+    3561,
+    3565,
+    3568,
+    3569,
+    3580,
+    3588
+  ],
+  "scope_status": "pending in main after v223; selected after older follow-ups",
+  "fixed_rechecked_ids": [
+    3537
+  ],
+  "reviewed_ids": [
+    3522,
+    3532,
+    3548,
+    3556,
+    3568,
+    3580,
+    3588
+  ],
+  "blocked_ids": [
+    3525,
+    3561,
+    3565,
+    3569
+  ],
+  "field_updates": [
+    {
+      "id": 3537,
+      "field": "t"
+    }
+  ],
+  "pair_reviewed": [
+    789,
+    790
+  ],
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3522,
+    3525,
+    3532,
+    3537,
+    3548,
+    3556,
+    3561,
+    3565,
+    3568,
+    3569,
+    3580,
+    3588
+  ],
+  "author_credit_before": 3848,
+  "author_credit_after": 3856,
+  "author_review": "completed; 8 cards credited, 4 blocked for C11 POS/quiz analysis",
+  "technical_verification": "passed",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "main_guard": "d148859cf9760dd58b3478e5d7ac7ebaf38220f3",
+  "publication_policy": "publish only exact verified artifacts; never merge work branch",
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "candidate_sha256": "19a9d8ca2e9f52a33c977674eb199ae7a132024adedd741681a4193f51a30cf6",
+  "candidate_blob_sha": "e125da7bc2d404409c3d9f8bbfb2666eeee43b99",
+  "candidate_bytes": 6952257,
+  "pair_changed": [],
+  "exact_rollback": true,
+  "publication_status": "pending",
+  "chromium_verification": "passed",
+  "workflow_run_id": 43552883556
+}

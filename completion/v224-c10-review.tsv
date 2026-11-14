@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+3522	エントリー	reviewed	—	Participation application/registration; the する marker and both examples are correct.
+3525	オートマチック	blocked	—	Dictionary usage includes 形動 forms (オートマチックな／に), while the app POS map has 名詞 only; C11 must assess quiz-pool impact.
+3532	キャッチ	reviewed	—	Noun+する; both catching information and catching a ball are natural.
+3537	シークレット	fixed_rechecked	t	The Japanese definition is nominal (秘密); the Ukrainian gloss now includes the noun sense as well as attributive 'secret'.
+3548	クローズアップ	reviewed	—	Noun+する; both close-up and highlighting a topic are represented naturally.
+3556	セレモニー	reviewed	—	儀式／式典; examples and Ukrainian translations are accurate.
+3561	ジャンボ	blocked	—	The card's own usage note has ジャンボなN, but POS map has 名詞 only; conservative C11 review required.
+3565	タイムリー	blocked	—	Kotobank gives 形動 for well-timed and 名詞 for a baseball hit; app POS map has 名詞 only; C11 required.
+3568	ダメージ	reviewed	—	Noun meaning harm/loss; brand and crop examples are accurate.
+3569	コマーシャル	blocked	—	Dictionary lists noun and 形動 usage, while app POS map has 名詞 only; C11 required.
+3580	チャンピオン	reviewed	—	Winner/titleholder; examples about defending and losing a title are accurate.
+3588	ストック	reviewed	—	Noun+する; stored supplies and warehouse stock are represented accurately.

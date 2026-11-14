@@ -1,0 +1,15 @@
+kind	key	decision	change	note
+vocab	3537	fixed_rechecked	changed	シークレット
+vocab	3522	reviewed	unchanged	エントリー
+vocab	3532	reviewed	unchanged	キャッチ
+vocab	3548	reviewed	unchanged	クローズアップ
+vocab	3556	reviewed	unchanged	セレモニー
+vocab	3568	reviewed	unchanged	ダメージ
+vocab	3580	reviewed	unchanged	チャンピオン
+vocab	3588	reviewed	unchanged	ストック
+vocab	3525	blocked	held_for_C11	オートマチック
+vocab	3561	blocked	held_for_C11	ジャンボ
+vocab	3565	blocked	held_for_C11	タイムリー
+vocab	3569	blocked	held_for_C11	コマーシャル
+vocab_pair	789	reviewed	unchanged	3526/3529
+vocab_pair	790	reviewed	unchanged	3534/3535
