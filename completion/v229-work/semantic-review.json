@@ -1,0 +1,249 @@
+{
+  "version": "v229",
+  "date": "2026-11-15",
+  "review_type": "author_manual_semantic_review",
+  "independent_review": false,
+  "scope": [
+    2734,
+    544,
+    550,
+    552,
+    557,
+    588,
+    599,
+    644,
+    663,
+    1631,
+    3337,
+    3345
+  ],
+  "context_count": 24,
+  "method": "Manual review of every exact example context and all four meaning options: contextual key fit, distractor falsity and distinctness, semantic overlap, ambiguity, and answer-length cues. This is separate from the repeated browser structure/length diagnostics.",
+  "decisions": [
+    {
+      "id": 2734,
+      "word": "来る",
+      "exampleIndex": 0,
+      "example": "来る三月一日に、新本社への移転記念式典が開催される。",
+      "decision": "pass_after_edit",
+      "rationale": "きたる before a date means next/upcoming; the second context is forthcoming social change, not ordinary くる. The revised temporal distractors are distinct and balanced."
+    },
+    {
+      "id": 2734,
+      "word": "来る",
+      "exampleIndex": 1,
+      "example": "来るべき社会の変化に備え、必要な改革について会議で話し合った。",
+      "decision": "pass_after_edit",
+      "rationale": "きたる before a date means next/upcoming; the second context is forthcoming social change, not ordinary くる. The revised temporal distractors are distinct and balanced."
+    },
+    {
+      "id": 544,
+      "word": "いい加減",
+      "exampleIndex": 0,
+      "example": "いい加減な仕事ぶりが原因で、取引先からの信頼を失った。",
+      "decision": "pass_after_edit",
+      "rationale": "The key means careless/irresponsible or unreliable in these contexts. Revised distractors distinguish proper moderation, meticulous work, and exaggeration; length ratio 1.20."
+    },
+    {
+      "id": 544,
+      "word": "いい加減",
+      "exampleIndex": 1,
+      "example": "いい加減な情報に基づいて判断を下すことは避けなければならない。",
+      "decision": "pass_after_edit",
+      "rationale": "The key means careless/irresponsible or unreliable in these contexts. Revised distractors distinguish proper moderation, meticulous work, and exaggeration; length ratio 1.20."
+    },
+    {
+      "id": 550,
+      "word": "わがまま",
+      "exampleIndex": 0,
+      "example": "わがままな要求を繰り返す顧客への対応が、現場の大きな負担となっている。",
+      "decision": "pass",
+      "rationale": "The key is self-centred prioritising of one's wishes; the alternatives describe accommodation, respectful frankness, and accepting another person's request."
+    },
+    {
+      "id": 550,
+      "word": "わがまま",
+      "exampleIndex": 1,
+      "example": "わがままな振る舞いは、チームワークを乱す原因になる。",
+      "decision": "pass",
+      "rationale": "The key is self-centred prioritising of one's wishes; the alternatives describe accommodation, respectful frankness, and accepting another person's request."
+    },
+    {
+      "id": 552,
+      "word": "確か",
+      "exampleIndex": 0,
+      "example": "確かな根拠に基づいて、慎重に判断を下すべきだ。",
+      "decision": "pass",
+      "rationale": "The key is reliable/sound evidence or skill, not the sentence-final recollective 確か. Distractors are distinct."
+    },
+    {
+      "id": 552,
+      "word": "確か",
+      "exampleIndex": 1,
+      "example": "彼の確かな腕前は、業界内でも広く認められている。",
+      "decision": "pass",
+      "rationale": "The key is reliable/sound evidence or skill, not the sentence-final recollective 確か. Distractors are distinct."
+    },
+    {
+      "id": 557,
+      "word": "結構",
+      "exampleIndex": 0,
+      "example": "結構なお品をいただき、誠にありがとうございます。",
+      "decision": "pass",
+      "rationale": "The two byExample payloads separate praise of quality from a polite refusal of additional material."
+    },
+    {
+      "id": 557,
+      "word": "結構",
+      "exampleIndex": 1,
+      "example": "追加の資料は結構ですので、お気遣いなさらないでください。",
+      "decision": "pass",
+      "rationale": "The two byExample payloads separate praise of quality from a polite refusal of additional material."
+    },
+    {
+      "id": 588,
+      "word": "独特",
+      "exampleIndex": 0,
+      "example": "同社の独特な企業文化は、他社にはまねしにくい強みとなっている。",
+      "decision": "pass",
+      "rationale": "The key is a characteristic specific to the entity, not necessarily superiority, commonness, or refinement."
+    },
+    {
+      "id": 588,
+      "word": "独特",
+      "exampleIndex": 1,
+      "example": "彼は独特な視点から、市場の動向を鋭く分析した。",
+      "decision": "pass",
+      "rationale": "The key is a characteristic specific to the entity, not necessarily superiority, commonness, or refinement."
+    },
+    {
+      "id": 599,
+      "word": "無礼",
+      "exampleIndex": 0,
+      "example": "初対面の相手に対して無礼な態度を取ることは、厳に慎むべきだ。",
+      "decision": "pass",
+      "rationale": "The key is lack of manners/respect; politeness, unreserved frankness, and refinement are distinct alternatives."
+    },
+    {
+      "id": 599,
+      "word": "無礼",
+      "exampleIndex": 1,
+      "example": "無礼な言動に対し、被害者は謝罪を求めた。",
+      "decision": "pass",
+      "rationale": "The key is lack of manners/respect; politeness, unreserved frankness, and refinement are distinct alternatives."
+    },
+    {
+      "id": 644,
+      "word": "当然",
+      "exampleIndex": 0,
+      "example": "調査結果が異なれば、結論も当然変わってくる。",
+      "decision": "pass",
+      "rationale": "The automatic keys express an expected/natural consequence and an obvious obligation. All three alternatives in each context are semantically distinct."
+    },
+    {
+      "id": 644,
+      "word": "当然",
+      "exampleIndex": 1,
+      "example": "当然、顧客の個人情報は厳重に管理されなければならない。",
+      "decision": "pass",
+      "rationale": "The automatic keys express an expected/natural consequence and an obvious obligation. All three alternatives in each context are semantically distinct."
+    },
+    {
+      "id": 663,
+      "word": "オーバー",
+      "exampleIndex": 0,
+      "example": "今月の経費が予算をオーバーしたため、原因を精査する必要がある。",
+      "decision": "pass",
+      "rationale": "The byExample payloads distinguish exceeding a budget from exceeding allotted time."
+    },
+    {
+      "id": 663,
+      "word": "オーバー",
+      "exampleIndex": 1,
+      "example": "時間をオーバーして会議が長引き、予定していた議題を消化できなかった。",
+      "decision": "pass",
+      "rationale": "The byExample payloads distinguish exceeding a budget from exceeding allotted time."
+    },
+    {
+      "id": 1631,
+      "word": "相応",
+      "exampleIndex": 0,
+      "example": "責任ある立場には、それに相応する覚悟と行動が求められる。",
+      "decision": "pass",
+      "rationale": "The key is commensurate/appropriate; distractors describe insufficiency, excess, and changing something to meet a wish."
+    },
+    {
+      "id": 1631,
+      "word": "相応",
+      "exampleIndex": 1,
+      "example": "収入に相応した生活を送ることが、家計を守る基本である。",
+      "decision": "pass",
+      "rationale": "The key is commensurate/appropriate; distractors describe insufficiency, excess, and changing something to meet a wish."
+    },
+    {
+      "id": 3337,
+      "word": "一切",
+      "exampleIndex": 0,
+      "example": "当社は、この件に一切関与しておりません。",
+      "decision": "pass",
+      "rationale": "The byExample payloads keep negative 'not at all involved' separate from positive 'all costs will be borne by us'."
+    },
+    {
+      "id": 3337,
+      "word": "一切",
+      "exampleIndex": 1,
+      "example": "契約に関する費用は、一切こちらで負担いたします。",
+      "decision": "pass",
+      "rationale": "The byExample payloads keep negative 'not at all involved' separate from positive 'all costs will be borne by us'."
+    },
+    {
+      "id": 3345,
+      "word": "散々",
+      "exampleIndex": 0,
+      "example": "散々議論を重ねた末に、案はようやくまとまった。",
+      "decision": "pass_after_edit",
+      "rationale": "The first context means extensive/repeated discussion; revised distractors distinguish limited coverage, a single brief pass, and disorganised topic-switching. The second means receiving very severe criticism."
+    },
+    {
+      "id": 3345,
+      "word": "散々",
+      "exampleIndex": 1,
+      "example": "彼は会議で散々に批判され、反論できなかった。",
+      "decision": "pass_after_edit",
+      "rationale": "The first context means extensive/repeated discussion; revised distractors distinguish limited coverage, a single brief pass, and disorganised topic-switching. The second means receiving very severe criticism."
+    }
+  ],
+  "pos_decision": {
+    "id": 2734,
+    "word": "来る（きたる）",
+    "before": [
+      "動詞"
+    ],
+    "after": [
+      "連体詞"
+    ],
+    "source": "Digital Daijisen via Kotobank classifies the date/event-modifying きたる as 連体詞.",
+    "pool_impact": {
+      "reading": {
+        "before": 6,
+        "after": 0
+      },
+      "cloze": {
+        "before": 705,
+        "after": 2
+      }
+    },
+    "disposition": "Accept the correct POS. Leave reading/cloze ineligible because fewer than three valid choices remain; do not synthesize distractors or change the learning algorithm."
+  },
+  "pilot": {
+    "documented_scope": "ID121–320",
+    "scope_ids_outside_pilot": true,
+    "pilot_credit_applied": 0
+  },
+  "overall_decision": "pass",
+  "limitations": [
+    "This is author review, not independent linguistic acceptance.",
+    "ID2734 has no valid three-option reading or cloze pool after the POS correction; no artificial distractors were introduced.",
+    "The other 11 cards' reading/cloze pool counts are unchanged; this batch does not close C11 globally."
+  ]
+}

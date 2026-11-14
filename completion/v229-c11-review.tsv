@@ -1,0 +1,13 @@
+id	word	pos_before	pos_after	reading_pool_before	reading_pool_after	cloze_pool_before	cloze_pool_after	reading_eligible_after	cloze_eligible_after	decision	change_summary
+2734	来る（きたる）	動詞	連体詞	6	0	705	2	no	no	POS corrected; meaning quiz override	fixed_rechecked
+544	いい加減	ナ形	ナ形	0	0	292	292	no	yes	meaning quiz override	fixed_rechecked
+550	わがまま	ナ形	ナ形	0	0	292	292	no	yes	meaning quiz override	fixed_rechecked
+552	確か	ナ形	ナ形	5	5	292	292	yes	yes	meaning quiz override	fixed_rechecked
+557	結構	ナ形	ナ形	1	1	292	292	no	yes	context-specific byExample quiz for praise/refusal	fixed_rechecked
+588	独特	ナ形	ナ形	1	1	292	292	no	yes	meaning quiz override	fixed_rechecked
+599	無礼	ナ形	ナ形	6	6	292	292	yes	yes	meaning quiz override	fixed_rechecked
+644	当然	副詞	副詞	6	6	276	276	yes	yes	two adverbial examples/translations and usage; context-specific quiz	fixed_rechecked
+663	オーバー	名詞	名詞	0	0	2269	2269	no	yes	context-specific byExample quiz for budget/time	fixed_rechecked
+1631	相応	名詞	名詞	6	6	2269	2269	yes	yes	meaning quiz override	fixed_rechecked
+3337	一切	副詞	副詞	3	3	276	276	yes	yes	byExample quiz separates negative and positive 一切	fixed_rechecked
+3345	散々	副詞	副詞	2	2	276	276	no	yes	second example/translation/usage and global+byExample quiz updated	fixed_rechecked

@@ -1,0 +1,421 @@
+[
+  {
+    "id": 2734,
+    "word": "来る",
+    "posBefore": [
+      "動詞"
+    ],
+    "posAfter": [
+      "連体詞"
+    ],
+    "readingBefore": 6,
+    "readingAfter": 0,
+    "clozeBefore": 705,
+    "clozeAfter": 2,
+    "readingEligibleBefore": true,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": false,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "いたる",
+      "あおる",
+      "あせる",
+      "あまる",
+      "いばる",
+      "いる"
+    ],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 544,
+    "word": "いい加減",
+    "posBefore": [
+      "ナ形"
+    ],
+    "posAfter": [
+      "ナ形"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 292,
+    "clozeAfter": 292,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 550,
+    "word": "わがまま",
+    "posBefore": [
+      "ナ形"
+    ],
+    "posAfter": [
+      "ナ形"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 292,
+    "clozeAfter": 292,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 552,
+    "word": "確か",
+    "posBefore": [
+      "ナ形"
+    ],
+    "posAfter": [
+      "ナ形"
+    ],
+    "readingBefore": 5,
+    "readingAfter": 5,
+    "clozeBefore": 292,
+    "clozeAfter": 292,
+    "readingEligibleBefore": true,
+    "readingEligibleAfter": true,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "おろか",
+      "かすか",
+      "さだか",
+      "ひそか",
+      "ゆたか"
+    ],
+    "readingOptionsAfter": [
+      "おろか",
+      "かすか",
+      "さだか",
+      "ひそか",
+      "ゆたか"
+    ]
+  },
+  {
+    "id": 557,
+    "word": "結構",
+    "posBefore": [
+      "ナ形"
+    ],
+    "posAfter": [
+      "ナ形"
+    ],
+    "readingBefore": 1,
+    "readingAfter": 1,
+    "clozeBefore": 292,
+    "clozeAfter": 292,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "のうこう"
+    ],
+    "readingOptionsAfter": [
+      "のうこう"
+    ]
+  },
+  {
+    "id": 588,
+    "word": "独特",
+    "posBefore": [
+      "ナ形"
+    ],
+    "posAfter": [
+      "ナ形"
+    ],
+    "readingBefore": 1,
+    "readingAfter": 1,
+    "clozeBefore": 292,
+    "clozeAfter": 292,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "どんよく"
+    ],
+    "readingOptionsAfter": [
+      "どんよく"
+    ]
+  },
+  {
+    "id": 599,
+    "word": "無礼",
+    "posBefore": [
+      "ナ形"
+    ],
+    "posAfter": [
+      "ナ形"
+    ],
+    "readingBefore": 6,
+    "readingAfter": 6,
+    "clozeBefore": 292,
+    "clozeAfter": 292,
+    "readingEligibleBefore": true,
+    "readingEligibleAfter": true,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "いがい",
+      "いだい",
+      "ささい",
+      "ひれつ",
+      "ぶなん",
+      "まれ"
+    ],
+    "readingOptionsAfter": [
+      "いがい",
+      "いだい",
+      "ささい",
+      "ひれつ",
+      "ぶなん",
+      "まれ"
+    ]
+  },
+  {
+    "id": 644,
+    "word": "当然",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 6,
+    "readingAfter": 6,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": true,
+    "readingEligibleAfter": true,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "とうぶん",
+      "とうめん",
+      "とつぜん",
+      "いぜん",
+      "ぜんぜん",
+      "だんぜん"
+    ],
+    "readingOptionsAfter": [
+      "とうぶん",
+      "とうめん",
+      "とつぜん",
+      "いぜん",
+      "ぜんぜん",
+      "だんぜん"
+    ]
+  },
+  {
+    "id": 663,
+    "word": "オーバー",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 1631,
+    "word": "相応",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 6,
+    "readingAfter": 6,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": true,
+    "readingEligibleAfter": true,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "そうおん",
+      "そうぐう",
+      "そうごう",
+      "そうぞう",
+      "そうとう",
+      "そうどう"
+    ],
+    "readingOptionsAfter": [
+      "そうおん",
+      "そうぐう",
+      "そうごう",
+      "そうぞう",
+      "そうとう",
+      "そうどう"
+    ]
+  },
+  {
+    "id": 3337,
+    "word": "一切",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 3,
+    "readingAfter": 3,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": true,
+    "readingEligibleAfter": true,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "いったい",
+      "いっそう",
+      "いまさら"
+    ],
+    "readingOptionsAfter": [
+      "いったい",
+      "いっそう",
+      "いまさら"
+    ]
+  },
+  {
+    "id": 3345,
+    "word": "散々",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 2,
+    "readingAfter": 2,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "ぜんぜん",
+      "だんぜん"
+    ],
+    "readingOptionsAfter": [
+      "ぜんぜん",
+      "だんぜん"
+    ]
+  }
+]

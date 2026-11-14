@@ -1,0 +1,7 @@
+block	id	path	before	after	reason
+VOCAB_POS_BY_ID	2734	2734	["動詞"]	["連体詞"]	きたる before dates/events is a lexicalized attributive use, not ordinary くる.
+VOCAB_DETAILS_BY_ID	644	examples[0..1], exampleTranslations[0..1], usage	Old examples included 当然の責務 and 当然のことながら	Two adverbial contexts: 結論も当然変わってくる / 当然、…管理されなければならない	Keep canonical 副詞 POS clear while explaining separate 形動 forms in usage.
+VOCAB_DETAILS_BY_ID	3345	examples[1], exampleTranslations[1], usage	散々な結果に終わった遠征だった	彼は会議で散々に批判され、反論できなかった	Use adverbial example for canonical 副詞 POS; preserve 形動 散々な結果 as supplementary usage.
+REVIEWED_MEANING_QUIZZES	10 IDs	v_1631,v_2734,v_544,v_550,v_552,v_557,v_588,v_599,v_644,v_663	No reviewed override	10 reviewed overrides	Contextual keys/distractors; unique alternatives; answer-length ratios <=1.5.
+REVIEWED_MEANING_QUIZZES	3337	byExample	Only positive 一切負担 context	Positive and negative contexts separated	Distinguish 一切＋否定 from positive total responsibility.
+REVIEWED_MEANING_QUIZZES	3345	global + byExample	Old global key and 散々な結果 context	Revised global key for 散々議論; byExample for 散々に批判される	Keep two senses distinct and bind quiz payload to exact sentence.
