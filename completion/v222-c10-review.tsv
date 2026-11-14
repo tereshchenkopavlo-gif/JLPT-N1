@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+3423	ちやほや	fixed_rechecked	exampleTranslations[0]; exampleTranslations[1]	The Japanese means to flatter/pamper excessively; Ukrainian translations now retain both flattery and being fussed over.
+3425	こっそり	fixed_rechecked	exampleTranslations[0]	社長 is rendered naturally as керівник компанії rather than президент in this corporate context.
+3426	ちょくちょく	fixed_rechecked	m	Corrected 間をおかず (without interval) to わずかな間隔を置いて (with short intervals), matching the dictionary.
+3430	ぶらぶら	reviewed	—	Both examples distinguish aimless walking and spending time without work; no clear error.
+3434	さっぱり	fixed_rechecked	m; t	Clarified refreshing relief, light/non-heavy taste, and the negative construction.
+3438	どたばた	reviewed	—	The examples cover noisy commotion and rushed activity; Ukrainian translations are adequate.
+3441	とろとろ	blocked	—	The entry includes とろとろになって/とろとろになる, a 形動 use, while app POS-map is 副詞; defer to C11.
+3444	どろどろ	blocked	—	The entry includes どろどろした/どろどろになる, a 形動 use, while app POS-map is 副詞; defer to C11.
+3448	ぼうっと	reviewed	—	The card intentionally covers blurred appearance and absent-mindedness; both examples fit.
+3451	ほっと	reviewed	—	Relief and sighing after tension are correctly represented; no clear error.
+3454	ぼつぼつ	reviewed	—	The card covers gradual progress and 'it is about time'; examples are acceptable.
+3458	すくすく	fixed_rechecked	t; exampleTranslations[0]; exampleTranslations[1]	Ukrainian gloss and translations now express healthy, vigorous growth naturally.

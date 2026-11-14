@@ -1,0 +1,15 @@
+kind	key	decision	change	note
+vocab	3423	fixed_rechecked	changed	ちやほや
+vocab	3425	fixed_rechecked	changed	こっそり
+vocab	3426	fixed_rechecked	changed	ちょくちょく
+vocab	3434	fixed_rechecked	changed	さっぱり
+vocab	3458	fixed_rechecked	changed	すくすく
+vocab	3430	reviewed	unchanged	ぶらぶら
+vocab	3438	reviewed	unchanged	どたばた
+vocab	3448	reviewed	unchanged	ぼうっと
+vocab	3451	reviewed	unchanged	ほっと
+vocab	3454	reviewed	unchanged	ぼつぼつ
+vocab	3441	blocked	unchanged	とろとろ — C11 POS/形動
+vocab	3444	blocked	unchanged	どろどろ — C11 POS/形動
+vocab_pair	771	reviewed	unchanged	3422/3425
+vocab_pair	776	reviewed	unchanged	3441/3444
