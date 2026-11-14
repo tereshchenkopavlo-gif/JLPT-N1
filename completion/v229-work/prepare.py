@@ -168,10 +168,10 @@ entry["byExample"] = by_example
 
 # Manual meaning options address the automatic length cues and context drift found
 # in the first Chromium diagnostic. These are content overrides only; no quiz logic changes.
-const old_3337_by_example = copy.deepcopy(new_quizzes["v_3337"].get("byExample", {}))
-const by_example_3337 = copy.deepcopy(old_3337_by_example)
-const positive_3337 = "契約に関する費用は、一切こちらで負担いたします。"
-const negative_3337 = "当社は、この件に一切関与しておりません。"
+old_3337_by_example = copy.deepcopy(new_quizzes["v_3337"].get("byExample", {}))
+by_example_3337 = copy.deepcopy(old_3337_by_example)
+positive_3337 = "契約に関する費用は、一切こちらで負担いたします。"
+negative_3337 = "当社は、この件に一切関与しておりません。"
 if positive_3337 not in by_example_3337:
     raise RuntimeError("missing ID3337 positive-context baseline")
 by_example_3337[positive_3337] = {
