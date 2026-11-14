@@ -1,0 +1,5 @@
+id	word	current_pos	proposed_pos	decision	confidence	quiz_contexts	note
+3652	ユニーク	名詞	ナ形	change	medium	2	Secondary source plus な-form morphology; selected sense is distinctive
+3654	ブロック	名詞	名詞	retain	high	2	名詞(スル); retain app noun-only convention
+3677	ルーズ	名詞	ナ形	change	high	2	Selected 形動 sense; exclude separate archery noun sense
+3679	ワンマン	名詞	名詞・ナ形	change	high	2	Dictionary labels 名詞(形動); both uses appear in card
