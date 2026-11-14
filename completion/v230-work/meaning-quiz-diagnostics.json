@@ -1,0 +1,1706 @@
+[
+  {
+    "id": 3363,
+    "word": "相当",
+    "exampleIndex": 0,
+    "example": "この計画の実現には、相当な時間を要するだろう。",
+    "samples": [
+      {
+        "correct": "物事の程度が、普通よりかなり大きいさま。",
+        "wrong": [
+          "物事の程度が、ごく小さく限られているさま。",
+          "物事の程度が、基準とほとんど変わらないさま。",
+          "物事の程度が、以前よりも少し弱くなったさま。"
+        ],
+        "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          21,
+          22,
+          22
+        ],
+        "minLength": 20,
+        "maxLength": 22,
+        "lengthRatio": 1.1
+      },
+      {
+        "correct": "物事の程度が、普通よりかなり大きいさま。",
+        "wrong": [
+          "物事の程度が、ごく小さく限られているさま。",
+          "物事の程度が、基準とほとんど変わらないさま。",
+          "物事の程度が、以前よりも少し弱くなったさま。"
+        ],
+        "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          21,
+          22,
+          22
+        ],
+        "minLength": 20,
+        "maxLength": 22,
+        "lengthRatio": 1.1
+      },
+      {
+        "correct": "物事の程度が、普通よりかなり大きいさま。",
+        "wrong": [
+          "物事の程度が、ごく小さく限られているさま。",
+          "物事の程度が、基準とほとんど変わらないさま。",
+          "物事の程度が、以前よりも少し弱くなったさま。"
+        ],
+        "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          21,
+          22,
+          22
+        ],
+        "minLength": 20,
+        "maxLength": 22,
+        "lengthRatio": 1.1
+      }
+    ]
+  },
+  {
+    "id": 3363,
+    "word": "相当",
+    "exampleIndex": 1,
+    "example": "相当疲れていたのか、彼は帰宅するなり眠り込んだ。",
+    "samples": [
+      {
+        "correct": "物事の程度が、普通よりかなり大きいさま。",
+        "wrong": [
+          "物事の程度が、ごく小さく限られているさま。",
+          "物事の程度が、基準とほとんど変わらないさま。",
+          "物事の程度が、以前よりも少し弱くなったさま。"
+        ],
+        "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          21,
+          22,
+          22
+        ],
+        "minLength": 20,
+        "maxLength": 22,
+        "lengthRatio": 1.1
+      },
+      {
+        "correct": "物事の程度が、普通よりかなり大きいさま。",
+        "wrong": [
+          "物事の程度が、ごく小さく限られているさま。",
+          "物事の程度が、基準とほとんど変わらないさま。",
+          "物事の程度が、以前よりも少し弱くなったさま。"
+        ],
+        "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          21,
+          22,
+          22
+        ],
+        "minLength": 20,
+        "maxLength": 22,
+        "lengthRatio": 1.1
+      },
+      {
+        "correct": "物事の程度が、普通よりかなり大きいさま。",
+        "wrong": [
+          "物事の程度が、ごく小さく限られているさま。",
+          "物事の程度が、基準とほとんど変わらないさま。",
+          "物事の程度が、以前よりも少し弱くなったさま。"
+        ],
+        "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          21,
+          22,
+          22
+        ],
+        "minLength": 20,
+        "maxLength": 22,
+        "lengthRatio": 1.1
+      }
+    ]
+  },
+  {
+    "id": 3375,
+    "word": "当面",
+    "exampleIndex": 0,
+    "example": "当面の課題は、優秀な人材の確保と育成である。",
+    "samples": [
+      {
+        "correct": "さしあたり。今のところ。",
+        "wrong": [
+          "少しずつ変化していくさま。",
+          "言うまでもなく。もちろん。",
+          "完全に二つに分かれること。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13,
+        "lengthRatio": 1.0833333333333333
+      },
+      {
+        "correct": "さしあたり。今のところ。",
+        "wrong": [
+          "大部分。おおよそ。たぶん。",
+          "うれしくて心が弾むさま。",
+          "言うまでもなく。もちろん。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          12,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13,
+        "lengthRatio": 1.0833333333333333
+      },
+      {
+        "correct": "さしあたり。今のところ。",
+        "wrong": [
+          "言うまでもなく。もちろん。",
+          "少しずつ変化していくさま。",
+          "うれしくて心が弾むさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          12
+        ],
+        "minLength": 12,
+        "maxLength": 13,
+        "lengthRatio": 1.0833333333333333
+      }
+    ]
+  },
+  {
+    "id": 3375,
+    "word": "当面",
+    "exampleIndex": 1,
+    "example": "当面は現状維持を図りつつ、改革の機会を探る。",
+    "samples": [
+      {
+        "correct": "さしあたり。今のところ。",
+        "wrong": [
+          "事の起こる前に。前もって。",
+          "大部分。おおよそ。たぶん。",
+          "それにもまして。いっそう。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13,
+        "lengthRatio": 1.0833333333333333
+      },
+      {
+        "correct": "さしあたり。今のところ。",
+        "wrong": [
+          "やっとのことで。どうにか。",
+          "少しずつ変化していくさま。",
+          "うれしくて心が弾むさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          12
+        ],
+        "minLength": 12,
+        "maxLength": 13,
+        "lengthRatio": 1.0833333333333333
+      },
+      {
+        "correct": "さしあたり。今のところ。",
+        "wrong": [
+          "大部分。おおよそ。たぶん。",
+          "やっとのことで。どうにか。",
+          "少しずつ変化していくさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13,
+        "lengthRatio": 1.0833333333333333
+      }
+    ]
+  },
+  {
+    "id": 3417,
+    "word": "だぶだぶ",
+    "exampleIndex": 0,
+    "example": "兄のお下がりのスーツは、だぶだぶで肩が落ちていた。",
+    "samples": [
+      {
+        "correct": "衣服が大きすぎてゆるいさま。",
+        "wrong": [
+          "慌ただしく騒ぎ立てるさま。",
+          "柔らかく軽やかに膨らむさま。",
+          "見ている間に変化が進むさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          13,
+          14,
+          14
+        ],
+        "minLength": 13,
+        "maxLength": 14,
+        "lengthRatio": 1.0769230769230769
+      },
+      {
+        "correct": "衣服が大きすぎてゆるいさま。",
+        "wrong": [
+          "柔らかく軽やかに膨らむさま。",
+          "物事を手際よく処理するさま。",
+          "見ている間に変化が進むさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 14,
+        "lengthRatio": 1
+      },
+      {
+        "correct": "衣服が大きすぎてゆるいさま。",
+        "wrong": [
+          "安心して気持ちが落ち着くさま。",
+          "ゆっくりと着実に進むさま。",
+          "明確で、あいまいでないさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          13,
+          14
+        ],
+        "minLength": 13,
+        "maxLength": 15,
+        "lengthRatio": 1.1538461538461537
+      }
+    ]
+  },
+  {
+    "id": 3417,
+    "word": "だぶだぶ",
+    "exampleIndex": 1,
+    "example": "だぶだぶの作業服を着た新人が、現場を駆け回った。",
+    "samples": [
+      {
+        "correct": "衣服が大きすぎてゆるいさま。",
+        "wrong": [
+          "慌ただしく騒ぎ立てるさま。",
+          "柔らかく軽やかに膨らむさま。",
+          "明確で、あいまいでないさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          13,
+          14,
+          14
+        ],
+        "minLength": 13,
+        "maxLength": 14,
+        "lengthRatio": 1.0769230769230769
+      },
+      {
+        "correct": "衣服が大きすぎてゆるいさま。",
+        "wrong": [
+          "安心して気持ちが落ち着くさま。",
+          "見ている間に変化が進むさま。",
+          "物事を手際よく処理するさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          14,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      },
+      {
+        "correct": "衣服が大きすぎてゆるいさま。",
+        "wrong": [
+          "明確で、あいまいでないさま。",
+          "ゆっくりと着実に進むさま。",
+          "見ている間に変化が進むさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          14,
+          13,
+          14
+        ],
+        "minLength": 13,
+        "maxLength": 14,
+        "lengthRatio": 1.0769230769230769
+      }
+    ]
+  },
+  {
+    "id": 3441,
+    "word": "とろとろ",
+    "exampleIndex": 0,
+    "example": "弱火で煮込むと、野菜がとろとろになって甘みが増す。",
+    "samples": [
+      {
+        "correct": "液体が濃く柔らかくとろけるさま。浅く眠るさま。",
+        "wrong": [
+          "締まりなく長く続くさま。液体がしたたり流れるさま。",
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "外国語などを流暢に話すさま。紙などが薄いさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          25,
+          23,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 25,
+        "lengthRatio": 1.0869565217391304
+      },
+      {
+        "correct": "液体が濃く柔らかくとろけるさま。浅く眠るさま。",
+        "wrong": [
+          "締まりなく長く続くさま。液体がしたたり流れるさま。",
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "外国語などを流暢に話すさま。紙などが薄いさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          25,
+          23,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 25,
+        "lengthRatio": 1.0869565217391304
+      },
+      {
+        "correct": "液体が濃く柔らかくとろけるさま。浅く眠るさま。",
+        "wrong": [
+          "締まりなく長く続くさま。液体がしたたり流れるさま。",
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "外国語などを流暢に話すさま。紙などが薄いさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          25,
+          23,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 25,
+        "lengthRatio": 1.0869565217391304
+      }
+    ]
+  },
+  {
+    "id": 3441,
+    "word": "とろとろ",
+    "exampleIndex": 1,
+    "example": "日差しが心地よくて、縁側でとろとろと居眠りをした。",
+    "samples": [
+      {
+        "correct": "液体が濃く柔らかくとろけるさま。浅く眠るさま。",
+        "wrong": [
+          "締まりなく長く続くさま。液体がしたたり流れるさま。",
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "外国語などを流暢に話すさま。紙などが薄いさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          25,
+          23,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 25,
+        "lengthRatio": 1.0869565217391304
+      },
+      {
+        "correct": "液体が濃く柔らかくとろけるさま。浅く眠るさま。",
+        "wrong": [
+          "締まりなく長く続くさま。液体がしたたり流れるさま。",
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "外国語などを流暢に話すさま。紙などが薄いさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          25,
+          23,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 25,
+        "lengthRatio": 1.0869565217391304
+      },
+      {
+        "correct": "液体が濃く柔らかくとろけるさま。浅く眠るさま。",
+        "wrong": [
+          "締まりなく長く続くさま。液体がしたたり流れるさま。",
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "外国語などを流暢に話すさま。紙などが薄いさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          25,
+          23,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 25,
+        "lengthRatio": 1.0869565217391304
+      }
+    ]
+  },
+  {
+    "id": 3444,
+    "word": "どろどろ",
+    "exampleIndex": 0,
+    "example": "大雨のあと、畑の土がどろどろにぬかるんでしまった。",
+    "samples": [
+      {
+        "correct": "液体が濃くにごって粘るさま。感情などが複雑にもつれるさま。",
+        "wrong": [
+          "落ち着かず、気持ちが浮ついているさま。",
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "安心して気持ちが落ち着くさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          29,
+          19,
+          23,
+          15
+        ],
+        "minLength": 15,
+        "maxLength": 29,
+        "lengthRatio": 1.9333333333333333
+      },
+      {
+        "correct": "液体が濃くにごって粘るさま。感情などが複雑にもつれるさま。",
+        "wrong": [
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "安心して気持ちが落ち着くさま。",
+          "心配事なく、ゆったり過ごすさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          29,
+          23,
+          15,
+          16
+        ],
+        "minLength": 15,
+        "maxLength": 29,
+        "lengthRatio": 1.9333333333333333
+      },
+      {
+        "correct": "液体が濃くにごって粘るさま。感情などが複雑にもつれるさま。",
+        "wrong": [
+          "落ち着かず、気持ちが浮ついているさま。",
+          "不快感やわだかまりが消えて気持ちよいさま。味などがしつこくなく、軽いさま。下に打ち消しを伴って、まったくの意を表す。",
+          "安心して気持ちが落ち着くさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          29,
+          19,
+          58,
+          15
+        ],
+        "minLength": 15,
+        "maxLength": 58,
+        "lengthRatio": 3.8666666666666667
+      }
+    ]
+  },
+  {
+    "id": 3444,
+    "word": "どろどろ",
+    "exampleIndex": 1,
+    "example": "どろどろした人間関係に疲れ、彼は転職を決意した。",
+    "samples": [
+      {
+        "correct": "液体が濃くにごって粘るさま。感情などが複雑にもつれるさま。",
+        "wrong": [
+          "不快感やわだかまりが消えて気持ちよいさま。味などがしつこくなく、軽いさま。下に打ち消しを伴って、まったくの意を表す。",
+          "安心して気持ちが落ち着くさま。",
+          "心配事や過ぎたことをいつまでも気にして悩む様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          29,
+          58,
+          15,
+          24
+        ],
+        "minLength": 15,
+        "maxLength": 58,
+        "lengthRatio": 3.8666666666666667
+      },
+      {
+        "correct": "液体が濃くにごって粘るさま。感情などが複雑にもつれるさま。",
+        "wrong": [
+          "不快感やわだかまりが消えて気持ちよいさま。味などがしつこくなく、軽いさま。下に打ち消しを伴って、まったくの意を表す。",
+          "落ち着かず、気持ちが浮ついているさま。",
+          "心配事なく、ゆったり過ごすさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          29,
+          58,
+          19,
+          16
+        ],
+        "minLength": 16,
+        "maxLength": 58,
+        "lengthRatio": 3.625
+      },
+      {
+        "correct": "液体が濃くにごって粘るさま。感情などが複雑にもつれるさま。",
+        "wrong": [
+          "不安定に大きく揺れ動くさま。湯が煮え立つさま。",
+          "不快感やわだかまりが消えて気持ちよいさま。味などがしつこくなく、軽いさま。下に打ち消しを伴って、まったくの意を表す。",
+          "心配事や過ぎたことをいつまでも気にして悩む様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          29,
+          23,
+          58,
+          24
+        ],
+        "minLength": 23,
+        "maxLength": 58,
+        "lengthRatio": 2.5217391304347827
+      }
+    ]
+  },
+  {
+    "id": 3525,
+    "word": "オートマチック",
+    "exampleIndex": 0,
+    "example": "オートマチックの車は、運転が楽で人気が高い。",
+    "samples": [
+      {
+        "correct": "自動式であるさま。自動変速の車。",
+        "wrong": [
+          "道路の路肩などに設置された防護柵。",
+          "選択できる事項。追加の付属品。",
+          "知識人。知的職業に就く人。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          17,
+          15,
+          13
+        ],
+        "minLength": 13,
+        "maxLength": 17,
+        "lengthRatio": 1.3076923076923077
+      },
+      {
+        "correct": "自動式であるさま。自動変速の車。",
+        "wrong": [
+          "面会などの約束。アポイントメントの略。",
+          "知識人。知的職業に就く人。",
+          "物事を分類した際の区分。範疇。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          19,
+          13,
+          15
+        ],
+        "minLength": 13,
+        "maxLength": 19,
+        "lengthRatio": 1.4615384615384615
+      },
+      {
+        "correct": "自動式であるさま。自動変速の車。",
+        "wrong": [
+          "選択できる事項。追加の付属品。",
+          "面会などの約束。アポイントメントの略。",
+          "湿っていること。情に厚く感傷的なさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          15,
+          19,
+          19
+        ],
+        "minLength": 15,
+        "maxLength": 19,
+        "lengthRatio": 1.2666666666666666
+      }
+    ]
+  },
+  {
+    "id": 3525,
+    "word": "オートマチック",
+    "exampleIndex": 1,
+    "example": "この装置は、温度調節がオートマチックに行われる仕組みだ。",
+    "samples": [
+      {
+        "correct": "自動式であるさま。自動変速の車。",
+        "wrong": [
+          "選択できる事項。追加の付属品。",
+          "知識人。知的職業に就く人。",
+          "湿っていること。情に厚く感傷的なさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          15,
+          13,
+          19
+        ],
+        "minLength": 13,
+        "maxLength": 19,
+        "lengthRatio": 1.4615384615384615
+      },
+      {
+        "correct": "自動式であるさま。自動変速の車。",
+        "wrong": [
+          "湿っていること。情に厚く感傷的なさま。",
+          "娯楽。人を楽しませる催しや芸。",
+          "道路の路肩などに設置された防護柵。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          19,
+          15,
+          17
+        ],
+        "minLength": 15,
+        "maxLength": 19,
+        "lengthRatio": 1.2666666666666666
+      },
+      {
+        "correct": "自動式であるさま。自動変速の車。",
+        "wrong": [
+          "選択できる事項。追加の付属品。",
+          "娯楽。人を楽しませる催しや芸。",
+          "道路の路肩などに設置された防護柵。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          15,
+          15,
+          17
+        ],
+        "minLength": 15,
+        "maxLength": 17,
+        "lengthRatio": 1.1333333333333333
+      }
+    ]
+  },
+  {
+    "id": 3561,
+    "word": "ジャンボ",
+    "exampleIndex": 0,
+    "example": "ジャンボサイズのピザは、家族全員で食べても余る。",
+    "samples": [
+      {
+        "correct": "非常に大きいこと。特大。",
+        "wrong": [
+          "規模。物差し。目盛り。",
+          "脚本。物事の筋書きや計画。",
+          "対比。対照。明暗などの差。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          11,
+          13,
+          13
+        ],
+        "minLength": 11,
+        "maxLength": 13,
+        "lengthRatio": 1.1818181818181819
+      },
+      {
+        "correct": "非常に大きいこと。特大。",
+        "wrong": [
+          "社会的な地位。状態や状況。",
+          "標的。目標とする対象。",
+          "優勝者。選手権保持者。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          11,
+          11
+        ],
+        "minLength": 11,
+        "maxLength": 13,
+        "lengthRatio": 1.1818181818181819
+      },
+      {
+        "correct": "非常に大きいこと。特大。",
+        "wrong": [
+          "標的。目標とする対象。",
+          "社会的な地位。状態や状況。",
+          "対比。対照。明暗などの差。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          11,
+          13,
+          13
+        ],
+        "minLength": 11,
+        "maxLength": 13,
+        "lengthRatio": 1.1818181818181819
+      }
+    ]
+  },
+  {
+    "id": 3561,
+    "word": "ジャンボ",
+    "exampleIndex": 1,
+    "example": "ジャンボジェット機が、滑走路にゆっくり降りてきた。",
+    "samples": [
+      {
+        "correct": "非常に大きいこと。特大。",
+        "wrong": [
+          "社会的な地位。状態や状況。",
+          "主張を簡潔に表した標語。",
+          "脚本。物事の筋書きや計画。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          12,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13,
+        "lengthRatio": 1.0833333333333333
+      },
+      {
+        "correct": "非常に大きいこと。特大。",
+        "wrong": [
+          "優勝者。選手権保持者。",
+          "主張を簡潔に表した標語。",
+          "標的。目標とする対象。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          11,
+          12,
+          11
+        ],
+        "minLength": 11,
+        "maxLength": 12,
+        "lengthRatio": 1.0909090909090908
+      },
+      {
+        "correct": "非常に大きいこと。特大。",
+        "wrong": [
+          "標的。目標とする対象。",
+          "主張を簡潔に表した標語。",
+          "苦情。不満の申し立て。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          11,
+          12,
+          11
+        ],
+        "minLength": 11,
+        "maxLength": 12,
+        "lengthRatio": 1.0909090909090908
+      }
+    ]
+  },
+  {
+    "id": 3565,
+    "word": "タイムリー",
+    "exampleIndex": 0,
+    "example": "タイムリーな情報提供が、顧客の信頼につながる。",
+    "samples": [
+      {
+        "correct": "ちょうどよい時機であるさま。",
+        "wrong": [
+          "組織の部門。区分けされた部分。",
+          "広告放送。商業的であるさま。",
+          "厳しいさま。容赦のないさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          14,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      },
+      {
+        "correct": "ちょうどよい時機であるさま。",
+        "wrong": [
+          "厳しいさま。容赦のないさま。",
+          "広告放送。商業的であるさま。",
+          "土地や建物を借りる人。入居者。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          14,
+          14,
+          15
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      },
+      {
+        "correct": "ちょうどよい時機であるさま。",
+        "wrong": [
+          "土地や建物を借りる人。入居者。",
+          "脚本。物事の筋書きや計画。",
+          "広告放送。商業的であるさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          13,
+          14
+        ],
+        "minLength": 13,
+        "maxLength": 15,
+        "lengthRatio": 1.1538461538461537
+      }
+    ]
+  },
+  {
+    "id": 3565,
+    "word": "タイムリー",
+    "exampleIndex": 1,
+    "example": "このテーマの特集は、時期的にもタイムリーだった。",
+    "samples": [
+      {
+        "correct": "ちょうどよい時機であるさま。",
+        "wrong": [
+          "組織の部門。区分けされた部分。",
+          "企画などの基本となる考え方。",
+          "社会的な地位。状態や状況。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          14,
+          13
+        ],
+        "minLength": 13,
+        "maxLength": 15,
+        "lengthRatio": 1.1538461538461537
+      },
+      {
+        "correct": "ちょうどよい時機であるさま。",
+        "wrong": [
+          "広告放送。商業的であるさま。",
+          "社会的な地位。状態や状況。",
+          "座席。薄く平らな一枚の紙や布。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          14,
+          13,
+          15
+        ],
+        "minLength": 13,
+        "maxLength": 15,
+        "lengthRatio": 1.1538461538461537
+      },
+      {
+        "correct": "ちょうどよい時機であるさま。",
+        "wrong": [
+          "社会的な地位。状態や状況。",
+          "厳しいさま。容赦のないさま。",
+          "組織の部門。区分けされた部分。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          13,
+          14,
+          15
+        ],
+        "minLength": 13,
+        "maxLength": 15,
+        "lengthRatio": 1.1538461538461537
+      }
+    ]
+  },
+  {
+    "id": 3569,
+    "word": "コマーシャル",
+    "exampleIndex": 0,
+    "example": "新商品のコマーシャルが、テレビで盛んに流れている。",
+    "samples": [
+      {
+        "correct": "広告放送。商業的であるさま。",
+        "wrong": [
+          "座席。薄く平らな一枚の紙や布。",
+          "社会的な地位。状態や状況。",
+          "組織の部門。区分けされた部分。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          13,
+          15
+        ],
+        "minLength": 13,
+        "maxLength": 15,
+        "lengthRatio": 1.1538461538461537
+      },
+      {
+        "correct": "広告放送。商業的であるさま。",
+        "wrong": [
+          "組織の部門。区分けされた部分。",
+          "座席。薄く平らな一枚の紙や布。",
+          "厳しいさま。容赦のないさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          15,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      },
+      {
+        "correct": "広告放送。商業的であるさま。",
+        "wrong": [
+          "土地や建物を借りる人。入居者。",
+          "組織の部門。区分けされた部分。",
+          "企画などの基本となる考え方。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          15,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      }
+    ]
+  },
+  {
+    "id": 3569,
+    "word": "コマーシャル",
+    "exampleIndex": 1,
+    "example": "コマーシャルの効果で、売り上げは前年を上回った。",
+    "samples": [
+      {
+        "correct": "広告放送。商業的であるさま。",
+        "wrong": [
+          "厳しいさま。容赦のないさま。",
+          "座席。薄く平らな一枚の紙や布。",
+          "企画などの基本となる考え方。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          14,
+          15,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      },
+      {
+        "correct": "広告放送。商業的であるさま。",
+        "wrong": [
+          "組織の部門。区分けされた部分。",
+          "ちょうどよい時機であるさま。",
+          "企画などの基本となる考え方。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          14,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      },
+      {
+        "correct": "広告放送。商業的であるさま。",
+        "wrong": [
+          "土地や建物を借りる人。入居者。",
+          "座席。薄く平らな一枚の紙や布。",
+          "ちょうどよい時機であるさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          15,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 15,
+        "lengthRatio": 1.0714285714285714
+      }
+    ]
+  },
+  {
+    "id": 3594,
+    "word": "ストレート",
+    "exampleIndex": 0,
+    "example": "彼は意見をストレートに伝えるため、誤解されにくい。",
+    "samples": [
+      {
+        "correct": "まっすぐなさま。ありのままのさま。",
+        "wrong": [
+          "ぞくぞくするような緊張感や興奮。",
+          "安全。防犯。情報などを守ること。",
+          "物事が円滑に進むよう調整する人。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          17,
+          16,
+          16,
+          16
+        ],
+        "minLength": 16,
+        "maxLength": 17,
+        "lengthRatio": 1.0625
+      },
+      {
+        "correct": "まっすぐなさま。ありのままのさま。",
+        "wrong": [
+          "安全。防犯。情報などを守ること。",
+          "劣等感。心の奥にある複雑な感情。",
+          "駅や、特定の活動の拠点となる施設。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          17,
+          16,
+          16,
+          17
+        ],
+        "minLength": 16,
+        "maxLength": 17,
+        "lengthRatio": 1.0625
+      },
+      {
+        "correct": "まっすぐなさま。ありのままのさま。",
+        "wrong": [
+          "駅や、特定の活動の拠点となる施設。",
+          "劣等感。心の奥にある複雑な感情。",
+          "安全。防犯。情報などを守ること。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          17,
+          17,
+          16,
+          16
+        ],
+        "minLength": 16,
+        "maxLength": 17,
+        "lengthRatio": 1.0625
+      }
+    ]
+  },
+  {
+    "id": 3594,
+    "word": "ストレート",
+    "exampleIndex": 1,
+    "example": "ストレートな表現が、かえって相手の心に響いた。",
+    "samples": [
+      {
+        "correct": "まっすぐなさま。ありのままのさま。",
+        "wrong": [
+          "秘密。また、秘密にされていること。",
+          "駅や、特定の活動の拠点となる施設。",
+          "安全。防犯。情報などを守ること。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          17,
+          17,
+          17,
+          16
+        ],
+        "minLength": 16,
+        "maxLength": 17,
+        "lengthRatio": 1.0625
+      },
+      {
+        "correct": "まっすぐなさま。ありのままのさま。",
+        "wrong": [
+          "秘密。また、秘密にされていること。",
+          "駅や、特定の活動の拠点となる施設。",
+          "劣等感。心の奥にある複雑な感情。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          17,
+          17,
+          17,
+          16
+        ],
+        "minLength": 16,
+        "maxLength": 17,
+        "lengthRatio": 1.0625
+      },
+      {
+        "correct": "まっすぐなさま。ありのままのさま。",
+        "wrong": [
+          "安全。防犯。情報などを守ること。",
+          "物事が円滑に進むよう調整する人。",
+          "劣等感。心の奥にある複雑な感情。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          17,
+          16,
+          16,
+          16
+        ],
+        "minLength": 16,
+        "maxLength": 17,
+        "lengthRatio": 1.0625
+      }
+    ]
+  },
+  {
+    "id": 3636,
+    "word": "プライベート",
+    "exampleIndex": 0,
+    "example": "仕事とプライベートを切り離して考える人が増えている。",
+    "samples": [
+      {
+        "correct": "個人的であるさま。私的なさま。",
+        "wrong": [
+          "水や空気などを通す、柔らかい管。",
+          "前面。また、ホテルなどの受付。",
+          "人をだますための仕掛け。からくり。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          16,
+          15,
+          17
+        ],
+        "minLength": 15,
+        "maxLength": 17,
+        "lengthRatio": 1.1333333333333333
+      },
+      {
+        "correct": "個人的であるさま。私的なさま。",
+        "wrong": [
+          "言葉や色などの微妙な違いや味わい。",
+          "水や空気などを通す、柔らかい管。",
+          "人をだますための仕掛け。からくり。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          17,
+          16,
+          17
+        ],
+        "minLength": 15,
+        "maxLength": 17,
+        "lengthRatio": 1.1333333333333333
+      },
+      {
+        "correct": "個人的であるさま。私的なさま。",
+        "wrong": [
+          "水や空気などを通す、柔らかい管。",
+          "前面。また、ホテルなどの受付。",
+          "塊。区画。また、さえぎること。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          16,
+          15,
+          15
+        ],
+        "minLength": 15,
+        "maxLength": 16,
+        "lengthRatio": 1.0666666666666667
+      }
+    ]
+  },
+  {
+    "id": 3636,
+    "word": "プライベート",
+    "exampleIndex": 1,
+    "example": "芸能人のプライベートを執拗に追う報道には、批判の声が上がった。",
+    "samples": [
+      {
+        "correct": "個人的であるさま。私的なさま。",
+        "wrong": [
+          "前面。また、ホテルなどの受付。",
+          "手引書。また、手動で行うさま。",
+          "人をだますための仕掛け。からくり。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          15,
+          15,
+          17
+        ],
+        "minLength": 15,
+        "maxLength": 17,
+        "lengthRatio": 1.1333333333333333
+      },
+      {
+        "correct": "個人的であるさま。私的なさま。",
+        "wrong": [
+          "追い詰められた苦しい状況。危機。",
+          "前面。また、ホテルなどの受付。",
+          "人をだますための仕掛け。からくり。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          16,
+          15,
+          17
+        ],
+        "minLength": 15,
+        "maxLength": 17,
+        "lengthRatio": 1.1333333333333333
+      },
+      {
+        "correct": "個人的であるさま。私的なさま。",
+        "wrong": [
+          "手引書。また、手動で行うさま。",
+          "人をだますための仕掛け。からくり。",
+          "一定期間内に課される仕事の基準量。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          15,
+          17,
+          17
+        ],
+        "minLength": 15,
+        "maxLength": 17,
+        "lengthRatio": 1.1333333333333333
+      }
+    ]
+  },
+  {
+    "id": 3646,
+    "word": "モダン",
+    "exampleIndex": 0,
+    "example": "古い倉庫をモダンなデザインのホテルに改装した。",
+    "samples": [
+      {
+        "correct": "現代的で新しいさま。",
+        "wrong": [
+          "他に類がなく独特なさま。",
+          "印刷の誤り。誤植。",
+          "公開の場で行う討論会。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          10,
+          12,
+          9,
+          11
+        ],
+        "minLength": 9,
+        "maxLength": 12,
+        "lengthRatio": 1.3333333333333333
+      },
+      {
+        "correct": "現代的で新しいさま。",
+        "wrong": [
+          "位置。また、地位や役割。",
+          "調和。また、和声。",
+          "他に類がなく独特なさま。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          10,
+          12,
+          9,
+          12
+        ],
+        "minLength": 9,
+        "maxLength": 12,
+        "lengthRatio": 1.3333333333333333
+      },
+      {
+        "correct": "現代的で新しいさま。",
+        "wrong": [
+          "印刷の誤り。誤植。",
+          "位置。また、地位や役割。",
+          "その場の雰囲気。気分。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          10,
+          9,
+          12,
+          11
+        ],
+        "minLength": 9,
+        "maxLength": 12,
+        "lengthRatio": 1.3333333333333333
+      }
+    ]
+  },
+  {
+    "id": 3646,
+    "word": "モダン",
+    "exampleIndex": 1,
+    "example": "モダンな建築と伝統的な庭園が調和する、人気の観光地である。",
+    "samples": [
+      {
+        "correct": "現代的で新しいさま。",
+        "wrong": [
+          "その場の雰囲気。気分。",
+          "調和。また、和声。",
+          "現実味。真実らしさ。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          10,
+          11,
+          9,
+          10
+        ],
+        "minLength": 9,
+        "maxLength": 11,
+        "lengthRatio": 1.2222222222222223
+      },
+      {
+        "correct": "現代的で新しいさま。",
+        "wrong": [
+          "位置。また、地位や役割。",
+          "率直で飾り気のないさま。",
+          "印刷の誤り。誤植。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          10,
+          12,
+          12,
+          9
+        ],
+        "minLength": 9,
+        "maxLength": 12,
+        "lengthRatio": 1.3333333333333333
+      },
+      {
+        "correct": "現代的で新しいさま。",
+        "wrong": [
+          "他に類がなく独特なさま。",
+          "現実味。真実らしさ。",
+          "その場の雰囲気。気分。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          10,
+          12,
+          10,
+          11
+        ],
+        "minLength": 10,
+        "maxLength": 12,
+        "lengthRatio": 1.2
+      }
+    ]
+  }
+]
