@@ -45,7 +45,7 @@ for(const i of pairScope){const p=pairs[i],key=i+":"+p.a+":"+p.b,row=reg.slice(1
 fs.writeFileSync(rp,reg.map(r=>r.map(csvCell).join(",")).join("\n")+"\n");
 function counts(kind){const o={reviewed:0,fixed_rechecked:0,pending:0,blocked:0,total:0};for(const r of reg.slice(1)){if(kind&&r[col("kind")]!==kind)continue;if(Object.hasOwn(o,r[col("finalReview")]))o[r[col("finalReview")]]++;o.total++;}return o;}
 const after={all:counts(null),vocabulary:counts("vocab"),vocab_pair:counts("vocab_pair")};
-assert.deepEqual(after,{all:{reviewed:3986,fixed_rechecked:461,pending:1389,blocked:11,total:5847},vocabulary:{reviewed:3397,fixed_rechecked:459,pending:47,blocked:11,total:3914},vocab_pair:{reviewed:40,fixed_rechecked:1,pending:818,blocked:0,total:859}});
+assert.deepEqual(after,{all:{reviewed:3988,fixed_rechecked:461,pending:1387,blocked:11,total:5847},vocabulary:{reviewed:3397,fixed_rechecked:459,pending:47,blocked:11,total:3914},vocab_pair:{reviewed:40,fixed_rechecked:1,pending:818,blocked:0,total:859}});
 const bytes=Buffer.byteLength(candidate),sha=crypto.createHash("sha256").update(candidate).digest("hex"),blob=crypto.createHash("sha1").update(Buffer.from("blob "+bytes+"\0")).update(Buffer.from(candidate)).digest("hex");
 const prep={pass:true,base_version:"v223",base_main_sha:guard,base_html_sha256:baseSha,candidate_version:"v224",candidate_sha256:sha,candidate_blob_sha:blob,candidate_bytes:bytes,vocabulary_records:3914,grammar_records:130,lexical_pairs:859,unique_vocabulary_ids:3914,review_scope:scope,fixed_rechecked_ids:fixed,reviewed_ids:reviewed,blocked_ids:blocked,updated_fields:1,changed_cards:changed,pair_reviewed_indices:pairScope,pair_changed_indices:[],pos_map_unchanged:true,reading_and_cloze_pools_unchanged:true,example_target_tables_unchanged:true,reviewed_meaning_quizzes_unchanged:true,japanese_examples_changed:[],author_credit_before:3848,author_credit_addition:8,author_credit_after:3856,pilot_covered_ids:[],pilot_missing_ids:scope,exact_rollback:true,register_after:after,author_review_only:true,independent_acceptance:"not performed",physical_device_acceptance:"not performed",provenance_legal_acceptance:"not performed",publication_guard:guard,publication_status:"pending",blocked_reason:"C11 POS-map and quiz-pool review required for IDs 3525, 3561, 3565, 3569"};
 const registry={pass:true,register_rows:reg.length-1,after,scope_updated:scope,pair_scope_updated:pairScope,blocked_scope:blocked,duplicate_scope_keys:0,records_deleted:0,history_rewritten:false};
@@ -104,7 +104,7 @@ const audit=[
 "- Жоден POS-map чи quiz pool не змінювався без окремого C11 аналізу.",
 "",
 "## Реєстр",
-"Після v224: словник — 3397 reviewed /459 fixed_rechecked /47 pending /11 blocked; лексичні пари — 40 reviewed /1 fixed_rechecked /818 pending. Увесь реєстр — 3986 reviewed /461 fixed_rechecked /1389 pending /11 blocked із 5847. Авторський credit — 3856/3914; це не загальна готовність 1.0.",
+"Після v224: словник — 3397 reviewed /459 fixed_rechecked /47 pending /11 blocked; лексичні пари — 40 reviewed /1 fixed_rechecked /818 pending. Увесь реєстр — 3988 reviewed /461 fixed_rechecked /1387 pending /11 blocked із 5847. Авторський credit — 3856/3914; це не загальна готовність 1.0.",
 "",
 "## Межі",
 "Це авторський мовний перегляд і технічний пакет, не незалежне лінгвістичне приймання. Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими."
