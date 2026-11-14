@@ -159,6 +159,109 @@ by_example[new_sentence] = {
 }
 entry["byExample"] = by_example
 
+# Manual meaning options address the automatic length cues and context drift found
+# in the first Chromium diagnostic. These are content overrides only; no quiz logic changes.
+new_quizzes["v_2734"] = {
+    "correct": "次に訪れる時期・出来事を名詞の前で示す。",
+    "wrong": [
+        "今この場所へ向かって移動する動作を表す。",
+        "ある場所に到着し、そこに着くことを表す。",
+        "物事が急に起こり、予想外に始まることを表す。"
+    ],
+    "note": "来る（きたる）は連体詞として「次に訪れる時期・出来事」を表す。通常の動詞「来る（くる）」とは区別する。"
+}
+new_quizzes["v_544"] = {
+    "correct": "責任感や注意が足りず、信頼性や質が不十分な様子。",
+    "wrong": [
+        "必要な条件を満たし、十分に整っている様子。",
+        "細かい点まで気を配り、丁寧に行う様子。",
+        "程度が過ぎて、必要以上に大げさな様子。"
+    ],
+    "note": "ここでは仕事ぶり・情報の信頼性を否定的に評価する用法。「ほどほど」の意味ではない。"
+}
+new_quizzes["v_552"] = {
+    "correct": "根拠や内容が確かで、信頼できる様子。",
+    "wrong": [
+        "欠点がなく、すべてが整っている様子。",
+        "気軽で、あまり緊張せずに行動できる様子。",
+        "考え方や行動が度を越して激しい様子。"
+    ],
+    "note": "ここでは確かな根拠・腕前を表す形動用法。文末の「確か」=「якщо правильно пам’ятаю」とは区別する。"
+}
+new_quizzes["v_557"] = {
+    "byExample": {
+        "結構なお品をいただき、誠にありがとうございます。": {
+            "correct": "質が高く、立派で好ましい様子。",
+            "wrong": [
+                "量や程度が十分で、これ以上必要ない様子。",
+                "値段が高く、簡単には手に入らない様子。",
+                "見た目が華やかで、よく目立つ様子。"
+            ],
+            "note": "結構なお品 — похвала якості або гідності речі; не значення «достатньо»."
+        },
+        "追加の資料は結構ですので、お気遣いなさらないでください。": {
+            "correct": "それ以上は必要ないと、丁寧に断る表現。",
+            "wrong": [
+                "追加の資料をぜひ受け取りたいという表現。",
+                "資料の内容を詳しく尋ねたいという表現。",
+                "資料を早めに届けてほしいという表現。"
+            ],
+            "note": "資料は結構です — ввічлива відмова від додаткових матеріалів; не згода на отримання."
+        }
+    }
+}
+new_quizzes["v_588"] = {
+    "correct": "他と異なり、そのものに特有の性質がある様子。",
+    "wrong": [
+        "他より優れていて、能力が高い様子。",
+        "多くの人に共通し、特別な特徴がない様子。",
+        "言動や外見に気品があり、上品な様子。"
+    ],
+    "note": "独特な視点・企業文化 — властива саме цьому об'єкту риса, не просто висока якість."
+}
+new_quizzes["v_599"] = {
+    "correct": "礼儀に欠け、相手への敬意が足りない様子。",
+    "wrong": [
+        "相手に敬意を払い、礼儀正しく接する様子。",
+        "気兼ねなく、思ったことを率直に言う様子。",
+        "言動に気品があり、上品で落ち着いた様子。"
+    ],
+    "note": "無礼な態度 — брак чемності й поваги; не просто прямолінійність."
+}
+new_quizzes["v_663"] = {
+    "byExample": {
+        "制限時間を大幅にオーバーしたため、発表は途中で打ち切られた。": {
+            "correct": "決められた時間や上限を超えること。",
+            "wrong": [
+                "決められた時間より早く終えること。",
+                "予定の時間を守り、変更しないこと。",
+                "時間をかけず、簡単に済ませること。"
+            ],
+            "note": "ここでは制限時間を超える意味。"
+        },
+        "彼の反応は少しオーバーで、周囲は戸惑っていた。": {
+            "correct": "反応や表現が実際より大げさであること。",
+            "wrong": [
+                "反応や表現が控えめで目立たないこと。",
+                "反応や表現が自然で落ち着いていること。",
+                "反応や表現が冷淡で関心を示さないこと。"
+            ],
+            "note": "ここでは反応が大げさという意味。"
+        }
+    }
+}
+new_quizzes["v_1631"] = {
+    "correct": "条件や程度が釣り合い、ふさわしいこと。",
+    "wrong": [
+        "不足している部分を補い、全体を整えること。",
+        "二つの物事を比べ、違いをはっきりさせること。",
+        "目的や基準を決め、それに従って行動すること。"
+    ],
+    "note": "相応する — відповідати умовам або рівню; не означає впорядковувати чи просто порівнювати."
+}
+
+added_quiz_keys = {"v_2734", "v_544", "v_552", "v_557", "v_588", "v_599", "v_663", "v_1631"}
+
 candidate = base
 old_blocks, new_blocks = {}, {}
 for name, value in [
@@ -183,7 +286,7 @@ if reverse != base:
     raise RuntimeError("v229 patch is not exactly reversible to v228")
 
 # The only changed detail records are 644 and 3345; the only POS change is 2734;
-# the only meaning-quiz change is the ID3345 byExample key/payload.
+# meaning-quiz additions are limited to the eight explicitly listed C11 overrides plus ID3345 byExample.
 for key in before_details:
     if key not in {"644", "3345"} and before_details[key] != new_details[key]:
         raise RuntimeError(f"unexpected detail change at {key}")
@@ -193,6 +296,8 @@ for key in before_pos:
 for key in before_quizzes:
     if key != "v_3345" and before_quizzes[key] != new_quizzes[key]:
         raise RuntimeError(f"unexpected meaning-quiz change at {key}")
+if set(new_quizzes) - set(before_quizzes) != added_quiz_keys:
+    raise RuntimeError("unexpected added/removed reviewed meaning-quiz keys")
 for name, before in [
     ("DEFAULT_VOCAB", vocab),
     ("GRAMMAR_DETAILS_BY_ID", grammar),
@@ -231,7 +336,8 @@ prepare = {
         "3345": ["examples[1]", "exampleTranslations[1]", "usage"]
     },
     "meaning_quiz_updates": {
-        "v_3345": {"old_byExample_key": old_sentence, "new_byExample_key": new_sentence}
+        "v_3345": {"old_byExample_key": old_sentence, "new_byExample_key": new_sentence},
+        "added": sorted(added_quiz_keys)
     },
     "protected": {
         "DEFAULT_VOCAB": True,
@@ -253,6 +359,16 @@ updates = [
     {"op":"replace","block":"VOCAB_DETAILS_BY_ID","path":["3345","examples[1]","exampleTranslations[1]","usage"],"before":{"examples[1]":old_3345["examples"][1],"exampleTranslations[1]":old_3345["exampleTranslations"][1],"usage":old_3345["usage"]},"after":{"examples[1]":new_details["3345"]["examples"][1],"exampleTranslations[1]":new_details["3345"]["exampleTranslations"][1],"usage":new_details["3345"]["usage"]}},
     {"op":"replace","block":"REVIEWED_MEANING_QUIZZES","path":["v_3345","byExample",old_sentence],"before":old_payload,"after":by_example[new_sentence]}
 ]
+
+for key in sorted(added_quiz_keys):
+    updates.append({
+        "op": "add",
+        "block": "REVIEWED_MEANING_QUIZZES",
+        "path": [key],
+        "after": new_quizzes[key],
+        "reason": "C11 manual meaning quiz: remove answer-length clues and/or use context-specific options for the card's selected sense."
+    })
+
 (WORK / "updates.json").write_text(json.dumps(updates, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 checkpoint = {
     "checkpoint": "v229-c11-pos-map",
@@ -267,7 +383,7 @@ checkpoint = {
         "retain 3914 vocabulary records, 130 grammar constructions, 859 lexical pairs and every stable ID",
         "no changes to DEFAULT_VOCAB, grammar, lexical pairs, reading overrides, target tables or learning algorithms",
         "no changes to progress-storage keys or state schema",
-        "only ID2734 POS map and ID644/3345 content plus ID3345 byExample quiz payload are candidates",
+        "only ID2734 POS map, ID644/3345 content, ID3345 byExample payload, and eight scoped reviewed meaning-quiz overrides are candidates",
         "do not force reading/cloze distractors where fewer than three valid choices exist",
         "keep v153 pilot credit limited to its documented ID121-320 scope"
     ],
