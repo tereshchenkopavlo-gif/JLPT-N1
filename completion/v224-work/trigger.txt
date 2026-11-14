@@ -1,1 +1,1 @@
-Run v224 C10 author review after workflow registration on the default branch.
+Re-run v224 C10 after correcting aggregate registry arithmetic.
