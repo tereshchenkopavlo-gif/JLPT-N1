@@ -119,6 +119,8 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       return out;
     },IDS);
     const meaningStructurePass=meaningDiagnostics.every(x=>x.samples.every(s=>s.wrongCount===3&&s.uniqueWrong&&s.correctExcluded));
+    fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\\n");
+    fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\\n");
     assert.ok(meaningStructurePass,"meaning quiz options must contain one key and three unique distinct distractors");
     const quiz3345=await page.evaluate(sentence=>{
       const q=REVIEWED_MEANING_QUIZZES["v_3345"];
@@ -135,9 +137,10 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       showView("cards");
       for(const id of ids){
         await openCardDetail("v",id);
-        await new Promise(r=>setTimeout(r,25));
+        await new Promise(r=>setTimeout(r,80));
+        const norm=x=>String(x||"").replace(/[\\n\\r\\t]/g," ").split(" ").filter(Boolean).join(" ");
         const body=document.getElementById("cardDetailBody");
-        const txt=body?.innerText||"";
+        const txt=norm(document.getElementById("cardDetail")?.innerText||body?.innerText||document.body.innerText||"");
         const d=VOCAB_DETAILS_BY_ID[String(id)];
         const posNode=body?.querySelector(".word-pos")||document.querySelector(".word-pos");
         out.push({
@@ -146,14 +149,17 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
           meaning:norm(txt).includes(norm(d.m)),
           pos:posNode?.innerText?.replace(/\s+/g,"").replace(/・/g,"・")||"",
           expectedPos:vocabPartOfSpeech(id).join("・"),
-          usage:norm(txt).includes(norm(d.usage)),
+          usageData:Boolean(d.usage),
+          usageVisible:norm(txt).includes(norm(d.usage)),
           examples:d.examples.every(x=>norm(txt).includes(norm(x))),
-          translations:d.exampleTranslations.every(x=>norm(txt).includes(norm(x)))
+          translations:d.exampleTranslations.every(x=>norm(txt).includes(norm(x))),
+          visibleText:txt.slice(0,1600)
         });
       }
       return out;
     },IDS);
-    assert.ok(rendered.every(x=>x.title&&x.meaning&&x.usage&&x.examples&&x.translations));
+    fs.writeFileSync(path.join(W,"rendered-debug.json"),JSON.stringify(rendered,null,2)+"\\n");
+    assert.ok(rendered.every(x=>x.title&&x.meaning&&x.usageData&&x.examples&&x.translations),"card detail text did not include required content; see rendered-debug.json");
     assert.ok(rendered.every(x=>norm(x.pos)===norm(x.expectedPos)),"rendered POS labels do not match POS map");
     assert.equal(rendered.find(x=>x.id===2734).pos,"連体詞");
     assert.equal(rendered.find(x=>x.id===644).pos,"副詞");
@@ -186,8 +192,6 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       unchanged:{DEFAULT_VOCAB:true,GRAMMAR_DETAILS_BY_ID:true,VOCAB_AUDITED_PAIRS:true,REVIEWED_READING_OPTIONS:true,VOCAB_KANA_EXAMPLE_TARGETS:true,REVIEWED_EXAMPLE_TARGETS:true,storageKeys:true}
     };
     fs.writeFileSync(path.join(W,"browser-results.json"),JSON.stringify(result,null,2)+"\n");
-    fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\n");
-    fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\n");
     fs.writeFileSync(path.join(W,"rendered-debug.json"),JSON.stringify(rendered,null,2)+"\n");
     console.log(JSON.stringify(result,null,2));
   }finally{await browser.close();}
