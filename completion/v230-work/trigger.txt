@@ -1,2 +1,3 @@
 v230-c11-reviewed-candidate
-2026-11-15
+2026-11-15T04:30:00+09:00
+base-main=5354a748fe8ae147ae81f54f82da07e00ccccddc
