@@ -152,4 +152,4 @@ for item in semantic["decisions"]:
     wrong="<br>".join(esc(x) for x in item["wrong"])
     md.append(f"| {item['id']} | {item['exampleIndex']} | {esc(item['example'])} | {esc(item['correct'])} | {wrong} |")
 md += ["","ID3363 retains its two pre-existing reviewed contexts; the other 22 contexts use 11 new byExample keys. Length/uniqueness/binding checks are recorded separately in v230-browser-results.json."]
-(ROOT/"v230-semantic-review.md").write_text("\\n".join(md)+"\\n",encoding="utf-8")
+(ROOT/"v230-semantic-review.md").write_text("\n".join(md)+"\n",encoding="utf-8")
