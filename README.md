@@ -1,13 +1,20 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна опублікована редакція: v228.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
+**Актуальна опублікована редакція: v228.** Кандидат v229 пройшов авторське й технічне приймання та готується до публікації з `work/v229-c11-pos-map`. Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
 - [Повний автономний HTML v228](JLPT_N1_ukrainian_reading_v228.html)
+- [Кандидат v229 — повний HTML](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/work/v229-c11-pos-map/JLPT_N1_ukrainian_reading_v229.html)
+- [Аудит v229](JLPT_N1_v229_audit.md)
+- [C11 review v229](completion/v229-c11-review.tsv)
 - [Авторський аудит v228](JLPT_N1_v228_audit.md)
 - [Поточний стан проєкту](PROJECT_STATUS.md)
 - [Єдиний реєстр завершення 1.0](completion/BACKLOG.md)
 
 v228: 11 карток перевірено (8 fixed_rechecked, 2 reviewed без змін, 1 blocked до C11); внесено 11 точних змін у 8 картках. Три лексичні пари reviewed без змін. Авторський credit — **3885/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6952984 байти; SHA-256 189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8; Git blob 58c1411685f06053f96ca9d99d04965c52ecfec8. [Успішний workflow run 43589714845](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43589714845). [Main data-check 43589857576](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43589857576) успішний. ID2734 передано до C11 через POS-розбіжність; ID1510 лишається pending без оцінки. Незалежне, фізичне й правове/походження приймання залишаються відкритими.
+
+## v229 — кандидат до публікації
+
+12 C11 blockers fixed_rechecked; 24 контексти meaning quiz пройшли авторський review, Chromium і технічний workflow 43621856689 успішні. Авторський credit 3897/3914. ID2734 отримав коректний POS 連体詞, але його reading/cloze pools стали неeligible; штучні distractors не додавалися. Незалежне, фізичне та правове/походження приймання відкрите.
 
 ## Історичний випуск v227
 
