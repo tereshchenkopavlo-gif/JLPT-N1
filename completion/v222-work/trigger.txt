@@ -1,0 +1,1 @@
+v222 C10 author review trigger; all outputs remain in work/v222-c10-next-pending until verified.
