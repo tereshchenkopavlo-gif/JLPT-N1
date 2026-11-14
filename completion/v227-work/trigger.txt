@@ -1,1 +1,1 @@
-v227 C10 review trigger — deterministic candidate, registry and Chromium verification.
+v227 C10 review trigger — redacted evidence and main workflow merge, 2026-11-14.
