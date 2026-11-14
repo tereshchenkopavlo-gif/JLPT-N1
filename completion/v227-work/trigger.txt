@@ -1,1 +1,1 @@
-v227 C10 review trigger — redacted evidence and main workflow merge, 2026-11-14.
+v227 C10 review trigger — retry after workflow merge; 2026-11-14T16:10+09:00.
