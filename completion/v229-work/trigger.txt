@@ -1,1 +1,1 @@
-Rerun v229 C11 after ID644 context payload, ID3337 polarity-specific payloads, ID3345 distractor balance; parent f3435a63ce7c33bee13324fd61d374569694b889; 2026-11-14T21:42+09:00
+Rerun v229 after manual semantic review: rebalance ID2734 and ID544 options; distinguish ID3345 first-context distractors; finalize 24-context review and registry; parent e73b06ad034154f5f94b3185e339c6372389560f; 2026-11-15T02:18+09:00
