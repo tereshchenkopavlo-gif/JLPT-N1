@@ -1,4 +1,15 @@
-Оновлено 15 листопада 2026. Актуальна **v229 у main**, опубліковано commit `650379afed99e00da1b868720a937d506de8302a`. Повний HTML v229 — 6 960 249 байтів, SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`, Git blob `1c90476d78ae832ccecbcdfbfb93cc83b99474eb`. Авторський credit — **3897/3914**; реєстр 4017 reviewed /487 fixed_rechecked /1327 pending /16 blocked; словник 3412 /485 /1 /16; лексичні пари 54 /1 /804. C10 завершено для всіх доступних до оцінки карток; ID1510 лишається окремим pending safety hold. Наступний checkpoint: **work/v230-c11-next-blockers**, 16 C11 blockers.
+Оновлено 15 листопада 2026. Актуальна опублікована редакція — v229 у `main`. Поточна робота — `work/v230-c11-next-blockers` (preaudit/diagnostics only): run 43622947862 успішний; 12 карток, 24 контексти; структура meaning options пройшла, але 2 length-cue warnings у ID3444; існуюче reviewed-override coverage 2/24 (лише ID3363). 12 карток відрендерено; 360/412/1280 без overflow; storage round-trip/restore пройшов; 0 page errors. Reading pool: ID3375 — 4 candidates, інші 11 — 0; усі cloze pools eligible. У v230 не змінювалися дані, POS-map, quiz payloads чи реєстр; авторський credit не надано. Наступний крок — ручний semantic/POS review та pool impact перед будь-якими змінами.
+
+## Checkpoint v230 — C11 baseline diagnostics (preaudit only; in progress)
+
+- Робоча гілка: `work/v230-c11-next-blockers`; base main v229 HTML SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`.
+- Scope: 12 blockers 3363, 3375, 3417, 3441, 3444, 3525, 3561, 3565, 3569, 3594, 3636, 3646.
+- Diagnostic workflow 43622947862 успішний: 12/12 карток rendered, 24 приклади проаналізовано, structure pass, 360/412/1280 без overflow, storage round-trip/restore, 0 page errors.
+- Length-cue diagnostics: 2 warnings, обидва ID3444 どろどろ; ratios 1.93–3.87 у двох контекстах. Автоматичний distractor set має слабку семантичну релевантність у багатьох інших контекстах, навіть коли довжина збалансована. Лише ID3363 має попередній reviewed override (2/24); решта потребує ручного byExample review.
+- Reading pools: ID3375 — 4 candidates; решта 11 — 0. Усі 12 cloze pools мають щонайменше 276 candidates; обидва приклади кожної картки cloze-eligible. POS-map changes ще не застосовувалися, отже це baseline.
+- У цій партії не змінювалися картки, POS-map, quiz payloads або review-register; author credit = 0. Пілот v153 не покриває IDs вище 320.
+- Джерела й докази: `completion/v230-work/preaudit-notes.md`, `source-review.md`, `diagnostic-summary.md`, `browser-results.json`, `meaning-quiz-diagnostics.json`, `pool-impact.json`, `rendered-debug.json`.
+
 
 ## Checkpoint v229 — C11 (завершено й опубліковано)
 
