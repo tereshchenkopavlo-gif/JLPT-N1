@@ -1,0 +1,37 @@
+{
+  "checkpoint": "v230-c11-next-blockers",
+  "created": "2026-11-15",
+  "base_main_sha": "1c3b14522784509c22069dda9fbb08f418475d99",
+  "base_html": "JLPT_N1_ukrainian_reading_v229.html",
+  "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "base_html_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb",
+  "prior_checkpoint": "work/v229-c11-pos-map",
+  "prior_main_status": "v229 published; 16 C11 blockers remain; author credit 3897/3914",
+  "scope": [
+    3363,
+    3375,
+    3417,
+    3441,
+    3444,
+    3525,
+    3561,
+    3565,
+    3569,
+    3594,
+    3636,
+    3646
+  ],
+  "guardrails": [
+    "retain 3914 vocabulary records, 130 grammar constructions, 859 lexical pairs and all stable IDs",
+    "no changes to progress storage keys, learning engine or state schema",
+    "do not change POS-map until dictionary sense and example functions are reconciled",
+    "review all meaning-quiz contexts for plausible comparable distractors and answer-length cues",
+    "calculate reading/cloze pool impact before accepting any POS-map change",
+    "do not synthesize distractors when fewer than three valid candidates remain",
+    "do not broaden a card to unrelated dictionary senses solely to match a global POS label",
+    "keep v153 pilot credit limited to documented IDs 121-320"
+  ],
+  "status": "preaudit only; no card data, POS-map, quiz payloads or registry rows changed; no author credit",
+  "pilot_credit_applied": 0,
+  "main_publication": false
+}
