@@ -145,11 +145,11 @@ new_details["3345"]["usage"] = (
 
 new_quizzes = copy.deepcopy(quizzes)
 entry = new_quizzes["v_3345"]
-entry["correct"] = "時間や労力をかけて、繰り返し徹底して行う様子。"
+entry["correct"] = "徹底して、十分すぎるほど行う様子。"
 entry["wrong"] = [
     "必要な回数や時間に達せず、不十分な様子。",
-    "一度だけ短時間で済ませた様子。",
-    "手順を省き、簡単に終わらせた様子。"
+    "一度だけ短時間で済ませ、繰り返さない様子。",
+    "手順を省き、簡単に終わらせる様子。"
 ]
 entry["note"] = "散々議論を重ねる — довго й ґрунтовно обговорювати; тут наголос на інтенсивності, не позитивній оцінці."
 by_example = copy.deepcopy(entry.get("byExample", {}))
