@@ -142,8 +142,8 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     },IDS);
     const reviewedOverridePass=reviewedOverrideChecks.length===24&&reviewedOverrideChecks.every(x=>x.correctMatch&&x.wrongSetMatch);
     assert.ok(reviewedOverridePass,"reviewed meaning-quiz payloads were not applied to every intended example");
-    fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\\n");
-    fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\\n");
+    fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\n");
+    fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\n");
     assert.ok(meaningStructurePass,"meaning quiz options must contain one key and three unique distinct distractors");
     assert.ok(meaningLengthPass,"meaning quiz option lengths must not create a strong answer-length clue");
     const quiz3345=await page.evaluate(sentence=>{
@@ -182,7 +182,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       }
       return out;
     },IDS);
-    fs.writeFileSync(path.join(W,"rendered-debug.json"),JSON.stringify(rendered,null,2)+"\\n");
+    fs.writeFileSync(path.join(W,"rendered-debug.json"),JSON.stringify(rendered,null,2)+"\n");
     assert.ok(rendered.every(x=>x.title&&x.meaning&&x.usageData&&x.examples&&x.translations),"card detail text did not include required content; see rendered-debug.json");
     assert.ok(rendered.every(x=>norm(x.pos)===norm(x.expectedPos)),"rendered POS labels do not match POS map");
     assert.equal(rendered.find(x=>x.id===2734).pos,"連体詞");
