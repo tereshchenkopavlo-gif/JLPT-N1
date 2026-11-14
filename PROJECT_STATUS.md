@@ -1,15 +1,26 @@
-Оновлено 15 листопада 2026. Актуальна опублікована редакція — v229 у `main`. Поточна робота — `work/v230-c11-next-blockers` (preaudit/diagnostics only): run 43622947862 успішний; 12 карток, 24 контексти; структура meaning options пройшла, але 2 length-cue warnings у ID3444; існуюче reviewed-override coverage 2/24 (лише ID3363). 12 карток відрендерено; 360/412/1280 без overflow; storage round-trip/restore пройшов; 0 page errors. Reading pool: ID3375 — 4 candidates, інші 11 — 0; усі cloze pools eligible. У v230 не змінювалися дані, POS-map, quiz payloads чи реєстр; авторський credit не надано. Наступний крок — ручний semantic/POS review та pool impact перед будь-якими змінами.
+Оновлено 15 листопада 2026. Актуальна опублікована редакція залишається v229 у `main`; HTML і review-register не змінювалися. Останній status-only base перед синхронізацією: `5354a748fe8ae147ae81f54f82da07e00ccccddc`.
 
-## Checkpoint v230 — C11 baseline diagnostics (preaudit only; in progress)
+Найсвіжіший незавершений ланцюжок — `work/v230-c11-next-blockers` → `work/v231-c11-last-blockers`. v230: авторськи переглянуто 12 карток і 24 контексти; підготовлено 12 POS-map рішень, 11 нових byExample keys (22 контексти) плюс збережено два попередні ID3363. Статичний preflight: 24/24 exact example bindings, 24/24 distinct options, максимальне співвідношення довжин 1.4667 при межі 1.5. Але deterministic build, pool-impact і Chromium acceptance не мають підтвердженого результату: PR #41 лишається draft, workflow run/status не повернувся. Тому registry credit = 0, v230 не публікувати.
 
-- Робоча гілка: `work/v230-c11-next-blockers`; base main v229 HTML SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`.
-- Scope: 12 blockers 3363, 3375, 3417, 3441, 3444, 3525, 3561, 3565, 3569, 3594, 3636, 3646.
-- Diagnostic workflow 43622947862 успішний: 12/12 карток rendered, 24 приклади проаналізовано, structure pass, 360/412/1280 без overflow, storage round-trip/restore, 0 page errors.
-- Length-cue diagnostics: 2 warnings, обидва ID3444 どろどろ; ratios 1.93–3.87 у двох контекстах. Автоматичний distractor set має слабку семантичну релевантність у багатьох інших контекстах, навіть коли довжина збалансована. Лише ID3363 має попередній reviewed override (2/24); решта потребує ручного byExample review.
-- Reading pools: ID3375 — 4 candidates; решта 11 — 0. Усі 12 cloze pools мають щонайменше 276 candidates; обидва приклади кожної картки cloze-eligible. POS-map changes ще не застосовувалися, отже це baseline.
-- У цій партії не змінювалися картки, POS-map, quiz payloads або review-register; author credit = 0. Пілот v153 не покриває IDs вище 320.
-- Джерела й докази: `completion/v230-work/preaudit-notes.md`, `source-review.md`, `diagnostic-summary.md`, `browser-results.json`, `meaning-quiz-diagnostics.json`, `pool-impact.json`, `rendered-debug.json`.
+v231: авторськи переглянуто останні чотири C11 blockers (3652, 3654, 3677, 3679), вісім точних контекстів; три POS-map зміни, ID3654 залишено 名詞. Усі вісім payloads мають три різні distractors; максимальне співвідношення довжин 1.3684. Це лише специфікація й static preflight, залежна від технічного приймання v230; HTML-кандидата та registry credit немає.
 
+Реєстр `main` лишається незмінним: 5847 рядків; словник 3412 reviewed /485 fixed_rechecked /1 pending /16 blocked; авторський credit 3897/3914. ID1510 лишається окремим pending safety hold. Пілот v153 документовано охоплює лише ID121–320; для v230/v231 scopes pilot credit = 0. Незалежне лінгвістичне, Android/Windows фізичне та правове/походження приймання не підміняються авторським review.
+
+## Checkpoint v231 — останні чотири C11 blockers (author review only; технічний gate pending)
+
+- Робоча гілка: `work/v231-c11-last-blockers`; HEAD на checkpoint: `236cedef748cade0446994000ed48b3c9b4b98a8`. Вона створена від `work/v230-c11-next-blockers` HEAD `9ba8845f5fa2f922fc379f83437c2713240148f5`; гілки не зливалися.
+- Scope: ID3652 ユニーク, 3654 ブロック, 3677 ルーズ, 3679 ワンマン; 4 картки /8 точних прикладів.
+- POS-рішення: 3652 名詞→ナ形 (medium confidence: secondary source + карткові な-приклади); 3654 залишено 名詞 (словникове 名詞(スル), відповідає app convention); 3677 名詞→ナ形 (вибране 形動 значення; окреме архерійне іменникове значення не переноситься); 3679 名詞→名詞・ナ形 (словникове 名詞(形動), приклад ワンマンな社長).
+- Вісім byExample payloads перевірено на точну прив'язку до прикладів, унікальність чотирьох варіантів і баланс довжин; max ratio 1.3684. Pilot credit = 0. Джерела/рішення: `completion/v231-work/source-review.md`, `payloads.json`, `semantic-review.md`, `author-review.tsv`.
+- Це не HTML build, не pool-impact acceptance, не browser/independent acceptance; registry credit = 0. v231 очікує технічного проходу v230.
+
+## Checkpoint v230 — C11 POS і meaning author review (static preflight; технічний gate pending)
+
+- Робоча гілка: `work/v230-c11-next-blockers`; HEAD `9ba8845f5fa2f922fc379f83437c2713240148f5`. Base HTML v229 SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`.
+- Scope: ID3363, 3375, 3417, 3441, 3444, 3525, 3561, 3565, 3569, 3594, 3636, 3646. Авторськи переглянуто 12 карток /24 контексти; 12 POS-map updates; 11 нових byExample keys /22 contexts; два попередні ID3363 overrides збережено.
+- Статичний preflight пройшов: 24/24 exact example bindings, 24/24 distinct options, max correct/distractor length ratio 1.4667 (limit 1.5), zero remaining length warnings. ID3636 має явно позначене lower-confidence secondary POS evidence.
+- Push/PR verification не повернув observable workflow run або combined status; тому deterministic build, pool impact, Chromium, storage round-trip і rollback не зараховані. PR #41 — draft verification-only, mergeable=false; не зливати гілку цілком. Registry credit = 0; main publication = false.
+- Докази: `completion/v230-work/static-preflight.md`, `checkpoint.json`, `source-review.md`, `payloads.json`, `README.md`. Пілот v153 не охоплює ці ID; pilot credit = 0.
 
 ## Checkpoint v229 — C11 (завершено й опубліковано)
 
