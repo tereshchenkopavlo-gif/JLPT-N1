@@ -1,6 +1,1 @@
-Run v229 C11 POS-map verification after prepare/browser/finalize fixes.
-Retry on pinned Ubuntu 24.04 runner.
-Retry with workflow file pinned to Ubuntu 24.04.
-Retry with detailed card-render diagnostics.
-Retry after narrowing git add to generated candidate/evidence files.
-Rerun after adding reviewed meaning-quiz overrides and answer-length checks.
+C11 meaning-quiz semantic acceptance rerun after exact-example override corrections; parent 7fae8a02105d5057ce7c7372da621e696c8d1938; 2026-11-14T21:30+09:00
