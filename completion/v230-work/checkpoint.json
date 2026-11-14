@@ -31,20 +31,21 @@
     "do not broaden a card to unrelated dictionary senses solely to match a global POS label",
     "keep v153 pilot credit limited to documented IDs 121-320"
   ],
-  "status": "manual author review and static preflight passed; deterministic candidate/browser verification not yet evidenced; no registry credit and no main publication",
+  "status": "candidate reproduced and Chromium diagnostics completed; finalizer blocked because reviewed meaning overrides suppress 22 previously available cloze contexts across 11 cards; no registry credit and no main publication",
   "pilot_credit_applied": 0,
   "main_publication": false,
-  "diagnostic_run_id": 43622947862,
-  "diagnostic_status": "success",
+  "diagnostic_run_id": 43652194837,
+  "diagnostic_status": "browser diagnostics completed; finalizer failed on cloze availability guard",
   "diagnostic_only": true,
   "diagnostic_counts": {
     "scope_count": 12,
     "meaning_contexts": 24,
     "meaning_structure_pass": true,
-    "meaning_length_pass": false,
-    "length_cue_warnings": 2,
-    "reviewed_override_coverage": 2,
+    "meaning_length_pass": true,
+    "reviewed_override_pass": true,
+    "reviewed_override_coverage": "24/24",
     "rendered_cards": 12,
+    "pos_labels_match": "12/12",
     "responsive_widths": [
       360,
       412,
@@ -53,7 +54,55 @@
     "responsive_overflow": false,
     "storage_round_trip": true,
     "storage_restored": true,
-    "page_errors": 0
+    "page_errors": 0,
+    "cloze_availability_pass": false,
+    "cloze_availability_losses": 22,
+    "cloze_availability_affected_cards": 11,
+    "reading_pool_losses": [
+      {
+        "id": 3375,
+        "before": 4,
+        "after": 0
+      }
+    ],
+    "cloze_pool_changes": [
+      {
+        "ids": [
+          3363,
+          3417,
+          3441,
+          3444
+        ],
+        "before": 276,
+        "after": 4
+      },
+      {
+        "ids": [
+          3525,
+          3561,
+          3569,
+          3594,
+          3636,
+          3646
+        ],
+        "before": 2269,
+        "after": 70
+      },
+      {
+        "ids": [
+          3565
+        ],
+        "before": 2269,
+        "after": 293
+      },
+      {
+        "ids": [
+          3375
+        ],
+        "before": 276,
+        "after": 20
+      }
+    ]
   },
   "author_credit_applied": 0,
   "manual_review": {
@@ -83,12 +132,53 @@
     "registry_credit": 0
   },
   "workflow_attempt": {
-    "trigger_commit": "8bebc4dd986284d1be3a67bd5c7618772e2b8fc5",
-    "verification_pr": 41,
-    "workflow_runs_returned": 0,
-    "combined_statuses_returned": 0,
-    "interpretation": "no technical pass may be inferred; candidate remains unpublished"
+    "trigger_commit": "33d57e9f11eb9fcfe16f33b493c1905894cc6fe4",
+    "diagnostic_run_id": 43652194837,
+    "workflow_conclusion": "failure_at_finalize",
+    "diagnostic_commit": "4c7409061e2ff42afbb22fd630313497d64dd291",
+    "browser_diagnostics_committed": true,
+    "main_data_check_run_id": 43652194873,
+    "main_data_check_conclusion": "success",
+    "registry_credit": 0,
+    "main_publication": false
   },
   "review_base_main_sha": "5354a748fe8ae147ae81f54f82da07e00ccccddc",
-  "status_sync_commit": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba"
+  "status_sync_commit": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba",
+  "cloze_availability": {
+    "result": "blocked",
+    "affected_ids": [
+      3375,
+      3417,
+      3441,
+      3444,
+      3525,
+      3561,
+      3565,
+      3569,
+      3594,
+      3636,
+      3646
+    ],
+    "lost_contexts": 22,
+    "reason": "SmartEngine adds cloze only when REVIEWED_MEANING_QUIZZES['v_'+id] is absent; the new per-card meaning key disables cloze for both examples.",
+    "id3363_note": "No incremental loss: ID3363 already had a reviewed meaning key in v229.",
+    "decision_required": "Accept meaning-only coverage for affected cards, or explicitly approve a change that preserves both meaning and cloze; no engine change without approval."
+  },
+  "pool_impact": {
+    "id3375": {
+      "reading": "4→0",
+      "cloze": "276→20"
+    },
+    "ids_3363_3417_3441_3444": {
+      "cloze": "276→4",
+      "note": "only three candidate distractors remain; semantic plausibility not accepted"
+    },
+    "ids_3525_3561_3569_3594_3636_3646": {
+      "cloze": "2269→70"
+    },
+    "id3565": {
+      "cloze": "2269→293"
+    }
+  },
+  "decision_required": true
 }

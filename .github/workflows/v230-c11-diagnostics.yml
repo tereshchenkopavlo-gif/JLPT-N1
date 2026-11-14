@@ -40,7 +40,7 @@ jobs:
           npm install --no-save playwright@1.56.1
           npx playwright install --with-deps chromium
           sudo apt-get install -y fonts-noto-cjk
-      - name: Verify POS, meaning quiz, pools, cards and progress
+      - name: Collect POS, meaning quiz, pools, cards and progress diagnostics
         run: node completion/v230-work/diagnose.cjs
       - name: Preserve diagnostic outputs on work branch
         if: always()
