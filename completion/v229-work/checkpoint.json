@@ -24,16 +24,60 @@
     "retain 3914 vocabulary records, 130 grammar constructions, 859 lexical pairs and every stable ID",
     "no changes to DEFAULT_VOCAB, grammar, lexical pairs, reading overrides, target tables or learning algorithms",
     "no changes to progress-storage keys or state schema",
-    "only ID2734 POS map, ID644/3345 content, ID3345 byExample payload, and eight scoped reviewed meaning-quiz overrides are candidates",
+    "only ID2734 POS map, ID644/3345 content, ID3345 byExample payload, and ten scoped reviewed meaning-quiz overrides are candidates",
     "do not force reading/cloze distractors where fewer than three valid choices exist",
     "keep v153 pilot credit limited to its documented ID121-320 scope"
   ],
-  "status": "candidate and technical checks passed; manual semantic review of meaning-quiz diagnostics pending; no registry credit or main publication",
-  "candidate_sha256": "7814a681bec7ee71b41c753814586d0fe0f69daea5a6aca404d6c8bdd27e5475",
-  "candidate_blob_sha": "45f2b6ff4547b9f7bfcba788dd02052fd27554fe",
-  "candidate_bytes": 6958445,
+  "status": "12 cards fixed_rechecked; author semantic review and technical/Chromium checks passed; ready for guarded main publication",
+  "candidate_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "candidate_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb",
+  "candidate_bytes": 6960249,
   "technical_verification": "passed",
   "chromium_verification": "passed",
-  "meaning_quiz_structure": "three unique distractors, correct-answer exclusion and max/min option-length ratio <=1.5 verified; semantic review pending",
-  "workflow_run_id": 43595639654
-}
+  "semantic_review": "passed_manual_author_review",
+  "semantic_review_contexts": 24,
+  "registry_credit_applied": true,
+  "author_credit_after": "3897/3914",
+  "registry_counts_after": {
+    "overall": {
+      "reviewed": 4017,
+      "fixed_rechecked": 487,
+      "pending": 1327,
+      "blocked": 16
+    },
+    "vocabulary": {
+      "reviewed": 3412,
+      "fixed_rechecked": 485,
+      "pending": 1,
+      "blocked": 16
+    },
+    "lexical_pairs": {
+      "reviewed": 54,
+      "fixed_rechecked": 1,
+      "pending": 804,
+      "blocked": 0
+    }
+  },
+  "remaining_blocked_ids": [
+    3363,
+    3375,
+    3417,
+    3441,
+    3444,
+    3525,
+    3561,
+    3565,
+    3569,
+    3594,
+    3636,
+    3646,
+    3652,
+    3654,
+    3677,
+    3679
+  ],
+  "pilot_credit_applied": 0,
+  "main_publication": false,
+  "meaning_quiz_structure": "24 contexts manually reviewed; three unique distractors, correct-answer exclusion, stable samples and length ratio <=1.5 verified",
+  "workflow_run_id": 43621704308
+}\n

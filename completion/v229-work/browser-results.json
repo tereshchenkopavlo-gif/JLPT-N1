@@ -1,7 +1,7 @@
 {
   "pass": true,
-  "candidate_sha256": "7814a681bec7ee71b41c753814586d0fe0f69daea5a6aca404d6c8bdd27e5475",
-  "candidate_bytes": 6958445,
+  "candidate_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "candidate_bytes": 6960249,
   "counts": {
     "vocabulary": 3914,
     "grammar": 130,
@@ -547,6 +547,22 @@
       "id": 599,
       "exampleIndex": 1,
       "example": "無礼な言動に対し、被害者は謝罪を求めた。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 644,
+      "exampleIndex": 0,
+      "example": "調査結果が異なれば、結論も当然変わってくる。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 644,
+      "exampleIndex": 1,
+      "example": "当然、顧客の個人情報は厳重に管理されなければならない。",
       "correctMatch": true,
       "wrongSetMatch": true,
       "noteMatch": true

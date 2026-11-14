@@ -6,9 +6,9 @@
   "base_sha256": "189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8",
   "base_bytes": 6952984,
   "candidate_version": "v229",
-  "candidate_sha256": "7814a681bec7ee71b41c753814586d0fe0f69daea5a6aca404d6c8bdd27e5475",
-  "candidate_blob_sha": "45f2b6ff4547b9f7bfcba788dd02052fd27554fe",
-  "candidate_bytes": 6958445,
+  "candidate_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "candidate_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb",
+  "candidate_bytes": 6960249,
   "vocabulary_records": 3914,
   "grammar_records": 130,
   "lexical_pairs": 859,
@@ -52,9 +52,19 @@
     ]
   },
   "meaning_quiz_updates": {
+    "v_3337": {
+      "byExample_keys_before": [
+        "契約に関する費用は、一切こちらで負担いたします。"
+      ],
+      "byExample_keys_after": [
+        "契約に関する費用は、一切こちらで負担いたします。",
+        "当社は、この件に一切関与しておりません。"
+      ]
+    },
     "v_3345": {
       "old_byExample_key": "天候に恵まれず、散々な結果に終わった遠征だった。",
-      "new_byExample_key": "彼は会議で散々に批判され、反論できなかった。"
+      "new_byExample_key": "彼は会議で散々に批判され、反論できなかった。",
+      "global_correct_updated": true
     },
     "added": [
       "v_1631",
@@ -65,6 +75,7 @@
       "v_557",
       "v_588",
       "v_599",
+      "v_644",
       "v_663"
     ]
   },
