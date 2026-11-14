@@ -168,6 +168,32 @@ entry["byExample"] = by_example
 
 # Manual meaning options address the automatic length cues and context drift found
 # in the first Chromium diagnostic. These are content overrides only; no quiz logic changes.
+const old_3337_by_example = copy.deepcopy(new_quizzes["v_3337"].get("byExample", {}))
+const by_example_3337 = copy.deepcopy(old_3337_by_example)
+const positive_3337 = "契約に関する費用は、一切こちらで負担いたします。"
+const negative_3337 = "当社は、この件に一切関与しておりません。"
+if positive_3337 not in by_example_3337:
+    raise RuntimeError("missing ID3337 positive-context baseline")
+by_example_3337[positive_3337] = {
+    "correct": "必要な費用をすべて引き受けることを示す。",
+    "wrong": [
+        "必要な費用の一部だけを引き受けることを示す。",
+        "必要な費用を相手と折半することを示す。",
+        "必要な費用のうち、一定額だけを引き受けることを示す。"
+    ],
+    "note": "一切負担する — взяти на себе всі витрати; тут немає заперечення。"
+}
+by_example_3337[negative_3337] = {
+    "correct": "後ろに否定を伴い、まったく関与していないことを示す。",
+    "wrong": [
+        "関与した範囲が限られ、部分的だったことを示す。",
+        "以前は関与していたが、今は関与していないことを示す。",
+        "関与する可能性が低く、ほとんど関わらないことを示す。"
+    ],
+    "note": "一切＋否定 — зовсім не причетний; не просто мала участь。"
+}
+new_quizzes["v_3337"]["byExample"] = by_example_3337
+
 new_quizzes["v_2734"] = {
     "correct": "次に来る月日・行事や、将来訪れる出来事を名詞の前で示す。",
     "wrong": [
@@ -180,9 +206,9 @@ new_quizzes["v_2734"] = {
 new_quizzes["v_544"] = {
     "correct": "責任や注意を欠き、仕事・内容が不十分である様子。",
     "wrong": [
-        "程度が適切で、過不足がない様子。",
+        "必要な程度にとどめ、過不足なく行う様子。",
         "細部まで注意を払い、丁寧に仕上げる様子。",
-        "量や程度が必要以上に大きく、誇張されている様子。"
+        "決められた手順を守り、責任を持って対応する様子。"
     ],
     "note": "ここでは仕事ぶり・情報の評価。適度・ほどほどの意味ではない。"
 }
@@ -200,7 +226,7 @@ new_quizzes["v_552"] = {
     "correct": "根拠や内容が確かで、信頼できる様子。",
     "wrong": [
         "根拠が不十分で、事実かどうか確認できない様子。",
-        "細部まで整っていて、欠点が見当たらない様子。",
+        "必要な情報や資料が十分にそろっている様子。",
         "予測や計画がまだ定まっていない様子。"
     ],
     "note": "ここでは確かな根拠・腕前を表す形動用法。文末の「確か」=「якщо правильно пам’ятаю」とは区別する。"
@@ -240,11 +266,34 @@ new_quizzes["v_599"] = {
     "correct": "礼儀に欠け、相手への敬意が足りない様子。",
     "wrong": [
         "相手に敬意を払い、礼儀正しく接する様子。",
-        "気兼ねなく、思ったことを率直に言う様子。",
+        "相手の立場を考え、控えめに意見を述べる様子。",
         "言動に気品があり、上品で落ち着いた様子。"
     ],
-    "note": "無礼な態度 — брак чемності й поваги; не просто прямолінійність."
+    "note": "無礼な態度・言動 — бракує ввічливості й поваги до співрозмовника。"
 }
+new_quizzes["v_644"] = {
+    "byExample": {
+        "調査結果が異なれば、結論も当然変わってくる。": {
+            "correct": "調査結果が違えば、結論も自然に変わるのが当たり前であること。",
+            "wrong": [
+                "調査結果が異なっても、結論を変える必要はないこと。",
+                "調査結果を確認する前に、結論を決めておくこと。",
+                "調査結果にかかわらず、同じ結論を選ぶこと。"
+            ],
+            "note": "当然変わってくる — результати природно впливають на висновок; це очікуваний наслідок。"
+        },
+        "当然、顧客の個人情報は厳重に管理されなければならない。": {
+            "correct": "特別に説明しなくても、そうするのが自然で当然であること。",
+            "wrong": [
+                "個人情報の管理が望ましいが、必須ではないこと。",
+                "個人情報の管理方法が、まだ決まっていないこと。",
+                "個人情報を管理する必要性が、まだ明らかでないこと。"
+            ],
+            "note": "当然、〜なければならない — звісно, це належить робити; тут ідеться про самоочевидний обов’язок。"
+        }
+    }
+}
+
 new_quizzes["v_663"] = {
     "byExample": {
         "今月の経費が予算をオーバーしたため、原因を精査する必要がある。": {
@@ -277,7 +326,7 @@ new_quizzes["v_1631"] = {
     "note": "相応する — відповідати умовам або рівню; не означає просто змінювати щось на чиєсь прохання。"
 }
 
-added_quiz_keys = {"v_2734", "v_544", "v_550", "v_552", "v_557", "v_588", "v_599", "v_663", "v_1631"}
+added_quiz_keys = {"v_2734", "v_544", "v_550", "v_552", "v_557", "v_588", "v_599", "v_644", "v_663", "v_1631"}
 
 candidate = base
 old_blocks, new_blocks = {}, {}
@@ -353,7 +402,8 @@ prepare = {
         "3345": ["examples[1]", "exampleTranslations[1]", "usage"]
     },
     "meaning_quiz_updates": {
-        "v_3345": {"old_byExample_key": old_sentence, "new_byExample_key": new_sentence},
+        "v_3337": {"byExample_keys_before": sorted(old_3337_by_example), "byExample_keys_after": sorted(by_example_3337)},
+        "v_3345": {"old_byExample_key": old_sentence, "new_byExample_key": new_sentence, "global_correct_updated": True},
         "added": sorted(added_quiz_keys)
     },
     "protected": {
@@ -374,7 +424,9 @@ updates = [
     {"op":"replace","block":"VOCAB_POS_BY_ID","path":["2734"],"before":["動詞"],"after":["連体詞"],"reason":"ID2734 examples are the lexicalized attributive きたる; the display/quiz POS map must not label it as ordinary 動詞."},
     {"op":"replace","block":"VOCAB_DETAILS_BY_ID","path":["644","examples","exampleTranslations","usage"],"before":{"examples":old_644["examples"],"exampleTranslations":old_644["exampleTranslations"],"usage":old_644["usage"]},"after":{"examples":new_details["644"]["examples"],"exampleTranslations":new_details["644"]["exampleTranslations"],"usage":new_details["644"]["usage"]}},
     {"op":"replace","block":"VOCAB_DETAILS_BY_ID","path":["3345","examples[1]","exampleTranslations[1]","usage"],"before":{"examples[1]":old_3345["examples"][1],"exampleTranslations[1]":old_3345["exampleTranslations"][1],"usage":old_3345["usage"]},"after":{"examples[1]":new_details["3345"]["examples"][1],"exampleTranslations[1]":new_details["3345"]["exampleTranslations"][1],"usage":new_details["3345"]["usage"]}},
-    {"op":"replace","block":"REVIEWED_MEANING_QUIZZES","path":["v_3345","byExample",old_sentence],"before":old_payload,"after":by_example[new_sentence]}
+    {"op":"replace","block":"REVIEWED_MEANING_QUIZZES","path":["v_3345","correct","wrong","note"],"before":{"correct":old_3345_quiz["correct"],"wrong":old_3345_quiz["wrong"],"note":old_3345_quiz["note"]},"after":{"correct":new_quizzes["v_3345"]["correct"],"wrong":new_quizzes["v_3345"]["wrong"],"note":new_quizzes["v_3345"]["note"]}},
+    {"op":"replace","block":"REVIEWED_MEANING_QUIZZES","path":["v_3345","byExample",old_sentence],"before":old_payload,"after":by_example[new_sentence]},
+    {"op":"replace","block":"REVIEWED_MEANING_QUIZZES","path":["v_3337","byExample"],"before":old_3337_by_example,"after":by_example_3337}
 ]
 
 for key in sorted(added_quiz_keys):
@@ -400,7 +452,7 @@ checkpoint = {
         "retain 3914 vocabulary records, 130 grammar constructions, 859 lexical pairs and every stable ID",
         "no changes to DEFAULT_VOCAB, grammar, lexical pairs, reading overrides, target tables or learning algorithms",
         "no changes to progress-storage keys or state schema",
-        "only ID2734 POS map, ID644/3345 content, ID3345 byExample payload, and eight scoped reviewed meaning-quiz overrides are candidates",
+        "only ID2734 POS map, ID644/3345 content, ID3345 byExample payload, and ten scoped reviewed meaning-quiz overrides are candidates",
         "do not force reading/cloze distractors where fewer than three valid choices exist",
         "keep v153 pilot credit limited to its documented ID121-320 scope"
     ],
