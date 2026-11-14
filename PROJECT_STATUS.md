@@ -1,4 +1,16 @@
-Оновлено 14 листопада 2026. Актуальна **v228** у main; повний HTML і перевірені C10-докази опубліковано commit 919f0bf8a974eed9d6a5faaf40d11e05819d075b. HTML v228 — 6 952 984 байти, SHA-256 189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8, Git blob 58c1411685f06053f96ca9d99d04965c52ecfec8. Авторський credit — **3885/3914**; реєстр: 4017 reviewed /475 fixed_rechecked /1327 pending /28 blocked із 5847; словник — 3412 /473 /1 /28; лексичні пари — 54 /1 /804. C10 завершено для всіх доступних до оцінки карток; ID1510 залишається pending поза scope без перегляду (safety hold). Наступний checkpoint: **work/v229-c11-pos-map**, C11 — розбір 28 POS/quiz blockers, починаючи з ID2734, 544, 550, 552, 557, 588, 599, 644, 663, 1631, 3337, 3345.
+Оновлено 15 листопада 2026. Актуальна **v229 у main**, опубліковано commit `650379afed99e00da1b868720a937d506de8302a`. Повний HTML v229 — 6 960 249 байтів, SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`, Git blob `1c90476d78ae832ccecbcdfbfb93cc83b99474eb`. Авторський credit — **3897/3914**; реєстр 4017 reviewed /487 fixed_rechecked /1327 pending /16 blocked; словник 3412 /485 /1 /16; лексичні пари 54 /1 /804. C10 завершено для всіх доступних до оцінки карток; ID1510 лишається окремим pending safety hold. Наступний checkpoint: **work/v230-c11-next-blockers**, 16 C11 blockers.
+
+## Checkpoint v229 — C11 (завершено й опубліковано)
+
+- Безпосередньо розглянуто 12 C11 blockers: 2734, 544, 550, 552, 557, 588, 599, 644, 663, 1631, 3337, 3345. Усі 12 переведено з blocked до fixed_rechecked; ручний авторський meaning-quiz review охопив 24 точні приклади/контексти.
+- POS-map: ID2734 来る（きたる） виправлено з 動詞 на 連体詞. ID644 отримав два прислівникові приклади, переклади й уточнений usage; ID3345 — прислівниковий приклад, переклад, usage та оновлений byExample payload. Додано 10 reviewed meaning-quiz keys; byExample оновлено для ID3337 і ID3345.
+- Pool impact: ID2734 reading 6→0, cloze 705→2; обидва пули не eligible, штучні distractors не додавалися. Для решти 11 карток reading/cloze pool counts незмінні.
+- Workflow 43621856689 успішний: deterministic build з exact v228, exact rollback, Python/Node syntax, 3914/130/859, 12 карток rendered, 24/24 quiz override checks, Chromium 360/412/1280 без overflow, storage round-trip/restore, 0 page errors. Main data-check 43622359541 успішний.
+- Пілот v153 обмежений ID121–320; жоден ID v229 не входить у цей діапазон, pilot credit = 0.
+- Реєстр після v229: 4017/487/1327/16 загалом; словник 3412/485/1/16; vocab_pair 54/1/804; авторський credit 3897/3914.
+- Незалежна лінгвістична експертиза, фізичні Android/Windows тести та правове/походження приймання не виконані. Legacy workflow v178 лишається окремою технічною проблемою.
+- Докази: JLPT_N1_v229_audit.md, v229-acceptance.tsv, v229-c11-review.tsv, v229-field-changes.tsv, v229-semantic-review.md, v229-pool-impact.tsv, v229-source-review.md, top-level prepare/browser/registry/semantic/pool evidence та completion/v229-work/.
+
 
 
 ## Checkpoint v228 — C10 (завершено й опубліковано)
