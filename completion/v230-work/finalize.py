@@ -7,6 +7,7 @@ b=json.loads((W/"browser-results.json").read_text(encoding="utf-8"))
 s=json.loads((W/"semantic-review.json").read_text(encoding="utf-8"))
 cp=json.loads((W/"checkpoint.json").read_text(encoding="utf-8"))
 ids=[3363,3375,3417,3441,3444,3525,3561,3565,3569,3594,3636,3646]
+assert b.get("clozeAvailabilityPass") is True and not b.get("clozeAvailabilityLosses"), "v230 meaning overrides suppress previously available cloze contexts; preserve functionality before acceptance"
 assert p["pass"] and b["pass"] and p["candidate_sha256"]==b["candidate_sha256"]
 assert s["overall_decision"]=="pass" and s["scope"]==ids and s["context_count"]==24 and len(s["decisions"])==24
 assert b["meaningStructurePass"] and b["meaningLengthPass"] and b["meaningDiagnosticCount"]==24

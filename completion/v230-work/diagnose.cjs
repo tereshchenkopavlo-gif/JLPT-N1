@@ -1,5 +1,9 @@
 const {chromium}=require("playwright");
 const assert=require("node:assert/strict");
+const diagnosticFailures=[];
+const originalDeepEqual=assert.deepEqual;
+assert.ok=(value,message)=>{if(!value)diagnosticFailures.push(message||"assert.ok failed");};
+assert.deepEqual=(actual,expected,message)=>{try{originalDeepEqual(actual,expected);}catch(e){diagnosticFailures.push(message||e.message);}};
 const fs=require("node:fs");
 const crypto=require("node:crypto");
 const path=require("node:path");
@@ -78,6 +82,35 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       clozeExamplesBefore:b.clozeExamples,clozeExamplesAfter:afterPools[i].clozeExamples,
       readingOptionsBefore:b.readingOptions,readingOptionsAfter:afterPools[i].readingOptions
     }));
+    const clozeAvailabilityBefore=await base.evaluate(ids=>ids.map(id=>{
+      const v=DEFAULT_VOCAB.find(x=>Number(x.id)===id),d=VOCAB_DETAILS_BY_ID[String(id)];
+      const item={kind:"v",id:String(id),word:v},pool=clozeWordCandidates(item).length;
+      const override=Boolean(REVIEWED_MEANING_QUIZZES["v_"+id]);
+      return {id,word:v.w,contexts:d.examples.map(example=>{
+        const target=Boolean(reviewedExampleTarget(example,"v",v.w));
+        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&pool>=3&&!target&&!override);
+        return {example,poolCount:pool,reviewedExampleTarget:target,meaningOverride:override,eligible};
+      })};
+    }),IDS);
+    const clozeAvailabilityAfter=await page.evaluate(ids=>ids.map(id=>{
+      const v=DEFAULT_VOCAB.find(x=>Number(x.id)===id),d=VOCAB_DETAILS_BY_ID[String(id)];
+      const item={kind:"v",id:String(id),word:v},pool=clozeWordCandidates(item).length;
+      const override=Boolean(REVIEWED_MEANING_QUIZZES["v_"+id]);
+      return {id,word:v.w,contexts:d.examples.map(example=>{
+        const target=Boolean(reviewedExampleTarget(example,"v",v.w));
+        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&pool>=3&&!target&&!override);
+        return {example,poolCount:pool,reviewedExampleTarget:target,meaningOverride:override,eligible};
+      })};
+    }),IDS);
+    const clozeAvailabilityLosses=[];
+    for(let i=0;i<clozeAvailabilityBefore.length;i++){
+      for(let j=0;j<clozeAvailabilityBefore[i].contexts.length;j++){
+        const before=clozeAvailabilityBefore[i].contexts[j],after=clozeAvailabilityAfter[i].contexts[j];
+        if(before.eligible&&!after.eligible)clozeAvailabilityLosses.push({id:clozeAvailabilityBefore[i].id,word:clozeAvailabilityBefore[i].word,example:before.example,poolBefore:before.poolCount,poolAfter:after.poolCount,reason:after.meaningOverride?"REVIEWED_MEANING_QUIZZES key suppresses cloze type":"cloze eligibility changed"});
+      }
+    }
+    const clozeAvailabilityPass=clozeAvailabilityLosses.length===0;
+    assert.ok(clozeAvailabilityPass,"reviewed meaning overrides must not suppress previously available cloze contexts");
     const meaningDiagnostics=await page.evaluate(ids=>{
       const out=[];
       for(const id of ids){
@@ -150,7 +183,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
           id,word:d.w,
           title:norm(txt).includes(norm(d.w)),
           meaning:norm(txt).includes(norm(d.m)),
-          pos:posNode?.innerText?.replace(/\s+/g,"").replace(/・/g,"・")||"",
+          pos:posNode?.getAttribute("aria-label")?.replace(/^品詞：/u,"")||[...(posNode?.children||[])].map(n=>norm(n.innerText)).join("・"),
           expectedPos:vocabPartOfSpeech(id).join("・"),
           usageData:Boolean(d.usage),
           usageVisible:norm(txt).includes(norm(d.usage)),
@@ -185,7 +218,9 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     assert.deepEqual(errors,[]);
 
     const result={
-      pass:meaningStructurePass&&meaningLengthPass&&reviewedOverridePass&&poolImpact.every(x=>x.clozeEligibleAfter),diagnostic_only:false,author_review_required:false,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
+      diagnosticFailures,
+      clozeAvailabilityBefore,clozeAvailabilityAfter,clozeAvailabilityLosses,clozeAvailabilityPass,
+      pass:diagnosticFailures.length===0&&meaningStructurePass&&meaningLengthPass&&reviewedOverridePass&&poolImpact.every(x=>x.clozeEligibleAfter)&&clozeAvailabilityPass,diagnostic_only:false,author_review_required:false,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
       counts:structural,scope_count:IDS.length,
       poolImpact,meaningStructurePass,meaningLengthPass,meaningDiagnosticCount:meaningDiagnostics.length,
       reviewedOverridePass,reviewedOverrideCoverage:reviewedOverrideChecks.length,reviewedOverrideChecks,lengthOutliers,lengthCueWarnings:lengthOutliers.length,rendered,responsive,storage,pageErrors:errors,

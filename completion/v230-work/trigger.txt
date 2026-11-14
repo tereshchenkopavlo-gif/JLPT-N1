@@ -1,3 +1,4 @@
 v230-c11-reviewed-candidate
 2026-11-15T04:30:00+09:00
 base-main=afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba
+verification=cloze-availability-guard-2026-11-15T0812-JST
