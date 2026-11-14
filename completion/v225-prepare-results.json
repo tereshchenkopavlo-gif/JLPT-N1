@@ -1,0 +1,106 @@
+{
+  "pass": true,
+  "base_version": "v224",
+  "base_main_sha": "fc471671622b10aac6053a5bd74903bdc34b9eef",
+  "base_html_sha256": "19a9d8ca2e9f52a33c977674eb199ae7a132024adedd741681a4193f51a30cf6",
+  "candidate_version": "v225",
+  "candidate_sha256": "53f733699fc4cf6e487c739fdd96e007e9cc27822fbeebc871da4498007d19b4",
+  "candidate_blob_sha": "f34a255430bf268f942a175ee5013eeb5c4e1206",
+  "candidate_bytes": 6952257,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    3589,
+    3594,
+    3599,
+    3601,
+    3607,
+    3614,
+    3635,
+    3636,
+    3637,
+    3642,
+    3644,
+    3646
+  ],
+  "fixed_rechecked_ids": [],
+  "reviewed_ids": [
+    3589,
+    3599,
+    3601,
+    3607,
+    3614,
+    3635,
+    3637,
+    3642,
+    3644
+  ],
+  "blocked_ids": [
+    3594,
+    3636,
+    3646
+  ],
+  "updated_fields": 0,
+  "changed_cards": [],
+  "pair_reviewed_indices": [
+    791,
+    792
+  ],
+  "pair_changed_indices": [],
+  "pos_map_unchanged": true,
+  "reading_and_cloze_pools_unchanged": true,
+  "example_target_tables_unchanged": true,
+  "reviewed_meaning_quizzes_unchanged": true,
+  "japanese_examples_changed": [],
+  "author_credit_before": 3856,
+  "author_credit_addition": 9,
+  "author_credit_after": 3865,
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3589,
+    3594,
+    3599,
+    3601,
+    3607,
+    3614,
+    3635,
+    3636,
+    3637,
+    3642,
+    3644,
+    3646
+  ],
+  "exact_rollback": true,
+  "register_after": {
+    "all": {
+      "reviewed": 3999,
+      "fixed_rechecked": 461,
+      "pending": 1373,
+      "blocked": 14,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3406,
+      "fixed_rechecked": 459,
+      "pending": 35,
+      "blocked": 14,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 42,
+      "fixed_rechecked": 1,
+      "pending": 816,
+      "blocked": 0,
+      "total": 859
+    }
+  },
+  "author_review_only": true,
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "publication_guard": "fc471671622b10aac6053a5bd74903bdc34b9eef",
+  "publication_status": "pending",
+  "blocked_reason": "C11 POS-map and quiz-pool review required for IDs 3594, 3636, 3646"
+}

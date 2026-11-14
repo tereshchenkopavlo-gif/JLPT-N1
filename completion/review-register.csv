@@ -3587,32 +3587,32 @@ vocab,3585,vocab:3585,reviewed,completion/v167-cards-3581-3600.tsv#3585; author 
 vocab,3586,vocab:3586,reviewed,completion/v167-cards-3581-3600.tsv#3586; author linguistic review
 vocab,3587,vocab:3587,reviewed,completion/v167-cards-3581-3600.tsv#3587; author linguistic review
 vocab,3588,vocab:3588,reviewed,JLPT_N1_v224_audit.md; completion/v224-acceptance.tsv; completion/v224-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
-vocab,3589,vocab:3589,pending,
+vocab,3589,vocab:3589,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3590,vocab:3590,reviewed,completion/v167-cards-3581-3600.tsv#3590; author linguistic review
 vocab,3591,vocab:3591,reviewed,completion/v167-cards-3581-3600.tsv#3591; author linguistic review
 vocab,3592,vocab:3592,reviewed,completion/v167-cards-3581-3600.tsv#3592; author linguistic review
 vocab,3593,vocab:3593,reviewed,completion/v167-cards-3581-3600.tsv#3593; author linguistic review
-vocab,3594,vocab:3594,pending,
+vocab,3594,vocab:3594,blocked,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v225
 vocab,3595,vocab:3595,reviewed,completion/v167-cards-3581-3600.tsv#3595; author linguistic review
 vocab,3596,vocab:3596,reviewed,completion/v167-cards-3581-3600.tsv#3596; author linguistic review
 vocab,3597,vocab:3597,reviewed,completion/v167-cards-3581-3600.tsv#3597; author linguistic review
 vocab,3598,vocab:3598,reviewed,completion/v167-cards-3581-3600.tsv#3598; author linguistic review
-vocab,3599,vocab:3599,pending,
+vocab,3599,vocab:3599,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3600,vocab:3600,reviewed,completion/v167-cards-3581-3600.tsv#3600; author linguistic review
-vocab,3601,vocab:3601,pending,
+vocab,3601,vocab:3601,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3602,vocab:3602,reviewed,completion/v168-cards-3601-3620.tsv#3602; author linguistic review
 vocab,3603,vocab:3603,reviewed,completion/v168-cards-3601-3620.tsv#3603; author linguistic review
 vocab,3604,vocab:3604,reviewed,completion/v168-cards-3601-3620.tsv#3604; author linguistic review
 vocab,3605,vocab:3605,reviewed,completion/v170-acceptance.tsv#3605. Author linguistic review of corrected fields and prior evidence.
 vocab,3606,vocab:3606,reviewed,completion/v168-cards-3601-3620.tsv#3606; author linguistic review
-vocab,3607,vocab:3607,pending,
+vocab,3607,vocab:3607,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3608,vocab:3608,reviewed,completion/v168-cards-3601-3620.tsv#3608; author linguistic review
 vocab,3609,vocab:3609,reviewed,completion/v168-cards-3601-3620.tsv#3609; author linguistic review
 vocab,3610,vocab:3610,reviewed,completion/v168-cards-3601-3620.tsv#3610; author linguistic review
 vocab,3611,vocab:3611,reviewed,completion/v170-acceptance.tsv#3611. Author linguistic review of corrected fields and prior evidence.
 vocab,3612,vocab:3612,reviewed,completion/v168-cards-3601-3620.tsv#3612; author linguistic review
 vocab,3613,vocab:3613,reviewed,completion/v168-cards-3601-3620.tsv#3613; author linguistic review
-vocab,3614,vocab:3614,pending,
+vocab,3614,vocab:3614,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3615,vocab:3615,reviewed,completion/v168-cards-3601-3620.tsv#3615; author linguistic review
 vocab,3616,vocab:3616,reviewed,completion/v168-cards-3601-3620.tsv#3616; author linguistic review
 vocab,3617,vocab:3617,reviewed,completion/v168-cards-3601-3620.tsv#3617; author linguistic review
@@ -3633,18 +3633,18 @@ vocab,3631,vocab:3631,reviewed,completion/v168-cards-3621-3640.tsv#3631; author 
 vocab,3632,vocab:3632,reviewed,completion/v168-cards-3621-3640.tsv#3632; author linguistic review
 vocab,3633,vocab:3633,reviewed,completion/v168-cards-3621-3640.tsv#3633; author linguistic review
 vocab,3634,vocab:3634,reviewed,completion/v168-cards-3621-3640.tsv#3634; author linguistic review
-vocab,3635,vocab:3635,pending,
-vocab,3636,vocab:3636,pending,
-vocab,3637,vocab:3637,pending,
+vocab,3635,vocab:3635,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
+vocab,3636,vocab:3636,blocked,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v225
+vocab,3637,vocab:3637,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3638,vocab:3638,reviewed,completion/v170-acceptance.tsv#3638. Author linguistic review of corrected fields and prior evidence.
 vocab,3639,vocab:3639,reviewed,completion/v168-cards-3621-3640.tsv#3639; author linguistic review
 vocab,3640,vocab:3640,reviewed,completion/v168-cards-3621-3640.tsv#3640; author linguistic review
 vocab,3641,vocab:3641,reviewed,completion/v168-cards-3641-3660.tsv#3641; author linguistic review
-vocab,3642,vocab:3642,pending,
+vocab,3642,vocab:3642,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3643,vocab:3643,reviewed,completion/v168-cards-3641-3660.tsv#3643; author linguistic review
-vocab,3644,vocab:3644,pending,
+vocab,3644,vocab:3644,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3645,vocab:3645,reviewed,completion/v170-acceptance.tsv#3645. Author linguistic review of corrected fields and prior evidence.
-vocab,3646,vocab:3646,pending,
+vocab,3646,vocab:3646,blocked,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v225
 vocab,3647,vocab:3647,reviewed,completion/v168-cards-3641-3660.tsv#3647; author linguistic review
 vocab,3648,vocab:3648,reviewed,completion/v168-cards-3641-3660.tsv#3648; author linguistic review
 vocab,3649,vocab:3649,reviewed,completion/v168-cards-3641-3660.tsv#3649; author linguistic review
@@ -4834,8 +4834,8 @@ vocab_pair,787:3516:3546,VOCAB_AUDITED_PAIRS[787],pending,
 vocab_pair,788:3520:3588,VOCAB_AUDITED_PAIRS[788],reviewed,completion/v223-pair-review.tsv#788; author review of exact pair and note; no text change; not independent
 vocab_pair,789:3526:3529,VOCAB_AUDITED_PAIRS[789],reviewed,completion/v224-pair-review.tsv#789; author review of exact pair and note; no text change; not independent
 vocab_pair,790:3534:3535,VOCAB_AUDITED_PAIRS[790],reviewed,completion/v224-pair-review.tsv#790; author review of exact pair and note; no text change; not independent
-vocab_pair,791:3530:3577,VOCAB_AUDITED_PAIRS[791],pending,
-vocab_pair,792:3554:3557,VOCAB_AUDITED_PAIRS[792],pending,
+vocab_pair,791:3530:3577,VOCAB_AUDITED_PAIRS[791],reviewed,completion/v225-pair-review.tsv#791; author review of exact pair and note; no text change; not independent
+vocab_pair,792:3554:3557,VOCAB_AUDITED_PAIRS[792],reviewed,completion/v225-pair-review.tsv#792; author review of exact pair and note; no text change; not independent
 vocab_pair,793:3557:3592,VOCAB_AUDITED_PAIRS[793],pending,
 vocab_pair,794:3575:3584,VOCAB_AUDITED_PAIRS[794],pending,
 vocab_pair,795:3544:3578,VOCAB_AUDITED_PAIRS[795],pending,

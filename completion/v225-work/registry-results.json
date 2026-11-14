@@ -1,0 +1,53 @@
+{
+  "pass": true,
+  "register_rows": 5847,
+  "after": {
+    "all": {
+      "reviewed": 3999,
+      "fixed_rechecked": 461,
+      "pending": 1373,
+      "blocked": 14,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3406,
+      "fixed_rechecked": 459,
+      "pending": 35,
+      "blocked": 14,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 42,
+      "fixed_rechecked": 1,
+      "pending": 816,
+      "blocked": 0,
+      "total": 859
+    }
+  },
+  "scope_updated": [
+    3589,
+    3594,
+    3599,
+    3601,
+    3607,
+    3614,
+    3635,
+    3636,
+    3637,
+    3642,
+    3644,
+    3646
+  ],
+  "pair_scope_updated": [
+    791,
+    792
+  ],
+  "blocked_scope": [
+    3594,
+    3636,
+    3646
+  ],
+  "duplicate_scope_keys": 0,
+  "records_deleted": 0,
+  "history_rewritten": false
+}
