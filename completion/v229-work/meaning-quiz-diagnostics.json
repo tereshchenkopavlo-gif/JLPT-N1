@@ -1,0 +1,1634 @@
+[
+  {
+    "id": 2734,
+    "word": "来る",
+    "exampleIndex": 0,
+    "example": "来る三月一日に、新本社への移転記念式典が開催される。",
+    "samples": [
+      {
+        "correct": "ここでは「きたる」。日付の前で、次に来るという意味を表す。「来るべき」は将来訪れるという意味。",
+        "wrong": [
+          "しっかりつかまえる。物事の意味や本質を理解する。",
+          "趣味などに熱中する。また、細部まで手が込んでいる。筋肉が張って硬く感じられる意味もある。",
+          "勢いよくはね返る。また、気分や会話が盛り上がる。金銭を気前よく多く出す意味もある。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          47,
+          24,
+          44,
+          41
+        ],
+        "minLength": 24,
+        "maxLength": 47
+      },
+      {
+        "correct": "ここでは「きたる」。日付の前で、次に来るという意味を表す。「来るべき」は将来訪れるという意味。",
+        "wrong": [
+          "趣味などに熱中する。また、細部まで手が込んでいる。筋肉が張って硬く感じられる意味もある。",
+          "傷などに必要な処置をする。また、必要な資金などを用意する。「手当て」という名詞には給付金の意味もあるが、ここは動詞。",
+          "勢いよくはね返る。また、気分や会話が盛り上がる。金銭を気前よく多く出す意味もある。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          47,
+          44,
+          58,
+          41
+        ],
+        "minLength": 41,
+        "maxLength": 58
+      },
+      {
+        "correct": "ここでは「きたる」。日付の前で、次に来るという意味を表す。「来るべき」は将来訪れるという意味。",
+        "wrong": [
+          "最終的にある状態や結果に行き着く。また、責任などをある人や物に負わせる。「帰す」は「帰する」の文語形で、意味が二つの形に分かれるわけではない。",
+          "趣味などに熱中する。また、細部まで手が込んでいる。筋肉が張って硬く感じられる意味もある。",
+          "量や行動を抑える。また、予定の時期が近づいている。そばで待つ、忘れないように書き留める意味もある。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          47,
+          71,
+          44,
+          49
+        ],
+        "minLength": 44,
+        "maxLength": 71
+      }
+    ]
+  },
+  {
+    "id": 2734,
+    "word": "来る",
+    "exampleIndex": 1,
+    "example": "来るべき社会の変化に備え、必要な改革について会議で話し合った。",
+    "samples": [
+      {
+        "correct": "ここでは「きたる」。日付の前で、次に来るという意味を表す。「来るべき」は将来訪れるという意味。",
+        "wrong": [
+          "量や行動を抑える。また、予定の時期が近づいている。そばで待つ、忘れないように書き留める意味もある。",
+          "傷などに必要な処置をする。また、必要な資金などを用意する。「手当て」という名詞には給付金の意味もあるが、ここは動詞。",
+          "しっかりつかまえる。物事の意味や本質を理解する。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          47,
+          49,
+          58,
+          24
+        ],
+        "minLength": 24,
+        "maxLength": 58
+      },
+      {
+        "correct": "ここでは「きたる」。日付の前で、次に来るという意味を表す。「来るべき」は将来訪れるという意味。",
+        "wrong": [
+          "しっかりつかまえる。物事の意味や本質を理解する。",
+          "「おびやかす」は安全や立場を危うくすることなど。「おどかす」は不意に驚かせることなど。どちらにも、人を怖がらせて従わせる意味がある。",
+          "量や行動を抑える。また、予定の時期が近づいている。そばで待つ、忘れないように書き留める意味もある。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          47,
+          24,
+          66,
+          49
+        ],
+        "minLength": 24,
+        "maxLength": 66
+      },
+      {
+        "correct": "ここでは「きたる」。日付の前で、次に来るという意味を表す。「来るべき」は将来訪れるという意味。",
+        "wrong": [
+          "「おびやかす」は安全や立場を危うくすることなど。「おどかす」は不意に驚かせることなど。どちらにも、人を怖がらせて従わせる意味がある。",
+          "傷などに必要な処置をする。また、必要な資金などを用意する。「手当て」という名詞には給付金の意味もあるが、ここは動詞。",
+          "勢いよくはね返る。また、気分や会話が盛り上がる。金銭を気前よく多く出す意味もある。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          47,
+          66,
+          58,
+          41
+        ],
+        "minLength": 41,
+        "maxLength": 66
+      }
+    ]
+  },
+  {
+    "id": 544,
+    "word": "いい加減",
+    "exampleIndex": 0,
+    "example": "いい加減な仕事ぶりが原因で、取引先からの信頼を失った。",
+    "samples": [
+      {
+        "correct": "対応や仕事ぶりが無責任・不十分であるさま。なお、「いい加減」は文脈により『ほどほど』を意味することもある。",
+        "wrong": [
+          "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。",
+          "個々の具体的な事例から離れ、共通する性質や概念を捉える様子。また、具体性に乏しい様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          53,
+          55,
+          28,
+          43
+        ],
+        "minLength": 28,
+        "maxLength": 55
+      },
+      {
+        "correct": "対応や仕事ぶりが無責任・不十分であるさま。なお、「いい加減」は文脈により『ほどほど』を意味することもある。",
+        "wrong": [
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。",
+          "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+          "遠慮や気負いがなく、ためらわずに行動する様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          53,
+          28,
+          26,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 53
+      },
+      {
+        "correct": "対応や仕事ぶりが無責任・不十分であるさま。なお、「いい加減」は文脈により『ほどほど』を意味することもある。",
+        "wrong": [
+          "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+          "個々の具体的な事例から離れ、共通する性質や概念を捉える様子。また、具体性に乏しい様子。",
+          "危険や問題がない様子。また、特に目立つ欠点がなく、まずまず適切である様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          53,
+          55,
+          43,
+          37
+        ],
+        "minLength": 37,
+        "maxLength": 55
+      }
+    ]
+  },
+  {
+    "id": 544,
+    "word": "いい加減",
+    "exampleIndex": 1,
+    "example": "いい加減な情報に基づいて判断を下すことは避けなければならない。",
+    "samples": [
+      {
+        "correct": "対応や仕事ぶりが無責任・不十分であるさま。なお、「いい加減」は文脈により『ほどほど』を意味することもある。",
+        "wrong": [
+          "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+          "人手によらず、仕組みに従って動作・処理されるさま。通常は「自動的に」の形で用いる。",
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          53,
+          26,
+          41,
+          28
+        ],
+        "minLength": 26,
+        "maxLength": 53
+      },
+      {
+        "correct": "対応や仕事ぶりが無責任・不十分であるさま。なお、「いい加減」は文脈により『ほどほど』を意味することもある。",
+        "wrong": [
+          "人手によらず、仕組みに従って動作・処理されるさま。通常は「自動的に」の形で用いる。",
+          "個々の具体的な事例から離れ、共通する性質や概念を捉える様子。また、具体性に乏しい様子。",
+          "他人のことを考えず、自分の都合や欲求を押し通す様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          53,
+          41,
+          43,
+          26
+        ],
+        "minLength": 26,
+        "maxLength": 53
+      },
+      {
+        "correct": "対応や仕事ぶりが無責任・不十分であるさま。なお、「いい加減」は文脈により『ほどほど』を意味することもある。",
+        "wrong": [
+          "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+          "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+          "危険や問題がない様子。また、特に目立つ欠点がなく、まずまず適切である様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          53,
+          55,
+          26,
+          37
+        ],
+        "minLength": 26,
+        "maxLength": 55
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "word": "わがまま",
+    "exampleIndex": 0,
+    "example": "わがままな要求を繰り返す顧客への対応が、現場の大きな負担となっている。",
+    "samples": [
+      {
+        "correct": "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+        "wrong": [
+          "遠慮や気負いがなく、ためらわずに行動する様子。",
+          "間違いなく、しっかりしている様子。信頼できる。",
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          26,
+          23,
+          23,
+          28
+        ],
+        "minLength": 23,
+        "maxLength": 28
+      },
+      {
+        "correct": "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+        "wrong": [
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。",
+          "自分に近く、自分の生活に関わりが深い様子。",
+          "間違いなく、しっかりしている様子。信頼できる。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          26,
+          28,
+          21,
+          23
+        ],
+        "minLength": 21,
+        "maxLength": 28
+      },
+      {
+        "correct": "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+        "wrong": [
+          "間違いなく、しっかりしている様子。信頼できる。",
+          "遠慮や気負いがなく、ためらわずに行動する様子。",
+          "自分に近く、自分の生活に関わりが深い様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          26,
+          23,
+          23,
+          21
+        ],
+        "minLength": 21,
+        "maxLength": 26
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "word": "わがまま",
+    "exampleIndex": 1,
+    "example": "わがままな振る舞いは、チームワークを乱す原因になる。",
+    "samples": [
+      {
+        "correct": "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+        "wrong": [
+          "遠慮や気負いがなく、ためらわずに行動する様子。",
+          "間違いなく、しっかりしている様子。信頼できる。",
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          26,
+          23,
+          23,
+          28
+        ],
+        "minLength": 23,
+        "maxLength": 28
+      },
+      {
+        "correct": "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+        "wrong": [
+          "自分に近く、自分の生活に関わりが深い様子。",
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。",
+          "間違いなく、しっかりしている様子。信頼できる。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          26,
+          21,
+          28,
+          23
+        ],
+        "minLength": 21,
+        "maxLength": 28
+      },
+      {
+        "correct": "他人のことを考えず、自分の都合や欲求を押し通す様子。",
+        "wrong": [
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。",
+          "遠慮や気負いがなく、ためらわずに行動する様子。",
+          "間違いなく、しっかりしている様子。信頼できる。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          26,
+          28,
+          23,
+          23
+        ],
+        "minLength": 23,
+        "maxLength": 28
+      }
+    ]
+  },
+  {
+    "id": 552,
+    "word": "確か",
+    "exampleIndex": 0,
+    "example": "確かな根拠に基づいて、慎重に判断を下すべきだ。",
+    "samples": [
+      {
+        "correct": "間違いなく、しっかりしている様子。信頼できる。",
+        "wrong": [
+          "欠点がなく、すべてが整っている様子。",
+          "遠慮や気負いがなく、ためらわずに行動する様子。",
+          "考え方や行動が度を越して激しい様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          18,
+          23,
+          18
+        ],
+        "minLength": 18,
+        "maxLength": 23
+      },
+      {
+        "correct": "間違いなく、しっかりしている様子。信頼できる。",
+        "wrong": [
+          "考えが足りず、分別がない様子。",
+          "気分が楽で、心配事がない様子。",
+          "欠点がなく、すべてが整っている様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          15,
+          15,
+          18
+        ],
+        "minLength": 15,
+        "maxLength": 23
+      },
+      {
+        "correct": "間違いなく、しっかりしている様子。信頼できる。",
+        "wrong": [
+          "考えが足りず、分別がない様子。",
+          "物事を明るい方向に考える様子。",
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          15,
+          15,
+          28
+        ],
+        "minLength": 15,
+        "maxLength": 28
+      }
+    ]
+  },
+  {
+    "id": 552,
+    "word": "確か",
+    "exampleIndex": 1,
+    "example": "彼の確かな腕前は、業界内でも広く認められている。",
+    "samples": [
+      {
+        "correct": "間違いなく、しっかりしている様子。信頼できる。",
+        "wrong": [
+          "物事を明るい方向に考える様子。",
+          "欠点がなく、すべてが整っている様子。",
+          "遠慮や気負いがなく、ためらわずに行動する様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          15,
+          18,
+          23
+        ],
+        "minLength": 15,
+        "maxLength": 23
+      },
+      {
+        "correct": "間違いなく、しっかりしている様子。信頼できる。",
+        "wrong": [
+          "作りがしっかりしていて、壊れにくい様子。体が丈夫な様子。",
+          "気分が楽で、心配事がない様子。",
+          "考え方や行動が度を越して激しい様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          28,
+          15,
+          18
+        ],
+        "minLength": 15,
+        "maxLength": 28
+      },
+      {
+        "correct": "間違いなく、しっかりしている様子。信頼できる。",
+        "wrong": [
+          "欠点がなく、すべてが整っている様子。",
+          "気分が楽で、心配事がない様子。",
+          "物事を明るい方向に考える様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          23,
+          18,
+          15,
+          15
+        ],
+        "minLength": 15,
+        "maxLength": 23
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "word": "結構",
+    "exampleIndex": 0,
+    "example": "結構なお品をいただき、誠にありがとうございます。",
+    "samples": [
+      {
+        "correct": "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+        "wrong": [
+          "程度や数量の変化が大きい様子。",
+          "規模が大きく、華やかな様子。",
+          "技術や経験が十分でない様子。成熟していない。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          55,
+          15,
+          14,
+          22
+        ],
+        "minLength": 14,
+        "maxLength": 55
+      },
+      {
+        "correct": "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+        "wrong": [
+          "程度や数量の変化が大きい様子。",
+          "規模が大きく、華やかな様子。",
+          "技術や経験が十分でない様子。成熟していない。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          55,
+          15,
+          14,
+          22
+        ],
+        "minLength": 14,
+        "maxLength": 55
+      },
+      {
+        "correct": "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+        "wrong": [
+          "程度や数量の変化が大きい様子。",
+          "規模が大きく、華やかな様子。",
+          "技術や経験が十分でない様子。成熟していない。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          55,
+          15,
+          14,
+          22
+        ],
+        "minLength": 14,
+        "maxLength": 55
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "word": "結構",
+    "exampleIndex": 1,
+    "example": "追加の資料は結構ですので、お気遣いなさらないでください。",
+    "samples": [
+      {
+        "correct": "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+        "wrong": [
+          "程度や数量の変化が大きい様子。",
+          "規模が大きく、華やかな様子。",
+          "技術や経験が十分でない様子。成熟していない。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          55,
+          15,
+          14,
+          22
+        ],
+        "minLength": 14,
+        "maxLength": 55
+      },
+      {
+        "correct": "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+        "wrong": [
+          "程度や数量の変化が大きい様子。",
+          "規模が大きく、華やかな様子。",
+          "技術や経験が十分でない様子。成熟していない。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          55,
+          15,
+          14,
+          22
+        ],
+        "minLength": 14,
+        "maxLength": 55
+      },
+      {
+        "correct": "立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。",
+        "wrong": [
+          "程度や数量の変化が大きい様子。",
+          "規模が大きく、華やかな様子。",
+          "技術や経験が十分でない様子。成熟していない。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          55,
+          15,
+          14,
+          22
+        ],
+        "minLength": 14,
+        "maxLength": 55
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "word": "独特",
+    "exampleIndex": 0,
+    "example": "同社の独特な企業文化は、他社にはまねしにくい強みとなっている。",
+    "samples": [
+      {
+        "correct": "他と違う、そのものに特有の性質がある様子。",
+        "wrong": [
+          "物が十分にある様子。心にゆとりがある様子。",
+          "技術や経験が十分でない様子。成熟していない。",
+          "自分に近く、自分の生活に関わりが深い様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          21,
+          21,
+          22,
+          21
+        ],
+        "minLength": 21,
+        "maxLength": 22
+      },
+      {
+        "correct": "他と違う、そのものに特有の性質がある様子。",
+        "wrong": [
+          "技術や経験が十分でない様子。成熟していない。",
+          "心身や物事が正常で、よい状態にある様子。",
+          "個々の具体的な事例から離れ、共通する性質や概念を捉える様子。また、具体性に乏しい様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          21,
+          22,
+          20,
+          43
+        ],
+        "minLength": 20,
+        "maxLength": 43
+      },
+      {
+        "correct": "他と違う、そのものに特有の性質がある様子。",
+        "wrong": [
+          "自分に近く、自分の生活に関わりが深い様子。",
+          "物が十分にある様子。心にゆとりがある様子。",
+          "論理的な思考によらず、直接に感じ取る様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          21,
+          21,
+          21,
+          21
+        ],
+        "minLength": 21,
+        "maxLength": 21
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "word": "独特",
+    "exampleIndex": 1,
+    "example": "彼は独特な視点から、市場の動向を鋭く分析した。",
+    "samples": [
+      {
+        "correct": "他と違う、そのものに特有の性質がある様子。",
+        "wrong": [
+          "個々の具体的な事例から離れ、共通する性質や概念を捉える様子。また、具体性に乏しい様子。",
+          "物が十分にある様子。心にゆとりがある様子。",
+          "言動や外見に気品があり、趣味がよい様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          21,
+          43,
+          21,
+          20
+        ],
+        "minLength": 20,
+        "maxLength": 43
+      },
+      {
+        "correct": "他と違う、そのものに特有の性質がある様子。",
+        "wrong": [
+          "心身や物事が正常で、よい状態にある様子。",
+          "言動や外見に気品があり、趣味がよい様子。",
+          "物が十分にある様子。心にゆとりがある様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          21,
+          20,
+          20,
+          21
+        ],
+        "minLength": 20,
+        "maxLength": 21
+      },
+      {
+        "correct": "他と違う、そのものに特有の性質がある様子。",
+        "wrong": [
+          "言動や外見に気品があり、趣味がよい様子。",
+          "論理的な思考によらず、直接に感じ取る様子。",
+          "自分に近く、自分の生活に関わりが深い様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          21,
+          20,
+          21,
+          21
+        ],
+        "minLength": 20,
+        "maxLength": 21
+      }
+    ]
+  },
+  {
+    "id": 599,
+    "word": "無礼",
+    "exampleIndex": 0,
+    "example": "初対面の相手に対して無礼な態度を取ることは、厳に慎むべきだ。",
+    "samples": [
+      {
+        "correct": "礼儀に欠け、失礼な様子。",
+        "wrong": [
+          "長い期間で見たときの様子。",
+          "短い期間で見たときの様子。",
+          "今までと違う、新しい様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13
+      },
+      {
+        "correct": "礼儀に欠け、失礼な様子。",
+        "wrong": [
+          "本気で、真面目に取り組む様子。",
+          "規模が大きく、華やかな様子。",
+          "長い期間で見たときの様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          15,
+          14,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 15
+      },
+      {
+        "correct": "礼儀に欠け、失礼な様子。",
+        "wrong": [
+          "目立たず、控えめな様子。",
+          "規模が大きく、華やかな様子。",
+          "種類や量がたくさんある様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          12,
+          14,
+          14
+        ],
+        "minLength": 12,
+        "maxLength": 14
+      }
+    ]
+  },
+  {
+    "id": 599,
+    "word": "無礼",
+    "exampleIndex": 1,
+    "example": "無礼な言動に対し、被害者は謝罪を求めた。",
+    "samples": [
+      {
+        "correct": "礼儀に欠け、失礼な様子。",
+        "wrong": [
+          "長い期間で見たときの様子。",
+          "今までと違う、新しい様子。",
+          "短い期間で見たときの様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13
+      },
+      {
+        "correct": "礼儀に欠け、失礼な様子。",
+        "wrong": [
+          "今までと違う、新しい様子。",
+          "長い期間で見たときの様子。",
+          "目立たず、控えめな様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          12
+        ],
+        "minLength": 12,
+        "maxLength": 13
+      },
+      {
+        "correct": "礼儀に欠け、失礼な様子。",
+        "wrong": [
+          "短い期間で見たときの様子。",
+          "今までと違う、新しい様子。",
+          "長い期間で見たときの様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          12,
+          13,
+          13,
+          13
+        ],
+        "minLength": 12,
+        "maxLength": 13
+      }
+    ]
+  },
+  {
+    "id": 644,
+    "word": "当然",
+    "exampleIndex": 0,
+    "example": "調査結果が異なれば、結論も当然変わってくる。",
+    "samples": [
+      {
+        "correct": "そうなるのが当たり前である様子。",
+        "wrong": [
+          "自信に満ちて、態度が立派な様子。",
+          "ほかのどれよりも程度が高い様子。",
+          "余裕がないほど全力を尽くす様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "minLength": 16,
+        "maxLength": 16
+      },
+      {
+        "correct": "そうなるのが当たり前である様子。",
+        "wrong": [
+          "ほかのどれよりも程度が高い様子。",
+          "自信に満ちて、態度が立派な様子。",
+          "普通の程度をはるかに超えている様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          16,
+          16,
+          18
+        ],
+        "minLength": 16,
+        "maxLength": 18
+      },
+      {
+        "correct": "そうなるのが当たり前である様子。",
+        "wrong": [
+          "自信に満ちて、態度が立派な様子。",
+          "ほかのどれよりも程度が高い様子。",
+          "普通の程度をはるかに超えている様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          16,
+          16,
+          18
+        ],
+        "minLength": 16,
+        "maxLength": 18
+      }
+    ]
+  },
+  {
+    "id": 644,
+    "word": "当然",
+    "exampleIndex": 1,
+    "example": "当然、顧客の個人情報は厳重に管理されなければならない。",
+    "samples": [
+      {
+        "correct": "そうなるのが当たり前である様子。",
+        "wrong": [
+          "余裕がないほど全力を尽くす様子。",
+          "自信に満ちて、態度が立派な様子。",
+          "前触れなく、急に起こる様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          16,
+          16,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 16
+      },
+      {
+        "correct": "そうなるのが当たり前である様子。",
+        "wrong": [
+          "ほかのどれよりも程度が高い様子。",
+          "自信に満ちて、態度が立派な様子。",
+          "普通の程度をはるかに超えている様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          16,
+          16,
+          18
+        ],
+        "minLength": 16,
+        "maxLength": 18
+      },
+      {
+        "correct": "そうなるのが当たり前である様子。",
+        "wrong": [
+          "余裕がないほど全力を尽くす様子。",
+          "ほかのどれよりも程度が高い様子。",
+          "前触れなく、急に起こる様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          16,
+          16,
+          16,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 16
+      }
+    ]
+  },
+  {
+    "id": 663,
+    "word": "オーバー",
+    "exampleIndex": 0,
+    "example": "今月の経費が予算をオーバーしたため、原因を精査する必要がある。",
+    "samples": [
+      {
+        "correct": "限度や予定を超えること。また、大げさな様子。「オーバーコート」の略。",
+        "wrong": [
+          "体をもんで、疲れや凝りをほぐすこと。",
+          "情報やネットワークなどに接続して利用すること。目的地へ至る交通手段。",
+          "触れること。また、絵画や演奏などの表現の仕方。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          34,
+          18,
+          34,
+          23
+        ],
+        "minLength": 18,
+        "maxLength": 34
+      },
+      {
+        "correct": "限度や予定を超えること。また、大げさな様子。「オーバーコート」の略。",
+        "wrong": [
+          "体をもんで、疲れや凝りをほぐすこと。",
+          "一度活動を離れたり、勢いが衰えたりした後、元の地位・状態に戻ること。",
+          "夢や感傷に満ちた、甘い雰囲気がある様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          34,
+          18,
+          34,
+          20
+        ],
+        "minLength": 18,
+        "maxLength": 34
+      },
+      {
+        "correct": "限度や予定を超えること。また、大げさな様子。「オーバーコート」の略。",
+        "wrong": [
+          "一組の物。また、機械や道具などを使えるように準備・調整すること。舞台などの装置。",
+          "世界的な規模に広がる様子。",
+          "触れること。また、絵画や演奏などの表現の仕方。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          34,
+          40,
+          13,
+          23
+        ],
+        "minLength": 13,
+        "maxLength": 40
+      }
+    ]
+  },
+  {
+    "id": 663,
+    "word": "オーバー",
+    "exampleIndex": 1,
+    "example": "時間をオーバーして会議が長引き、予定していた議題を消化できなかった。",
+    "samples": [
+      {
+        "correct": "限度や予定を超えること。また、大げさな様子。「オーバーコート」の略。",
+        "wrong": [
+          "世界的な規模に広がる様子。",
+          "体をもんで、疲れや凝りをほぐすこと。",
+          "触れること。また、絵画や演奏などの表現の仕方。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          34,
+          13,
+          18,
+          23
+        ],
+        "minLength": 13,
+        "maxLength": 34
+      },
+      {
+        "correct": "限度や予定を超えること。また、大げさな様子。「オーバーコート」の略。",
+        "wrong": [
+          "後ろ、背景。また、後退することや後ろ盾となる人・組織。",
+          "触れること。また、絵画や演奏などの表現の仕方。",
+          "一組の物。また、機械や道具などを使えるように準備・調整すること。舞台などの装置。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          34,
+          27,
+          23,
+          40
+        ],
+        "minLength": 23,
+        "maxLength": 40
+      },
+      {
+        "correct": "限度や予定を超えること。また、大げさな様子。「オーバーコート」の略。",
+        "wrong": [
+          "一組の物。また、機械や道具などを使えるように準備・調整すること。舞台などの装置。",
+          "後ろ、背景。また、後退することや後ろ盾となる人・組織。",
+          "夢や感傷に満ちた、甘い雰囲気がある様子。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          34,
+          40,
+          27,
+          20
+        ],
+        "minLength": 20,
+        "maxLength": 40
+      }
+    ]
+  },
+  {
+    "id": 1631,
+    "word": "相応",
+    "exampleIndex": 0,
+    "example": "責任ある立場には、それに相応する覚悟と行動が求められる。",
+    "samples": [
+      {
+        "correct": "つり合っていること。ふさわしいこと。",
+        "wrong": [
+          "乱れたものを、きちんと整えること。",
+          "動物などが、ある場所に住んでいること。",
+          "物の間に、他のものを差し入れること。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          17,
+          19,
+          18
+        ],
+        "minLength": 17,
+        "maxLength": 19
+      },
+      {
+        "correct": "つり合っていること。ふさわしいこと。",
+        "wrong": [
+          "栄養などを、体内にとり入れること。",
+          "乱れたものを、きちんと整えること。",
+          "相手に負けまいとして、張り合うこと。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          17,
+          17,
+          18
+        ],
+        "minLength": 17,
+        "maxLength": 18
+      },
+      {
+        "correct": "つり合っていること。ふさわしいこと。",
+        "wrong": [
+          "栄養などを、体内にとり入れること。",
+          "乱れたものを、きちんと整えること。",
+          "動物などが、ある場所に住んでいること。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          17,
+          17,
+          19
+        ],
+        "minLength": 17,
+        "maxLength": 19
+      }
+    ]
+  },
+  {
+    "id": 1631,
+    "word": "相応",
+    "exampleIndex": 1,
+    "example": "収入に相応した生活を送ることが、家計を守る基本である。",
+    "samples": [
+      {
+        "correct": "つり合っていること。ふさわしいこと。",
+        "wrong": [
+          "乱れたものを、きちんと整えること。",
+          "栄養などを、体内にとり入れること。",
+          "物の間に、他のものを差し入れること。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          17,
+          17,
+          18
+        ],
+        "minLength": 17,
+        "maxLength": 18
+      },
+      {
+        "correct": "つり合っていること。ふさわしいこと。",
+        "wrong": [
+          "物の間に、他のものを差し入れること。",
+          "神や人々の前で、固く誓いを述べること。",
+          "相手に負けまいとして、張り合うこと。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          18,
+          19,
+          18
+        ],
+        "minLength": 18,
+        "maxLength": 19
+      },
+      {
+        "correct": "つり合っていること。ふさわしいこと。",
+        "wrong": [
+          "動物などが、ある場所に住んでいること。",
+          "物事が早く進むように、働きかけること。",
+          "相手に負けまいとして、張り合うこと。"
+        ],
+        "note": "",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          19,
+          19,
+          18
+        ],
+        "minLength": 18,
+        "maxLength": 19
+      }
+    ]
+  },
+  {
+    "id": 3337,
+    "word": "一切",
+    "exampleIndex": 0,
+    "example": "当社は、この件に一切関与しておりません。",
+    "samples": [
+      {
+        "correct": "少しも関係していないことを強調する。",
+        "wrong": [
+          "関係する程度が小さいことを示す。",
+          "以前だけ関係していたことを示す。",
+          "これから関係する予定を示す。"
+        ],
+        "note": "一切関与していない — повна відсутність причетності, не просто мала її частка.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          16,
+          16,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 18
+      },
+      {
+        "correct": "少しも関係していないことを強調する。",
+        "wrong": [
+          "関係する程度が小さいことを示す。",
+          "以前だけ関係していたことを示す。",
+          "これから関係する予定を示す。"
+        ],
+        "note": "一切関与していない — повна відсутність причетності, не просто мала її частка.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          16,
+          16,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 18
+      },
+      {
+        "correct": "少しも関係していないことを強調する。",
+        "wrong": [
+          "関係する程度が小さいことを示す。",
+          "以前だけ関係していたことを示す。",
+          "これから関係する予定を示す。"
+        ],
+        "note": "一切関与していない — повна відсутність причетності, не просто мала її частка.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          18,
+          16,
+          16,
+          14
+        ],
+        "minLength": 14,
+        "maxLength": 18
+      }
+    ]
+  },
+  {
+    "id": 3337,
+    "word": "一切",
+    "exampleIndex": 1,
+    "example": "契約に関する費用は、一切こちらで負担いたします。",
+    "samples": [
+      {
+        "correct": "必要な費用をすべて引き受けることを示す。",
+        "wrong": [
+          "必要な費用の一部だけを引き受けることを示す。",
+          "必要な費用を順番に分担することを示す。",
+          "必要な費用を後から決めることを示す。"
+        ],
+        "note": "一切負担する — взяти на себе всі витрати. Тут немає заперечення.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          22,
+          19,
+          18
+        ],
+        "minLength": 18,
+        "maxLength": 22
+      },
+      {
+        "correct": "必要な費用をすべて引き受けることを示す。",
+        "wrong": [
+          "必要な費用の一部だけを引き受けることを示す。",
+          "必要な費用を順番に分担することを示す。",
+          "必要な費用を後から決めることを示す。"
+        ],
+        "note": "一切負担する — взяти на себе всі витрати. Тут немає заперечення.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          22,
+          19,
+          18
+        ],
+        "minLength": 18,
+        "maxLength": 22
+      },
+      {
+        "correct": "必要な費用をすべて引き受けることを示す。",
+        "wrong": [
+          "必要な費用の一部だけを引き受けることを示す。",
+          "必要な費用を順番に分担することを示す。",
+          "必要な費用を後から決めることを示す。"
+        ],
+        "note": "一切負担する — взяти на себе всі витрати. Тут немає заперечення.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          20,
+          22,
+          19,
+          18
+        ],
+        "minLength": 18,
+        "maxLength": 22
+      }
+    ]
+  },
+  {
+    "id": 3345,
+    "word": "散々",
+    "exampleIndex": 0,
+    "example": "散々議論を重ねた末に、案はようやくまとまった。",
+    "samples": [
+      {
+        "correct": "何度も十分以上に行った様子。",
+        "wrong": [
+          "必要な回数にまだ足りない様子。",
+          "一度だけ短く済ませた様子。",
+          "全員が同時に始めた様子。"
+        ],
+        "note": "散々議論を重ねる — дуже багато обговорювати; не просто «ретельно» як безумовна похвала.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          13,
+          12
+        ],
+        "minLength": 12,
+        "maxLength": 15
+      },
+      {
+        "correct": "何度も十分以上に行った様子。",
+        "wrong": [
+          "必要な回数にまだ足りない様子。",
+          "一度だけ短く済ませた様子。",
+          "全員が同時に始めた様子。"
+        ],
+        "note": "散々議論を重ねる — дуже багато обговорювати; не просто «ретельно» як безумовна похвала.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          13,
+          12
+        ],
+        "minLength": 12,
+        "maxLength": 15
+      },
+      {
+        "correct": "何度も十分以上に行った様子。",
+        "wrong": [
+          "必要な回数にまだ足りない様子。",
+          "一度だけ短く済ませた様子。",
+          "全員が同時に始めた様子。"
+        ],
+        "note": "散々議論を重ねる — дуже багато обговорювати; не просто «ретельно» як безумовна похвала.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          14,
+          15,
+          13,
+          12
+        ],
+        "minLength": 12,
+        "maxLength": 15
+      }
+    ]
+  },
+  {
+    "id": 3345,
+    "word": "散々",
+    "exampleIndex": 1,
+    "example": "彼は会議で散々に批判され、反論できなかった。",
+    "samples": [
+      {
+        "correct": "非常に厳しい非難を受けた様子。",
+        "wrong": [
+          "軽い注意を一度受けただけの様子。",
+          "非難の内容がまだ明らかでない様子。",
+          "相手の意見を全面的に認めた様子。"
+        ],
+        "note": "散々に批判される — зазнати дуже жорсткої критики; тут прислівникове вживання, не 散々な結果.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          16,
+          17,
+          16
+        ],
+        "minLength": 15,
+        "maxLength": 17
+      },
+      {
+        "correct": "非常に厳しい非難を受けた様子。",
+        "wrong": [
+          "軽い注意を一度受けただけの様子。",
+          "非難の内容がまだ明らかでない様子。",
+          "相手の意見を全面的に認めた様子。"
+        ],
+        "note": "散々に批判される — зазнати дуже жорсткої критики; тут прислівникове вживання, не 散々な結果.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          16,
+          17,
+          16
+        ],
+        "minLength": 15,
+        "maxLength": 17
+      },
+      {
+        "correct": "非常に厳しい非難を受けた様子。",
+        "wrong": [
+          "軽い注意を一度受けただけの様子。",
+          "非難の内容がまだ明らかでない様子。",
+          "相手の意見を全面的に認めた様子。"
+        ],
+        "note": "散々に批判される — зазнати дуже жорсткої критики; тут прислівникове вживання, не 散々な結果.",
+        "wrongCount": 3,
+        "uniqueWrong": true,
+        "correctExcluded": true,
+        "optionLengths": [
+          15,
+          16,
+          17,
+          16
+        ],
+        "minLength": 15,
+        "maxLength": 17
+      }
+    ]
+  }
+]\n

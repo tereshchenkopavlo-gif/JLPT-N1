@@ -1,0 +1,640 @@
+{
+  "pass": true,
+  "candidate_sha256": "be34fdfaf182848eb71bfb36978cce3ed2ca8d5fd6d2498a5156aaeaab96073d",
+  "candidate_bytes": 6953292,
+  "counts": {
+    "vocabulary": 3914,
+    "grammar": 130,
+    "lexicalPairs": 859,
+    "uniqueIds": 3914,
+    "allDetails": true,
+    "allPos": true,
+    "storageKey": "choba_n1uk_storage_v1",
+    "customVocabKey": "choba_n1_custom_vocab"
+  },
+  "scope_count": 12,
+  "poolImpact": [
+    {
+      "id": 2734,
+      "word": "来る",
+      "posBefore": [
+        "動詞"
+      ],
+      "posAfter": [
+        "連体詞"
+      ],
+      "readingBefore": 6,
+      "readingAfter": 0,
+      "clozeBefore": 705,
+      "clozeAfter": 2,
+      "readingEligibleBefore": true,
+      "readingEligibleAfter": false,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": false,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "いたる",
+        "あおる",
+        "あせる",
+        "あまる",
+        "いばる",
+        "いる"
+      ],
+      "readingOptionsAfter": []
+    },
+    {
+      "id": 544,
+      "word": "いい加減",
+      "posBefore": [
+        "ナ形"
+      ],
+      "posAfter": [
+        "ナ形"
+      ],
+      "readingBefore": 0,
+      "readingAfter": 0,
+      "clozeBefore": 292,
+      "clozeAfter": 292,
+      "readingEligibleBefore": false,
+      "readingEligibleAfter": false,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [],
+      "readingOptionsAfter": []
+    },
+    {
+      "id": 550,
+      "word": "わがまま",
+      "posBefore": [
+        "ナ形"
+      ],
+      "posAfter": [
+        "ナ形"
+      ],
+      "readingBefore": 0,
+      "readingAfter": 0,
+      "clozeBefore": 292,
+      "clozeAfter": 292,
+      "readingEligibleBefore": false,
+      "readingEligibleAfter": false,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [],
+      "readingOptionsAfter": []
+    },
+    {
+      "id": 552,
+      "word": "確か",
+      "posBefore": [
+        "ナ形"
+      ],
+      "posAfter": [
+        "ナ形"
+      ],
+      "readingBefore": 5,
+      "readingAfter": 5,
+      "clozeBefore": 292,
+      "clozeAfter": 292,
+      "readingEligibleBefore": true,
+      "readingEligibleAfter": true,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "おろか",
+        "かすか",
+        "さだか",
+        "ひそか",
+        "ゆたか"
+      ],
+      "readingOptionsAfter": [
+        "おろか",
+        "かすか",
+        "さだか",
+        "ひそか",
+        "ゆたか"
+      ]
+    },
+    {
+      "id": 557,
+      "word": "結構",
+      "posBefore": [
+        "ナ形"
+      ],
+      "posAfter": [
+        "ナ形"
+      ],
+      "readingBefore": 1,
+      "readingAfter": 1,
+      "clozeBefore": 292,
+      "clozeAfter": 292,
+      "readingEligibleBefore": false,
+      "readingEligibleAfter": false,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "のうこう"
+      ],
+      "readingOptionsAfter": [
+        "のうこう"
+      ]
+    },
+    {
+      "id": 588,
+      "word": "独特",
+      "posBefore": [
+        "ナ形"
+      ],
+      "posAfter": [
+        "ナ形"
+      ],
+      "readingBefore": 1,
+      "readingAfter": 1,
+      "clozeBefore": 292,
+      "clozeAfter": 292,
+      "readingEligibleBefore": false,
+      "readingEligibleAfter": false,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "どんよく"
+      ],
+      "readingOptionsAfter": [
+        "どんよく"
+      ]
+    },
+    {
+      "id": 599,
+      "word": "無礼",
+      "posBefore": [
+        "ナ形"
+      ],
+      "posAfter": [
+        "ナ形"
+      ],
+      "readingBefore": 6,
+      "readingAfter": 6,
+      "clozeBefore": 292,
+      "clozeAfter": 292,
+      "readingEligibleBefore": true,
+      "readingEligibleAfter": true,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "いがい",
+        "いだい",
+        "ささい",
+        "ひれつ",
+        "ぶなん",
+        "まれ"
+      ],
+      "readingOptionsAfter": [
+        "いがい",
+        "いだい",
+        "ささい",
+        "ひれつ",
+        "ぶなん",
+        "まれ"
+      ]
+    },
+    {
+      "id": 644,
+      "word": "当然",
+      "posBefore": [
+        "副詞"
+      ],
+      "posAfter": [
+        "副詞"
+      ],
+      "readingBefore": 6,
+      "readingAfter": 6,
+      "clozeBefore": 276,
+      "clozeAfter": 276,
+      "readingEligibleBefore": true,
+      "readingEligibleAfter": true,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "とうぶん",
+        "とうめん",
+        "とつぜん",
+        "いぜん",
+        "ぜんぜん",
+        "だんぜん"
+      ],
+      "readingOptionsAfter": [
+        "とうぶん",
+        "とうめん",
+        "とつぜん",
+        "いぜん",
+        "ぜんぜん",
+        "だんぜん"
+      ]
+    },
+    {
+      "id": 663,
+      "word": "オーバー",
+      "posBefore": [
+        "名詞"
+      ],
+      "posAfter": [
+        "名詞"
+      ],
+      "readingBefore": 0,
+      "readingAfter": 0,
+      "clozeBefore": 2269,
+      "clozeAfter": 2269,
+      "readingEligibleBefore": false,
+      "readingEligibleAfter": false,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [],
+      "readingOptionsAfter": []
+    },
+    {
+      "id": 1631,
+      "word": "相応",
+      "posBefore": [
+        "名詞"
+      ],
+      "posAfter": [
+        "名詞"
+      ],
+      "readingBefore": 6,
+      "readingAfter": 6,
+      "clozeBefore": 2269,
+      "clozeAfter": 2269,
+      "readingEligibleBefore": true,
+      "readingEligibleAfter": true,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "そうおん",
+        "そうぐう",
+        "そうごう",
+        "そうぞう",
+        "そうとう",
+        "そうどう"
+      ],
+      "readingOptionsAfter": [
+        "そうおん",
+        "そうぐう",
+        "そうごう",
+        "そうぞう",
+        "そうとう",
+        "そうどう"
+      ]
+    },
+    {
+      "id": 3337,
+      "word": "一切",
+      "posBefore": [
+        "副詞"
+      ],
+      "posAfter": [
+        "副詞"
+      ],
+      "readingBefore": 3,
+      "readingAfter": 3,
+      "clozeBefore": 276,
+      "clozeAfter": 276,
+      "readingEligibleBefore": true,
+      "readingEligibleAfter": true,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "いったい",
+        "いっそう",
+        "いまさら"
+      ],
+      "readingOptionsAfter": [
+        "いったい",
+        "いっそう",
+        "いまさら"
+      ]
+    },
+    {
+      "id": 3345,
+      "word": "散々",
+      "posBefore": [
+        "副詞"
+      ],
+      "posAfter": [
+        "副詞"
+      ],
+      "readingBefore": 2,
+      "readingAfter": 2,
+      "clozeBefore": 276,
+      "clozeAfter": 276,
+      "readingEligibleBefore": false,
+      "readingEligibleAfter": false,
+      "clozeEligibleBefore": true,
+      "clozeEligibleAfter": true,
+      "clozeExamplesBefore": [
+        true,
+        true
+      ],
+      "clozeExamplesAfter": [
+        true,
+        true
+      ],
+      "readingOptionsBefore": [
+        "ぜんぜん",
+        "だんぜん"
+      ],
+      "readingOptionsAfter": [
+        "ぜんぜん",
+        "だんぜん"
+      ]
+    }
+  ],
+  "meaningStructurePass": true,
+  "meaningDiagnosticCount": 24,
+  "quiz3345": {
+    "correct": "非常に厳しい非難を受けた様子。",
+    "wrong": [
+      "軽い注意を一度受けただけの様子。",
+      "非難の内容がまだ明らかでない様子。",
+      "相手の意見を全面的に認めた様子。"
+    ],
+    "note": "散々に批判される — зазнати дуже жорсткої критики; тут прислівникове вживання, не 散々な結果."
+  },
+  "rendered": [
+    {
+      "id": 2734,
+      "word": "来る",
+      "title": true,
+      "meaning": true,
+      "pos": "連体詞",
+      "expectedPos": "連体詞",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "来る \n連体詞\n 未習得 🔊\nきたる\nここでは「きたる」。日付の前で、次に来るという意味を表す。「来るべき」は将来訪れるという意味。\nウクライナ語訳\n\nмайбутній, наступний (перед датою); прийти, настати\n\n用法・接続\n\nТут きたる, не звичайне くる.\n\nПеред датою 来る＋дата — «наступного», означальне слово в офіційних оголошеннях.\n\n来るべき＋N — майбутній, той, що має настати.\n\nНе змішувати дві вимови у вправі.\n\n類義語・意味の近い語\n訪れる\n例文\n来る三月一日に、新本社への移転記念式典が開催される。\nПершого березня відбудеться церемонія з нагоди переїзду до нової головної будівлі.\n来るべき社会の変化に備え、必要な改革について会議で話し合った。\nНа нараді обговорили необхідні реформи для підготовки до майбутніх суспільних змін.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 544,
+      "word": "いい加減",
+      "title": true,
+      "meaning": true,
+      "pos": "ナ形",
+      "expectedPos": "ナ形",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "いい加減 \nナ形\n 未習得 🔊\nいいかげん\n対応や仕事ぶりが無責任・不十分であるさま。なお、「いい加減」は文脈により『ほどほど』を意味することもある。\nウクライナ語訳\n\nнедбалий, зроблений абияк; також безвідповідальний (いい加減にして — досить уже!)\n\n用法・接続\n\nいい加減な仕事・情報 — недбала робота, ненадійні відомості.\n\nいい加減にして — «досить уже»;\n\nいい加減疲れた — уже добряче втомився.\n\nいい加減 може також означати належну міру, але в оцінці роботи зазвичай негативне.\n\n類義語・意味の近い語\n適当ずさん\n意味・用法の違い\n適当\n\nПеретинаються в негативній оцінці недбалості.\n\nいい加減な виразно докоряє безвідповідальності; 適当な без контексту може також означати цілком підхожий.\n\nМоделі: いい加減な説明; 適当な返事.\n\nいい加減な説明では納得できない。\n— Недбале пояснення не переконує.\n内容を読まずに適当な返事をした。\n— Не прочитавши змісту, відповів абияк.\n\nУ другому контексті можлива заміна на いい加減な; позитивне 適当な人材 не означає безвідповідального працівника.\n\n例文\nいい加減な仕事ぶりが原因で、取引先からの信頼を失った。\nЧерез недбалу роботу він утратив довіру партнера.\nいい加減な情報に基づいて判断を下すことは避けなければならない。\nНеобхідно уникати рішень, заснованих на ненадійній інформації.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 550,
+      "word": "わがまま",
+      "title": true,
+      "meaning": true,
+      "pos": "ナ形",
+      "expectedPos": "ナ形",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "わがまま \nナ形\n 未習得 🔊\nわがまま\n他人のことを考えず、自分の都合や欲求を押し通す様子。\nウクライナ語訳\n\nегоїстичний, примхливий; такий, що наполягає на своїх бажаннях без огляду на інших\n\n用法・接続\n\nわがままな人・要求 — егоцентрична людина, вимоги без огляду на інших.\n\nУкраїнське «примхливий» не завжди передає егоїзм; слово може бути сильним докором.\n\n～を言う: わがままを言う — висувати такі вимоги.\n\n例文\nわがままな要求を繰り返す顧客への対応が、現場の大きな負担となっている。\nРобота з клієнтами, які раз у раз висувають егоїстичні вимоги, сильно навантажує працівників.\nわがままな振る舞いは、チームワークを乱す原因になる。\nПоведінка без огляду на інших порушує командну взаємодію.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 552,
+      "word": "確か",
+      "title": true,
+      "meaning": true,
+      "pos": "ナ形",
+      "expectedPos": "ナ形",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "確か \nナ形\n 未習得 🔊\nたしか\n間違いなく、しっかりしている様子。信頼できる。\nウクライナ語訳\n\nнадійний або достовірний; такий, у чому є достатня впевненість\n\n用法・接続\n\n確かな情報・技術 — достовірна інформація, надійна майстерність.\n\n～ことは確かだ — певно, що…;\n\n確かに — справді;\n\n確か — якщо правильно пам’ятаю.\n\nОстаннє не виражає абсолютної впевненості.\n\n類義語・意味の近い語\n確実\n意味・用法の違い\n確実\n\nОбидва передають надійність і певність.\n\n確かな часто про достовірність або перевірену якість, 確実な — про певний результат чи дію без помилки.\n\nМоделі: 確かな情報; 成功が確実だ.\n\n確かな情報に基づいて判断した。\n— Вирішили на основі достовірної інформації.\nこの点差なら勝利は確実だ。\n— За такого відриву перемога вже не викликає сумніву.\n\n確かな証拠／確実な証拠 близькі; прислівникове 確か «якщо правильно пам’ятаю» не можна замінити на 確実に.\n\n例文\n確かな根拠に基づいて、慎重に判断を下すべきだ。\nРішення слід ухвалювати обачно, спираючись на надійні підстави.\n彼の確かな腕前は、業界内でも広く認められている。\nЙого безсумнівну майстерність широко визнають у галузі.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 557,
+      "word": "結構",
+      "title": true,
+      "meaning": true,
+      "pos": "ナ形",
+      "expectedPos": "ナ形",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "結構 \nナ形\n 未習得 🔊\nけっこう\n立派で好ましいさま。十分であるさま。また、程度や数量がかなり大きいさま。「結構です」は承諾にも辞退にも用いる。\nウクライナ語訳\n\nчудовий; достатній або прийнятний; чималий за кількістю; 結構です також може бути ввічливою відмовою\n\n用法・接続\n\n結構な品 — чудова річ;\n\n結構な量 — чимала кількість.\n\n結構です може підтвердити прийнятність або відмовити від пропозиції; потрібен контекст.\n\n結構難しい — досить складно, тут 結構 прислівник без な.\n\n例文\n結構なお品をいただき、誠にありがとうございます。\nЩиро дякую за такий чудовий подарунок.\n追加の資料は結構ですので、お気遣いなさらないでください。\nДодаткових матеріалів не потрібно, тож не турбуйтеся про це.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 588,
+      "word": "独特",
+      "title": true,
+      "meaning": true,
+      "pos": "ナ形",
+      "expectedPos": "ナ形",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "独特 \nナ形\n 未習得 🔊\nどくとく\n他と違う、そのものに特有の性質がある様子。\nウクライナ語訳\n\nсвоєрідний, характерний лише для когось або чогось\n\n用法・接続\n\n独特な／独特の表現 — своєрідний спосіб вираження;\n\n独特の香り — характерний аромат.\n\nОбидві форми な й の можливі.\n\nНе обов’язково абсолютна світова унікальність: важлива впізнавана особливість; 独自の також наголошує на самостійності розробки.\n\n例文\n同社の独特な企業文化は、他社にはまねしにくい強みとなっている。\nСвоєрідна корпоративна культура компанії стала перевагою, яку іншим важко відтворити.\n彼は独特な視点から、市場の動向を鋭く分析した。\nЗі своєї незвичної точки зору він проникливо проаналізував ринкові тенденції.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 599,
+      "word": "無礼",
+      "title": true,
+      "meaning": true,
+      "pos": "ナ形",
+      "expectedPos": "ナ形",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "無礼 \nナ形\n 未習得 🔊\nぶれい\n礼儀に欠け、失礼な様子。\nウクライナ語訳\n\nнечемний, грубий, неввічливий\n\n用法・接続\n\n無礼な態度・発言／無礼を詫びる — нечемна поведінка, перепросити за нечемність.\n\nСильніше й формальніше за побутове 失礼; останнє також уживається у формулах ввічливості 失礼します, де 無礼 не замінює його.\n\n例文\n初対面の相手に対して無礼な態度を取ることは、厳に慎むべきだ。\nСлід суворо утримуватися від нечемного поводження з людиною, яку бачиш уперше.\n無礼な言動に対し、被害者は謝罪を求めた。\nУ відповідь на грубі слова й поведінку ображена людина зажадала вибачень.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 644,
+      "word": "当然",
+      "title": true,
+      "meaning": true,
+      "pos": "副詞",
+      "expectedPos": "副詞",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "当然 \n副詞\n 未習得 🔊\nとうぜん\nそうなるのが当たり前である様子。\nウクライナ語訳\n\nприродно, цілком очікувано; як належить за обставинами\n\n用法・接続\n\nОсновне прислівникове вживання: 当然、結果が変わる／当然そう思う — природно, звісно.\n\nОкреме 形動-вживання: 当然の結果／当然だ／当然の権利 — закономірний результат, це природно, належне право.\n\nОцінює очікуваність або належність, а не просто підтверджує факт; もちろん частіше є відповіддю «звісно».\n\n例文\n調査結果が異なれば、結論も当然変わってくる。\nЯкщо результати дослідження різняться, то й висновок, природно, змінюється.\n当然、顧客の個人情報は厳重に管理されなければならない。\nЗвісно, персональні дані клієнтів потрібно зберігати під суворим контролем.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 663,
+      "word": "オーバー",
+      "title": true,
+      "meaning": true,
+      "pos": "名詞",
+      "expectedPos": "名詞",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "オーバー \n名詞\n 未習得 🔊\n限度や予定を超えること。また、大げさな様子。「オーバーコート」の略。\nウクライナ語訳\n\nперевищення; ～する — перевищувати; ～な — перебільшений; також пальто\n\n用法・接続\n\n予算・時間をオーバーする — перевищити бюджет чи час.\n\nオーバーな話 — перебільшена розповідь: інша модель із な.\n\nІменник також може означати пальто як скорочення オーバーコート; поточні приклади про перевищення.\n\n例文\n今月の経費が予算をオーバーしたため、原因を精査する必要がある。\nВитрати цього місяця перевищили бюджет, тому потрібно докладно з’ясувати причини.\n時間をオーバーして会議が長引き、予定していた議題を消化できなかった。\nНарада затяглася понад відведений час, і всі заплановані питання розглянути не вдалося.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 1631,
+      "word": "相応",
+      "title": true,
+      "meaning": true,
+      "pos": "名詞",
+      "expectedPos": "名詞",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "相応 \n名詞\n 未習得 🔊\nそうおう\nつり合っていること。ふさわしいこと。\nウクライナ語訳\n\nвідповідність становищу чи можливостям; доречність, співмірність\n\n用法・接続\n\nІменник і な-прикметник; Nに相応する／相応した、年齢相応の行動.\n\nВідповідність рівню, можливостям чи становищу.\n\nДля точної числової еквівалентності звичайно 相当する; 相応 наголошує на доречності й співмірності.\n\n類義語・意味の近い語\n相当\n意味・用法の違い\n相当\n\nОбидва можуть виражати відповідність: Nに相応する／相当する.\n\n相応 — доречність щодо становища чи можливостей;\n\n相当 — відповідність також за числом, вартістю, функцією.\n\n年齢に相応した役割を任せた。\n— Доручили роль, відповідну вікові.\nこれは三日分の賃金に相当する。\n— Це дорівнює заробітку за три дні.\n\nДля доречної винагороди можливе зближення; точну грошову еквівалентність звичайно виражають 相当.\n\n例文\n責任ある立場には、それに相応する覚悟と行動が求められる。\nВідповідальна посада вимагає відповідної рішучості та вчинків.\n収入に相応した生活を送ることが、家計を守る基本である。\nЖити відповідно до своїх доходів — основа ощадливого ведення сімейного бюджету.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 3337,
+      "word": "一切",
+      "title": true,
+      "meaning": true,
+      "pos": "副詞",
+      "expectedPos": "副詞",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "一切 \n副詞\n 未習得 🔊\nいっさい\nすべて。全部。(下に否定を伴って)まったく。\nウクライナ語訳\n\nусе, будь-що; (із запереченням) зовсім\n\n用法・接続\n\n一切＋заперечення — зовсім нічого;\n\n費用の一切／一切負担する — усе повністю.\n\nПозитивне речення не треба штучно заперечувати.\n\n類義語・意味の近い語\n全然\n例文\n当社は、この件に一切関与しておりません。\nНаша компанія взагалі не причетна до цієї справи.\n契約に関する費用は、一切こちらで負担いたします。\nУсі витрати, пов’язані з договором, ми беремо на себе.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    },
+    {
+      "id": 3345,
+      "word": "散々",
+      "title": true,
+      "meaning": true,
+      "pos": "副詞",
+      "expectedPos": "副詞",
+      "usageData": true,
+      "usageVisible": false,
+      "examples": true,
+      "translations": true,
+      "visibleText": "散々 \n副詞\n 未習得 🔊\nさんざん\n徹底的に。ひどく。さんざんな目にあうさま。\nウクライナ語訳\n\nдуже багато, до виснаження; украй погано\n\n用法・接続\n\n散々議論を重ねる — дуже багато, до виснаження;\n\n散々に批判される — зазнати жорсткої критики;\n\n散々な結果 — украй поганий результат (形動-вживання).\n\nНе нейтральне схвалення ґрунтовності в усіх контекстах.\n\n例文\n散々議論を重ねた末に、案はようやくまとまった。\nПісля довгих і численних дискусій пропозицію нарешті узгодили.\n彼は会議で散々に批判され、反論できなかった。\nНа нараді його жорстко розкритикували, і він не зміг заперечити.\n＋ 比較リストに追加\n✓ 覚えた（S）\n⚠ 苦手（復習）"
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "bodyWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "scrollWidth": 412,
+      "bodyWidth": 412,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "bodyWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "storage": {
+    "roundTrip": true,
+    "restored": true
+  },
+  "pageErrors": [],
+  "unchanged": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true,
+    "storageKeys": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "technical_verification": "passed",
+  "chromium_verification": "passed",
+  "semantic_quiz_review": "pending_manual",
+  "registry_credit_applied": false,
+  "main_publication": false,
+  "workflow_run_id": 43593551067
+}
