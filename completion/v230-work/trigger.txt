@@ -1,1 +1,1 @@
-Run v230 C11 baseline diagnostics against published v229; no data or registry changes; 2026-11-15T03:05+09:00
+Run v230 C11 baseline diagnostics against published v229 after workflow registration; no data or registry changes; 2026-11-15T03:09+09:00
