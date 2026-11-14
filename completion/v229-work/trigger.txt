@@ -1,1 +1,1 @@
-Rerun v229 after manual semantic review: rebalance ID2734 and ID544 options; distinguish ID3345 first-context distractors; finalize 24-context review and registry; parent e73b06ad034154f5f94b3185e339c6372389560f; 2026-11-15T02:18+09:00
+Rerun v229 after fixing four Python syntax tokens in prepare.py; execute semantic-review.json acceptance for all 24 contexts; update review-register and checkpoint; 2026-11-15T02:31+09:00
