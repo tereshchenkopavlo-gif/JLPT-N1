@@ -1,1 +1,1 @@
-C11 meaning-quiz semantic acceptance rerun after exact-example override corrections; parent 7fae8a02105d5057ce7c7372da621e696c8d1938; 2026-11-14T21:30+09:00
+Rerun v229 C11 after balancing ID3345 first-example meaning options; parent 082cdbe54b5e05b282bf15af142ef172aea5c964; 2026-11-14T21:35+09:00
