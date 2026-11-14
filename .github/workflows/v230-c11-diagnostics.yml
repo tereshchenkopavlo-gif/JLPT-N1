@@ -1,4 +1,4 @@
-name: JLPT N1 v230 C11 diagnostics
+name: JLPT N1 v230 C11 POS and meaning review
 on:
   push:
     branches:
@@ -11,36 +11,48 @@ concurrency:
   group: jlpt-n1-v230-c11
   cancel-in-progress: false
 jobs:
-  diagnose:
+  verify:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
           ref: work/v230-c11-next-blockers
           fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check v230 diagnostic script
+      - name: Reproduce v230 from exact published v229
+        run: |
+          python3 -m py_compile completion/v230-work/prepare.py
+          python3 completion/v230-work/prepare.py
+      - name: Check Chromium verifier
         run: node --check completion/v230-work/diagnose.cjs
       - name: Install Chromium
         run: |
           npm install --no-save playwright@1.56.1
           npx playwright install --with-deps chromium
           sudo apt-get install -y fonts-noto-cjk
-      - name: Diagnose POS pools, meaning options, cards and progress on v229
+      - name: Verify POS, meaning quiz, pools, cards and progress
         run: node completion/v230-work/diagnose.cjs
-      - name: Save v230 diagnostic evidence to work branch
+      - name: Finalize author acceptance, registry and evidence
+        run: python3 completion/v230-work/finalize.py
+      - name: Save verified candidate and evidence to work branch
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+actions@users.noreply.github.com"
-          git add completion/v230-work/
-          git commit -m "Save v230 C11 baseline diagnostics"
+          git add JLPT_N1_ukrainian_reading_v230.html JLPT_N1_v230_audit.md completion/review-register.csv completion/v230-work/
+          git commit -m "Save v230 C11 POS and meaning review"
           git push origin HEAD:work/v230-c11-next-blockers
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: jlpt-n1-v230-c11-diagnostics
-          path: completion/v230-work/
+          name: jlpt-n1-v230-c11-review-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v230.html
+            JLPT_N1_v230_audit.md
+            completion/v230-work/
           if-no-files-found: warn
