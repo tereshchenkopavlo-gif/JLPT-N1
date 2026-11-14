@@ -31,7 +31,29 @@
     "do not broaden a card to unrelated dictionary senses solely to match a global POS label",
     "keep v153 pilot credit limited to documented IDs 121-320"
   ],
-  "status": "preaudit only; no card data, POS-map, quiz payloads or registry rows changed; no author credit",
+  "status": "baseline diagnostics complete; manual author review and POS/pool decisions pending; no card data or registry changes; no author credit",
   "pilot_credit_applied": 0,
-  "main_publication": false
+  "main_publication": false,
+  "diagnostic_run_id": 43622947862,
+  "diagnostic_status": "success",
+  "diagnostic_only": true,
+  "diagnostic_counts": {
+    "scope_count": 12,
+    "meaning_contexts": 24,
+    "meaning_structure_pass": true,
+    "meaning_length_pass": false,
+    "length_cue_warnings": 2,
+    "reviewed_override_coverage": 2,
+    "rendered_cards": 12,
+    "responsive_widths": [
+      360,
+      412,
+      1280
+    ],
+    "responsive_overflow": false,
+    "storage_round_trip": true,
+    "storage_restored": true,
+    "page_errors": 0
+  },
+  "author_credit_applied": 0
 }
