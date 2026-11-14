@@ -70,7 +70,7 @@ if (len(vocab), len(grammar), len(details), len(pos), len(pairs)) != (3914, 130,
     raise RuntimeError("base record counts do not match approved scope")
 if len({int(x["id"]) for x in vocab}) != 3914:
     raise RuntimeError("duplicate vocabulary IDs")
-if len(reading_overrides) != 1:
+if len(reading_overrides) != 4:
     raise RuntimeError("unexpected baseline reviewed reading override count")
 
 by_id = {str(x["id"]): x for x in vocab}
