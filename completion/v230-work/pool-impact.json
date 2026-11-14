@@ -1,0 +1,348 @@
+[
+  {
+    "id": 3363,
+    "word": "相当",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3375,
+    "word": "当面",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 4,
+    "readingAfter": 4,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": true,
+    "readingEligibleAfter": true,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [
+      "とうぜん",
+      "とうぶん",
+      "とうてい",
+      "とつぜん"
+    ],
+    "readingOptionsAfter": [
+      "とうぜん",
+      "とうぶん",
+      "とうてい",
+      "とつぜん"
+    ]
+  },
+  {
+    "id": 3417,
+    "word": "だぶだぶ",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3441,
+    "word": "とろとろ",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3444,
+    "word": "どろどろ",
+    "posBefore": [
+      "副詞"
+    ],
+    "posAfter": [
+      "副詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 276,
+    "clozeAfter": 276,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3525,
+    "word": "オートマチック",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3561,
+    "word": "ジャンボ",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3565,
+    "word": "タイムリー",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3569,
+    "word": "コマーシャル",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3594,
+    "word": "ストレート",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3636,
+    "word": "プライベート",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  },
+  {
+    "id": 3646,
+    "word": "モダン",
+    "posBefore": [
+      "名詞"
+    ],
+    "posAfter": [
+      "名詞"
+    ],
+    "readingBefore": 0,
+    "readingAfter": 0,
+    "clozeBefore": 2269,
+    "clozeAfter": 2269,
+    "readingEligibleBefore": false,
+    "readingEligibleAfter": false,
+    "clozeEligibleBefore": true,
+    "clozeEligibleAfter": true,
+    "clozeExamplesBefore": [
+      true,
+      true
+    ],
+    "clozeExamplesAfter": [
+      true,
+      true
+    ],
+    "readingOptionsBefore": [],
+    "readingOptionsAfter": []
+  }
+]
