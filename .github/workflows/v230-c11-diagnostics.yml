@@ -5,6 +5,11 @@ on:
       - work/v230-c11-next-blockers
     paths:
       - completion/v230-work/trigger.txt
+  pull_request:
+    branches:
+      - main
+    paths:
+      - completion/v230-work/trigger.txt
 permissions:
   contents: write
 concurrency:
@@ -26,7 +31,7 @@ jobs:
           node-version: '22'
       - name: Reproduce v230 from exact published v229
         run: |
-          python3 -m py_compile completion/v230-work/prepare.py
+          python3 -m py_compile completion/v230-work/prepare.py completion/v230-work/finalize.py
           python3 completion/v230-work/prepare.py
       - name: Check Chromium verifier
         run: node --check completion/v230-work/diagnose.cjs
