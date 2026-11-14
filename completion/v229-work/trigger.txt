@@ -1,3 +1,4 @@
 Run v229 C11 POS-map verification after prepare/browser/finalize fixes.
 Retry on pinned Ubuntu 24.04 runner.
 Retry with workflow file pinned to Ubuntu 24.04.
+Retry with detailed card-render diagnostics.
