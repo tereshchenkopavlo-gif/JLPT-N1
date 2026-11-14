@@ -1,0 +1,31 @@
+{
+  "checkpoint": "v229-c11-pos-map",
+  "created": "2026-11-14",
+  "base_main_sha": "bd66e3b3f01ae669bb4f3305d3f6652efb5d42f3",
+  "base_html": "JLPT_N1_ukrainian_reading_v228.html",
+  "base_html_sha256": "189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8",
+  "scope_ids": [
+    2734,
+    544,
+    550,
+    552,
+    557,
+    588,
+    599,
+    644,
+    663,
+    1631,
+    3337,
+    3345
+  ],
+  "prior_status": "v228 published; author credit 3885/3914; 28 C11 blockers",
+  "plan": "Review canonical POS, exact example functions, and reading/cloze/meaning quiz pools. Candidate changes limited to ID2734 POS map; ID644 examples/usage; ID3345 example/usage and matching byExample quiz.",
+  "guardrails": [
+    "3914 vocabulary records, 130 grammar constructions, 859 lexical pairs and all IDs unchanged",
+    "no learning algorithm or scheduler changes",
+    "no progress storage keys/schema changes",
+    "no forced reading/cloze distractors below three unique choices",
+    "v153 pilot credit limited to IDs 121-320"
+  ],
+  "status": "checkpoint prepared; candidate and browser diagnostics pending"
+}
