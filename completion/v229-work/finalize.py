@@ -10,7 +10,7 @@ checkpoint_path = work / "checkpoint.json"
 checkpoint = json.loads(checkpoint_path.read_text(encoding="utf-8"))
 checkpoint["technical_verification"] = "passed"
 checkpoint["chromium_verification"] = "passed"
-checkpoint["meaning_quiz_structure"] = "three unique distractors and correct-answer exclusion verified; semantic review pending"
+checkpoint["meaning_quiz_structure"] = "three unique distractors, correct-answer exclusion and max/min option-length ratio <=1.5 verified; semantic review pending"
 checkpoint["workflow_run_id"] = int(os.environ.get("GITHUB_RUN_ID", "0"))
 checkpoint["status"] = "candidate and technical checks passed; manual semantic review of meaning-quiz diagnostics pending; no registry credit or main publication"
 checkpoint_path.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
