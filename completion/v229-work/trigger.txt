@@ -1,1 +1,1 @@
-Run v229 C11 POS-map verification from exact v228 baseline.
+Run v229 C11 POS-map verification after prepare/browser/finalize fixes.
