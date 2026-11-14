@@ -1,0 +1,93 @@
+{
+  "pass": true,
+  "base_version": "v228",
+  "base_main_sha": "bd66e3b3f01ae669bb4f3305d3f6652efb5d42f3",
+  "base_html": "JLPT_N1_ukrainian_reading_v228.html",
+  "base_sha256": "189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8",
+  "base_bytes": 6952984,
+  "candidate_version": "v229",
+  "candidate_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "candidate_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb",
+  "candidate_bytes": 6960249,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "scope_ids": [
+    2734,
+    544,
+    550,
+    552,
+    557,
+    588,
+    599,
+    644,
+    663,
+    1631,
+    3337,
+    3345
+  ],
+  "pos_updates": {
+    "2734": {
+      "before": [
+        "動詞"
+      ],
+      "after": [
+        "連体詞"
+      ]
+    }
+  },
+  "detail_updates": {
+    "644": [
+      "examples[0]",
+      "examples[1]",
+      "exampleTranslations[0]",
+      "exampleTranslations[1]",
+      "usage"
+    ],
+    "3345": [
+      "examples[1]",
+      "exampleTranslations[1]",
+      "usage"
+    ]
+  },
+  "meaning_quiz_updates": {
+    "v_3337": {
+      "byExample_keys_before": [
+        "契約に関する費用は、一切こちらで負担いたします。"
+      ],
+      "byExample_keys_after": [
+        "契約に関する費用は、一切こちらで負担いたします。",
+        "当社は、この件に一切関与しておりません。"
+      ]
+    },
+    "v_3345": {
+      "old_byExample_key": "天候に恵まれず、散々な結果に終わった遠征だった。",
+      "new_byExample_key": "彼は会議で散々に批判され、反論できなかった。",
+      "global_correct_updated": true
+    },
+    "added": [
+      "v_1631",
+      "v_2734",
+      "v_544",
+      "v_550",
+      "v_552",
+      "v_557",
+      "v_588",
+      "v_599",
+      "v_644",
+      "v_663"
+    ]
+  },
+  "protected": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true,
+    "storage_keys_and_learning_engine": "byte-identical outside the three JSON blocks and document title"
+  },
+  "exact_rollback": true,
+  "full_card_credit_pending_browser_and_manual_quiz_review": true
+}
