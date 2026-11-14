@@ -6,9 +6,9 @@
   "base_sha256": "189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8",
   "base_bytes": 6952984,
   "candidate_version": "v229",
-  "candidate_sha256": "be34fdfaf182848eb71bfb36978cce3ed2ca8d5fd6d2498a5156aaeaab96073d",
-  "candidate_blob_sha": "419214951ad7e545ee109e47c12fe5ec3b482976",
-  "candidate_bytes": 6953292,
+  "candidate_sha256": "7814a681bec7ee71b41c753814586d0fe0f69daea5a6aca404d6c8bdd27e5475",
+  "candidate_blob_sha": "45f2b6ff4547b9f7bfcba788dd02052fd27554fe",
+  "candidate_bytes": 6958445,
   "vocabulary_records": 3914,
   "grammar_records": 130,
   "lexical_pairs": 859,
@@ -55,7 +55,18 @@
     "v_3345": {
       "old_byExample_key": "天候に恵まれず、散々な結果に終わった遠征だった。",
       "new_byExample_key": "彼は会議で散々に批判され、反論できなかった。"
-    }
+    },
+    "added": [
+      "v_1631",
+      "v_2734",
+      "v_544",
+      "v_550",
+      "v_552",
+      "v_557",
+      "v_588",
+      "v_599",
+      "v_663"
+    ]
   },
   "protected": {
     "DEFAULT_VOCAB": true,

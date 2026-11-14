@@ -1,7 +1,7 @@
 {
   "pass": true,
-  "candidate_sha256": "be34fdfaf182848eb71bfb36978cce3ed2ca8d5fd6d2498a5156aaeaab96073d",
-  "candidate_bytes": 6953292,
+  "candidate_sha256": "7814a681bec7ee71b41c753814586d0fe0f69daea5a6aca404d6c8bdd27e5475",
+  "candidate_bytes": 6958445,
   "counts": {
     "vocabulary": 3914,
     "grammar": 130,
@@ -435,15 +435,195 @@
     }
   ],
   "meaningStructurePass": true,
+  "meaningLengthPass": true,
   "meaningDiagnosticCount": 24,
+  "reviewedOverridePass": true,
+  "reviewedOverrideChecks": [
+    {
+      "id": 2734,
+      "exampleIndex": 0,
+      "example": "来る三月一日に、新本社への移転記念式典が開催される。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 2734,
+      "exampleIndex": 1,
+      "example": "来るべき社会の変化に備え、必要な改革について会議で話し合った。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 544,
+      "exampleIndex": 0,
+      "example": "いい加減な仕事ぶりが原因で、取引先からの信頼を失った。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 544,
+      "exampleIndex": 1,
+      "example": "いい加減な情報に基づいて判断を下すことは避けなければならない。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 550,
+      "exampleIndex": 0,
+      "example": "わがままな要求を繰り返す顧客への対応が、現場の大きな負担となっている。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 550,
+      "exampleIndex": 1,
+      "example": "わがままな振る舞いは、チームワークを乱す原因になる。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 552,
+      "exampleIndex": 0,
+      "example": "確かな根拠に基づいて、慎重に判断を下すべきだ。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 552,
+      "exampleIndex": 1,
+      "example": "彼の確かな腕前は、業界内でも広く認められている。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 557,
+      "exampleIndex": 0,
+      "example": "結構なお品をいただき、誠にありがとうございます。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 557,
+      "exampleIndex": 1,
+      "example": "追加の資料は結構ですので、お気遣いなさらないでください。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 588,
+      "exampleIndex": 0,
+      "example": "同社の独特な企業文化は、他社にはまねしにくい強みとなっている。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 588,
+      "exampleIndex": 1,
+      "example": "彼は独特な視点から、市場の動向を鋭く分析した。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 599,
+      "exampleIndex": 0,
+      "example": "初対面の相手に対して無礼な態度を取ることは、厳に慎むべきだ。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 599,
+      "exampleIndex": 1,
+      "example": "無礼な言動に対し、被害者は謝罪を求めた。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 663,
+      "exampleIndex": 0,
+      "example": "今月の経費が予算をオーバーしたため、原因を精査する必要がある。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 663,
+      "exampleIndex": 1,
+      "example": "時間をオーバーして会議が長引き、予定していた議題を消化できなかった。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 1631,
+      "exampleIndex": 0,
+      "example": "責任ある立場には、それに相応する覚悟と行動が求められる。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 1631,
+      "exampleIndex": 1,
+      "example": "収入に相応した生活を送ることが、家計を守る基本である。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 3337,
+      "exampleIndex": 0,
+      "example": "当社は、この件に一切関与しておりません。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 3337,
+      "exampleIndex": 1,
+      "example": "契約に関する費用は、一切こちらで負担いたします。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 3345,
+      "exampleIndex": 0,
+      "example": "散々議論を重ねた末に、案はようやくまとまった。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    },
+    {
+      "id": 3345,
+      "exampleIndex": 1,
+      "example": "彼は会議で散々に批判され、反論できなかった。",
+      "correctMatch": true,
+      "wrongSetMatch": true,
+      "noteMatch": true
+    }
+  ],
   "quiz3345": {
     "correct": "非常に厳しい非難を受けた様子。",
     "wrong": [
-      "軽い注意を一度受けただけの様子。",
-      "非難の内容がまだ明らかでない様子。",
-      "相手の意見を全面的に認めた様子。"
+      "一部の点だけを穏やかに指摘された様子。",
+      "批判を受けず、好意的に評価された様子。",
+      "自分から相手の欠点を厳しく指摘した様子。"
     ],
-    "note": "散々に批判される — зазнати дуже жорсткої критики; тут прислівникове вживання, не 散々な結果."
+    "note": "散々に批判される — зазнати дуже жорсткої критики; тут ідеться про оцінку з боку інших."
   },
   "rendered": [
     {
