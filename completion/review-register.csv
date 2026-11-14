@@ -2732,7 +2732,7 @@ vocab,2730,vocab:2730,reviewed,completion/v161-cards-2701-2740.tsv#2730; author 
 vocab,2731,vocab:2731,reviewed,completion/v161-cards-2701-2740.tsv#2731; author linguistic review
 vocab,2732,vocab:2732,reviewed,completion/v161-cards-2701-2740.tsv#2732; author linguistic review
 vocab,2733,vocab:2733,reviewed,completion/v161-cards-2701-2740.tsv#2733; author linguistic review
-vocab,2734,vocab:2734,pending,
+vocab,2734,vocab:2734,blocked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,2735,vocab:2735,reviewed,completion/v161-cards-2701-2740.tsv#2735; author linguistic review
 vocab,2736,vocab:2736,reviewed,completion/v161-cards-2701-2740.tsv#2736; author linguistic review
 vocab,2737,vocab:2737,reviewed,completion/v161-cards-2701-2740.tsv#2737; author linguistic review
@@ -3763,40 +3763,40 @@ vocab,3761,vocab:3761,fixed_rechecked,completion/v173-acceptance.tsv#3761; autho
 vocab,3762,vocab:3762,reviewed,completion/v170-cards-3761-3780.tsv#3762; author linguistic review
 vocab,3763,vocab:3763,reviewed,completion/v170-cards-3761-3780.tsv#3763; author linguistic review
 vocab,3764,vocab:3764,fixed_rechecked,completion/v173-acceptance.tsv#3764; author recheck and Chromium regression; v173 SHA-256=e04cad2441928457d359bd7fb9f42123bf6eec75ffac104db671f1d51edf6d6f
-vocab,3765,vocab:3765,pending,
-vocab,3766,vocab:3766,pending,
+vocab,3765,vocab:3765,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
+vocab,3766,vocab:3766,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3767,vocab:3767,reviewed,completion/v170-cards-3761-3780.tsv#3767; author linguistic review
 vocab,3768,vocab:3768,reviewed,completion/v170-cards-3761-3780.tsv#3768; author linguistic review
 vocab,3769,vocab:3769,reviewed,completion/v170-cards-3761-3780.tsv#3769; author linguistic review
 vocab,3770,vocab:3770,reviewed,completion/v170-cards-3761-3780.tsv#3770; author linguistic review
 vocab,3771,vocab:3771,reviewed,completion/v170-cards-3761-3780.tsv#3771; author linguistic review
-vocab,3772,vocab:3772,pending,
+vocab,3772,vocab:3772,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3773,vocab:3773,reviewed,completion/v170-cards-3761-3780.tsv#3773; author linguistic review
 vocab,3774,vocab:3774,reviewed,completion/v170-cards-3761-3780.tsv#3774; author linguistic review
 vocab,3775,vocab:3775,reviewed,completion/v170-cards-3761-3780.tsv#3775; author linguistic review
 vocab,3776,vocab:3776,reviewed,completion/v170-cards-3761-3780.tsv#3776; author linguistic review
 vocab,3777,vocab:3777,reviewed,completion/v170-cards-3761-3780.tsv#3777; author linguistic review
-vocab,3778,vocab:3778,pending,
-vocab,3779,vocab:3779,pending,
+vocab,3778,vocab:3778,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
+vocab,3779,vocab:3779,reviewed,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3780,vocab:3780,reviewed,completion/v170-cards-3761-3780.tsv#3780; author linguistic review
 vocab,3781,vocab:3781,reviewed,completion/v170-cards-3781-3800.tsv#3781; author linguistic review
 vocab,3782,vocab:3782,reviewed,completion/v170-cards-3781-3800.tsv#3782; author linguistic review
 vocab,3783,vocab:3783,reviewed,completion/v170-cards-3781-3800.tsv#3783; author linguistic review
 vocab,3784,vocab:3784,reviewed,completion/v170-cards-3781-3800.tsv#3784; author linguistic review
 vocab,3785,vocab:3785,reviewed,completion/v170-cards-3781-3800.tsv#3785; author linguistic review
-vocab,3786,vocab:3786,pending,
+vocab,3786,vocab:3786,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3787,vocab:3787,reviewed,completion/v170-cards-3781-3800.tsv#3787; author linguistic review
-vocab,3788,vocab:3788,pending,
+vocab,3788,vocab:3788,reviewed,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3789,vocab:3789,reviewed,completion/v170-cards-3781-3800.tsv#3789; author linguistic review
 vocab,3790,vocab:3790,reviewed,completion/v170-cards-3781-3800.tsv#3790; author linguistic review
 vocab,3791,vocab:3791,reviewed,completion/v170-cards-3781-3800.tsv#3791; author linguistic review
-vocab,3792,vocab:3792,pending,
+vocab,3792,vocab:3792,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3793,vocab:3793,reviewed,completion/v170-cards-3781-3800.tsv#3793; author linguistic review
-vocab,3794,vocab:3794,pending,
+vocab,3794,vocab:3794,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3795,vocab:3795,reviewed,completion/v170-cards-3781-3800.tsv#3795; author linguistic review
 vocab,3796,vocab:3796,reviewed,completion/v170-cards-3781-3800.tsv#3796; author linguistic review
 vocab,3797,vocab:3797,reviewed,completion/v170-cards-3781-3800.tsv#3797; author linguistic review
-vocab,3798,vocab:3798,pending,
+vocab,3798,vocab:3798,fixed_rechecked,JLPT_N1_v228_audit.md; completion/v228-acceptance.tsv; completion/v228-c10-review.tsv; author review of exact v227 fields; post-change regression
 vocab,3799,vocab:3799,reviewed,completion/v170-cards-3781-3800.tsv#3799; author linguistic review
 vocab,3800,vocab:3800,reviewed,completion/v170-cards-3781-3800.tsv#3800; author linguistic review
 vocab,3801,vocab:3801,reviewed,completion/v170-cards-3801-3820.tsv#3801; author linguistic review
@@ -4873,11 +4873,11 @@ vocab_pair,826:3762:3785,VOCAB_AUDITED_PAIRS[826],pending,
 vocab_pair,827:3748:3781,VOCAB_AUDITED_PAIRS[827],pending,
 vocab_pair,828:3787:3789,VOCAB_AUDITED_PAIRS[828],pending,
 vocab_pair,829:3787:3790,VOCAB_AUDITED_PAIRS[829],pending,
-vocab_pair,830:3790:3798,VOCAB_AUDITED_PAIRS[830],pending,
-vocab_pair,831:3788:3804,VOCAB_AUDITED_PAIRS[831],pending,
+vocab_pair,830:3790:3798,VOCAB_AUDITED_PAIRS[830],reviewed,completion/v228-pair-review.tsv#830; exact pair and note reviewed; unchanged; author review only
+vocab_pair,831:3788:3804,VOCAB_AUDITED_PAIRS[831],reviewed,completion/v228-pair-review.tsv#831; exact pair and note reviewed; unchanged; author review only
 vocab_pair,832:3791:3839,VOCAB_AUDITED_PAIRS[832],pending,
 vocab_pair,833:3835:3839,VOCAB_AUDITED_PAIRS[833],pending,
-vocab_pair,834:3792:3826,VOCAB_AUDITED_PAIRS[834],pending,
+vocab_pair,834:3792:3826,VOCAB_AUDITED_PAIRS[834],reviewed,completion/v228-pair-review.tsv#834; exact pair and note reviewed; unchanged; author review only
 vocab_pair,835:3806:3829,VOCAB_AUDITED_PAIRS[835],pending,
 vocab_pair,836:3807:3822,VOCAB_AUDITED_PAIRS[836],reviewed,"completion/v175-pair-review.tsv#836; author pair review, no data change; v175 SHA-256=c3083a18181429e29fb1d63dcc4e9d39c5d68ccde49253b4f572820b27e1fb86"
 vocab_pair,837:3813:3821,VOCAB_AUDITED_PAIRS[837],pending,

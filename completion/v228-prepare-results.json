@@ -1,0 +1,114 @@
+{
+  "pass": true,
+  "base_version": "v227",
+  "base_main_sha": "82d4c42daf28b8f2002b4cc0ef08814dc65f091d",
+  "base_html_sha256": "ddce570993d53a32de5d101dedd26a46a5090e07a412b023d4994347344b9b52",
+  "candidate_version": "v228",
+  "candidate_sha256": "189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8",
+  "candidate_blob_sha": "58c1411685f06053f96ca9d99d04965c52ecfec8",
+  "candidate_bytes": 6952984,
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "review_scope": [
+    2734,
+    3765,
+    3766,
+    3772,
+    3778,
+    3779,
+    3786,
+    3788,
+    3792,
+    3794,
+    3798
+  ],
+  "fixed_rechecked_ids": [
+    3765,
+    3766,
+    3772,
+    3778,
+    3786,
+    3792,
+    3794,
+    3798
+  ],
+  "reviewed_ids": [
+    3779,
+    3788
+  ],
+  "blocked_ids": [
+    2734
+  ],
+  "held_pending_outside_scope": [
+    1510
+  ],
+  "updated_fields": 11,
+  "changed_cards": [
+    3765,
+    3766,
+    3772,
+    3778,
+    3786,
+    3792,
+    3794,
+    3798
+  ],
+  "pair_reviewed_indices": [
+    830,
+    831,
+    834
+  ],
+  "pair_changed_indices": [],
+  "pos_map_unchanged": true,
+  "reading_and_cloze_pools_unchanged": true,
+  "example_target_tables_unchanged": true,
+  "reviewed_meaning_quizzes_unchanged": true,
+  "author_credit_before": 3875,
+  "author_credit_addition": 10,
+  "author_credit_after": 3885,
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    2734,
+    3765,
+    3766,
+    3772,
+    3778,
+    3779,
+    3786,
+    3788,
+    3792,
+    3794,
+    3798
+  ],
+  "exact_rollback": true,
+  "register_after": {
+    "all": {
+      "reviewed": 4017,
+      "fixed_rechecked": 475,
+      "pending": 1327,
+      "blocked": 28,
+      "total": 5847
+    },
+    "vocabulary": {
+      "reviewed": 3412,
+      "fixed_rechecked": 473,
+      "pending": 1,
+      "blocked": 28,
+      "total": 3914
+    },
+    "vocab_pair": {
+      "reviewed": 54,
+      "fixed_rechecked": 1,
+      "pending": 804,
+      "blocked": 0,
+      "total": 859
+    }
+  },
+  "author_review_only": true,
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "publication_status": "pending"
+}

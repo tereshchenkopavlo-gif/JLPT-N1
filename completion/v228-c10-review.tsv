@@ -1,0 +1,12 @@
+id	headword	decision	changed_fields	reason
+2734	来る	blocked	—	Digital Daijisen classifies the きたる date-attributive use as 連体詞; app category/POS-map says 動詞; C11 required.
+3765	途方に暮れる	fixed_rechecked	exampleTranslations[0]	Translation made idiomatic and preserves being at a loss after a sudden service cancellation.
+3766	優柔不断	fixed_rechecked	t	Replaced vague Ukrainian хиткість with a precise explanation of indecisiveness.
+3772	良しとする	fixed_rechecked	t;exampleTranslations[0]	Gloss aligned with accepting/approving as good; example translation made natural.
+3778	目に見える	fixed_rechecked	exampleTranslations[0]	Translation now naturally expresses that the reform's effect became noticeable.
+3779	体の具合	reviewed	—	Definition, collocation and both translations accurate; unchanged.
+3786	波に乗る	fixed_rechecked	exampleTranslations[0]	Removed an unnatural Ukrainian calque while retaining the wave metaphor.
+3788	おわかりになる	reviewed	—	Honorific meaning and contrast with ご存じだ accurate; unchanged.
+3792	お会いになる	fixed_rechecked	t;exampleTranslations[1]	Gloss makes the honored subject explicit; second translation made idiomatic.
+3794	お帰りになる	fixed_rechecked	t;exampleTranslations[0]	Gloss no longer narrows 帰る to returning home; example translation made natural.
+3798	お見えになる	fixed_rechecked	t	Gloss clarifies respectful reference to another person's arrival.
