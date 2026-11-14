@@ -1,0 +1,17 @@
+kind	key	decision	change	note
+vocab	3668	fixed_rechecked	updated	リベンジ
+vocab	3671	fixed_rechecked	updated	リミット
+vocab	3681	fixed_rechecked	updated	その上
+vocab	3694	fixed_rechecked	updated	誤〜
+vocab	3657	reviewed	unchanged	プロフィール
+vocab	3680	reviewed	unchanged	あるいは
+vocab	3682	reviewed	unchanged	にもかかわらず
+vocab	3685	reviewed	unchanged	もしくは
+vocab	3652	blocked	held_for_C11	ユニーク
+vocab	3654	blocked	held_for_C11	ブロック
+vocab	3677	blocked	held_for_C11	ルーズ
+vocab	3679	blocked	held_for_C11	ワンマン
+vocab_pair	807	reviewed	unchanged	3680/3685
+vocab_pair	808	reviewed	unchanged	3680/3684
+vocab_pair	809	reviewed	unchanged	3681/3683
+vocab_pair	816	reviewed	unchanged	3693/3694

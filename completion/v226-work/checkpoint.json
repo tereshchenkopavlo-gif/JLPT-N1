@@ -1,0 +1,89 @@
+{
+  "version": "v226",
+  "base_version": "v225",
+  "base_main_sha": "f7af2deca13bafdd9045c9b058a77813f925edaf",
+  "base_html_sha256": "53f733699fc4cf6e487c739fdd96e007e9cc27822fbeebc871da4498007d19b4",
+  "branch": "work/v226-c10-next-pending",
+  "scope_ids": [
+    3652,
+    3654,
+    3657,
+    3668,
+    3671,
+    3677,
+    3679,
+    3680,
+    3681,
+    3682,
+    3685,
+    3694
+  ],
+  "scope_status": "author review complete; all IDs were pending in main v225",
+  "fixed_rechecked_ids": [
+    3668,
+    3671,
+    3681,
+    3694
+  ],
+  "reviewed_ids": [
+    3657,
+    3680,
+    3682,
+    3685
+  ],
+  "blocked_ids": [
+    3652,
+    3654,
+    3677,
+    3679
+  ],
+  "pair_reviewed": [
+    807,
+    808,
+    809,
+    816
+  ],
+  "pair_changed": [],
+  "pilot_covered_ids": [],
+  "pilot_missing_ids": [
+    3652,
+    3654,
+    3657,
+    3668,
+    3671,
+    3677,
+    3679,
+    3680,
+    3681,
+    3682,
+    3685,
+    3694
+  ],
+  "author_credit_before": 3865,
+  "author_credit_after": 3873,
+  "field_updates": 12,
+  "changed_cards": [
+    3652,
+    3668,
+    3671,
+    3677,
+    3679,
+    3681,
+    3694
+  ],
+  "technical_verification": "passed",
+  "chromium_verification": "passed",
+  "workflow_run_id": 43555277343,
+  "branch_data_check_run_id": 43555277234,
+  "main_workflow_registration_commit": "bc309450cee79fe61b1fbde0b605752174a35779",
+  "candidate_sha256": "f281a5d42ebbb0703e7b58df9e8749f602750b5a6424ccc24ae2bed815915247",
+  "candidate_blob_sha": "1310c6b0c9b1266c6651039abb5d9ae723871d77",
+  "candidate_bytes": 6952855,
+  "exact_rollback": true,
+  "publication_status": "pending",
+  "main_guard": "bc309450cee79fe61b1fbde0b605752174a35779",
+  "independent_acceptance": "not performed",
+  "physical_device_acceptance": "not performed",
+  "provenance_legal_acceptance": "not performed",
+  "status": "author review and technical verification passed; exact artifacts ready for guarded publication to main"
+}

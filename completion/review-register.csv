@@ -3650,12 +3650,12 @@ vocab,3648,vocab:3648,reviewed,completion/v168-cards-3641-3660.tsv#3648; author 
 vocab,3649,vocab:3649,reviewed,completion/v168-cards-3641-3660.tsv#3649; author linguistic review
 vocab,3650,vocab:3650,reviewed,completion/v168-cards-3641-3660.tsv#3650; author linguistic review
 vocab,3651,vocab:3651,reviewed,completion/v168-cards-3641-3660.tsv#3651; author linguistic review
-vocab,3652,vocab:3652,pending,
+vocab,3652,vocab:3652,blocked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; C11 POS/形動/する-marker review required; no author credit
 vocab,3653,vocab:3653,reviewed,completion/v168-cards-3641-3660.tsv#3653; author linguistic review
-vocab,3654,vocab:3654,pending,
+vocab,3654,vocab:3654,blocked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; C11 POS/形動/する-marker review required; no author credit
 vocab,3655,vocab:3655,reviewed,completion/v168-cards-3641-3660.tsv#3655; author linguistic review
 vocab,3656,vocab:3656,reviewed,completion/v168-cards-3641-3660.tsv#3656; author linguistic review
-vocab,3657,vocab:3657,pending,
+vocab,3657,vocab:3657,reviewed,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
 vocab,3658,vocab:3658,reviewed,completion/v168-cards-3641-3660.tsv#3658; author linguistic review
 vocab,3659,vocab:3659,reviewed,completion/v168-cards-3641-3660.tsv#3659; author linguistic review
 vocab,3660,vocab:3660,reviewed,completion/v168-cards-3641-3660.tsv#3660; author linguistic review
@@ -3666,24 +3666,24 @@ vocab,3664,vocab:3664,reviewed,completion/v169-cards-3661-3680.tsv#3664; author 
 vocab,3665,vocab:3665,reviewed,completion/v169-cards-3661-3680.tsv#3665; author linguistic review
 vocab,3666,vocab:3666,reviewed,completion/v169-cards-3661-3680.tsv#3666; author linguistic review
 vocab,3667,vocab:3667,reviewed,completion/v169-cards-3661-3680.tsv#3667; author linguistic review
-vocab,3668,vocab:3668,pending,
+vocab,3668,vocab:3668,fixed_rechecked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
 vocab,3669,vocab:3669,reviewed,completion/v169-cards-3661-3680.tsv#3669; author linguistic review
 vocab,3670,vocab:3670,reviewed,completion/v169-cards-3661-3680.tsv#3670; author linguistic review
-vocab,3671,vocab:3671,pending,
+vocab,3671,vocab:3671,fixed_rechecked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
 vocab,3672,vocab:3672,reviewed,completion/v169-cards-3661-3680.tsv#3672; author linguistic review
 vocab,3673,vocab:3673,reviewed,completion/v169-cards-3661-3680.tsv#3673; author linguistic review
 vocab,3674,vocab:3674,reviewed,completion/v169-cards-3661-3680.tsv#3674; author linguistic review
 vocab,3675,vocab:3675,reviewed,completion/v169-cards-3661-3680.tsv#3675; author linguistic review
 vocab,3676,vocab:3676,reviewed,completion/v169-cards-3661-3680.tsv#3676; author linguistic review
-vocab,3677,vocab:3677,pending,
+vocab,3677,vocab:3677,blocked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; C11 POS/形動/する-marker review required; no author credit
 vocab,3678,vocab:3678,reviewed,completion/v169-cards-3661-3680.tsv#3678; author linguistic review
-vocab,3679,vocab:3679,pending,
-vocab,3680,vocab:3680,pending,
-vocab,3681,vocab:3681,pending,
-vocab,3682,vocab:3682,pending,
+vocab,3679,vocab:3679,blocked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; C11 POS/形動/する-marker review required; no author credit
+vocab,3680,vocab:3680,reviewed,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
+vocab,3681,vocab:3681,fixed_rechecked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
+vocab,3682,vocab:3682,reviewed,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
 vocab,3683,vocab:3683,reviewed,completion/v169-cards-3681-3700.tsv#3683; author linguistic review
 vocab,3684,vocab:3684,reviewed,completion/v169-cards-3681-3700.tsv#3684; author linguistic review
-vocab,3685,vocab:3685,pending,
+vocab,3685,vocab:3685,reviewed,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
 vocab,3686,vocab:3686,reviewed,completion/v169-cards-3681-3700.tsv#3686; author linguistic review
 vocab,3687,vocab:3687,reviewed,completion/v169-cards-3681-3700.tsv#3687; author linguistic review
 vocab,3688,vocab:3688,reviewed,completion/v169-cards-3681-3700.tsv#3688; author linguistic review
@@ -3692,7 +3692,7 @@ vocab,3690,vocab:3690,reviewed,completion/v169-cards-3681-3700.tsv#3690; author 
 vocab,3691,vocab:3691,reviewed,completion/v169-cards-3681-3700.tsv#3691; author linguistic review
 vocab,3692,vocab:3692,reviewed,completion/v169-cards-3681-3700.tsv#3692; author linguistic review
 vocab,3693,vocab:3693,reviewed,completion/v169-cards-3681-3700.tsv#3693; author linguistic review
-vocab,3694,vocab:3694,pending,
+vocab,3694,vocab:3694,fixed_rechecked,JLPT_N1_v226_audit.md; completion/v226-acceptance.tsv; completion/v226-c10-review.tsv; author review of exact v225 fields; v153 pilot does not cover IDs above 320
 vocab,3695,vocab:3695,reviewed,completion/v169-cards-3681-3700.tsv#3695; author linguistic review
 vocab,3696,vocab:3696,reviewed,completion/v169-cards-3681-3700.tsv#3696; author linguistic review
 vocab,3697,vocab:3697,reviewed,completion/v169-cards-3681-3700.tsv#3697; author linguistic review
@@ -4850,16 +4850,16 @@ vocab_pair,803:3629:3641,VOCAB_AUDITED_PAIRS[803],pending,
 vocab_pair,804:3630:3647,VOCAB_AUDITED_PAIRS[804],pending,
 vocab_pair,805:3640:3651,VOCAB_AUDITED_PAIRS[805],pending,
 vocab_pair,806:3620:3665,VOCAB_AUDITED_PAIRS[806],pending,
-vocab_pair,807:3680:3685,VOCAB_AUDITED_PAIRS[807],pending,
-vocab_pair,808:3680:3684,VOCAB_AUDITED_PAIRS[808],pending,
-vocab_pair,809:3681:3683,VOCAB_AUDITED_PAIRS[809],pending,
+vocab_pair,807:3680:3685,VOCAB_AUDITED_PAIRS[807],reviewed,completion/v226-pair-review.tsv#807; exact pair and note reviewed; no text change; author review only
+vocab_pair,808:3680:3684,VOCAB_AUDITED_PAIRS[808],reviewed,completion/v226-pair-review.tsv#808; exact pair and note reviewed; no text change; author review only
+vocab_pair,809:3681:3683,VOCAB_AUDITED_PAIRS[809],reviewed,completion/v226-pair-review.tsv#809; exact pair and note reviewed; no text change; author review only
 vocab_pair,810:3688:3380,VOCAB_AUDITED_PAIRS[810],pending,
 vocab_pair,811:3690:3692,VOCAB_AUDITED_PAIRS[811],pending,
 vocab_pair,812:3690:3691,VOCAB_AUDITED_PAIRS[812],pending,
 vocab_pair,813:3686:3687,VOCAB_AUDITED_PAIRS[813],pending,
 vocab_pair,814:3698:3699,VOCAB_AUDITED_PAIRS[814],pending,
 vocab_pair,815:3698:3700,VOCAB_AUDITED_PAIRS[815],pending,
-vocab_pair,816:3693:3694,VOCAB_AUDITED_PAIRS[816],pending,
+vocab_pair,816:3693:3694,VOCAB_AUDITED_PAIRS[816],reviewed,completion/v226-pair-review.tsv#816; exact pair and note reviewed; no text change; author review only
 vocab_pair,817:3702:3710,VOCAB_AUDITED_PAIRS[817],reviewed,completion/v172-pair-review.tsv#817:3702:3710; author pair review
 vocab_pair,818:3705:3708,VOCAB_AUDITED_PAIRS[818],pending,
 vocab_pair,819:3706:3723,VOCAB_AUDITED_PAIRS[819],reviewed,completion/v172-pair-review.tsv#819:3706:3723; author pair review

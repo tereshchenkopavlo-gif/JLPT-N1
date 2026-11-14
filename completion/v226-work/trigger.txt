@@ -1,0 +1,2 @@
+Run the v226 C10 verification and Chromium acceptance against the exact v225 base.
+Trigger nonce: 2026-11-14T13:10 JST.
