@@ -1,0 +1,70 @@
+{
+  "checkpoint": "v231-c11-last-blockers",
+  "created": "2026-11-15",
+  "base_main_sha": "5354a748fe8ae147ae81f54f82da07e00ccccddc",
+  "base_work_branch": "work/v230-c11-next-blockers",
+  "base_work_sha": "9ba8845f5fa2f922fc379f83437c2713240148f5",
+  "base_html": "JLPT_N1_ukrainian_reading_v229.html",
+  "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "dependency": "v230 must pass deterministic build and browser verification before v231 can be assembled or published",
+  "scope": [
+    3652,
+    3654,
+    3677,
+    3679
+  ],
+  "pos_decisions": {
+    "3652": {
+      "current": [
+        "名詞"
+      ],
+      "proposed": [
+        "ナ形"
+      ],
+      "decision": "change"
+    },
+    "3654": {
+      "current": [
+        "名詞"
+      ],
+      "proposed": [
+        "名詞"
+      ],
+      "decision": "retain; 名詞(スル) follows existing app convention"
+    },
+    "3677": {
+      "current": [
+        "名詞"
+      ],
+      "proposed": [
+        "ナ形"
+      ],
+      "decision": "change; exclude unrelated archery noun sense"
+    },
+    "3679": {
+      "current": [
+        "名詞"
+      ],
+      "proposed": [
+        "名詞",
+        "ナ形"
+      ],
+      "decision": "change"
+    }
+  },
+  "manual_review": {
+    "cards_reviewed": 4,
+    "contexts_reviewed": 8,
+    "pos_map_changes": 3,
+    "new_context_overrides": 8,
+    "max_length_ratio": 1.368421052631579,
+    "distinct_options_pass": true,
+    "author_review_pass": true,
+    "independent_review": false
+  },
+  "pilot_credit_applied": 0,
+  "author_credit_applied": 0,
+  "registry_changes": 0,
+  "main_publication": false,
+  "status": "manual author review and static quiz preflight completed; awaiting v230 technical gate; no registry credit"
+}
