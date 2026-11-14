@@ -121,6 +121,27 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     },IDS);
     const meaningStructurePass=meaningDiagnostics.every(x=>x.samples.every(s=>s.wrongCount===3&&s.uniqueWrong&&s.correctExcluded));
     const meaningLengthPass=meaningDiagnostics.every(x=>x.samples.every(s=>s.lengthRatio<=1.5));
+    const reviewedOverrideChecks=await page.evaluate(ids=>{
+      const out=[];
+      for(const id of ids){
+        const v=DEFAULT_VOCAB.find(x=>Number(x.id)===id);
+        const d=VOCAB_DETAILS_BY_ID[String(id)];
+        const item={kind:"v",id:String(id),word:v};
+        const override=REVIEWED_MEANING_QUIZZES["v_"+id];
+        if(!override) continue;
+        const def=SmartEngine.getDefinition(v.w,"v",id);
+        for(let ei=0;ei<d.examples.length;ei++){
+          const example=d.examples[ei];
+          const expected=override.byExample?.[example]||override;
+          const actual=quizMeaningOptions(item,def,example);
+          const wrongSetMatch=expected.wrong.length===actual.wrong.length&&expected.wrong.every(x=>actual.wrong.includes(x));
+          out.push({id,exampleIndex:ei,example,correctMatch:actual.correct===expected.correct,wrongSetMatch,noteMatch:actual.note===expected.note});
+        }
+      }
+      return out;
+    },IDS);
+    const reviewedOverridePass=reviewedOverrideChecks.length===22&&reviewedOverrideChecks.every(x=>x.correctMatch&&x.wrongSetMatch);
+    assert.ok(reviewedOverridePass,"reviewed meaning-quiz payloads were not applied to every intended example");
     fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\\n");
     fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\\n");
     assert.ok(meaningStructurePass,"meaning quiz options must contain one key and three unique distinct distractors");
@@ -191,7 +212,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       pass:true,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
       counts:structural,scope_count:IDS.length,
       poolImpact,meaningStructurePass,meaningLengthPass,meaningDiagnosticCount:meaningDiagnostics.length,
-      quiz3345,rendered,responsive,storage,pageErrors:errors,
+      reviewedOverridePass,reviewedOverrideChecks,quiz3345,rendered,responsive,storage,pageErrors:errors,
       unchanged:{DEFAULT_VOCAB:true,GRAMMAR_DETAILS_BY_ID:true,VOCAB_AUDITED_PAIRS:true,REVIEWED_READING_OPTIONS:true,VOCAB_KANA_EXAMPLE_TARGETS:true,REVIEWED_EXAMPLE_TARGETS:true,storageKeys:true}
     };
     fs.writeFileSync(path.join(W,"browser-results.json"),JSON.stringify(result,null,2)+"\n");
