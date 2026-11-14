@@ -106,11 +106,12 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
           for(let trial=0;trial<3;trial++){
             const q=quizMeaningOptions(item,def,example);
             const lengths=[q.correct,...q.wrong].map(x=>String(x).length);
+            const minLength=Math.min(...lengths),maxLength=Math.max(...lengths);
             samples.push({
               correct:q.correct,wrong:q.wrong,note:q.note,
               wrongCount:q.wrong.length,uniqueWrong:new Set(q.wrong).size===q.wrong.length,
               correctExcluded:!q.wrong.includes(q.correct),
-              optionLengths:lengths,minLength:Math.min(...lengths),maxLength:Math.max(...lengths)
+              optionLengths:lengths,minLength,maxLength,lengthRatio:maxLength/minLength
             });
           }
           out.push({id,word:v.w,exampleIndex:ei,example,samples});
@@ -119,9 +120,11 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       return out;
     },IDS);
     const meaningStructurePass=meaningDiagnostics.every(x=>x.samples.every(s=>s.wrongCount===3&&s.uniqueWrong&&s.correctExcluded));
+    const meaningLengthPass=meaningDiagnostics.every(x=>x.samples.every(s=>s.lengthRatio<=1.5));
     fs.writeFileSync(path.join(W,"meaning-quiz-diagnostics.json"),JSON.stringify(meaningDiagnostics,null,2)+"\\n");
     fs.writeFileSync(path.join(W,"pool-impact.json"),JSON.stringify(poolImpact,null,2)+"\\n");
     assert.ok(meaningStructurePass,"meaning quiz options must contain one key and three unique distinct distractors");
+    assert.ok(meaningLengthPass,"meaning quiz option lengths must not create a strong answer-length clue");
     const quiz3345=await page.evaluate(sentence=>{
       const q=REVIEWED_MEANING_QUIZZES["v_3345"];
       return q?.byExample?.[sentence]||null;
@@ -187,7 +190,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
     const result={
       pass:true,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
       counts:structural,scope_count:IDS.length,
-      poolImpact,meaningStructurePass,meaningDiagnosticCount:meaningDiagnostics.length,
+      poolImpact,meaningStructurePass,meaningLengthPass,meaningDiagnosticCount:meaningDiagnostics.length,
       quiz3345,rendered,responsive,storage,pageErrors:errors,
       unchanged:{DEFAULT_VOCAB:true,GRAMMAR_DETAILS_BY_ID:true,VOCAB_AUDITED_PAIRS:true,REVIEWED_READING_OPTIONS:true,VOCAB_KANA_EXAMPLE_TARGETS:true,REVIEWED_EXAMPLE_TARGETS:true,storageKeys:true}
     };
