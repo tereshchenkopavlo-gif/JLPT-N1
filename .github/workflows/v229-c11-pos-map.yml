@@ -1,0 +1,62 @@
+name: JLPT N1 v229 C11 POS-map review
+on:
+  push:
+    branches:
+      - work/v229-c11-pos-map
+    paths:
+      - completion/v229-work/trigger.txt
+permissions:
+  contents: write
+concurrency:
+  group: jlpt-n1-v229-c11
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/v229-c11-pos-map
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce v229 from exact published v228
+        run: |
+          python3 -m py_compile completion/v229-work/prepare.py completion/v229-work/finalize.py
+          python3 completion/v229-work/prepare.py
+      - name: Check browser verification script
+        run: node --check completion/v229-work/browser.cjs
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify POS, reading/cloze pools, meaning options, cards and progress
+        run: node completion/v229-work/browser.cjs
+      - name: Finalize author acceptance, registry and release evidence
+        run: python3 completion/v229-work/finalize.py
+      - name: Save verified candidate and evidence to work branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+actions@users.noreply.github.com"
+          git add JLPT_N1_ukrainian_reading_v229.html JLPT_N1_v229_audit.md README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/v229-acceptance.tsv completion/v229-c11-review.tsv completion/v229-pool-impact.tsv completion/v229-source-review.md completion/v229-work/
+          git commit -m "Save v229 C11 POS-map review and browser evidence"
+          git push origin HEAD:work/v229-c11-pos-map
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jlpt-n1-v229-c11-evidence
+          path: |
+            JLPT_N1_ukrainian_reading_v229.html
+            JLPT_N1_v229_audit.md
+            completion/v229-acceptance.tsv
+            completion/v229-c11-review.tsv
+            completion/v229-pool-impact.tsv
+            completion/v229-source-review.md
+            completion/v229-work/
+          if-no-files-found: warn
