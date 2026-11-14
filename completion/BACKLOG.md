@@ -1,4 +1,9 @@
-Наступний checkpoint v228 — C10: work/v228-c10-next-pending, створити від main v227 після синхронізації документації; наступні 11 pending-карток: 2734, 3765, 3766, 3772, 3778, 3779, 3786, 3788, 3792, 3794, 3798. ID1510 залишається pending без оцінки (safety hold). Дев'ять нових C11 blockers v227: 544, 550, 552, 557, 588, 599, 644, 663, 1631; загалом blocked — 27.
+Наступний checkpoint v229 — C11: work/v229-c11-pos-map; перша партія для аналізу POS-map/quiz pools: 2734, 544, 550, 552, 557, 588, 599, 644, 663, 1631, 3337, 3345. C10: єдина картка, що лишилася pending, — ID1510 (safety hold; не оцінювався й не переглядався). Усього C11 blockers — 28.
+
+## v228 — C10 (завершено й опубліковано)
+
+11 карток перевірено: 8 fixed_rechecked (3765, 3766, 3772, 3778, 3786, 3792, 3794, 3798), 2 reviewed без змін (3779, 3788), 1 blocked до C11 (2734, きたる як 連体詞 проти app POS-map 動詞). Внесено 11 точних змін у 8 картках. ID1510 залишено pending поза scope без оцінки. Пари 830, 831, 834 reviewed без зміни нотаток. Author credit 3885/3914; реєстр 4017/475/1327/28, словник 3412/473/1/28, vocab_pair 54/1/804. HTML 6952984 байти; SHA-256 189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8; blob 58c1411685f06053f96ca9d99d04965c52ecfec8. Докази: JLPT_N1_v228_audit.md, v228-acceptance.tsv, v228-c10-review.tsv, v228-field-changes.tsv, v228-pair-review.tsv, v228-source-review.md, v228-prepare-results.json, v228-registry-results.json, v228-browser-results.json і completion/v228-work/. Workflow 43589714845 та main data-check 43589857576 успішні. Пілот v153 для цієї партії не застосовується. Незалежне, фізичне та правове/походження приймання відкрите.
+
 
 ## v227 — C10 (завершено й опубліковано)
 

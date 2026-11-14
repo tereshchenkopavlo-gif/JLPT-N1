@@ -1,13 +1,21 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна опублікована редакція: v227.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
+**Актуальна опублікована редакція: v228.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
-- [Повний автономний HTML v226](JLPT_N1_ukrainian_reading_v227.html)
-- [Авторський аудит v226](JLPT_N1_v227_audit.md)
+- [Повний автономний HTML v228](JLPT_N1_ukrainian_reading_v228.html)
+- [Авторський аудит v228](JLPT_N1_v228_audit.md)
 - [Поточний стан проєкту](PROJECT_STATUS.md)
 - [Єдиний реєстр завершення 1.0](completion/BACKLOG.md)
 
-v226: 12 карток перевірено (4 fixed_rechecked, 4 reviewed без змін, 4 blocked до C11); чотири лексичні пари reviewed без зміни нотаток. Внесено 12 точних змін у 7 картках, але три змінені картки залишаються blocked. Авторський credit — **3873/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6952855 байтів; SHA-256 f281a5d42ebbb0703e7b58df9e8749f602750b5a6424ccc24ae2bed815915247; Git blob 1310c6b0c9b1266c6651039abb5d9ae723871d77. [Успішний workflow run 43555277343](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43555277343). [Main data-check 43555746170](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43555746170) успішний. Чотири POS/する-marker питання передано до C11; незалежне, фізичне й правове/походження приймання залишаються відкритими.
+v228: 11 карток перевірено (8 fixed_rechecked, 2 reviewed без змін, 1 blocked до C11); внесено 11 точних змін у 8 картках. Три лексичні пари reviewed без змін. Авторський credit — **3885/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6952984 байти; SHA-256 189e4f570d61556cbc9073cf67cc106958e44706b9feeecd1c51abbc096ff5e8; Git blob 58c1411685f06053f96ca9d99d04965c52ecfec8. [Успішний workflow run 43589714845](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43589714845). [Main data-check 43589857576](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43589857576) успішний. ID2734 передано до C11 через POS-розбіжність; ID1510 лишається pending без оцінки. Незалежне, фізичне й правове/походження приймання залишаються відкритими.
+
+## Історичний випуск v227
+
+11 карток оцінено: 2 fixed_rechecked, 9 blocked до C11, ID1510 не оцінювався. Внесено чотири точні зміни у двох картках; п'ять лексичних пар reviewed без зміни нотаток. Авторський credit — **3875/3914**. HTML 6952922 байти; SHA-256 ddce570993d53a32de5d101dedd26a46a5090e07a412b023d4994347344b9b52; Git blob 52df05e55eab1eb4e0d1f9653226ff79fbc263d6. [Workflow run 43570139682](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43570139682) успішний. Незалежне приймання не виконане.
+
+## Історичний випуск v226
+
+12 карток перевірено (4 fixed_rechecked, 4 reviewed без змін, 4 blocked до C11); чотири лексичні пари reviewed без зміни нотаток. Внесено 12 точних змін у 7 картках, але три змінені картки залишилися blocked. Авторський credit — **3873/3914**. HTML 6952855 байтів; SHA-256 f281a5d42ebbb0703e7b58df9e8749f602750b5a6424ccc24ae2bed815915247; Git blob 1310c6b0c9b1266c6651039abb5d9ae723871d77. [Workflow run 43555277343](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43555277343) і [main data-check 43555746170](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43555746170) успішні.
 
 ## Історичний випуск v224
 
