@@ -14,7 +14,7 @@ assert s["overall_decision"]=="pass" and s["scope"]==ids and s["context_count"]=
 assert len(s["decisions"])==24 and len({(x["id"],x["exampleIndex"]) for x in s["decisions"]})==24
 assert b["meaningStructurePass"] and b["meaningLengthPass"] and b["meaningDiagnosticCount"]==24
 checks=b["reviewedOverrideChecks"]
-assert len(checks)==22 and all(x["correctMatch"] and x["wrongSetMatch"] and x["noteMatch"] for x in checks)
+assert len(checks)==24 and all(x["correctMatch"] and x["wrongSetMatch"] and x["noteMatch"] for x in checks)
 assert b["pageErrors"]==[] and b["storage"]["roundTrip"] and b["storage"]["restored"]
 assert all(not x["overflow"] for x in b["responsive"])
 assert len(b["rendered"])==12 and all(x["title"] and x["meaning"] and x["usageData"] and x["examples"] and x["translations"] and x["pos"]==x["expectedPos"] for x in b["rendered"])
