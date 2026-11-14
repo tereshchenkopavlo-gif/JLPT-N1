@@ -1,0 +1,18 @@
+kind	key	decision	change	note
+vocab	3382	fixed_rechecked	changed	未だ
+vocab	3397	fixed_rechecked	changed	きっちり
+vocab	3402	fixed_rechecked	changed	からっと
+vocab	3407	fixed_rechecked	changed	ぐっすり
+vocab	3409	fixed_rechecked	changed	ひそひそ
+vocab	3415	fixed_rechecked	changed	ひらひら
+vocab	3383	reviewed	unchanged	無性に
+vocab	3384	reviewed	unchanged	無論
+vocab	3390	reviewed	unchanged	満遍なく
+vocab	3392	reviewed	unchanged	あっさり
+vocab	3375	blocked	unchanged	当面 — C11 POS/quiz
+vocab	3417	blocked	unchanged	だぶだぶ — C11 POS/quiz
+vocab_pair	756	reviewed	unchanged	3374/3375
+vocab_pair	766	reviewed	unchanged	3394/3397
+vocab_pair	767	reviewed	unchanged	3300/3390
+vocab_pair	770	reviewed	unchanged	3409/3422
+vocab_pair	772	reviewed	unchanged	3417/3424
