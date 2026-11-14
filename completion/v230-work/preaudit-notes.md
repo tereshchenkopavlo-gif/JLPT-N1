@@ -31,3 +31,13 @@ No card data, POS-map, quiz payloads or review-register rows were changed in thi
 6. Are exact-sentence byExample payloads required when the same word has multiple meanings?
 
 The source review is preliminary, not a final decision. No v153 pilot credit applies because every ID is above 320.
+
+
+## Baseline diagnostics — 15 November 2026
+
+- Dedicated Chromium run [43622947862](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43622947862) succeeded as a **diagnostic-only** run. It rendered all 12 cards, checked 24 example contexts, responsive widths 360/412/1280, storage round-trip/restore, and reported zero page errors.
+- Meaning-option structure passed in all 24 contexts: three unique wrong options, correct answer excluded. However, answer-length diagnostics failed in exactly two contexts, both ID3444 どろどろ: example 0 ratio 1.93–3.87 across samples; example 1 ratio 2.52–3.87. The correct option is a broad two-sense definition, while one randomly selected distractor is much longer and unrelated. Context-specific byExample overrides are required.
+- Existing reviewed-override coverage is only 2/24 contexts (ID3363, already reviewed in v229). The remaining 22 contexts use automatic distractors; many are semantically unrelated even when their length ratio is acceptable. Do not treat structural uniqueness as semantic plausibility.
+- Reading pools before POS changes: ID3375 has 4 candidates; all other 11 IDs have 0. All 12 cloze pools have at least 276 candidates and both examples are currently cloze-eligible. POS-map changes must be tested before acceptance.
+- All 12 card titles, meanings, examples and translations rendered; visible POS labels match the current POS-map. The script recorded `usageVisible=false` for all 12, but this is not yet classified as a defect because the current card detail layout may expose usage in another section/view.
+- No card data, POS-map, quiz payloads or registry rows were changed; no author credit granted.
