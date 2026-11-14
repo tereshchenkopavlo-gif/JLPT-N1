@@ -26,9 +26,10 @@
     "no changes to progress-storage keys or state schema",
     "only ID2734 POS map and ID644/3345 content plus ID3345 byExample quiz payload are candidates",
     "do not force reading/cloze distractors where fewer than three valid choices exist",
-    "keep v153 pilot credit limited to its documented ID121-320 scope"
+    "keep v153 pilot credit limited to its documented ID121-320 scope",
+    "reviewed meaning-quiz overrides are content data only; no quiz algorithm or scheduler changes"
   ],
-  "status": "candidate and technical checks passed; manual semantic review of meaning-quiz diagnostics pending; no registry credit or main publication",
+  "status": "candidate and manual meaning-quiz overrides prepared; awaiting rerun and manual semantic acceptance",
   "candidate_sha256": "be34fdfaf182848eb71bfb36978cce3ed2ca8d5fd6d2498a5156aaeaab96073d",
   "candidate_blob_sha": "419214951ad7e545ee109e47c12fe5ec3b482976",
   "candidate_bytes": 6953292,
