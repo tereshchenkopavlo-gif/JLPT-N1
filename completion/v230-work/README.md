@@ -10,4 +10,4 @@ Base: v229 published in main. This branch is a preaudit checkpoint only.
 6. Only after manual decisions, prepare the deterministic patch, browser checks and registry transition.
 7. Keep author review, technical tests and independent acceptance separate.
 
-No application data or registry rows have been changed in this checkpoint. No credit has been granted. Pilot v153 does not cover these IDs (121–320 only).
+Baseline diagnostics run 43622947862 succeeded: 12 cards rendered, 24 contexts structurally valid, but two answer-length outliers in ID3444; only ID3363 has existing reviewed overrides. Reading pool: ID3375 has 4 candidates, other 11 have 0; cloze pools all remain eligible. No application data or registry rows have been changed in this checkpoint. No credit has been granted. Pilot v153 does not cover these IDs (121–320 only).
