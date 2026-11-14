@@ -352,7 +352,7 @@ if reverse != base:
     raise RuntimeError("v229 patch is not exactly reversible to v228")
 
 # The only changed detail records are 644 and 3345; the only POS change is 2734;
-# meaning-quiz additions are limited to the eight explicitly listed C11 overrides plus ID3345 byExample.
+# meaning-quiz additions are limited to the ten explicitly listed C11 overrides plus the reviewed ID3337 and ID3345 byExample updates.
 for key in before_details:
     if key not in {"644", "3345"} and before_details[key] != new_details[key]:
         raise RuntimeError(f"unexpected detail change at {key}")
@@ -360,7 +360,7 @@ for key in before_pos:
     if key != "2734" and before_pos[key] != new_pos[key]:
         raise RuntimeError(f"unexpected POS change at {key}")
 for key in before_quizzes:
-    if key != "v_3345" and before_quizzes[key] != new_quizzes[key]:
+    if key not in {"v_3337", "v_3345"} and before_quizzes[key] != new_quizzes[key]:
         raise RuntimeError(f"unexpected meaning-quiz change at {key}")
 if set(new_quizzes) - set(before_quizzes) != added_quiz_keys:
     raise RuntimeError("unexpected added/removed reviewed meaning-quiz keys")
