@@ -1,7 +1,7 @@
 # JLPT N1 v227 — C10 old follow-ups
 
 **База:** v226, branch base `6109042ab37dc6e6f8c7e6da5ad6b62a6ed875fa`; main guard на початку проходу `e10d27b70674a2b11a76a018c415939435785490`.
-**Статус технічного приймання:** TECHNICAL_STATUS_PENDING.
+**Статус технічного приймання:** TECHNICAL_STATUS_PASS.
 
 ## Результат авторського перегляду
 

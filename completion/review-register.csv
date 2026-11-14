@@ -542,20 +542,20 @@ vocab,540,vocab:540,fixed_rechecked,completion/v185-c10-review.tsv
 vocab,541,vocab:541,fixed_rechecked,completion/v185-c10-review.tsv
 vocab,542,vocab:542,reviewed,completion/v153-cards-501-560.tsv#542; author linguistic review
 vocab,543,vocab:543,reviewed,completion/v153-cards-501-560.tsv#543; author linguistic review
-vocab,544,vocab:544,pending,completion/v185-c10-review.tsv
+vocab,544,vocab:544,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,545,vocab:545,reviewed,completion/v153-cards-501-560.tsv#545; author linguistic review
 vocab,546,vocab:546,reviewed,completion/v153-cards-501-560.tsv#546; author linguistic review
 vocab,547,vocab:547,fixed_rechecked,completion/v185-c10-review.tsv
 vocab,548,vocab:548,reviewed,completion/v153-cards-501-560.tsv#548; author linguistic review
 vocab,549,vocab:549,fixed_rechecked,completion/v185-c10-review.tsv
-vocab,550,vocab:550,pending,completion/v185-c10-review.tsv
+vocab,550,vocab:550,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,551,vocab:551,reviewed,completion/v153-cards-501-560.tsv#551; author linguistic review
-vocab,552,vocab:552,pending,completion/v185-c10-review.tsv
+vocab,552,vocab:552,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,553,vocab:553,reviewed,completion/v153-cards-501-560.tsv#553; author linguistic review
 vocab,554,vocab:554,reviewed,completion/v153-cards-501-560.tsv#554; author linguistic review
 vocab,555,vocab:555,reviewed,completion/v153-cards-501-560.tsv#555; author linguistic review
 vocab,556,vocab:556,reviewed,completion/v153-cards-501-560.tsv#556; author linguistic review
-vocab,557,vocab:557,pending,completion/v185-c10-review.tsv
+vocab,557,vocab:557,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,558,vocab:558,reviewed,completion/v153-cards-501-560.tsv#558; author linguistic review
 vocab,559,vocab:559,reviewed,completion/v153-cards-501-560.tsv#559; author linguistic review
 vocab,560,vocab:560,reviewed,completion/v153-cards-501-560.tsv#560; author linguistic review
@@ -586,7 +586,7 @@ vocab,584,vocab:584,reviewed,completion/v153-cards-561-620.tsv#584; author lingu
 vocab,585,vocab:585,reviewed,completion/v153-cards-561-620.tsv#585; author linguistic review
 vocab,586,vocab:586,fixed_rechecked,completion/v186-acceptance.tsv; JLPT_N1_v186_audit.md
 vocab,587,vocab:587,reviewed,completion/v153-cards-561-620.tsv#587; author linguistic review
-vocab,588,vocab:588,pending,
+vocab,588,vocab:588,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,589,vocab:589,reviewed,completion/v153-cards-561-620.tsv#589; author linguistic review
 vocab,590,vocab:590,fixed_rechecked,completion/v186-acceptance.tsv; JLPT_N1_v186_audit.md
 vocab,591,vocab:591,reviewed,completion/v153-cards-561-620.tsv#591; author linguistic review
@@ -597,7 +597,7 @@ vocab,595,vocab:595,fixed_rechecked,completion/v186-acceptance.tsv; JLPT_N1_v186
 vocab,596,vocab:596,reviewed,completion/v153-cards-561-620.tsv#596; author linguistic review
 vocab,597,vocab:597,fixed_rechecked,completion/v186-acceptance.tsv; JLPT_N1_v186_audit.md
 vocab,598,vocab:598,reviewed,completion/v153-cards-561-620.tsv#598; author linguistic review
-vocab,599,vocab:599,pending,
+vocab,599,vocab:599,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,600,vocab:600,reviewed,completion/v153-cards-561-620.tsv#600; author linguistic review
 vocab,601,vocab:601,reviewed,completion/v153-cards-561-620.tsv#601; author linguistic review
 vocab,602,vocab:602,reviewed,completion/v153-cards-561-620.tsv#602; author linguistic review
@@ -642,7 +642,7 @@ vocab,640,vocab:640,reviewed,completion/v153-cards-621-680.tsv#640; author lingu
 vocab,641,vocab:641,reviewed,completion/v153-cards-621-680.tsv#641; author linguistic review
 vocab,642,vocab:642,reviewed,completion/v153-cards-621-680.tsv#642; author linguistic review
 vocab,643,vocab:643,reviewed,completion/v153-cards-621-680.tsv#643; author linguistic review
-vocab,644,vocab:644,pending,
+vocab,644,vocab:644,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,645,vocab:645,reviewed,completion/v153-cards-621-680.tsv#645; author linguistic review
 vocab,646,vocab:646,reviewed,completion/v153-cards-621-680.tsv#646; author linguistic review
 vocab,647,vocab:647,reviewed,completion/v153-cards-621-680.tsv#647; author linguistic review
@@ -661,7 +661,7 @@ vocab,659,vocab:659,reviewed,completion/v153-cards-621-680.tsv#659; author lingu
 vocab,660,vocab:660,reviewed,completion/v153-cards-621-680.tsv#660; author linguistic review
 vocab,661,vocab:661,reviewed,completion/v153-cards-621-680.tsv#661; author linguistic review
 vocab,662,vocab:662,reviewed,completion/v153-cards-621-680.tsv#662; author linguistic review
-vocab,663,vocab:663,pending,
+vocab,663,vocab:663,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,664,vocab:664,fixed_rechecked,completion/v187-acceptance.tsv; JLPT_N1_v187_audit.md
 vocab,665,vocab:665,reviewed,completion/v153-cards-621-680.tsv#665; author linguistic review
 vocab,666,vocab:666,reviewed,completion/v153-cards-621-680.tsv#666; author linguistic review
@@ -1490,7 +1490,7 @@ vocab,1488,vocab:1488,reviewed,completion/v153-cards-1481-1520.tsv#1488; author 
 vocab,1489,vocab:1489,fixed_rechecked,completion/v211-acceptance.tsv; JLPT_N1_v211_audit.md
 vocab,1490,vocab:1490,reviewed,completion/v153-cards-1481-1520.tsv#1490; author linguistic review
 vocab,1491,vocab:1491,reviewed,completion/v153-cards-1481-1520.tsv#1491; author linguistic review
-vocab,1492,vocab:1492,pending,
+vocab,1492,vocab:1492,fixed_rechecked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; author review of exact v226 fields; post-change regression
 vocab,1493,vocab:1493,fixed_rechecked,completion/v211-acceptance.tsv; JLPT_N1_v211_audit.md
 vocab,1494,vocab:1494,reviewed,completion/v153-cards-1481-1520.tsv#1494; author linguistic review
 vocab,1495,vocab:1495,reviewed,completion/v153-cards-1481-1520.tsv#1495; author linguistic review
@@ -1629,7 +1629,7 @@ vocab,1627,vocab:1627,reviewed,completion/v153-cards-1621-1640.tsv#1627; author 
 vocab,1628,vocab:1628,fixed_rechecked,completion/v213-acceptance.tsv; JLPT_N1_v213_audit.md
 vocab,1629,vocab:1629,reviewed,completion/v153-cards-1621-1640.tsv#1629; author linguistic review
 vocab,1630,vocab:1630,reviewed,completion/v153-cards-1621-1640.tsv#1630; author linguistic review
-vocab,1631,vocab:1631,pending,
+vocab,1631,vocab:1631,blocked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; C11 POS-map/quiz-pool dependency; no author credit
 vocab,1632,vocab:1632,fixed_rechecked,completion/v214-acceptance.tsv; JLPT_N1_v214_audit.md
 vocab,1633,vocab:1633,reviewed,completion/v153-cards-1621-1640.tsv#1633; author linguistic review
 vocab,1634,vocab:1634,reviewed,completion/v153-cards-1621-1640.tsv#1634; author linguistic review
@@ -1876,7 +1876,7 @@ vocab,1874,vocab:1874,reviewed,completion/v155-cards-1841-1880.tsv#1874; author 
 vocab,1875,vocab:1875,reviewed,completion/v155-cards-1841-1880.tsv#1875; author linguistic review
 vocab,1876,vocab:1876,reviewed,completion/v156-acceptance.tsv#1876; edited fields rechecked; prior author review carried for unchanged fields; not independent
 vocab,1877,vocab:1877,reviewed,completion/v155-cards-1841-1880.tsv#1877; author linguistic review
-vocab,1878,vocab:1878,pending,
+vocab,1878,vocab:1878,fixed_rechecked,JLPT_N1_v227_audit.md; completion/v227-acceptance.tsv; completion/v227-c10-review.tsv; author review of exact v226 fields; post-change regression
 vocab,1879,vocab:1879,reviewed,completion/v155-cards-1841-1880.tsv#1879; author linguistic review
 vocab,1880,vocab:1880,reviewed,completion/v155-cards-1841-1880.tsv#1880; author linguistic review
 vocab,1881,vocab:1881,reviewed,completion/v155-cards-1881-1940.tsv#1881; author linguistic review
@@ -4185,10 +4185,10 @@ vocab_pair,138:530:531,VOCAB_AUDITED_PAIRS[138],pending,
 vocab_pair,139:533:470,VOCAB_AUDITED_PAIRS[139],pending,
 vocab_pair,140:547:549,VOCAB_AUDITED_PAIRS[140],pending,
 vocab_pair,141:549:563,VOCAB_AUDITED_PAIRS[141],pending,
-vocab_pair,142:552:553,VOCAB_AUDITED_PAIRS[142],pending,
+vocab_pair,142:552:553,VOCAB_AUDITED_PAIRS[142],reviewed,completion/v227-pair-review.tsv#142; exact pair and note reviewed; unchanged; author review only
 vocab_pair,143:555:572,VOCAB_AUDITED_PAIRS[143],pending,
 vocab_pair,144:584:585,VOCAB_AUDITED_PAIRS[144],pending,
-vocab_pair,145:544:585,VOCAB_AUDITED_PAIRS[145],pending,
+vocab_pair,145:544:585,VOCAB_AUDITED_PAIRS[145],reviewed,completion/v227-pair-review.tsv#145; exact pair and note reviewed; unchanged; author review only
 vocab_pair,146:569:359,VOCAB_AUDITED_PAIRS[146],pending,
 vocab_pair,147:590:3138,VOCAB_AUDITED_PAIRS[147],pending,
 vocab_pair,148:593:606,VOCAB_AUDITED_PAIRS[148],pending,
@@ -4431,7 +4431,7 @@ vocab_pair,384:1456:1557,VOCAB_AUDITED_PAIRS[384],pending,
 vocab_pair,385:1474:1475,VOCAB_AUDITED_PAIRS[385],pending,
 vocab_pair,386:1482:1483,VOCAB_AUDITED_PAIRS[386],pending,
 vocab_pair,387:1486:1583,VOCAB_AUDITED_PAIRS[387],pending,
-vocab_pair,388:1491:1492,VOCAB_AUDITED_PAIRS[388],pending,
+vocab_pair,388:1491:1492,VOCAB_AUDITED_PAIRS[388],reviewed,completion/v227-pair-review.tsv#388; exact pair and note reviewed; unchanged; author review only
 vocab_pair,389:1494:1495,VOCAB_AUDITED_PAIRS[389],pending,
 vocab_pair,390:1499:1501,VOCAB_AUDITED_PAIRS[390],pending,
 vocab_pair,391:1502:1504,VOCAB_AUDITED_PAIRS[391],pending,
@@ -4455,7 +4455,7 @@ vocab_pair,408:1619:1620,VOCAB_AUDITED_PAIRS[408],pending,
 vocab_pair,409:1621:229,VOCAB_AUDITED_PAIRS[409],pending,
 vocab_pair,410:1625:1626,VOCAB_AUDITED_PAIRS[410],pending,
 vocab_pair,411:1628:1629,VOCAB_AUDITED_PAIRS[411],pending,
-vocab_pair,412:1631:1634,VOCAB_AUDITED_PAIRS[412],pending,
+vocab_pair,412:1631:1634,VOCAB_AUDITED_PAIRS[412],reviewed,completion/v227-pair-review.tsv#412; exact pair and note reviewed; unchanged; author review only
 vocab_pair,413:1634:3363,VOCAB_AUDITED_PAIRS[413],reviewed,completion/v220-pair-review.tsv#413; author review of the exact pair and stated senses; not independent; ID3363 card remains blocked for separate C11 POS/quiz analysis
 vocab_pair,414:1639:1640,VOCAB_AUDITED_PAIRS[414],pending,
 vocab_pair,415:1641:1642,VOCAB_AUDITED_PAIRS[415],pending,
@@ -4489,7 +4489,7 @@ vocab_pair,442:1847:1852,VOCAB_AUDITED_PAIRS[442],pending,
 vocab_pair,443:1846:1849,VOCAB_AUDITED_PAIRS[443],pending,
 vocab_pair,444:1849:1850,VOCAB_AUDITED_PAIRS[444],pending,
 vocab_pair,445:1863:1869,VOCAB_AUDITED_PAIRS[445],pending,
-vocab_pair,446:1873:1878,VOCAB_AUDITED_PAIRS[446],pending,
+vocab_pair,446:1873:1878,VOCAB_AUDITED_PAIRS[446],reviewed,completion/v227-pair-review.tsv#446; exact pair and note reviewed; unchanged; author review only
 vocab_pair,447:1887:1889,VOCAB_AUDITED_PAIRS[447],pending,
 vocab_pair,448:1884:1886,VOCAB_AUDITED_PAIRS[448],pending,
 vocab_pair,449:1892:1899,VOCAB_AUDITED_PAIRS[449],pending,
