@@ -21,11 +21,66 @@
     3458
   ],
   "scope_status": "pending in main after v221; selected after existing older follow-ups",
-  "fixed_rechecked_ids": [],
-  "reviewed_ids": [],
-  "blocked_ids": [],
-  "field_updates": [],
-  "pair_reviewed": [],
+  "fixed_rechecked_ids": [
+    3423,
+    3425,
+    3426,
+    3434,
+    3458
+  ],
+  "reviewed_ids": [
+    3430,
+    3438,
+    3448,
+    3451,
+    3454
+  ],
+  "blocked_ids": [
+    3441,
+    3444
+  ],
+  "field_updates": [
+    {
+      "id": 3423,
+      "field": "exampleTranslations[0]"
+    },
+    {
+      "id": 3423,
+      "field": "exampleTranslations[1]"
+    },
+    {
+      "id": 3425,
+      "field": "exampleTranslations[0]"
+    },
+    {
+      "id": 3426,
+      "field": "m"
+    },
+    {
+      "id": 3434,
+      "field": "m"
+    },
+    {
+      "id": 3434,
+      "field": "t"
+    },
+    {
+      "id": 3458,
+      "field": "t"
+    },
+    {
+      "id": 3458,
+      "field": "exampleTranslations[0]"
+    },
+    {
+      "id": 3458,
+      "field": "exampleTranslations[1]"
+    }
+  ],
+  "pair_reviewed": [
+    771,
+    776
+  ],
   "pilot_covered_ids": [],
   "pilot_missing_ids": [
     3423,
@@ -42,21 +97,21 @@
     3458
   ],
   "author_credit_before": 3826,
-  "author_credit_after": null,
-  "author_review": "in progress",
-  "technical_verification": "not run",
+  "author_credit_after": 3836,
+  "author_review": "completed; 10 cards credited, two C11 POS blocks",
+  "technical_verification": "passed",
   "independent_acceptance": "not performed",
   "physical_device_acceptance": "not performed",
   "provenance_legal_acceptance": "not performed",
   "main_guard": "25a7c769d08fd6e21af353125fff9cdcc0c2bc0a",
   "publication_policy": "publish only exact verified artifacts; never merge work branch",
-  "status": "checkpoint created; author audit pending",
-  "candidate_sha256": null,
-  "candidate_blob_sha": null,
-  "candidate_bytes": null,
+  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "candidate_sha256": "a05e32438c6eb1866d33395ec3eac62922df70dbf9af9befb7fa4362efebb6da",
+  "candidate_blob_sha": "d44b56a6426ba3bf99eee3d1e8c26980664fb991",
+  "candidate_bytes": 6952101,
   "pair_changed": [],
-  "exact_rollback": null,
+  "exact_rollback": true,
   "publication_status": "pending",
-  "chromium_verification": "not run",
-  "workflow_run_id": null
+  "chromium_verification": "passed",
+  "workflow_run_id": 43550676972
 }
