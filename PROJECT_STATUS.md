@@ -1,26 +1,31 @@
-Оновлено 15 листопада 2026. Актуальна опублікована редакція залишається v229 у `main`; HTML і review-register не змінювалися. Останній status-only base перед синхронізацією: `5354a748fe8ae147ae81f54f82da07e00ccccddc`.
+Оновлено 15 листопада 2026. Опублікована редакція лишається v229; main HEAD перед цим status-only оновленням — afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba. Повний HTML, review-register і навчальні дані не змінювалися.
 
-Найсвіжіший незавершений ланцюжок — `work/v230-c11-next-blockers` → `work/v231-c11-last-blockers`. v230: авторськи переглянуто 12 карток і 24 контексти; підготовлено 12 POS-map рішень, 11 нових byExample keys (22 контексти) плюс збережено два попередні ID3363. Статичний preflight: 24/24 exact example bindings, 24/24 distinct options, максимальне співвідношення довжин 1.4667 при межі 1.5. Але deterministic build, pool-impact і Chromium acceptance не мають підтвердженого результату: PR #41 лишається draft, workflow run/status не повернувся. Тому registry credit = 0, v230 не публікувати.
+Найсвіжіший ланцюжок — work/v230-c11-next-blockers → work/v231-c11-last-blockers. v230 авторськи перевірено (12 карток /24 контексти), кандидат детерміновано відтворено з v229, Chromium diagnostics виконано. 24/24 meaning contexts пройшли структуру, довжину й точну прив'язку; 12/12 POS labels збігаються; responsive 360/412/1280, storage round-trip і 0 page errors пройшли. Але workflow 43652194837 завершився failure на фінальному gate: нові REVIEWED_MEANING_QUIZZES keys вимикають cloze у 22 раніше доступних контекстах для 11 карток. ID3363 уже мав reviewed key у v229, тому додаткової втрати немає. Випуск v230 не прийнятий, registry credit = 0, у main не публікувати.
 
-v231: авторськи переглянуто останні чотири C11 blockers (3652, 3654, 3677, 3679), вісім точних контекстів; три POS-map зміни, ID3654 залишено 名詞. Усі вісім payloads мають три різні distractors; максимальне співвідношення довжин 1.3684. Це лише специфікація й static preflight, залежна від технічного приймання v230; HTML-кандидата та registry credit немає.
+Додатковий pool impact v230: ID3375 reading 4→0; cloze pool 276→20. Для ID3363/3417/3441/3444 cloze pool 276→4 (лише три distractors, семантична правдоподібність не доведена); для ID3525/3561/3569/3594/3636/3646 — 2269→70; ID3565 — 2269→293. Докази: work/v230-c11-next-blockers/completion/v230-work/cloze-availability-review.md, browser-results.json, pool-impact.json. Технічна діагностика виправила попередній DOM-перевіряльник: aria-label тепер підтверджує 12/12 POS. Загальний data-check 43652194873 успішний; це не приймання v230.
 
-Реєстр `main` лишається незмінним: 5847 рядків; словник 3412 reviewed /485 fixed_rechecked /1 pending /16 blocked; авторський credit 3897/3914. ID1510 лишається окремим pending safety hold. Пілот v153 документовано охоплює лише ID121–320; для v230/v231 scopes pilot credit = 0. Незалежне лінгвістичне, Android/Windows фізичне та правове/походження приймання не підміняються авторським review.
+v231: авторський review 4 карток /8 контекстів збережено; новий статичний pool-impact показує ще шість потенційно втрачених cloze-контекстів у ID3652, 3677, 3679. ID3654 уже мав reviewed meaning key у v229. HTML-кандидата немає, registry credit = 0. Гілка v231 не rebased на нову діагностичну вершину v230; не зливати гілки цілком.
 
-## Checkpoint v231 — останні чотири C11 blockers (author review only; технічний gate pending)
+Потрібне принципове рішення за AGENTS.md: або прийняти meaning-only quiz coverage для відповідних карток, або окремо погодити зміну навчального engine, щоб reviewed meaning overrides не вимикали cloze, з новим семантичним аудитом cloze distractors. До цього не змінювати engine, не нараховувати credit і не публікувати v230/v231. Робочі гілки: v230 HEAD 1d5b87c916c915cbf73185fe543491e8c40d9484; v231 HEAD 1fdc600ad4cde3fbf9e7171e6ccc1101e862cc4e.
 
-- Робоча гілка: `work/v231-c11-last-blockers`; HEAD на checkpoint: `236cedef748cade0446994000ed48b3c9b4b98a8`. Вона створена від `work/v230-c11-next-blockers` HEAD `9ba8845f5fa2f922fc379f83437c2713240148f5`; гілки не зливалися.
-- Scope: ID3652 ユニーク, 3654 ブロック, 3677 ルーズ, 3679 ワンマン; 4 картки /8 точних прикладів.
-- POS-рішення: 3652 名詞→ナ形 (medium confidence: secondary source + карткові な-приклади); 3654 залишено 名詞 (словникове 名詞(スル), відповідає app convention); 3677 名詞→ナ形 (вибране 形動 значення; окреме архерійне іменникове значення не переноситься); 3679 名詞→名詞・ナ形 (словникове 名詞(形動), приклад ワンマンな社長).
-- Вісім byExample payloads перевірено на точну прив'язку до прикладів, унікальність чотирьох варіантів і баланс довжин; max ratio 1.3684. Pilot credit = 0. Джерела/рішення: `completion/v231-work/source-review.md`, `payloads.json`, `semantic-review.md`, `author-review.tsv`.
-- Це не HTML build, не pool-impact acceptance, не browser/independent acceptance; registry credit = 0. v231 очікує технічного проходу v230.
+Реєстр main незмінний: 5847 рядків; словник 3412 reviewed /485 fixed_rechecked /1 pending /16 blocked; авторський credit 3897/3914. ID1510 лишається окремим pending safety hold. Пілот v153 документовано охоплює лише ID121–320; для v230/v231 pilot credit = 0. Незалежне лінгвістичне, Android/Windows фізичне та правове/походження приймання не виконані.
 
-## Checkpoint v230 — C11 POS і meaning author review (static preflight; технічний gate pending)
+## Checkpoint v231 — останні чотири C11 blockers (author review only; technical gate blocked)
 
-- Робоча гілка: `work/v230-c11-next-blockers`; HEAD `9ba8845f5fa2f922fc379f83437c2713240148f5`. Base HTML v229 SHA-256 `e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab`.
-- Scope: ID3363, 3375, 3417, 3441, 3444, 3525, 3561, 3565, 3569, 3594, 3636, 3646. Авторськи переглянуто 12 карток /24 контексти; 12 POS-map updates; 11 нових byExample keys /22 contexts; два попередні ID3363 overrides збережено.
-- Статичний preflight пройшов: 24/24 exact example bindings, 24/24 distinct options, max correct/distractor length ratio 1.4667 (limit 1.5), zero remaining length warnings. ID3636 має явно позначене lower-confidence secondary POS evidence.
-- Push/PR verification не повернув observable workflow run або combined status; тому deterministic build, pool impact, Chromium, storage round-trip і rollback не зараховані. PR #41 — draft verification-only, mergeable=false; не зливати гілку цілком. Registry credit = 0; main publication = false.
-- Докази: `completion/v230-work/static-preflight.md`, `checkpoint.json`, `source-review.md`, `payloads.json`, `README.md`. Пілот v153 не охоплює ці ID; pilot credit = 0.
+- Робоча гілка: work/v231-c11-last-blockers; поточний HEAD 1fdc600ad4cde3fbf9e7171e6ccc1101e862cc4e. Вона створена від старішого v230 checkpoint 9ba8845f5fa2f922fc379f83437c2713240148f5; гілки не злиті й не rebased.
+- Scope: ID3652 ユニーク, 3654 ブロック, 3677 ルーズ, 3679 ワンマン; 4 картки /8 контекстів. Три POS-map зміни; ID3654 залишено 名詞.
+- Вісім byExample payloads: точна прив'язка, три різні distractors, max length ratio 1.3684. Pilot credit = 0.
+- Статичний pool impact: ID3652 cloze 2269→294; ID3677 2269→294; ID3679 2269→65. Нові meaning keys вимкнуть шість cloze-контекстів у цих трьох картках. ID3654 має попередній key у v229 і нової втрати не створює. Reading pools для всіх чотирьох — 0→0.
+- Це не HTML build, не browser/independent acceptance; registry credit = 0. Залежить від рішення v230 щодо meaning-only або engine change. Докази: completion/v231-work/pool-impact-precheck.md, checkpoint.json, semantic-review.md, source-review.md.
+
+## Checkpoint v230 — C11 POS і meaning author review (browser diagnostics completed; acceptance blocked)
+
+- Робоча гілка: work/v230-c11-next-blockers; поточний HEAD 1d5b87c916c915cbf73185fe543491e8c40d9484. Base HTML v229 SHA-256 e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab.
+- Scope: ID3363, 3375, 3417, 3441, 3444, 3525, 3561, 3565, 3569, 3594, 3636, 3646. Авторськи переглянуто 12 карток /24 контексти; 12 POS-map updates; 11 нових byExample keys /22 контексти; два попередні ID3363 overrides збережено.
+- Static preflight: 24/24 exact example bindings, 24/24 distinct options, max length ratio 1.4667 (limit 1.5). Browser diagnostics: 12/12 cards, 12/12 POS labels, 24/24 meaning overrides, responsive 360/412/1280, storage round-trip, 0 page errors.
+- Workflow 43652194837 completed with failure at finalizer because 22 cloze contexts were suppressed by new per-card meaning keys. ID3375 reading pool 4→0; the onomatopoeia cloze pools shrink to four total candidates and have not passed semantic plausibility review. No registry credit; no main publication.
+- The test now reads POS aria-label rather than innerText. Finalizer has an explicit cloze-availability guard. Do not bypass it.
+- Evidence: completion/v230-work/cloze-availability-review.md, checkpoint.json, browser-results.json, pool-impact.json, meaning-quiz-diagnostics.json. v153 pilot does not cover these IDs; pilot credit = 0.
 
 ## Checkpoint v229 — C11 (завершено й опубліковано)
 
