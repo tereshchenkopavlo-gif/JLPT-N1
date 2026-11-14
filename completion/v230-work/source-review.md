@@ -14,7 +14,14 @@ All citations below are lexical evidence for POS and sense distinctions, not pro
 | 3565 | タイムリー | [Digital Daijisen / Nikkoku via Kotobank](https://kotobank.jp/word/%E3%81%9F%E3%81%84%E3%82%80%E3%82%8A%E3%83%BC-3213612): 形動 for timely; 名詞 for abbreviation タイムリーヒット. |
 | 3569 | コマーシャル | [Digital Daijisen / Nikkoku via Kotobank](https://kotobank.jp/word/%E3%81%93%E3%81%BE%E3%83%BC%E3%81%97%E3%82%84%E3%82%8B-3151926): noun advertising message and commercial/promotional modifier; Nikkoku records a 形動 use. |
 | 3594 | ストレート | [Digital Daijisen / Nikkoku via Kotobank](https://kotobank.jp/word/%E3%81%99%E3%81%A8%E3%82%8C%E3%83%BC%E3%81%A8-3182233): 名・形動; direct/straight and other specialized noun senses. |
-| 3636 | プライベート | Not yet source-confirmed in this pass; current examples are nominal and usage includes adjectival プライベートなN. |
-| 3646 | モダン | Not yet source-confirmed in this pass; both app examples use モダンなN. |
+| 3636 | プライベート | [Kaikki/Wiktionary Japanese](https://kaikki.org/jawiktionary/%E6%97%A5%E6%9C%AC%E8%AA%9E/meaning/%E3%83%97/%E3%83%97%E3%83%A9/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%99%E3%83%BC%E3%83%88.html) records both noun and 形容動詞 use; this is secondary evidence, so a primary dictionary check remains desirable. |
+| 3646 | モダン | [JLearn](https://jlearn.net/dictionary/%E3%83%A2%E3%83%80%E3%83%B3) lists both na-adjective and noun; this is secondary evidence, so a primary dictionary check remains desirable. |
 
 The next pass must open each dictionary entry directly and verify the precise sense and POS, not extrapolate from the broad entry. Any POS-map change must be followed by pool impact and exact-sentence quiz review.
+
+
+## Diagnostic evidence added
+
+- [v230 browser results](browser-results.json): 24 contexts; structure pass; two length-cue warnings, both ID3444; only ID3363 has existing reviewed overrides (2 contexts).
+- [v230 meaning diagnostics](meaning-quiz-diagnostics.json) and [pool counts](pool-impact.json) preserve the automatic output for manual review.
+- Kotobank confirms mixed POS for だぶだぶ, とろとろ, どろどろ, オートマチック, ジャンボ, タイムリー, コマーシャル, ストレート, 相当 and 当面. These broad entries must be narrowed to the exact card sense and actual example functions.
