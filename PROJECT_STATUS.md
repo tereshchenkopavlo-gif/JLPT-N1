@@ -1,7 +1,5 @@
 Оновлено 14 листопада 2026. Актуальна **v224** у main; повний HTML та перевірені C10-докази опубліковано commit 988811f271fa39e51430e68958aebaf7735bdf7a. HTML v224 — 6 952 257 байтів, SHA-256 19a9d8ca2e9f52a33c977674eb199ae7a132024adedd741681a4193f51a30cf6, Git blob e125da7bc2d404409c3d9f8bbfb2666eeee43b99. Авторський credit — **3856/3914**; реєстр: 3988 reviewed /461 fixed_rechecked /1387 pending /11 blocked із 5847; словник — 3397 /459 /47 /11; лексичні пари — 40 /1 /818. Наступний checkpoint: work/v225-c10-next-pending, створити від main v224 після синхронізації документації; наступні 12 ID: 3589, 3594, 3599, 3601, 3607, 3614, 3635, 3636, 3637, 3642, 3644, 3646. C11 blockers: 3525, 3561, 3565, 3569; разом із попередніми блокуваннями — 11.
 
-Оновлено 14 листопада 2026. Актуальна **v220** у main; publication commit 9087e61b48fd57795ba2195448f000f5e033c247 створено від guard c2081bc1baee2fd32acdeb9722feb9257da2214f. Повний HTML v220 — 6951790 байтів, SHA-256 b508b0e7455d7a1dbb03828a0f7afafe94631a2547f2590bc1924a047859025f, Git blob 307333c9e983ce8387be7cd6469d00aeb99dd9df. Наступна робоча гілка: work/v221-c10-next-pending, checkpoint від main v220; наступні 12 ID: 3375, 3382, 3383, 3384, 3390, 3392, 3397, 3402, 3407, 3409, 3415, 3417. Робочу гілку v220 не зливали.
-
 ## Checkpoint v224 — C10 (завершено й опубліковано)
 
 - Робочу гілку work/v224-c10-next-pending створено від main v223. Гілку не зливали; exact verified artifacts перенесено окремим commit у main: 988811f271fa39e51430e68958aebaf7735bdf7a. Робоча гілка збережена окремо.
@@ -13,6 +11,9 @@
 - HTML: 6952257 байтів; SHA-256 19a9d8ca2e9f52a33c977674eb199ae7a132024adedd741681a4193f51a30cf6; blob e125da7bc2d404409c3d9f8bbfb2666eeee43b99. Докази: JLPT_N1_v224_audit.md, v224-acceptance.tsv, v224-c10-review.tsv, v224-field-changes.tsv, v224-pair-review.tsv, v224-source-review.md, v224-prepare-results.json, v224-registry-results.json, v224-browser-results.json та completion/v224-work/.
 - Workflow 43552883556 успішний: deterministic build, exact rollback, Node syntax, 3914/130/859, 12 карток і 2 пари, Chromium 360/412/1280 px, storage round-trip/restore, 0 page errors; artifact digest sha256:1061aaf580149d1baa28f687e025f9c3bdc89e88886705b3a5a660e9effc78c4. Main data-check 43553151083 також успішний. Старий workflow v178-c10.yml і далі завершується failure (run 43553149867); це окремий від v224 сценарій, діагностику не завершено.
 - Незалежне лінгвістичне приймання, фізичні Android/Windows тести та правове/походження приймання залишаються відкритими.
+
+Історичний checkpoint v220 (попередній стан, збережений для простежуваності): publication commit 9087e61b48fd57795ba2195448f000f5e033c247 створено від guard c2081bc1baee2fd32acdeb9722feb9257da2214f. Повний HTML v220 — 6951790 байтів, SHA-256 b508b0e7455d7a1dbb03828a0f7afafe94631a2547f2590bc1924a047859025f, Git blob 307333c9e983ce8387be7cd6469d00aeb99dd9df. Наступна робоча гілка: work/v221-c10-next-pending, checkpoint від main v220; наступні 12 ID: 3375, 3382, 3383, 3384, 3390, 3392, 3397, 3402, 3407, 3409, 3415, 3417. Робочу гілку v220 не зливали.
+
 ## Checkpoint v223 — C10 (завершено й опубліковано)
 
 - Робоча гілка work/v223-c10-next-pending була створена від main v222. Після контрольованої публікації гілку не зливали; вона збережена окремо й тепер розходиться з main. Commit публікації в main: 5193f3be1ac7b10b91a1b10581e495616ccb4a39.
