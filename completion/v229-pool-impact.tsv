@@ -1,0 +1,13 @@
+id	word	reading_before	reading_after	cloze_before	cloze_after	reading_eligible_after	cloze_eligible_after
+2734	来る（きたる）	6	0	705	2	false	false
+544	いい加減	0	0	292	292	false	true
+550	わがまま	0	0	292	292	false	true
+552	確か	5	5	292	292	true	true
+557	結構	1	1	292	292	false	true
+588	独特	1	1	292	292	false	true
+599	無礼	6	6	292	292	true	true
+644	当然	6	6	276	276	true	true
+663	オーバー	0	0	2269	2269	false	true
+1631	相応	6	6	2269	2269	true	true
+3337	一切	3	3	276	276	true	true
+3345	散々	2	2	276	276	false	true
