@@ -1,0 +1,18 @@
+kind	key	decision	change	note
+vocab	1492	fixed_rechecked	updated	蒸留
+vocab	1878	fixed_rechecked	updated	発病
+vocab	544	blocked	held_for_C11	いい加減
+vocab	550	blocked	held_for_C11	わがまま
+vocab	552	blocked	held_for_C11	確か
+vocab	557	blocked	held_for_C11	結構
+vocab	588	blocked	held_for_C11	独特
+vocab	599	blocked	held_for_C11	無礼
+vocab	644	blocked	held_for_C11	当然
+vocab	663	blocked	held_for_C11	オーバー
+vocab	1631	blocked	held_for_C11	相応
+vocab	1510	not_assessed	held_pending	Excluded from this pass; no content change or credit.
+vocab_pair	142	reviewed	unchanged	552/553
+vocab_pair	145	reviewed	unchanged	544/585
+vocab_pair	388	reviewed	unchanged	1491/1492
+vocab_pair	412	reviewed	unchanged	1631/1634
+vocab_pair	446	reviewed	unchanged	1873/1878

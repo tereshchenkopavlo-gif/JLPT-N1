@@ -1,0 +1,13 @@
+id	headword	decision	changed_fields	reason
+544	いい加減	blocked	—	Digital Daijisen: 形動 plus adverbial use; POS-map only ナ形; C11 required.
+550	わがまま	blocked	—	Digital Daijisen: 名・形動; POS-map only ナ形; C11 required.
+552	確か	blocked	—	Digital Daijisen: 形動 and 副; POS-map only ナ形; C11 required.
+557	結構	blocked	—	Dictionary evidence: 形動 and adverbial degree use; POS-map only ナ形; C11 required.
+588	独特	blocked	—	Digital Daijisen: 名・形動; POS-map only ナ形; C11 required.
+599	無礼	blocked	—	Digital Daijisen: 名・形動; POS-map only ナ形; C11 required.
+644	当然	blocked	—	Digital Daijisen: 名・形動 and 副; POS-map only 副詞; C11 required.
+663	オーバー	blocked	—	Digital Daijisen: 名(スル) and 形動; POS-map only 名詞; C11 required.
+1492	蒸留	fixed_rechecked	examples[1];exampleTranslations[1]	Second example replaced with neutral industrial context; definition and first example unchanged.
+1510		not_assessed_safety_hold	—	Not assessed in this pass; no content changed and no author credit assigned.
+1631	相応	blocked	—	Digital Daijisen: 名・形動(スル); POS-map only 名詞; C11 required.
+1878	発病	fixed_rechecked	m;usage	Definition aligned with general onset-of-illness sense; redundant usage wording removed; examples unchanged.

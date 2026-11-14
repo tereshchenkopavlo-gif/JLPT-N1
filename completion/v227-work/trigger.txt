@@ -1,0 +1,1 @@
+v227 C10 review trigger — deterministic candidate, registry and Chromium verification.
