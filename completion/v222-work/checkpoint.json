@@ -105,13 +105,17 @@
   "provenance_legal_acceptance": "not performed",
   "main_guard": "25a7c769d08fd6e21af353125fff9cdcc0c2bc0a",
   "publication_policy": "publish only exact verified artifacts; never merge work branch",
-  "status": "candidate and registry prepared; syntax and Chromium verification passed; ready for guarded exact-artifact publication",
+  "status": "published in main with exact verified HTML, audit, register, and evidence blobs",
   "candidate_sha256": "a05e32438c6eb1866d33395ec3eac62922df70dbf9af9befb7fa4362efebb6da",
   "candidate_blob_sha": "d44b56a6426ba3bf99eee3d1e8c26980664fb991",
   "candidate_bytes": 6952101,
   "pair_changed": [],
   "exact_rollback": true,
-  "publication_status": "pending",
+  "publication_status": "published",
   "chromium_verification": "passed",
-  "workflow_run_id": 43550676972
+  "workflow_run_id": 43550676972,
+  "publication_commit_sha": "05c4f1fec68593c0fc602bb18f306b05f9aae708",
+  "published_from_main_guard": "2a2e435e5c5300b21f118b14a063d3dcadfbc413",
+  "published_version": "v222",
+  "publication_guard": "2a2e435e5c5300b21f118b14a063d3dcadfbc413"
 }
