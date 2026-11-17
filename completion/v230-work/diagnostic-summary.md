@@ -9,3 +9,7 @@ Run: [43622947862](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs
 - Reading pools: ID3375 has 4 candidates; other 11 have 0. Cloze pools: all 12 have at least 276 candidates; both examples of every card are currently eligible.
 - Responsive: 360/412/1280, no overflow. Storage round-trip and restore passed. Page errors: 0.
 - No application data, POS-map, quiz payload or review-register rows changed; author credit remains 0 for this checkpoint.
+
+# v230 C11 review result
+
+Baseline diagnostics are retained above. The author review now covers 12 cards and 24 exact example contexts. The POS map was reconciled for 12 IDs; 11 new byExample quiz keys cover 22 contexts, while the two existing ID3363 overrides were retained. Browser verification is separate from the author review. The register records 12 fixed_rechecked cards and 11 reviewed meaning-quiz keys. No v153 credit was applied.

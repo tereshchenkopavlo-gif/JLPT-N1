@@ -3361,7 +3361,7 @@ vocab,3359,vocab:3359,reviewed,completion/v165-cards-3341-3360.tsv#3359; author 
 vocab,3360,vocab:3360,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3361,vocab:3361,reviewed,completion/v165-cards-3361-3380.tsv#3361; author linguistic review
 vocab,3362,vocab:3362,reviewed,completion/v165-cards-3361-3380.tsv#3362; author linguistic review
-vocab,3363,vocab:3363,blocked,completion/v220-c10-review.tsv#3363; adjectival 相当な時間 example conflicts with adverbial POS and quiz scope; C11 required; no data changed
+vocab,3363,vocab:3363,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3364,vocab:3364,fixed_rechecked,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3365,vocab:3365,reviewed,completion/v165-cards-3361-3380.tsv#3365; author linguistic review
 vocab,3366,vocab:3366,reviewed,completion/v165-cards-3361-3380.tsv#3366; author linguistic review
@@ -3373,7 +3373,7 @@ vocab,3371,vocab:3371,reviewed,completion/v165-cards-3361-3380.tsv#3371; author 
 vocab,3372,vocab:3372,reviewed,completion/v165-cards-3361-3380.tsv#3372; author linguistic review
 vocab,3373,vocab:3373,reviewed,"JLPT_N1_v220_audit.md; completion/v220-acceptance.tsv; completion/v220-c10-review.tsv; author review, not independent; no v153 pilot rows for IDs above 320"
 vocab,3374,vocab:3374,reviewed,completion/v165-cards-3361-3380.tsv#3374; author linguistic review
-vocab,3375,vocab:3375,blocked,completion/v221-c10-review.tsv#3375; 当面 is 名詞 with adverbial use; 当面の課題 is nominal while app POS-map is 副詞; C11 required; unchanged
+vocab,3375,vocab:3375,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3376,vocab:3376,reviewed,completion/v165-cards-3361-3380.tsv#3376; author linguistic review
 vocab,3377,vocab:3377,reviewed,completion/v165-cards-3361-3380.tsv#3377; author linguistic review
 vocab,3378,vocab:3378,reviewed,completion/v165-cards-3361-3380.tsv#3378; author linguistic review
@@ -3415,7 +3415,7 @@ vocab,3413,vocab:3413,reviewed,completion/v166-cards-3401-3420.tsv#3413; author 
 vocab,3414,vocab:3414,reviewed,completion/v166-cards-3401-3420.tsv#3414; author linguistic review
 vocab,3415,vocab:3415,fixed_rechecked,JLPT_N1_v221_audit.md; completion/v221-acceptance.tsv; completion/v221-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3416,vocab:3416,reviewed,completion/v166-cards-3401-3420.tsv#3416; author linguistic review
-vocab,3417,vocab:3417,blocked,completion/v221-c10-review.tsv#3417; だぶだぶ has 副詞 and 形動 uses; examples だぶだぶで/だぶだぶの conflict with app POS-map 副詞; C11 required; unchanged
+vocab,3417,vocab:3417,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3418,vocab:3418,reviewed,completion/v166-cards-3401-3420.tsv#3418; author linguistic review
 vocab,3419,vocab:3419,reviewed,completion/v166-cards-3401-3420.tsv#3419; author linguistic review
 vocab,3420,vocab:3420,reviewed,completion/v166-cards-3401-3420.tsv#3420; author linguistic review
@@ -3439,10 +3439,10 @@ vocab,3437,vocab:3437,reviewed,completion/v166-cards-3421-3440.tsv#3437; author 
 vocab,3438,vocab:3438,reviewed,JLPT_N1_v222_audit.md; completion/v222-acceptance.tsv; completion/v222-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3439,vocab:3439,reviewed,completion/v166-cards-3421-3440.tsv#3439; author linguistic review
 vocab,3440,vocab:3440,reviewed,completion/v166-cards-3421-3440.tsv#3440; author linguistic review
-vocab,3441,vocab:3441,blocked,completion/v222-c10-review.tsv#3441; dictionary records 副詞/形動 while app POS-map is 副詞; C11 required; unchanged
+vocab,3441,vocab:3441,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3442,vocab:3442,reviewed,completion/v166-cards-3441-3460.tsv#3442; author linguistic review
 vocab,3443,vocab:3443,reviewed,completion/v166-cards-3441-3460.tsv#3443; author linguistic review
-vocab,3444,vocab:3444,blocked,completion/v222-c10-review.tsv#3444; dictionary records 副詞/形動 while app POS-map is 副詞; C11 required; unchanged
+vocab,3444,vocab:3444,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3445,vocab:3445,reviewed,completion/v166-cards-3441-3460.tsv#3445; author linguistic review
 vocab,3446,vocab:3446,reviewed,completion/v166-cards-3441-3460.tsv#3446; author linguistic review
 vocab,3447,vocab:3447,reviewed,completion/v166-cards-3441-3460.tsv#3447; author linguistic review
@@ -3523,7 +3523,7 @@ vocab,3521,vocab:3521,reviewed,completion/v167-cards-3521-3540.tsv#3521; author 
 vocab,3522,vocab:3522,reviewed,JLPT_N1_v224_audit.md; completion/v224-acceptance.tsv; completion/v224-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3523,vocab:3523,reviewed,completion/v167-cards-3521-3540.tsv#3523; author linguistic review
 vocab,3524,vocab:3524,reviewed,completion/v167-cards-3521-3540.tsv#3524; author linguistic review
-vocab,3525,vocab:3525,blocked,JLPT_N1_v224_audit.md; completion/v224-acceptance.tsv; completion/v224-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v224
+vocab,3525,vocab:3525,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3526,vocab:3526,reviewed,completion/v167-cards-3521-3540.tsv#3526; author linguistic review
 vocab,3527,vocab:3527,reviewed,completion/v170-acceptance.tsv#3527. Author linguistic review of corrected fields and prior evidence.
 vocab,3528,vocab:3528,reviewed,completion/v167-cards-3521-3540.tsv#3528; author linguistic review
@@ -3559,15 +3559,15 @@ vocab,3557,vocab:3557,reviewed,completion/v167-cards-3541-3560.tsv#3557; author 
 vocab,3558,vocab:3558,reviewed,completion/v167-cards-3541-3560.tsv#3558; author linguistic review
 vocab,3559,vocab:3559,reviewed,completion/v167-cards-3541-3560.tsv#3559; author linguistic review
 vocab,3560,vocab:3560,reviewed,completion/v167-cards-3541-3560.tsv#3560; author linguistic review
-vocab,3561,vocab:3561,blocked,JLPT_N1_v224_audit.md; completion/v224-acceptance.tsv; completion/v224-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v224
+vocab,3561,vocab:3561,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3562,vocab:3562,reviewed,completion/v167-cards-3561-3580.tsv#3562; author linguistic review
 vocab,3563,vocab:3563,reviewed,completion/v167-cards-3561-3580.tsv#3563; author linguistic review
 vocab,3564,vocab:3564,reviewed,completion/v167-cards-3561-3580.tsv#3564; author linguistic review
-vocab,3565,vocab:3565,blocked,JLPT_N1_v224_audit.md; completion/v224-acceptance.tsv; completion/v224-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v224
+vocab,3565,vocab:3565,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3566,vocab:3566,reviewed,completion/v167-cards-3561-3580.tsv#3566; author linguistic review
 vocab,3567,vocab:3567,reviewed,completion/v167-cards-3561-3580.tsv#3567; author linguistic review
 vocab,3568,vocab:3568,reviewed,JLPT_N1_v224_audit.md; completion/v224-acceptance.tsv; completion/v224-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
-vocab,3569,vocab:3569,blocked,JLPT_N1_v224_audit.md; completion/v224-acceptance.tsv; completion/v224-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v224
+vocab,3569,vocab:3569,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3570,vocab:3570,reviewed,completion/v167-cards-3561-3580.tsv#3570; author linguistic review
 vocab,3571,vocab:3571,reviewed,completion/v167-cards-3561-3580.tsv#3571; author linguistic review
 vocab,3572,vocab:3572,reviewed,completion/v167-cards-3561-3580.tsv#3572; author linguistic review
@@ -3592,7 +3592,7 @@ vocab,3590,vocab:3590,reviewed,completion/v167-cards-3581-3600.tsv#3590; author 
 vocab,3591,vocab:3591,reviewed,completion/v167-cards-3581-3600.tsv#3591; author linguistic review
 vocab,3592,vocab:3592,reviewed,completion/v167-cards-3581-3600.tsv#3592; author linguistic review
 vocab,3593,vocab:3593,reviewed,completion/v167-cards-3581-3600.tsv#3593; author linguistic review
-vocab,3594,vocab:3594,blocked,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v225
+vocab,3594,vocab:3594,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3595,vocab:3595,reviewed,completion/v167-cards-3581-3600.tsv#3595; author linguistic review
 vocab,3596,vocab:3596,reviewed,completion/v167-cards-3581-3600.tsv#3596; author linguistic review
 vocab,3597,vocab:3597,reviewed,completion/v167-cards-3581-3600.tsv#3597; author linguistic review
@@ -3634,7 +3634,7 @@ vocab,3632,vocab:3632,reviewed,completion/v168-cards-3621-3640.tsv#3632; author 
 vocab,3633,vocab:3633,reviewed,completion/v168-cards-3621-3640.tsv#3633; author linguistic review
 vocab,3634,vocab:3634,reviewed,completion/v168-cards-3621-3640.tsv#3634; author linguistic review
 vocab,3635,vocab:3635,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
-vocab,3636,vocab:3636,blocked,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v225
+vocab,3636,vocab:3636,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3637,vocab:3637,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3638,vocab:3638,reviewed,completion/v170-acceptance.tsv#3638. Author linguistic review of corrected fields and prior evidence.
 vocab,3639,vocab:3639,reviewed,completion/v168-cards-3621-3640.tsv#3639; author linguistic review
@@ -3644,7 +3644,7 @@ vocab,3642,vocab:3642,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance
 vocab,3643,vocab:3643,reviewed,completion/v168-cards-3641-3660.tsv#3643; author linguistic review
 vocab,3644,vocab:3644,reviewed,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; author review only; no v153 pilot rows for IDs above 320
 vocab,3645,vocab:3645,reviewed,completion/v170-acceptance.tsv#3645. Author linguistic review of corrected fields and prior evidence.
-vocab,3646,vocab:3646,blocked,JLPT_N1_v225_audit.md; completion/v225-acceptance.tsv; completion/v225-c10-review.tsv; C11 POS-map/quiz-pool review required; not author-credited in v225
+vocab,3646,vocab:3646,fixed_rechecked,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
 vocab,3647,vocab:3647,reviewed,completion/v168-cards-3641-3660.tsv#3647; author linguistic review
 vocab,3648,vocab:3648,reviewed,completion/v168-cards-3641-3660.tsv#3648; author linguistic review
 vocab,3649,vocab:3649,reviewed,completion/v168-cards-3641-3660.tsv#3649; author linguistic review
@@ -5846,3 +5846,14 @@ reviewed_meaning_quiz,v_2433,REVIEWED_MEANING_QUIZZES.v_2433,reviewed,"completio
 reviewed_reading_quiz,r_255,REVIEWED_READING_OPTIONS.255,reviewed,completion/v182-reading-pool-review.tsv#255; three distinct verified distractors for 直接/ちょくせつ; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
 reviewed_reading_quiz,r_327,REVIEWED_READING_OPTIONS.327,reviewed,completion/v182-reading-pool-review.tsv#327; three distinct verified distractors for 浮気/うわき; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
 reviewed_reading_quiz,r_1819,REVIEWED_READING_OPTIONS.1819,reviewed,completion/v182-reading-pool-review.tsv#1819; three distinct verified distractors for 内訳/うちわけ; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
+reviewed_meaning_quiz,v_3375,REVIEWED_MEANING_QUIZZES.v_3375,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3417,REVIEWED_MEANING_QUIZZES.v_3417,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3441,REVIEWED_MEANING_QUIZZES.v_3441,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3444,REVIEWED_MEANING_QUIZZES.v_3444,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3525,REVIEWED_MEANING_QUIZZES.v_3525,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3561,REVIEWED_MEANING_QUIZZES.v_3561,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3565,REVIEWED_MEANING_QUIZZES.v_3565,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3569,REVIEWED_MEANING_QUIZZES.v_3569,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3594,REVIEWED_MEANING_QUIZZES.v_3594,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3636,REVIEWED_MEANING_QUIZZES.v_3636,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit
+reviewed_meaning_quiz,v_3646,REVIEWED_MEANING_QUIZZES.v_3646,reviewed,JLPT_N1_v230_audit.md; completion/v230-acceptance.tsv; completion/v230-c11-review.tsv; completion/v230-semantic-review.md; C11 author POS/sense and 24-context quiz review; no v153 pilot credit

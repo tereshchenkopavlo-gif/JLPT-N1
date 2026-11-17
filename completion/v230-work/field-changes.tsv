@@ -1,0 +1,24 @@
+block	id_or_key	before	after	reason
+VOCAB_POS_BY_ID	3363	"[""副詞""]"	"[""副詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3375	"[""副詞""]"	"[""名詞"", ""副詞""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3417	"[""副詞""]"	"[""副詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3441	"[""副詞""]"	"[""副詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3444	"[""副詞""]"	"[""副詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3525	"[""名詞""]"	"[""名詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3561	"[""名詞""]"	"[""名詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3565	"[""名詞""]"	"[""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3569	"[""名詞""]"	"[""名詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3594	"[""名詞""]"	"[""名詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3636	"[""名詞""]"	"[""名詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+VOCAB_POS_BY_ID	3646	"[""名詞""]"	"[""名詞"", ""ナ形""]"	C11 POS-map reconciled with selected card senses and observed forms.
+REVIEWED_MEANING_QUIZZES	v_3375	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3417	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3441	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3444	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3525	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3561	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3565	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3569	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3594	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3636	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.
+REVIEWED_MEANING_QUIZZES	v_3646	absent	22 byExample contexts	Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change.

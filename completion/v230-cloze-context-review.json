@@ -1,0 +1,239 @@
+{
+  "version": 230,
+  "reviewType": "author_manual_cloze_review",
+  "scope": [
+    3363,
+    3375,
+    3417,
+    3441,
+    3444,
+    3525,
+    3561,
+    3565,
+    3569,
+    3594,
+    3636,
+    3646
+  ],
+  "contexts": 24,
+  "approved": 0,
+  "rejected": 24,
+  "decisions": [
+    {
+      "id": 3363,
+      "word": "相当",
+      "exampleIndex": 0,
+      "example": "この計画の実現には、相当な時間を要するだろう。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Near-equivalent degree adverbs can complete both sentences naturally; no unique three-distractor set was established."
+    },
+    {
+      "id": 3363,
+      "word": "相当",
+      "exampleIndex": 1,
+      "example": "相当疲れていたのか、彼は帰宅するなり眠り込んだ。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Near-equivalent degree adverbs can complete both sentences naturally; no unique three-distractor set was established."
+    },
+    {
+      "id": 3375,
+      "word": "当面",
+      "exampleIndex": 0,
+      "example": "当面の課題は、優秀な人材の確保と育成である。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "当分, 目下 and other time expressions can be contextually acceptable; the headword is not uniquely recoverable from either sentence."
+    },
+    {
+      "id": 3375,
+      "word": "当面",
+      "exampleIndex": 1,
+      "example": "当面は現状維持を図りつつ、改革の機会を探る。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "当分, 目下 and other time expressions can be contextually acceptable; the headword is not uniquely recoverable from either sentence."
+    },
+    {
+      "id": 3417,
+      "word": "だぶだぶ",
+      "exampleIndex": 0,
+      "example": "兄のお下がりのスーツは、だぶだぶで肩が落ちていた。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "ぶかぶか is a genuine near-synonym in both clothing contexts, so a four-choice cloze would be ambiguous."
+    },
+    {
+      "id": 3417,
+      "word": "だぶだぶ",
+      "exampleIndex": 1,
+      "example": "だぶだぶの作業服を着た新人が、現場を駆け回った。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "ぶかぶか is a genuine near-synonym in both clothing contexts, so a four-choice cloze would be ambiguous."
+    },
+    {
+      "id": 3441,
+      "word": "とろとろ",
+      "exampleIndex": 0,
+      "example": "弱火で煮込むと、野菜がとろとろになって甘みが増す。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Other food-state and dozing expressions can complete the sentences naturally; the exact onomatopoeia is not uniquely forced."
+    },
+    {
+      "id": 3441,
+      "word": "とろとろ",
+      "exampleIndex": 1,
+      "example": "日差しが心地よくて、縁側でとろとろと居眠りをした。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Other food-state and dozing expressions can complete the sentences naturally; the exact onomatopoeia is not uniquely forced."
+    },
+    {
+      "id": 3444,
+      "word": "どろどろ",
+      "exampleIndex": 0,
+      "example": "大雨のあと、畑の土がどろどろにぬかるんでしまった。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Other mud-state and relationship descriptors can produce natural, defensible readings; no unique answer was proved."
+    },
+    {
+      "id": 3444,
+      "word": "どろどろ",
+      "exampleIndex": 1,
+      "example": "どろどろした人間関係に疲れ、彼は転職を決意した。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Other mud-state and relationship descriptors can produce natural, defensible readings; no unique answer was proved."
+    },
+    {
+      "id": 3525,
+      "word": "オートマチック",
+      "exampleIndex": 0,
+      "example": "オートマチックの車は、運転が楽で人気が高い。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "The post-POS pool is broad and mostly unrelated; a random three-choice sample would be an answer-form hint rather than a semantic test."
+    },
+    {
+      "id": 3525,
+      "word": "オートマチック",
+      "exampleIndex": 1,
+      "example": "この装置は、温度調節がオートマチックに行われる仕組みだ。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "The post-POS pool is broad and mostly unrelated; a random three-choice sample would be an answer-form hint rather than a semantic test."
+    },
+    {
+      "id": 3561,
+      "word": "ジャンボ",
+      "exampleIndex": 0,
+      "example": "ジャンボサイズのピザは、家族全員で食べても余る。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Size labels can fit the pizza context, while several aircraft labels can fit the runway context; the target is not uniquely forced."
+    },
+    {
+      "id": 3561,
+      "word": "ジャンボ",
+      "exampleIndex": 1,
+      "example": "ジャンボジェット機が、滑走路にゆっくり降りてきた。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "Size labels can fit the pizza context, while several aircraft labels can fit the runway context; the target is not uniquely forced."
+    },
+    {
+      "id": 3565,
+      "word": "タイムリー",
+      "exampleIndex": 0,
+      "example": "タイムリーな情報提供が、顧客の信頼につながる。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "適切 and other timing/appropriateness expressions can be valid in both contexts, creating multiple defensible answers."
+    },
+    {
+      "id": 3565,
+      "word": "タイムリー",
+      "exampleIndex": 1,
+      "example": "このテーマの特集は、時期的にもタイムリーだった。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "適切 and other timing/appropriateness expressions can be valid in both contexts, creating multiple defensible answers."
+    },
+    {
+      "id": 3569,
+      "word": "コマーシャル",
+      "exampleIndex": 0,
+      "example": "新商品のコマーシャルが、テレビで盛んに流れている。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "広告・宣伝 and related broadcast expressions can fit; the contexts do not uniquely require the loanword."
+    },
+    {
+      "id": 3569,
+      "word": "コマーシャル",
+      "exampleIndex": 1,
+      "example": "コマーシャルの効果で、売り上げは前年を上回った。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "広告・宣伝 and related broadcast expressions can fit; the contexts do not uniquely require the loanword."
+    },
+    {
+      "id": 3594,
+      "word": "ストレート",
+      "exampleIndex": 0,
+      "example": "彼は意見をストレートに伝えるため、誤解されにくい。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "率直 and other directness expressions can fit naturally; the target loanword is not uniquely recoverable."
+    },
+    {
+      "id": 3594,
+      "word": "ストレート",
+      "exampleIndex": 1,
+      "example": "ストレートな表現が、かえって相手の心に響いた。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "率直 and other directness expressions can fit naturally; the target loanword is not uniquely recoverable."
+    },
+    {
+      "id": 3636,
+      "word": "プライベート",
+      "exampleIndex": 0,
+      "example": "仕事とプライベートを切り離して考える人が増えている。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "私生活 and related personal-life expressions can fit naturally; the target loanword is not uniquely recoverable."
+    },
+    {
+      "id": 3636,
+      "word": "プライベート",
+      "exampleIndex": 1,
+      "example": "芸能人のプライベートを執拗に追う報道には、批判の声が上がった。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "私生活 and related personal-life expressions can fit naturally; the target loanword is not uniquely recoverable."
+    },
+    {
+      "id": 3646,
+      "word": "モダン",
+      "exampleIndex": 0,
+      "example": "古い倉庫をモダンなデザインのホテルに改装した。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "現代的・斬新 and related style expressions can fit naturally; the target loanword is not uniquely recoverable."
+    },
+    {
+      "id": 3646,
+      "word": "モダン",
+      "exampleIndex": 1,
+      "example": "モダンな建築と伝統的な庭園が調和する、人気の観光地である。",
+      "decision": "reject_cloze",
+      "allowCloze": false,
+      "reason": "現代的・斬新 and related style expressions can fit naturally; the target loanword is not uniquely recoverable."
+    }
+  ]
+}

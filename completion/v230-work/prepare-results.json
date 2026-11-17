@@ -1,0 +1,170 @@
+{
+  "pass": true,
+  "base_version": "v229",
+  "base_main_sha": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba",
+  "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "candidate_version": "v230",
+  "candidate_sha256": "4483de25ea5a43d02723c3ead56e9fabafc01e480204d754567cefa2a598e98b",
+  "candidate_blob_sha": "f7c38b0ca80ab5246a9ec23f098a6b4ba2c3dfd6",
+  "candidate_bytes": 6973257,
+  "scope_ids": [
+    3363,
+    3375,
+    3417,
+    3441,
+    3444,
+    3525,
+    3561,
+    3565,
+    3569,
+    3594,
+    3636,
+    3646
+  ],
+  "vocabulary_records": 3914,
+  "grammar_records": 130,
+  "lexical_pairs": 859,
+  "unique_vocabulary_ids": 3914,
+  "pos_updates": {
+    "3363": {
+      "before": [
+        "副詞"
+      ],
+      "after": [
+        "副詞",
+        "ナ形"
+      ]
+    },
+    "3375": {
+      "before": [
+        "副詞"
+      ],
+      "after": [
+        "名詞",
+        "副詞"
+      ]
+    },
+    "3417": {
+      "before": [
+        "副詞"
+      ],
+      "after": [
+        "副詞",
+        "ナ形"
+      ]
+    },
+    "3441": {
+      "before": [
+        "副詞"
+      ],
+      "after": [
+        "副詞",
+        "ナ形"
+      ]
+    },
+    "3444": {
+      "before": [
+        "副詞"
+      ],
+      "after": [
+        "副詞",
+        "ナ形"
+      ]
+    },
+    "3525": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    "3561": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    "3565": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "ナ形"
+      ]
+    },
+    "3569": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    "3594": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    "3636": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "ナ形"
+      ]
+    },
+    "3646": {
+      "before": [
+        "名詞"
+      ],
+      "after": [
+        "名詞",
+        "ナ形"
+      ]
+    }
+  },
+  "meaning_quiz_added": [
+    "v_3375",
+    "v_3417",
+    "v_3441",
+    "v_3444",
+    "v_3525",
+    "v_3561",
+    "v_3565",
+    "v_3569",
+    "v_3594",
+    "v_3636",
+    "v_3646"
+  ],
+  "meaning_contexts": 24,
+  "new_context_overrides": 22,
+  "retained_context_overrides": 2,
+  "reviewed_cloze_engine": true,
+  "reviewed_cloze_payloads": 0,
+  "cloze_contexts_reviewed": 24,
+  "cloze_contexts_rejected": 24,
+  "protected": {
+    "DEFAULT_VOCAB": true,
+    "GRAMMAR_DETAILS_BY_ID": true,
+    "VOCAB_DETAILS_BY_ID": true,
+    "VOCAB_AUDITED_PAIRS": true,
+    "REVIEWED_READING_OPTIONS": true,
+    "VOCAB_KANA_EXAMPLE_TARGETS": true,
+    "REVIEWED_EXAMPLE_TARGETS": true,
+    "storage_keys": true,
+    "legacy_cloze_behavior": "unchanged unless an exact REVIEWED_CLOZE_QUIZZES byExample payload exists"
+  },
+  "exact_rollback": true,
+  "pilot_v153_credit": 0
+}

@@ -1,0 +1,25 @@
+id	word	example_index	exact_example	decision	allow_cloze	reason
+3363	相当	0	この計画の実現には、相当な時間を要するだろう。	reject_cloze	false	Near-equivalent degree adverbs can complete both sentences naturally; no unique three-distractor set was established.
+3363	相当	1	相当疲れていたのか、彼は帰宅するなり眠り込んだ。	reject_cloze	false	Near-equivalent degree adverbs can complete both sentences naturally; no unique three-distractor set was established.
+3375	当面	0	当面の課題は、優秀な人材の確保と育成である。	reject_cloze	false	当分, 目下 and other time expressions can be contextually acceptable; the headword is not uniquely recoverable from either sentence.
+3375	当面	1	当面は現状維持を図りつつ、改革の機会を探る。	reject_cloze	false	当分, 目下 and other time expressions can be contextually acceptable; the headword is not uniquely recoverable from either sentence.
+3417	だぶだぶ	0	兄のお下がりのスーツは、だぶだぶで肩が落ちていた。	reject_cloze	false	ぶかぶか is a genuine near-synonym in both clothing contexts, so a four-choice cloze would be ambiguous.
+3417	だぶだぶ	1	だぶだぶの作業服を着た新人が、現場を駆け回った。	reject_cloze	false	ぶかぶか is a genuine near-synonym in both clothing contexts, so a four-choice cloze would be ambiguous.
+3441	とろとろ	0	弱火で煮込むと、野菜がとろとろになって甘みが増す。	reject_cloze	false	Other food-state and dozing expressions can complete the sentences naturally; the exact onomatopoeia is not uniquely forced.
+3441	とろとろ	1	日差しが心地よくて、縁側でとろとろと居眠りをした。	reject_cloze	false	Other food-state and dozing expressions can complete the sentences naturally; the exact onomatopoeia is not uniquely forced.
+3444	どろどろ	0	大雨のあと、畑の土がどろどろにぬかるんでしまった。	reject_cloze	false	Other mud-state and relationship descriptors can produce natural, defensible readings; no unique answer was proved.
+3444	どろどろ	1	どろどろした人間関係に疲れ、彼は転職を決意した。	reject_cloze	false	Other mud-state and relationship descriptors can produce natural, defensible readings; no unique answer was proved.
+3525	オートマチック	0	オートマチックの車は、運転が楽で人気が高い。	reject_cloze	false	The post-POS pool is broad and mostly unrelated; a random three-choice sample would be an answer-form hint rather than a semantic test.
+3525	オートマチック	1	この装置は、温度調節がオートマチックに行われる仕組みだ。	reject_cloze	false	The post-POS pool is broad and mostly unrelated; a random three-choice sample would be an answer-form hint rather than a semantic test.
+3561	ジャンボ	0	ジャンボサイズのピザは、家族全員で食べても余る。	reject_cloze	false	Size labels can fit the pizza context, while several aircraft labels can fit the runway context; the target is not uniquely forced.
+3561	ジャンボ	1	ジャンボジェット機が、滑走路にゆっくり降りてきた。	reject_cloze	false	Size labels can fit the pizza context, while several aircraft labels can fit the runway context; the target is not uniquely forced.
+3565	タイムリー	0	タイムリーな情報提供が、顧客の信頼につながる。	reject_cloze	false	適切 and other timing/appropriateness expressions can be valid in both contexts, creating multiple defensible answers.
+3565	タイムリー	1	このテーマの特集は、時期的にもタイムリーだった。	reject_cloze	false	適切 and other timing/appropriateness expressions can be valid in both contexts, creating multiple defensible answers.
+3569	コマーシャル	0	新商品のコマーシャルが、テレビで盛んに流れている。	reject_cloze	false	広告・宣伝 and related broadcast expressions can fit; the contexts do not uniquely require the loanword.
+3569	コマーシャル	1	コマーシャルの効果で、売り上げは前年を上回った。	reject_cloze	false	広告・宣伝 and related broadcast expressions can fit; the contexts do not uniquely require the loanword.
+3594	ストレート	0	彼は意見をストレートに伝えるため、誤解されにくい。	reject_cloze	false	率直 and other directness expressions can fit naturally; the target loanword is not uniquely recoverable.
+3594	ストレート	1	ストレートな表現が、かえって相手の心に響いた。	reject_cloze	false	率直 and other directness expressions can fit naturally; the target loanword is not uniquely recoverable.
+3636	プライベート	0	仕事とプライベートを切り離して考える人が増えている。	reject_cloze	false	私生活 and related personal-life expressions can fit naturally; the target loanword is not uniquely recoverable.
+3636	プライベート	1	芸能人のプライベートを執拗に追う報道には、批判の声が上がった。	reject_cloze	false	私生活 and related personal-life expressions can fit naturally; the target loanword is not uniquely recoverable.
+3646	モダン	0	古い倉庫をモダンなデザインのホテルに改装した。	reject_cloze	false	現代的・斬新 and related style expressions can fit naturally; the target loanword is not uniquely recoverable.
+3646	モダン	1	モダンな建築と伝統的な庭園が調和する、人気の観光地である。	reject_cloze	false	現代的・斬新 and related style expressions can fit naturally; the target loanword is not uniquely recoverable.

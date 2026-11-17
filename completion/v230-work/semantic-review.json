@@ -1,0 +1,551 @@
+{
+  "version": 230,
+  "reviewType": "author_manual_semantic_review",
+  "independentReview": false,
+  "scope": [
+    3363,
+    3375,
+    3417,
+    3441,
+    3444,
+    3525,
+    3561,
+    3565,
+    3569,
+    3594,
+    3636,
+    3646
+  ],
+  "context_count": 24,
+  "overall_decision": "pass",
+  "decisions": [
+    {
+      "id": 3363,
+      "word": "相当",
+      "exampleIndex": 0,
+      "example": "この計画の実現には、相当な時間を要するだろう。",
+      "decision": "retained_existing_reviewed_override",
+      "correct": "物事の程度が、普通よりかなり大きいさま。",
+      "wrong": [
+        "物事の程度が、ごく小さく限られているさま。",
+        "物事の程度が、基準とほとんど変わらないさま。",
+        "物事の程度が、以前よりも少し弱くなったさま。"
+      ],
+      "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+      "lengths": [
+        20,
+        21,
+        22,
+        22
+      ],
+      "ratio": 1.1,
+      "rationale": "Existing author-reviewed v141 override; binding and balance rechecked, not counted as new override."
+    },
+    {
+      "id": 3363,
+      "word": "相当",
+      "exampleIndex": 1,
+      "example": "相当疲れていたのか、彼は帰宅するなり眠り込んだ。",
+      "decision": "retained_existing_reviewed_override",
+      "correct": "物事の程度が、普通よりかなり大きいさま。",
+      "wrong": [
+        "物事の程度が、ごく小さく限られているさま。",
+        "物事の程度が、基準とほとんど変わらないさま。",
+        "物事の程度が、以前よりも少し弱くなったさま。"
+      ],
+      "note": "Тут 相当 — значний ступінь: 相当疲れた — неабияк утомився. Це не еквівалентність, яку передає окреме 相当する.",
+      "lengths": [
+        20,
+        21,
+        22,
+        22
+      ],
+      "ratio": 1.1,
+      "rationale": "Existing author-reviewed v141 override; binding and balance rechecked, not counted as new override."
+    },
+    {
+      "id": 3375,
+      "word": "当面",
+      "exampleIndex": 0,
+      "example": "当面の課題は、優秀な人材の確保と育成である。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "さしあたって、現在の段階で対応すべき課題であること。",
+      "wrong": [
+        "将来のある時点になってから、初めて問題になること。",
+        "過去の経緯を振り返り、原因を整理すること。",
+        "長期的な目標として、将来に向けて掲げること。"
+      ],
+      "note": "当面の課題 — найближче нагальне завдання на теперішньому етапі; тут не йдеться про майбутній чи минулий період.",
+      "lengths": [
+        26,
+        25,
+        21,
+        22
+      ],
+      "ratio": 1.238,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3375,
+      "word": "当面",
+      "exampleIndex": 1,
+      "example": "当面は現状維持を図りつつ、改革の機会を探る。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "今のところは、その状態を続けること。",
+      "wrong": [
+        "これまでの経緯を踏まえ、過去の状態に戻すこと。",
+        "将来の一定期間を終えた後に、方針を変えること。",
+        "期限を設けず、永久に同じ状態を保つこと。"
+      ],
+      "note": "当面は — наразі, поки що; це не означає ані повернення до минулого, ані незмінність назавжди.",
+      "lengths": [
+        18,
+        23,
+        23,
+        20
+      ],
+      "ratio": 1.278,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3417,
+      "word": "だぶだぶ",
+      "exampleIndex": 0,
+      "example": "兄のお下がりのスーツは、だぶだぶで肩が落ちていた。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "衣服が体に対して大きすぎ、ゆるく余っているさま。",
+      "wrong": [
+        "衣服が体にぴったり合い、余分なゆとりがないさま。",
+        "衣服が体に沿い、動きやすい程度にゆとりがあるさま。",
+        "衣服の一部が縮み、動かすと窮屈に感じるさま。"
+      ],
+      "note": "だぶだぶで — одяг завеликий і мішкуватий; це не просто вільний крій, а надмірна ширина.",
+      "lengths": [
+        24,
+        24,
+        25,
+        22
+      ],
+      "ratio": 1.136,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3417,
+      "word": "だぶだぶ",
+      "exampleIndex": 1,
+      "example": "だぶだぶの作業服を着た新人が、現場を駆け回った。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "衣服が体に対して大きすぎ、ゆるく余っているさま。",
+      "wrong": [
+        "衣服が体にぴったり合い、余分な布がないさま。",
+        "衣服が少しゆったりしているが、体型に合っているさま。",
+        "衣服の一部が縮み、動かすと窮屈に感じるさま。"
+      ],
+      "note": "だぶだぶの作業服 — завеликий робочий одяг; хибні варіанти описують облягання або тісноту.",
+      "lengths": [
+        24,
+        22,
+        26,
+        22
+      ],
+      "ratio": 1.182,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3441,
+      "word": "とろとろ",
+      "exampleIndex": 0,
+      "example": "弱火で煮込むと、野菜がとろとろになって甘みが増す。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "固形物が柔らかくなり、とろけるような状態。",
+      "wrong": [
+        "固形物の水分が抜け、硬く乾いた状態。",
+        "液体が薄くなり、さらさら流れる状態。",
+        "表面が焦げて、固くぱりぱりした状態。"
+      ],
+      "note": "野菜がとろとろになる — овочі розм’якшуються й стають майже кремовими; це не рідкий або пересушений стан.",
+      "lengths": [
+        21,
+        18,
+        18,
+        18
+      ],
+      "ratio": 1.167,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3441,
+      "word": "とろとろ",
+      "exampleIndex": 1,
+      "example": "日差しが心地よくて、縁側でとろとろと居眠りをした。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "眠気を催し、少しの間浅く眠るさま。",
+      "wrong": [
+        "眠気がなく、意識がはっきりしているさま。",
+        "深く眠り込み、周囲の物音にも気づかないさま。",
+        "眠らずに目を閉じ、考え事を続けているさま。"
+      ],
+      "note": "とろとろと居眠りする — легко дрімати; не міцно спати й не просто заплющувати очі.",
+      "lengths": [
+        17,
+        20,
+        22,
+        21
+      ],
+      "ratio": 1.294,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3444,
+      "word": "どろどろ",
+      "exampleIndex": 0,
+      "example": "大雨のあと、畑の土がどろどろにぬかるんでしまった。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "土などが水分を含み、濁って粘りのある状態。",
+      "wrong": [
+        "土などが乾き、細かな粉のように崩れる状態。",
+        "液体が澄み、粘り気なくさらさら流れる状態。",
+        "土の表面が固まり、踏んでも形が崩れない状態。"
+      ],
+      "note": "土がどろどろ — ґрунт перетворився на каламутну в’язку багнюку; це не сухий пил чи тверда поверхня.",
+      "lengths": [
+        21,
+        21,
+        21,
+        22
+      ],
+      "ratio": 1.048,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3444,
+      "word": "どろどろ",
+      "exampleIndex": 1,
+      "example": "どろどろした人間関係に疲れ、彼は転職を決意した。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "欲望や感情が絡み合い、複雑でわだかまるさま。",
+      "wrong": [
+        "互いの考えが明確で、対立やわだかまりがないさま。",
+        "感情を交えず、決められた手順で処理されるさま。",
+        "利害が一致し、互いに率直に協力し合うさま。"
+      ],
+      "note": "どろどろした人間関係 — заплутані стосунки з прихованими образами й суперечностями; не просто складні, а емоційно обтяжені.",
+      "lengths": [
+        22,
+        24,
+        23,
+        21
+      ],
+      "ratio": 1.143,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3525,
+      "word": "オートマチック",
+      "exampleIndex": 0,
+      "example": "オートマチックの車は、運転が楽で人気が高い。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "自動変速機を備え、変速操作を自動で行う車。",
+      "wrong": [
+        "運転者がクラッチと変速機を操作する車。",
+        "車速を一定に保つ装置だけを備えた車。",
+        "エンジンの始動だけを自動で行う車。"
+      ],
+      "note": "オートマチックの車 — автомобіль з автоматичною трансмісією; це не просто будь-яка автоматизована функція.",
+      "lengths": [
+        21,
+        19,
+        18,
+        17
+      ],
+      "ratio": 1.235,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3525,
+      "word": "オートマチック",
+      "exampleIndex": 1,
+      "example": "この装置は、温度調節がオートマチックに行われる仕組みだ。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "人がその都度操作しなくても、装置が自動で処理するさま。",
+      "wrong": [
+        "人が設定や操作を行い、その都度手動で処理するさま。",
+        "装置が状態を表示するだけで、調節は行わないさま。",
+        "担当者が判断してから、装置を動かすさま。"
+      ],
+      "note": "オートマチックに行われる — регулювання виконується автоматично, без ручного керування кожним кроком.",
+      "lengths": [
+        27,
+        25,
+        24,
+        20
+      ],
+      "ratio": 1.35,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3561,
+      "word": "ジャンボ",
+      "exampleIndex": 0,
+      "example": "ジャンボサイズのピザは、家族全員で食べても余る。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "通常よりはるかに大きく、特大であること。",
+      "wrong": [
+        "標準的な大きさで、特に目立つ特徴がないこと。",
+        "通常より少し大きい程度であること。",
+        "小型で、持ち運びやすい大きさであること。"
+      ],
+      "note": "ジャンボサイズ — надзвичайно великий розмір; не просто трохи більший за стандартний.",
+      "lengths": [
+        20,
+        22,
+        17,
+        20
+      ],
+      "ratio": 1.294,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3561,
+      "word": "ジャンボ",
+      "exampleIndex": 1,
+      "example": "ジャンボジェット機が、滑走路にゆっくり降りてきた。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "同じ種類のものの中で、特に巨大であること。",
+      "wrong": [
+        "同じ種類のものの中で、標準的な大きさであること。",
+        "同じ種類のものより、わずかに大きい程度であること。",
+        "同じ種類のものより、小型で軽量であること。"
+      ],
+      "note": "ジャンボジェット機 — велетенський реактивний літак; слово підкреслює особливо великий розмір.",
+      "lengths": [
+        21,
+        24,
+        25,
+        21
+      ],
+      "ratio": 1.19,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3565,
+      "word": "タイムリー",
+      "exampleIndex": 0,
+      "example": "タイムリーな情報提供が、顧客の信頼につながる。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "必要とされる時機にちょうど合っているさま。",
+      "wrong": [
+        "必要とされる時機よりも前に行われるさま。",
+        "必要とされる時機を過ぎてから行われるさま。",
+        "時機に関係なく、一定の間隔で行われるさま。"
+      ],
+      "note": "タイムリーな情報提供 — інформацію надають саме тоді, коли вона потрібна; це не швидкість сама по собі.",
+      "lengths": [
+        21,
+        20,
+        21,
+        21
+      ],
+      "ratio": 1.05,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3565,
+      "word": "タイムリー",
+      "exampleIndex": 1,
+      "example": "このテーマの特集は、時期的にもタイムリーだった。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "その時点の状況や関心に、ちょうど合っているさま。",
+      "wrong": [
+        "その時点の状況や関心より、かなり早く行われるさま。",
+        "その時点の状況や関心が過ぎてから行われるさま。",
+        "その時点の状況や関心とは無関係に行われるさま。"
+      ],
+      "note": "時期的にもタイムリー — тема спецвипуску виявилася доречною саме на той час.",
+      "lengths": [
+        24,
+        25,
+        23,
+        23
+      ],
+      "ratio": 1.087,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3569,
+      "word": "コマーシャル",
+      "exampleIndex": 0,
+      "example": "新商品のコマーシャルが、テレビで盛んに流れている。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "商品やサービスを宣伝するため、放送される広告。",
+      "wrong": [
+        "番組の内容や出演者を紹介するための予告。",
+        "企業が社員に向けて伝える業務上の連絡。",
+        "商品を購入した人が個人的に書く感想や評価。"
+      ],
+      "note": "コマーシャルが流れる — у цьому реченні йдеться про рекламний ролик, а не анонс програми чи відгук покупця.",
+      "lengths": [
+        23,
+        20,
+        19,
+        21
+      ],
+      "ratio": 1.211,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3569,
+      "word": "コマーシャル",
+      "exampleIndex": 1,
+      "example": "コマーシャルの効果で、売り上げは前年を上回った。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "商品やサービスを宣伝するため、放送される広告。",
+      "wrong": [
+        "商品を購入した後に、顧客へ送る利用案内。",
+        "企業が社内で共有する、業務上の報告や連絡。",
+        "番組の内容を視聴者に知らせる、放送前の予告。"
+      ],
+      "note": "コマーシャルの効果 — ефект реклами на продажі; не післяпродажна інструкція чи внутрішній звіт.",
+      "lengths": [
+        23,
+        20,
+        21,
+        22
+      ],
+      "ratio": 1.15,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3594,
+      "word": "ストレート",
+      "exampleIndex": 0,
+      "example": "彼は意見をストレートに伝えるため、誤解されにくい。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "遠回しな表現を避け、率直に伝えるさま。",
+      "wrong": [
+        "相手への配慮から、表現を柔らかく和らげるさま。",
+        "結論を直接示さず、婉曲な言い方で伝えるさま。",
+        "賛否を明らかにせず、中立的に意見を述べるさま。"
+      ],
+      "note": "ストレートに伝える — висловлюватися прямо й відверто, без обхідних формулювань.",
+      "lengths": [
+        19,
+        23,
+        22,
+        23
+      ],
+      "ratio": 1.211,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3594,
+      "word": "ストレート",
+      "exampleIndex": 1,
+      "example": "ストレートな表現が、かえって相手の心に響いた。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "言葉を飾らず、率直に表すさま。",
+      "wrong": [
+        "相手を傷つけないよう、婉曲に言い換えるさま。",
+        "意味を明示せず、比喩を用いて表すさま。",
+        "複数の立場を並べ、判断を避けて表すさま。"
+      ],
+      "note": "ストレートな表現 — пряме, недвозначне формулювання; воно не обов’язково є тактовним.",
+      "lengths": [
+        15,
+        22,
+        19,
+        20
+      ],
+      "ratio": 1.467,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3636,
+      "word": "プライベート",
+      "exampleIndex": 0,
+      "example": "仕事とプライベートを切り離して考える人が増えている。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "仕事や公的な立場から離れた、個人に属すること。",
+      "wrong": [
+        "職務上の責任や組織の方針に関わること。",
+        "不特定多数に公開され、誰でも利用できること。",
+        "複数の人が共同で所有し、共有していること。"
+      ],
+      "note": "仕事とプライベート — робота й особисте життя; тут протиставлено приватну сферу професійній.",
+      "lengths": [
+        23,
+        19,
+        22,
+        21
+      ],
+      "ratio": 1.211,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3636,
+      "word": "プライベート",
+      "exampleIndex": 1,
+      "example": "芸能人のプライベートを執拗に追う報道には、批判の声が上がった。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "本人の仕事や公的活動とは別の、私生活に関すること。",
+      "wrong": [
+        "本人が公の場で発表した、職業上の活動に関すること。",
+        "組織が公式に公開した、業務上の記録に関すること。",
+        "多くの人が共同で利用する、公共の施設に関すること。"
+      ],
+      "note": "芸能人のプライベート — приватне життя знаменитості, а не її публічна професійна діяльність.",
+      "lengths": [
+        25,
+        25,
+        24,
+        25
+      ],
+      "ratio": 1.042,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3646,
+      "word": "モダン",
+      "exampleIndex": 0,
+      "example": "古い倉庫をモダンなデザインのホテルに改装した。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "現代的で、新しさや今風の感覚を感じさせるさま。",
+      "wrong": [
+        "伝統的な様式を保ち、昔ながらの趣を感じさせるさま。",
+        "装飾を控え、実用性だけを重視した簡素なさま。",
+        "一時的な流行を取り入れ、短期間だけ目新しく見えるさま。"
+      ],
+      "note": "モダンなデザイン — сучасний за стилем дизайн; слово не означає автоматично «щойно виготовлений».",
+      "lengths": [
+        23,
+        25,
+        22,
+        27
+      ],
+      "ratio": 1.227,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    },
+    {
+      "id": 3646,
+      "word": "モダン",
+      "exampleIndex": 1,
+      "example": "モダンな建築と伝統的な庭園が調和する、人気の観光地である。",
+      "decision": "reviewed_context_specific_override",
+      "correct": "現代的で、新しさや今風の感覚を感じさせるさま。",
+      "wrong": [
+        "伝統的な様式を保ち、昔ながらの趣を感じさせるさま。",
+        "装飾を控え、実用性だけを重視した簡素なさま。",
+        "一時的な流行を取り入れ、短期間だけ目新しく見えるさま。"
+      ],
+      "note": "モダンな建築 — модерна архітектура; у реченні її протиставлено традиційному саду.",
+      "lengths": [
+        23,
+        25,
+        22,
+        27
+      ],
+      "ratio": 1.227,
+      "rationale": "Manual context-specific review; three distinct plausible contrasts and balanced answer lengths."
+    }
+  ]
+}

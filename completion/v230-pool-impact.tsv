@@ -1,0 +1,13 @@
+id	word	pos_before	pos_after	reading_before	reading_after	cloze_before	cloze_after	reading_eligible_after	cloze_eligible_after
+3363	相当	副詞	副詞・ナ形	0	0	276	4	false	true
+3375	当面	副詞	名詞・副詞	4	0	276	20	false	true
+3417	だぶだぶ	副詞	副詞・ナ形	0	0	276	4	false	true
+3441	とろとろ	副詞	副詞・ナ形	0	0	276	4	false	true
+3444	どろどろ	副詞	副詞・ナ形	0	0	276	4	false	true
+3525	オートマチック	名詞	名詞・ナ形	0	0	2269	70	false	true
+3561	ジャンボ	名詞	名詞・ナ形	0	0	2269	70	false	true
+3565	タイムリー	名詞	ナ形	0	0	2269	293	false	true
+3569	コマーシャル	名詞	名詞・ナ形	0	0	2269	70	false	true
+3594	ストレート	名詞	名詞・ナ形	0	0	2269	70	false	true
+3636	プライベート	名詞	名詞・ナ形	0	0	2269	70	false	true
+3646	モダン	名詞	名詞・ナ形	0	0	2269	70	false	true

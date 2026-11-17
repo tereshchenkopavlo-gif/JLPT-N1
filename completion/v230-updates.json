@@ -1,0 +1,511 @@
+[
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3363"
+    ],
+    "before": [
+      "副詞"
+    ],
+    "after": [
+      "副詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3375"
+    ],
+    "before": [
+      "副詞"
+    ],
+    "after": [
+      "名詞",
+      "副詞"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3417"
+    ],
+    "before": [
+      "副詞"
+    ],
+    "after": [
+      "副詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3441"
+    ],
+    "before": [
+      "副詞"
+    ],
+    "after": [
+      "副詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3444"
+    ],
+    "before": [
+      "副詞"
+    ],
+    "after": [
+      "副詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3525"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3561"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3565"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3569"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3594"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3636"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "replace",
+    "block": "VOCAB_POS_BY_ID",
+    "path": [
+      "3646"
+    ],
+    "before": [
+      "名詞"
+    ],
+    "after": [
+      "名詞",
+      "ナ形"
+    ],
+    "reason": "C11 POS-map reconciled with selected card senses and observed forms."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3375"
+    ],
+    "after": {
+      "byExample": {
+        "当面の課題は、優秀な人材の確保と育成である。": {
+          "correct": "さしあたって、現在の段階で対応すべき課題であること。",
+          "wrong": [
+            "将来のある時点になってから、初めて問題になること。",
+            "過去の経緯を振り返り、原因を整理すること。",
+            "長期的な目標として、将来に向けて掲げること。"
+          ],
+          "note": "当面の課題 — найближче нагальне завдання на теперішньому етапі; тут не йдеться про майбутній чи минулий період."
+        },
+        "当面は現状維持を図りつつ、改革の機会を探る。": {
+          "correct": "今のところは、その状態を続けること。",
+          "wrong": [
+            "これまでの経緯を踏まえ、過去の状態に戻すこと。",
+            "将来の一定期間を終えた後に、方針を変えること。",
+            "期限を設けず、永久に同じ状態を保つこと。"
+          ],
+          "note": "当面は — наразі, поки що; це не означає ані повернення до минулого, ані незмінність назавжди."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3417"
+    ],
+    "after": {
+      "byExample": {
+        "兄のお下がりのスーツは、だぶだぶで肩が落ちていた。": {
+          "correct": "衣服が体に対して大きすぎ、ゆるく余っているさま。",
+          "wrong": [
+            "衣服が体にぴったり合い、余分なゆとりがないさま。",
+            "衣服が体に沿い、動きやすい程度にゆとりがあるさま。",
+            "衣服の一部が縮み、動かすと窮屈に感じるさま。"
+          ],
+          "note": "だぶだぶで — одяг завеликий і мішкуватий; це не просто вільний крій, а надмірна ширина."
+        },
+        "だぶだぶの作業服を着た新人が、現場を駆け回った。": {
+          "correct": "衣服が体に対して大きすぎ、ゆるく余っているさま。",
+          "wrong": [
+            "衣服が体にぴったり合い、余分な布がないさま。",
+            "衣服が少しゆったりしているが、体型に合っているさま。",
+            "衣服の一部が縮み、動かすと窮屈に感じるさま。"
+          ],
+          "note": "だぶだぶの作業服 — завеликий робочий одяг; хибні варіанти описують облягання або тісноту."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3441"
+    ],
+    "after": {
+      "byExample": {
+        "弱火で煮込むと、野菜がとろとろになって甘みが増す。": {
+          "correct": "固形物が柔らかくなり、とろけるような状態。",
+          "wrong": [
+            "固形物の水分が抜け、硬く乾いた状態。",
+            "液体が薄くなり、さらさら流れる状態。",
+            "表面が焦げて、固くぱりぱりした状態。"
+          ],
+          "note": "野菜がとろとろになる — овочі розм’якшуються й стають майже кремовими; це не рідкий або пересушений стан."
+        },
+        "日差しが心地よくて、縁側でとろとろと居眠りをした。": {
+          "correct": "眠気を催し、少しの間浅く眠るさま。",
+          "wrong": [
+            "眠気がなく、意識がはっきりしているさま。",
+            "深く眠り込み、周囲の物音にも気づかないさま。",
+            "眠らずに目を閉じ、考え事を続けているさま。"
+          ],
+          "note": "とろとろと居眠りする — легко дрімати; не міцно спати й не просто заплющувати очі."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3444"
+    ],
+    "after": {
+      "byExample": {
+        "大雨のあと、畑の土がどろどろにぬかるんでしまった。": {
+          "correct": "土などが水分を含み、濁って粘りのある状態。",
+          "wrong": [
+            "土などが乾き、細かな粉のように崩れる状態。",
+            "液体が澄み、粘り気なくさらさら流れる状態。",
+            "土の表面が固まり、踏んでも形が崩れない状態。"
+          ],
+          "note": "土がどろどろ — ґрунт перетворився на каламутну в’язку багнюку; це не сухий пил чи тверда поверхня."
+        },
+        "どろどろした人間関係に疲れ、彼は転職を決意した。": {
+          "correct": "欲望や感情が絡み合い、複雑でわだかまるさま。",
+          "wrong": [
+            "互いの考えが明確で、対立やわだかまりがないさま。",
+            "感情を交えず、決められた手順で処理されるさま。",
+            "利害が一致し、互いに率直に協力し合うさま。"
+          ],
+          "note": "どろどろした人間関係 — заплутані стосунки з прихованими образами й суперечностями; не просто складні, а емоційно обтяжені."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3525"
+    ],
+    "after": {
+      "byExample": {
+        "オートマチックの車は、運転が楽で人気が高い。": {
+          "correct": "自動変速機を備え、変速操作を自動で行う車。",
+          "wrong": [
+            "運転者がクラッチと変速機を操作する車。",
+            "車速を一定に保つ装置だけを備えた車。",
+            "エンジンの始動だけを自動で行う車。"
+          ],
+          "note": "オートマチックの車 — автомобіль з автоматичною трансмісією; це не просто будь-яка автоматизована функція."
+        },
+        "この装置は、温度調節がオートマチックに行われる仕組みだ。": {
+          "correct": "人がその都度操作しなくても、装置が自動で処理するさま。",
+          "wrong": [
+            "人が設定や操作を行い、その都度手動で処理するさま。",
+            "装置が状態を表示するだけで、調節は行わないさま。",
+            "担当者が判断してから、装置を動かすさま。"
+          ],
+          "note": "オートマチックに行われる — регулювання виконується автоматично, без ручного керування кожним кроком."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3561"
+    ],
+    "after": {
+      "byExample": {
+        "ジャンボサイズのピザは、家族全員で食べても余る。": {
+          "correct": "通常よりはるかに大きく、特大であること。",
+          "wrong": [
+            "標準的な大きさで、特に目立つ特徴がないこと。",
+            "通常より少し大きい程度であること。",
+            "小型で、持ち運びやすい大きさであること。"
+          ],
+          "note": "ジャンボサイズ — надзвичайно великий розмір; не просто трохи більший за стандартний."
+        },
+        "ジャンボジェット機が、滑走路にゆっくり降りてきた。": {
+          "correct": "同じ種類のものの中で、特に巨大であること。",
+          "wrong": [
+            "同じ種類のものの中で、標準的な大きさであること。",
+            "同じ種類のものより、わずかに大きい程度であること。",
+            "同じ種類のものより、小型で軽量であること。"
+          ],
+          "note": "ジャンボジェット機 — велетенський реактивний літак; слово підкреслює особливо великий розмір."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3565"
+    ],
+    "after": {
+      "byExample": {
+        "タイムリーな情報提供が、顧客の信頼につながる。": {
+          "correct": "必要とされる時機にちょうど合っているさま。",
+          "wrong": [
+            "必要とされる時機よりも前に行われるさま。",
+            "必要とされる時機を過ぎてから行われるさま。",
+            "時機に関係なく、一定の間隔で行われるさま。"
+          ],
+          "note": "タイムリーな情報提供 — інформацію надають саме тоді, коли вона потрібна; це не швидкість сама по собі."
+        },
+        "このテーマの特集は、時期的にもタイムリーだった。": {
+          "correct": "その時点の状況や関心に、ちょうど合っているさま。",
+          "wrong": [
+            "その時点の状況や関心より、かなり早く行われるさま。",
+            "その時点の状況や関心が過ぎてから行われるさま。",
+            "その時点の状況や関心とは無関係に行われるさま。"
+          ],
+          "note": "時期的にもタイムリー — тема спецвипуску виявилася доречною саме на той час."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3569"
+    ],
+    "after": {
+      "byExample": {
+        "新商品のコマーシャルが、テレビで盛んに流れている。": {
+          "correct": "商品やサービスを宣伝するため、放送される広告。",
+          "wrong": [
+            "番組の内容や出演者を紹介するための予告。",
+            "企業が社員に向けて伝える業務上の連絡。",
+            "商品を購入した人が個人的に書く感想や評価。"
+          ],
+          "note": "コマーシャルが流れる — у цьому реченні йдеться про рекламний ролик, а не анонс програми чи відгук покупця."
+        },
+        "コマーシャルの効果で、売り上げは前年を上回った。": {
+          "correct": "商品やサービスを宣伝するため、放送される広告。",
+          "wrong": [
+            "商品を購入した後に、顧客へ送る利用案内。",
+            "企業が社内で共有する、業務上の報告や連絡。",
+            "番組の内容を視聴者に知らせる、放送前の予告。"
+          ],
+          "note": "コマーシャルの効果 — ефект реклами на продажі; не післяпродажна інструкція чи внутрішній звіт."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3594"
+    ],
+    "after": {
+      "byExample": {
+        "彼は意見をストレートに伝えるため、誤解されにくい。": {
+          "correct": "遠回しな表現を避け、率直に伝えるさま。",
+          "wrong": [
+            "相手への配慮から、表現を柔らかく和らげるさま。",
+            "結論を直接示さず、婉曲な言い方で伝えるさま。",
+            "賛否を明らかにせず、中立的に意見を述べるさま。"
+          ],
+          "note": "ストレートに伝える — висловлюватися прямо й відверто, без обхідних формулювань."
+        },
+        "ストレートな表現が、かえって相手の心に響いた。": {
+          "correct": "言葉を飾らず、率直に表すさま。",
+          "wrong": [
+            "相手を傷つけないよう、婉曲に言い換えるさま。",
+            "意味を明示せず、比喩を用いて表すさま。",
+            "複数の立場を並べ、判断を避けて表すさま。"
+          ],
+          "note": "ストレートな表現 — пряме, недвозначне формулювання; воно не обов’язково є тактовним."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3636"
+    ],
+    "after": {
+      "byExample": {
+        "仕事とプライベートを切り離して考える人が増えている。": {
+          "correct": "仕事や公的な立場から離れた、個人に属すること。",
+          "wrong": [
+            "職務上の責任や組織の方針に関わること。",
+            "不特定多数に公開され、誰でも利用できること。",
+            "複数の人が共同で所有し、共有していること。"
+          ],
+          "note": "仕事とプライベート — робота й особисте життя; тут протиставлено приватну сферу професійній."
+        },
+        "芸能人のプライベートを執拗に追う報道には、批判の声が上がった。": {
+          "correct": "本人の仕事や公的活動とは別の、私生活に関すること。",
+          "wrong": [
+            "本人が公の場で発表した、職業上の活動に関すること。",
+            "組織が公式に公開した、業務上の記録に関すること。",
+            "多くの人が共同で利用する、公共の施設に関すること。"
+          ],
+          "note": "芸能人のプライベート — приватне життя знаменитості, а не її публічна професійна діяльність."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  },
+  {
+    "op": "add",
+    "block": "REVIEWED_MEANING_QUIZZES",
+    "path": [
+      "v_3646"
+    ],
+    "after": {
+      "byExample": {
+        "古い倉庫をモダンなデザインのホテルに改装した。": {
+          "correct": "現代的で、新しさや今風の感覚を感じさせるさま。",
+          "wrong": [
+            "伝統的な様式を保ち、昔ながらの趣を感じさせるさま。",
+            "装飾を控え、実用性だけを重視した簡素なさま。",
+            "一時的な流行を取り入れ、短期間だけ目新しく見えるさま。"
+          ],
+          "note": "モダンなデザイン — сучасний за стилем дизайн; слово не означає автоматично «щойно виготовлений»."
+        },
+        "モダンな建築と伝統的な庭園が調和する、人気の観光地である。": {
+          "correct": "現代的で、新しさや今風の感覚を感じさせるさま。",
+          "wrong": [
+            "伝統的な様式を保ち、昔ながらの趣を感じさせるさま。",
+            "装飾を控え、実用性だけを重視した簡素なさま。",
+            "一時的な流行を取り入れ、短期間だけ目新しく見えるさま。"
+          ],
+          "note": "モダンな建築 — модерна архітектура; у реченні її протиставлено традиційному саду."
+        }
+      }
+    },
+    "reason": "22 exact contexts manually reviewed with context-specific keys and balanced distractors."
+  }
+]

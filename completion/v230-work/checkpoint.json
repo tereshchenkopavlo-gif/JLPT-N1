@@ -1,13 +1,13 @@
 {
-  "checkpoint": "v230-c11-next-blockers",
-  "created": "2026-11-15",
+  "checkpoint": "v230-c11-reviewed-candidate",
+  "created": "2026-11-17",
+  "work_branch": "work/v230-reviewed-cloze-gate",
   "base_main_sha": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba",
-  "base_html": "JLPT_N1_ukrainian_reading_v229.html",
   "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
-  "base_html_blob_sha": "1c90476d78ae832ccecbcdfbfb93cc83b99474eb",
-  "prior_checkpoint": "work/v229-c11-pos-map",
-  "prior_main_status": "v229 published; 16 C11 blockers remain; author credit 3897/3914",
-  "scope": [
+  "candidate_sha256": "4483de25ea5a43d02723c3ead56e9fabafc01e480204d754567cefa2a598e98b",
+  "candidate_blob_sha": "f7c38b0ca80ab5246a9ec23f098a6b4ba2c3dfd6",
+  "candidate_bytes": 6973257,
+  "scope_ids": [
     3363,
     3375,
     3417,
@@ -21,164 +21,59 @@
     3636,
     3646
   ],
+  "status": "12 cards fixed_rechecked; all 24 cloze contexts reviewed and rejected as ambiguous/weak; inert reviewed-cloze gate and global regression passed; ready for guarded main publication",
   "guardrails": [
     "retain 3914 vocabulary records, 130 grammar constructions, 859 lexical pairs and all stable IDs",
-    "no changes to progress storage keys, learning engine or state schema",
-    "do not change POS-map until dictionary sense and example functions are reconciled",
-    "review all meaning-quiz contexts for plausible comparable distractors and answer-length cues",
-    "calculate reading/cloze pool impact before accepting any POS-map change",
-    "do not synthesize distractors when fewer than three valid candidates remain",
-    "do not broaden a card to unrelated dictionary senses solely to match a global POS label",
-    "keep v153 pilot credit limited to documented IDs 121-320"
+    "do not change vocabulary data, grammar, details/examples/translations, lexical pairs, reading overrides, target tables or storage keys",
+    "only 12 scoped POS-map entries, 11 reviewed meaning-quiz keys and the inert reviewed-cloze gate may change",
+    "legacy cloze behavior must remain byte-for-byte equivalent unless an exact reviewed byExample payload exists",
+    "no v153 pilot credit; all IDs are outside 121-320",
+    "do not force reading/cloze distractors where no valid choices exist",
+    "author review and technical verification are not independent acceptance"
   ],
-  "status": "candidate reproduced and Chromium diagnostics completed; finalizer blocked because reviewed meaning overrides suppress 22 previously available cloze contexts across 11 cards; no registry credit and no main publication",
-  "pilot_credit_applied": 0,
-  "main_publication": false,
-  "diagnostic_run_id": 43652194837,
-  "diagnostic_status": "browser diagnostics completed; finalizer failed on cloze availability guard",
-  "diagnostic_only": true,
-  "diagnostic_counts": {
-    "scope_count": 12,
-    "meaning_contexts": 24,
-    "meaning_structure_pass": true,
-    "meaning_length_pass": true,
-    "reviewed_override_pass": true,
-    "reviewed_override_coverage": "24/24",
-    "rendered_cards": 12,
-    "pos_labels_match": "12/12",
-    "responsive_widths": [
-      360,
-      412,
-      1280
-    ],
-    "responsive_overflow": false,
-    "storage_round_trip": true,
-    "storage_restored": true,
-    "page_errors": 0,
-    "cloze_availability_pass": false,
-    "cloze_availability_losses": 22,
-    "cloze_availability_affected_cards": 11,
-    "reading_pool_losses": [
-      {
-        "id": 3375,
-        "before": 4,
-        "after": 0
-      }
-    ],
-    "cloze_pool_changes": [
-      {
-        "ids": [
-          3363,
-          3417,
-          3441,
-          3444
-        ],
-        "before": 276,
-        "after": 4
-      },
-      {
-        "ids": [
-          3525,
-          3561,
-          3569,
-          3594,
-          3636,
-          3646
-        ],
-        "before": 2269,
-        "after": 70
-      },
-      {
-        "ids": [
-          3565
-        ],
-        "before": 2269,
-        "after": 293
-      },
-      {
-        "ids": [
-          3375
-        ],
-        "before": 276,
-        "after": 20
-      }
-    ]
-  },
-  "author_credit_applied": 0,
-  "manual_review": {
-    "cards_reviewed": 12,
-    "contexts_reviewed": 24,
-    "pos_map_updates": 12,
-    "new_context_overrides": 22,
-    "retained_context_overrides": 2,
-    "decision": "author_review_pass_pending_technical_verification",
-    "independent_review": false
-  },
-  "static_preflight": {
-    "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
-    "exact_example_bindings": "24/24",
-    "distinct_answer_options": "24/24",
-    "max_answer_length_ratio": 1.4667,
-    "length_ratio_threshold": 1.5,
-    "warnings_remaining": 0,
-    "pos_map_scope": 12,
-    "new_context_specific_quiz_keys": 11,
-    "new_contexts": 22,
-    "retained_reviewed_contexts": 2,
-    "v153_pilot_credit": 0,
-    "result": "static_preflight_passed",
-    "browser_candidate_verification": "pending",
-    "ci_run_evidence": "not_observed",
-    "registry_credit": 0
-  },
-  "workflow_attempt": {
-    "trigger_commit": "33d57e9f11eb9fcfe16f33b493c1905894cc6fe4",
-    "diagnostic_run_id": 43652194837,
-    "workflow_conclusion": "failure_at_finalize",
-    "diagnostic_commit": "4c7409061e2ff42afbb22fd630313497d64dd291",
-    "browser_diagnostics_committed": true,
-    "main_data_check_run_id": 43652194873,
-    "main_data_check_conclusion": "success",
-    "registry_credit": 0,
-    "main_publication": false
-  },
-  "review_base_main_sha": "5354a748fe8ae147ae81f54f82da07e00ccccddc",
-  "status_sync_commit": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba",
-  "cloze_availability": {
-    "result": "blocked",
-    "affected_ids": [
-      3375,
-      3417,
-      3441,
-      3444,
-      3525,
-      3561,
-      3565,
-      3569,
-      3594,
-      3636,
-      3646
-    ],
-    "lost_contexts": 22,
-    "reason": "SmartEngine adds cloze only when REVIEWED_MEANING_QUIZZES['v_'+id] is absent; the new per-card meaning key disables cloze for both examples.",
-    "id3363_note": "No incremental loss: ID3363 already had a reviewed meaning key in v229.",
-    "decision_required": "Accept meaning-only coverage for affected cards, or explicitly approve a change that preserves both meaning and cloze; no engine change without approval."
-  },
-  "pool_impact": {
-    "id3375": {
-      "reading": "4→0",
-      "cloze": "276→20"
+  "next_action": "run Chromium verification for global legacy equivalence and the empty reviewed-cloze gate; finalize only if all guards pass",
+  "technical_verification": "passed",
+  "chromium_verification": "passed",
+  "diagnostic_only": false,
+  "semantic_review": "passed_manual_author_review",
+  "semantic_review_contexts": 24,
+  "new_context_overrides": 22,
+  "retained_context_overrides": 2,
+  "reviewed_cloze_gate": "passed_inert",
+  "cloze_contexts_reviewed": 24,
+  "cloze_contexts_approved": 0,
+  "cloze_contexts_rejected": 24,
+  "global_cloze_changes": 22,
+  "unexpected_global_cloze_changes": 0,
+  "registry_credit_applied": true,
+  "author_credit_after": "3909/3914",
+  "registry_counts_after": {
+    "overall": {
+      "reviewed": 4028,
+      "fixed_rechecked": 499,
+      "pending": 1327,
+      "blocked": 4
     },
-    "ids_3363_3417_3441_3444": {
-      "cloze": "276→4",
-      "note": "only three candidate distractors remain; semantic plausibility not accepted"
+    "vocabulary": {
+      "reviewed": 3412,
+      "fixed_rechecked": 497,
+      "pending": 1,
+      "blocked": 4
     },
-    "ids_3525_3561_3569_3594_3636_3646": {
-      "cloze": "2269→70"
-    },
-    "id3565": {
-      "cloze": "2269→293"
+    "lexical_pairs": {
+      "reviewed": 54,
+      "fixed_rechecked": 1,
+      "pending": 804,
+      "blocked": 0
     }
   },
-  "decision_required": true
+  "remaining_blocked_ids": [
+    3652,
+    3654,
+    3677,
+    3679
+  ],
+  "pilot_credit_applied": 0,
+  "main_publication": false,
+  "workflow_run_id": 44110159445
 }

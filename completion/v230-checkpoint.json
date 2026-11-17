@@ -1,0 +1,79 @@
+{
+  "checkpoint": "v230-c11-reviewed-candidate",
+  "created": "2026-11-17",
+  "work_branch": "work/v230-reviewed-cloze-gate",
+  "base_main_sha": "afb7f3aa5ebe3d16b1a66e6aabec1648b9cb0dba",
+  "base_html_sha256": "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
+  "candidate_sha256": "4483de25ea5a43d02723c3ead56e9fabafc01e480204d754567cefa2a598e98b",
+  "candidate_blob_sha": "f7c38b0ca80ab5246a9ec23f098a6b4ba2c3dfd6",
+  "candidate_bytes": 6973257,
+  "scope_ids": [
+    3363,
+    3375,
+    3417,
+    3441,
+    3444,
+    3525,
+    3561,
+    3565,
+    3569,
+    3594,
+    3636,
+    3646
+  ],
+  "status": "12 cards fixed_rechecked; all 24 cloze contexts reviewed and rejected as ambiguous/weak; inert reviewed-cloze gate and global regression passed; ready for guarded main publication",
+  "guardrails": [
+    "retain 3914 vocabulary records, 130 grammar constructions, 859 lexical pairs and all stable IDs",
+    "do not change vocabulary data, grammar, details/examples/translations, lexical pairs, reading overrides, target tables or storage keys",
+    "only 12 scoped POS-map entries, 11 reviewed meaning-quiz keys and the inert reviewed-cloze gate may change",
+    "legacy cloze behavior must remain byte-for-byte equivalent unless an exact reviewed byExample payload exists",
+    "no v153 pilot credit; all IDs are outside 121-320",
+    "do not force reading/cloze distractors where no valid choices exist",
+    "author review and technical verification are not independent acceptance"
+  ],
+  "next_action": "run Chromium verification for global legacy equivalence and the empty reviewed-cloze gate; finalize only if all guards pass",
+  "technical_verification": "passed",
+  "chromium_verification": "passed",
+  "diagnostic_only": false,
+  "semantic_review": "passed_manual_author_review",
+  "semantic_review_contexts": 24,
+  "new_context_overrides": 22,
+  "retained_context_overrides": 2,
+  "reviewed_cloze_gate": "passed_inert",
+  "cloze_contexts_reviewed": 24,
+  "cloze_contexts_approved": 0,
+  "cloze_contexts_rejected": 24,
+  "global_cloze_changes": 22,
+  "unexpected_global_cloze_changes": 0,
+  "registry_credit_applied": true,
+  "author_credit_after": "3909/3914",
+  "registry_counts_after": {
+    "overall": {
+      "reviewed": 4028,
+      "fixed_rechecked": 499,
+      "pending": 1327,
+      "blocked": 4
+    },
+    "vocabulary": {
+      "reviewed": 3412,
+      "fixed_rechecked": 497,
+      "pending": 1,
+      "blocked": 4
+    },
+    "lexical_pairs": {
+      "reviewed": 54,
+      "fixed_rechecked": 1,
+      "pending": 804,
+      "blocked": 0
+    }
+  },
+  "remaining_blocked_ids": [
+    3652,
+    3654,
+    3677,
+    3679
+  ],
+  "pilot_credit_applied": 0,
+  "main_publication": false,
+  "workflow_run_id": 44110159445
+}
