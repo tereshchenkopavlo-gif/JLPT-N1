@@ -7,7 +7,9 @@ b=json.loads((W/"browser-results.json").read_text(encoding="utf-8"))
 s=json.loads((W/"semantic-review.json").read_text(encoding="utf-8"))
 cp=json.loads((W/"checkpoint.json").read_text(encoding="utf-8"))
 ids=[3363,3375,3417,3441,3444,3525,3561,3565,3569,3594,3636,3646]
-assert b.get("clozeAvailabilityPass") is True and not b.get("clozeAvailabilityLosses"), "v230 meaning overrides suppress previously available cloze contexts; preserve functionality before acceptance"
+assert b.get("clozeAvailabilityPass") is True and not b.get("unexpectedClozeLosses"), "unexpected v230 cloze suppression remains"
+assert b.get("reviewedClozeGate")=={"payloadCount":0,"helperType":"function"}, "reviewed cloze gate is not inert in v230"
+assert len(b.get("globalClozeChanges",[]))==22 and not b.get("unexpectedGlobalClozeChanges"), "cloze behavior changed outside 22 explicitly reviewed contexts"
 assert p["pass"] and b["pass"] and p["candidate_sha256"]==b["candidate_sha256"]
 assert s["overall_decision"]=="pass" and s["scope"]==ids and s["context_count"]==24 and len(s["decisions"])==24
 assert b["meaningStructurePass"] and b["meaningLengthPass"] and b["meaningDiagnosticCount"]==24
@@ -58,15 +60,21 @@ with (W/"c11-review.tsv").open("w",encoding="utf-8",newline="") as f:
     w=csv.writer(f,delimiter="\t",lineterminator="\n")
     w.writerow(["id","word","pos_before","pos_after","reading_before","reading_after","cloze_before","cloze_after","reading_eligible_after","cloze_eligible_after","decision"])
     for x in pool: w.writerow([x["id"],x["word"],"・".join(x["posBefore"]),"・".join(x["posAfter"]),x["readingBefore"],x["readingAfter"],x["clozeBefore"],x["clozeAfter"],x["readingEligibleAfter"],x["clozeEligibleAfter"],"fixed_rechecked"])
+cloze_review=json.loads((W/"cloze-context-review.json").read_text(encoding="utf-8"))
+assert cloze_review["contexts"]==24 and cloze_review["approved"]==0 and cloze_review["rejected"]==24
+with (W/"cloze-context-review.tsv").open("w",encoding="utf-8",newline="") as f:
+    w=csv.writer(f,delimiter="\t",lineterminator="\n")
+    w.writerow(["id","word","example_index","exact_example","decision","allow_cloze","reason"])
+    for x in cloze_review["decisions"]: w.writerow([x["id"],x["word"],x["exampleIndex"],x["example"],x["decision"],str(x["allowCloze"]).lower(),x["reason"]])
 with (W/"field-changes.tsv").open("w",encoding="utf-8",newline="") as f:
     w=csv.writer(f,delimiter="\t",lineterminator="\n")
     w.writerow(["block","id_or_key","before","after","reason"])
     for k,v in p["pos_updates"].items(): w.writerow(["VOCAB_POS_BY_ID",k,json.dumps(v["before"],ensure_ascii=False),json.dumps(v["after"],ensure_ascii=False),"C11 POS-map reconciled with selected card senses and observed forms."])
     for k in new_keys: w.writerow(["REVIEWED_MEANING_QUIZZES",k,"absent","22 byExample contexts","Context-specific key, three distinct plausible distractors, balanced length; no quiz logic change."])
 (W/"registry-results.json").write_text(json.dumps({"overall":allc,"vocabulary":vc,"lexical_pairs":pc,"reviewed_meaning_quiz_rows":sum(1 for r in rows[1:] if r[0]=="reviewed_meaning_quiz")},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-cp.update({"candidate_sha256":p["candidate_sha256"],"candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],"technical_verification":"passed","chromium_verification":"passed","diagnostic_only":False,"semantic_review":"passed_manual_author_review","semantic_review_contexts":24,"new_context_overrides":22,"retained_context_overrides":2,"registry_credit_applied":True,"author_credit_after":"3909/3914","registry_counts_after":{"overall":allc,"vocabulary":vc,"lexical_pairs":pc},"remaining_blocked_ids":remaining,"pilot_credit_applied":0,"main_publication":False,"status":"12 cards fixed_rechecked; author POS/semantic review and Chromium checks passed; ready for guarded main publication","workflow_run_id":int(os.environ.get("GITHUB_RUN_ID","0"))})
+cp.update({"candidate_sha256":p["candidate_sha256"],"candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],"technical_verification":"passed","chromium_verification":"passed","diagnostic_only":False,"semantic_review":"passed_manual_author_review","semantic_review_contexts":24,"new_context_overrides":22,"retained_context_overrides":2,"reviewed_cloze_gate":"passed_inert","cloze_contexts_reviewed":24,"cloze_contexts_approved":0,"cloze_contexts_rejected":24,"global_cloze_changes":22,"unexpected_global_cloze_changes":0,"registry_credit_applied":True,"author_credit_after":"3909/3914","registry_counts_after":{"overall":allc,"vocabulary":vc,"lexical_pairs":pc},"remaining_blocked_ids":remaining,"pilot_credit_applied":0,"main_publication":False,"status":"12 cards fixed_rechecked; all 24 cloze contexts reviewed and rejected as ambiguous/weak; inert reviewed-cloze gate and global regression passed; ready for guarded main publication","workflow_run_id":int(os.environ.get("GITHUB_RUN_ID","0"))})
 (W/"checkpoint.json").write_text(json.dumps(cp,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-summary={"pass":True,"technical_verification":"passed","chromium_verification":"passed","semantic_quiz_review":"passed_manual_author_review","semantic_contexts_reviewed":24,"new_context_overrides":22,"retained_context_overrides":2,"registry_credit_applied":True,"main_publication":False,"author_credit_after":"3909/3914","registry_counts_after":{"overall":allc,"vocabulary":vc,"lexical_pairs":pc},"remaining_blocked_ids":remaining,"candidate_sha256":p["candidate_sha256"],"candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],"workflow_run_id":cp["workflow_run_id"]}
+summary={"pass":True,"technical_verification":"passed","chromium_verification":"passed","semantic_quiz_review":"passed_manual_author_review","semantic_contexts_reviewed":24,"new_context_overrides":22,"retained_context_overrides":2,"reviewed_cloze_gate":"passed_inert","cloze_contexts_reviewed":24,"cloze_contexts_approved":0,"cloze_contexts_rejected":24,"global_cloze_changes":22,"unexpected_global_cloze_changes":0,"registry_credit_applied":True,"main_publication":False,"author_credit_after":"3909/3914","registry_counts_after":{"overall":allc,"vocabulary":vc,"lexical_pairs":pc},"remaining_blocked_ids":remaining,"candidate_sha256":p["candidate_sha256"],"candidate_blob_sha":p["candidate_blob_sha"],"candidate_bytes":p["candidate_bytes"],"workflow_run_id":cp["workflow_run_id"]}
 (W/"finalize-results.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 audit="""# JLPT N1 v230 — C11 POS and meaning-quiz audit
 
@@ -79,7 +87,9 @@ audit="""# JLPT N1 v230 — C11 POS and meaning-quiz audit
 - 11 new reviewed meaning-quiz keys, covering 22 contexts.
 - ID3363's two existing v141 contexts were retained and rechecked for binding and answer-length balance; they were not counted as new override creation.
 - 24/24 browser override checks, three unique distractors, correct-answer exclusion, and max/min length ratio <=1.5.
-- No changes to vocabulary records, grammar, examples, translations, lexical pairs, reading overrides, target tables, learning logic, or storage keys.
+- No changes to vocabulary records, grammar, examples, translations, lexical pairs, reading overrides, target tables, or storage keys.
+- The reviewed-cloze gate is present but inert in v230: it can activate only for an exact byExample payload. All 24 scoped cloze contexts were manually reviewed; none received a payload because the sentences did not prove a unique target against three high-quality distractors.
+- The 22 contexts newly suppressed by reviewed meaning keys are therefore documented rejections, not silently lost exercises. A whole-bank Chromium comparison confirms zero cloze-behavior changes outside those 22 contexts.
 - No v153 pilot credit: all IDs are outside the documented 121–320 pilot range.
 
 ## Card-level decisions
@@ -127,6 +137,8 @@ copies={
     "c11-review.tsv":"v230-c11-review.tsv",
     "field-changes.tsv":"v230-field-changes.tsv",
     "pool-impact.tsv":"v230-pool-impact.tsv",
+    "cloze-context-review.json":"v230-cloze-context-review.json",
+    "cloze-context-review.tsv":"v230-cloze-context-review.tsv",
     "semantic-review.json":"v230-semantic-review.json",
     "source-review.md":"v230-source-review.md",
     "prepare-results.json":"v230-prepare-results.json",

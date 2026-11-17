@@ -10,10 +10,14 @@ Review base: published v229 HTML from main HEAD `5354a748fe8ae147ae81f54f82da07e
 - Source review: `source-review.md`; ID3636 retains an explicitly lower-confidence secondary-source note.
 - v153 pilot credit: zero; this scope is outside the documented pilot IDs 121–320.
 
-## Technical status — BLOCKED BY CLOZE AVAILABILITY REGRESSION
+## Reviewed-cloze gate — implementation candidate
 
-Run 43652194837 reproduced the candidate from the exact v229 HTML and completed Chromium diagnostics. All 12 cards rendered; 24/24 meaning contexts passed structure, length and exact-override checks; 12/12 visible POS labels matched; responsive 360/412/1280, storage round-trip and zero-page-error checks passed. The finalizer intentionally failed because 22 previously available cloze contexts across 11 cards are suppressed by the new REVIEWED_MEANING_QUIZZES keys. ID3363 already had a reviewed meaning key in v229, so it adds no new loss. ID3375 also loses reading-pool eligibility (4→0) after the POS-map change. See cloze-availability-review.md and the committed browser/pool diagnostics. Do not apply registry credit or publish v230.
+The user approved a narrow engine change on 17 November 2026 with strict compatibility and quality conditions. The candidate therefore adds an exact-example `REVIEWED_CLOZE_QUIZZES` gate. It can coexist with a reviewed meaning key only when the exact example has three manually reviewed, distinct cloze distractors. Legacy cards continue through the existing random-pool path; cards with reviewed meaning keys stay meaning-only unless an exact reviewed cloze payload exists.
 
-The work branch is intentionally diverged from main. Do not merge it wholesale. A user decision is required before proceeding: either accept meaning-only quiz coverage for the affected cards, or explicitly approve a learning-engine change to retain cloze alongside reviewed meaning quizzes. Any engine change must be separately reviewed and rerun through all regression checks.
+All 24 v230 contexts were manually assessed for cloze suitability. None proved a unique target against three high-quality alternatives: near-synonyms or other natural completions would make the answer ambiguous, while the automatic POS pools contain many unrelated words. Consequently v230 intentionally contains zero reviewed cloze payloads; the gate is inert, and no artificial task is created merely to preserve a count. The 22 newly suppressed contexts must be recorded as explicit linguistic rejections rather than accepted exercises.
+
+Acceptance requires a whole-bank before/after Chromium comparison showing exactly those 22 documented suppressions and zero changes elsewhere, plus the existing meaning, POS, responsive, storage, rollback and registry checks. ID3375's reading pool remains 4→0 and must not be filled with invented readings. Do not apply registry credit or publish v230 until the new workflow succeeds.
+
+The implementation branch `work/v230-reviewed-cloze-gate` is intentionally separate. Do not merge the older diverged branches wholesale.
 
 Independent linguistic acceptance, Android/Windows device tests and provenance/legal acceptance remain separate.

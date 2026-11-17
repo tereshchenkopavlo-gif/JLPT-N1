@@ -88,8 +88,9 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       const override=Boolean(REVIEWED_MEANING_QUIZZES["v_"+id]);
       return {id,word:v.w,contexts:d.examples.map(example=>{
         const target=Boolean(reviewedExampleTarget(example,"v",v.w));
-        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&pool>=3&&!target&&!override);
-        return {example,poolCount:pool,reviewedExampleTarget:target,meaningOverride:override,eligible};
+        const reviewed=typeof reviewedClozeOptions==='function'?reviewedClozeOptions(item,example):null;
+        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&(reviewed||pool>=3)&&!target&&(!override||reviewed));
+        return {example,poolCount:pool,reviewedExampleTarget:target,meaningOverride:override,reviewedCloze:Boolean(reviewed),eligible};
       })};
     }),IDS);
     const clozeAvailabilityAfter=await page.evaluate(ids=>ids.map(id=>{
@@ -98,8 +99,9 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       const override=Boolean(REVIEWED_MEANING_QUIZZES["v_"+id]);
       return {id,word:v.w,contexts:d.examples.map(example=>{
         const target=Boolean(reviewedExampleTarget(example,"v",v.w));
-        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&pool>=3&&!target&&!override);
-        return {example,poolCount:pool,reviewedExampleTarget:target,meaningOverride:override,eligible};
+        const reviewed=typeof reviewedClozeOptions==='function'?reviewedClozeOptions(item,example):null;
+        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&(reviewed||pool>=3)&&!target&&(!override||reviewed));
+        return {example,poolCount:pool,reviewedExampleTarget:target,meaningOverride:override,reviewedCloze:Boolean(reviewed),eligible};
       })};
     }),IDS);
     const clozeAvailabilityLosses=[];
@@ -109,8 +111,45 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
         if(before.eligible&&!after.eligible)clozeAvailabilityLosses.push({id:clozeAvailabilityBefore[i].id,word:clozeAvailabilityBefore[i].word,example:before.example,poolBefore:before.poolCount,poolAfter:after.poolCount,reason:after.meaningOverride?"REVIEWED_MEANING_QUIZZES key suppresses cloze type":"cloze eligibility changed"});
       }
     }
-    const clozeAvailabilityPass=clozeAvailabilityLosses.length===0;
-    assert.ok(clozeAvailabilityPass,"reviewed meaning overrides must not suppress previously available cloze contexts");
+    const clozeReview=JSON.parse(fs.readFileSync(path.join(W,"cloze-context-review.json"),"utf8"));
+    const rejectedKeys=new Set(clozeReview.decisions.filter(x=>x.decision==="reject_cloze").map(x=>`${x.id}\u0000${x.example}`));
+    const unexpectedClozeLosses=clozeAvailabilityLosses.filter(x=>!rejectedKeys.has(`${x.id}\u0000${x.example}`));
+    const clozeAvailabilityPass=unexpectedClozeLosses.length===0&&clozeReview.contexts===24&&clozeReview.approved===0&&clozeReview.rejected===24;
+    assert.ok(clozeAvailabilityPass,"only explicitly reviewed and rejected v230 cloze contexts may be suppressed");
+
+    const allBefore=await base.evaluate(()=>DEFAULT_VOCAB.flatMap(v=>{
+      const item={kind:"v",id:String(v.id),word:v},d=VOCAB_DETAILS_BY_ID[String(v.id)],pool=clozeWordCandidates(item).length;
+      if(!d)return [];
+      return (d.examples||[]).map(example=>{
+        const target=Boolean(reviewedExampleTarget(example,"v",v.w));
+        const override=Boolean(REVIEWED_MEANING_QUIZZES["v_"+v.id]);
+        const reviewed=typeof reviewedClozeOptions==='function'?reviewedClozeOptions(item,example):null;
+        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&(reviewed||pool>=3)&&!target&&(!override||reviewed));
+        return {id:Number(v.id),example,eligible};
+      });
+    }));
+    const allAfter=await page.evaluate(()=>DEFAULT_VOCAB.flatMap(v=>{
+      const item={kind:"v",id:String(v.id),word:v},d=VOCAB_DETAILS_BY_ID[String(v.id)],pool=clozeWordCandidates(item).length;
+      if(!d)return [];
+      return (d.examples||[]).map(example=>{
+        const target=Boolean(reviewedExampleTarget(example,"v",v.w));
+        const override=Boolean(REVIEWED_MEANING_QUIZZES["v_"+v.id]);
+        const reviewed=typeof reviewedClozeOptions==='function'?reviewedClozeOptions(item,example):null;
+        const eligible=Boolean(d.m&&literalClozeAvailable(example,item,SmartEngine)&&(reviewed||pool>=3)&&!target&&(!override||reviewed));
+        return {id:Number(v.id),example,eligible};
+      });
+    }));
+    assert.equal(allAfter.length,allBefore.length,"global cloze context count changed");
+    const globalClozeChanges=[];
+    for(let i=0;i<allBefore.length;i++){
+      assert.equal(`${allAfter[i].id}\u0000${allAfter[i].example}`,`${allBefore[i].id}\u0000${allBefore[i].example}`,"global cloze context order/identity changed");
+      if(allBefore[i].eligible!==allAfter[i].eligible)globalClozeChanges.push({id:allAfter[i].id,example:allAfter[i].example,before:allBefore[i].eligible,after:allAfter[i].eligible});
+    }
+    const unexpectedGlobalClozeChanges=globalClozeChanges.filter(x=>!rejectedKeys.has(`${x.id}\u0000${x.example}`));
+    assert.equal(globalClozeChanges.length,22,"expected exactly the 22 author-rejected v230 contexts to change");
+    assert.deepEqual(unexpectedGlobalClozeChanges,[],"cloze behavior changed outside the reviewed v230 contexts");
+    const reviewedClozeGate=await page.evaluate(()=>({payloadCount:Object.keys(REVIEWED_CLOZE_QUIZZES).length,helperType:typeof reviewedClozeOptions}));
+    assert.deepEqual(reviewedClozeGate,{payloadCount:0,helperType:"function"},"v230 reviewed-cloze gate must be inert");
     const meaningDiagnostics=await page.evaluate(ids=>{
       const out=[];
       for(const id of ids){
@@ -219,7 +258,8 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
 
     const result={
       diagnosticFailures,
-      clozeAvailabilityBefore,clozeAvailabilityAfter,clozeAvailabilityLosses,clozeAvailabilityPass,
+      clozeAvailabilityBefore,clozeAvailabilityAfter,clozeAvailabilityLosses,unexpectedClozeLosses,clozeAvailabilityPass,
+      reviewedClozeGate,globalClozeContextCount:allAfter.length,globalClozeChanges,unexpectedGlobalClozeChanges,
       pass:diagnosticFailures.length===0&&meaningStructurePass&&meaningLengthPass&&reviewedOverridePass&&poolImpact.every(x=>x.clozeEligibleAfter)&&clozeAvailabilityPass,diagnostic_only:false,author_review_required:false,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
       counts:structural,scope_count:IDS.length,
       poolImpact,meaningStructurePass,meaningLengthPass,meaningDiagnosticCount:meaningDiagnostics.length,
