@@ -1,7 +1,5 @@
 {
-  "diagnosticFailures": [
-    "reviewed meaning overrides must not suppress previously available cloze contexts"
-  ],
+  "diagnosticFailures": [],
   "clozeAvailabilityBefore": [
     {
       "id": 3363,
@@ -12,6 +10,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -19,6 +18,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -32,6 +32,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -39,6 +40,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -52,6 +54,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -59,6 +62,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -72,6 +76,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -79,6 +84,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -92,6 +98,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -99,6 +106,7 @@
           "poolCount": 276,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -112,6 +120,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -119,6 +128,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -132,6 +142,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -139,6 +150,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -152,6 +164,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -159,6 +172,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -172,6 +186,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -179,6 +194,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -192,6 +208,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -199,6 +216,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -212,6 +230,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -219,6 +238,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -232,6 +252,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         },
         {
@@ -239,6 +260,7 @@
           "poolCount": 2269,
           "reviewedExampleTarget": false,
           "meaningOverride": false,
+          "reviewedCloze": false,
           "eligible": true
         }
       ]
@@ -254,6 +276,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -261,6 +284,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -274,6 +298,7 @@
           "poolCount": 20,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -281,6 +306,7 @@
           "poolCount": 20,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -294,6 +320,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -301,6 +328,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -314,6 +342,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -321,6 +350,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -334,6 +364,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -341,6 +372,7 @@
           "poolCount": 4,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -354,6 +386,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -361,6 +394,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -374,6 +408,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -381,6 +416,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -394,6 +430,7 @@
           "poolCount": 293,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -401,6 +438,7 @@
           "poolCount": 293,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -414,6 +452,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -421,6 +460,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -434,6 +474,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -441,6 +482,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -454,6 +496,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -461,6 +504,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -474,6 +518,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         },
         {
@@ -481,6 +526,7 @@
           "poolCount": 70,
           "reviewedExampleTarget": false,
           "meaningOverride": true,
+          "reviewedCloze": false,
           "eligible": false
         }
       ]
@@ -664,12 +710,153 @@
       "reason": "REVIEWED_MEANING_QUIZZES key suppresses cloze type"
     }
   ],
-  "clozeAvailabilityPass": false,
-  "pass": false,
+  "unexpectedClozeLosses": [],
+  "clozeAvailabilityPass": true,
+  "reviewedClozeGate": {
+    "payloadCount": 0,
+    "helperType": "function"
+  },
+  "globalClozeContextCount": 7828,
+  "globalClozeChanges": [
+    {
+      "id": 3375,
+      "example": "当面の課題は、優秀な人材の確保と育成である。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3375,
+      "example": "当面は現状維持を図りつつ、改革の機会を探る。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3417,
+      "example": "兄のお下がりのスーツは、だぶだぶで肩が落ちていた。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3417,
+      "example": "だぶだぶの作業服を着た新人が、現場を駆け回った。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3441,
+      "example": "弱火で煮込むと、野菜がとろとろになって甘みが増す。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3441,
+      "example": "日差しが心地よくて、縁側でとろとろと居眠りをした。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3444,
+      "example": "大雨のあと、畑の土がどろどろにぬかるんでしまった。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3444,
+      "example": "どろどろした人間関係に疲れ、彼は転職を決意した。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3525,
+      "example": "オートマチックの車は、運転が楽で人気が高い。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3525,
+      "example": "この装置は、温度調節がオートマチックに行われる仕組みだ。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3561,
+      "example": "ジャンボサイズのピザは、家族全員で食べても余る。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3561,
+      "example": "ジャンボジェット機が、滑走路にゆっくり降りてきた。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3565,
+      "example": "タイムリーな情報提供が、顧客の信頼につながる。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3565,
+      "example": "このテーマの特集は、時期的にもタイムリーだった。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3569,
+      "example": "新商品のコマーシャルが、テレビで盛んに流れている。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3569,
+      "example": "コマーシャルの効果で、売り上げは前年を上回った。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3594,
+      "example": "彼は意見をストレートに伝えるため、誤解されにくい。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3594,
+      "example": "ストレートな表現が、かえって相手の心に響いた。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3636,
+      "example": "仕事とプライベートを切り離して考える人が増えている。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3636,
+      "example": "芸能人のプライベートを執拗に追う報道には、批判の声が上がった。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3646,
+      "example": "古い倉庫をモダンなデザインのホテルに改装した。",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": 3646,
+      "example": "モダンな建築と伝統的な庭園が調和する、人気の観光地である。",
+      "before": true,
+      "after": false
+    }
+  ],
+  "unexpectedGlobalClozeChanges": [],
+  "pass": true,
   "diagnostic_only": false,
   "author_review_required": false,
-  "candidate_sha256": "0b0317798fa740c094e985ce5439853ce2cfa0ae4217195f72c2d7cd6bc3864a",
-  "candidate_bytes": 6972742,
+  "candidate_sha256": "4483de25ea5a43d02723c3ead56e9fabafc01e480204d754567cefa2a598e98b",
+  "candidate_bytes": 6973257,
   "counts": {
     "vocabulary": 3914,
     "grammar": 130,
