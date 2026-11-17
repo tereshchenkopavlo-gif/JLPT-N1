@@ -1,0 +1,184 @@
+{
+  "v230": {
+    "records": 3914,
+    "reading": {
+      "changed": 5,
+      "outside": 4,
+      "eligibility": [
+        3375,
+        3389
+      ],
+      "sample": [
+        {
+          "id": 640,
+          "before": 6,
+          "after": 6,
+          "eligibleChanged": false,
+          "removed": [
+            "とうめん"
+          ],
+          "added": [
+            "とつじょ"
+          ]
+        },
+        {
+          "id": 644,
+          "before": 6,
+          "after": 6,
+          "eligibleChanged": false,
+          "removed": [
+            "とうめん"
+          ],
+          "added": [
+            "とうてい"
+          ]
+        },
+        {
+          "id": 3374,
+          "before": 4,
+          "after": 3,
+          "eligibleChanged": false,
+          "removed": [
+            "とうめん"
+          ],
+          "added": []
+        }
+      ]
+    },
+    "cloze": {
+      "changed": 2928,
+      "outside": 2916,
+      "eligibility": [
+        3892
+      ],
+      "sample": [
+        {
+          "id": 1,
+          "before": 2269,
+          "after": 2262,
+          "eligibleChanged": false,
+          "removed": [
+            "オートマチック",
+            "ジャンボ",
+            "タイムリー",
+            "コマーシャル",
+            "ストレート",
+            "プライベート",
+            "モダン"
+          ],
+          "added": []
+        },
+        {
+          "id": 2,
+          "before": 2269,
+          "after": 2262,
+          "eligibleChanged": false,
+          "removed": [
+            "オートマチック",
+            "ジャンボ",
+            "タイムリー",
+            "コマーシャル",
+            "ストレート",
+            "プライベート",
+            "モダン"
+          ],
+          "added": []
+        },
+        {
+          "id": 3,
+          "before": 2269,
+          "after": 2262,
+          "eligibleChanged": false,
+          "removed": [
+            "オートマチック",
+            "ジャンボ",
+            "タイムリー",
+            "コマーシャル",
+            "ストレート",
+            "プライベート",
+            "モダン"
+          ],
+          "added": []
+        }
+      ]
+    },
+    "threshold": [
+      {
+        "id": 3375,
+        "before": 4,
+        "after": 0,
+        "eligibleChanged": true,
+        "removed": [
+          "とうぜん",
+          "とうぶん",
+          "とうてい",
+          "とつぜん"
+        ],
+        "added": []
+      },
+      {
+        "id": 3389,
+        "before": 3,
+        "after": 2,
+        "eligibleChanged": true,
+        "removed": [
+          "とうめん"
+        ],
+        "added": []
+      }
+    ]
+  },
+  "v231": {
+    "records": 3914,
+    "reading": {
+      "changed": 0,
+      "outside": 0,
+      "eligibility": [],
+      "sample": []
+    },
+    "cloze": {
+      "changed": 2630,
+      "outside": 2626,
+      "eligibility": [],
+      "sample": [
+        {
+          "id": 1,
+          "before": 2262,
+          "after": 2259,
+          "eligibleChanged": false,
+          "removed": [
+            "ユニーク",
+            "ルーズ",
+            "ワンマン"
+          ],
+          "added": []
+        },
+        {
+          "id": 2,
+          "before": 2262,
+          "after": 2259,
+          "eligibleChanged": false,
+          "removed": [
+            "ユニーク",
+            "ルーズ",
+            "ワンマン"
+          ],
+          "added": []
+        },
+        {
+          "id": 3,
+          "before": 2262,
+          "after": 2259,
+          "eligibleChanged": false,
+          "removed": [
+            "ユニーク",
+            "ルーズ",
+            "ワンマン"
+          ],
+          "added": []
+        }
+      ]
+    },
+    "threshold": []
+  }
+}
