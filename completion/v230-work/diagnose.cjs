@@ -254,6 +254,26 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       return {roundTrip,restored:localStorage.getItem(k)===old};
     });
     assert.ok(storage.roundTrip&&storage.restored);
+    const backup = {vp: {"3363": {status: "S", timesShown: 3}}, gp: {"95": {status: "X"}}};
+    await page.locator("#importProgressInput").setInputFiles({
+      name: "test-progress.json",
+      mimeType: "application/json",
+      buffer: Buffer.from(JSON.stringify(backup)),
+    });
+    await page.waitForFunction(() => state.vp["3363"]?.timesShown === 3);
+    await page.reload();
+    const importedProgress = await page.evaluate(() => ({vp: state.vp, gp: state.gp}));
+    assert.deepEqual(importedProgress, backup, "imported progress must survive reload");
+
+    const customVocabulary = await page.evaluate(() => {
+      const rows = DEFAULT_VOCAB.filter(row => [3375, 3389, 3652].includes(Number(row.id)));
+      localStorage.setItem(VOCAB_DATA_KEY, JSON.stringify(rows));
+      return rows.map(row => [Number(row.id), row.w]);
+    });
+    await page.reload();
+    const loadedVocabulary = await page.evaluate(() => ACTIVE_VOCAB.map(row => [Number(row.id), row.w]));
+    assert.equal(customVocabulary.length, 3);
+    assert.deepEqual(loadedVocabulary, customVocabulary, "stored custom vocabulary must load on startup");
     assert.deepEqual(errors,[]);
 
     const result={
@@ -261,7 +281,7 @@ const norm=x=>String(x||"").replace(/[\n\r\t]/g," ").split(" ").filter(Boolean).
       clozeAvailabilityBefore,clozeAvailabilityAfter,clozeAvailabilityLosses,unexpectedClozeLosses,clozeAvailabilityPass,
       reviewedClozeGate,globalClozeContextCount:allAfter.length,globalClozeChanges,unexpectedGlobalClozeChanges,
       pass:diagnosticFailures.length===0&&meaningStructurePass&&meaningLengthPass&&reviewedOverridePass&&poolImpact.every(x=>x.clozeEligibleAfter)&&clozeAvailabilityPass,diagnostic_only:false,author_review_required:false,candidate_sha256:candidateSha,candidate_bytes:candidateBytes.length,
-      counts:structural,scope_count:IDS.length,
+      counts:structural,scope_count:IDS.length,importedProgress,loadedVocabulary,
       poolImpact,meaningStructurePass,meaningLengthPass,meaningDiagnosticCount:meaningDiagnostics.length,
       reviewedOverridePass,reviewedOverrideCoverage:reviewedOverrideChecks.length,reviewedOverrideChecks,lengthOutliers,lengthCueWarnings:lengthOutliers.length,rendered,responsive,storage,pageErrors:errors,
       unchanged:{DEFAULT_VOCAB:true,GRAMMAR_DETAILS_BY_ID:true,VOCAB_AUDITED_PAIRS:true,REVIEWED_READING_OPTIONS:true,VOCAB_KANA_EXAMPLE_TARGETS:true,REVIEWED_EXAMPLE_TARGETS:true,storageKeys:true}
