@@ -1,0 +1,52 @@
+name: v230 POS isolation browser diagnostics
+on:
+  push:
+    branches: [work/v230-pos-isolation]
+permissions:
+  contents: read
+jobs:
+  chromium:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify deterministic HTML and refresh diagnostic metadata
+        run: |
+          html=JLPT_N1_ukrainian_reading_v230.html
+          cp "$html" "$RUNNER_TEMP/committed.html"
+          python3 completion/v230-work/prepare.py
+          python3 completion/v230-work/isolate-pos.py
+          cmp "$html" "$RUNNER_TEMP/committed.html"
+          node -e '
+            const fs = require("node:fs");
+            const crypto = require("node:crypto");
+            const file = "completion/v230-work/prepare-results.json";
+            const report = JSON.parse(fs.readFileSync(file));
+            const bytes = fs.readFileSync(process.argv[1]);
+            report.candidate_sha256 = crypto.createHash("sha256").update(bytes).digest("hex");
+            report.candidate_bytes = bytes.length;
+            fs.writeFileSync(file, JSON.stringify(report, null, 2));
+          ' "$html"
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Run browser diagnostics
+        run: |
+          node completion/v230-work/diagnose.cjs
+          node -e 'const r = require("./completion/v230-work/browser-results.json"); if (!r.pass) process.exit(1);'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v230-pos-isolation-browser-diagnostics
+          path: |
+            completion/v230-work/prepare-results.json
+            completion/v230-work/browser-results.json
+            completion/v230-work/pool-impact.json
+            completion/v230-work/meaning-quiz-diagnostics.json
+            completion/v230-work/rendered-debug.json
