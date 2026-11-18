@@ -3774,16 +3774,21 @@ function readingDistance(a,b) {
   for(let i=1;i<=a.length;i++){let prev=row[0];row[0]=i;for(let j=1;j<=b.length;j++){const old=row[j];row[j]=Math.min(row[j]+1,row[j-1]+1,prev+(a[i-1]===b[j-1]?0:1));prev=old;}}
   return row[b.length];
 }
+// Preserve v229 exercise pools for the C11 display-POS corrections.
+const EXERCISE_POS_OVERRIDES = {"3363": ["副詞"], "3375": ["副詞"], "3417": ["副詞"], "3441": ["副詞"], "3444": ["副詞"], "3525": ["名詞"], "3561": ["名詞"], "3565": ["名詞"], "3569": ["名詞"], "3594": ["名詞"], "3636": ["名詞"], "3646": ["名詞"], "3652": ["名詞"], "3677": ["名詞"], "3679": ["名詞"]};
+function exercisePartOfSpeech(id) {
+  return EXERCISE_POS_OVERRIDES[String(id)] ?? vocabPartOfSpeech(id);
+}
 function quizReadingOptions(item) {
   const v=item.word;
   if(item.kind!=='v'||!v.r||!/^[ぁ-ゟー]+$/.test(v.r)||!/[一-鿿]/.test(v.w)||/[〜～・／/]/.test(v.w))return [];
   const reviewed=REVIEWED_READING_OPTIONS[String(item.id)];
   if(reviewed && reviewed.word===v.w && reviewed.correct===v.r)return reviewed.wrong.slice();
-  const frame=readingFrame(v.w),pos=vocabPartOfSpeech(v.id).join('|');
+  const frame=readingFrame(v.w),pos=exercisePartOfSpeech(v.id).join('|');
   const prefix=(v.w.match(/^[ぁ-ゟー]+/)||[''])[0],tail=(v.w.match(/[ぁ-ゟー]+$/)||[''])[0];
   if(prefix&&!v.r.startsWith(prefix)||tail&&!v.r.endsWith(tail))return [];
   const core=v.r.slice(prefix.length,tail.length?-tail.length:undefined);
-  const candidates=ACTIVE_VOCAB.filter(x=>x.id!==v.id&&x.r!==v.r&&/^[ぁ-ゟー]+$/.test(x.r||'')&&readingFrame(x.w)===frame&&vocabPartOfSpeech(x.id).join('|')===pos&&Math.abs(x.r.length-v.r.length)<=1&&(!prefix||x.r.startsWith(prefix))&&(!tail||x.r.endsWith(tail)))
+  const candidates=ACTIVE_VOCAB.filter(x=>x.id!==v.id&&x.r!==v.r&&/^[ぁ-ゟー]+$/.test(x.r||'')&&readingFrame(x.w)===frame&&exercisePartOfSpeech(x.id).join('|')===pos&&Math.abs(x.r.length-v.r.length)<=1&&(!prefix||x.r.startsWith(prefix))&&(!tail||x.r.endsWith(tail)))
     .map(x=>({r:x.r,d:readingDistance(core,x.r.slice(prefix.length,tail.length?-tail.length:undefined))})).filter(x=>x.d>0&&x.d<=2).sort((a,b)=>a.d-b.d||a.r.localeCompare(b.r));
   return [...new Set(candidates.map(x=>x.r))].slice(0,6);
 }
@@ -3795,8 +3800,8 @@ function literalClozeAvailable(sentence,item,engine) {
 }
 function clozeWordCandidates(item) {
   if(item.kind!=='v')return [];
-  const pos=vocabPartOfSpeech(item.id).join('|');
-  return [...new Set(ACTIVE_VOCAB.filter(v=>v.id!==item.word.id&&VOCAB_DETAILS_BY_ID[v.id]&&vocabPartOfSpeech(v.id).join('|')===pos&&!/[〜～・／/]/.test(v.w)).map(v=>v.w))];
+  const pos=exercisePartOfSpeech(item.id).join('|');
+  return [...new Set(ACTIVE_VOCAB.filter(v=>v.id!==item.word.id&&VOCAB_DETAILS_BY_ID[v.id]&&exercisePartOfSpeech(v.id).join('|')===pos&&!/[〜～・／/]/.test(v.w)).map(v=>v.w))];
 }
 function readingGlossaryEntryHtml(g) {
   const quote=g.quote && g.quote!==g.label ? `<div lang="ja">${escapeLex(g.quote)}</div>`:'';
