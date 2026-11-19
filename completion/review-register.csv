@@ -5846,3 +5846,9 @@ reviewed_meaning_quiz,v_2433,REVIEWED_MEANING_QUIZZES.v_2433,reviewed,"completio
 reviewed_reading_quiz,r_255,REVIEWED_READING_OPTIONS.255,reviewed,completion/v182-reading-pool-review.tsv#255; three distinct verified distractors for 直接/ちょくせつ; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
 reviewed_reading_quiz,r_327,REVIEWED_READING_OPTIONS.327,reviewed,completion/v182-reading-pool-review.tsv#327; three distinct verified distractors for 浮気/うわき; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
 reviewed_reading_quiz,r_1819,REVIEWED_READING_OPTIONS.1819,reviewed,completion/v182-reading-pool-review.tsv#1819; three distinct verified distractors for 内訳/うちわけ; v182 HTML SHA-256=53f8dd4153cab99850d9291dbd1343a58908b2dadb877f0c3a9f223ef6e54031
+reading,m-c12-20261119-01,readingBank.medium[99],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
+reading_question,m-c12-20261119-01:q1,readingBank.medium[99].questions[0],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
+reading_question,m-c12-20261119-01:q2,readingBank.medium[99].questions[1],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
+reading,m-c12-20261119-02,readingBank.medium[100],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
+reading_question,m-c12-20261119-02:q1,readingBank.medium[100].questions[0],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
+reading_question,m-c12-20261119-02:q2,readingBank.medium[100].questions[1],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
