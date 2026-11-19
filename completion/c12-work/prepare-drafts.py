@@ -15,7 +15,7 @@ for i,(title,part,answers) in enumerate(zip(['点検を省いた代償','川の�
   choices=re.findall(r'^\d\. (.+)$',body,re.M)
   key=body.split('Ключ — ')[1].split('.',1)[0]
   assert int(key)-1==answers[n] and len(choices)==len(set(choices))==4
-  explain=body.split('Ключ — ')[1].split('**Переклад')[0].strip()
+  explain=body.split('Ключ — ')[1].split('**Переклад')[0].strip().split('. ',1)[1]
   evidence=re.search('Опора — 「([^」]+)」',explain).group(1)
   assert evidence in ja
   qs.append(dict(prompt=prompt.strip(),choices=choices,answer=answers[n],explain=explain,evidence=evidence))
