@@ -13,7 +13,7 @@ const fs=require('fs'),assert=require('assert/strict'),{chromium}=require('playw
   for(const row of rows){
    await page.evaluate(row=>{
     curSession={items:[],passageIdx:0,passages:[{integrated:true,level:'medium',text:row.ja,translation:row.uk,questions:row.questions,targetIds:[],targetKeys:[],glossary:[]}]};
-    showView('session');renderPassage();
+    showView('session');document.getElementById('sessBody').style.display='';renderPassage();
    },row);
    assert.equal(await page.locator('.qchoice').count(),8);
    for(let i=0;i<2;i++){
