@@ -11,13 +11,27 @@ const fs=require('fs'),assert=require('assert/strict'),{chromium}=require('playw
  for(const width of [360,412,1280]){
   await page.setViewportSize({width,height:900});
   for(const row of rows){
-   await page.evaluate(row=>{
-    curSession={items:[],passageIdx:0,passages:[{integrated:true,level:'medium',text:row.ja,translation:row.uk,questions:row.questions,targetIds:[],targetKeys:[],glossary:[]}]};
+   const generated=await page.evaluate(row=>{
+    const originalRandom=Math.random;
+    let passages;
+    try {
+     const index=row.id.endsWith('01')?99:100;
+     Math.random=()=>(index+0.5)/101;
+     passages=SmartEngine.generateOfflinePassage([]);
+    } finally { Math.random=originalRandom; }
+    const passage=passages.find(p=>p.level==='medium');
+    curSession={items:[],passageIdx:0,passages:[passage]};
     showView('session');document.getElementById('sessBody').style.display='';renderPassage();
+    return passage;
    },row);
+   assert.equal(generated.title,row.title);
+   assert.equal(generated.plainText,row.ja);
+   assert.equal(generated.translation,row.uk);
+   assert.equal(generated.glossary.length,row.contextNotes.length);
+   for(let i=0;i<2;i++) assert.equal(generated.questions[i].choices[generated.questions[i].answer],row.questions[i].choices[row.questions[i].answer]);
    assert.equal(await page.locator('.qchoice').count(),8);
    for(let i=0;i<2;i++){
-    await page.locator('.qchoice[data-qi="'+i+'"][data-ci="'+row.questions[i].answer+'"]').click();
+    await page.locator('.qchoice[data-qi="'+i+'"][data-ci="'+generated.questions[i].answer+'"]').click();
     assert.ok((await page.locator('#exp-'+i).innerText()).includes(row.questions[i].evidence));
    }
    assert.ok((await page.locator('body').innerText()).includes(row.ja.slice(0,20)));
