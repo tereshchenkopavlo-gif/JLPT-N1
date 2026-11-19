@@ -5852,3 +5852,9 @@ reading_question,m-c12-20261119-01:q2,readingBank.medium[99].questions[1],review
 reading,m-c12-20261119-02,readingBank.medium[100],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
 reading_question,m-c12-20261119-02:q1,readingBank.medium[100].questions[0],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
 reading_question,m-c12-20261119-02:q2,readingBank.medium[100].questions[1],reviewed,completion/c12-work/acceptance-20261119.md; author review; Chromium 44477067873; independent pending
+reading,m-c12-20261120-03,readingBank.medium[101],reviewed,completion/c12-batch2/acceptance.md; author review; Chromium 44634686293; independent pending
+reading_question,m-c12-20261120-03:q1,readingBank.medium[101].questions[0],reviewed,completion/c12-batch2/acceptance.md; author review; Chromium 44634686293; independent pending
+reading_question,m-c12-20261120-03:q2,readingBank.medium[101].questions[1],reviewed,completion/c12-batch2/acceptance.md; author review; Chromium 44634686293; independent pending
+reading,m-c12-20261120-04,readingBank.medium[102],reviewed,completion/c12-batch2/acceptance.md; author review; Chromium 44634686293; independent pending
+reading_question,m-c12-20261120-04:q1,readingBank.medium[102].questions[0],reviewed,completion/c12-batch2/acceptance.md; author review; Chromium 44634686293; independent pending
+reading_question,m-c12-20261120-04:q2,readingBank.medium[102].questions[1],reviewed,completion/c12-batch2/acceptance.md; author review; Chromium 44634686293; independent pending
