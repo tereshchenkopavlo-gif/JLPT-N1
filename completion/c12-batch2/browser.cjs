@@ -32,7 +32,7 @@ const fs=require('fs'),assert=require('assert/strict'),{chromium}=require('playw
    assert.equal(await page.locator('.qchoice').count(),8);
    for(let i=0;i<2;i++){
     await page.locator('.qchoice[data-qi="'+i+'"][data-ci="'+generated.questions[i].answer+'"]').click();
-    assert.ok((await page.locator('#exp-'+i).innerText()).includes(row.questions[i].evidence));
+    assert.equal(await page.locator('#exp-'+i).innerText(),row.questions[i].explain);
    }
    assert.ok((await page.locator('body').innerText()).includes(row.ja.slice(0,20)));
    const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);
