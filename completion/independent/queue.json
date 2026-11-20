@@ -81,6 +81,31 @@
         }
       ],
       "notes": "Revised fields from IR01 plus four further vocabulary cases; unchanged supporting context is retained."
+    },
+    {
+      "package_id": "IR-20261121-03",
+      "path": "packages/IR-20261121-03.json",
+      "package_sha256": "a8a22a9e325c852a5196671d21364976fbee7935caed63b580c98a88519345ee",
+      "sources_sha256": "517d5208387585b928c7dadb88f5665dfecb5f4dd16eaf102d5edcd45669b4b3",
+      "source_commits": [
+        "4c164622fbcbf1831028bbb86ed1a491a0d264cc"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 3,
+        "reading_questions": 7
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-21"
+        }
+      ],
+      "notes": "Three further original C12 readings and seven questions."
     }
   ]
 }
