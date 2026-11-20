@@ -1,0 +1,18 @@
+{
+  "status": "unaccepted integration candidate",
+  "base": "v229-C12",
+  "baseSha256": "bc5e53b79519adcb520bfec16461c91924f00e69b7670aa9e0bff5d78cb41f65",
+  "candidateSha256": "d4d38ebd380cbb054fc97d631abbc455f093808df97e1e24eb6f27a198b1a0c7",
+  "candidateBytes": 6978233,
+  "medium": 103,
+  "long": 61,
+  "newTexts": 2,
+  "newQuestions": 4,
+  "exactRollback": true,
+  "previousReadingsPreserved": true,
+  "otherHtmlBytesPreserved": true,
+  "nodeSyntax": true,
+  "registryCredit": 0,
+  "browserVerification": "pending",
+  "independentReview": "pending"
+}
