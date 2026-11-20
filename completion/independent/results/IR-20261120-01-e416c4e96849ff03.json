@@ -1,0 +1,290 @@
+{
+  "cases": [
+    {
+      "case_id": "v_3375",
+      "checked_fields": [
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details.w",
+        "details.m",
+        "details.t",
+        "details.s",
+        "details.examples",
+        "details.usage",
+        "details.exampleTranslations",
+        "display_pos",
+        "meaning_quiz.byExample"
+      ],
+      "findings": [
+        {
+          "claim": "У загальному українському глосі прикметник «нагальний» подано поряд із прислівниковими відповідниками без позначення іменникового контексту. Це може помилково натякати, ніби 当面 як окрема форма прямо означає «нагальний».",
+          "confidence": "high",
+          "evidence": "t = «наразі, поки що, нагальний»; натомість «当面の課題» = поточне / найближче нагальне завдання, а «当面は» = наразі. Японські приклади коректно розрізняють конструкції.",
+          "field_path": "details.t",
+          "proposed_change": "Уточнити t, напр.: «наразі, поки що; поточний / найближчий (у сполуках на зразок 当面の課題)». Зберегти 名詞・副詞.",
+          "severity": "minor",
+          "sources": [
+            "https://kotobank.jp/word/当面-581512"
+          ]
+        }
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues"
+    },
+    {
+      "case_id": "v_3441",
+      "checked_fields": [
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details.w",
+        "details.m",
+        "details.t",
+        "details.s",
+        "details.examples",
+        "details.usage",
+        "details.exampleTranslations",
+        "display_pos",
+        "meaning_quiz.byExample"
+      ],
+      "findings": [
+        {
+          "claim": "Фраза «少しの間» додає тривалість, якої саме слово とろとろ не встановлює. Ключ лишається єдиним, але точність визначення можна підвищити.",
+          "confidence": "medium",
+          "evidence": "correct = «眠気を催し、少しの間浅く眠るさま». Основне значення — дрімота/неглибокий сон, не обов’язково конкретна тривалість.",
+          "field_path": "meaning_quiz.byExample[\"日差しが心地よくて、縁側でとろとろと居眠りをした。\"].correct",
+          "proposed_change": "Замінити на «眠気を催して、うとうとと浅く眠るさま。» або інше визначення без «少しの間».",
+          "severity": "minor",
+          "sources": [
+            "https://kotobank.jp/word/とろとろ-586493"
+          ]
+        }
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues"
+    },
+    {
+      "case_id": "v_3594",
+      "checked_fields": [
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details.w",
+        "details.m",
+        "details.t",
+        "details.s",
+        "details.examples",
+        "details.usage",
+        "details.exampleTranslations",
+        "display_pos",
+        "meaning_quiz.byExample"
+      ],
+      "findings": [],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "pass"
+    },
+    {
+      "case_id": "v_3652",
+      "checked_fields": [
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details.w",
+        "details.m",
+        "details.t",
+        "details.s",
+        "details.examples",
+        "details.usage",
+        "details.exampleTranslations",
+        "display_pos",
+        "meaning_quiz.byExample"
+      ],
+      "findings": [
+        {
+          "claim": "Три неправильні пояснення в першому питанні віддалені від незалежної оригінальності: відсутність будь-якої відмінності, консервативне повторення, лише зовнішня яскравість без змісту. Відповідь однозначна, але задача частково розв’язується відсіканням крайніх протилежностей.",
+          "confidence": "high",
+          "evidence": "Варіанти «特に変わった点がない», «以前と同じ形», «内容に特徴がない» явно заперечують унікальність; правильний варіант прямо описує 独自の特徴.",
+          "field_path": "meaning_quiz.byExample[\"この店はユニークな発想の商品が多く、若者に支持されている。\"].wrong",
+          "proposed_change": "Для майбутнього покращення замінити принаймні 1–2 distractors на близькі, але не рівнозначні в цьому реченні ознаки, напр. функціональність, зручність або новизна без власної ідеї; перед публікацією вручну перевірити однозначність.",
+          "severity": "minor",
+          "sources": []
+        }
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues"
+    },
+    {
+      "case_id": "v_3677",
+      "checked_fields": [
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details.w",
+        "details.m",
+        "details.t",
+        "details.s",
+        "details.examples",
+        "details.usage",
+        "details.exampleTranslations",
+        "display_pos",
+        "meaning_quiz.byExample"
+      ],
+      "findings": [],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "pass"
+    },
+    {
+      "case_id": "v_3679",
+      "checked_fields": [
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details.w",
+        "details.m",
+        "details.t",
+        "details.s",
+        "details.examples",
+        "details.usage",
+        "details.exampleTranslations",
+        "display_pos",
+        "meaning_quiz.byExample"
+      ],
+      "findings": [],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "pass"
+    },
+    {
+      "case_id": "m-c12-20261119-01",
+      "checked_fields": [
+        "title",
+        "ja",
+        "uk",
+        "questions[0]",
+        "questions[1]",
+        "contextNotes[0]",
+        "contextNotes[1]",
+        "contextNotes[2]"
+      ],
+      "findings": [
+        {
+          "claim": "Питання про рішення директора є однозначним, але три distractors майже прямо заперечують головне правило перевіряти освітлення; правильний варіант близько повторює останнє речення. Для N1 когнітивна складність знижена.",
+          "confidence": "high",
+          "evidence": "Правильне: «点検を終えるために開場を遅らせる判断を、責任者に任せる»; неправильні: дозволити пропуск перевірки, зовсім припинити перевірку, категорично заборонити змінювати час. У тексті прямо вказано протилежне.",
+          "field_path": "questions[0].choices",
+          "proposed_change": "Перепроєктувати 2–3 distractors як правдоподібні, але хибні управлінські кроки (напр. передача права змінювати час не тій посаді; перенесення рішення директора, а не відповідального); не включати альтернативи, які можна прийняти через нечітке формулювання.",
+          "severity": "major",
+          "sources": []
+        },
+        {
+          "claim": "У запитанні про 〜始末 усі три distractors грубо спотворюють подію — тренування, зміна місцями причин і наслідків, планова евакуація. Це достатньо для однозначності, але слабко перевіряє граматичний відтінок небажаного результату.",
+          "confidence": "high",
+          "evidence": "Варіант 3 фактично повторює зміст попереднього речення «照明が消え、観客を一時退場させる始末だった»; інші не є близькими за смислом.",
+          "field_path": "questions[1].choices",
+          "proposed_change": "Зробити неправильні варіанти семантично близькими до події, розрізняючи факт евакуації, оцінку наслідку, навмисність і ступінь несподіваності. Зберегти один ключ.",
+          "severity": "minor",
+          "sources": []
+        }
+      ],
+      "unchecked_fields": [
+        "id",
+        "contextNotes[*].id (cross-check against full grammar registry not provided)"
+      ],
+      "verdict": "issues"
+    },
+    {
+      "case_id": "m-c12-20261119-02",
+      "checked_fields": [
+        "title",
+        "ja",
+        "uk",
+        "questions[0]",
+        "questions[1]",
+        "contextNotes[0]"
+      ],
+      "findings": [
+        {
+          "claim": "Питання про зміну способу обліку має слабкі distractors: нагороди, заборона роботи поза верхів’ям і примусове залучення мешканців відсутні навіть як гіпотези. Воно перевіряє помітність одного речення більше, ніж розуміння причин.",
+          "confidence": "high",
+          "evidence": "Відповідь «同じ場所にごみがたまる理由を探るため» буквально перефразовує «原因は見えてこない»; усі інші варіанти вигадують далекі мотиви.",
+          "field_path": "questions[0].choices",
+          "proposed_change": "Замінити 2–3 неправильні варіанти на пов’язані з реальною методологією спостереження: порівняння обсягу, визначення місця прибирання, відстеження участі тощо, але так, щоб лише один відповідав головній меті.",
+          "severity": "major",
+          "sources": []
+        },
+        {
+          "claim": "Питання про 〜ずにはおかない має коректний ключ і граматичний сенс неминучого впливу, але distractors («не зміниться», «примус», «припинити прибирання») надто очевидні та не розрізняють близькі значення причинності й впливу.",
+          "confidence": "high",
+          "evidence": "「小さな発見の積み重ねは、地域の人々の川への向き合い方を変えずにはおかない」 описує очікувану зміну ставлення під впливом відкриттів, а не примус чи обов’язок.",
+          "field_path": "questions[1].choices",
+          "proposed_change": "Залишити правильне трактування; запропонувати альтернативи, що плутають достовірне виявлення єдиної причини з поступовим впливом спостережень, або волевиявленням учасників, без прямого заперечення граматики.",
+          "severity": "minor",
+          "sources": [
+            "https://nihongokyoshi-net.com/?p=8459"
+          ]
+        }
+      ],
+      "unchecked_fields": [
+        "id",
+        "contextNotes[*].id (cross-check against full grammar registry not provided)"
+      ],
+      "verdict": "issues"
+    }
+  ],
+  "package_id": "IR-20261120-01",
+  "review_summary": {
+    "case_verdicts": {
+      "issues": 5,
+      "not_reviewed": 0,
+      "pass": 3,
+      "uncertain": 0
+    },
+    "finding_count": 7,
+    "finding_severities": {
+      "critical": 0,
+      "major": 2,
+      "minor": 5
+    },
+    "limit": "POS metadata source categories/page and grammar registry ID matching not independently validated. Exact source data provenance and application behavior are out of scope. This reviewer chat had previously seen an early draft of one C12 text; the review is separate from authoring but is not fully blinded to earlier context.",
+    "method": "Independent first-pass assessment of the supplied package. Lexical reference checks used Kotobank and grammar teaching references cited per finding. No runtime testing and no access to unpublished corpus or baseline beyond package. The findings on distractor quality are pedagogical recommendations, not claims of two correct keys.",
+    "scope_reviewed": "6 vocabulary cards, 12 meaning contexts, 2 reading passages, 4 reading questions"
+  },
+  "reviewer": {
+    "participated_in_authoring": false,
+    "reviewed_at": "2026-11-20",
+    "session": "independent-chat-2026-11-20",
+    "system": "ChatGPT"
+  },
+  "schema_version": 1,
+  "sources_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a"
+}

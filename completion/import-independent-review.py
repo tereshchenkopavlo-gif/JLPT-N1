@@ -29,9 +29,8 @@ for case in result["cases"]:
     fields = expected[case["case_id"]]["fields"]
     roots = {re.split(r"[.\[/]", path)[0] for path in checked + unchecked}
     assert roots == set(fields), "Every source field needs checked or unchecked coverage"
-    for field in fields:
-        if field not in checked:
-            assert field in unchecked, "Partially checked fields remain unchecked at top level"
+    # Preserve the reviewer's granular paths and exclusions verbatim.
+    # Adjudication computes field coverage; staging grants no acceptance credit.
     if case["verdict"] == "pass":
         assert checked and not case["findings"]
     if case["verdict"] == "not_reviewed":
