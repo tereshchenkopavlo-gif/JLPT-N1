@@ -1,0 +1,1546 @@
+[
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "vocabulary.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "vocabulary.r",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "vocabulary.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "details.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "details.m",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "details.t",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "revised_pending_independent_review",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "details.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "details.examples",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "details.usage",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "details.exampleTranslations",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "display_pos",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "meaning_quiz.byExample",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "vocabulary.c",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "vocabulary.p",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "vocabulary.g",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3375",
+    "reviewed_field": "vocabulary.tags",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "vocabulary.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "vocabulary.r",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "vocabulary.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "details.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "details.m",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "details.t",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "details.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "details.examples",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "details.usage",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "details.exampleTranslations",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "display_pos",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "meaning_quiz.byExample",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "vocabulary.c",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "vocabulary.p",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "vocabulary.g",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3441",
+    "reviewed_field": "vocabulary.tags",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "vocabulary.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "vocabulary.r",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "vocabulary.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "details.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "details.m",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "details.t",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "details.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "details.examples",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "details.usage",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "details.exampleTranslations",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "display_pos",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "meaning_quiz.byExample",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "vocabulary.c",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "vocabulary.p",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "vocabulary.g",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3594",
+    "reviewed_field": "vocabulary.tags",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "vocabulary.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "vocabulary.r",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "vocabulary.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "details.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "details.m",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "details.t",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "details.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "details.examples",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "details.usage",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "details.exampleTranslations",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "display_pos",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "meaning_quiz.byExample",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "revised_pending_independent_review",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "vocabulary.c",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "vocabulary.p",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "vocabulary.g",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3652",
+    "reviewed_field": "vocabulary.tags",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "vocabulary.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "vocabulary.r",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "vocabulary.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "details.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "details.m",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "details.t",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "details.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "details.examples",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "details.usage",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "details.exampleTranslations",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "display_pos",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "meaning_quiz.byExample",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "vocabulary.c",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "vocabulary.p",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "vocabulary.g",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3677",
+    "reviewed_field": "vocabulary.tags",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "vocabulary.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "vocabulary.r",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "vocabulary.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "details.w",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "details.m",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "details.t",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "details.s",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "details.examples",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "details.usage",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "details.exampleTranslations",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "display_pos",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "meaning_quiz.byExample",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "pass",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "vocabulary.c",
+      "vocabulary.p",
+      "vocabulary.g",
+      "vocabulary.tags"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "vocabulary.c",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "vocabulary.p",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "vocabulary.g",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "v_3679",
+    "reviewed_field": "vocabulary.tags",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "title",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "ja",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "uk",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "questions[0]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "revised_pending_independent_review",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "questions[1]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "revised_pending_independent_review",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "contextNotes[0]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "contextNotes[1]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "contextNotes[2]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "id",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-01",
+    "reviewed_field": "contextNotes[*].id (cross-check against full grammar registry not provided)",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "title",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "ja",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "uk",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "questions[0]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "revised_pending_independent_review",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "questions[1]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "revised_pending_independent_review",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "contextNotes[0]",
+    "source_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+    "reviewer_verdict": "issues",
+    "status": "reviewed_original_field",
+    "exclusions": [
+      "id",
+      "contextNotes[*].id (cross-check against full grammar registry not provided)"
+    ],
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "scope_note": "Reported field only; exclusions override parent coverage."
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "id",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  },
+  {
+    "package_id": "IR-20261120-01",
+    "case_id": "m-c12-20261119-02",
+    "reviewed_field": "contextNotes[*].id (cross-check against full grammar registry not provided)",
+    "status": "not_reviewed",
+    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+  }
+]

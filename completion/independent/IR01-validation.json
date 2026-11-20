@@ -1,0 +1,16 @@
+{
+  "base": "JLPT_N1_ukrainian_reading_v229_C12b.html",
+  "candidate": "completion/independent/IR01_candidate_UNACCEPTED.html",
+  "candidate_sha256": "2774287b21b52ff8ae352d2347b52cbd5c2168762d72986caa856c695cd510b4",
+  "patch_groups": 6,
+  "reading_questions_revised": 4,
+  "existing_keys_preserved": true,
+  "protected_blocks_equal": true,
+  "vocabulary": 3914,
+  "grammar": 130,
+  "medium": 103,
+  "long": 61,
+  "browser_acceptance": "pending",
+  "independent_recheck": "pending",
+  "unique_quiz_patch": "staged for v231 only"
+}
