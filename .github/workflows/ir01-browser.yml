@@ -1,0 +1,33 @@
+name: IR01 revised readings browser diagnostics
+on:
+  push:
+    branches: [work/ir01-adjudication]
+permissions:
+  contents: read
+jobs:
+  chromium:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 completion/independent/adjudicate-ir01.py
+      - run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Check revised readings through normal session generation
+        run: |
+          cp completion/independent/IR01_candidate_UNACCEPTED.html completion/c12-batch2/JLPT_N1_C12_candidate_UNACCEPTED.html
+          cp completion/independent/IR01-readings-revised.json completion/c12-batch2/drafts.json
+          node completion/independent/browser-ir01.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: IR01-browser-evidence
+          path: |
+            completion/c12-batch2/browser-results.json
+            completion/independent/IR01-validation.json
