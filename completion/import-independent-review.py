@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 
 p = argparse.ArgumentParser()
@@ -25,9 +26,12 @@ for case in result["cases"]:
     checked, unchecked = case["checked_fields"], case["unchecked_fields"]
     assert isinstance(checked, list) and isinstance(unchecked, list)
     assert len(set(checked + unchecked)) == len(checked + unchecked)
-    assert set(checked + unchecked) == set(expected[case["case_id"]]["fields"]), (
-        "Use top-level fields in importable results; mark a partial field unchecked "
-        "and describe exact reviewed paths in findings.")
+    fields = expected[case["case_id"]]["fields"]
+    roots = {re.split(r"[.\[/]", path)[0] for path in checked + unchecked}
+    assert roots == set(fields), "Every source field needs checked or unchecked coverage"
+    for field in fields:
+        if field not in checked:
+            assert field in unchecked, "Partially checked fields remain unchecked at top level"
     if case["verdict"] == "pass":
         assert checked and not case["findings"]
     if case["verdict"] == "not_reviewed":
