@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "packages": [
+    {
+      "package_id": "IR-20261120-01",
+      "path": "packages/IR-20261120-01.json",
+      "package_sha256": "1c937bbf6a579e53b78140e44557566637c904bf8577fd2b430aea9a01588b38",
+      "sources_sha256": "2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a",
+      "source_commits": [
+        "1fdc600ad4cde3fbf9e7171e6ccc1101e862cc4e",
+        "ec3e476967a6445e0e4f31e04ba04e11836fa192",
+        "ec540a90da28f2ae20076deec516dad7daba3677"
+      ],
+      "status": "corrections_pending",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [
+          3375,
+          3441,
+          3594,
+          3652,
+          3677,
+          3679
+        ],
+        "meaning_contexts": 12,
+        "readings": 2,
+        "reading_questions": 4
+      },
+      "reviews": [
+        {
+          "path": "reviews/IR-20261120-01-e416c4e96849ff03.json",
+          "sha256": "e416c4e96849ff039f28543554297ac3e71292277bb2477fcc377b9010e8f3ac"
+        }
+      ],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-20"
+        },
+        {
+          "status": "reviewed_with_issues",
+          "date": "2026-11-20"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-20"
+        }
+      ],
+      "notes": "Six adjudicated improvements await recheck in IR02; one suggestion rejected with dictionary evidence."
+    },
+    {
+      "package_id": "IR-20261120-02",
+      "path": "packages/IR-20261120-02.json",
+      "package_sha256": "b259b47ae7f7575d4a03dd1966b685dc963de1af3237a4f33f73c5e314f23b05",
+      "sources_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
+      "source_commits": [
+        "1fdc600ad4cde3fbf9e7171e6ccc1101e862cc4e",
+        "4ac62d1ee543398b49f74a6109981e384859f0ec",
+        "ec3e476967a6445e0e4f31e04ba04e11836fa192"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261120-01",
+      "scope": {
+        "vocab_ids": [
+          3375,
+          3652,
+          3417,
+          3444,
+          3525,
+          3565
+        ],
+        "meaning_contexts": 12,
+        "readings": 2,
+        "reading_questions": 4
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-20"
+        }
+      ],
+      "notes": "Revised fields from IR01 plus four further vocabulary cases; unchanged supporting context is retained."
+    }
+  ]
+}

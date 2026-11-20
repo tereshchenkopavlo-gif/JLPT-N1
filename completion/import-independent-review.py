@@ -8,7 +8,7 @@ from pathlib import Path
 p = argparse.ArgumentParser()
 p.add_argument("package")
 p.add_argument("result")
-p.add_argument("--output-dir", default="completion/independent/results")
+p.add_argument("--output-dir", default="completion/independent/reviews")
 args = p.parse_args()
 package = json.loads(Path(args.package).read_text())
 result = json.loads(Path(args.result).read_text())

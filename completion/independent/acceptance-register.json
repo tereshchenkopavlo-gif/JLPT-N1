@@ -12,7 +12,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -28,7 +28,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -44,7 +44,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -60,7 +60,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -76,7 +76,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -92,7 +92,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -108,7 +108,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -124,7 +124,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -140,7 +140,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -156,7 +156,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -172,7 +172,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -188,7 +188,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -196,28 +196,28 @@
     "case_id": "v_3375",
     "reviewed_field": "vocabulary.c",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3375",
     "reviewed_field": "vocabulary.p",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3375",
     "reviewed_field": "vocabulary.g",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3375",
     "reviewed_field": "vocabulary.tags",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
@@ -232,7 +232,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -248,7 +248,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -264,7 +264,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -280,7 +280,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -296,7 +296,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -312,7 +312,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -328,7 +328,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -344,7 +344,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -360,7 +360,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -376,7 +376,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -392,7 +392,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -408,7 +408,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -416,28 +416,28 @@
     "case_id": "v_3441",
     "reviewed_field": "vocabulary.c",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3441",
     "reviewed_field": "vocabulary.p",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3441",
     "reviewed_field": "vocabulary.g",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3441",
     "reviewed_field": "vocabulary.tags",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
@@ -452,7 +452,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -468,7 +468,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -484,7 +484,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -500,7 +500,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -516,7 +516,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -532,7 +532,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -548,7 +548,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -564,7 +564,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -580,7 +580,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -596,7 +596,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -612,7 +612,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -628,7 +628,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -636,28 +636,28 @@
     "case_id": "v_3594",
     "reviewed_field": "vocabulary.c",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3594",
     "reviewed_field": "vocabulary.p",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3594",
     "reviewed_field": "vocabulary.g",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3594",
     "reviewed_field": "vocabulary.tags",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
@@ -672,7 +672,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -688,7 +688,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -704,7 +704,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -720,7 +720,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -736,7 +736,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -752,7 +752,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -768,7 +768,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -784,7 +784,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -800,7 +800,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -816,7 +816,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -832,7 +832,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -848,7 +848,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -856,28 +856,28 @@
     "case_id": "v_3652",
     "reviewed_field": "vocabulary.c",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3652",
     "reviewed_field": "vocabulary.p",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3652",
     "reviewed_field": "vocabulary.g",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3652",
     "reviewed_field": "vocabulary.tags",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
@@ -892,7 +892,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -908,7 +908,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -924,7 +924,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -940,7 +940,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -956,7 +956,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -972,7 +972,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -988,7 +988,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1004,7 +1004,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1020,7 +1020,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1036,7 +1036,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1052,7 +1052,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1068,7 +1068,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1076,28 +1076,28 @@
     "case_id": "v_3677",
     "reviewed_field": "vocabulary.c",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3677",
     "reviewed_field": "vocabulary.p",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3677",
     "reviewed_field": "vocabulary.g",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3677",
     "reviewed_field": "vocabulary.tags",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
@@ -1112,7 +1112,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1128,7 +1128,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1144,7 +1144,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1160,7 +1160,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1176,7 +1176,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1192,7 +1192,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1208,7 +1208,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1224,7 +1224,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1240,7 +1240,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1256,7 +1256,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1272,7 +1272,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1288,7 +1288,7 @@
       "vocabulary.g",
       "vocabulary.tags"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1296,28 +1296,28 @@
     "case_id": "v_3679",
     "reviewed_field": "vocabulary.c",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3679",
     "reviewed_field": "vocabulary.p",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3679",
     "reviewed_field": "vocabulary.g",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "v_3679",
     "reviewed_field": "vocabulary.tags",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
@@ -1330,7 +1330,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1344,7 +1344,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1358,7 +1358,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1372,7 +1372,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1386,7 +1386,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1400,7 +1400,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1414,7 +1414,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1428,7 +1428,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1436,14 +1436,14 @@
     "case_id": "m-c12-20261119-01",
     "reviewed_field": "id",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "m-c12-20261119-01",
     "reviewed_field": "contextNotes[*].id (cross-check against full grammar registry not provided)",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
@@ -1456,7 +1456,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1470,7 +1470,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1484,7 +1484,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1498,7 +1498,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1512,7 +1512,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1526,7 +1526,7 @@
       "id",
       "contextNotes[*].id (cross-check against full grammar registry not provided)"
     ],
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json",
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json",
     "scope_note": "Reported field only; exclusions override parent coverage."
   },
   {
@@ -1534,13 +1534,13 @@
     "case_id": "m-c12-20261119-02",
     "reviewed_field": "id",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   },
   {
     "package_id": "IR-20261120-01",
     "case_id": "m-c12-20261119-02",
     "reviewed_field": "contextNotes[*].id (cross-check against full grammar registry not provided)",
     "status": "not_reviewed",
-    "evidence": "completion/independent/results/IR-20261120-01-e416c4e96849ff03.json"
+    "evidence": "completion/independent/reviews/IR-20261120-01-e416c4e96849ff03.json"
   }
 ]
