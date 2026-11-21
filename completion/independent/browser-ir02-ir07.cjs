@@ -5,6 +5,8 @@ const directory = "completion/independent/adjudications/20261121";
 
 (async () => {
   const html = fs.readFileSync(directory + "/candidate_UNACCEPTED.html", "utf8");
+  const declaration = html.slice(html.indexOf("const readingBank")).split("\n")[0];
+  const bank = JSON.parse(declaration.slice(declaration.indexOf("=")+1).trim().replace(/;$/,""));
   const fields = JSON.parse(fs.readFileSync(directory + "/reviewed-materials.json"));
   const rows = Object.values(fields).filter(row => row.id && row.ja);
   assert.equal(rows.length, 14);
@@ -19,14 +21,14 @@ const directory = "completion/independent/adjudications/20261121";
     for (const width of [360,412,1280]) {
       await page.setViewportSize({width,height:900});
       for (const row of rows) {
-        const generated = await page.evaluate(row => {
-          const level = row.id.startsWith("l-") ? "long" : "medium";
-          const index = readingBank[level].findIndex(item => item.id === row.id);
-          if (index < 0) throw Error("Reading missing " + row.id);
+        const level = row.id.startsWith("l-") ? "long" : "medium";
+        const index = bank[level].findIndex(item => item.id === row.id);
+        assert.ok(index >= 0);
+        const generated = await page.evaluate(({row,level,index,total}) => {
           const random = Math.random;
           let passages;
           try {
-            Math.random = () => (index + 0.5) / readingBank[level].length;
+            Math.random = () => (index + 0.5) / total;
             passages = SmartEngine.generateOfflinePassage([]);
           } finally {
             Math.random = random;
@@ -37,7 +39,7 @@ const directory = "completion/independent/adjudications/20261121";
           document.getElementById("sessBody").style.display = "";
           renderPassage();
           return passage;
-        },row);
+        },{row,level,index,total:bank[level].length});
         assert.equal(generated.title,row.title);
         assert.equal(generated.plainText,row.ja);
         assert.equal(generated.translation,row.uk);
