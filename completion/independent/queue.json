@@ -412,6 +412,31 @@
         }
       ],
       "notes": "Three original C12 medium readings and six questions."
+    },
+    {
+      "package_id": "IR-20261122-12",
+      "path": "packages/IR-20261122-12.json",
+      "package_sha256": "023d50caabcc69e524b1771b2de03297ecd94f226298aa09e347bca47665a20a",
+      "sources_sha256": "1d967e878a850b54b441ae24f787ab9665fafe9f1877dd3eb5a2e171d6daa7d6",
+      "source_commits": [
+        "dff7c6863fa90c8c85fa53175bb40437903d8333"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "One original C12 long reading and three questions."
     }
   ]
 }
