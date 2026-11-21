@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261121-03",
+  "sources_sha256": "517d5208387585b928c7dadb88f5665dfecb5f4dd16eaf102d5edcd45669b4b3",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261121",
+    "reviewed_at": "2026-11-21",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "m-c12-20261120-03",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "ja",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Текст спочатку називає 表示灯 (сигнальну лампу), але далі без пояснення працівник щоразу вимикає звук; звуковий сигнал не введений.",
+          "evidence": "研究室の入口には…表示灯がある／警告が出るたびに音を止め",
+          "sources": [],
+          "proposed_change": "У першому реченні згадати «表示灯と警報音» або «警告装置», щоб було зрозуміло, що є і звукова сигналізація."
+        },
+        {
+          "field_path": "questions[1].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Неправильні альтернативи (вже стався витік, повне заперечення, умова відновлення роботи) надто далекі від умовно-загрозливого ～ようものなら.",
+          "evidence": "既に漏れた／可能性を完全に否定／作業再開の条件",
+          "sources": [],
+          "proposed_change": "Замінити частину варіантів на близькі види гіпотетичності та оцінки ризику, з одним безсумнівним ключем."
+        }
+      ]
+    },
+    {
+      "case_id": "m-c12-20261120-04",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[0].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Три distractors категорично стверджують повну заборону, відсутність історичної цінності або достатність видалення зображення; їх легко відкинути за явними запереченнями в тексті.",
+          "evidence": "全面的に禁止／歴史的な価値がない／全ての問題が解決",
+          "sources": [],
+          "proposed_change": "Зробити альтернативи про межі попередньої перевірки, відповідальність і ступінь допустимого редагування ближчими за змістом."
+        }
+      ]
+    },
+    {
+      "case_id": "l-c12-20261120-01",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "uk",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Переклад «професіоналам» у фрагменті про безпечний ремонт трохи узагальнює «専門の店», де йдеться саме про спеціалізовані майстерні або сервіси.",
+          "evidence": "安全に関わる故障は専門の店へつなぐ／«передаватимуть професіоналам»",
+          "sources": [],
+          "proposed_change": "«За несправностей, пов’язаних із безпекою, скеровуватимуть до спеціалізованих майстерень»."
+        }
+      ]
+    }
+  ]
+}
