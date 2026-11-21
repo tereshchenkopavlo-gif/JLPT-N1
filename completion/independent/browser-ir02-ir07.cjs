@@ -58,9 +58,10 @@ const directory = "completion/independent/adjudications/20261121";
     }
     const cards = await page.evaluate(async () => {
       const out=[];
+      showView("cards");
       for (const id of [3375,3417]) {
         await openCardDetail("v",id);
-        const text=document.getElementById("cardDetail").innerText;
+        const text=document.getElementById("cardDetailBody").innerText;
         const details=VOCAB_DETAILS_BY_ID[String(id)];
         out.push({id,gloss:text.includes(details.t),
                   translations:details.exampleTranslations.every(s=>text.includes(s))});
