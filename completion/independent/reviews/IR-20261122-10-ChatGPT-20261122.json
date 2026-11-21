@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261122-10",
+  "sources_sha256": "2d9a074d8d16fbaf90a01a8d35f85fcf82171ca5fc8cc3bb313b8f885ef8aaba",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261122",
+    "reviewed_at": "2026-11-22",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "l-c12-20261121-13",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[1].choices",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Три неправильні альтернативи мають категоричні маркери 全て, 一人で, 一切, тоді як правильна відповідь збалансована; це полегшує вгадування.",
+          "evidence": "古い補修は全て／司書が一人で／一切手を加えない",
+          "sources": [],
+          "proposed_change": "Замінити частину альтернатив на близькі, але несумісні пріоритети ремонту, не покладаючись на абсолютні квантори."
+        }
+      ]
+    },
+    {
+      "case_id": "l-c12-20261121-14",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
