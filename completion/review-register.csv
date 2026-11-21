@@ -5900,3 +5900,12 @@ reading,l-c12-20261121-14,readingBank.long[66],reviewed,completion/c12-batch8/ac
 reading_question,l-c12-20261121-14:q1,readingBank.long[66].questions[0],reviewed,completion/c12-batch8/acceptance.md; author review; Chromium 44916926525; independent pending
 reading_question,l-c12-20261121-14:q2,readingBank.long[66].questions[1],reviewed,completion/c12-batch8/acceptance.md; author review; Chromium 44916926525; independent pending
 reading_question,l-c12-20261121-14:q3,readingBank.long[66].questions[2],reviewed,completion/c12-batch8/acceptance.md; author review; Chromium 44916926525; independent pending
+reading,m-c12-20261122-15,readingBank.medium[109],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading_question,m-c12-20261122-15:q1,readingBank.medium[109].questions[0],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading_question,m-c12-20261122-15:q2,readingBank.medium[109].questions[1],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading,m-c12-20261122-16,readingBank.medium[110],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading_question,m-c12-20261122-16:q1,readingBank.medium[110].questions[0],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading_question,m-c12-20261122-16:q2,readingBank.medium[110].questions[1],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading,m-c12-20261122-17,readingBank.medium[111],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading_question,m-c12-20261122-17:q1,readingBank.medium[111].questions[0],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading_question,m-c12-20261122-17:q2,readingBank.medium[111].questions[1],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
