@@ -437,6 +437,31 @@
         }
       ],
       "notes": "One original C12 long reading and three questions."
+    },
+    {
+      "package_id": "IR-20261122-13",
+      "path": "packages/IR-20261122-13.json",
+      "package_sha256": "fdc1ef5aef7a3ab132174dc618c65aa2fa4ac7ccb0ef71829374f6f22b1a4fc0",
+      "sources_sha256": "3b8ac74d860a2ebf10c79899bc0c995ce885b2116ac49b8de4f5aa05045fa9fe",
+      "source_commits": [
+        "49e0dcbe6e208faa759ff6d3f5b6459c78177b76"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "One original C12 long reading and three questions."
     }
   ]
 }
