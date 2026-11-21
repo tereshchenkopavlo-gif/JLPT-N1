@@ -1,0 +1,13 @@
+{
+  "kind": "technical verification receipt",
+  "commit": "984f860c3e0a85bf3556439b0bbc16fd0c4d3719",
+  "chromium_run": 44897745974,
+  "conclusion": "success",
+  "data_check_run": 44897745682,
+  "artifact_id": 14704507420,
+  "artifact_sha256": "33ab6315677c8040480610013a1b286be59e639234a99d94faf524d478e85749",
+  "html_sha256": "28e4e9762e56a356f9cf94678c0debf985e9f30f03404ea0ce16486819d0f259",
+  "html_blob": "e9be09a134dd4f7b699d3f94b305052423344d8c",
+  "independent_acceptance": "pending",
+  "physical_acceptance": "not_run"
+}

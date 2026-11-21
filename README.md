@@ -1,7 +1,10 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна опублікована редакція: v229.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
+**Актуальна опублікована редакція: v229-C12e.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
+- [Повний автономний HTML v229-C12e](JLPT_N1_ukrainian_reading_v229_C12e.html)
+- [Аудит v229-C12e](JLPT_N1_v229_C12e_audit.md)
+- [Черга незалежного аудиту](https://github.com/tereshchenkopavlo-gif/JLPT-N1/blob/work/independent-queue/completion/independent/QUEUE.md)
 - [Повний автономний HTML v229](JLPT_N1_ukrainian_reading_v229.html)
 - [Авторський аудит v229](JLPT_N1_v229_audit.md)
 - [C11 review v229](completion/v229-c11-review.tsv)
@@ -11,7 +14,9 @@
 - [Поточний стан проєкту](PROJECT_STATUS.md)
 - [Єдиний реєстр завершення 1.0](completion/BACKLOG.md)
 
-v229: 12 C11 blockers fixed_rechecked; 24 контексти meaning quiz пройшли авторський review, Chromium і технічний workflow 43621856689 успішні. Авторський credit — **3897/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6960249 байтів; SHA-256 e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab; Git blob 1c90476d78ae832ccecbcdfbfb93cc83b99474eb. Main data-check 43622359541 успішний. ID2734 corrected to 連体詞; reading/cloze pools no longer eligible, no synthetic distractors. Незалежне, фізичне й правове/походження приймання відкрите.
+v229-C12e: 105 середніх/63 довгі тексти, дві нові середні розповіді й чотири питання. Авторський і технічний перегляди пройдено; незалежне й фізичне приймання відкриті. Внутрішній title v229.
+
+Історичний v229: 12 C11 blockers fixed_rechecked; 24 контексти meaning quiz пройшли авторський review, Chromium і технічний workflow 43621856689 успішні. Авторський credit — **3897/3914**. Збережено 3914 словникових записів, 130 граматичних конструкцій та 859 лексичних пар. HTML 6960249 байтів; SHA-256 e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab; Git blob 1c90476d78ae832ccecbcdfbfb93cc83b99474eb. Main data-check 43622359541 успішний. ID2734 corrected to 連体詞; reading/cloze pools no longer eligible, no synthetic distractors. Незалежне, фізичне й правове/походження приймання відкрите.
 
 ## Історичний випуск v228
 
