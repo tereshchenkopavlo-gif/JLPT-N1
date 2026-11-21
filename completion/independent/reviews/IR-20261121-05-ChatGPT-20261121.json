@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261121-05",
+  "sources_sha256": "572e67d6d5584bd4c33a600ad96b3ffad0ae161676dac88badbc6b18e09626bf",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261121",
+    "reviewed_at": "2026-11-21",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "m-c12-20261121-05",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[1].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Альтернативи до ～ないまでも надто полярні: відкласти все, перевірити лише текст, або перевірити все.",
+          "evidence": "延期した／本文の正しさだけ／全てを試した",
+          "proposed_change": "Використати ближчі хибні пояснення обмеженої перевірки та відбору трьох робіт.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "case_id": "m-c12-20261121-06",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[0].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Неправильні управлінські цілі надто очевидні порівняно з навчальним призначенням записів.",
+          "evidence": "失敗した回数／成功した工夫だけ／支配人だけが読める",
+          "proposed_change": "Добрати близькі цілі ведення записів, відрізняючи допомогу майбутнім рішенням від особистої оцінки.",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
