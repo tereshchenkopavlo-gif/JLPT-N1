@@ -5880,3 +5880,15 @@ reading,l-c12-20261121-08,readingBank.long[64],reviewed,completion/c12-batch6/ac
 reading_question,l-c12-20261121-08:q1,readingBank.long[64].questions[0],reviewed,completion/c12-batch6/acceptance.md; author review; Chromium 44898266912; independent pending
 reading_question,l-c12-20261121-08:q2,readingBank.long[64].questions[1],reviewed,completion/c12-batch6/acceptance.md; author review; Chromium 44898266912; independent pending
 reading_question,l-c12-20261121-08:q3,readingBank.long[64].questions[2],reviewed,completion/c12-batch6/acceptance.md; author review; Chromium 44898266912; independent pending
+reading,m-c12-20261121-09,readingBank.medium[105],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-09:q1,readingBank.medium[105].questions[0],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-09:q2,readingBank.medium[105].questions[1],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading,m-c12-20261121-10,readingBank.medium[106],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-10:q1,readingBank.medium[106].questions[0],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-10:q2,readingBank.medium[106].questions[1],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading,m-c12-20261121-11,readingBank.medium[107],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-11:q1,readingBank.medium[107].questions[0],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-11:q2,readingBank.medium[107].questions[1],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading,m-c12-20261121-12,readingBank.medium[108],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-12:q1,readingBank.medium[108].questions[0],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
+reading_question,m-c12-20261121-12:q2,readingBank.medium[108].questions[1],reviewed,completion/c12-batch7/acceptance.md; author review; Chromium 44898854439; independent pending
