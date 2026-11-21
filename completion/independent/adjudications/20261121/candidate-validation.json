@@ -1,0 +1,35 @@
+{
+  "base_commit": "ba5b1717e5bffeb1e02bf662e04817a8407ff023",
+  "base_path": "JLPT_N1_ukrainian_reading_v229_C12g.html",
+  "base_sha256": "e29d1a68d930ba47f28a22e1fe472d697b907447d2a91a822b1b4e749f4150b8",
+  "candidate_sha256": "4bce7bb6d1ce2412ffc78cc9a7d75eb4b5e8ab30d90b60513cedad90c12f8b59",
+  "vocabulary": 3914,
+  "grammar": 130,
+  "medium": 109,
+  "long": 65,
+  "reading_changes": [
+    "m-c12-20261119-01",
+    "m-c12-20261119-02",
+    "m-c12-20261120-03",
+    "m-c12-20261120-04",
+    "m-c12-20261121-05",
+    "m-c12-20261121-06",
+    "m-c12-20261121-09",
+    "m-c12-20261121-10",
+    "m-c12-20261121-12",
+    "l-c12-20261120-01",
+    "l-c12-20261121-02",
+    "l-c12-20261121-07",
+    "l-c12-20261121-08"
+  ],
+  "card_text_ids": [
+    3375,
+    3417
+  ],
+  "protected_blocks_equal": true,
+  "c11_overlays_not_applied": true,
+  "exact_rollback": true,
+  "javascript_syntax": true,
+  "browser_acceptance": "pending",
+  "independent_recheck": "pending"
+}

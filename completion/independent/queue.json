@@ -58,7 +58,7 @@
         "4ac62d1ee543398b49f74a6109981e384859f0ec",
         "ec3e476967a6445e0e4f31e04ba04e11836fa192"
       ],
-      "status": "pending_review",
+      "status": "corrections_pending",
       "predecessor": "IR-20261120-01",
       "scope": {
         "vocab_ids": [
@@ -73,14 +73,29 @@
         "readings": 2,
         "reading_questions": 4
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261120-02-ChatGPT-20261121.json",
+          "sha256": "d37363ef1ad24ecf506a17e4f532c28b07826d6257407948056504ee3281e66e"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-20"
+        },
+        {
+          "status": "reviewed_with_issues",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
         }
       ],
-      "notes": "Revised fields from IR01 plus four further vocabulary cases; unchanged supporting context is retained."
+      "notes": "Received review validated; 7 findings adjudicated. Revised fields require recheck; see adjudications/20261121/decisions.json."
     },
     {
       "package_id": "IR-20261121-03",
@@ -90,7 +105,7 @@
       "source_commits": [
         "4c164622fbcbf1831028bbb86ed1a491a0d264cc"
       ],
-      "status": "pending_review",
+      "status": "corrections_pending",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -98,14 +113,29 @@
         "readings": 3,
         "reading_questions": 7
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261121-03-ChatGPT-20261121.json",
+          "sha256": "78c0c2c31337923577cf7637de270aeda6ae91ab4e4fdfc80a8ec729bbe18087"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-21"
+        },
+        {
+          "status": "reviewed_with_issues",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
         }
       ],
-      "notes": "Three further original C12 readings and seven questions."
+      "notes": "Received review validated; 4 findings adjudicated. Revised fields require recheck; see adjudications/20261121/decisions.json."
     },
     {
       "package_id": "IR-20261121-04",
@@ -115,7 +145,7 @@
       "source_commits": [
         "bb49686c0a411a6665375489619d252afb9203f3"
       ],
-      "status": "pending_review",
+      "status": "corrections_pending",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -123,14 +153,29 @@
         "readings": 1,
         "reading_questions": 3
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261121-04-ChatGPT-20261121.json",
+          "sha256": "613dd3458dddeda87238b63e937b2853a8443a90e96f04d6f5441674d55a43be"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-21"
+        },
+        {
+          "status": "reviewed_with_issues",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
         }
       ],
-      "notes": "Fourth C12 batch: one long reading, three questions and two context notes."
+      "notes": "Received review validated; 2 findings adjudicated. Revised fields require recheck; see adjudications/20261121/decisions.json."
     },
     {
       "package_id": "IR-20261121-05",
@@ -140,7 +185,7 @@
       "source_commits": [
         "7a497e04f102f58885d26acf0fca7f378cab8411"
       ],
-      "status": "pending_review",
+      "status": "corrections_pending",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -148,14 +193,29 @@
         "readings": 2,
         "reading_questions": 4
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261121-05-ChatGPT-20261121.json",
+          "sha256": "2ca05bee06532e091dedeb8adfa5a01c800d6aac5486782da45430b688797fad"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-21"
+        },
+        {
+          "status": "reviewed_with_issues",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
         }
       ],
-      "notes": "Fifth C12 batch: two medium readings, four questions and two context notes."
+      "notes": "Received review validated; 2 findings adjudicated. Revised fields require recheck; see adjudications/20261121/decisions.json."
     },
     {
       "package_id": "IR-20261121-06",
@@ -165,7 +225,7 @@
       "source_commits": [
         "71c7ce3d446d9fac59ecb85bde74a70de559deb1"
       ],
-      "status": "pending_review",
+      "status": "corrections_pending",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -173,14 +233,29 @@
         "readings": 2,
         "reading_questions": 6
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261121-06-ChatGPT-20261121.json",
+          "sha256": "46ee584560bdc25a4beb8ba9d1cfcf6e4c55870634468d068a35d80443439189"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-21"
+        },
+        {
+          "status": "reviewed_with_issues",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
         }
       ],
-      "notes": "Sixth C12 batch: two long readings, six questions and four context notes."
+      "notes": "Received review validated; 3 findings adjudicated. Revised fields require recheck; see adjudications/20261121/decisions.json."
     },
     {
       "package_id": "IR-20261121-07",
@@ -190,7 +265,7 @@
       "source_commits": [
         "c1e58cb4ece57d5d7b8b5a6d3dd453ee16f3bbc6"
       ],
-      "status": "pending_review",
+      "status": "corrections_pending",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -198,14 +273,29 @@
         "readings": 4,
         "reading_questions": 8
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261121-07-ChatGPT-20261121.json",
+          "sha256": "b07c5cc7e6be8a8d9ed188e5f21fd9f082f197cfffddf46942e4daff359bb772"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-21"
+        },
+        {
+          "status": "reviewed_with_issues",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-21",
+          "evidence": "adjudications/20261121/decisions.json"
         }
       ],
-      "notes": "Seventh C12 batch: four medium readings, eight questions and four context notes."
+      "notes": "Received review validated; 3 findings adjudicated. Revised fields require recheck; see adjudications/20261121/decisions.json."
     }
   ]
 }

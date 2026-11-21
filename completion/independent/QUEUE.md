@@ -1,74 +1,19 @@
 # Черга незалежного мовного аудиту JLPT N1
 
-Наступний пакет для перевірки — **IR-20261120-02**. Відкрийте його JSON і виконайте інструкції всередині. До першого висновку читайте тільки пакет. Після явного початку рецензування стан змінюється на in_review.
+Шість рецензій IR02–IR07 отримано, звірено та розглянуто. Виправлені матеріали готуються до повторного перегляду. Повного незалежного приймання змінених полів ще немає.
 
-| Пакет | Стан | Попередній пакет | Обсяг | Рецензія |
-|---|---|---|---|---|
-| [IR-20261120-01](packages/IR-20261120-01.json) | corrections_pending | — | 6 карток, 12 meaning-контекстів, 2 тексти, 4 питання | [ChatGPT](reviews/IR-20261120-01-e416c4e96849ff03.json) |
-| [IR-20261120-02](packages/IR-20261120-02.json) | pending_review | IR-20261120-01 | 6 карток, 12 meaning-контекстів, 2 тексти, 4 питання | Очікується |
-| [IR-20261121-03](packages/IR-20261121-03.json) | pending_review | — | 3 тексти C12, 7 питань | Очікується |
+| Пакет | Статус | Рецензії |
+|---|---|---|
+| [IR-20261120-01](packages/IR-20261120-01.json) | corrections_pending | [ChatGPT](reviews/IR-20261120-01-e416c4e96849ff03.json) |
+| [IR-20261120-02](packages/IR-20261120-02.json) | corrections_pending | [ChatGPT](reviews/IR-20261120-02-ChatGPT-20261121.json) |
+| [IR-20261121-03](packages/IR-20261121-03.json) | corrections_pending | [ChatGPT](reviews/IR-20261121-03-ChatGPT-20261121.json) |
+| [IR-20261121-04](packages/IR-20261121-04.json) | corrections_pending | [ChatGPT](reviews/IR-20261121-04-ChatGPT-20261121.json) |
+| [IR-20261121-05](packages/IR-20261121-05.json) | corrections_pending | [ChatGPT](reviews/IR-20261121-05-ChatGPT-20261121.json) |
+| [IR-20261121-06](packages/IR-20261121-06.json) | corrections_pending | [ChatGPT](reviews/IR-20261121-06-ChatGPT-20261121.json) |
+| [IR-20261121-07](packages/IR-20261121-07.json) | corrections_pending | [ChatGPT](reviews/IR-20261121-07-ChatGPT-20261121.json) |
 
-| [IR-20261121-04](packages/IR-20261121-04.json) | pending_review | — | 1 довгий текст C12, 3 питання | Очікується |
+Контрольні суми пакетів, SHA джерел, checksums рецензій і історія — [queue.json](queue.json).
 
-| [IR-20261121-05](packages/IR-20261121-05.json) | pending_review | — | 2 середні тексти C12, 4 питання | Очікується |
-
-| [IR-20261121-06](packages/IR-20261121-06.json) | pending_review | — | 2 довгі тексти C12, 6 питань | Очікується |
-
-| [IR-20261121-07](packages/IR-20261121-07.json) | pending_review | — | 4 середні тексти C12, 8 питань | Очікується |
-
-## Джерела й контрольні суми
-
-### IR-20261120-01
-
-- SHA-256 файла — `1c937bbf6a579e53b78140e44557566637c904bf8577fd2b430aea9a01588b38`.
-- sources_sha256 — `2570889e50e9829f861f54bb44fecc3982842ca994c0641720034df95a88740a`.
-- Commit SHA вихідних матеріалів — `1fdc600ad4cde3fbf9e7171e6ccc1101e862cc4e`, `ec3e476967a6445e0e4f31e04ba04e11836fa192`, `ec540a90da28f2ae20076deec516dad7daba3677`.
-
-### IR-20261120-02
-
-- SHA-256 файла — `b259b47ae7f7575d4a03dd1966b685dc963de1af3237a4f33f73c5e314f23b05`.
-- sources_sha256 — `e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f`.
-- Commit SHA вихідних матеріалів — `1fdc600ad4cde3fbf9e7171e6ccc1101e862cc4e`, `4ac62d1ee543398b49f74a6109981e384859f0ec`, `ec3e476967a6445e0e4f31e04ba04e11836fa192`.
-
-IR01 не має повного незалежного приймання. Шість підтверджених правок очікують повторного перегляду через IR02. Перевірені поля й виключення наведено в [acceptance-register.json](acceptance-register.json).
-
-Пакети в packages/ збережені побайтово. Історичні кореневі файли лишаються доступними за старими посиланнями. Єдину отриману рецензію перенесено в reviews/.
-
-[Правила процесу](README.md) · [Машиночитна черга](queue.json)
+[Розгляд 21 зауваження](adjudications/20261121/decisions.json) · [Реєстр полів](acceptance-register.json) · [Правила](README.md)
 
 Основний аудит і C12 продовжуються під час очікування незалежних висновків.
-
-### IR-20261121-03
-
-- SHA-256 файла — `a8a22a9e325c852a5196671d21364976fbee7935caed63b580c98a88519345ee`.
-- sources_sha256 — `517d5208387585b928c7dadb88f5665dfecb5f4dd16eaf102d5edcd45669b4b3`.
-- Commit SHA — `4c164622fbcbf1831028bbb86ed1a491a0d264cc`.
-- Наступним до перегляду лишається найстарший pending_review IR-20261120-02.
-
-### IR-20261121-04
-
-- SHA-256 файла — `65e384cbeac2db7528c3b975abefcfc4fc9da7902963b4652bd00b6f281dffbd`.
-- sources_sha256 — `a0e683cf104ce8c5e8b6e61a9174f93c28c685df636dc0ca5f240ba1c90f3b26`.
-- Commit SHA — `bb49686c0a411a6665375489619d252afb9203f3`.
-- Найстарший пакет до перегляду — IR-20261120-02. Нового незалежного кредиту немає.
-
-### IR-20261121-05
-
-- SHA-256 файла — `34b406a148c00dc76b625a6871002cb760a4f6e4bf1d9c93b976dde6c27f1292`.
-- sources_sha256 — `572e67d6d5584bd4c33a600ad96b3ffad0ae161676dac88badbc6b18e09626bf`.
-- Commit SHA — `7a497e04f102f58885d26acf0fca7f378cab8411`.
-- Наступний до незалежного перегляду — IR-20261120-02.
-
-### IR-20261121-06
-
-- SHA-256 файла — `dc20f0672cf5d1f0aa36c30a83d17b85bb7cd28fd8a09d8138e31ca281b8785f`.
-- sources_sha256 — `b7183a31a93cf1a08fff6166c25aacd9ae1ec1572dd04f409fc9fd45949026c6`.
-- Commit SHA — `71c7ce3d446d9fac59ecb85bde74a70de559deb1`.
-- Наступний до незалежного перегляду — IR-20261120-02.
-
-### IR-20261121-07
-
-- SHA-256 файла — `8e73f3c80e62e5adb88518c7bbae14c04986352b984703c65da246f2bcf87b0d`.
-- sources_sha256 — `8133376a279aff450c6e472f752bfdf1a87ee301237048848338938f060b2046`.
-- Commit SHA — `c1e58cb4ece57d5d7b8b5a6d3dd453ee16f3bbc6`.
-- Наступний до незалежного перегляду — IR-20261120-02.

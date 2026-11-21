@@ -1,0 +1,12 @@
+{
+  "packages": 6,
+  "cases": 20,
+  "findings": 21,
+  "accepted": 18,
+  "partially_accepted": 1,
+  "rejected": 2,
+  "changed_cases": 16,
+  "reading_keys_preserved": true,
+  "independent_recheck_for_changed_fields": "pending",
+  "main_base_sha": "ba5b1717e5bffeb1e02bf662e04817a8407ff023"
+}

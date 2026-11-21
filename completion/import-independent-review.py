@@ -9,6 +9,7 @@ p = argparse.ArgumentParser()
 p.add_argument("package")
 p.add_argument("result")
 p.add_argument("--output-dir", default="completion/independent/reviews")
+p.add_argument("--validate-only", action="store_true")
 args = p.parse_args()
 package = json.loads(Path(args.package).read_text())
 result = json.loads(Path(args.result).read_text())
@@ -41,10 +42,19 @@ for case in result["cases"]:
         assert finding["confidence"] in ["high", "medium", "low"]
         assert isinstance(finding["sources"], list)
         assert "proposed_change" in finding
+if args.validate_only:
+    print(json.dumps({"validated":args.result,"package_id":result["package_id"],
+                      "registry_credit_applied":False}))
+    raise SystemExit(0)
 payload = json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2) + "\n"
 digest = hashlib.sha256(payload.encode()).hexdigest()
 dest = Path(args.output_dir) / (package["package_id"] + "-" + digest[:16] + ".json")
 dest.parent.mkdir(parents=True, exist_ok=True)
+for existing in dest.parent.glob("*.json"):
+    if json.loads(existing.read_text()) == result:
+        print(json.dumps({"staged":str(existing),"duplicate_reused":True,
+                          "registry_credit_applied":False}))
+        raise SystemExit(0)
 if dest.exists():
     assert dest.read_text() == payload
 else:

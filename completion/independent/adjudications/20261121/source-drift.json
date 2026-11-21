@@ -1,0 +1,76 @@
+[
+  {
+    "case_id": "m-c12-20261119-01",
+    "source_main_differences": [
+      "questions"
+    ],
+    "explanation": "IR01 corrections already passed IR02; integrate verified reviewed text"
+  },
+  {
+    "case_id": "m-c12-20261119-02",
+    "source_main_differences": [
+      "questions"
+    ],
+    "explanation": "IR01 corrections already passed IR02; integrate verified reviewed text"
+  },
+  {
+    "case_id": "m-c12-20261120-03",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "m-c12-20261120-04",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "m-c12-20261121-05",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "m-c12-20261121-06",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "m-c12-20261121-09",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "m-c12-20261121-10",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "m-c12-20261121-11",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "m-c12-20261121-12",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "l-c12-20261120-01",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "l-c12-20261121-02",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "l-c12-20261121-07",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  },
+  {
+    "case_id": "l-c12-20261121-08",
+    "source_main_differences": [],
+    "explanation": "reviewed source matches current main"
+  }
+]

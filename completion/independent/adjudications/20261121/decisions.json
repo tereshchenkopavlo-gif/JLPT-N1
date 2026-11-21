@@ -1,0 +1,457 @@
+[
+  {
+    "finding_id": "IR-20261120-02/v_3375/1",
+    "package_id": "IR-20261120-02",
+    "case_id": "v_3375",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "meaning_quiz.byExample.当面の課題は、優秀な人材の確保と育成である。.wrong",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Три альтернативи протиставляють сьогоденню далеке майбутнє або минуле й легко відкидаються без точного розуміння 当面.",
+      "evidence": "将来のある時点になってから／過去の経緯を振り返り／長期的な目標",
+      "sources": [],
+      "proposed_change": "Замість часових антонімів запропонувати контекстно близькі, але однозначно неправильні визначення, наприклад розрізнити поточний пріоритет і довготривалу загальну мету."
+    },
+    "decision": "accepted",
+    "rationale": "The original contrasts are heavily signposted by distant time references; replace with competing task roles while retaining the immediate-task key.",
+    "changed_paths": [
+      "meaning_quiz.byExample[0].wrong",
+      "meaning_quiz.byExample[0].note"
+    ],
+    "review_path": "reviews/IR-20261120-02-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261120-02/v_3652/1",
+    "package_id": "IR-20261120-02",
+    "case_id": "v_3652",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "meaning_quiz.byExample.ユニークな研究が評価され、彼女は学会賞を受賞した。.wrong",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "У другому meaning-завданні усі три distractors описують явно інші критерії (копіювання, широту, швидкість), а не близьке поняття оригінальності.",
+      "evidence": "先行研究の手法をそのまま再現／研究対象が広く／実用化が早く",
+      "sources": [],
+      "proposed_change": "Зробити хоча б дві неправильні альтернативи семантично ближчими до 独自性, не допускаючи другого коректного ключа."
+    },
+    "decision": "accepted",
+    "rationale": "Verification precision, breadth and recognition are plausible research evaluations but do not define distinctiveness.",
+    "changed_paths": [
+      "meaning_quiz.byExample[1].wrong",
+      "meaning_quiz.byExample[1].note"
+    ],
+    "review_path": "reviews/IR-20261120-02-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261120-02/v_3417/1",
+    "package_id": "IR-20261120-02",
+    "case_id": "v_3417",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "details.t",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "«Просторий» без уточнення може означати просто комфортно вільний одяг, тоді як だぶだぶ має відтінок надмірної ширини.",
+      "evidence": "t: «мішкуватий, завеликий, просторий»; usage: «Не будь-який комфортно просторий одяг».",
+      "sources": [],
+      "proposed_change": "Вилучити ізольоване «просторий» або змінити на «надміру просторий»."
+    },
+    "decision": "accepted",
+    "rationale": "The card definition and usage require excess looseness; qualifying просторiй aligns the Ukrainian gloss with both.",
+    "changed_paths": [
+      "details.t"
+    ],
+    "review_path": "reviews/IR-20261120-02-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261120-02/v_3417/2",
+    "package_id": "IR-20261120-02",
+    "case_id": "v_3417",
+    "finding_index": 1,
+    "reviewer_finding": {
+      "field_path": "details.exampleTranslations[0]",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "«Плечі звисали» українською звучить як опис плечей людини, хоча японське 肩が落ちていた стосується посадки костюма.",
+      "evidence": "兄のお下がりのスーツは、だぶだぶで肩が落ちていた。",
+      "sources": [],
+      "proposed_change": "«Костюм, що дістався від старшого брата, був мішкуватим, і його плечова лінія спадала»."
+    },
+    "decision": "accepted",
+    "rationale": "Clarify that 肩 refers to the suit's shoulder fit and include the older-brother information.",
+    "changed_paths": [
+      "details.exampleTranslations[0]"
+    ],
+    "review_path": "reviews/IR-20261120-02-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261120-02/v_3444/1",
+    "package_id": "IR-20261120-02",
+    "case_id": "v_3444",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "meaning_quiz.byExample.どろどろした人間関係に疲れ、彼は転職を決意した。.wrong",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Усі три distractors описують позитивні або нейтральні стосунки, тож контраст із емоційно заплутаними どろどろした надто прямий.",
+      "evidence": "対立やわだかまりがない／感情を交えず／率直に協力",
+      "sources": [],
+      "proposed_change": "Запропонувати близькі стани (наприклад просто складні формальні стосунки без переплетення прихованих емоцій) з однозначною відмінністю."
+    },
+    "decision": "accepted",
+    "rationale": "Replace positive opposites with administrative complexity, overt disagreement and emotional distance; none defines entangled negative emotions.",
+    "changed_paths": [
+      "meaning_quiz.byExample[1].wrong",
+      "meaning_quiz.byExample[1].note"
+    ],
+    "review_path": "reviews/IR-20261120-02-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261120-02/v_3525/1",
+    "package_id": "IR-20261120-02",
+    "case_id": "v_3525",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "details.examples[1]",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "Речення граматично зрозуміле, але конструкція «この装置は、温度調節が…行われる仕組みだ» стилістично громіздка; можна висловити простіше.",
+      "evidence": "この装置は、温度調節がオートマチックに行われる仕組みだ。",
+      "sources": [],
+      "proposed_change": "«この装置では温度がオートマチックに調節される。»; при зміні синхронно оновити byExample і переклад."
+    },
+    "decision": "rejected",
+    "rationale": "The は topic and が subject are coherent: this device has a mechanism in which temperature adjustment is automatic. The shorter alternative is possible, but no grammatical, semantic or referential error was demonstrated. Preserve the exact example, translation and byExample binding.",
+    "changed_paths": [],
+    "review_path": "reviews/IR-20261120-02-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261120-02/v_3565/1",
+    "package_id": "IR-20261120-02",
+    "case_id": "v_3565",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "meaning_quiz.byExample",
+      "severity": "major",
+      "confidence": "high",
+      "claim": "В обох вправах три неправильні відповіді утворюють механічне протиставлення «раніше / пізніше / незалежно від часу», тож вибір ключа надто простий для N1.",
+      "evidence": "時機よりも前に／時機を過ぎてから／時機に関係なく; аналогічна трійка у другому прикладі.",
+      "sources": [],
+      "proposed_change": "Переписати distractors на близькі нюанси оперативності, сезонної актуальності й своєчасної доречності; зберегти єдиний ключ."
+    },
+    "decision": "accepted",
+    "rationale": "Distinguish situational timeliness from response speed, freshness and scheduled periodicity. Retain both correct keys and do not label the earlier keys linguistically wrong.",
+    "changed_paths": [
+      "meaning_quiz.byExample[0].wrong",
+      "meaning_quiz.byExample[0].note",
+      "meaning_quiz.byExample[1].wrong",
+      "meaning_quiz.byExample[1].note"
+    ],
+    "review_path": "reviews/IR-20261120-02-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-03/m-c12-20261120-03/1",
+    "package_id": "IR-20261121-03",
+    "case_id": "m-c12-20261120-03",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "ja",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "Текст спочатку називає 表示灯 (сигнальну лампу), але далі без пояснення працівник щоразу вимикає звук; звуковий сигнал не введений.",
+      "evidence": "研究室の入口には…表示灯がある／警告が出るたびに音を止め",
+      "sources": [],
+      "proposed_change": "У першому реченні згадати «表示灯と警報音» або «警告装置», щоб було зрозуміло, що є і звукова сигналізація."
+    },
+    "decision": "accepted",
+    "rationale": "Introduce both signal modalities before the later sound-silencing action; synchronize the first Ukrainian sentences.",
+    "changed_paths": [
+      "ja",
+      "uk"
+    ],
+    "review_path": "reviews/IR-20261121-03-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-03/m-c12-20261120-03/2",
+    "package_id": "IR-20261121-03",
+    "case_id": "m-c12-20261120-03",
+    "finding_index": 1,
+    "reviewer_finding": {
+      "field_path": "questions[1].choices",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Неправильні альтернативи (вже стався витік, повне заперечення, умова відновлення роботи) надто далекі від умовно-загрозливого ～ようものなら.",
+      "evidence": "既に漏れた／可能性を完全に否定／作業再開の条件",
+      "sources": [],
+      "proposed_change": "Замінити частину варіантів на близькі види гіпотетичності та оцінки ризику, з одним безсумнівним ключем."
+    },
+    "decision": "accepted",
+    "rationale": "Alternatives now distinguish risk stance, measured likelihood and neutral planning instead of present/past negations.",
+    "changed_paths": [
+      "questions[1].choices",
+      "questions[1].explain"
+    ],
+    "review_path": "reviews/IR-20261121-03-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-03/m-c12-20261120-04/1",
+    "package_id": "IR-20261121-03",
+    "case_id": "m-c12-20261120-04",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "questions[0].choices",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Три distractors категорично стверджують повну заборону, відсутність історичної цінності або достатність видалення зображення; їх легко відкинути за явними запереченнями в тексті.",
+      "evidence": "全面的に禁止／歴史的な価値がない／全ての問題が解決",
+      "sources": [],
+      "proposed_change": "Зробити альтернативи про межі попередньої перевірки, відповідальність і ступінь допустимого редагування ближчими за змістом."
+    },
+    "decision": "accepted",
+    "rationale": "Replace absolute bans with competing allocations of responsibility and timing of the two checks.",
+    "changed_paths": [
+      "questions[0].choices",
+      "questions[0].explain"
+    ],
+    "review_path": "reviews/IR-20261121-03-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-03/l-c12-20261120-01/1",
+    "package_id": "IR-20261121-03",
+    "case_id": "l-c12-20261120-01",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "uk",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "Переклад «професіоналам» у фрагменті про безпечний ремонт трохи узагальнює «専門の店», де йдеться саме про спеціалізовані майстерні або сервіси.",
+      "evidence": "安全に関わる故障は専門の店へつなぐ／«передаватимуть професіоналам»",
+      "sources": [],
+      "proposed_change": "«За несправностей, пов’язаних із безпекою, скеровуватимуть до спеціалізованих майстерень»."
+    },
+    "decision": "accepted",
+    "rationale": "専門の店 identifies a specialist service location; the more specific Ukrainian wording preserves this referral.",
+    "changed_paths": [
+      "uk"
+    ],
+    "review_path": "reviews/IR-20261121-03-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-04/l-c12-20261121-02/1",
+    "package_id": "IR-20261121-04",
+    "case_id": "l-c12-20261121-02",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "ja",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "Метафоричне «観察と話し合いの間を行きつ戻りつしながら» зрозуміле, але дещо штучне для навчального прикладу ～つ～つ.",
+      "evidence": "案は、観察と話し合いの間を行きつ戻りつしながら修正された。",
+      "proposed_change": "Розглянути «現地と会議室を行きつ戻りつしながら、案を修正した» або перенести конструкцію в природніший контекст.",
+      "sources": []
+    },
+    "decision": "rejected",
+    "rationale": "The text explicitly uses a metaphor for repeated movement between observation and discussion. The process and Ukrainian translation agree. Replacing it by trips between a meeting room and the site would add a physical movement not stated in the source; retain the coherent metaphor and record stylistic uncertainty rather than declaring a grammar error.",
+    "changed_paths": [],
+    "review_path": "reviews/IR-20261121-04-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-04/l-c12-20261121-02/2",
+    "package_id": "IR-20261121-04",
+    "case_id": "l-c12-20261121-02",
+    "finding_index": 1,
+    "reviewer_finding": {
+      "field_path": "questions[0].choices",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Три неправильні відповіді містять крайні твердження, які легко відкинути без ретельного читання.",
+      "evidence": "全員反対／唯一の目的／住民だけに任せる",
+      "proposed_change": "Порівняти правдоподібні цілі огляду площі, лишивши лише одну відповідь, що відбиває всі часові та функціональні умови.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "Keep the temporal and functional conditions in the key, while alternatives target appearance, aggregation and choosing one use.",
+    "changed_paths": [
+      "questions[0].choices",
+      "questions[0].explain"
+    ],
+    "review_path": "reviews/IR-20261121-04-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-05/m-c12-20261121-05/1",
+    "package_id": "IR-20261121-05",
+    "case_id": "m-c12-20261121-05",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "questions[1].choices",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Альтернативи до ～ないまでも надто полярні: відкласти все, перевірити лише текст, або перевірити все.",
+      "evidence": "延期した／本文の正しさだけ／全てを試した",
+      "proposed_change": "Використати ближчі хибні пояснення обмеженої перевірки та відбору трьох робіт.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "All alternatives describe bounded tests; they differ in who supplies help, the test method and selection criterion.",
+    "changed_paths": [
+      "questions[1].choices",
+      "questions[1].explain"
+    ],
+    "review_path": "reviews/IR-20261121-05-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-05/m-c12-20261121-06/1",
+    "package_id": "IR-20261121-05",
+    "case_id": "m-c12-20261121-06",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "questions[0].choices",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Неправильні управлінські цілі надто очевидні порівняно з навчальним призначенням записів.",
+      "evidence": "失敗した回数／成功した工夫だけ／支配人だけが読める",
+      "proposed_change": "Добрати близькі цілі ведення записів, відрізняючи допомогу майбутнім рішенням від особистої оцінки.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "Use realistic competing record purposes: staff placement, rigid procedure and concise handover; the key retains learning from decision context.",
+    "changed_paths": [
+      "questions[0].choices",
+      "questions[0].explain"
+    ],
+    "review_path": "reviews/IR-20261121-05-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-06/l-c12-20261121-07/1",
+    "package_id": "IR-20261121-06",
+    "case_id": "l-c12-20261121-07",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "ja",
+      "severity": "major",
+      "confidence": "high",
+      "claim": "Попереднє речення описує відкладання написання відповіді, але 出さずじまい буквально стосується ненадсилання вже підготовленого листа; навчальний контекст двозначний.",
+      "evidence": "返事を書こうとしては後回しにし、結局出さずじまいになった手紙もある。",
+      "proposed_change": "Якщо відповідей не написано: «結局、返事を書かずじまいになった手紙もある». Якщо їх написано, явно вказати на підготовлені, але ненадіслані листи.",
+      "sources": []
+    },
+    "decision": "partially_accepted",
+    "rationale": "出さずじまい does not presuppose that a reply was already written, so the categorical error claim is rejected. Accept editorial clarification: naming 返事を書く aligns the postponement and the later Ukrainian mention of unwritten replies. Retain the reviewer's severity separately; classify this as clarification.",
+    "changed_paths": [
+      "ja",
+      "contextNotes[0].quote",
+      "contextNotes[0].meaning"
+    ],
+    "review_path": "reviews/IR-20261121-06-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-06/l-c12-20261121-07/2",
+    "package_id": "IR-20261121-06",
+    "case_id": "l-c12-20261121-07",
+    "finding_index": 1,
+    "reviewer_finding": {
+      "field_path": "uk",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "Переклад «на деякі листи так і не відповів» не розрізняє «не написав» та «не надіслав» відповідь.",
+      "evidence": "«Посилаючись на зайнятість, я відкладав відповідь; на деякі листи так і не відповів».",
+      "proposed_change": "Після уточнення японського дієслова узгодити переклад з ним.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "Synchronize the Ukrainian sentence with the explicit writing action; the final paragraph already mentions unwritten replies.",
+    "changed_paths": [
+      "uk"
+    ],
+    "review_path": "reviews/IR-20261121-06-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-06/l-c12-20261121-08/1",
+    "package_id": "IR-20261121-06",
+    "case_id": "l-c12-20261121-08",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "ja",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "«聞くともなく聞いていた波» зрозуміле як метонімія, але для навчальної ілюстрації природніше прямо назвати звук хвиль.",
+      "evidence": "聞くともなく聞いていた波に注意を向けると",
+      "proposed_change": "«聞くともなく聞いていた波の音に注意を向けると»; узгодити контекстну цитату. Не вважати поточну художню метонімію граматично неможливою.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "Clarify the sound as the object of hearing for a teaching example; retain the already accurate Ukrainian translation. The earlier metonymy is not classified as ungrammatical.",
+    "changed_paths": [
+      "ja",
+      "contextNotes[0].quote",
+      "contextNotes[0].meaning"
+    ],
+    "review_path": "reviews/IR-20261121-06-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-07/m-c12-20261121-09/1",
+    "package_id": "IR-20261121-07",
+    "case_id": "m-c12-20261121-09",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "questions[0].choices",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Три distractors містять явні крайнощі, тому завдання занадто просте для N1.",
+      "evidence": "公園が…移っていた／一度も見ていなかった／全ての道を一度に",
+      "proposed_change": "Добрати ближчі висновки про маршрути та зміну сприйняття знайомих місць.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "Keep plausible route and perception claims instead of relocation and learning every road at once.",
+    "changed_paths": [
+      "questions[0].choices",
+      "questions[0].explain"
+    ],
+    "review_path": "reviews/IR-20261121-07-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-07/m-c12-20261121-10/1",
+    "package_id": "IR-20261121-07",
+    "case_id": "m-c12-20261121-10",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "uk",
+      "severity": "minor",
+      "confidence": "medium",
+      "claim": "Український вислів «запізнилися на їжу» стилістично незграбний для 食事の時間に遅れそうになった.",
+      "evidence": "«і якось через це ледь не запізнилися на їжу».",
+      "proposed_change": "«і якось через це ледь не запізнилися до часу прийому їжі» або природне формулювання без додавання непідтвердженого виду трапези.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "Use idiomatic Ukrainian for a scheduled meal without inventing breakfast, lunch or dinner.",
+    "changed_paths": [
+      "uk"
+    ],
+    "review_path": "reviews/IR-20261121-07-ChatGPT-20261121.json"
+  },
+  {
+    "finding_id": "IR-20261121-07/m-c12-20261121-12/1",
+    "package_id": "IR-20261121-07",
+    "case_id": "m-c12-20261121-12",
+    "finding_index": 0,
+    "reviewer_finding": {
+      "field_path": "questions[1].choices",
+      "severity": "minor",
+      "confidence": "high",
+      "claim": "Три distractors містять абсолютні й прямо спростовані крайнощі, тому слабко перевіряють нюанси висновку.",
+      "evidence": "毎日新しい世話／誰でも／一目で判断",
+      "proposed_change": "Добрати близькі, але помилкові висновки про спостереження, очікування й втручання.",
+      "sources": []
+    },
+    "decision": "accepted",
+    "rationale": "Use nearby but mistaken conclusions about successive interventions, confidence from records and fixed routines.",
+    "changed_paths": [
+      "questions[1].choices",
+      "questions[1].explain"
+    ],
+    "review_path": "reviews/IR-20261121-07-ChatGPT-20261121.json"
+  }
+]
