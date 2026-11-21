@@ -296,6 +296,72 @@
         }
       ],
       "notes": "Received review validated; 3 findings adjudicated. Revised fields require recheck; see adjudications/20261121/decisions.json."
+    },
+    {
+      "package_id": "IR-20261121-08",
+      "path": "packages/IR-20261121-08.json",
+      "package_sha256": "aefecf79c5f75f67e7b0581ad3c30086c003d4bc4383ba525dce8009fc44dd7b",
+      "sources_sha256": "be6467a4d8414ec316a88b8e0b1e2be3a8a31f85459f5af13aaffe6a6786d27e",
+      "source_commits": [
+        "3e37dc35adacbadc7637094ea6e9ed304671bbaa"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261120-02",
+      "predecessors": [
+        "IR-20261120-02",
+        "IR-20261121-03"
+      ],
+      "scope": {
+        "vocab_ids": [
+          3375,
+          3652,
+          3417,
+          3444,
+          3565
+        ],
+        "meaning_contexts": 10,
+        "readings": 3,
+        "reading_questions": 7
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-21"
+        }
+      ],
+      "notes": "Revised material; complete source context included for an independent assessment. Earlier reviewer findings are excluded."
+    },
+    {
+      "package_id": "IR-20261121-09",
+      "path": "packages/IR-20261121-09.json",
+      "package_sha256": "2eed005fdb90e4e2ecb8c12beddc34fb9fcdb7b15cf9fc30b5a991673b576db6",
+      "sources_sha256": "23458718734e07f5fe294ca234708d36fe90b0ab3665128f948ba89e2a2e136d",
+      "source_commits": [
+        "3e37dc35adacbadc7637094ea6e9ed304671bbaa"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261121-04",
+      "predecessors": [
+        "IR-20261121-04",
+        "IR-20261121-05",
+        "IR-20261121-06",
+        "IR-20261121-07"
+      ],
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 8,
+        "reading_questions": 19
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-21"
+        }
+      ],
+      "notes": "Revised material; complete source context included for an independent assessment. Earlier reviewer findings are excluded."
     }
   ]
 }
