@@ -106,6 +106,31 @@
         }
       ],
       "notes": "Three further original C12 readings and seven questions."
+    },
+    {
+      "package_id": "IR-20261121-04",
+      "path": "packages/IR-20261121-04.json",
+      "package_sha256": "65e384cbeac2db7528c3b975abefcfc4fc9da7902963b4652bd00b6f281dffbd",
+      "sources_sha256": "a0e683cf104ce8c5e8b6e61a9174f93c28c685df636dc0ca5f240ba1c90f3b26",
+      "source_commits": [
+        "bb49686c0a411a6665375489619d252afb9203f3"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-21"
+        }
+      ],
+      "notes": "Fourth C12 batch: one long reading, three questions and two context notes."
     }
   ]
 }
