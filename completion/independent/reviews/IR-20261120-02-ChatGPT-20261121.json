@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261120-02",
+  "sources_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261121",
+    "reviewed_at": "2026-11-21",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "v_3375",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "meaning_quiz.byExample.当面の課題は、優秀な人材の確保と育成である。.wrong",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Три альтернативи протиставляють сьогоденню далеке майбутнє або минуле й легко відкидаються без точного розуміння 当面.",
+          "evidence": "将来のある時点になってから／過去の経緯を振り返り／長期的な目標",
+          "sources": [],
+          "proposed_change": "Замість часових антонімів запропонувати контекстно близькі, але однозначно неправильні визначення, наприклад розрізнити поточний пріоритет і довготривалу загальну мету."
+        }
+      ]
+    },
+    {
+      "case_id": "v_3652",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "meaning_quiz.byExample.ユニークな研究が評価され、彼女は学会賞を受賞した。.wrong",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "У другому meaning-завданні усі три distractors описують явно інші критерії (копіювання, широту, швидкість), а не близьке поняття оригінальності.",
+          "evidence": "先行研究の手法をそのまま再現／研究対象が広く／実用化が早く",
+          "sources": [],
+          "proposed_change": "Зробити хоча б дві неправильні альтернативи семантично ближчими до 独自性, не допускаючи другого коректного ключа."
+        }
+      ]
+    },
+    {
+      "case_id": "v_3417",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "details.t",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "«Просторий» без уточнення може означати просто комфортно вільний одяг, тоді як だぶだぶ має відтінок надмірної ширини.",
+          "evidence": "t: «мішкуватий, завеликий, просторий»; usage: «Не будь-який комфортно просторий одяг».",
+          "sources": [],
+          "proposed_change": "Вилучити ізольоване «просторий» або змінити на «надміру просторий»."
+        },
+        {
+          "field_path": "details.exampleTranslations[0]",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "«Плечі звисали» українською звучить як опис плечей людини, хоча японське 肩が落ちていた стосується посадки костюма.",
+          "evidence": "兄のお下がりのスーツは、だぶだぶで肩が落ちていた。",
+          "sources": [],
+          "proposed_change": "«Костюм, що дістався від старшого брата, був мішкуватим, і його плечова лінія спадала»."
+        }
+      ]
+    },
+    {
+      "case_id": "v_3444",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "meaning_quiz.byExample.どろどろした人間関係に疲れ、彼は転職を決意した。.wrong",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Усі три distractors описують позитивні або нейтральні стосунки, тож контраст із емоційно заплутаними どろどろした надто прямий.",
+          "evidence": "対立やわだかまりがない／感情を交えず／率直に協力",
+          "sources": [],
+          "proposed_change": "Запропонувати близькі стани (наприклад просто складні формальні стосунки без переплетення прихованих емоцій) з однозначною відмінністю."
+        }
+      ]
+    },
+    {
+      "case_id": "v_3525",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "details.examples[1]",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Речення граматично зрозуміле, але конструкція «この装置は、温度調節が…行われる仕組みだ» стилістично громіздка; можна висловити простіше.",
+          "evidence": "この装置は、温度調節がオートマチックに行われる仕組みだ。",
+          "sources": [],
+          "proposed_change": "«この装置では温度がオートマチックに調節される。»; при зміні синхронно оновити byExample і переклад."
+        }
+      ]
+    },
+    {
+      "case_id": "v_3565",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "meaning_quiz.byExample",
+          "severity": "major",
+          "confidence": "high",
+          "claim": "В обох вправах три неправильні відповіді утворюють механічне протиставлення «раніше / пізніше / незалежно від часу», тож вибір ключа надто простий для N1.",
+          "evidence": "時機よりも前に／時機を過ぎてから／時機に関係なく; аналогічна трійка у другому прикладі.",
+          "sources": [],
+          "proposed_change": "Переписати distractors на близькі нюанси оперативності, сезонної актуальності й своєчасної доречності; зберегти єдиний ключ."
+        }
+      ]
+    },
+    {
+      "case_id": "m-c12-20261119-01",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "m-c12-20261119-02",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
