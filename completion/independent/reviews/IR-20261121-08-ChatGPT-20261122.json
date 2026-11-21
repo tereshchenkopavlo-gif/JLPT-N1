@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261121-08",
+  "sources_sha256": "be6467a4d8414ec316a88b8e0b1e2be3a8a31f85459f5af13aaffe6a6786d27e",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261122",
+    "reviewed_at": "2026-11-22",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "v_3375",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "meaning_quiz.byExample.当面は現状維持を図りつつ、改革の機会を探る。",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Значення слова 当面 тут частково підмінене значенням усієї сполуки 現状維持: правильна відповідь говорить про «продовжувати поточний стан», а не лише «поки що».",
+          "evidence": "correct: 今のところは、その状態を続けること。",
+          "sources": [],
+          "proposed_change": "Поставити варіанти, що порівнюють саме часовий горизонт «今のところ／当分／恒久的に», а збереження стану лишити контекстом, однаковим для альтернатив."
+        },
+        {
+          "field_path": "meaning_quiz.byExample.当面の課題は、優秀な人材の確保と育成である。",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Усі неправильні альтернативи описують мету, умову або стратегію, а правильна — терміновість етапу, тому завдання радше оцінює загальний тип висловлювання, ніж тонкий нюанс 当面.",
+          "evidence": "correct: さしあたって、現在の段階で対応すべき課題であること。",
+          "sources": [],
+          "proposed_change": "Принаймні один distractor зробити ближчим за часом або пріоритетністю, з чітким розмежуванням поточного та довготермінового завдання."
+        }
+      ]
+    },
+    {
+      "case_id": "v_3652",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "meaning_quiz.byExample.ユニークな研究が評価され、彼女は学会賞を受賞した。",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Третій distractor «成果が高く評価され、学界で広く認められている» правдивий щодо описаної нагороди, хоч і не є значенням ユニーク. Це створює зайву контекстну підказку й ризик неправильного прочитання завдання як питання до речення.",
+          "evidence": "wrong[2]: 研究の成果が高く評価され、学界で広く認められているさま。",
+          "sources": [],
+          "proposed_change": "Замінити на визначення близької позитивної якості дослідження, яка не підтверджується самим реченням, наприклад систематичність або переконливість аргументації; перевірити єдиний ключ."
+        }
+      ]
+    },
+    {
+      "case_id": "v_3417",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "v_3444",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "v_3565",
+      "checked_fields": [
+        "vocabulary.id",
+        "vocabulary.w",
+        "vocabulary.r",
+        "vocabulary.s",
+        "details",
+        "display_pos",
+        "meaning_quiz"
+      ],
+      "unchecked_fields": [
+        "vocabulary.c",
+        "vocabulary.p",
+        "vocabulary.g",
+        "vocabulary.tags"
+      ],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "m-c12-20261120-03",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "m-c12-20261120-04",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[1].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "У другому запитанні три distractors залишилися очевидно помилковими (неможливість зберегти текст, публікація лише опису, автоматична анонімність). Для N1 вони недостатньо правдоподібні.",
+          "evidence": "説明文は…保存できない／説明文だけを公開／名前を消した画像には、個人情報が残らない",
+          "sources": [],
+          "proposed_change": "Порівняти реалістичні відмінності перевірки зображення й опису, зберігши правильну ідею взаємного розкриття інформації."
+        }
+      ]
+    },
+    {
+      "case_id": "l-c12-20261120-01",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[1].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Два distractors побудовано на явно крайніх рішеннях («усі ремонти лише силами мешканців», «відмовитися від пояснень»), третій вводить не згадану оплату. Вибрати ключ можна, практично не читаючи текст.",
+          "evidence": "全ての修理を住民だけで／作業の説明を省く／報酬を払う",
+          "sources": [],
+          "proposed_change": "Добрати близькі альтернативні функції зустрічей: самостійне навчання, професійне скерування, оцінка стану предмета — одна має точно відбивати описаний баланс."
+        }
+      ]
+    }
+  ]
+}
