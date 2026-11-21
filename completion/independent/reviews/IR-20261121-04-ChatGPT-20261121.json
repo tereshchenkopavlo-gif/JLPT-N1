@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261121-04",
+  "sources_sha256": "a0e683cf104ce8c5e8b6e61a9174f93c28c685df636dc0ca5f240ba1c90f3b26",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261121",
+    "reviewed_at": "2026-11-21",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "l-c12-20261121-02",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "ja",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Метафоричне «観察と話し合いの間を行きつ戻りつしながら» зрозуміле, але дещо штучне для навчального прикладу ～つ～つ.",
+          "evidence": "案は、観察と話し合いの間を行きつ戻りつしながら修正された。",
+          "proposed_change": "Розглянути «現地と会議室を行きつ戻りつしながら、案を修正した» або перенести конструкцію в природніший контекст.",
+          "sources": []
+        },
+        {
+          "field_path": "questions[0].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Три неправильні відповіді містять крайні твердження, які легко відкинути без ретельного читання.",
+          "evidence": "全員反対／唯一の目的／住民だけに任せる",
+          "proposed_change": "Порівняти правдоподібні цілі огляду площі, лишивши лише одну відповідь, що відбиває всі часові та функціональні умови.",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
