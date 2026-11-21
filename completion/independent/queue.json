@@ -362,6 +362,31 @@
         }
       ],
       "notes": "Revised material; complete source context included for an independent assessment. Earlier reviewer findings are excluded."
+    },
+    {
+      "package_id": "IR-20261122-10",
+      "path": "packages/IR-20261122-10.json",
+      "package_sha256": "032c01a917ff2ebfc6090303017161aaad8d5bb9a8c36c6c15f1df4f5dfb5bd4",
+      "sources_sha256": "2d9a074d8d16fbaf90a01a8d35f85fcf82171ca5fc8cc3bb313b8f885ef8aaba",
+      "source_commits": [
+        "08d6f11d426aac61760879f69654a4b5207f9db1"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 2,
+        "reading_questions": 6
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "Eighth C12 batch: two original long readings, six questions and two context notes."
     }
   ]
 }
