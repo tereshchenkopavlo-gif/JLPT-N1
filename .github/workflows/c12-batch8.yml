@@ -1,0 +1,29 @@
+name: C12 eighth batch integration
+on:
+  push:
+    branches: [work/c12-batch8-checkpoint]
+    paths: [completion/c12-batch8/**, .github/workflows/c12-batch8.yml]
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python completion/c12-batch8/build-candidate.py
+      - run: npm install --no-save playwright@1.56.1
+      - run: npx playwright install --with-deps chromium
+      - run: node completion/c12-batch8/browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: c12-batch8-checkpoint
+          path: |
+            completion/c12-batch8/JLPT_N1_C12_candidate_UNACCEPTED.html
+            completion/c12-batch8/*results.json
