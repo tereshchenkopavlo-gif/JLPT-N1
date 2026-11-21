@@ -5866,3 +5866,9 @@ reading,l-c12-20261121-02,readingBank.long[62],reviewed,completion/c12-batch4/ac
 reading_question,l-c12-20261121-02:q1,readingBank.long[62].questions[0],reviewed,completion/c12-batch4/acceptance.md; author review; Chromium 44858561926; independent pending
 reading_question,l-c12-20261121-02:q2,readingBank.long[62].questions[1],reviewed,completion/c12-batch4/acceptance.md; author review; Chromium 44858561926; independent pending
 reading_question,l-c12-20261121-02:q3,readingBank.long[62].questions[2],reviewed,completion/c12-batch4/acceptance.md; author review; Chromium 44858561926; independent pending
+reading,m-c12-20261121-05,readingBank.medium[103],pending,completion/c12-batch5/author-review.md; author reviewed; browser pending; independent pending
+reading_question,m-c12-20261121-05:q1,readingBank.medium[103].questions[0],pending,completion/c12-batch5/author-review.md; author reviewed; browser pending; independent pending
+reading_question,m-c12-20261121-05:q2,readingBank.medium[103].questions[1],pending,completion/c12-batch5/author-review.md; author reviewed; browser pending; independent pending
+reading,m-c12-20261121-06,readingBank.medium[104],pending,completion/c12-batch5/author-review.md; author reviewed; browser pending; independent pending
+reading_question,m-c12-20261121-06:q1,readingBank.medium[104].questions[0],pending,completion/c12-batch5/author-review.md; author reviewed; browser pending; independent pending
+reading_question,m-c12-20261121-06:q2,readingBank.medium[104].questions[1],pending,completion/c12-batch5/author-review.md; author reviewed; browser pending; independent pending
