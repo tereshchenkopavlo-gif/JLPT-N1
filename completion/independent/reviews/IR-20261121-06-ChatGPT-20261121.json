@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261121-06",
+  "sources_sha256": "b7183a31a93cf1a08fff6166c25aacd9ae1ec1572dd04f409fc9fd45949026c6",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261121",
+    "reviewed_at": "2026-11-21",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "l-c12-20261121-07",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "ja",
+          "severity": "major",
+          "confidence": "high",
+          "claim": "Попереднє речення описує відкладання написання відповіді, але 出さずじまい буквально стосується ненадсилання вже підготовленого листа; навчальний контекст двозначний.",
+          "evidence": "返事を書こうとしては後回しにし、結局出さずじまいになった手紙もある。",
+          "proposed_change": "Якщо відповідей не написано: «結局、返事を書かずじまいになった手紙もある». Якщо їх написано, явно вказати на підготовлені, але ненадіслані листи.",
+          "sources": []
+        },
+        {
+          "field_path": "uk",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Переклад «на деякі листи так і не відповів» не розрізняє «не написав» та «не надіслав» відповідь.",
+          "evidence": "«Посилаючись на зайнятість, я відкладав відповідь; на деякі листи так і не відповів».",
+          "proposed_change": "Після уточнення японського дієслова узгодити переклад з ним.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "case_id": "l-c12-20261121-08",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "ja",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "«聞くともなく聞いていた波» зрозуміле як метонімія, але для навчальної ілюстрації природніше прямо назвати звук хвиль.",
+          "evidence": "聞くともなく聞いていた波に注意を向けると",
+          "proposed_change": "«聞くともなく聞いていた波の音に注意を向けると»; узгодити контекстну цитату. Не вважати поточну художню метонімію граматично неможливою.",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
