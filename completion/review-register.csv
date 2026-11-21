@@ -5862,3 +5862,7 @@ reading,l-c12-20261120-01,readingBank.long[61],reviewed,completion/c12-batch3/ac
 reading_question,l-c12-20261120-01:q1,readingBank.long[61].questions[0],reviewed,completion/c12-batch3/acceptance.md; author review; Chromium 44723998365; independent pending
 reading_question,l-c12-20261120-01:q2,readingBank.long[61].questions[1],reviewed,completion/c12-batch3/acceptance.md; author review; Chromium 44723998365; independent pending
 reading_question,l-c12-20261120-01:q3,readingBank.long[61].questions[2],reviewed,completion/c12-batch3/acceptance.md; author review; Chromium 44723998365; independent pending
+reading,l-c12-20261121-02,readingBank.long[62],reviewed,completion/c12-batch4/acceptance.md; author review; Chromium 44858561926; independent pending
+reading_question,l-c12-20261121-02:q1,readingBank.long[62].questions[0],reviewed,completion/c12-batch4/acceptance.md; author review; Chromium 44858561926; independent pending
+reading_question,l-c12-20261121-02:q2,readingBank.long[62].questions[1],reviewed,completion/c12-batch4/acceptance.md; author review; Chromium 44858561926; independent pending
+reading_question,l-c12-20261121-02:q3,readingBank.long[62].questions[2],reviewed,completion/c12-batch4/acceptance.md; author review; Chromium 44858561926; independent pending
