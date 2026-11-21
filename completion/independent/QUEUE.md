@@ -21,3 +21,6 @@
 [Розгляд зауважень](adjudications/20261121/README.md) · [Реєстр полів](acceptance-register.json) · [Правила](README.md)
 
 Основний аудит і наступні партії C12 продовжуються під час очікування висновків.
+
+
+Браузерний прогін виправлень [44910422763](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/44910422763) успішний. Незалежний повторний перегляд змінених полів очікується. [Технічний доказ](adjudications/20261121/browser-acceptance.json).
