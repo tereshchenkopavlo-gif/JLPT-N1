@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261121-07",
+  "sources_sha256": "8133376a279aff450c6e472f752bfdf1a87ee301237048848338938f060b2046",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261121",
+    "reviewed_at": "2026-11-21",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "m-c12-20261121-09",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[0].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Три distractors містять явні крайнощі, тому завдання занадто просте для N1.",
+          "evidence": "公園が…移っていた／一度も見ていなかった／全ての道を一度に",
+          "proposed_change": "Добрати ближчі висновки про маршрути та зміну сприйняття знайомих місць.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "case_id": "m-c12-20261121-10",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "uk",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Український вислів «запізнилися на їжу» стилістично незграбний для 食事の時間に遅れそうになった.",
+          "evidence": "«і якось через це ледь не запізнилися на їжу».",
+          "proposed_change": "«і якось через це ледь не запізнилися до часу прийому їжі» або природне формулювання без додавання непідтвердженого виду трапези.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "case_id": "m-c12-20261121-11",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "m-c12-20261121-12",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[1].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "Три distractors містять абсолютні й прямо спростовані крайнощі, тому слабко перевіряють нюанси висновку.",
+          "evidence": "毎日新しい世話／誰でも／一目で判断",
+          "proposed_change": "Добрати близькі, але помилкові висновки про спостереження, очікування й втручання.",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
