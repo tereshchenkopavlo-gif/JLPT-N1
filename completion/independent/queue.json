@@ -156,6 +156,31 @@
         }
       ],
       "notes": "Fifth C12 batch: two medium readings, four questions and two context notes."
+    },
+    {
+      "package_id": "IR-20261121-06",
+      "path": "packages/IR-20261121-06.json",
+      "package_sha256": "dc20f0672cf5d1f0aa36c30a83d17b85bb7cd28fd8a09d8138e31ca281b8785f",
+      "sources_sha256": "b7183a31a93cf1a08fff6166c25aacd9ae1ec1572dd04f409fc9fd45949026c6",
+      "source_commits": [
+        "71c7ce3d446d9fac59ecb85bde74a70de559deb1"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 2,
+        "reading_questions": 6
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-21"
+        }
+      ],
+      "notes": "Sixth C12 batch: two long readings, six questions and four context notes."
     }
   ]
 }
