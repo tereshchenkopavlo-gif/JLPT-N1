@@ -1,0 +1,14 @@
+{
+  "release": "v229-C12h",
+  "release_commit": "08d6f11d426aac61760879f69654a4b5207f9db1",
+  "main_data_check": {
+    "run_id": 44917264648,
+    "conclusion": "success"
+  },
+  "html_sha256": "bb0cb72e91204c45b8b57958a15061240f5690c00fc9fdee85b7e8cbeb746c85",
+  "html_blob": "ecc15d5b59029eade7f48f6649c008833408da48",
+  "independent_queue_commit": "626b86c8bc56ef224e1dea6e064d25b28db46294",
+  "independent_package": "IR-20261122-10",
+  "next": "C12 batch9 from current main",
+  "project_complete": false
+}
