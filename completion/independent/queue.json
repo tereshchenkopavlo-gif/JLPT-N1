@@ -387,6 +387,31 @@
         }
       ],
       "notes": "Eighth C12 batch: two original long readings, six questions and two context notes."
+    },
+    {
+      "package_id": "IR-20261122-11",
+      "path": "packages/IR-20261122-11.json",
+      "package_sha256": "159f0c664b1c4045f13e63f0c42ec7be39482629fe7788ba513c9f36d3beb678",
+      "sources_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+      "source_commits": [
+        "2a9f3b9eb6f460667c9ab7e63b88746c6cda9053"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 3,
+        "reading_questions": 6
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "Three original C12 medium readings and six questions."
     }
   ]
 }
