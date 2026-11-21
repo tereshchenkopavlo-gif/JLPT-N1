@@ -1,0 +1,14 @@
+{
+  "release": "v229-C12g",
+  "release_commit": "f3e01faf0f53f6cfcb0d0c5eb44df5e07a3cac5e",
+  "main_data_check": {
+    "run_id": 44899036373,
+    "conclusion": "success"
+  },
+  "html_blob": "aa30e3e375e2b11d2411faa6a434900591b7e336",
+  "local_blob_verified": true,
+  "independent_queue_commit": "e680ac94eb55d74db038d775bbfc6c9ae007b5ac",
+  "new_package": "IR-20261121-07",
+  "next": "C12 batch8: long readings from current main",
+  "project_complete": false
+}
