@@ -5909,3 +5909,7 @@ reading_question,m-c12-20261122-16:q2,readingBank.medium[110].questions[1],revie
 reading,m-c12-20261122-17,readingBank.medium[111],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
 reading_question,m-c12-20261122-17:q1,readingBank.medium[111].questions[0],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
 reading_question,m-c12-20261122-17:q2,readingBank.medium[111].questions[1],reviewed,completion/c12-batch9/acceptance.md; author review; Chromium 44919808040; independent pending
+reading,l-c12-20261122-18,readingBank.long[67],reviewed,completion/c12-batch10/acceptance.md; author review; Chromium 44939085501; independent pending
+reading_question,l-c12-20261122-18:q1,readingBank.long[67].questions[0],reviewed,completion/c12-batch10/acceptance.md; author review; Chromium 44939085501; independent pending
+reading_question,l-c12-20261122-18:q2,readingBank.long[67].questions[1],reviewed,completion/c12-batch10/acceptance.md; author review; Chromium 44939085501; independent pending
+reading_question,l-c12-20261122-18:q3,readingBank.long[67].questions[2],reviewed,completion/c12-batch10/acceptance.md; author review; Chromium 44939085501; independent pending
