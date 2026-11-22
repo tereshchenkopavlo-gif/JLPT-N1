@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 39083)
+Total output lines: 3799
+
 [
   {
     "package_id": "IR-20261120-01",
@@ -1682,902 +1685,7 @@
     "case_id": "v_3375",
     "reviewed_field": "vocabulary.p",
     "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3375",
-    "reviewed_field": "vocabulary.g",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3375",
-    "reviewed_field": "vocabulary.tags",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.id",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "3fd388b5f0aea188259f583480d8ed5d023ee42c1c6f156e66cfd9d90c755af4",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.w",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "aaf33b91b2a44af1005c606f1baaeeb31252987d580126f600ea9a392a46a987",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.r",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "58c13d7bdd466a1c79cf997a9c1dfb4d4096c03f6dcd4de205e2ed7f4ab0d2e8",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.s",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "details",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "daa985b1eaefa4e7225c36b720b8c58e9add7143d727f5f1eec3915d80547280",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "display_pos",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "4a8e2c515dab7d76d4e64325001a3e4be104be282dc658cd4afe63e00e87975b",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "meaning_quiz",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "4ede704b5368fee0b0d3bdaf968b63ca12d9564d452f8c4cea5f095fd0d362d2",
-    "reviewer_verdict": "issues",
-    "status": "revised_pending_independent_review",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit.",
-    "recheck_required": true
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.c",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.p",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.g",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3652",
-    "reviewed_field": "vocabulary.tags",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.id",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "0bb96d87216f5159d997d566969931579a74f4fcd81e9e4280e5354a4ba0c2fd",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.w",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "08c7545d6523b5ce7e72849928414434eb32274468ed08fb2a549df9d0ab60c2",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.r",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "08c7545d6523b5ce7e72849928414434eb32274468ed08fb2a549df9d0ab60c2",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.s",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "details",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "762e5f32cc5168f1aba6f32ccbc897b2aadbe4958b398ca41a3e8ecf64f5fe60",
-    "reviewer_verdict": "issues",
-    "status": "revised_pending_independent_review",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit.",
-    "recheck_required": true
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "display_pos",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "173b3386d64d0f6764f9eb60e4241a8c7649cacd9277627cb10f322c05ce1189",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "meaning_quiz",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "b76eb659e14c6df76a6c0d75a2c19928ab7dc3527a4c63c24aef0e1ceaa882e4",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.c",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.p",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.g",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3417",
-    "reviewed_field": "vocabulary.tags",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.id",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "2a0400a50c04a5c64e7818f4920059acbedcc2a193e715b0f0310923405b36e8",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.w",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "2e6ec6b29e3743f13df55f8f6b3604c79653d5a5c8aee00a2ca4f2df3cac16e8",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.r",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "2e6ec6b29e3743f13df55f8f6b3604c79653d5a5c8aee00a2ca4f2df3cac16e8",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.s",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "details",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "ded507500ea497b50f7eaa5fefceaae797db56def9d644b09272de1bc7c2b528",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "display_pos",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "173b3386d64d0f6764f9eb60e4241a8c7649cacd9277627cb10f322c05ce1189",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "meaning_quiz",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "cfe95c7f3846f680f9189e3fc2a98c7b76279045f7fe26538ceb00f38d145b30",
-    "reviewer_verdict": "issues",
-    "status": "revised_pending_independent_review",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit.",
-    "recheck_required": true
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.c",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.p",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.g",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3444",
-    "reviewed_field": "vocabulary.tags",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.id",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "00603386e33146708372369b0529edc249360cc628a616bf5585c33937166e03",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.w",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "ff99631ec9b48a81217320e0046c41e8e0bac9a07f2ccc706d50335181c0cbcd",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.r",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "2831a0166d3bf6144c7a0660e04d0014eae92685d68250f098ad73f1679a0e2b",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.s",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "details",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "191a3ccc72c24b148c53da1556da9f9eafdc2c1b8c4ff58fc9b84f6e8c3cc626",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "display_pos",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "1912c9142803934af5d75d08f7ef8f6e06b615f2806b0f9d2ca4e1153c0b4d7c",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "meaning_quiz",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "4d88c069d68b241d8741a1842d026db3e950e237dca844ec373ea2b6bbd14897",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.c",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.p",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.g",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3525",
-    "reviewed_field": "vocabulary.tags",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.id",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "77f2409b042ce010b9362d97c07e8885cfeee60bc18cbe3d975eacc63d67f863",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.w",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "4d8bdfde10b17b6f09323b288f93445bec7226ecb88ab5d2f5d660f5fa2e993b",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.r",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "30a4637ad647fc199110df282ae2a73d202a4f124ef48dcca3e30561bfb6700c",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.s",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "details",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "20a7ac2e4b75cb53476f2371c6f9208841b5ccd8c2cfeedb8074a2e2119c46d1",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "display_pos",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "4a8e2c515dab7d76d4e64325001a3e4be104be282dc658cd4afe63e00e87975b",
-    "reviewer_verdict": "issues",
-    "status": "independent_reviewed_original",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "meaning_quiz",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "2505d4af735cf59b1158066f56e5e2be7f60e0e7d93ae25f4ecc703c3a24c9f8",
-    "reviewer_verdict": "issues",
-    "status": "revised_pending_independent_review",
-    "exclusions": [
-      "vocabulary.c",
-      "vocabulary.p",
-      "vocabulary.g",
-      "vocabulary.tags"
-    ],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit.",
-    "recheck_required": true
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.c",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.p",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.g",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "v_3565",
-    "reviewed_field": "vocabulary.tags",
-    "status": "not_reviewed",
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json"
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-01",
-    "reviewed_field": "id",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "08c5bbbf03a2289793befc2612984e3837816ced2e33b76d6bb184c22c730c73",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-01",
-    "reviewed_field": "title",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "54c56abf4d00e69d986d95a641e59627b5cf57c09191be79b8ea9dba91daee53",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-01",
-    "reviewed_field": "ja",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "192d19df4a6490fb929e8b8c7618fa7d33b523a6cf565d69d6c221d64b475024",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-01",
-    "reviewed_field": "uk",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "9b83599d439d363dc78c38d9add4b0989dd42f7731a374c3b28ff47196673060",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-01",
-    "reviewed_field": "questions",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "afb656ebcd829aaae01312cbafa96c276cb6cae79600e29ba53e4e0dc029d71c",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-01",
-    "reviewed_field": "contextNotes",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "fe3eac0623adee1dbeaaec93a0eda74ea0cf93d543f144425bde899bd39b7313",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-02",
-    "reviewed_field": "id",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "80c15ed82e6f2e8476a4410d4727537f0e62406097c795e04309d4f792bb1e0a",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
-    "case_id": "m-c12-20261119-02",
-    "reviewed_field": "title",
-    "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
-    "reviewed_value_sha256": "0263cff39ec0776dd029deeba6b39b3185a5d955d96ccfda09dd3e3fef7ef4c2",
-    "reviewer_verdict": "pass",
-    "status": "independent_reviewed_original",
-    "exclusions": [],
-    "evidence": "completion/independent/reviews/IR-20261120-02-ChatGPT-20261121.json",
-    "adjudication": "adjudications/20261121/decisions.json",
-    "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
-  },
-  {
-    "package_id": "IR-20261120-02",
+    "evidence": "completion/indepe…9083 tokens truncated…ackage_id": "IR-20261120-02",
     "case_id": "m-c12-20261119-02",
     "reviewed_field": "ja",
     "source_sha256": "e8cc46b61eea601d9ecc510a420416f2bc20b449029f9749ff46ddbeb0a0fb8f",
@@ -3579,5 +2687,221 @@
     "evidence": "completion/independent/reviews/IR-20261121-07-ChatGPT-20261121.json",
     "adjudication": "adjudications/20261121/decisions.json",
     "scope_note": "Only the reported source field is credited. Changed values have no recheck credit."
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-15",
+    "reviewed_field": "id",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "5ec4db6bdbbb3444ca8e58db5f4329b3ab58a4b9b29086d81726d3f7ac554df9",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-15",
+    "reviewed_field": "title",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "43fe0f1917e388aa24ae0e080d370f26dced1676cc234e958766a57548e63cf4",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-15",
+    "reviewed_field": "ja",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "6e950b2340a6809e3dd15c9a5d6ff0d3fb099fb37c9eb3e109923ba6f7a84e48",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-15",
+    "reviewed_field": "uk",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "d214a81d9e0977fce47e7aec93236d46668149f900abb3a9fdd93772dfa4bae2",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-15",
+    "reviewed_field": "questions",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "6c4e8ff2ead043242a400f3395f9970048ae1216ac6590b41eb145f1143a7cf7",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-15",
+    "reviewed_field": "contextNotes",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-16",
+    "reviewed_field": "id",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "3a5be886691a580c65466e41a2a8db26ad099e557c5f955a899530b854dc5fec",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-16",
+    "reviewed_field": "title",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "145570f582ba3f560e76c20f545c45f42ebb4ef90c54ae9798476eac3011eb92",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-16",
+    "reviewed_field": "ja",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "f4fdfe73e20f4fcbfb4bbd438d0940a907324aee22aadd79ec8c06c60e2ab64b",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-16",
+    "reviewed_field": "uk",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "e3cfc009b3eca2661520192a8fda3e0817295b081ddef1c38d69dfdcdb061003",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-16",
+    "reviewed_field": "questions",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "5ea7dfab9094ce5ec5b6ba62144837764a85f8a1df55c4b5c7f404115a7afb0b",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-16",
+    "reviewed_field": "contextNotes",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-17",
+    "reviewed_field": "id",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "730d5068fcbe4ac2f046ebc5bc7c763a3a9fba328fdd312f29ff931e0297e928",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-17",
+    "reviewed_field": "title",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "be0eaba85ac6f37e65eb7e7e9f8f6aeb2f45bf422b21f3056161f81f21dcedac",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-17",
+    "reviewed_field": "ja",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "f6110e14d3cdb56e38fc710d94304b1fb6c4cf3684499742b9e2830c298e07e9",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-17",
+    "reviewed_field": "uk",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "b59fbd38b1804c5ce3fcedc71ed901c32292d5db6cfa194fdaab193f380b2471",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-17",
+    "reviewed_field": "questions",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "e269a7ba620a52db622405bebd4a4c009a10886da643bd5da6781ac158774708",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-11",
+    "case_id": "m-c12-20261122-17",
+    "reviewed_field": "contextNotes",
+    "reviewer_verdict": "pass",
+    "source_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+    "reviewed_value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "adjudication": "adjudications/20261122/IR11-closure.json"
   }
 ]

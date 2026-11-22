@@ -14,7 +14,7 @@
 | [IR-20261121-08](packages/IR-20261121-08.json) | review_received | 5 карток, 3 текстів, 7 питань | [JSON](reviews/IR-20261121-08-ChatGPT-20261122.json) |
 | [IR-20261121-09](packages/IR-20261121-09.json) | review_received | 0 карток, 8 текстів, 19 питань | [JSON](reviews/IR-20261121-09-ChatGPT-20261122.json) |
 | [IR-20261122-10](packages/IR-20261122-10.json) | review_received | 0 карток, 2 текстів, 6 питань | [JSON](reviews/IR-20261122-10-ChatGPT-20261122.json) |
-| [IR-20261122-11](packages/IR-20261122-11.json) | review_received | 0 карток, 3 текстів, 6 питань | [JSON](reviews/IR-20261122-11-ChatGPT-20261122.json) |
+| [IR-20261122-11](packages/IR-20261122-11.json) | closed | 0 карток, 3 текстів, 6 питань | [JSON](reviews/IR-20261122-11-ChatGPT-20261122.json) |
 | [IR-20261122-12](packages/IR-20261122-12.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
 | [IR-20261122-13](packages/IR-20261122-13.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
 

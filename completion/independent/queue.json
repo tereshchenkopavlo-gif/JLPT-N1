@@ -426,7 +426,7 @@
       "source_commits": [
         "2a9f3b9eb6f460667c9ab7e63b88746c6cda9053"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -449,9 +449,19 @@
           "status": "review_received",
           "date": "2026-11-22",
           "review": "reviews/IR-20261122-11-ChatGPT-20261122.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-22",
+          "evidence": "adjudications/20261122/IR11-closure.json"
         }
       ],
-      "notes": "Three original C12 medium readings and six questions."
+      "notes": "All three cases fully reviewed with no findings. Exact field equality to the current published HTML was verified against preserved author and browser acceptance.",
+      "closed_case_ids": [
+        "m-c12-20261122-15",
+        "m-c12-20261122-16",
+        "m-c12-20261122-17"
+      ]
     },
     {
       "package_id": "IR-20261122-12",

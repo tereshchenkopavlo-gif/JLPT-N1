@@ -1,0 +1,32 @@
+{
+  "package_id": "IR-20261122-11",
+  "sources_sha256": "63e4937b206d89bbd81d6cc11bc5fca65dbc51be291b5b0958a59037075db6f1",
+  "review": {
+    "path": "reviews/IR-20261122-11-ChatGPT-20261122.json",
+    "sha256": "195f3c944c6a1ee838e4ede9b6ec0d1187d212627ac1f5985e1c173c3937478f"
+  },
+  "main_commit": "49e0dcbe6e208faa759ff6d3f5b6459c78177b76",
+  "html_path": "JLPT_N1_ukrainian_reading_v229_C12k.html",
+  "html_sha256": "409913f3e2a91056e8905cfafe545eba5b6bb142749f0e96f5e5493918147e19",
+  "author_acceptance_path": "completion/c12-batch9/acceptance.md",
+  "browser_run": 44919808040,
+  "data_check_run": 44919807992,
+  "exact_current_fields": [
+    {
+      "case_id": "m-c12-20261122-15",
+      "fields_sha256": "4d3e70e212eef906a6df3967d28021247038bef9a9434db605843d8177431349",
+      "questions": 2
+    },
+    {
+      "case_id": "m-c12-20261122-16",
+      "fields_sha256": "3da1707b6b04148dfdf2c6af4e8957187be3b90f6526c0dcff9930ae8d6c90a3",
+      "questions": 2
+    },
+    {
+      "case_id": "m-c12-20261122-17",
+      "fields_sha256": "043256c9122ea49ab9675aaec638d1fa8d0192223357d4f6ed2a88720760cc8d",
+      "questions": 2
+    }
+  ],
+  "scope": "Language and release evidence for these cases; physical-device acceptance remains tracked separately."
+}
