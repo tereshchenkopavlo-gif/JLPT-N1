@@ -31,8 +31,6 @@ jobs:
             python3 completion/independent/sync-reviews.py --check
             python3 completion/independent/audit-metrics.py
             for packet in completion/independent/packages/*.json; do
-      - 'completion/independent/*.py'
-      - 'completion/import-independent-review.py'
               python3 completion/independent/preflight.py "$packet"
             done
             git add completion/independent/queue.json completion/independent/QUEUE.md
