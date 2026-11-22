@@ -568,6 +568,31 @@
         }
       ],
       "notes": "Original C12 text and two questions from the browser-tested checkpoint."
+    },
+    {
+      "package_id": "IR-20261122-16",
+      "path": "packages/IR-20261122-16.json",
+      "package_sha256": "38d6563d4ff60f38d22a2040228379dffe7ee993f186d8fc394e25648d0b7e76",
+      "sources_sha256": "dc14007778a5062cd93972ec352169c3bcd13fe013b1e8886ec18503b33673d5",
+      "source_commits": [
+        "c9e7b5e9c63acee46b956bea260014e5b173cc73"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "One original C12 long reading and three questions."
     }
   ]
 }
