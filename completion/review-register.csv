@@ -5917,3 +5917,7 @@ reading,l-c12-20261122-19,readingBank.long[68],reviewed,completion/c12-batch11/a
 reading_question,l-c12-20261122-19:q1,readingBank.long[68].questions[0],reviewed,completion/c12-batch11/acceptance.md; author review; Chromium 44959349808; independent pending
 reading_question,l-c12-20261122-19:q2,readingBank.long[68].questions[1],reviewed,completion/c12-batch11/acceptance.md; author review; Chromium 44959349808; independent pending
 reading_question,l-c12-20261122-19:q3,readingBank.long[68].questions[2],reviewed,completion/c12-batch11/acceptance.md; author review; Chromium 44959349808; independent pending
+reading,l-c12-20261122-20,readingBank.long[69],reviewed,completion/c12-batch12/acceptance.md; author review; Chromium 44979137656; independent pending
+reading_question,l-c12-20261122-20:q1,readingBank.long[69].questions[0],reviewed,completion/c12-batch12/acceptance.md; author review; Chromium 44979137656; independent pending
+reading_question,l-c12-20261122-20:q2,readingBank.long[69].questions[1],reviewed,completion/c12-batch12/acceptance.md; author review; Chromium 44979137656; independent pending
+reading_question,l-c12-20261122-20:q3,readingBank.long[69].questions[2],reviewed,completion/c12-batch12/acceptance.md; author review; Chromium 44979137656; independent pending
