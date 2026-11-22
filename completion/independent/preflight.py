@@ -105,7 +105,7 @@ def check_choices(label, choices, key, errors, signals, wrong_choices):
     lengths = sorted(map(len, distractors))
     if len(cleaned[key]) > 1.6 * lengths[-1] or 1.6 * len(cleaned[key]) < lengths[0]:
         signals.append(f"{label}: key length differs substantially")
-    markers = ("必ず", "すべて", "一切", "決して", "どんな", "だけで")
+    markers = ("必ず", "すべて", "全て", "一人で", "一切", "決して", "どんな", "だけで")
     if all(any(marker in choice for marker in markers) for choice in distractors):
         if not any(marker in cleaned[key] for marker in markers):
             signals.append(f"{label}: all distractors contain categorical wording")
