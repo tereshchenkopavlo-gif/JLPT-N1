@@ -56,9 +56,21 @@ def validate_queue(queue, candidate_path=None):
         for case in candidate["cases"]:
             assert (case["case_id"],sha(canonical(case["fields"]))) not in active, "Unchanged material already queued"
 
+def validate_acceptance_register():
+    rows = json.loads((ROOT / "acceptance-register.json").read_text())
+    keys = set()
+    for row in rows:
+        key = (row["package_id"], row["case_id"], row["reviewed_field"])
+        assert key not in keys, "Acceptance field registered twice"
+        keys.add(key)
+        assert row["status"]
+        assert row["evidence"]
+    return len(rows)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--candidate")
     args = parser.parse_args()
     validate_queue(json.loads((ROOT / "queue.json").read_text()), args.candidate)
-    print("Queue validated: package checksums, source hashes, reviews and active-case uniqueness")
+    register_rows = validate_acceptance_register()
+    print(f"Queue validated: package checksums, source hashes, reviews, active-case uniqueness and {register_rows} acceptance rows")

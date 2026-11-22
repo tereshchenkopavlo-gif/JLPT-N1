@@ -15,11 +15,11 @@
 | [IR-20261121-09](packages/IR-20261121-09.json) | review_received | 0 карток, 8 текстів, 19 питань | [JSON](reviews/IR-20261121-09-ChatGPT-20261122.json) |
 | [IR-20261122-10](packages/IR-20261122-10.json) | corrections_pending | 0 карток, 2 текстів, 6 питань | [JSON](reviews/IR-20261122-10-ChatGPT-20261122.json) |
 | [IR-20261122-11](packages/IR-20261122-11.json) | closed | 0 карток, 3 текстів, 6 питань | [JSON](reviews/IR-20261122-11-ChatGPT-20261122.json) |
-| [IR-20261122-12](packages/IR-20261122-12.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-12-ChatGPT-20261122.json) |
-| [IR-20261122-13](packages/IR-20261122-13.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-13-ChatGPT-20261122.json) |
+| [IR-20261122-12](packages/IR-20261122-12.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-12-ChatGPT-20261122.json) |
+| [IR-20261122-13](packages/IR-20261122-13.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-13-ChatGPT-20261122.json) |
 | [IR-20261122-14](packages/IR-20261122-14.json) | pending_review | 0 карток, 1 текстів, 1 питань | Очікується |
 | [IR-20261122-15](packages/IR-20261122-15.json) | review_received | 0 карток, 1 текстів, 2 питань | [JSON](reviews/IR-20261122-15-ChatGPT-20261122.json) |
-| [IR-20261122-16](packages/IR-20261122-16.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-16-ChatGPT-20261122.json) |
+| [IR-20261122-16](packages/IR-20261122-16.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-16-ChatGPT-20261122.json) |
 | [IR-20261122-17](packages/IR-20261122-17.json) | corrections_pending | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-17-ChatGPT-20261122.json) |
 | [IR-20261122-18](packages/IR-20261122-18.json) | pending_review | Український переклад одного тексту | Очікується |
 
@@ -35,3 +35,7 @@
 ## IR-20261122-10
 
 Два оригінальні довгі тексти C12 із випуску v229-C12h, шість питань і дві контекстні примітки. Авторські оцінки в пакет не включено. Source commit `08d6f11d426aac61760879f69654a4b5207f9db1`; package SHA-256 `032c01a917ff2ebfc6090303017161aaad8d5bb9a8c36c6c15f1df4f5dfb5bd4`; sources_sha256 `2d9a074d8d16fbaf90a01a8d35f85fcf82171ca5fc8cc3bb313b8f885ef8aaba`.
+
+## IR-20261122-12, IR-20261122-13 та IR-20261122-16
+
+Три довгі тексти й дев’ять питань незалежно перевірено без зауважень. Точну рівність усіх перевірених полів із чинним опублікованим HTML v229-C12n та наявність авторських і браузерних доказів підтверджено. Відновлено валідний acceptance-register.json після потрапляння службового повідомлення на початок файла. Фізичне приймання пристроїв лишається окремим.

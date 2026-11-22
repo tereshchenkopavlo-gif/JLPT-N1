@@ -476,7 +476,7 @@
       "source_commits": [
         "dff7c6863fa90c8c85fa53175bb40437903d8333"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -499,9 +499,17 @@
           "status": "review_received",
           "date": "2026-11-22",
           "review": "reviews/IR-20261122-12-ChatGPT-20261122.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-23",
+          "evidence": "adjudications/20261123/IR12-IR13-IR16-closure.json"
         }
       ],
-      "notes": "One original C12 long reading and three questions."
+      "notes": "Full pass; exact equality with the current published HTML and preserved author/browser evidence verified.",
+      "closed_case_ids": [
+        "l-c12-20261122-18"
+      ]
     },
     {
       "package_id": "IR-20261122-13",
@@ -511,7 +519,7 @@
       "source_commits": [
         "49e0dcbe6e208faa759ff6d3f5b6459c78177b76"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -534,9 +542,17 @@
           "status": "review_received",
           "date": "2026-11-22",
           "review": "reviews/IR-20261122-13-ChatGPT-20261122.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-23",
+          "evidence": "adjudications/20261123/IR12-IR13-IR16-closure.json"
         }
       ],
-      "notes": "One original C12 long reading and three questions."
+      "notes": "Full pass; exact equality with the current published HTML and preserved author/browser evidence verified.",
+      "closed_case_ids": [
+        "l-c12-20261122-19"
+      ]
     },
     {
       "package_id": "IR-20261122-14",
@@ -607,7 +623,7 @@
       "source_commits": [
         "c9e7b5e9c63acee46b956bea260014e5b173cc73"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -630,9 +646,17 @@
           "status": "review_received",
           "date": "2026-11-22",
           "review": "reviews/IR-20261122-16-ChatGPT-20261122.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-23",
+          "evidence": "adjudications/20261123/IR12-IR13-IR16-closure.json"
         }
       ],
-      "notes": "One original C12 long reading and three questions."
+      "notes": "Full pass; exact equality with the current published HTML and preserved author/browser evidence verified.",
+      "closed_case_ids": [
+        "l-c12-20261122-20"
+      ]
     },
     {
       "package_id": "IR-20261122-17",
