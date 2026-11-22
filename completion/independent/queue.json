@@ -722,6 +722,31 @@
         }
       ],
       "notes": "Recheck the corrected Ukrainian translation; Japanese source supplied for context."
+    },
+    {
+      "package_id": "IR-20261123-19",
+      "path": "packages/IR-20261123-19.json",
+      "package_sha256": "f5a2202470e7c0b8dc4fa483116d14279c203f1c003995ebef3c207c81edd341",
+      "sources_sha256": "349651d9eea678fa1e2c66b8a9d0714f7cd65f116898eeece4f8b1e8567a4026",
+      "source_commits": [
+        "44187479ec8f2c7c4f22f17ad869387637ae3139"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261122-15",
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 0
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-23"
+        }
+      ],
+      "notes": "Recheck only the corrected Ukrainian translation; Japanese source is context and must remain unchecked."
     }
   ]
 }
