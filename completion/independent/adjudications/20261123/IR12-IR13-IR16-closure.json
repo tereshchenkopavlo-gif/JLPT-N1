@@ -1,0 +1,49 @@
+{
+  "package_ids": [
+    "IR-20261122-12",
+    "IR-20261122-13",
+    "IR-20261122-16"
+  ],
+  "main_commit": "5a345292e9d3eb544e890a6ba69c68541f5ea497",
+  "html_path": "JLPT_N1_ukrainian_reading_v229_C12n.html",
+  "html_sha256": "8698bad52b98dc78d2cb338cf7666805682a912a720a4714b5a5a8f5fc055e5c",
+  "html_git_blob": "9952df068aa5f6757e49284c6593dd4bc23678e9",
+  "cases": [
+    {
+      "package_id": "IR-20261122-12",
+      "case_id": "l-c12-20261122-18",
+      "fields_sha256": "1a67c9013fe2158669b8b7458c744a7a0e013a40419eb732f5595d8ffcbb059e",
+      "questions": 3,
+      "author_acceptance_path": "completion/c12-batch10/acceptance.md"
+    },
+    {
+      "package_id": "IR-20261122-13",
+      "case_id": "l-c12-20261122-19",
+      "fields_sha256": "ded7011c75bee54c742098ffb6d1f1bf90c5fd05a28a7901a2e062741e86b37e",
+      "questions": 3,
+      "author_acceptance_path": "completion/c12-batch11/acceptance.md"
+    },
+    {
+      "package_id": "IR-20261122-16",
+      "case_id": "l-c12-20261122-20",
+      "fields_sha256": "117724c545ae9557c024bd51e1b8cf998ea2482ff61225c1735cc3393e744bce",
+      "questions": 3,
+      "author_acceptance_path": "completion/c12-batch14/acceptance.md"
+    }
+  ],
+  "browser_runs": [
+    44939085501,
+    44959349808,
+    44979137656
+  ],
+  "data_check_runs": [
+    44939085438,
+    44959349778,
+    44979137620
+  ],
+  "scope": "Independent language acceptance plus exact release reconciliation; physical-device acceptance remains separate.",
+  "register_repair": {
+    "problem": "A tool truncation warning preceded the otherwise valid JSON payload in the queue branch.",
+    "action": "Removed only the non-JSON prefix and retained all 219 prior register rows before adding 18 rows."
+  }
+}
