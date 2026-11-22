@@ -10,14 +10,43 @@ def nonempty(value):
     return isinstance(value, str) and bool(value.strip())
 
 
-def resolve_field(fields, path, *, legacy=False):
+KEY = r"[A-Za-z_][A-Za-z_0-9]*"
+ACCESS = re.compile(r'\.(' + KEY + r')|\[(\d+|"(?:[^"\\]|\\.)*")\]')
+LEGACY_IR01 = "e416c4e96849ff039f28543554297ac3e71292277bb2477fcc377b9010e8f3ac"
+
+
+def field_tokens(path, *, legacy=False):
     if legacy and path == "contextNotes[*].id (cross-check against full grammar registry not provided)":
-        return fields["contextNotes"]
-    assert re.fullmatch(r"[A-Za-z_][A-Za-z_0-9]*(?:\.[A-Za-z_][A-Za-z_0-9]*|\[\d+\])*", path), path
+        return ("contextNotes",)
+    first = re.match(KEY, path)
+    assert first, path
+    keys = [first.group()]
+    offset = first.end()
+    while offset < len(path):
+        match = ACCESS.match(path, offset)
+        assert match, path
+        keys.append(match[1] if match[1] is not None else json.loads(match[2]))
+        offset = match.end()
+    return tuple(keys)
+
+
+def resolve_field(fields, path, *, legacy=False):
     value = fields
-    for key in re.findall(r"[A-Za-z_][A-Za-z_0-9]*|\d+", path):
-        value = value[int(key)] if key.isdecimal() else value[key]
+    for key in field_tokens(path, legacy=legacy):
+        assert isinstance(value, list if type(key) is int else dict), path
+        value = value[key]
     return value
+
+
+def leaf_tokens(value, keys=()):
+    if isinstance(value, dict) and value:
+        for key, child in value.items():
+            yield from leaf_tokens(child, keys + (key,))
+    elif isinstance(value, list) and value:
+        for key, child in enumerate(value):
+            yield from leaf_tokens(child, keys + (key,))
+    else:
+        yield keys
 
 
 def unique_keys(pairs):
@@ -47,6 +76,7 @@ def validate(package, result):
     assert len(package["cases"]) == len(expected)
     assert isinstance(result["cases"], list) and len(result["cases"]) == len(expected)
     assert {c["case_id"] for c in result["cases"]} == set(expected)
+    legacy = hashlib.sha256((json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode()).hexdigest() == LEGACY_IR01
     for case in result["cases"]:
         assert case["verdict"] in ["pass", "issues", "uncertain", "not_reviewed"]
         checked, unchecked = case["checked_fields"], case["unchecked_fields"]
@@ -54,10 +84,22 @@ def validate(package, result):
         assert all(nonempty(path) for path in checked + unchecked)
         assert len(set(checked + unchecked)) == len(checked + unchecked)
         fields = expected[case["case_id"]]["fields"]
-        roots = {re.split(r"[.\[/]", path)[0] for path in checked + unchecked}
-        assert roots == set(fields), "Every source field needs checked or unchecked coverage"
+        coverage = set()
         for path in checked + unchecked:
-            resolve_field(fields, path, legacy=result["package_id"] == "IR-20261120-01" and path in unchecked)
+            historic_exclusion = legacy and path in unchecked
+            resolve_field(fields, path, legacy=historic_exclusion)
+            coverage.add(field_tokens(path, legacy=historic_exclusion))
+        assert len(coverage) == len(checked + unchecked), "Duplicate field path"
+        for leaf in leaf_tokens(fields):
+            if legacy and leaf == ("vocabulary", "id"):
+                continue
+            assert any(leaf[:len(path)] == path for path in coverage), f"Missing coverage: {leaf}"
+        scope = package.get("review_scope", {}).get(case["case_id"])
+        if scope is not None:
+            allowed = [field_tokens(path) for path in scope]
+            for path in checked:
+                tokens = field_tokens(path)
+                assert any(tokens[:len(parent)] == parent for parent in allowed), f"Outside review scope: {path}"
         assert isinstance(case["findings"], list)
         # Preserve the reviewer's granular paths and exclusions verbatim.
         # Adjudication computes field coverage; staging grants no acceptance credit.
