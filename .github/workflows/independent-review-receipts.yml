@@ -1,0 +1,39 @@
+name: Independent review receipts
+on:
+  push:
+    branches: [work/independent-queue, work/independent-audit-throughput]
+    paths:
+      - 'completion/independent/reviews/*.json'
+      - 'completion/independent/packages/*.json'
+      - '.github/workflows/independent-review-receipts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: independent-receipts-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.ref_name == 'work/independent-queue' || github.ref_name == 'work/independent-audit-throughput'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Validate and register reviews
+        run: |
+          for attempt in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git reset --hard FETCH_HEAD
+            python3 completion/independent/sync-reviews.py
+            python3 completion/independent/sync-reviews.py --check
+            python3 completion/independent/audit-metrics.py
+            for packet in completion/independent/packages/*.json; do
+              python3 completion/independent/preflight.py "$packet"
+            done
+            git add completion/independent/queue.json completion/independent/QUEUE.md
+            if git diff --cached --quiet; then exit 0; fi
+            git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -m 'Register independent review receipts'
+            if git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"; then exit 0; fi
+          done
+          exit 1

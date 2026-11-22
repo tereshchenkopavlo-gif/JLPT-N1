@@ -1,7 +1,7 @@
 """Register deposited reviews without applying their linguistic conclusions."""
 import argparse
+import json
 from datetime import date
-from pathlib import Path
 from runpy import run_path
 
 from importlib import import_module
@@ -27,12 +27,9 @@ def render_queue(queue, original):
         counts = f"{len(scope['vocab_ids'])} карток, {scope['readings']} текстів, {scope['reading_questions']} питань"
         links = " · ".join(f"[JSON]({review['path']})" for review in row["reviews"])
         lines.append(f"| [{row['package_id']}]({row['path']}) | {row['status']} | {counts} | {links or 'Очікується'} |")
-    tail = original.split("Усі шість рецензій", 1)[-1]
-    if tail == original:
-        tail = original.split("Незмінні пакети", 1)[1]
-    else:
-        tail = tail.split("Незмінні пакети", 1)[1]
-    return "\n".join(lines) + "\n\nНезмінні пакети" + tail
+    old_lines = original.splitlines()
+    table_end = max(index for index, line in enumerate(old_lines) if line.startswith("|"))
+    return "\n".join(lines + old_lines[table_end + 1:]) + "\n"
 
 
 def sync(queue):
@@ -80,7 +77,7 @@ def main():
     else:
         markdown = ROOT / "QUEUE.md"
         rendered = render_queue(queue, markdown.read_text())
-        queue_path.write_text(queue_tools.json.dumps(queue, ensure_ascii=False, indent=2) + "\n")
+        queue_path.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n")
         markdown.write_text(rendered)
     print(f"Technical receipts: {', '.join(added) or 'no new reviews'}")
 

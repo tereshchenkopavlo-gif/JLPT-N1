@@ -55,10 +55,10 @@ def validate_queue(queue, candidate_path=None):
         assert candidate["package_id"] not in seen, "Package ID already registered"
         for case in candidate["cases"]:
             assert (case["case_id"],sha(canonical(case["fields"]))) not in active, "Unchanged material already queued"
-    print("Queue validated: package checksums, source hashes, reviews and active-case uniqueness")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--candidate")
     args = parser.parse_args()
     validate_queue(json.loads((ROOT / "queue.json").read_text()), args.candidate)
+    print("Queue validated: package checksums, source hashes, reviews and active-case uniqueness")
