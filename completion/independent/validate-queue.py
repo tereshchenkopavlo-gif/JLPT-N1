@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-STATES = {"pending_review","in_review","reviewed_with_issues","reviewed_pass","corrections_pending","closed"}
+STATES = {"pending_review","in_review","review_received","reviewed_with_issues","reviewed_pass","corrections_pending","closed"}
 
 def sha(value):
     return hashlib.sha256(value).hexdigest()
@@ -14,11 +14,7 @@ def sha(value):
 def canonical(value):
     return json.dumps(value,ensure_ascii=False,sort_keys=True).encode()
 
-def check():
-    p = argparse.ArgumentParser()
-    p.add_argument("--candidate")
-    args = p.parse_args()
-    queue = json.loads((ROOT/"queue.json").read_text())
+def validate_queue(queue, candidate_path=None):
     seen, active, review_files = set(), {}, set()
     for row in queue["packages"]:
         id = row["package_id"]
@@ -44,7 +40,7 @@ def check():
             report = json.loads(review_raw)
             assert report["package_id"] == id and report["sources_sha256"] == row["sources_sha256"]
             assert sorted(c["case_id"] for c in report["cases"]) == sorted(ids)
-        if row["status"] in {"reviewed_pass","reviewed_with_issues","corrections_pending","closed"}:
+        if row["status"] in {"review_received","reviewed_pass","reviewed_with_issues","corrections_pending","closed"}:
             assert row["reviews"], "A received review is required"
         if row["status"] in {"pending_review","in_review"}:
             for case in packet["cases"]:
@@ -54,12 +50,15 @@ def check():
     for row in queue["packages"]:
         if row["predecessor"]:
             assert row["predecessor"] in seen
-    if args.candidate:
-        candidate = json.loads(Path(args.candidate).read_text())
+    if candidate_path:
+        candidate = json.loads(Path(candidate_path).read_text())
         assert candidate["package_id"] not in seen, "Package ID already registered"
         for case in candidate["cases"]:
             assert (case["case_id"],sha(canonical(case["fields"]))) not in active, "Unchanged material already queued"
     print("Queue validated: package checksums, source hashes, reviews and active-case uniqueness")
 
 if __name__ == "__main__":
-    check()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--candidate")
+    args = parser.parse_args()
+    validate_queue(json.loads((ROOT / "queue.json").read_text()), args.candidate)

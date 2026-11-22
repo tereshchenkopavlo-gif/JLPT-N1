@@ -1,24 +1,22 @@
 # Черга незалежного мовного аудиту JLPT N1
 
-Наступний pending_review — **IR-20261121-08**, потім IR-20261121-09 та IR-20261122-10. Відкрийте пакет і виконайте його інструкції. До першого висновку читайте лише навчальні матеріали пакета.
+Наступний пакет — **IR-20261122-12**. До першого висновку читайте лише його матеріали.
 
 | Пакет | Статус | Обсяг | Рецензії |
 |---|---|---|---|
-| [IR-20261120-01](packages/IR-20261120-01.json) | corrections_pending | 6 карток, 2 текстів, 4 питань | [ChatGPT](reviews/IR-20261120-01-e416c4e96849ff03.json) |
-| [IR-20261120-02](packages/IR-20261120-02.json) | corrections_pending | 6 карток, 2 текстів, 4 питань | [ChatGPT](reviews/IR-20261120-02-ChatGPT-20261121.json) |
-| [IR-20261121-03](packages/IR-20261121-03.json) | corrections_pending | 0 карток, 3 текстів, 7 питань | [ChatGPT](reviews/IR-20261121-03-ChatGPT-20261121.json) |
-| [IR-20261121-04](packages/IR-20261121-04.json) | corrections_pending | 0 карток, 1 текстів, 3 питань | [ChatGPT](reviews/IR-20261121-04-ChatGPT-20261121.json) |
-| [IR-20261121-05](packages/IR-20261121-05.json) | corrections_pending | 0 карток, 2 текстів, 4 питань | [ChatGPT](reviews/IR-20261121-05-ChatGPT-20261121.json) |
-| [IR-20261121-06](packages/IR-20261121-06.json) | corrections_pending | 0 карток, 2 текстів, 6 питань | [ChatGPT](reviews/IR-20261121-06-ChatGPT-20261121.json) |
-| [IR-20261121-07](packages/IR-20261121-07.json) | corrections_pending | 0 карток, 4 текстів, 8 питань | [ChatGPT](reviews/IR-20261121-07-ChatGPT-20261121.json) |
-| [IR-20261121-08](packages/IR-20261121-08.json) | pending_review | 5 карток, 3 текстів, 7 питань | Очікується |
-| [IR-20261121-09](packages/IR-20261121-09.json) | pending_review | 0 карток, 8 текстів, 19 питань | Очікується |
-| [IR-20261122-10](packages/IR-20261122-10.json) | pending_review | 0 карток, 2 довгі тексти, 6 питань | Очікується |
-| [IR-20261122-11](packages/IR-20261122-11.json) | pending_review | 0 карток, 3 середні тексти, 6 питань | Очікується |
-| [IR-20261122-12](packages/IR-20261122-12.json) | pending_review | 0 карток, 1 довгий текст, 3 питання | Очікується |
-| [IR-20261122-13](packages/IR-20261122-13.json) | pending_review | 0 карток, 1 довгий текст, 3 питання | Очікується |
-
-Усі шість рецензій IR02–IR07 отримано й розглянуто. Змінені поля очікують повторного незалежного перегляду; pass двох попередньо виправлених C12-текстів і m-c12-20261121-11 зафіксовано для точних вихідних полів.
+| [IR-20261120-01](packages/IR-20261120-01.json) | corrections_pending | 6 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261120-01-e416c4e96849ff03.json) |
+| [IR-20261120-02](packages/IR-20261120-02.json) | corrections_pending | 6 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261120-02-ChatGPT-20261121.json) |
+| [IR-20261121-03](packages/IR-20261121-03.json) | corrections_pending | 0 карток, 3 текстів, 7 питань | [JSON](reviews/IR-20261121-03-ChatGPT-20261121.json) |
+| [IR-20261121-04](packages/IR-20261121-04.json) | corrections_pending | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261121-04-ChatGPT-20261121.json) |
+| [IR-20261121-05](packages/IR-20261121-05.json) | corrections_pending | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261121-05-ChatGPT-20261121.json) |
+| [IR-20261121-06](packages/IR-20261121-06.json) | corrections_pending | 0 карток, 2 текстів, 6 питань | [JSON](reviews/IR-20261121-06-ChatGPT-20261121.json) |
+| [IR-20261121-07](packages/IR-20261121-07.json) | corrections_pending | 0 карток, 4 текстів, 8 питань | [JSON](reviews/IR-20261121-07-ChatGPT-20261121.json) |
+| [IR-20261121-08](packages/IR-20261121-08.json) | review_received | 5 карток, 3 текстів, 7 питань | [JSON](reviews/IR-20261121-08-ChatGPT-20261122.json) |
+| [IR-20261121-09](packages/IR-20261121-09.json) | review_received | 0 карток, 8 текстів, 19 питань | [JSON](reviews/IR-20261121-09-ChatGPT-20261122.json) |
+| [IR-20261122-10](packages/IR-20261122-10.json) | review_received | 0 карток, 2 текстів, 6 питань | [JSON](reviews/IR-20261122-10-ChatGPT-20261122.json) |
+| [IR-20261122-11](packages/IR-20261122-11.json) | review_received | 0 карток, 3 текстів, 6 питань | [JSON](reviews/IR-20261122-11-ChatGPT-20261122.json) |
+| [IR-20261122-12](packages/IR-20261122-12.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
+| [IR-20261122-13](packages/IR-20261122-13.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
 
 Незмінні пакети, SHA джерел, SHA-256 файлів, predecessors і історія станів — [queue.json](queue.json).
 
