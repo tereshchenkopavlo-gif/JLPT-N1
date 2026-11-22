@@ -110,6 +110,11 @@ def validate(package, result):
         for finding in case["findings"]:
             assert all(nonempty(finding[key]) for key in ("field_path", "claim", "evidence"))
             assert re.split(r"[.\[/]", finding["field_path"])[0] in fields
+            if scope is not None:
+                path = finding["field_path"]
+                tokens = field_tokens(path)
+                assert any(tokens[:len(parent)] == parent for parent in allowed), f"Finding outside review scope: {path}"
+                resolve_field(fields, path)
             assert finding["severity"] in ["minor", "major", "critical"]
             assert finding["confidence"] in ["high", "medium", "low"]
             assert isinstance(finding["sources"], list) and all(map(nonempty, finding["sources"]))
