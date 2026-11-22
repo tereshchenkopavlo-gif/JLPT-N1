@@ -391,7 +391,7 @@
       "source_commits": [
         "08d6f11d426aac61760879f69654a4b5207f9db1"
       ],
-      "status": "review_received",
+      "status": "corrections_pending",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -414,9 +414,14 @@
           "status": "review_received",
           "date": "2026-11-22",
           "review": "reviews/IR-20261122-10-ChatGPT-20261122.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-22",
+          "evidence": "adjudications/20261122/patches.json"
         }
       ],
-      "notes": "Eighth C12 batch: two original long readings, six questions and two context notes."
+      "notes": "Accepted the distractor finding; integrated into a browser-tested checkpoint. IR14 rechecks the revised question. Other scopes retain their evidence."
     },
     {
       "package_id": "IR-20261122-11",
@@ -512,6 +517,57 @@
         }
       ],
       "notes": "One original C12 long reading and three questions."
+    },
+    {
+      "package_id": "IR-20261122-14",
+      "path": "packages/IR-20261122-14.json",
+      "package_sha256": "c3287cb2ed02dd77f7ae2418d06fde379b489dd7b94ac6fe050c8f5902eaa744",
+      "sources_sha256": "3a65e319864a9e09470d0c76ce7147a883057aaf755b5d97ad4de7129ab3843b",
+      "source_commits": [
+        "08d6f11d426aac61760879f69654a4b5207f9db1",
+        "42d6c98ae26082d45c4110548e9e037a80b928b3"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261122-10",
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 1
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "Scoped question recheck with full passage context."
+    },
+    {
+      "package_id": "IR-20261122-15",
+      "path": "packages/IR-20261122-15.json",
+      "package_sha256": "661398491e469aa073d5dea6f7c11bf853fcc923260b0557e8ef648af908ac1d",
+      "sources_sha256": "f233e2e798cb8d06f7fb85a84f52c3634ad91a20af953d481b1588952ac38135",
+      "source_commits": [
+        "42d6c98ae26082d45c4110548e9e037a80b928b3"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 2
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "Original C12 text and two questions from the browser-tested checkpoint."
     }
   ]
 }
