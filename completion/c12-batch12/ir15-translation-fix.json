@@ -1,0 +1,13 @@
+{
+  "package_id": "IR-20261122-15",
+  "case_id": "m-c12-20261122-20",
+  "field": "uk",
+  "decision": "accepted",
+  "severity": "major",
+  "confidence": "high",
+  "before": "Однак траплялося, що термін уже спливав, а ім’я ще не було викреслено.",
+  "after": "Однак траплялося, що день повернення вже минув, а ім’я в зошиті так і не було викреслено.",
+  "source_fragment": "返却日を過ぎても名前に線が引かれていないことがあった。",
+  "scope": "Only the confirmed temporal mistranslation in the Ukrainian field; all other fields remain byte-identical to the prior candidate.",
+  "review": "completion/independent/reviews/IR-20261122-15-ChatGPT-20261122.json"
+}

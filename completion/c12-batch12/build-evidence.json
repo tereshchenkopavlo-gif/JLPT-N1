@@ -1,1 +1,1 @@
-{"candidate_sha256": "e7dd6fa21c2bdac10db19b7b366b6d2f5aa3a177dc9fdbfddafb6456028beea8", "medium": 113, "long": 69, "exact_rollback": true, "node_syntax": true, "independent_recheck": "pending"}
+{"candidate_sha256": "24666f31c500a2d7f256ab7dea0bddfd69cd7b711d085f3a1adddcaf188a5413", "candidate_bytes": 7090274, "medium": 113, "long": 69, "exact_rollback": true, "node_syntax": true, "changed_fields": ["m-c12-20261122-20.uk"], "browser_verification": "pending_github_actions", "independent_recheck": "pending"}
