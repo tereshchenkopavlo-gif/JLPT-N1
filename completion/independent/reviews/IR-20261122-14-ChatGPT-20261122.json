@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261122-14",
+  "sources_sha256": "3a65e319864a9e09470d0c76ce7147a883057aaf755b5d97ad4de7129ab3843b",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261122-b",
+    "reviewed_at": "2026-11-22",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "l-c12-20261121-13",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[2].choices",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "У запитанні про висновок оповідача три distractors містять категоричні або явно заперечені твердження, через що правильний варіант легко визначити без аналізу фіналу.",
+          "evidence": "全ての利用者が…確認／過去の情報は完全に失われる／専門家に相談せずどの本でも",
+          "sources": [],
+          "proposed_change": "Замінити частину distractors на правдоподібні, але неточні тлумачення функції запису про попередній стан, не допускаючи другого коректного ключа."
+        }
+      ]
+    }
+  ]
+}
