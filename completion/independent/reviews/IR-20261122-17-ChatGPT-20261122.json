@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261122-17",
+  "sources_sha256": "9db8b748287cb00e6c84515e9341d198eac5ca45bc512f2f8fb3c245aa9f465f",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261122-b",
+    "reviewed_at": "2026-11-22",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "l-c12-20261122-21",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "uk",
+          "severity": "minor",
+          "confidence": "medium",
+          "claim": "Український переказ останнього абзацу змінює акцент із взаємного узгодження операцій на можливість одночасного початку роботи. Переклад звужує зміст японського запитання.",
+          "evidence": "誰かが動こうとしたときに、別の作業がそれを無理なく受け入れられるか / «чи зможе хтось розпочати свою роботу, поки триває інша».",
+          "sources": [],
+          "proposed_change": "«чи не заважатиме одна операція іншій, коли хтось береться до роботи» або «чи дозволяє перебіг інших робіт без перешкод розпочати наступну операцію»."
+        }
+      ]
+    }
+  ]
+}
