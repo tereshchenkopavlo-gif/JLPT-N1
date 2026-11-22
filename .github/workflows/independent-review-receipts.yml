@@ -39,3 +39,5 @@ jobs:
             if git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"; then exit 0; fi
           done
           exit 1
+
+# Replay fixture for the historical IR08–IR11 receipts.
