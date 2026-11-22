@@ -642,7 +642,7 @@
       "source_commits": [
         "8765d33e9b153dedce8250f3248e7ee885c1443e"
       ],
-      "status": "review_received",
+      "status": "corrections_pending",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -665,9 +665,39 @@
           "status": "review_received",
           "date": "2026-11-22",
           "review": "reviews/IR-20261122-17-ChatGPT-20261122.json"
+        },
+        {
+          "status": "corrections_pending",
+          "date": "2026-11-22",
+          "evidence": "completion/c12-ir17/acceptance.md"
         }
       ],
       "notes": "One original C12 long reading and three questions."
+    },
+    {
+      "package_id": "IR-20261122-18",
+      "path": "packages/IR-20261122-18.json",
+      "package_sha256": "1fb410081b7837d825f1f8ef9fa2be0d702eeb0394ead0f369525bd2c5da82f9",
+      "sources_sha256": "a714d49f83545afbc79f414cc0fd6950f6ec1538a4650a95669089771e895703",
+      "source_commits": [
+        "5a345292e9d3eb544e890a6ba69c68541f5ea497"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261122-17",
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 0
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-22"
+        }
+      ],
+      "notes": "Recheck the corrected Ukrainian translation; Japanese source supplied for context."
     }
   ]
 }
