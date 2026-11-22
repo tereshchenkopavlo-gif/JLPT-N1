@@ -476,7 +476,7 @@
       "source_commits": [
         "dff7c6863fa90c8c85fa53175bb40437903d8333"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -484,11 +484,21 @@
         "readings": 1,
         "reading_questions": 3
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261122-12-ChatGPT-20261122.json",
+          "sha256": "301aec2c2b9397ee09ce27f7c01e37d2387257431fba6319ba173660944f2a0e"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-22"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-22",
+          "review": "reviews/IR-20261122-12-ChatGPT-20261122.json"
         }
       ],
       "notes": "One original C12 long reading and three questions."
@@ -501,7 +511,7 @@
       "source_commits": [
         "49e0dcbe6e208faa759ff6d3f5b6459c78177b76"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -509,11 +519,21 @@
         "readings": 1,
         "reading_questions": 3
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261122-13-ChatGPT-20261122.json",
+          "sha256": "7208b5ec9b3c7165490d6deac35182f279e05a4703e5d89ecf2960bf5dc53b0b"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-22"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-22",
+          "review": "reviews/IR-20261122-13-ChatGPT-20261122.json"
         }
       ],
       "notes": "One original C12 long reading and three questions."
@@ -552,7 +572,7 @@
       "source_commits": [
         "42d6c98ae26082d45c4110548e9e037a80b928b3"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -560,11 +580,21 @@
         "readings": 1,
         "reading_questions": 2
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261122-15-ChatGPT-20261122.json",
+          "sha256": "6dffdd81e3e55b7c822effe7422861fb6f630b27f29b2b8d14644a73adfa285b"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-22"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-22",
+          "review": "reviews/IR-20261122-15-ChatGPT-20261122.json"
         }
       ],
       "notes": "Original C12 text and two questions from the browser-tested checkpoint."
@@ -577,7 +607,7 @@
       "source_commits": [
         "c9e7b5e9c63acee46b956bea260014e5b173cc73"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -585,11 +615,21 @@
         "readings": 1,
         "reading_questions": 3
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261122-16-ChatGPT-20261122.json",
+          "sha256": "a7091c9517ff8927def7c1c90bc3141ca89fabe2e3b567953ea5648427a0df4f"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-22"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-22",
+          "review": "reviews/IR-20261122-16-ChatGPT-20261122.json"
         }
       ],
       "notes": "One original C12 long reading and three questions."
@@ -602,7 +642,7 @@
       "source_commits": [
         "8765d33e9b153dedce8250f3248e7ee885c1443e"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -610,11 +650,21 @@
         "readings": 1,
         "reading_questions": 3
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261122-17-ChatGPT-20261122.json",
+          "sha256": "825eeb143cb0d08bc8f661863d96bd5cd1a3b3b9f1693ed961c469fc893d5b35"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-22"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-22",
+          "review": "reviews/IR-20261122-17-ChatGPT-20261122.json"
         }
       ],
       "notes": "One original C12 long reading and three questions."

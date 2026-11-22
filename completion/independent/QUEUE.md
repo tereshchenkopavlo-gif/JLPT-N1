@@ -1,6 +1,6 @@
 # Черга незалежного мовного аудиту JLPT N1
 
-Наступний пакет — **IR-20261122-12**. До першого висновку читайте лише його матеріали.
+Наступний пакет — **IR-20261122-14**. До першого висновку читайте лише його матеріали.
 
 | Пакет | Статус | Обсяг | Рецензії |
 |---|---|---|---|
@@ -15,12 +15,12 @@
 | [IR-20261121-09](packages/IR-20261121-09.json) | review_received | 0 карток, 8 текстів, 19 питань | [JSON](reviews/IR-20261121-09-ChatGPT-20261122.json) |
 | [IR-20261122-10](packages/IR-20261122-10.json) | corrections_pending | 0 карток, 2 текстів, 6 питань | [JSON](reviews/IR-20261122-10-ChatGPT-20261122.json) |
 | [IR-20261122-11](packages/IR-20261122-11.json) | closed | 0 карток, 3 текстів, 6 питань | [JSON](reviews/IR-20261122-11-ChatGPT-20261122.json) |
-| [IR-20261122-12](packages/IR-20261122-12.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
-| [IR-20261122-13](packages/IR-20261122-13.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
+| [IR-20261122-12](packages/IR-20261122-12.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-12-ChatGPT-20261122.json) |
+| [IR-20261122-13](packages/IR-20261122-13.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-13-ChatGPT-20261122.json) |
 | [IR-20261122-14](packages/IR-20261122-14.json) | pending_review | 0 карток, 1 текстів, 1 питань | Очікується |
-| [IR-20261122-15](packages/IR-20261122-15.json) | pending_review | 0 карток, 1 текстів, 2 питань | Очікується |
-| [IR-20261122-16](packages/IR-20261122-16.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
-| [IR-20261122-17](packages/IR-20261122-17.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
+| [IR-20261122-15](packages/IR-20261122-15.json) | review_received | 0 карток, 1 текстів, 2 питань | [JSON](reviews/IR-20261122-15-ChatGPT-20261122.json) |
+| [IR-20261122-16](packages/IR-20261122-16.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-16-ChatGPT-20261122.json) |
+| [IR-20261122-17](packages/IR-20261122-17.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-17-ChatGPT-20261122.json) |
 
 Незмінні пакети, SHA джерел, SHA-256 файлів, predecessors і історія станів — [queue.json](queue.json).
 
