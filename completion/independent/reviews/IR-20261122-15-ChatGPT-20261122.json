@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261122-15",
+  "sources_sha256": "f233e2e798cb8d06f7fb85a84f52c3634ad91a20af953d481b1588952ac38135",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-review-20261122-b",
+    "reviewed_at": "2026-11-22",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "m-c12-20261122-20",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "uk",
+          "severity": "major",
+          "confidence": "high",
+          "claim": "Український переклад пом'якшує вже прострочене повернення до терміну, який лише спливає; це змінює часовий факт вихідного тексту.",
+          "evidence": "返却日を過ぎても名前に線が引かれていないことがあった。 / «термін уже спливав, а ім’я ще не було викреслено».",
+          "sources": [],
+          "proposed_change": "«Іноді день повернення вже минав, а ім’я в зошиті так і не викреслювали» або «Траплялося, що термін повернення вже минув, але ім’я залишалося невикресленим»."
+        }
+      ]
+    }
+  ]
+}
