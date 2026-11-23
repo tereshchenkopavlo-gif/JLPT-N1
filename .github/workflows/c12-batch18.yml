@@ -1,0 +1,31 @@
+name: C12 batch 18
+on:
+  push:
+    branches: [work/c12-batch18-checkpoint]
+    paths:
+      - 'completion/c12-batch18/**'
+      - '.github/workflows/c12-batch18.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save --package-lock=false playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Verify candidate
+        run: |
+          python3 completion/c12-batch18/build-candidate.py
+          node completion/c12-batch18/browser.cjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: c12-batch18-browser-evidence
+          path: |
+            completion/c12-batch18/integration-results.json
+            completion/c12-batch18/browser-results.json
