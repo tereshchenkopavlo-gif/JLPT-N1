@@ -822,6 +822,31 @@
         }
       ],
       "notes": "Two original C12 batch-16 medium readings and four questions from released v229-C12q."
+    },
+    {
+      "package_id": "IR-20261124-23",
+      "path": "packages/IR-20261124-23.json",
+      "package_sha256": "7d4ca88d6c3448734e2aa154f2299a235516ae86108bdfff27d55b7a4147f511",
+      "sources_sha256": "23a07d02caff2fda9b125d27be15b10a8dccf56a95e3524e23b2f793c989af93",
+      "source_commits": [
+        "abe62464eb13fcfef7973cbda24399e763bc53a2"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 2,
+        "reading_questions": 4
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-24"
+        }
+      ],
+      "notes": "Two original C12 batch-17 medium readings and four questions from released v229-C12r."
     }
   ]
 }
