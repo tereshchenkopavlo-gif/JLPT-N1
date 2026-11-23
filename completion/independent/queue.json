@@ -747,6 +747,31 @@
         }
       ],
       "notes": "Recheck only the corrected Ukrainian translation; Japanese source is context and must remain unchecked."
+    },
+    {
+      "package_id": "IR-20261123-20",
+      "path": "packages/IR-20261123-20.json",
+      "package_sha256": "8378019dbafe8f9db6a53ca137bc2922f6a620724d3e738e7b86831833ce46ca",
+      "sources_sha256": "56a97b54448cbf0a5e76f0fbe6bb67c51bfb222de655f904ebbd9a99a5d31176",
+      "source_commits": [
+        "942665bc1126de52728446aa8d6bae673f985cce"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 2,
+        "reading_questions": 4
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-23"
+        }
+      ],
+      "notes": "Two original C12 batch-14 medium readings and four questions from released v229-C12o."
     }
   ]
 }
