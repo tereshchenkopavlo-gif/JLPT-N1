@@ -12,7 +12,7 @@ def units(case):
     cid = case["case_id"]
     yield cid
     if case["kind"] == "reading":
-        yield from (f"{cid}/questions[{i}]" for i, _ in enumerate(case["fields"]["questions"]))
+        yield from (f"{cid}/questions[{i}]" for i, _ in enumerate(case["fields"].get("questions", [])))
     if case["kind"] == "vocab":
         contexts = case["fields"].get("meaning_quiz", {}).get("byExample", {})
         yield from (f"{cid}/meaning/{context}" for context in contexts)

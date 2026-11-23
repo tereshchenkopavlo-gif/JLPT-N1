@@ -16,7 +16,7 @@ def normalize(text):
     return " ".join(unicodedata.normalize("NFKC", text).casefold().split()).rstrip("。.!?！？")
 
 
-def inspect(cases):
+def inspect(cases, require_questions=True):
     errors, signals = [], []
     identifiers, texts = set(), set()
     wrong_choices = Counter()
@@ -27,7 +27,8 @@ def inspect(cases):
         identifiers.add(cid)
         if case["kind"] == "reading":
             passage = fields.get("ja", "")
-            for key in ("title", "ja", "uk"):
+            required = ("title", "ja", "uk") if require_questions else ("ja", "uk")
+            for key in required:
                 if not nonempty(fields.get(key)):
                     errors.append(f"{cid}: missing {key}")
             if not isinstance(passage, str):
@@ -39,7 +40,9 @@ def inspect(cases):
             if nonempty(translation) and not re.search("[А-Яа-яІіЇїЄєҐґ]", translation):
                 signals.append(f"{cid}: translation lacks Cyrillic")
             questions = fields.get("questions")
-            if not isinstance(questions, list) or not questions:
+            if questions is None and not require_questions:
+                continue
+            if not isinstance(questions, list) or (require_questions and not questions):
                 errors.append(f"{cid}: missing questions")
                 continue
             prompts = set()
@@ -115,8 +118,17 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("packages", type=Path, nargs="+")
     args = parser.parse_args()
-    cases = [case for path in args.packages for case in tools.load_json(path.read_bytes())["cases"]]
-    result = inspect(cases)
+    results = []
+    for path in args.packages:
+        package = tools.load_json(path.read_bytes())
+        require_questions = package.get("scope", {}).get("reading_questions", 0) > 0
+        results.append(inspect(package["cases"], require_questions=require_questions))
+    result = {
+        "cases": sum(item["cases"] for item in results),
+        "errors": [error for item in results for error in item["errors"]],
+        "signals": [signal for item in results for signal in item["signals"]],
+        "linguistic_credit": False,
+    }
     print(json.dumps(result, ensure_ascii=False, indent=2))
     raise SystemExit(bool(result["errors"]))
 
