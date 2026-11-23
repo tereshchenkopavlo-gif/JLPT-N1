@@ -25,7 +25,7 @@
 | [IR-20261123-19](packages/IR-20261123-19.json) | pending_review | 0 карток, 1 текстів, 0 питань | Очікується |
 | [IR-20261123-20](packages/IR-20261123-20.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |
 | [IR-20261123-21](packages/IR-20261123-21.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |
-| [IR-20261124-22](packages/IR-20261124-22.json) | pending_review | 0 карток, 2 тексти, 4 питання | Очікується |
+| [IR-20261124-22](packages/IR-20261124-22.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |
 
 Незмінні пакети, SHA джерел, SHA-256 файлів, predecessors і історія станів — [queue.json](queue.json).
 
