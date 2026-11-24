@@ -1,0 +1,39 @@
+name: Publish verified C12 batch 19
+on:
+  push:
+    branches: [work/c12-batch19-checkpoint]
+    paths: ['.github/workflows/c12-batch19-publish.yml']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild and verify exact accepted bytes
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = "765e056790d1785f795a7087c870c5af8a756712"
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "d3086192049d53c61b187b77bf759b65d43cdc0c"
+          python3 completion/c12-batch19/build-candidate.py
+          printf '%s  %s\n' '549436cc572864cc920df3a5ec1ccbe4c15989eb29abd3c54b5386a14a23b69b' 'completion/c12-batch19/JLPT_N1_C12_candidate_UNACCEPTED.html' | sha256sum -c -
+      - name: Publish checked release
+        run: |
+          set -euo pipefail
+          release_dir=$(mktemp -d)
+          git worktree add --detach "$release_dir" "d3086192049d53c61b187b77bf759b65d43cdc0c"
+          mkdir -p "$release_dir/completion/c12-batch19"
+          cp completion/c12-batch19/{acceptance.md,checkpoint.md,build-candidate.py,drafts.json,integration-results.json,browser.cjs,record-release.py} "$release_dir/completion/c12-batch19/"
+          cp completion/c12-batch19/JLPT_N1_C12_candidate_UNACCEPTED.html "$release_dir/JLPT_N1_ukrainian_reading_v229_C12t.html"
+          cp completion/c12-batch19/release-notes.md "$release_dir/JLPT_N1_v229_C12t_audit.md"
+          cd "$release_dir"
+          python3 completion/c12-batch19/record-release.py
+          git add JLPT_N1_ukrainian_reading_v229_C12t.html JLPT_N1_v229_C12t_audit.md completion/c12-batch19 completion/review-register.csv completion/BACKLOG.md PROJECT_STATUS.md
+          git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -m 'Release verified C12 batch 19'
+          git push origin HEAD:refs/heads/main
