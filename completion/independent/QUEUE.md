@@ -1,6 +1,6 @@
 # Черга незалежного мовного аудиту JLPT N1
 
-Наступний пакет — **IR-20261122-14**. До першого висновку читайте лише його матеріали.
+Наступний пакет — **IR-20261123-20**. До першого висновку читайте лише його матеріали.
 
 | Пакет | Статус | Обсяг | Рецензії |
 |---|---|---|---|
@@ -17,12 +17,12 @@
 | [IR-20261122-11](packages/IR-20261122-11.json) | closed | 0 карток, 3 текстів, 6 питань | [JSON](reviews/IR-20261122-11-ChatGPT-20261122.json) |
 | [IR-20261122-12](packages/IR-20261122-12.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-12-ChatGPT-20261122.json) |
 | [IR-20261122-13](packages/IR-20261122-13.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-13-ChatGPT-20261122.json) |
-| [IR-20261122-14](packages/IR-20261122-14.json) | pending_review | 0 карток, 1 текстів, 1 питань | Очікується |
+| [IR-20261122-14](packages/IR-20261122-14.json) | review_received | 0 карток, 1 текстів, 1 питань | [JSON](reviews/IR-20261122-14-ChatGPT-20261124.json) |
 | [IR-20261122-15](packages/IR-20261122-15.json) | review_received | 0 карток, 1 текстів, 2 питань | [JSON](reviews/IR-20261122-15-ChatGPT-20261122.json) |
 | [IR-20261122-16](packages/IR-20261122-16.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-16-ChatGPT-20261122.json) |
 | [IR-20261122-17](packages/IR-20261122-17.json) | corrections_pending | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261122-17-ChatGPT-20261122.json) |
-| [IR-20261122-18](packages/IR-20261122-18.json) | pending_review | 0 карток, 1 текстів, 0 питань | Очікується |
-| [IR-20261123-19](packages/IR-20261123-19.json) | pending_review | 0 карток, 1 текстів, 0 питань | Очікується |
+| [IR-20261122-18](packages/IR-20261122-18.json) | review_received | 0 карток, 1 текстів, 0 питань | [JSON](reviews/IR-20261122-18-ChatGPT-20261124.json) |
+| [IR-20261123-19](packages/IR-20261123-19.json) | review_received | 0 карток, 1 текстів, 0 питань | [JSON](reviews/IR-20261123-19-ChatGPT-20261124.json) |
 | [IR-20261123-20](packages/IR-20261123-20.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |
 | [IR-20261123-21](packages/IR-20261123-21.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |
 | [IR-20261124-22](packages/IR-20261124-22.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |

@@ -563,7 +563,7 @@
         "08d6f11d426aac61760879f69654a4b5207f9db1",
         "42d6c98ae26082d45c4110548e9e037a80b928b3"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": "IR-20261122-10",
       "scope": {
         "vocab_ids": [],
@@ -571,11 +571,21 @@
         "readings": 1,
         "reading_questions": 1
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261122-14-ChatGPT-20261124.json",
+          "sha256": "34b9228ba5b254c8e697e3b6361f8f90a34c62e40e34c943ca07662bbd73e4f9"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-22"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-24",
+          "review": "reviews/IR-20261122-14-ChatGPT-20261124.json"
         }
       ],
       "notes": "Scoped question recheck with full passage context."
@@ -706,7 +716,7 @@
       "source_commits": [
         "5a345292e9d3eb544e890a6ba69c68541f5ea497"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": "IR-20261122-17",
       "scope": {
         "vocab_ids": [],
@@ -714,11 +724,21 @@
         "readings": 1,
         "reading_questions": 0
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261122-18-ChatGPT-20261124.json",
+          "sha256": "75ac2273f823a3d327660380de91ebfd03ce87a411002a7ac1632f0314c06e83"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-22"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-24",
+          "review": "reviews/IR-20261122-18-ChatGPT-20261124.json"
         }
       ],
       "notes": "Recheck the corrected Ukrainian translation; Japanese source supplied for context."
@@ -731,7 +751,7 @@
       "source_commits": [
         "44187479ec8f2c7c4f22f17ad869387637ae3139"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": "IR-20261122-15",
       "scope": {
         "vocab_ids": [],
@@ -739,11 +759,21 @@
         "readings": 1,
         "reading_questions": 0
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261123-19-ChatGPT-20261124.json",
+          "sha256": "093381fee4c3aaa308ba0236bf74431acc6871e2b6cc2148a35f2f31d68207d6"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-23"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-24",
+          "review": "reviews/IR-20261123-19-ChatGPT-20261124.json"
         }
       ],
       "notes": "Recheck only the corrected Ukrainian translation; Japanese source is context and must remain unchecked."
