@@ -786,7 +786,7 @@
       "source_commits": [
         "942665bc1126de52728446aa8d6bae673f985cce"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -794,11 +794,21 @@
         "readings": 2,
         "reading_questions": 4
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261123-20-ChatGPT-20261124.json",
+          "sha256": "e1d3b0ee37946a45ec556269c31b6ac9d47d931bec7c4fc0a9120080255e454f"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-23"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-24",
+          "review": "reviews/IR-20261123-20-ChatGPT-20261124.json"
         }
       ],
       "notes": "Two original C12 batch-14 medium readings and four questions from released v229-C12o."
@@ -811,7 +821,7 @@
       "source_commits": [
         "2bbd038fe5153afaf95da99b74c4a9ccdb5ea9ff"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -819,11 +829,21 @@
         "readings": 2,
         "reading_questions": 4
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261123-21-ChatGPT-20261124.json",
+          "sha256": "665df90ebe4dcfeae585015d0df63881f7f6e5a0235897a04556f3157db2703d"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-23"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-24",
+          "review": "reviews/IR-20261123-21-ChatGPT-20261124.json"
         }
       ],
       "notes": "Two original C12 batch-15 medium readings and four questions from released v229-C12p."
