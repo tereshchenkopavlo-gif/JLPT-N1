@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261123-21",
+  "sources_sha256": "ccf86de65bb43257c5cbb5d40231e118a7c2c29ce80360e16e735c0a2c0e6ad2",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-readings-20261124-IR-20261123-21",
+    "reviewed_at": "2026-11-24",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "m-c12-20261123-24",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "m-c12-20261123-25",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
