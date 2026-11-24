@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261123-20",
+  "sources_sha256": "56a97b54448cbf0a5e76f0fbe6bb67c51bfb222de655f904ebbd9a99a5d31176",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-readings-20261124-IR-20261123-20",
+    "reviewed_at": "2026-11-24",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "m-c12-20261123-22",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "m-c12-20261123-23",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "questions",
+        "contextNotes"
+      ],
+      "unchecked_fields": [],
+      "verdict": "issues",
+      "findings": [
+        {
+          "field_path": "questions[0].explain",
+          "severity": "minor",
+          "confidence": "high",
+          "claim": "The Ukrainian explanation refers to distractor premises that are not among the actual four options, impairing feedback accuracy.",
+          "evidence": "Actual distractors concern erosion on every rainy day vs no path damage; which trail returns to the path; and a supposedly feasible slope detour vs unrepairable drain. Explanation instead says: «Вік слідів, різні відповідальні особи чи додавання неофіційної стежки до карти не були підставою рішення». None of those three premises appears in the options.",
+          "sources": [],
+          "proposed_change": "Replace the second sentence with precise contrasts: «У тексті не сказано, що ґрунт змивало після кожного дощу або що біля ставка доріжка не зазнала проблем; сліди не вели за межі парку, і працівники не будували обхід на схилі — вони перекрили вхід та прочистили водостік біля ставка». Keep the correct key unchanged."
+        }
+      ]
+    }
+  ]
+}
