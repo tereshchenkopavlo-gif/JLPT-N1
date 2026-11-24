@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261123-19",
+  "sources_sha256": "349651d9eea678fa1e2c66b8a9d0714f7cd65f116898eeece4f8b1e8567a4026",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-narrow-review-20261124-IR-20261123-19",
+    "reviewed_at": "2026-11-24",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "m-c12-20261122-20",
+      "checked_fields": [
+        "uk"
+      ],
+      "unchecked_fields": [
+        "ja"
+      ],
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
