@@ -24,11 +24,11 @@
 | [IR-20261122-18](packages/IR-20261122-18.json) | review_received | 0 карток, 1 текстів, 0 питань | [JSON](reviews/IR-20261122-18-ChatGPT-20261124.json) |
 | [IR-20261123-19](packages/IR-20261123-19.json) | review_received | 0 карток, 1 текстів, 0 питань | [JSON](reviews/IR-20261123-19-ChatGPT-20261124.json) |
 | [IR-20261123-20](packages/IR-20261123-20.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261123-20-ChatGPT-20261124.json) |
-| [IR-20261123-21](packages/IR-20261123-21.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261123-21-ChatGPT-20261124.json) |
-| [IR-20261124-22](packages/IR-20261124-22.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261124-22-ChatGPT-20261124.json) |
-| [IR-20261124-23](packages/IR-20261124-23.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261124-23-ChatGPT-20261124.json) |
-| [IR-20261124-24](packages/IR-20261124-24.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-24-ChatGPT-20261124.json) |
-| [IR-20261124-25](packages/IR-20261124-25.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-25-ChatGPT-20261124.json) |
+| [IR-20261123-21](packages/IR-20261123-21.json) | closed | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261123-21-ChatGPT-20261124.json) |
+| [IR-20261124-22](packages/IR-20261124-22.json) | closed | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261124-22-ChatGPT-20261124.json) |
+| [IR-20261124-23](packages/IR-20261124-23.json) | closed | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261124-23-ChatGPT-20261124.json) |
+| [IR-20261124-24](packages/IR-20261124-24.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-24-ChatGPT-20261124.json) |
+| [IR-20261124-25](packages/IR-20261124-25.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-25-ChatGPT-20261124.json) |
 
 Незмінні пакети, SHA джерел, SHA-256 файлів, predecessors і історія станів — [queue.json](queue.json).
 
@@ -70,3 +70,7 @@
 ## IR-20261124-24
 
 Один оригінальний довгий текст C12 із випуску v229-C12s та три питання. Авторські оцінки в пакет не включено. Джерело — release commit `46620c08de0beaf4f2b52e2ea231b386dbe17a61`; Chromium 45247084752, branch data-check 45247084683 і main data-check 45248784951 успішні.
+
+## IR21–IR25 · 25 листопада 2026
+
+Вісім текстів і 18 питань закрито після звірки всіх полів із v229-C12t. [Докази](adjudications/20261125/IR21-IR25-closure.json).

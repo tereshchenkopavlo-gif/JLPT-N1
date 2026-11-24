@@ -1,0 +1,61 @@
+{
+  "main_commit": "1ecc627c3f0703fc894113d90b9951b4d455704f",
+  "html_sha256": "549436cc572864cc920df3a5ec1ccbe4c15989eb29abd3c54b5386a14a23b69b",
+  "browser_runs": [
+    45164462017,
+    45207734307,
+    45244675769,
+    45247084752,
+    45345023461
+  ],
+  "exact_current_fields": [
+    {
+      "package_id": "IR-20261123-21",
+      "case_id": "m-c12-20261123-24",
+      "fields_sha256": "fdf8661f3824bf4da1b7182ae885a723cfc2dcc44d84d2546ec6490ccf248de0",
+      "questions": 2
+    },
+    {
+      "package_id": "IR-20261123-21",
+      "case_id": "m-c12-20261123-25",
+      "fields_sha256": "82d8e52b1a3684d369dcb71f3b2aeb763d211b3a58a8af615f0da8e4536ac08d",
+      "questions": 2
+    },
+    {
+      "package_id": "IR-20261124-22",
+      "case_id": "m-c12-20261124-26",
+      "fields_sha256": "1aeeee2d53f675259a55db0c6c4382ea6509b72fa6e8354142b43418372c8c2e",
+      "questions": 2
+    },
+    {
+      "package_id": "IR-20261124-22",
+      "case_id": "m-c12-20261124-27",
+      "fields_sha256": "b34cfc2b54b234c4b12a5e61d47ad0f2d3f711b00aec45fc26c4d427d9f1f31f",
+      "questions": 2
+    },
+    {
+      "package_id": "IR-20261124-23",
+      "case_id": "m-c12-20261124-28",
+      "fields_sha256": "92bc8a8c383d51d85f80c75a80b8a52b7e4cf0e1cc8648955d40504fe60e9ec6",
+      "questions": 2
+    },
+    {
+      "package_id": "IR-20261124-23",
+      "case_id": "m-c12-20261124-29",
+      "fields_sha256": "1a8b28cd6ed8b447648670c0190fc3c592e7c695235df34266dc9b17d4b5224a",
+      "questions": 2
+    },
+    {
+      "package_id": "IR-20261124-24",
+      "case_id": "l-c12-20261124-30",
+      "fields_sha256": "8dd4cf70cbe1028953c754bd4fdff4b1817b687ff70958558462f40dfd6597a9",
+      "questions": 3
+    },
+    {
+      "package_id": "IR-20261124-25",
+      "case_id": "l-c12-20261124-31",
+      "fields_sha256": "c4f567649b4a3d3d410606b4522375d95e13ad4867fe7f5020663e6b8f065ba3",
+      "questions": 3
+    }
+  ]
+}
