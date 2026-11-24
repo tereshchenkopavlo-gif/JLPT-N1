@@ -1,0 +1,18 @@
+name: C12 IR20 explanation regression
+on:
+  push:
+    branches: [work/c12-ir20-explanation]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: python3 completion/c12-ir20/build.py
+      - run: node completion/c12-ir20/browser.cjs
