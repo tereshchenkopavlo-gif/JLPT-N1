@@ -872,6 +872,31 @@
         }
       ],
       "notes": "One original C12 batch-18 long reading and three questions from released v229-C12s."
+    },
+    {
+      "package_id": "IR-20261124-25",
+      "path": "packages/IR-20261124-25.json",
+      "package_sha256": "4cb070c202f4bdb83d60ba5683e4ca7b2e363fdfb6662c91339c5c23674d55ea",
+      "sources_sha256": "08c050c286ea38b10cf3b89c63b53d549145256c759daa2aaa12c51786651b9d",
+      "source_commits": [
+        "0088b75107da489f8d327214b51ade9c04ab935c"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-24"
+        }
+      ],
+      "notes": "One C12 batch-19 long reading and three questions from a browser-tested checkpoint."
     }
   ]
 }
