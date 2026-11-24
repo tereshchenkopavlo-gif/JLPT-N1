@@ -20,6 +20,11 @@ for block, field in (("VOCAB_POS_BY_ID", "pos"), ("REVIEWED_MEANING_QUIZZES", "q
             if field == "pos":
                 original_pos[key] = values[key]
             values[key] = value
+    if field == "quizzes":
+        reviewed = json.loads(Path(__file__).with_name("meaning-ir08-revisions.json").read_text())
+        for key, entry in reviewed.items():
+            assert set(values[key]["byExample"]) == set(entry["byExample"]), key
+            values[key] = entry
     candidate = candidate[:match.start(1)] + json.dumps(values, ensure_ascii=False) + candidate[match.end(1):]
 
 marker = "const REVIEWED_READING_OPTIONS ="
