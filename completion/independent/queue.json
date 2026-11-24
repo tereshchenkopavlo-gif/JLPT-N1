@@ -1030,6 +1030,32 @@
       "closed_case_ids": [
         "l-c12-20261124-31"
       ]
+    },
+    {
+      "package_id": "IR-20261125-26",
+      "path": "packages/IR-20261125-26.json",
+      "package_sha256": "ec80d2bb1f7621f7260c57ced25206f702e48bb3200c816a4ea2abf35cab01d1",
+      "sources_sha256": "bec40bd72ab4a384b570413e7ceb337f2f12ff6a127bb7fee496f37776285469",
+      "source_commits": [
+        "4d9663d35dbea9e5cb0b6e342939de6d9e961af7",
+        "942665bc1126de52728446aa8d6bae673f985cce"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261123-20",
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 1
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-25"
+        }
+      ],
+      "notes": "Scoped explanation recheck for IR20 following author correction and Chromium."
     }
   ]
 }
