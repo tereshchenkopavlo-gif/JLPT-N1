@@ -1,6 +1,6 @@
 # Черга незалежного мовного аудиту JLPT N1
 
-Наступний пакет — **IR-20261124-22**. До першого висновку читайте лише його матеріали.
+Усі опубліковані пакети мають рецензії.
 
 | Пакет | Статус | Обсяг | Рецензії |
 |---|---|---|---|
@@ -25,10 +25,10 @@
 | [IR-20261123-19](packages/IR-20261123-19.json) | review_received | 0 карток, 1 текстів, 0 питань | [JSON](reviews/IR-20261123-19-ChatGPT-20261124.json) |
 | [IR-20261123-20](packages/IR-20261123-20.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261123-20-ChatGPT-20261124.json) |
 | [IR-20261123-21](packages/IR-20261123-21.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261123-21-ChatGPT-20261124.json) |
-| [IR-20261124-22](packages/IR-20261124-22.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |
-| [IR-20261124-23](packages/IR-20261124-23.json) | pending_review | 0 карток, 2 текстів, 4 питань | Очікується |
-| [IR-20261124-24](packages/IR-20261124-24.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
-| [IR-20261124-25](packages/IR-20261124-25.json) | pending_review | 0 карток, 1 текстів, 3 питань | Очікується |
+| [IR-20261124-22](packages/IR-20261124-22.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261124-22-ChatGPT-20261124.json) |
+| [IR-20261124-23](packages/IR-20261124-23.json) | review_received | 0 карток, 2 текстів, 4 питань | [JSON](reviews/IR-20261124-23-ChatGPT-20261124.json) |
+| [IR-20261124-24](packages/IR-20261124-24.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-24-ChatGPT-20261124.json) |
+| [IR-20261124-25](packages/IR-20261124-25.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-25-ChatGPT-20261124.json) |
 
 Незмінні пакети, SHA джерел, SHA-256 файлів, predecessors і історія станів — [queue.json](queue.json).
 
