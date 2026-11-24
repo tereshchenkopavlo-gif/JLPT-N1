@@ -5953,3 +5953,7 @@ reading,l-c12-20261124-30,readingBank.long[71],reviewed,completion/c12-batch18/a
 reading_question,l-c12-20261124-30:q1,readingBank.long[71].questions[0],reviewed,completion/c12-batch18/acceptance.md; author review; Chromium 45247084752; independent pending
 reading_question,l-c12-20261124-30:q2,readingBank.long[71].questions[1],reviewed,completion/c12-batch18/acceptance.md; author review; Chromium 45247084752; independent pending
 reading_question,l-c12-20261124-30:q3,readingBank.long[71].questions[2],reviewed,completion/c12-batch18/acceptance.md; author review; Chromium 45247084752; independent pending
+reading,l-c12-20261124-31,readingBank.long[72],reviewed,completion/c12-batch19/acceptance.md; author review; Chromium 45345023461; independent IR25 pass on matching fields
+reading_question,l-c12-20261124-31:q1,readingBank.long[72].questions[0],reviewed,completion/c12-batch19/acceptance.md; author review; Chromium 45345023461; independent IR25 pass on matching fields
+reading_question,l-c12-20261124-31:q2,readingBank.long[72].questions[1],reviewed,completion/c12-batch19/acceptance.md; author review; Chromium 45345023461; independent IR25 pass on matching fields
+reading_question,l-c12-20261124-31:q3,readingBank.long[72].questions[2],reviewed,completion/c12-batch19/acceptance.md; author review; Chromium 45345023461; independent IR25 pass on matching fields
