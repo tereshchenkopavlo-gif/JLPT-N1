@@ -111,3 +111,5 @@ HTML v215: 6950166 байтів; SHA-256 f537227849b1dd5ac31577b641e05db4d3ab5af
 Опубліковано v214: 12 pending-карток, 13 точних змін у 12 картках, три уточнення японських дефініцій і дві пари, переглянуті без зміни тексту. Авторський credit — **3737/3914**. Реєстр після v214: 3918/392/1537 загалом, 3347/390/177 у словнику, 20/1/838 для пар. Deterministic build, Python/Node syntax, registry та Chromium acceptance (360/412/1280 px, storage round-trip, 0 page errors) пройшли. [Успішний workflow run 43482353153](https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/43482353153); publication commit 16c0d83abe9c0fb51a830543e4aed696ad55c97e. PR #39 закрито без злиття; [збережена робоча гілка v214](https://github.com/tereshchenkopavlo-gif/JLPT-N1/tree/work/v214-c10-next-pending).
 
 Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
+
+Поточний випуск C12 — [повний HTML](./JLPT_N1_ukrainian_reading_v229_C12w.html) і [звіт](./JLPT_N1_v229_C12w_audit.md).
