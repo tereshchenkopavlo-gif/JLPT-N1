@@ -1,0 +1,39 @@
+name: Publish verified C12 batch 20
+on:
+  push:
+    branches: [work/c12-batch20-checkpoint]
+    paths: ['.github/workflows/c12-batch20-publish.yml']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild and verify exact accepted bytes
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = "0f83aa1cfd1a10919c980150b9a15435ef6e97d3"
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "1ecc627c3f0703fc894113d90b9951b4d455704f"
+          python3 completion/c12-batch20/build-candidate.py
+          printf '%s  %s\n' '2b117b144f5691d47e1bed8752bd5aaeebdd0eb1496a27041f841c767d8ce3db' 'completion/c12-batch20/JLPT_N1_C12_candidate_UNACCEPTED.html' | sha256sum -c -
+      - name: Publish checked release
+        run: |
+          set -euo pipefail
+          release_dir=$(mktemp -d)
+          git worktree add --detach "$release_dir" "1ecc627c3f0703fc894113d90b9951b4d455704f"
+          mkdir -p "$release_dir/completion/c12-batch20"
+          cp completion/c12-batch20/{acceptance.md,checkpoint.md,build-candidate.py,drafts.json,browser.cjs,record-release.py} "$release_dir/completion/c12-batch20/"
+          cp completion/c12-batch20/JLPT_N1_C12_candidate_UNACCEPTED.html "$release_dir/JLPT_N1_ukrainian_reading_v229_C12u.html"
+          cp completion/c12-batch20/release-notes.md "$release_dir/JLPT_N1_v229_C12u_audit.md"
+          cd "$release_dir"
+          python3 completion/c12-batch20/record-release.py
+          git add JLPT_N1_ukrainian_reading_v229_C12u.html JLPT_N1_v229_C12u_audit.md completion/c12-batch20 completion/review-register.csv completion/BACKLOG.md PROJECT_STATUS.md
+          git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -m 'Release verified C12 batch 20'
+          git push origin HEAD:refs/heads/main
