@@ -1056,6 +1056,31 @@
         }
       ],
       "notes": "Scoped explanation recheck for IR20 following author correction and Chromium."
+    },
+    {
+      "package_id": "IR-20261125-27",
+      "path": "packages/IR-20261125-27.json",
+      "package_sha256": "1907a21f820ff1b46f417f89a304bcf91c33ede871ab79943d275d7b6b4cf6ca",
+      "sources_sha256": "674caba57fd3b73fdcbe8fafdee3d1f642955d25854875f76e4a27601c612c69",
+      "source_commits": [
+        "0f83aa1cfd1a10919c980150b9a15435ef6e97d3"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-25"
+        }
+      ],
+      "notes": "One original C12 batch-20 long reading and three questions, browser-tested."
     }
   ]
 }
