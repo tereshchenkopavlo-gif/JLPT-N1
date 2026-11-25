@@ -30,7 +30,7 @@
 | [IR-20261124-24](packages/IR-20261124-24.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-24-ChatGPT-20261124.json) |
 | [IR-20261124-25](packages/IR-20261124-25.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261124-25-ChatGPT-20261124.json) |
 | [IR-20261125-26](packages/IR-20261125-26.json) | review_received | 0 карток, 1 текстів, 1 питань | [JSON](reviews/IR-20261125-26-ChatGPT-20261125.json) |
-| [IR-20261125-27](packages/IR-20261125-27.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261125-27-ChatGPT-20261125.json) |
+| [IR-20261125-27](packages/IR-20261125-27.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261125-27-ChatGPT-20261125.json) |
 
 Незмінні пакети, SHA джерел, SHA-256 файлів, predecessors і історія станів — [queue.json](queue.json).
 

@@ -1075,7 +1075,7 @@
       "source_commits": [
         "0f83aa1cfd1a10919c980150b9a15435ef6e97d3"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -1098,9 +1098,17 @@
           "status": "review_received",
           "date": "2026-11-25",
           "review": "reviews/IR-20261125-27-ChatGPT-20261125.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-25",
+          "evidence": "adjudications/20261125/IR27-closure.json"
         }
       ],
-      "notes": "One original C12 batch-20 long reading and three questions, browser-tested."
+      "notes": "One original C12 batch-20 long reading and three questions, browser-tested. Full independent pass; all fields match published v229-C12u.",
+      "closed_case_ids": [
+        "l-c12-20261125-32"
+      ]
     }
   ]
 }
