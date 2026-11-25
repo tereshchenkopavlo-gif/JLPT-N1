@@ -1040,7 +1040,7 @@
         "4d9663d35dbea9e5cb0b6e342939de6d9e961af7",
         "942665bc1126de52728446aa8d6bae673f985cce"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": "IR-20261123-20",
       "scope": {
         "vocab_ids": [],
@@ -1063,9 +1063,17 @@
           "status": "review_received",
           "date": "2026-11-25",
           "review": "reviews/IR-20261125-26-ChatGPT-20261125.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-25",
+          "evidence": "adjudications/20261125/IR26-closure.json"
         }
       ],
-      "notes": "Scoped explanation recheck for IR20 following author correction and Chromium."
+      "notes": "Scoped explanation recheck for IR20 following author correction and Chromium. Independent pass and exact published match for questions[0].explain only.",
+      "closed_case_ids": [
+        "m-c12-20261123-23"
+      ]
     },
     {
       "package_id": "IR-20261125-27",

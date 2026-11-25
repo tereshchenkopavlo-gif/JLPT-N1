@@ -3778,5 +3778,28 @@
     "exclusions": [],
     "evidence": "completion/independent/reviews/IR-20261125-27-ChatGPT-20261125.json",
     "adjudication": "adjudications/20261125/IR27-closure.json"
+  },
+  {
+    "package_id": "IR-20261125-26",
+    "case_id": "m-c12-20261123-23",
+    "reviewed_field": "questions[0].explain",
+    "reviewer_verdict": "pass",
+    "source_sha256": "bec40bd72ab4a384b570413e7ceb337f2f12ff6a127bb7fee496f37776285469",
+    "reviewed_value_sha256": "43f3440584cf2c4b19511cbbf239c015b6342754bc85d24200541e1ab9f0e01f",
+    "status": "independent_reviewed_revision",
+    "exclusions": [
+      "id",
+      "title",
+      "ja",
+      "uk",
+      "contextNotes",
+      "questions[0].prompt",
+      "questions[0].choices",
+      "questions[0].answer",
+      "questions[0].evidence",
+      "questions[1]"
+    ],
+    "evidence": "completion/independent/reviews/IR-20261125-26-ChatGPT-20261125.json",
+    "adjudication": "adjudications/20261125/IR26-closure.json"
   }
 ]

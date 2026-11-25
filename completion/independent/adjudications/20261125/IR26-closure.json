@@ -1,0 +1,26 @@
+{
+  "main_commit": "4db09a3a02e8aef4bb54db227220b756e8ce5d2f",
+  "html_sha256": "785c52490ea29cc3d65d86306ed098edd87444ff0df814ed694cf4d5461cea96",
+  "browser_runs": [
+    45558651456
+  ],
+  "case_id": "m-c12-20261123-23",
+  "review_scope": [
+    "questions[0].explain"
+  ],
+  "unchecked_fields": [
+    "id",
+    "title",
+    "ja",
+    "uk",
+    "contextNotes",
+    "questions[0].prompt",
+    "questions[0].choices",
+    "questions[0].answer",
+    "questions[0].evidence",
+    "questions[1]"
+  ],
+  "reviewed_value_sha256": "43f3440584cf2c4b19511cbbf239c015b6342754bc85d24200541e1ab9f0e01f",
+  "sources_sha256": "bec40bd72ab4a384b570413e7ceb337f2f12ff6a127bb7fee496f37776285469",
+  "review_sha256": "d5a5da6700eab0f1496088d8be7f43b5bcf6521ba8649312283c049f8e3112f7"
+}
