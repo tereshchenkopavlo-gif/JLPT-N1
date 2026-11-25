@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "id": "m-c12-20261123-23",
+      "width": 360,
+      "questions": 2,
+      "choices": 8,
+      "overflow": false
+    },
+    {
+      "id": "m-c12-20261123-23",
+      "width": 412,
+      "questions": 2,
+      "choices": 8,
+      "overflow": false
+    },
+    {
+      "id": "m-c12-20261123-23",
+      "width": 1280,
+      "questions": 2,
+      "choices": 8,
+      "overflow": false
+    }
+  ],
+  "pageErrors": []
+}
