@@ -1,0 +1,37 @@
+name: C12 IR26 verified release
+on:
+  push:
+    branches: [work/c12-ir26-release]
+permissions:
+  contents: write
+jobs:
+  verify-and-publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - run: |
+          python3 completion/c12-ir26/build.py
+          echo '785c52490ea29cc3d65d86306ed098edd87444ff0df814ed694cf4d5461cea96  completion/c12-ir26/JLPT_N1_ukrainian_reading_v229_C12v.html' | sha256sum -c -
+          node completion/c12-ir26/browser.cjs
+      - run: |
+          git fetch origin main
+          test "$(git rev-parse FETCH_HEAD)" = 'f70dbd622b2d8fa48836dfcb30d7fc9ea49c4fb0'
+          git worktree add --detach "$RUNNER_TEMP/ir26" FETCH_HEAD
+          mkdir -p "$RUNNER_TEMP/ir26/completion/c12-ir26"
+          cp completion/c12-ir26/JLPT_N1_ukrainian_reading_v229_C12v.html "$RUNNER_TEMP/ir26/"
+          cp completion/c12-ir26/{acceptance.md,independent-review.json,browser-results.json,build.py,patch.json,browser.cjs} "$RUNNER_TEMP/ir26/completion/c12-ir26/"
+          cp PROJECT_STATUS.md "$RUNNER_TEMP/ir26/"
+          cp completion/BACKLOG.md "$RUNNER_TEMP/ir26/completion/"
+          cd "$RUNNER_TEMP/ir26"
+          git add -- JLPT_N1_ukrainian_reading_v229_C12v.html PROJECT_STATUS.md completion/BACKLOG.md completion/c12-ir26
+          git diff --cached --check
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Release independently accepted C12 explanation correction'
+          git push origin HEAD:refs/heads/main
