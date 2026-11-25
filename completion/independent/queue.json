@@ -1117,6 +1117,31 @@
       "closed_case_ids": [
         "l-c12-20261125-32"
       ]
+    },
+    {
+      "package_id": "IR-20261125-28",
+      "path": "packages/IR-20261125-28.json",
+      "package_sha256": "146fb17bb7030af1d716c8a105deb151f4615bff4255cbd2eb56158196bd56d8",
+      "sources_sha256": "78af047b4c581080b07a785cd3a7da4551d397fc5b5d04366d49beaa995ded3e",
+      "source_commits": [
+        "0d4e30960a5fed815246d9aacb5d72c6358cd6a7"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-25"
+        }
+      ],
+      "notes": "C12 batch 21. One original long reading and three questions."
     }
   ]
 }
