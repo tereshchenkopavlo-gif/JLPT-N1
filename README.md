@@ -113,3 +113,5 @@ HTML v215: 6950166 байтів; SHA-256 f537227849b1dd5ac31577b641e05db4d3ab5af
 Незалежне лінгвістичне, фізичне Android/Windows та правове/походження приймання залишаються відкритими.
 
 Поточний випуск C12 — [повний HTML](./JLPT_N1_ukrainian_reading_v229_C12w.html) і [звіт](./JLPT_N1_v229_C12w_audit.md).
+
+Поточний випуск C12 — [повний HTML](./JLPT_N1_ukrainian_reading_v229_C12x.html) і [звіт](./JLPT_N1_v229_C12x_audit.md).
