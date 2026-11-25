@@ -5957,3 +5957,7 @@ reading,l-c12-20261124-31,readingBank.long[72],reviewed,completion/c12-batch19/a
 reading_question,l-c12-20261124-31:q1,readingBank.long[72].questions[0],reviewed,completion/c12-batch19/acceptance.md; author review; Chromium 45345023461; independent IR25 pass on matching fields
 reading_question,l-c12-20261124-31:q2,readingBank.long[72].questions[1],reviewed,completion/c12-batch19/acceptance.md; author review; Chromium 45345023461; independent IR25 pass on matching fields
 reading_question,l-c12-20261124-31:q3,readingBank.long[72].questions[2],reviewed,completion/c12-batch19/acceptance.md; author review; Chromium 45345023461; independent IR25 pass on matching fields
+reading,l-c12-20261125-32,readingBank.long[73],reviewed,completion/c12-batch20/acceptance.md; author review; Chromium 45515009349; independent pending
+reading_question,l-c12-20261125-32:q1,readingBank.long[73].questions[0],reviewed,completion/c12-batch20/acceptance.md; author review; Chromium 45515009349; independent pending
+reading_question,l-c12-20261125-32:q2,readingBank.long[73].questions[1],reviewed,completion/c12-batch20/acceptance.md; author review; Chromium 45515009349; independent pending
+reading_question,l-c12-20261125-32:q3,readingBank.long[73].questions[2],reviewed,completion/c12-batch20/acceptance.md; author review; Chromium 45515009349; independent pending
