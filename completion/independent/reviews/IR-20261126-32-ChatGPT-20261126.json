@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261126-32",
+  "sources_sha256": "2d1d503eaa8a8f08d82650160f6187bc9aa9ea31587fb3bab391cbef191311b9",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-linguistic-20261126-IR-20261126-32",
+    "reviewed_at": "2026-11-26",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "l-c12-20261126-37",
+      "checked_fields": [
+        "id",
+        "title",
+        "ja",
+        "uk",
+        "contextNotes",
+        "questions"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
