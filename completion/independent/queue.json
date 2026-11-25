@@ -1040,7 +1040,7 @@
         "4d9663d35dbea9e5cb0b6e342939de6d9e961af7",
         "942665bc1126de52728446aa8d6bae673f985cce"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": "IR-20261123-20",
       "scope": {
         "vocab_ids": [],
@@ -1048,11 +1048,21 @@
         "readings": 1,
         "reading_questions": 1
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261125-26-ChatGPT-20261125.json",
+          "sha256": "d5a5da6700eab0f1496088d8be7f43b5bcf6521ba8649312283c049f8e3112f7"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-25"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-25",
+          "review": "reviews/IR-20261125-26-ChatGPT-20261125.json"
         }
       ],
       "notes": "Scoped explanation recheck for IR20 following author correction and Chromium."
@@ -1065,7 +1075,7 @@
       "source_commits": [
         "0f83aa1cfd1a10919c980150b9a15435ef6e97d3"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -1073,11 +1083,21 @@
         "readings": 1,
         "reading_questions": 3
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261125-27-ChatGPT-20261125.json",
+          "sha256": "5687736c85a3e20e198e9634fe455abcf0d0ef5b9eb285c9209a7b830af9f991"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-25"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-25",
+          "review": "reviews/IR-20261125-27-ChatGPT-20261125.json"
         }
       ],
       "notes": "One original C12 batch-20 long reading and three questions, browser-tested."
