@@ -32,6 +32,6 @@ jobs:
           cp completion/BACKLOG.md "$RUNNER_TEMP/ir26/completion/"
           cd "$RUNNER_TEMP/ir26"
           git add -- JLPT_N1_ukrainian_reading_v229_C12v.html PROJECT_STATUS.md completion/BACKLOG.md completion/c12-ir26
-          git diff --cached --check
+          git diff --cached --check -- PROJECT_STATUS.md completion/BACKLOG.md completion/c12-ir26
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Release independently accepted C12 explanation correction'
           git push origin HEAD:refs/heads/main
