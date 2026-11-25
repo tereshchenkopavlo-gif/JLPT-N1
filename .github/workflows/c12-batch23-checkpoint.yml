@@ -1,0 +1,48 @@
+name: C12 batch 23 browser
+on:
+  push:
+    branches: [work/c12-batch23-checkpoint]
+permissions:
+  contents: write
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: python3 completion/c12-batch23/build-candidate.py
+      - run: node completion/c12-batch23/browser.cjs
+      - run: |
+          f=JLPT_N1_ukrainian_reading_v229_C12y.html
+          a=JLPT_N1_v229_C12y_audit.md
+          candidate=completion/c12-batch23/JLPT_N1_C12_candidate_UNACCEPTED.html
+          echo "e95c7bac8470d4d5b0689af08bc81189d833a029205b01fee1b092c51f7cd731  $candidate" | sha256sum -c -
+          git fetch origin main
+          test "$(git rev-parse FETCH_HEAD)" = 'a63d4376dbe01997a33d40f28907f7c864aa2248'
+          dest="$RUNNER_TEMP/release"
+          git worktree add --detach "$dest" FETCH_HEAD
+          mkdir -p "$dest/completion/c12-batch23"
+          cp "$candidate" "$dest/$f"
+          cp completion/c12-batch23/{drafts.json,build-candidate.py,browser.cjs,record-release.py,checkpoint.md,browser-results.json,integration-results.json} "$dest/completion/c12-batch23/"
+          cd "$dest"
+          cat > "$a" <<'EOF'
+          # v229-C12y · партія 23 — 25 листопада 2026
+
+          Додано 「空席のまま残す窓口」, повний український переклад і три питання. Банк містить 120 середніх і 77 довгих текстів. До цілі C12 залишилося три довгі текстів. Основний реєстр — 5974 позиції, словниковий аудит — 3897/3914.
+
+          Авторський перегляд охопив зміст, переклад, ключі, альтернативи та буквальні опори. Збірка перевірила синтаксис JS, попередні тексти й побайтовий відкат. Chromium перевірив відображення, ключі й пояснення на 360, 412 і 1280 px. IR28 та IR29 закриті окремо. Незалежне мовне приймання цієї партії та перевірка на фізичних пристроях відкриті.
+
+          SHA-256 HTML `e95c7bac8470d4d5b0689af08bc81189d833a029205b01fee1b092c51f7cd731`. Основа `a63d4376dbe01997a33d40f28907f7c864aa2248`.
+          EOF
+          printf '\n[Журнал перевірок](https://github.com/%s/actions/runs/%s)\n' "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> "$a"
+          cp "$a" completion/c12-batch23/acceptance.md
+          python3 completion/c12-batch23/record-release.py
+          printf '\nПоточний випуск C12 — [повний HTML](./%s) і [звіт](./%s).\n' "$f" "$a" >> README.md
+          git add -- "$f" "$a" README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/c12-batch23
+          git diff --cached --check -- . ":(exclude)$f"
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Release verified C12 batch 23'
+          git push origin HEAD:refs/heads/main
