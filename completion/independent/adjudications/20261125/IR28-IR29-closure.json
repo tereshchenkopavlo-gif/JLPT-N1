@@ -1,0 +1,24 @@
+{
+  "main_commit": "a63d4376dbe01997a33d40f28907f7c864aa2248",
+  "html_sha256": "ec99afb9fcd2e64463388d5b66ad2c80708d3b731aa7074f41c276bfb2d2e8b3",
+  "browser_runs": [
+    45582090857,
+    45610346974
+  ],
+  "exact_current_fields": [
+    {
+      "package_id": "IR-20261125-28",
+      "case_id": "l-c12-20261125-33",
+      "fields_sha256": "2210ddd0792b47b12e4f9faa1fda58a165889f2315c7ca2160d4f4c330885ced",
+      "questions": 3,
+      "review_sha256": "33fd7cd955f92dccd7354f6e2b3dd6fa83358dc1f18d6346097b96713ba4a2fe"
+    },
+    {
+      "package_id": "IR-20261125-29",
+      "case_id": "l-c12-20261125-34",
+      "fields_sha256": "42805019653af562fba10f84bf503e6587a111d2489237cd6a790a7fef9c93fe",
+      "questions": 3,
+      "review_sha256": "8b5c8139f2ed2f23dc97eed306cf23d0c6bc20a13afb82362e25b64ac554d129"
+    }
+  ]
+}
