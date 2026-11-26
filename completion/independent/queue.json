@@ -1385,7 +1385,7 @@
         "34895721e4852cda577abf22abc8e1f8360670bc",
         "ec3e476967a6445e0e4f31e04ba04e11836fa192"
       ],
-      "status": "pending_review",
+      "status": "review_received",
       "predecessor": "IR-20261121-08",
       "scope": {
         "vocab_ids": [
@@ -1396,14 +1396,24 @@
         "readings": 0,
         "reading_questions": 0
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261126-34-ChatGPT-20261126.json",
+          "sha256": "a94c819d2a4212313e2cef7b63e45f8b7dca465034b6747c26d36b8da3184857"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-26"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-27",
+          "review": "reviews/IR-20261126-34-ChatGPT-20261126.json"
         }
       ],
-      "notes": "Focused C11 recheck of two meaning exercises. Also follows IR01; review_scope fixes exact examples."
+      "notes": "Focused C11 recheck of two meaning exercises. Also follows IR01; review_scope fixes exact examples. Both exercises passed and match the revised working candidate exactly. Published integration pending."
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "package_id": "IR-20261126-34",
+  "review_commit": "37ebcf414a690a13932f07230bf9f9567d9c1ebe",
+  "candidate_source_commit": "ec3e476967a6445e0e4f31e04ba04e11836fa192",
+  "revisions_commit": "34895721e4852cda577abf22abc8e1f8360670bc",
+  "package_sha256": "6711b5f390ca3db10ec285b748d773cd17b61a2a9ffdcb2401d2afd1b7ca2390",
+  "review_sha256": "a94c819d2a4212313e2cef7b63e45f8b7dca465034b6747c26d36b8da3184857",
+  "rows": [
+    {
+      "case_id": "v_3375",
+      "field": "meaning_quiz.byExample[\"当面は現状維持を図りつつ、改革の機会を探る。\"]",
+      "value_sha256": "b2c49041c6563ea69d5697275a3a719d9aeef51abebac1145ffeaf123e4a6f13"
+    },
+    {
+      "case_id": "v_3441",
+      "field": "meaning_quiz.byExample[\"日差しが心地よくて、縁側でとろとろと居眠りをした。\"]",
+      "value_sha256": "c43c6f3ece612296a7c76f4d3369a91f823271876235432619c162a765b6cfff"
+    }
+  ],
+  "registry_credit_applied": false
+}
