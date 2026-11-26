@@ -1,0 +1,16 @@
+{
+  "main_commit": "fbf4232fa86e47c53aa651dcf57e452d60f2ce94",
+  "html_sha256": "c76aeb70f628123e35766055c5bcbc3e9f542b1c39f578405f7df32879458707",
+  "browser_runs": [
+    45725840525
+  ],
+  "exact_current_fields": [
+    {
+      "package_id": "IR-20261126-33",
+      "case_id": "l-c12-20261126-38",
+      "fields_sha256": "8f973a8738f1f3759c35977952b14073a402fcd7c1e821d08fa04ead494ce6dd",
+      "questions": 3,
+      "review_sha256": "bb6e8f367f0db94545e8636c506bbb9b9674e9e29e1656ccd251669aaa17d41e"
+    }
+  ]
+}

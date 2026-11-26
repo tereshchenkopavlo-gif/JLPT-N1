@@ -4161,5 +4161,77 @@
     "exclusions": [],
     "evidence": "completion/independent/reviews/IR-20261126-32-ChatGPT-20261126.json",
     "adjudication": "adjudications/20261126/IR30-IR32-closure.json"
+  },
+  {
+    "package_id": "IR-20261126-33",
+    "case_id": "l-c12-20261126-38",
+    "reviewed_field": "id",
+    "reviewer_verdict": "pass",
+    "source_sha256": "fe1ca9871519faabfa380b20dfcf1497abc127e749d9811e4c7982561be76adb",
+    "reviewed_value_sha256": "c333d126fd41269c16fdbd2d9ac6b5013f4dc68fc4bddc06ab08275406ec1f1f",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261126-33-ChatGPT-20261126.json",
+    "adjudication": "adjudications/20261126/IR33-closure.json"
+  },
+  {
+    "package_id": "IR-20261126-33",
+    "case_id": "l-c12-20261126-38",
+    "reviewed_field": "title",
+    "reviewer_verdict": "pass",
+    "source_sha256": "fe1ca9871519faabfa380b20dfcf1497abc127e749d9811e4c7982561be76adb",
+    "reviewed_value_sha256": "d359dcc0bf3097afcb98aa7271857fc530fc94515b68eaae572c1d4ab8c8ecd5",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261126-33-ChatGPT-20261126.json",
+    "adjudication": "adjudications/20261126/IR33-closure.json"
+  },
+  {
+    "package_id": "IR-20261126-33",
+    "case_id": "l-c12-20261126-38",
+    "reviewed_field": "ja",
+    "reviewer_verdict": "pass",
+    "source_sha256": "fe1ca9871519faabfa380b20dfcf1497abc127e749d9811e4c7982561be76adb",
+    "reviewed_value_sha256": "e214ec0a6510d59292dae69badc4887e24a373a0f877bc240d1df9f240d7371b",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261126-33-ChatGPT-20261126.json",
+    "adjudication": "adjudications/20261126/IR33-closure.json"
+  },
+  {
+    "package_id": "IR-20261126-33",
+    "case_id": "l-c12-20261126-38",
+    "reviewed_field": "uk",
+    "reviewer_verdict": "pass",
+    "source_sha256": "fe1ca9871519faabfa380b20dfcf1497abc127e749d9811e4c7982561be76adb",
+    "reviewed_value_sha256": "4fc69a7440d0c64568626c82047011408343d574ada6284f3f6e89c1572284f5",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261126-33-ChatGPT-20261126.json",
+    "adjudication": "adjudications/20261126/IR33-closure.json"
+  },
+  {
+    "package_id": "IR-20261126-33",
+    "case_id": "l-c12-20261126-38",
+    "reviewed_field": "contextNotes",
+    "reviewer_verdict": "pass",
+    "source_sha256": "fe1ca9871519faabfa380b20dfcf1497abc127e749d9811e4c7982561be76adb",
+    "reviewed_value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261126-33-ChatGPT-20261126.json",
+    "adjudication": "adjudications/20261126/IR33-closure.json"
+  },
+  {
+    "package_id": "IR-20261126-33",
+    "case_id": "l-c12-20261126-38",
+    "reviewed_field": "questions",
+    "reviewer_verdict": "pass",
+    "source_sha256": "fe1ca9871519faabfa380b20dfcf1497abc127e749d9811e4c7982561be76adb",
+    "reviewed_value_sha256": "512d936f89603f27ff5431fbc85cedbe63de8397d9ab8a00505ab6decd942bd4",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261126-33-ChatGPT-20261126.json",
+    "adjudication": "adjudications/20261126/IR33-closure.json"
   }
 ]
