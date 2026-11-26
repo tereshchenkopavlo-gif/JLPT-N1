@@ -1,0 +1,25 @@
+name: C11 current-base diagnostics
+on:
+  push:
+    branches: [work/c11-final-audit]
+    paths: ['completion/c11-candidate/**', 'completion/c11-meaning-key-revisions.json', '.github/workflows/c11-current-base.yml']
+permissions:
+  contents: read
+jobs:
+  diagnostic:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          old=https://raw.githubusercontent.com/tereshchenkopavlo-gif/JLPT-N1/ec3e476967a6445e0e4f31e04ba04e11836fa192
+          curl -fsSL "$old/JLPT_N1_ukrainian_reading_v229.html" -o ancestor.html
+          curl -fsSL "$old/JLPT_N1_ukrainian_reading_v230.html" -o candidate.html
+          curl -fsSL https://raw.githubusercontent.com/tereshchenkopavlo-gif/JLPT-N1/fbf4232fa86e47c53aa651dcf57e452d60f2ce94/JLPT_N1_ukrainian_reading_v229_C12ab.html -o current.html
+          python3 completion/c11-candidate/build.py
+      - run: |
+          npm install --no-save --package-lock=false playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - run: node completion/c11-candidate/pools.cjs
