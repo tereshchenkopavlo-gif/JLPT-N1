@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261126-34",
+  "sources_sha256": "95cc487fdd55d3bcc135da5460db21bf633a202c94d79d7143ea3934a5818bca",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-vocab-20261126-IR34",
+    "reviewed_at": "2026-11-26",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "v_3375",
+      "checked_fields": [
+        "meaning_quiz.byExample[\"当面は現状維持を図りつつ、改革の機会を探る。\"]"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "case_id": "v_3441",
+      "checked_fields": [
+        "meaning_quiz.byExample[\"日差しが心地よくて、縁側でとろとろと居眠りをした。\"]"
+      ],
+      "unchecked_fields": [],
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
