@@ -1414,6 +1414,34 @@
         }
       ],
       "notes": "Focused C11 recheck of two meaning exercises. Also follows IR01; review_scope fixes exact examples. Both exercises passed and match the revised working candidate exactly. Published integration pending."
+    },
+    {
+      "package_id": "IR-20261127-35",
+      "path": "packages/IR-20261127-35.json",
+      "package_sha256": "87dfb114991eb1df72d94bebc66e809d8f540d3fb19e529c41db7ebfb81832dc",
+      "sources_sha256": "e89b83c3ef4ef1c002cf0168ead0fd4cdced251b96ec8f59ef61b06b6312d583",
+      "source_commits": [
+        "8d7b00ac8b8edbb9b2fc90efdf3bdb85f3997743",
+        "fbf4232fa86e47c53aa651dcf57e452d60f2ce94"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [
+          1510
+        ],
+        "meaning_contexts": 0,
+        "readings": 0,
+        "reading_questions": 0
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-27"
+        }
+      ],
+      "notes": "ID1510 isolated Ukrainian gloss; scope details.t only."
     }
   ]
 }
