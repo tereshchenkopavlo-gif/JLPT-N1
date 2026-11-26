@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261126-34",
+  "instructions": "Незалежно перевір два наведені завдання meaning. Оціни точність ключа для виділеного в реченні слова, єдиність відповіді, правдоподібність трьох альтернатив і відповідність української примітки. У coverage вказуй лише наведені вправи. Працюй без авторських висновків та попередніх рецензій.",
+  "sources_sha256": "95cc487fdd55d3bcc135da5460db21bf633a202c94d79d7143ea3934a5818bca",
+  "scope": {
+    "vocab_ids": [
+      3375,
+      3441
+    ],
+    "meaning_contexts": 2,
+    "readings": 0,
+    "reading_questions": 0
+  },
+  "cases": [
+    {
+      "case_id": "v_3375",
+      "kind": "vocab",
+      "sources": [
+        {
+          "commit": "ec3e476967a6445e0e4f31e04ba04e11836fa192",
+          "path": "JLPT_N1_ukrainian_reading_v230.html"
+        },
+        {
+          "commit": "34895721e4852cda577abf22abc8e1f8360670bc",
+          "path": "completion/c11-meaning-key-revisions.json"
+        }
+      ],
+      "fields": {
+        "meaning_quiz": {
+          "byExample": {
+            "当面は現状維持を図りつつ、改革の機会を探る。": {
+              "correct": "今からしばらくの間に限って、ということ。",
+              "wrong": [
+                "これまでの経緯を踏まえ、過去の状態に戻すこと。",
+                "将来の一定期間を終えた後に、方針を変えること。",
+                "期限を設けず、永久に同じ状態を保つこと。"
+              ],
+              "note": "当面は — наразі, поки що; це не означає ані повернення до минулого, ані незмінність назавжди."
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "v_3441",
+      "kind": "vocab",
+      "sources": [
+        {
+          "commit": "ec3e476967a6445e0e4f31e04ba04e11836fa192",
+          "path": "JLPT_N1_ukrainian_reading_v230.html"
+        },
+        {
+          "commit": "34895721e4852cda577abf22abc8e1f8360670bc",
+          "path": "completion/c11-meaning-key-revisions.json"
+        }
+      ],
+      "fields": {
+        "meaning_quiz": {
+          "byExample": {
+            "日差しが心地よくて、縁側でとろとろと居眠りをした。": {
+              "correct": "眠気に誘われ、うとうとと浅い眠りに入るさま。",
+              "wrong": [
+                "眠気がなく、意識がはっきりしているさま。",
+                "深く眠り込み、周囲の物音にも気づかないさま。",
+                "眠らずに目を閉じ、考え事を続けているさま。"
+              ],
+              "note": "とろとろと居眠りする — легко дрімати; не міцно спати й не просто заплющувати очі."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "return_template": {
+    "schema_version": 1,
+    "package_id": "IR-20261126-34",
+    "sources_sha256": "95cc487fdd55d3bcc135da5460db21bf633a202c94d79d7143ea3934a5818bca",
+    "reviewer": {
+      "system": "ChatGPT",
+      "session": "",
+      "reviewed_at": "",
+      "participated_in_authoring": false
+    },
+    "cases": [
+      {
+        "case_id": "v_3375",
+        "checked_fields": [],
+        "unchecked_fields": [
+          "meaning_quiz.byExample[\"当面は現状維持を図りつつ、改革の機会を探る。\"]"
+        ],
+        "verdict": "not_reviewed",
+        "findings": []
+      },
+      {
+        "case_id": "v_3441",
+        "checked_fields": [],
+        "unchecked_fields": [
+          "meaning_quiz.byExample[\"日差しが心地よくて、縁側でとろとろと居眠りをした。\"]"
+        ],
+        "verdict": "not_reviewed",
+        "findings": []
+      }
+    ],
+    "finding_format": {
+      "field_path": "",
+      "severity": "minor|major|critical",
+      "confidence": "high|medium|low",
+      "claim": "",
+      "evidence": "",
+      "sources": [],
+      "proposed_change": ""
+    },
+    "allowed_verdicts": [
+      "pass",
+      "issues",
+      "uncertain",
+      "not_reviewed"
+    ]
+  },
+  "predecessors": [
+    "IR-20261120-01",
+    "IR-20261121-08"
+  ],
+  "review_scope": {
+    "v_3375": [
+      "meaning_quiz.byExample[\"当面は現状維持を図りつつ、改革の機会を探る。\"]"
+    ],
+    "v_3441": [
+      "meaning_quiz.byExample[\"日差しが心地よくて、縁側でとろとろと居眠りをした。\"]"
+    ]
+  }
+}

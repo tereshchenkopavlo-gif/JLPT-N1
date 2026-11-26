@@ -1375,6 +1375,35 @@
       "closed_case_ids": [
         "l-c12-20261126-38"
       ]
+    },
+    {
+      "package_id": "IR-20261126-34",
+      "path": "packages/IR-20261126-34.json",
+      "package_sha256": "6711b5f390ca3db10ec285b748d773cd17b61a2a9ffdcb2401d2afd1b7ca2390",
+      "sources_sha256": "95cc487fdd55d3bcc135da5460db21bf633a202c94d79d7143ea3934a5818bca",
+      "source_commits": [
+        "34895721e4852cda577abf22abc8e1f8360670bc",
+        "ec3e476967a6445e0e4f31e04ba04e11836fa192"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261121-08",
+      "scope": {
+        "vocab_ids": [
+          3375,
+          3441
+        ],
+        "meaning_contexts": 2,
+        "readings": 0,
+        "reading_questions": 0
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-26"
+        }
+      ],
+      "notes": "Focused C11 recheck of two meaning exercises. Also follows IR01; review_scope fixes exact examples."
     }
   ]
 }
