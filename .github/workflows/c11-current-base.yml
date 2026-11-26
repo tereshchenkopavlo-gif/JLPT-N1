@@ -19,6 +19,7 @@ jobs:
           curl -fsSL "$old/JLPT_N1_ukrainian_reading_v230.html" -o candidate.html
           curl -fsSL https://raw.githubusercontent.com/tereshchenkopavlo-gif/JLPT-N1/fbf4232fa86e47c53aa651dcf57e452d60f2ce94/JLPT_N1_ukrainian_reading_v229_C12ab.html -o current.html
           python3 completion/c11-candidate/build.py
+          python3 completion/c11-candidate/cloze-opt-in.py
       - run: |
           npm install --no-save --package-lock=false playwright@1.58.2
           npx playwright install --with-deps chromium
