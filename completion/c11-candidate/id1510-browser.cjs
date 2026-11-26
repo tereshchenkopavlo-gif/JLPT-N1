@@ -55,7 +55,7 @@ const fs = require("node:fs");
         await openCardDetail("v", "1510");
       });
       assert.ok(await page.locator("#cardDetailBody").isVisible());
-      assert.match(await page.locator("#cardDetailBody").innerText(), /спільне самогубство; спільна загибель; перен\. разом зазнати краху/);
+      assert.match((await page.locator("#cardDetailBody").innerText()).replace(/\s+/g, " "), /спільне самогубство; спільна загибель; перен\. разом зазнати краху/);
     }
     assert.deepEqual(errors, []);
     console.log(JSON.stringify({id: 1510, widths: [360,412,1280], meaningContexts: baseline.contexts.length, unchangedExerciseOptions: true, restoredProgress: true}));
