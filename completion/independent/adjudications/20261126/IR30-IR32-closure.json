@@ -1,0 +1,32 @@
+{
+  "main_commit": "1a38c56c26aaa0ca231807bd6cd9feffbf96677b",
+  "html_sha256": "1bdbe4f7c02384807465edb8141e3602ff4b4481dab884c0732bebe2a8e35195",
+  "browser_runs": [
+    45639972553,
+    45671136731,
+    45700803202
+  ],
+  "exact_current_fields": [
+    {
+      "package_id": "IR-20261125-30",
+      "case_id": "l-c12-20261125-35",
+      "fields_sha256": "bb5bfd086e43bcb068ace28a94c2d86faf07523eeae91499dcf51f1eb71baaa0",
+      "questions": 3,
+      "review_sha256": "e03fad6dfe378e3f46a325849350f8b7d07c4f5088aaa6bf71bb96de9bc65495"
+    },
+    {
+      "package_id": "IR-20261126-31",
+      "case_id": "l-c12-20261126-36",
+      "fields_sha256": "b9ea36f7f4122def5ef6cb98e3fcc4de6ba1cd409016faeb4845ebc5a484ae58",
+      "questions": 3,
+      "review_sha256": "14a55481a1a90670c7c18851472e7cf8438b178ec04ac9bc87c132368b79a69d"
+    },
+    {
+      "package_id": "IR-20261126-32",
+      "case_id": "l-c12-20261126-37",
+      "fields_sha256": "fe2291562226e4e8bf216bcccc9661d0f2f4ed4bb9e3fd58eb6a1fe243e1171a",
+      "questions": 3,
+      "review_sha256": "13e5ae3adebe2e2630b8d73cc7f7fb5f8dbb4c34035f058a896fcb6acd85bf7b"
+    }
+  ]
+}

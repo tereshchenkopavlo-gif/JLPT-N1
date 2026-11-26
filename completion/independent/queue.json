@@ -1212,7 +1212,7 @@
       "source_commits": [
         "981a092ef01920756610dcea10fae84f6d410bd6"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -1235,9 +1235,17 @@
           "status": "review_received",
           "date": "2026-11-26",
           "review": "reviews/IR-20261125-30-ChatGPT-20261126.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-26",
+          "evidence": "adjudications/20261126/IR30-IR32-closure.json"
         }
       ],
-      "notes": "C12 batch 23. One original long reading and three questions."
+      "notes": "C12 batch 23. One original long reading and three questions. Full independent pass, exact match against v229-C12aa.",
+      "closed_case_ids": [
+        "l-c12-20261125-35"
+      ]
     },
     {
       "package_id": "IR-20261126-31",
@@ -1247,7 +1255,7 @@
       "source_commits": [
         "e07ee8c35cdadb51c1be0e9661775e1a2ac41f7e"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -1270,9 +1278,17 @@
           "status": "review_received",
           "date": "2026-11-26",
           "review": "reviews/IR-20261126-31-ChatGPT-20261126.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-26",
+          "evidence": "adjudications/20261126/IR30-IR32-closure.json"
         }
       ],
-      "notes": "C12 batch 24. One original long reading and three questions."
+      "notes": "C12 batch 24. One original long reading and three questions. Full independent pass, exact match against v229-C12aa.",
+      "closed_case_ids": [
+        "l-c12-20261126-36"
+      ]
     },
     {
       "package_id": "IR-20261126-32",
@@ -1282,7 +1298,7 @@
       "source_commits": [
         "dccc5e2630328f383910f4cbb6290eea428d372f"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -1305,9 +1321,42 @@
           "status": "review_received",
           "date": "2026-11-26",
           "review": "reviews/IR-20261126-32-ChatGPT-20261126.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-26",
+          "evidence": "adjudications/20261126/IR30-IR32-closure.json"
         }
       ],
-      "notes": "C12 batch 25. One original long reading and three questions."
+      "notes": "C12 batch 25. One original long reading and three questions. Full independent pass, exact match against v229-C12aa.",
+      "closed_case_ids": [
+        "l-c12-20261126-37"
+      ]
+    },
+    {
+      "package_id": "IR-20261126-33",
+      "path": "packages/IR-20261126-33.json",
+      "package_sha256": "693a73096edf4e113568a0f157c04d5ca9e2da4be941e9e6e20b4f63c378c597",
+      "sources_sha256": "fe1ca9871519faabfa380b20dfcf1497abc127e749d9811e4c7982561be76adb",
+      "source_commits": [
+        "bd339d66543dbbb2ade4e4eb38b6506f11f79001"
+      ],
+      "status": "pending_review",
+      "predecessor": null,
+      "scope": {
+        "vocab_ids": [],
+        "meaning_contexts": 0,
+        "readings": 1,
+        "reading_questions": 3
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-26"
+        }
+      ],
+      "notes": "C12 batch 26. One original long reading and three questions."
     }
   ]
 }

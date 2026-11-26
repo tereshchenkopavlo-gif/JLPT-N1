@@ -1,6 +1,6 @@
 # Черга незалежного мовного аудиту JLPT N1
 
-Усі опубліковані пакети мають рецензії.
+Наступний пакет — **IR-20261126-33**. До першого висновку читайте лише його матеріали.
 
 | Пакет | Статус | Обсяг | Рецензії |
 |---|---|---|---|
@@ -33,9 +33,10 @@
 | [IR-20261125-27](packages/IR-20261125-27.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261125-27-ChatGPT-20261125.json) |
 | [IR-20261125-28](packages/IR-20261125-28.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261125-28-ChatGPT-20261125.json) |
 | [IR-20261125-29](packages/IR-20261125-29.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261125-29-ChatGPT-20261125.json) |
-| [IR-20261125-30](packages/IR-20261125-30.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261125-30-ChatGPT-20261126.json) |
-| [IR-20261126-31](packages/IR-20261126-31.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261126-31-ChatGPT-20261126.json) |
-| [IR-20261126-32](packages/IR-20261126-32.json) | review_received | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261126-32-ChatGPT-20261126.json) |
+| [IR-20261125-30](packages/IR-20261125-30.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261125-30-ChatGPT-20261126.json) |
+| [IR-20261126-31](packages/IR-20261126-31.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261126-31-ChatGPT-20261126.json) |
+| [IR-20261126-32](packages/IR-20261126-32.json) | closed | 0 карток, 1 текстів, 3 питань | [JSON](reviews/IR-20261126-32-ChatGPT-20261126.json) |
+| [IR-20261126-33](packages/IR-20261126-33.json) | pending_review | 0 карток, 1 текст, 3 питання | — |
 
 Незмінні пакети, SHA джерел, SHA-256 файлів, predecessors і історія станів — [queue.json](queue.json).
 
