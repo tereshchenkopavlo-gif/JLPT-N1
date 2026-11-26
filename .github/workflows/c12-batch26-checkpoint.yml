@@ -1,0 +1,48 @@
+name: C12 batch 26 browser
+on:
+  push:
+    branches: [work/c12-batch26-checkpoint]
+permissions:
+  contents: write
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: python3 completion/c12-batch26/build-candidate.py
+      - run: node completion/c12-batch26/browser.cjs
+      - run: |
+          f=JLPT_N1_ukrainian_reading_v229_C12ab.html
+          a=JLPT_N1_v229_C12ab_audit.md
+          candidate=completion/c12-batch26/JLPT_N1_C12_candidate_UNACCEPTED.html
+          echo "c76aeb70f628123e35766055c5bcbc3e9f542b1c39f578405f7df32879458707  $candidate" | sha256sum -c -
+          git fetch origin main
+          test "$(git rev-parse FETCH_HEAD)" = '1a38c56c26aaa0ca231807bd6cd9feffbf96677b'
+          dest="$RUNNER_TEMP/release"
+          git worktree add --detach "$dest" FETCH_HEAD
+          mkdir -p "$dest/completion/c12-batch26"
+          cp "$candidate" "$dest/$f"
+          cp completion/c12-batch26/{drafts.json,build-candidate.py,browser.cjs,record-release.py,checkpoint.md,browser-results.json,integration-results.json} "$dest/completion/c12-batch26/"
+          cd "$dest"
+          cat > "$a" <<'EOF'
+          # v229-C12ab · партія 26 — 26 листопада 2026
+
+          Додано 「見本ができるまで」, повний український переклад і три питання. Банк містить 120 середніх і 80 довгих текстів. Досягнуто кількісної цілі C12. Далі — завершення незалежного приймання та робота з відкритими словниковими картками. Основний реєстр — 5986 позицій, словниковий аудит — 3897/3914.
+
+          Авторський перегляд охопив зміст, переклад, ключі, альтернативи та буквальні опори. Збірка перевірила синтаксис JS, попередні тексти й побайтовий відкат. Chromium перевірив відображення, ключі й пояснення на 360, 412 і 1280 px.  Незалежне мовне приймання цієї партії та перевірка на фізичних пристроях відкриті.
+
+          SHA-256 HTML `c76aeb70f628123e35766055c5bcbc3e9f542b1c39f578405f7df32879458707`. Основа `1a38c56c26aaa0ca231807bd6cd9feffbf96677b`.
+          EOF
+          printf '\n[Журнал перевірок](https://github.com/%s/actions/runs/%s)\n' "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> "$a"
+          cp "$a" completion/c12-batch26/acceptance.md
+          python3 completion/c12-batch26/record-release.py
+          printf '\nПоточний випуск C12 — [повний HTML](./%s) і [звіт](./%s).\n' "$f" "$a" >> README.md
+          git add -- "$f" "$a" README.md PROJECT_STATUS.md completion/BACKLOG.md completion/review-register.csv completion/c12-batch26
+          git diff --cached --check -- . ":(exclude)$f"
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Release verified C12 batch 26'
+          git push origin HEAD:refs/heads/main
