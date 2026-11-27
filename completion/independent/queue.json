@@ -802,7 +802,7 @@
       "source_commits": [
         "942665bc1126de52728446aa8d6bae673f985cce"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [],
@@ -825,9 +825,18 @@
           "status": "review_received",
           "date": "2026-11-24",
           "review": "reviews/IR-20261123-20-ChatGPT-20261124.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-28",
+          "evidence": "adjudications/20261128/IR20-closure.json"
         }
       ],
-      "notes": "Two original C12 batch-14 medium readings and four questions from released v229-C12o."
+      "notes": "Two original C12 batch-14 medium readings and four questions from released v229-C12o. Exact release match after substituting solely the IR26-accepted explanation in the second case.",
+      "closed_case_ids": [
+        "m-c12-20261123-22",
+        "m-c12-20261123-23"
+      ]
     },
     {
       "package_id": "IR-20261123-21",

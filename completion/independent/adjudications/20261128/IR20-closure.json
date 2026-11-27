@@ -1,0 +1,32 @@
+{
+  "package_id": "IR-20261123-20",
+  "main_commit": "99f42f7fbe6386e943b112e31dda5aa6b51a8600",
+  "html_sha256": "06a7d463257c83816b28532a261d0be42728386655722c8c58a2231b28f174c7",
+  "review_validated": true,
+  "verified_fields": {
+    "m-c12-20261123-22": {
+      "id": "734c6b2e550e1e68ee7ec1a4115d42048f97c703579c8f91e91b714c5ba316a1",
+      "title": "4827149b6046c38990c495a18b43427230b572d34c8720a1c76e81805648f1c1",
+      "ja": "a4cad82c2e269ded7e3384916d7f2e24d815558a06b0becc6bf21e39d47d3536",
+      "uk": "d5e0984ab07422bace75d93dc814a45c6ec236b573b869589f51fb35b604f1e3",
+      "contextNotes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "questions": "a25d2812340f0fc367f3c81b24be067ddd2351f3935d5c6245af4e492913d8b6"
+    },
+    "m-c12-20261123-23": {
+      "id": "5a273fc7c0a051b33235a3ae1fb67e4f9d517547449bad0547e15aeec74572c4",
+      "title": "0caf479ab8dade5032c48e778ade736e52a591134a9f8f62e772541ab72798ca",
+      "ja": "361ff1c57622cdb4d44731d4e9307e26e6baac4484d45f6aa93c04e823656016",
+      "uk": "e2dca196c95da8b736152e8f5954eaae2be5cb0bd0ebcda0743e46b3468ef2a2",
+      "contextNotes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "questions": "33641eb5fa2d5ef5361a9b6928812c79c2aaa5419d61a9668642c62ff56ad85a"
+    }
+  },
+  "exception": {
+    "case_id": "m-c12-20261123-23",
+    "field": "questions[0].explain",
+    "accepted_by": "IR-20261125-26",
+    "evidence": "adjudications/20261125/IR26-closure.json"
+  },
+  "c11_browser_run": "https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/46046474724",
+  "data_run": "https://github.com/tereshchenkopavlo-gif/JLPT-N1/actions/runs/46046474810"
+}
