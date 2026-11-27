@@ -1,0 +1,22 @@
+{
+  "main_commit": "cdcfca6d192ea84b1eca970b244db272fcf25983",
+  "html_sha256": "6fe18a574b0fa9a4f11c20bd6cacefb3142c6c9c28907cc8a159dc62c500bf41",
+  "browser_runs": [
+    45949678976
+  ],
+  "case_id": "v_1510",
+  "review_scope": [
+    "details.t"
+  ],
+  "unchecked_fields": [
+    "vocabulary",
+    "details.w",
+    "details.m",
+    "details.s",
+    "details.examples",
+    "details.usage",
+    "details.exampleTranslations"
+  ],
+  "reviewed_value_sha256": "6687c32f3e2ab2451ea9580e70ece7338688f0a0728a929ed9baa55398aed987",
+  "review_sha256": "0fee0cc9134269fddcae4cf259167f039cc96d387488b82a3b377b80eef91665"
+}

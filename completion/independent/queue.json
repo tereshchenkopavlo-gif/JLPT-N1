@@ -1432,7 +1432,7 @@
         "8d7b00ac8b8edbb9b2fc90efdf3bdb85f3997743",
         "fbf4232fa86e47c53aa651dcf57e452d60f2ce94"
       ],
-      "status": "pending_review",
+      "status": "closed",
       "predecessor": null,
       "scope": {
         "vocab_ids": [
@@ -1442,14 +1442,32 @@
         "readings": 0,
         "reading_questions": 0
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "path": "reviews/IR-20261127-35-ChatGPT-20261127.json",
+          "sha256": "0fee0cc9134269fddcae4cf259167f039cc96d387488b82a3b377b80eef91665"
+        }
+      ],
       "history": [
         {
           "status": "pending_review",
           "date": "2026-11-27"
+        },
+        {
+          "status": "review_received",
+          "date": "2026-11-27",
+          "review": "reviews/IR-20261127-35-ChatGPT-20261127.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-27",
+          "evidence": "adjudications/20261127/IR35-closure.json"
         }
       ],
-      "notes": "ID1510 isolated Ukrainian gloss; scope details.t only."
+      "notes": "ID1510 isolated Ukrainian gloss; scope details.t only. Published exact match for details.t. Full card pending.",
+      "closed_case_ids": [
+        "v_1510"
+      ]
     }
   ]
 }
