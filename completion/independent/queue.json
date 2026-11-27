@@ -563,7 +563,7 @@
         "08d6f11d426aac61760879f69654a4b5207f9db1",
         "42d6c98ae26082d45c4110548e9e037a80b928b3"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": "IR-20261122-10",
       "scope": {
         "vocab_ids": [],
@@ -586,9 +586,17 @@
           "status": "review_received",
           "date": "2026-11-24",
           "review": "reviews/IR-20261122-14-ChatGPT-20261124.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-27",
+          "evidence": "adjudications/20261127/IR14-closure.json"
         }
       ],
-      "notes": "Scoped question recheck with full passage context."
+      "notes": "Scoped question recheck with full passage context. Published exact match for questions[1]; closure applies only to this question.",
+      "closed_case_ids": [
+        "l-c12-20261121-13"
+      ]
     },
     {
       "package_id": "IR-20261122-15",

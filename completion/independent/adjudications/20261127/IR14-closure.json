@@ -1,0 +1,14 @@
+{
+  "package_id": "IR-20261122-14",
+  "case_id": "l-c12-20261121-13",
+  "review": "reviews/IR-20261122-14-ChatGPT-20261124.json",
+  "review_sha256": "34b9228ba5b254c8e697e3b6361f8f90a34c62e40e34c943ca07662bbd73e4f9",
+  "main_commit": "99f42f7fbe6386e943b112e31dda5aa6b51a8600",
+  "html_sha256": "06a7d463257c83816b28532a261d0be42728386655722c8c58a2231b28f174c7",
+  "checked_fields": [
+    "questions[1]"
+  ],
+  "exact": true,
+  "reviewed_value_sha256": "cd7f09414f90c996e44f0018b1e99bf52fc228058ece017be0b04387d50f1a5e",
+  "browser_evidence": "adjudications/20261127/ir14-release-candidate/browser-results.json"
+}

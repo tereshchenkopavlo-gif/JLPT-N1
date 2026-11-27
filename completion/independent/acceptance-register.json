@@ -4267,5 +4267,17 @@
     ],
     "evidence": "completion/independent/reviews/IR-20261127-35-ChatGPT-20261127.json",
     "adjudication": "adjudications/20261127/IR35-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-14",
+    "case_id": "l-c12-20261121-13",
+    "reviewed_field": "questions[1]",
+    "reviewer_verdict": "pass",
+    "source_sha256": "3a65e319864a9e09470d0c76ce7147a883057aaf755b5d97ad4de7129ab3843b",
+    "reviewed_value_sha256": "cd7f09414f90c996e44f0018b1e99bf52fc228058ece017be0b04387d50f1a5e",
+    "status": "independent_reviewed_original",
+    "exclusions": [],
+    "evidence": "completion/independent/reviews/IR-20261122-14-ChatGPT-20261124.json",
+    "adjudication": "adjudications/20261127/IR14-closure.json"
   }
 ]
