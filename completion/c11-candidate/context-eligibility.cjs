@@ -11,11 +11,11 @@ assert.ok(decisions.every(row => row.decision === "reject_cloze" && row.allowClo
     const browser = await chromium.launch();
     try {
         const results = [];
-        for (const name of ["current", "merged"]) {
+        for (const name of ["current", "merged", "fixture"]) {
             const page = await browser.newPage();
             const errors = [];
             page.on("pageerror", error => errors.push(error.message));
-            const html = fs.readFileSync(name + ".html", "utf8");
+            const html = fs.readFileSync((name === "fixture" ? "merged" : name) + ".html", "utf8");
             const marker = "const type = types.length ? types[Math.floor(Math.random() * types.length)] : null;";
             assert.equal(html.split(marker).length, 2);
             await page.route("https://jlpt.test/", route => route.fulfill({
@@ -24,7 +24,14 @@ assert.ok(decisions.every(row => row.decision === "reject_cloze" && row.allowClo
             }));
             await page.goto("https://jlpt.test/");
             await page.waitForFunction(() => ACTIVE_VOCAB.length === 3914);
-            results.push(await page.evaluate(rows => rows.map(({id, example}) => {
+            results.push(await page.evaluate(({rows, fixture}) => {
+                if (fixture) {
+                    const exact = rows.find(row => row.id === 3375).example;
+                    REVIEWED_CLOZE_QUIZZES.v_3375 = {
+                        byExample: {[exact]: {allowCloze: true, wrong: ["fixture A", "fixture B", "fixture C"]}}
+                    };
+                }
+                return rows.map(({id, example}) => {
                 const word = DEFAULT_VOCAB.find(v => v.id === id);
                 const item = {kind: "v", id: String(id), word};
                 const definition = SmartEngine.getDefinition(word.w, item.kind, item.id);
@@ -48,11 +55,23 @@ assert.ok(decisions.every(row => row.decision === "reject_cloze" && row.allowClo
                 if (globalThis.c11Observed.length !== 1 || observed.ex !== example)
                     throw new Error("Did not exercise the exact context: " + id);
                 return {id, example, types: observed.types};
-            }), decisions));
+            });
+            }, {rows: decisions, fixture: name === "fixture"}));
             assert.deepEqual(errors, []);
             await page.close();
         }
-        const [baseline, candidate] = results;
+        const [baseline, candidate, fixture] = results;
+        const selected = decisions.findIndex(row => row.id === 3375);
+        for (const [i, row] of fixture.entries()) {
+            const expected = candidate[i].types.slice();
+            if (i === selected) {
+                expected.push("cloze");
+                assert.ok(row.types.includes("meaning"));
+                assert.ok(row.types.includes("reading"));
+            }
+            assert.deepEqual(row.types.slice().sort(), expected.sort());
+        }
+        console.log(JSON.stringify({fixtureContexts: fixture.length, onlyExactContextActivated: true}));
         const losses = baseline.filter((row, i) => row.types.includes("cloze") && !candidate[i].types.includes("cloze"));
         assert.ok(candidate.every(row => !row.types.includes("cloze") && row.types.includes("meaning")));
         for (let i = 0; i < baseline.length; i++) {
