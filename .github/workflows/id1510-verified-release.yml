@@ -1,0 +1,55 @@
+name: ID1510 verified release
+on:
+  push:
+    branches: [work/id1510-verified-release]
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          curl -fsSL https://raw.githubusercontent.com/tereshchenkopavlo-gif/JLPT-N1/fbf4232fa86e47c53aa651dcf57e452d60f2ce94/JLPT_N1_ukrainian_reading_v229_C12ab.html -o baseline.html
+          python3 completion/c11-candidate/build-id1510.py baseline.html id1510.html
+          echo '6fe18a574b0fa9a4f11c20bd6cacefb3142c6c9c28907cc8a159dc62c500bf41  id1510.html' | sha256sum -c -
+          npm install --no-save --package-lock=false playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - run: node completion/c11-candidate/id1510-browser.cjs
+      - run: |
+          base=https://raw.githubusercontent.com/tereshchenkopavlo-gif/JLPT-N1/7120c7c685a39fdf320fdf659da05d012de4b581/completion
+          curl -fsSL "$base/import-independent-review.py" -o validator.py
+          curl -fsSL "$base/independent/packages/IR-20261127-35.json" -o package.json
+          curl -fsSL "$base/independent/reviews/IR-20261127-35-ChatGPT-20261127.json" -o review.json
+          echo '87dfb114991eb1df72d94bebc66e809d8f540d3fb19e529c41db7ebfb81832dc  package.json' | sha256sum -c -
+          python3 validator.py package.json review.json --validate-only
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          package=json.loads(Path("package.json").read_text())
+          review=json.loads(Path("review.json").read_text())
+          case,=review["cases"]
+          assert case["case_id"]=="v_1510" and case["checked_fields"]==["details.t"] and case["verdict"]=="pass"
+          s=Path("id1510.html").read_text()
+          details,_=json.JSONDecoder().raw_decode(s,re.search(r"const VOCAB_DETAILS_BY_ID\s*=\s*",s).end())
+          assert details["1510"]["t"]==package["cases"][0]["fields"]["details"]["t"]
+          PY
+          git fetch origin main
+          test "$(git rev-parse FETCH_HEAD)" = 'fbf4232fa86e47c53aa651dcf57e452d60f2ce94'
+          dest="$RUNNER_TEMP/release"
+          git worktree add --detach "$dest" FETCH_HEAD
+          cp id1510.html "$dest/JLPT_N1_ukrainian_reading_v229_C12ab_ID1510.html"
+          cp JLPT_N1_v229_C12ab_ID1510_audit.md PROJECT_STATUS.md README.md "$dest/"
+          cp completion/BACKLOG.md "$dest/completion/"
+          mkdir -p "$dest/completion/id1510-release"
+          cp package.json review.json "$dest/completion/id1510-release/"
+          cp completion/c11-candidate/{build-id1510.py,id1510-browser.cjs} "$dest/completion/id1510-release/"
+          cd "$dest"
+          printf '\n[Журнал перевірок](https://github.com/%s/actions/runs/%s)\n' "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> JLPT_N1_v229_C12ab_ID1510_audit.md
+          git add -- JLPT_N1_ukrainian_reading_v229_C12ab_ID1510.html JLPT_N1_v229_C12ab_ID1510_audit.md PROJECT_STATUS.md README.md completion/BACKLOG.md completion/id1510-release
+          git diff --cached --check -- . ':(exclude)JLPT_N1_ukrainian_reading_v229_C12ab_ID1510.html'
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Release independently accepted ID1510 translation'
+          git push origin HEAD:refs/heads/main

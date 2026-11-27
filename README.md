@@ -1,6 +1,6 @@
 # JLPT N1 — тренажер з японським інтерфейсом
 
-**Актуальна опублікована редакція: v229-C12s.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
+**Актуальна опублікована редакція: v229-C12ab з уточненим перекладом ID1510.** Це проміжний випуск; аудит і приймання JLPT N1 1.0 тривають.
 
 - [Повний автономний HTML v229-C12s](JLPT_N1_ukrainian_reading_v229_C12s.html)
 - [Аудит v229-C12s](JLPT_N1_v229_C12s_audit.md)
@@ -123,3 +123,5 @@ HTML v215: 6950166 байтів; SHA-256 f537227849b1dd5ac31577b641e05db4d3ab5af
 Поточний випуск C12 — [повний HTML](./JLPT_N1_ukrainian_reading_v229_C12aa.html) і [звіт](./JLPT_N1_v229_C12aa_audit.md).
 
 Поточний випуск C12 — [повний HTML](./JLPT_N1_ukrainian_reading_v229_C12ab.html) і [звіт](./JLPT_N1_v229_C12ab_audit.md).
+
+[Повний HTML](./JLPT_N1_ukrainian_reading_v229_C12ab_ID1510.html) · [Аудит ID1510](./JLPT_N1_v229_C12ab_ID1510_audit.md)
