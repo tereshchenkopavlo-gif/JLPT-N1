@@ -4233,5 +4233,19 @@
     "exclusions": [],
     "evidence": "completion/independent/reviews/IR-20261126-33-ChatGPT-20261126.json",
     "adjudication": "adjudications/20261126/IR33-closure.json"
+  },
+  {
+    "package_id": "IR-20261122-18",
+    "case_id": "l-c12-20261122-21",
+    "reviewed_field": "uk",
+    "reviewer_verdict": "pass",
+    "source_sha256": "a714d49f83545afbc79f414cc0fd6950f6ec1538a4650a95669089771e895703",
+    "reviewed_value_sha256": "db48960a1448b50f880277ad3078b59ee0a7d5c5807c76f463f86772d41f8139",
+    "status": "independent_reviewed_revision",
+    "exclusions": [
+      "ja"
+    ],
+    "evidence": "completion/independent/reviews/IR-20261122-18-ChatGPT-20261124.json",
+    "adjudication": "adjudications/20261127/IR14-IR18-IR19-release-check.json"
   }
 ]

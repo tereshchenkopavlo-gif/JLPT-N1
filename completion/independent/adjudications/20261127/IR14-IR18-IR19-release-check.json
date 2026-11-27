@@ -1,0 +1,57 @@
+{
+  "main_commit": "fbf4232fa86e47c53aa651dcf57e452d60f2ce94",
+  "html_sha256": "c76aeb70f628123e35766055c5bcbc3e9f542b1c39f578405f7df32879458707",
+  "checks": {
+    "IR-20261122-14": {
+      "pkg": "c3287cb2ed02dd77f7ae2418d06fde379b489dd7b94ac6fe050c8f5902eaa744",
+      "review": "34b9228ba5b254c8e697e3b6361f8f90a34c62e40e34c943ca07662bbd73e4f9",
+      "case": "l-c12-20261121-13",
+      "present": true,
+      "checked": [
+        {
+          "field": "questions[1]",
+          "exact": false,
+          "sha": "cd7f09414f90c996e44f0018b1e99bf52fc228058ece017be0b04387d50f1a5e"
+        }
+      ]
+    },
+    "IR-20261122-18": {
+      "pkg": "1fb410081b7837d825f1f8ef9fa2be0d702eeb0394ead0f369525bd2c5da82f9",
+      "review": "75ac2273f823a3d327660380de91ebfd03ce87a411002a7ac1632f0314c06e83",
+      "case": "l-c12-20261122-21",
+      "present": true,
+      "checked": [
+        {
+          "field": "uk",
+          "exact": true,
+          "sha": "db48960a1448b50f880277ad3078b59ee0a7d5c5807c76f463f86772d41f8139"
+        }
+      ]
+    },
+    "IR-20261123-19": {
+      "pkg": "f5a2202470e7c0b8dc4fa483116d14279c203f1c003995ebef3c207c81edd341",
+      "review": "093381fee4c3aaa308ba0236bf74431acc6871e2b6cc2148a35f2f31d68207d6",
+      "case": "m-c12-20261122-20",
+      "present": false,
+      "checked": [
+        {
+          "field": "uk",
+          "exact": false,
+          "sha": "3cc774bff05d074d4d2b97737318af45f26088b610b2a332903a3ade7afa7c05"
+        }
+      ]
+    }
+  },
+  "decisions": {
+    "IR-20261122-14": "Open: questions[1].choices and questions[1].explain differ in main.",
+    "IR-20261122-18": "Closed for uk only.",
+    "IR-20261123-19": "Open: exact case ID absent in the published reading bank."
+  },
+  "duplicate_title": {
+    "title": "直す前に残すもの",
+    "ids": [
+      "l-c12-20261121-13",
+      "l-c12-20261125-34"
+    ]
+  }
+}

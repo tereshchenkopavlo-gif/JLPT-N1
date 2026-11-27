@@ -716,7 +716,7 @@
       "source_commits": [
         "5a345292e9d3eb544e890a6ba69c68541f5ea497"
       ],
-      "status": "review_received",
+      "status": "closed",
       "predecessor": "IR-20261122-17",
       "scope": {
         "vocab_ids": [],
@@ -739,9 +739,17 @@
           "status": "review_received",
           "date": "2026-11-24",
           "review": "reviews/IR-20261122-18-ChatGPT-20261124.json"
+        },
+        {
+          "status": "closed",
+          "date": "2026-11-27",
+          "evidence": "adjudications/20261127/IR14-IR18-IR19-release-check.json"
         }
       ],
-      "notes": "Recheck the corrected Ukrainian translation; Japanese source supplied for context."
+      "notes": "Recheck the corrected Ukrainian translation; Japanese source supplied for context. Closed only for the reviewed Ukrainian text field, which matches published C12ab.",
+      "closed_case_ids": [
+        "l-c12-20261122-21"
+      ]
     },
     {
       "package_id": "IR-20261123-19",
