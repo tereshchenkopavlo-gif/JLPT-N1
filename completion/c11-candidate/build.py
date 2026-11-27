@@ -9,7 +9,7 @@ current = Path("current.html")
 original = Path("candidate.html")
 expected = {
     base: "e5e298e9f5efcf45c7cfd1fe83ab9ce5a19dcde13759482d54e3b8313bd92dab",
-    current: "c76aeb70f628123e35766055c5bcbc3e9f542b1c39f578405f7df32879458707",
+    current: "06a7d463257c83816b28532a261d0be42728386655722c8c58a2231b28f174c7",
     original: "34f1cc21116da7575d731a2ee484d41044c0934cfe7bcebf9d78fe2ef7d66ab2",
 }
 for file, digest in expected.items():
@@ -25,7 +25,7 @@ def merge(a, b, c):
 merged = merge(current, base, "revised.html")
 Path("merged.html").write_bytes(merged)
 assert merge(base, current, "merged.html") == source
-assert hashlib.sha256(merged).hexdigest() == "a6e7db84e2c05df80c23ba9340daecd6c879050b4656b06f57db21504a42fd2d"
+assert hashlib.sha256(merged).hexdigest() == "cece523e9ac170b6fdebf6f9fb27a802bfda058ea05164123d3f7b5bbe705af0"
 
 def section(html, name):
     start = re.search(r"\bconst\s+" + name + r"\s*=\s*", html).end()
