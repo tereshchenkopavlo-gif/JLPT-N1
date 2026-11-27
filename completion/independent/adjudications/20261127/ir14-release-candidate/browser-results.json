@@ -1,0 +1,15 @@
+{
+  "candidate_sha256": "06a7d463257c83816b28532a261d0be42728386655722c8c58a2231b28f174c7",
+  "chromium": "143 (@sparticuz/chromium 143.0.4)",
+  "pass": true,
+  "widths": [
+    360,
+    412,
+    1280
+  ],
+  "vocab": 3914,
+  "grammar": 130,
+  "restoredProgress": true,
+  "questions": 3,
+  "pageErrors": []
+}

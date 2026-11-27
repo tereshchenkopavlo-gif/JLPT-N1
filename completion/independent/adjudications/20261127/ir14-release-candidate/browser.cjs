@@ -24,16 +24,18 @@ const fs = require("node:fs");
       DEFAULT_VOCAB.length, Object.keys(GRAMMAR_DETAILS_BY_ID).length
     ]), [3914, 130]);
     const [caseData] = JSON.parse(fs.readFileSync(process.argv[4], "utf8")).cases;
+    const bank = JSON.parse(html.match(/const readingBank = (.+);/)[1]);
+    const index = bank.long.findIndex(row => row.id === caseData.case_id);
+    assert.ok(index >= 0);
+    const position = (index + 0.5) / bank.long.length;
     const widths = [360, 412, 1280];
     for (const width of widths) {
       await page.setViewportSize({width, height: 900});
-      const generated = await page.evaluate(id => {
-        const index = readingBank.long.findIndex(row => row.id === id);
-        if (index < 0) throw new Error("Missing reading");
+      const generated = await page.evaluate(position => {
         const random = Math.random;
         let passages;
         try {
-          Math.random = () => (index + 0.5) / readingBank.long.length;
+          Math.random = () => position;
           passages = SmartEngine.generateOfflinePassage([]);
         } finally {
           Math.random = random;
@@ -44,7 +46,7 @@ const fs = require("node:fs");
         document.getElementById("sessBody").style.display = "";
         renderPassage();
         return passage;
-      }, caseData.case_id);
+      }, position);
       assert.equal(generated.title, caseData.fields.title);
       assert.equal(generated.plainText, caseData.fields.ja);
       assert.equal(await page.locator(".qchoice").count(), 12);
