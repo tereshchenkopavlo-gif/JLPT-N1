@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "changed": "ID1510 second example cloze only",
+  "unchangedControlScenarios": 18,
+  "vocabulary": 3914,
+  "grammar": 130,
+  "browserErrors": []
+}
