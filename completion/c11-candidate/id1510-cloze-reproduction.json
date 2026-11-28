@@ -1,0 +1,19 @@
+{
+  "commit": "99f42f7fbe6386e943b112e31dda5aa6b51a8600",
+  "html_sha256": "06a7d463257c83816b28532a261d0be42728386655722c8c58a2231b28f174c7",
+  "chromium": 143,
+  "text": "<div class=\"psent\">古い体質の組織と<span class=\"blank\">　　　</span>するわけにはいかないと、彼は転職を決意した。</div>",
+  "question": {
+    "prompt": "空欄に入る語として最も適切なものはどれか。",
+    "choices": [
+      "心中",
+      "協力",
+      "依存",
+      "意向"
+    ],
+    "answer": 0,
+    "explain": "正解：心中　愛し合う者などが、一緒に死ぬこと。また、行動をともにして共倒れになること。"
+  },
+  "poolSize": 2269,
+  "errors": []
+}
