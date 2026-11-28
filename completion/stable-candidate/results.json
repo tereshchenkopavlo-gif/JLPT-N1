@@ -1,0 +1,20 @@
+{
+  "registered": 3914,
+  "grammar": 130,
+  "eligible": 3897,
+  "excluded": 17,
+  "leakingTargets": 0,
+  "short": 0,
+  "due": "1",
+  "mastered": "0",
+  "target": "3,897",
+  "accessible": true,
+  "widths": [
+    360,
+    412,
+    1280
+  ],
+  "excludedPoolProbe": true,
+  "savedProgressUnchanged": true,
+  "browserErrors": []
+}
