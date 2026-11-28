@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261128-36",
+  "sources_sha256": "ea3e3d4608265d55ac297ab7da6a48a925585024fa71d4eba323ae634ee79df0",
+  "reviewer": {
+    "system": "ChatGPT",
+    "session": "independent-20261128-IR36",
+    "reviewed_at": "2026-11-28",
+    "participated_in_authoring": false
+  },
+  "cases": [
+    {
+      "case_id": "v_1510",
+      "checked_fields": [
+        "vocabulary",
+        "details.w",
+        "details.m",
+        "details.s",
+        "details.examples",
+        "details.usage",
+        "details.exampleTranslations"
+      ],
+      "unchecked_fields": [
+        "details.t"
+      ],
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
