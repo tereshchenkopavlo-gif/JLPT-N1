@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checkedVocabulary": 3897,
+  "deferred": 17,
+  "compared": [
+    "ordered meaning candidates",
+    "ordered cloze candidates",
+    "ordered reading candidates"
+  ],
+  "reference": "published engine with only deferred IDs removed from exercise inventory",
+  "pageErrors": []
+}
