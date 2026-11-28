@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "package_id": "IR-20261128-36",
+  "instructions": "Перевір читання しんじゅう, частину мови, японське визначення, пов’язані слова 共倒れ й 道連れ, примітку, природність обох прикладів та українські переклади прикладів. Оціни, чи розрізнено буквальне й переносне вживання та чи зрозуміла роль кожного пов’язаного слова. Поле details.t наведено як контекст, познач його unchecked. Згенеровані вправи не входять до пакета.",
+  "sources_sha256": "ea3e3d4608265d55ac297ab7da6a48a925585024fa71d4eba323ae634ee79df0",
+  "scope": {
+    "vocab_ids": [
+      1510
+    ],
+    "meaning_contexts": 0,
+    "readings": 0,
+    "reading_questions": 0
+  },
+  "cases": [
+    {
+      "case_id": "v_1510",
+      "kind": "vocab",
+      "sources": [
+        {
+          "commit": "99f42f7fbe6386e943b112e31dda5aa6b51a8600",
+          "path": "JLPT_N1_ukrainian_reading_v229_C12ab_IR14.html"
+        }
+      ],
+      "fields": {
+        "vocabulary": {
+          "id": 1510,
+          "c": "名詞(2文字)",
+          "p": 814,
+          "w": "心中",
+          "s": "する",
+          "r": "しんじゅう",
+          "g": 32,
+          "tags": [
+            "mind"
+          ]
+        },
+        "details": {
+          "w": "心中",
+          "m": "愛し合う者などが、一緒に死ぬこと。また、行動をともにして共倒れになること。",
+          "t": "спільне самогубство; спільна загибель; перен. разом зазнати краху",
+          "s": [
+            "共倒れ",
+            "道連れ"
+          ],
+          "examples": [
+            "経営の悪化した親会社と心中する形で、子会社も廃業に追い込まれた。",
+            "古い体質の組織と心中するわけにはいかないと、彼は転職を決意した。"
+          ],
+          "usage": "親会社と心中する: переносно розділити крах іншої сторони. Читання しんじゅう позначає також спільне самогубство; це важкий, емоційно навантажений образ. 心中（しんちゅう） — «у душі», інше читання й значення.",
+          "exampleTranslations": [
+            "Дочірня компанія була змушена закритися, фактично розділивши крах материнської компанії, справи якої погіршилися.",
+            "Вирішивши, що не може піти на дно разом із застарілою організацією, він змінив роботу."
+          ]
+        }
+      }
+    }
+  ],
+  "return_template": {
+    "schema_version": 1,
+    "package_id": "IR-20261128-36",
+    "sources_sha256": "ea3e3d4608265d55ac297ab7da6a48a925585024fa71d4eba323ae634ee79df0",
+    "reviewer": {
+      "system": "ChatGPT",
+      "session": "",
+      "reviewed_at": "",
+      "participated_in_authoring": false
+    },
+    "cases": [
+      {
+        "case_id": "v_1510",
+        "checked_fields": [],
+        "unchecked_fields": [
+          "vocabulary",
+          "details.w",
+          "details.m",
+          "details.t",
+          "details.s",
+          "details.examples",
+          "details.usage",
+          "details.exampleTranslations"
+        ],
+        "verdict": "not_reviewed",
+        "findings": []
+      }
+    ],
+    "finding_format": {
+      "field_path": "",
+      "severity": "minor|major|critical",
+      "confidence": "high|medium|low",
+      "claim": "",
+      "evidence": "",
+      "sources": [],
+      "proposed_change": ""
+    },
+    "allowed_verdicts": [
+      "pass",
+      "issues",
+      "uncertain",
+      "not_reviewed"
+    ]
+  },
+  "predecessors": [
+    "IR-20261127-35"
+  ],
+  "review_scope": {
+    "v_1510": [
+      "vocabulary",
+      "details.w",
+      "details.m",
+      "details.s",
+      "details.examples",
+      "details.usage",
+      "details.exampleTranslations"
+    ]
+  }
+}

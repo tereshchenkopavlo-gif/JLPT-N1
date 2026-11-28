@@ -1485,6 +1485,33 @@
       "closed_case_ids": [
         "v_1510"
       ]
+    },
+    {
+      "package_id": "IR-20261128-36",
+      "path": "packages/IR-20261128-36.json",
+      "package_sha256": "5711352a48953e1772cd186c8624de4348d1defcb6a1558b4cfcdf90b3254d7b",
+      "sources_sha256": "ea3e3d4608265d55ac297ab7da6a48a925585024fa71d4eba323ae634ee79df0",
+      "source_commits": [
+        "99f42f7fbe6386e943b112e31dda5aa6b51a8600"
+      ],
+      "status": "pending_review",
+      "predecessor": "IR-20261127-35",
+      "scope": {
+        "vocab_ids": [
+          1510
+        ],
+        "meaning_contexts": 0,
+        "readings": 0,
+        "reading_questions": 0
+      },
+      "reviews": [],
+      "history": [
+        {
+          "status": "pending_review",
+          "date": "2026-11-28"
+        }
+      ],
+      "notes": "Published ID1510 card fields other than details.t. IR35 remains authoritative for details.t; generated exercises are outside the packet."
     }
   ]
 }
