@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "backupVersion": 2,
+  "identicalAfterImportAndReload": true,
+  "invalidBackupPreservedProgress": true,
+  "originalTarget": 3914,
+  "displayedTarget": 3897,
+  "deferredProgressRetained": [
+    1510,
+    3363
+  ],
+  "comparisonKeys": [
+    "v_1510",
+    "g_1"
+  ],
+  "errors": []
+}
